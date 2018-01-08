@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE car-rental SYSTEM "car-rental.dtd">
+<car-rental>
+	<stadt stadtcode="B__" name="Bregenz" einwohner_anzahl="30000">
+		<vermiet-station id="vermiet-station-1" stations_name="Leutbühel" adresse="Leutbühel 1" mitarbeiter_anzahl="2"/>
+		<vermiet-station
+			id="vermiet-station-2"
+			stations_name="Vorkloster"
+			adresse="Rheinstarße 41"
+			mitarbeiter_anzahl="1"
+			geoeffnet_von="08:00:00"
+			geoeffnet_bis="19:00:00"/>
+	</stadt>
+
+	<stadt stadtcode="DO_" name="Dornbirn" einwohner_anzahl="45000"/>
+	<stadt stadtcode="HOH" name="Hohenems" einwohner_anzahl="15000"/>
+	<stadt stadtcode="FK_" name="Feldkirch" einwohner_anzahl="34000"/>
+	<stadt stadtcode="BZ_" name="Bludenz" einwohner_anzahl="14000"/>
+	
+	<autokategorie
+		kategorie_bezeichnung="Classic-Sport"
+		grundtarif="200.0"
+		km_preis="1.20"
+	/>
+	
+	<!-- For the purpose of demonstrating datetime literals,
+	     anfangsdatum is set to a datetime value. -->
+	<kunde
+		fuehrerschein_nummer = "A-07177792"
+		kunde_name="Dr. Gerhard Schwärzler"
+		anschrift="Rathausstraße 2, 6900 Bregenz">
+		<reservierung
+			vermiet-station-id="vermiet-station-2"
+			reservierungs_nr="B.253.265"
+			anfangsdatum="2017-12-24T12:00:00"
+			enddatum="2017-31-12"
+			kategorie_bezeichnung="Classic-Sport"
+		/>
+	</kunde>
+</car-rental>
