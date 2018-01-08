@@ -5,6 +5,17 @@
    <meta name="Author" content="Christina Lau, Gerhard Schwärzler">
    <meta name="GENERATOR" content="Mozilla/4.75 [en] (Windows NT 5.0; U) [Netscape]">
    <title>readme</title>
+   <style type="text/css">
+   	  td, p {
+   	  	font-family: Arial;
+   	  	font-size: 80%;
+   	  }
+   	  h3 {
+   	  	font-family: Arial;
+   	  	font-size: 120%;
+   	  	font-weight: normal;
+   	  }
+   </style>
 </head>
 <body bgcolor="#FFFFFF">
 
@@ -57,6 +68,10 @@ Additionally, example "CarRental" illustrates XSLT processing. - Dr. Gerhard Sch
 	         </FONT></FONT></FONT></FONT><BR>
 		</TD>
 	</TR>
+	<tr>
+		<td><a href="#addressbook">Addressbook</a></td>
+		<td>Shows how a DTD (addresses.dtd) is used to validate a XML document (addresses.xml). </td>
+	</tr>
 </table></center>
 
 <p>
@@ -150,6 +165,14 @@ document, GolfCountryClub.xml, using the XML Editor.
 <p>Similar to the Invoice example, you can choose a different content model for a particular element.  In the golf
 country club example, a Member can be restricted, regular or exclusive.
 <br>&nbsp;
+
+<hr WIDTH="100%">
+<h3 id="addressbook">Validating against a DTD - Addressbook Example</h3>
+<p>The DOCTYPE declaration in addresses.xml associates the DTD file "addresses.dtd" with this XML document.
+The XML-editor of eclipse will now assist you when editing the document. Furthermore, with context-menu "Validate" your
+XML document will be parsed and validated against the DTD. Validation errors are marked as usual. The error messages can
+be found under the "Problems" tab, or are displayed as tooltip over the red error-mark in the scrollbar on the right.  
+</p>
 
 <HR width="100%">
 <P></P>

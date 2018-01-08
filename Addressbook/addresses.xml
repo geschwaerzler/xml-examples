@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE addresses SYSTEM "addresses.dtd">
 <!-- Kommentar vor dem Root-Element -->
 <addresses>
 	<!-- Kommentar zwischen tags -->
@@ -25,7 +26,7 @@
 		<title>Prof.</title>
 		<lastname>Kadgien</lastname>
 		<firstname>Regine</firstname>
-		<address type="landline">
+		<address type="work">
 			<street>Hochschulstraße 1</street>
 			<zip>6850</zip>
 			<city>Dornbirn</city>
