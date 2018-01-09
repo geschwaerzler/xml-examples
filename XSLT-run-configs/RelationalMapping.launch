@@ -8,7 +8,7 @@
     <stringAttribute key="org.eclipse.wst.xsl.launching.ATTR_INPUT_FILE" value="${workspace_loc:/xml-examples/CarRental/car-rental.xml}"/>
     <booleanAttribute key="org.eclipse.wst.xsl.launching.ATTR_OPEN_FILE" value="true"/>
     <stringAttribute key="org.eclipse.wst.xsl.launching.ATTR_OUTPUT_FILENAME" value="car-rental-relational.xml"/>
-    <stringAttribute key="org.eclipse.wst.xsl.launching.ATTR_OUTPUT_FOLDER" value="${workspace_loc:/xml-examples}"/>
+    <stringAttribute key="org.eclipse.wst.xsl.launching.ATTR_OUTPUT_FOLDER" value="${workspace_loc:/xml-examples/CarRental}"/>
     <stringAttribute key="org.eclipse.wst.xsl.launching.ATTR_PIPELINE" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#10;&lt;Pipeline&gt;&#10;    &lt;OutputProperties/&gt;&#10;    &lt;Transform path=&quot;/xml-examples/CarRental/RelationalMapping.xsl&quot; pathType=&quot;resource&quot; uriResolver=&quot;&quot;&gt;&#10;        &lt;Parameters/&gt;&#10;    &lt;/Transform&gt;&#10;&lt;/Pipeline&gt;&#10;"/>
     <booleanAttribute key="org.eclipse.wst.xsl.launching.ATTR_USE_DEFAULT_OUTPUT_FILE" value="false"/>
 </launchConfiguration>
