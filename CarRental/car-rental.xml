@@ -83,7 +83,8 @@
 		farbe="weiß"
 		kennzeichen="DO-I3W"
 		km_stand="120"
-		vermiet-station-id="vermiet-station-4">
+		vermiet-station-id="vermiet-station-4"
+		image="http://i.auto-bild.de/ir_img/1/1/7/2/8/2/9/BMW-i3-1200x800-549bb86ddd4930d9.jpg">
 		<verfuegt_ueber extraausstattung-id="extraausstattung-9"/>
 	</auto>
 	<auto
@@ -91,7 +92,8 @@
 		farbe="rot"
 		kennzeichen="DO-I3R"
 		km_stand="250"
-		vermiet-station-id="vermiet-station-4">
+		vermiet-station-id="vermiet-station-4"
+		image="http://www.hybrid-autos.info/images/stories/BMW/BMW_i3_2017/Auto_rot_gross.jpg">
 		<verfuegt_ueber extraausstattung-id="extraausstattung-8"/>
 	</auto>
 	<auto
@@ -100,6 +102,7 @@
 		kennzeichen="DO-ZOE1"
 		km_stand="1200"
 		vermiet-station-id="vermiet-station-4"
+		image="https://www.ludego.com/wp-content/uploads/2016/12/ZOE-03.jpg"
 	/>
 	<auto
 		autotyp-id="autotyp-6"
@@ -107,6 +110,7 @@
 		kennzeichen="DO-ZOE2"
 		km_stand="2400"
 		vermiet-station-id="vermiet-station-4"
+		image="http://www.zoe-club-austria.at/main/wp-content/gallery/zoe/dynamic/Atacama-Rot.JPG-nggid041222-ngg0dyn-0x0x100-00f0w010c010r110f110r010t010.JPG"
 	/>
 
 	
