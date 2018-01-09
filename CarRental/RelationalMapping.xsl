@@ -5,12 +5,9 @@
 	
 		<car-rental-relational>
 			<xsl:apply-templates select="car-rental/stadt"/>
-			<xsl:apply-templates select="car-rental/stadt/vermiet-station"/>
-			
-			<sql-script>
-				<xsl:apply-templates select="car-rental/autokategorie"/>
-				<xsl:apply-templates select="car-rental/autokategorie/autotyp"/>
-			</sql-script>
+			<xsl:apply-templates select="car-rental/stadt/vermiet-station"/>			
+			<xsl:apply-templates select="car-rental/autokategorie"/>
+			<xsl:apply-templates select="car-rental/autokategorie/autotyp"/>
 		</car-rental-relational>
 			
 	</xsl:template>
@@ -28,32 +25,11 @@
 	</xsl:template>
 	
 	<xsl:template match="autokategorie">
-	INSERT INTO Autokategorie(kategorie_bezeichnung, grundtarif, km_preis)
-	VALUES("<xsl:value-of select="@kategorie_bezeichnung"/>", <xsl:value-of select="@grundtarif"/>, <xsl:value-of select="@km_preis"/>);
+		<autokategorie KategorieBezeichnung="{@kategorie_bezeichnung}" GrundTarif="{@grundtarif}" km_preis="{@km_preis}"/>
 	</xsl:template>
 
 	<xsl:template match="autotyp">
-	INSERT INTO Autotyp(typ_bezeichnung, benzinverbrauch, kategorie_bezeichnung)
-	VALUES("<xsl:value-of select="@typ_bezeichnung"/>", <xsl:value-of select="@benzinverbrauch"/>, <xsl:value-of select="../@kategorie_bezeichnung"/>);
+		<autotyp TypBezeichnung="{@typ_bezeichnung}" BenzinVerbrauch="{@benzinverbrauch}" KategorieBezeichnung="{../@kategorie_bezeichnung}"/>
 	</xsl:template>
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
 </xsl:stylesheet>
