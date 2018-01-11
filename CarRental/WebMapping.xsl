@@ -2,6 +2,7 @@
 <xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
 	<xsl:output method="html"/>
+	<xsl:decimal-format name="austria" decimal-separator="," grouping-separator="."/>
 	
 	<xsl:template match="/">
 		<html>
@@ -70,8 +71,9 @@
 				<xsl:value-of select="@farbe"/>
 			</a>
 			<span class="em">
-				€ <xsl:value-of select="id(@autotyp-id)/../@grundtarif"/> + 
-				<xsl:value-of select="id(@autotyp-id)/../@km_preis"/>/km
+				<xsl:call-template name="miet-preis">
+					<xsl:with-param name="car" select="."/>
+				</xsl:call-template>
 			</span>			
 		</li>
 	</xsl:template>
@@ -83,8 +85,9 @@
 			<ul>
 				<li xml:space="preserve">
 					Mietpreis:
-					€ <xsl:value-of select="id(@autotyp-id)/../@grundtarif"/> + 
-					€ <xsl:value-of select="id(@autotyp-id)/../@km_preis"/>/km
+					<xsl:call-template name="miet-preis">
+						<xsl:with-param name="car" select="."/>
+					</xsl:call-template>
 				</li>
 				<li>Standort: <xsl:value-of select="id(@vermiet-station-id)/@stations_name"/></li>
 				<li>Kennzeichen: <xsl:value-of select="@kennzeichen"/></li>
@@ -94,6 +97,13 @@
 				</xsl:for-each>
 			</ul>
 		</div>
+	</xsl:template>
+	
+	<xsl:template name="miet-preis">
+		<xsl:param name="car"/>
+		
+		<xsl:value-of select="format-number(id($car/@autotyp-id)/../@grundtarif, '€ #.##0,00', 'austria')"/> + 
+		<xsl:value-of select="format-number(id($car/@autotyp-id)/../@km_preis, '€ #.##0,00/km', 'austria')"/>
 	</xsl:template>
 	
 </xsl:stylesheet>
