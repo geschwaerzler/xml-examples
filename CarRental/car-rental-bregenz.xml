@@ -6,7 +6,7 @@
 		<vermiet-station
 			id="vermiet-station-2"
 			stations_name="Vorkloster"
-			adresse="Rheinstarße 41"
+			adresse="Rheinstraße 41"
 			mitarbeiter_anzahl="1"
 			geoeffnet_von="08:00:00"
 			geoeffnet_bis="19:00:00"/>
