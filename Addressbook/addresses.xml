@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Kommentar vor dem Root-Element -->
+<addresses>
+	<!-- Kommentar zwischen tags -->
+	<person>
+		<title>Dr.</title>
+		<firstname>Gerhard</firstname>
+		<lastname>Schwärzler</lastname>
+		<address type="home">
+			<street>Rathausplatz 25</street>
+			<zip>6900</zip>
+			<city>Bregenz</city>
+		</address>
+		<address type="work">
+			<street>Achstraße 1</street>
+			<zip>6850</zip>
+			<city>Dornbirn</city>
+		</address>
+		<phone type="landline">05574 43792</phone>
+		<phone type="mobile">0676 500 00 00</phone>
+		<e-mail>gerhard@fachhochschule.at</e-mail>
+	</person>
+	
+	<person>
+		<title>Prof.</title>
+		<lastname>Kadgien</lastname>
+		<firstname>Regine</firstname>
+		<address type="landline">
+			<street>Hochschulstraße 1</street>
+			<zip>6850</zip>
+			<city>Dornbirn</city>
+		</address>
+		<e-mail>regina.boller@fachhochschule.at</e-mail>
+	</person>
+		
+</addresses>
