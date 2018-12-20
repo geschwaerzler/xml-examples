@@ -12,7 +12,7 @@
 			<zip>6900</zip>
 			<city>Bregenz</city>
 		</address>
-		<address type="work">
+		<address type="work" company-id="">
 			<street>Achstraße 1</street>
 			<zip>6850</zip>
 			<city>Dornbirn</city>
@@ -21,6 +21,15 @@
 		<phone type="mobile">0676 500 00 00</phone>
 		<e-mail>gerhard@fachhochschule.at</e-mail>
 	</person>
+	
+	<company id="company-1">
+		<name>nu Datenautomaten GmbH</name>
+		<address type="office">
+			<street>Rathausstraße 2</street>
+			<zip>6900</zip>
+			<city>Bregenz</city>
+		</address>
+	</company>
 	
 	<person>
 		<title>Prof.</title>

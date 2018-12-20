@@ -12,7 +12,10 @@
 			geoeffnet_bis="19:00:00"/>
 	</stadt>
 
-	<stadt stadtcode="DO_" name="Dornbirn" einwohner_anzahl="45000"/>
+	<stadt stadtcode="DO_" name="Dornbirn" einwohner_anzahl="45000">
+		<vermiet-station mitarbeiter_anzahl="3" adresse="Bahnstraße 1" stations_name="Dornbirn Bhf" id="vermiet-station-3"/>
+		<vermiet-station mitarbeiter_anzahl="4" adresse="Achstraße 1" stations_name="Dornbirn FH" id="vermiet-station-4"/>		
+	</stadt>
 	<stadt stadtcode="HOH" name="Hohenems" einwohner_anzahl="15000"/>
 	<stadt stadtcode="FK_" name="Feldkirch" einwohner_anzahl="34000"/>
 	<stadt stadtcode="BZ_" name="Bludenz" einwohner_anzahl="14000"/>
@@ -34,13 +37,21 @@
 		</autotyp>
 	</autokategorie>
 	<autokategorie kategorie_bezeichnung="E-Car" grundtarif="50.0" km_preis="0.40">
-		<autotyp id="autotyp-5" typ_bezeichnung="BMW i3" benzinverbrauch="0.0"/>
+		<autotyp id="autotyp-5" typ_bezeichnung="BMW i3" benzinverbrauch="0.0">
+			<extraausstattung aufpreis="10" extras_bezeichnung="Navi" id="extraausstattung-8"/>
+		</autotyp>
 		<autotyp id="autotyp-6" typ_bezeichnung="Renault ZOE" benzinverbrauch="0.0"/>
 	</autokategorie>
 	
 	<auto kennzeichen="B-911S" km_stand="215766" farbe="weiß" autotyp-id="autotyp-1" vermiet-station-id="vermiet-station-1">
 		<verfuegt_ueber extraausstattung-id="extraausstattung-1"/>
 	</auto>
+	<auto autotyp-id="autotyp-5" farbe="weis" kennzeichen="DO-I3-1" km_stand="250" vermiet-station-id="vermiet-station-4"/>
+	<auto autotyp-id="autotyp-5" farbe="rot" kennzeichen="DO-I3-2" km_stand="2500" vermiet-station-id="vermiet-station-4">
+		<verfuegt_ueber extraausstattung-id="extraausstattung-8"/>
+	</auto>
+	<auto autotyp-id="autotyp-6" farbe="weis" kennzeichen="DO-ZOE-1" km_stand="2500" vermiet-station-id="vermiet-station-4"/>
+	<auto autotyp-id="autotyp-6" farbe="rot" kennzeichen="DO-ZOE-2" km_stand="25000" vermiet-station-id="vermiet-station-4"/>
 	
 	<!-- For the purpose of demonstrating datetime literals,
 	     anfangsdatum is set to a datetime value. -->
