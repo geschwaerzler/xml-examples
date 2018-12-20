@@ -5,4 +5,22 @@
 <!ELEMENT street (#PCDATA)>
 <!ELEMENT zip (#PCDATA)>
 <!ELEMENT city (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT e-mail (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
 
+<!ELEMENT addresses (person | company)*>
+<!ELEMENT person
+  (title, ((firstname, lastname) | (lastname, firstname)),
+   address+, phone*, e-mail+)>
+<!ELEMENT address (street, zip, city)>
+<!ELEMENT company (name, address)>
+
+<!ATTLIST address
+  type CDATA #REQUIRED
+  company-id IDREF #IMPLIED
+>
+
+<!ATTLIST phone type CDATA #REQUIRED>
+
+<!ATTLIST company id ID #REQUIRED>

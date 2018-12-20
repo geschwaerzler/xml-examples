@@ -12,7 +12,7 @@
 			<zip>6900</zip>
 			<city>Bregenz</city>
 		</address>
-		<address type="work" company-id="">
+		<address type="work" company-id="company-2">
 			<street>Achstraße 1</street>
 			<zip>6850</zip>
 			<city>Dornbirn</city>
@@ -24,6 +24,14 @@
 	
 	<company id="company-1">
 		<name>nu Datenautomaten GmbH</name>
+		<address type="office">
+			<street>Rathausstraße 2</street>
+			<zip>6900</zip>
+			<city>Bregenz</city>
+		</address>
+	</company>
+	<company id="company-2">
+		<name>FH Vorarlberg</name>
 		<address type="office">
 			<street>Rathausstraße 2</street>
 			<zip>6900</zip>
