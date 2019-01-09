@@ -25,3 +25,18 @@
 <!-- Here comes your work.
   Please complete this DTD in order to validate the example XMF file recipes.xml
 -->
+<!ELEMENT author (#PCDATA)>
+<!ATTLIST author
+  id		ID #REQUIRED
+  title 	CDATA #REQUIRED
+>
+
+<!ELEMENT ingredient (ingredient*, preparation?)>
+<!ATTLIST ingredient
+  name		CDATA #REQUIRED
+  amount	CDATA #IMPLIED
+  unit		CDATA #IMPLIED
+>
+
+<!ELEMENT preparation (step)+>
+<!ELEMENT step (#PCDATA)>
