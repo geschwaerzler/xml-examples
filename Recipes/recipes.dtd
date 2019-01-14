@@ -41,9 +41,3 @@
 <!ELEMENT preparation (step+)>
 
 <!ELEMENT step (#PCDATA)>
-
-
-
-
-
-
