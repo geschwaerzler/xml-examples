@@ -1,0 +1,32 @@
+1) 
+//ingredient[@unit='cup' and @amount=1]
+
+2)
+//ingredient[contains(@name, 'butter')]/@unit
+
+3)
+//ingredient[./preparation]
+//ingredient[preparation]
+//ingredient[count(./preparation) > 0]
+
+4)
+
+5)
+/collection/recipe[.//ingredient[contains(@name, 'onion')]]
+
+6)
+sum(//recipe[
+  .//ingredient[contains(@name, 'milk')] and
+  .//ingredient[contains(@name, 'egg')]
+  ]//ingredient[contains(@name, 'egg')]/@amount
+)
+
+7)
+//recipe[count(.//step) > 5]
+//recipe[count(.//preparation/step) > 5]
+
+8)
+//recipe/preparation/step[position() = count(../step)]
+
+9)
+sum(//ingredient[contains(@name, 'egg')]/@amount)
