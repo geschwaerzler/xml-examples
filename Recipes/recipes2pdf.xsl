@@ -42,7 +42,7 @@
                     <xsl:value-of select="title"/>
                 </fo:block>
                 
-                <fo:block font-size="12pt" font-weight="bold" margin-top="12pt">Preparation</fo:block>
+                <fo:block font-size="12pt" font-weight="bold" margin-top="24pt" margin-bottom="12pt">Preparation</fo:block>
                 <fo:list-block>
                     <xsl:for-each select="preparation/step">
                         <fo:list-item>
