@@ -23,20 +23,50 @@
                     </xsl:for-each>
                     -->
                     <xsl:apply-templates select="recipe" mode="table-of-contents"/>
+                    
                 </ol>
                 
                 <xsl:apply-templates select="recipe" mode="detail"/>
+                
+                <h2>Index of Ingredients</h2>
+                <ul>
+                    <xsl:for-each-group select="//ingredient" group-by="lower-case(@name)">
+                        <xsl:sort select="current-grouping-key()"/>
+                        <li xml:space="preserve">
+                            <xsl:value-of select="@name"/>
+                            <xsl:value-of select="@unit"/>
+                            <i>used in recipes</i>:
+                            <ul>
+                                <xsl:for-each select="current-group()">
+                                    <li>
+                                        <xsl:value-of select="ancestor::recipe/title"/>
+                                    </li>
+                                </xsl:for-each>
+                            </ul>
+                        </li>
+                    </xsl:for-each-group>
+                    <!--
+                    <xsl:for-each select="//ingredient">
+                        <xsl:sort select="lower-case(@name)"/>
+                        <li><xsl:value-of select="@name"/></li>
+                    </xsl:for-each>
+                    -->
+                </ul>
                 
             </body>
         </html>
     </xsl:template>
     
     <xsl:template match="recipe" mode="table-of-contents">
-        <li><xsl:value-of select="title"/></li>
+        <li><a href="#{generate-id(.)}"><xsl:value-of select="title"/></a></li>
     </xsl:template>
     
     <xsl:template match="recipe" mode="detail">
-        <h2><xsl:value-of select="title"/></h2>
+        <h2 id="{generate-id(.)}"><xsl:value-of select="title"/></h2>
+        <xsl:if test="@author-id" xml:space="preserve">
+            <xsl:value-of select="id(@author-id)/@title"/>
+            <xsl:value-of select="id(@author-id)/text()"/>
+        </xsl:if>
         <h3>Nutrition</h3>
         <p>Calories: <xsl:value-of select="format-number(nutrition/@calories, '#.##0', 'austria')"/></p>
         <h3>Ingredients</h3>

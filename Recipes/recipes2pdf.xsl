@@ -42,9 +42,9 @@
             <!-- table of contents -->
             <fo:page-sequence master-reference="recipe-page">
                 <!-- place a page description into the page header -->
-                <fo:static-content flow-name="recipe-header">
-                    <fo:block font-size="7pt">Table of Contents</fo:block>
-                </fo:static-content>
+                <xsl:call-template name="header">
+                    <xsl:with-param name="right" select="'Table of Contents'"/>
+                </xsl:call-template>
                 
                 <!-- place the table of contents into region-body -->
                 <fo:flow flow-name="xsl-region-body" font-family="serif" font-size="9pt">
@@ -56,7 +56,7 @@
             </fo:page-sequence>
             
             <!-- recipes -->
-            <xsl:apply-templates select="collection/recipe" mode="recipe"/>
+            <xsl:apply-templates select="collection/recipe" mode="detail"/>
             
         </fo:root>
     </xsl:template>
@@ -80,30 +80,37 @@
     
     
     <!-- .......................... RECIPE TEMPLATE .......................... -->
-    <xsl:template match="recipe" mode="recipe" xml:space="preserve">
-    <fo:page-sequence master-reference="recipe-page">
-      <!-- page header: left: booklet title; left: recipe title -->
-      <fo:static-content flow-name="recipe-header">
-        <fo:block font-size="7pt" text-align-last="justify">
-          <xsl:value-of select="//collection/description"/>
-          <fo:leader/>
-          <xsl:value-of select="title"/>
-        </fo:block>
-      </fo:static-content>
-      
-      <fo:static-content flow-name="recipe-footer">
-        <fo:block font-size="7pt" text-align="end">
-          page <fo:page-number/>
-        </fo:block>
-      </fo:static-content>
-
-      <fo:flow flow-name="xsl-region-body" font-family="serif" font-size="9pt">
-         <!-- recipe title -->
-         <fo:block font-size="14pt" font-weight="bold" id="{generate-id()}">
-             <xsl:value-of select="title"/>
-         </fo:block>
-       </fo:flow>
-    </fo:page-sequence>    
-  </xsl:template>
+    <xsl:template match="recipe" mode="detail" xml:space="preserve">
+         <fo:page-sequence master-reference="recipe-page">
+           <xsl:call-template name="header">
+               <xsl:with-param name="right" select="title"/>
+           </xsl:call-template>
+           
+           <fo:static-content flow-name="recipe-footer">
+             <fo:block font-size="7pt" text-align="end">
+               page <fo:page-number/>
+             </fo:block>
+           </fo:static-content>
+         
+           <fo:flow flow-name="xsl-region-body" font-family="serif" font-size="9pt">
+              <!-- recipe title -->
+              <fo:block font-size="14pt" font-weight="bold" id="{generate-id()}">
+                  <xsl:value-of select="title"/>
+              </fo:block>
+            </fo:flow>
+         </fo:page-sequence>    
+    </xsl:template>
+    
+    <xsl:template name="header">
+        <xsl:param name="right"/>
+        <!-- page header: left: booklet title; left: recipe title -->
+        <fo:static-content flow-name="recipe-header">
+            <fo:block font-size="7pt" text-align-last="justify">
+                <xsl:value-of select="/collection/description"/>
+                <fo:leader/>
+                <xsl:value-of select="$right"/>
+            </fo:block>
+        </fo:static-content>        
+    </xsl:template>
     
 </xsl:stylesheet>
