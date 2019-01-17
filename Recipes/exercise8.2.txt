@@ -1,0 +1,47 @@
+1) 
+//ingredient[@unit='cup' and @amount=1]
+
+2)
+//ingredient[contains(@name, 'butter')]/@unit
+
+3)
+//ingredient[./preparation]
+//ingredient[preparation]
+//ingredient[count(./preparation) > 0]
+
+4)
+The result is a list of titles of all those recipes with a nutrition of more than 5000 calories
+and which use at least one ingredient, which itself is prepared using an ingredient that is
+composed using ingredients.
+
+5)
+/collection/recipe[.//ingredient[contains(@name, 'onion')]]
+
+6)
+Diese in der Vorlesung vom Dozenten präsentierte Lösung berechnet die Gesamtsumme über alle Rezepte
+und entspricht daher nicht der Aufgabenstellung "for each recipe":
+sum(//recipe[
+      .//ingredient[contains(@name, 'milk')] and .//ingredient[contains(@name, 'egg')]
+    ]//ingredient[contains(@name, 'egg')]/@amount
+)
+
+bessere Lösung von Kollege Blas Lukas:
+//recipe[
+  .//ingredient[contains(@name, 'egg')] and .//ingredient[contains(@name, 'milk')]
+]/
+concat(title, ' ', sum(.//ingredient[contains(@name, 'egg')]/@amount))
+
+und hier die Lösung aus den Lecture Notes, sie liefert auch das richtige Resultat,
+aber nur unter der Voraussetzung, dass in den geforderten Rezepten lediglich
+einmal Eier verwendet werden:
+//ingredient[@name="milk"]/ancestor::recipe//ingredient[contains(@name, "eggs")]/@amount
+
+7)
+//recipe[count(.//step) > 5]
+//recipe[count(.//preparation/step) > 5]
+
+8)
+//recipe/preparation/step[position() = count(../step)]
+
+9)
+sum(//ingredient[contains(@name, 'egg')]/@amount)
