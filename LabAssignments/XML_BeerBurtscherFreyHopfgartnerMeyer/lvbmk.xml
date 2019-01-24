@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE LVBMK SYSTEM "lvbmk.dtd">
+<!DOCTYPE LVBMK SYSTEM
+		"C:\Users\EmaBee\OneDrive - FH Vorarlberg\Laptop_Projects\LVBMK\XML\src\main\java\lvbmk.dtd">
 <LVBMK>
 	<!-- PERSONEN -->
 

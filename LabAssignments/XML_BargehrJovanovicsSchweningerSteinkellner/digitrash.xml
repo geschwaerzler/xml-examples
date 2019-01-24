@@ -2,179 +2,106 @@
 <!DOCTYPE DigiTrash SYSTEM "digitrash.dtd">
 
 <DigiTrash>
-	<Rechnung
-            id="rechnung-1"
-            type="kunde"
-            zeitstempel="2018-12-20T15:22"
-    >
-        <Beinhaltet rechnungsposten-id="rechnungsposten-1"/>
-        <Beinhaltet rechnungsposten-id="rechnungsposten-2"/>
-    </Rechnung>
+        <Rechnung id="rechnung-1" type="kunde" zeitstempel="2018-12-11T15:22">
 
-    <Rechnung
-            id="rechnung-2"
-            type="kunde"
-            zeitstempel="2018-12-21T16:04"
-    >
-        <Beinhaltet rechnungsposten-id="rechnungsposten-3"/>
-        <Beinhaltet rechnungsposten-id="rechnungsposten-4"/>
-    </Rechnung>
+                <Beinhaltet rechnungsposten-id="rechnungsposten-1"/>
+                <Beinhaltet rechnungsposten-id="rechnungsposten-2"/>
+        </Rechnung>
 
-    <Rechnung
-            id="rechnung-3"
-            type="kunde"
-            zeitstempel="2018-12-22T10:04"
-    >
-        <Beinhaltet rechnungsposten-id="rechnungsposten-5"/>
-    </Rechnung>
+        <Rechnung id="rechnung-2" type="kunde" zeitstempel="2018-12-13T16:04">
 
-    <Rechnung
-            id="rechnung-4"
-            type="kunde"
-            zeitstempel="2018-12-22T13:22"
-    >
-        <Beinhaltet rechnungsposten-id="rechnungsposten-6"/>
-    </Rechnung>
+                <Beinhaltet rechnungsposten-id="rechnungsposten-3"/>
+                <Beinhaltet rechnungsposten-id="rechnungsposten-4"/>
+        </Rechnung>
 
-    <Rechnung
-            id="rechnung-5"
-            type="monat"
-            zeitstempel="2018-12-23T17:00"
-    >
-        <Beinhaltet rechnungsposten-id="rechnungsposten-1"/>
-        <Beinhaltet rechnungsposten-id="rechnungsposten-2"/>
-        <Beinhaltet rechnungsposten-id="rechnungsposten-3"/>
-        <Beinhaltet rechnungsposten-id="rechnungsposten-4"/>
-        <Beinhaltet rechnungsposten-id="rechnungsposten-5"/>
-        <Beinhaltet rechnungsposten-id="rechnungsposten-6"/>
-    </Rechnung>
+        <Rechnung id="rechnung-3" type="kunde" zeitstempel="2018-12-16T19:04">
+
+                <Beinhaltet rechnungsposten-id="rechnungsposten-5"/>
+        </Rechnung>
+
+        <Rechnung id="rechnung-4" type="kunde" zeitstempel="2018-12-20T14:33">
+
+                <Beinhaltet rechnungsposten-id="rechnungsposten-2"/>
+                <Beinhaltet rechnungsposten-id="rechnungsposten-6"/>
+        </Rechnung>
+
+        <Rechnung id="rechnung-5" type="kunde" zeitstempel="2018-12-22T09:09">
+
+                <Beinhaltet rechnungsposten-id="rechnungsposten-1"/>
+                <Beinhaltet rechnungsposten-id="rechnungsposten-4"/>
+
+        </Rechnung>
+
+        <Rechnung id="rechnung-6" type="kunde" zeitstempel="2018-12-23T13:22">
+
+                <Beinhaltet rechnungsposten-id="rechnungsposten-2"/>
+                <Beinhaltet rechnungsposten-id="rechnungsposten-5"/>
+        </Rechnung>
+
+        <Rechnung id="rechnung-7" type="kunde" zeitstempel="2018-12-24T12:00">
+
+                <Beinhaltet rechnungsposten-id="rechnungsposten-3"/>
+                <Beinhaltet rechnungsposten-id="rechnungsposten-6"/>
+        </Rechnung>
+
+        <Rechnung id="rechnung-8" type="kunde" zeitstempel="2018-12-27T15:10">
+
+                <Beinhaltet rechnungsposten-id="rechnungsposten-1"/>
+                <Beinhaltet rechnungsposten-id="rechnungsposten-4"/>
+        </Rechnung>
+
+        <Rechnung id="rechnung-9" type="kunde" zeitstempel="2018-12-28T08:23">
+
+                <Beinhaltet rechnungsposten-id="rechnungsposten-5"/>
+                <Beinhaltet rechnungsposten-id="rechnungsposten-6"/>
+        </Rechnung>
+
+        <Rechnung id="rechnung-10" type="monat" zeitstempel="2018-12-30T12:12">
+                <Beinhaltet rechnungsposten-id="rechnungsposten-1"/>
+                <Beinhaltet rechnungsposten-id="rechnungsposten-2"/>
+                <Beinhaltet rechnungsposten-id="rechnungsposten-3"/>
+                <Beinhaltet rechnungsposten-id="rechnungsposten-4"/>
+                <Beinhaltet rechnungsposten-id="rechnungsposten-5"/>
+                <Beinhaltet rechnungsposten-id="rechnungsposten-6"/>
+        </Rechnung>
 
 
 
-    <Rechnungsposten
-            id="rechnungsposten-1"
-            anzahl="3"
-            stueckpreis="750"
-            steuer="10"
-            artikel-id="artikel-4"
-     />
+        <Rechnungsposten id="rechnungsposten-1" anzahl="3" stueckpreis="750" steuer="10"
+                artikel-id="artikel-4"/>
 
-    <Rechnungsposten
-            id="rechnungsposten-2"
-            anzahl="1"
-            stueckpreis="1350"
-            steuer="10"
-            artikel-id="artikel-8"
-    />
+        <Rechnungsposten id="rechnungsposten-2" anzahl="1" stueckpreis="1350" steuer="10"
+                artikel-id="artikel-8"/>
 
-    <Rechnungsposten
-            id="rechnungsposten-3"
-            anzahl="3"
-            stueckpreis="90"
-            steuer="10"
-            artikel-id="artikel-1"
-    />
+        <Rechnungsposten id="rechnungsposten-3" anzahl="3" stueckpreis="90" steuer="10"
+                artikel-id="artikel-1"/>
 
-    <Rechnungsposten
-            id="rechnungsposten-4"
-            anzahl="15"
-            stueckpreis="675"
-            steuer="10"
-            artikel-id="artikel-6"
-    />
+        <Rechnungsposten id="rechnungsposten-4" anzahl="15" stueckpreis="675" steuer="10"
+                artikel-id="artikel-6"/>
 
-    <Rechnungsposten
-            id="rechnungsposten-5"
-            anzahl="4"
-            stueckpreis="135"
-            steuer="10"
-            artikel-id="artikel-5"
-    />
+        <Rechnungsposten id="rechnungsposten-5" anzahl="4" stueckpreis="135" steuer="10"
+                artikel-id="artikel-5"/>
 
-    <Rechnungsposten
-            id="rechnungsposten-6"
-            anzahl="4"
-            stueckpreis="270"
-            steuer="10"
-            artikel-id="artikel-7"
-    />
+        <Rechnungsposten id="rechnungsposten-6" anzahl="4" stueckpreis="270" steuer="10"
+                artikel-id="artikel-7"/>
 
-    <Kategorie
-            bezeichnung="Ermässigt"
-            mehrwertsteuer="10"
-     id="kategorie-1">
-        <!-- Preise in Cent -->
-        <Artikel
-                id="artikel-1"
-                bezeichnung="Biomüllsack"
-                beschreibung="Einzeln"
-                groesse="8"
-                einheit="L"
-                packungsgroesse="1"
-                verkaufspreis="90"
-        />
-        <Artikel
-                id="artikel-2"
-                bezeichnung="Biomüllsack"
-                beschreibung="Rolle"
-                groesse="8"
-                einheit="L"
-                packungsgroesse="5"
-                verkaufspreis="450"
-        />
-        <Artikel
-                id="artikel-3"
-                bezeichnung="Biomüllsack"
-                beschreibung="Einzeln"
-                groesse="15"
-                einheit="L"
-                packungsgroesse="1"
-                verkaufspreis="150"
-        />
-        <Artikel
-                id="artikel-4"
-                bezeichnung="Biomüllsack"
-                beschreibung="Rolle"
-                groesse="15"
-                einheit="L"
-                packungsgroesse="5"
-                verkaufspreis="750"
-        />
-        <Artikel
-                id="artikel-5"
-                bezeichnung="Restmüllsack"
-                beschreibung="Einzeln"
-                groesse="20"
-                einheit="L"
-                packungsgroesse="1"
-                verkaufspreis="135"
-        />
-        <Artikel
-                id="artikel-6"
-                bezeichnung="Restmüllsack"
-                beschreibung="Rolle"
-                groesse="20"
-                einheit="L"
-                packungsgroesse="5"
-                verkaufspreis="675"
-        />
-        <Artikel
-                id="artikel-7"
-                bezeichnung="Restmüllsack"
-                beschreibung="Einzeln"
-                groesse="40"
-                einheit="L"
-                packungsgroesse="1"
-                verkaufspreis="270"
-        />
-        <Artikel
-                id="artikel-8"
-                bezeichnung="Restmüllsack"
-                beschreibung="Rolle"
-                groesse="40"
-                einheit="L"
-                packungsgroesse="5"
-                verkaufspreis="1350"
-        />
-    </Kategorie>
+        <Kategorie bezeichnung="Ermässigt" mehrwertsteuer="10" id="kategorie-1">
+                <!-- Preise in Cent -->
+                <Artikel id="artikel-1" bezeichnung="Biomüllsack" beschreibung="Einzeln" groesse="8"
+                        einheit="L" packungsgroesse="1" verkaufspreis="90"/>
+                <Artikel id="artikel-2" bezeichnung="Biomüllsack" beschreibung="Rolle" groesse="8"
+                        einheit="L" packungsgroesse="5" verkaufspreis="450"/>
+                <Artikel id="artikel-3" bezeichnung="Biomüllsack" beschreibung="Einzeln"
+                        groesse="15" einheit="L" packungsgroesse="1" verkaufspreis="150"/>
+                <Artikel id="artikel-4" bezeichnung="Biomüllsack" beschreibung="Rolle" groesse="15"
+                        einheit="L" packungsgroesse="5" verkaufspreis="750"/>
+                <Artikel id="artikel-5" bezeichnung="Restmüllsack" beschreibung="Einzeln"
+                        groesse="20" einheit="L" packungsgroesse="1" verkaufspreis="135"/>
+                <Artikel id="artikel-6" bezeichnung="Restmüllsack" beschreibung="Rolle" groesse="20"
+                        einheit="L" packungsgroesse="5" verkaufspreis="675"/>
+                <Artikel id="artikel-7" bezeichnung="Restmüllsack" beschreibung="Einzeln"
+                        groesse="40" einheit="L" packungsgroesse="1" verkaufspreis="270"/>
+                <Artikel id="artikel-8" bezeichnung="Restmüllsack" beschreibung="Rolle" groesse="40"
+                        einheit="L" packungsgroesse="5" verkaufspreis="1350"/>
+        </Kategorie>
 </DigiTrash>

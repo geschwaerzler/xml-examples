@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE goat-hood SYSTEM "goathood.dtd">
+<!DOCTYPE goat-hood SYSTEM "goat-hood.dtd">
 
 <goat-hood>
+    <beschreibung>Das ist die Goat-Hood des FC Hittisau</beschreibung>
+    
     <!-- Spieler -->
     <spieler id="spieler-1">
         <rueckennummer>09</rueckennummer>
@@ -117,140 +119,110 @@
 
     <!-- Strafen -->
     <strafe id="strafe-1" strafentyp="strafentyp-1" spieler-id="spieler-6" ereignis-id="ereignis-1">
-        <bezahlt-am>19.12.18</bezahlt-am>
-        <ereignis-datum>16.12.18</ereignis-datum>
-        <ereignis-uhrzeit>15:30</ereignis-uhrzeit>
+        <bezahlt-am>19.12.2018</bezahlt-am>
     </strafe>
 
     <strafe id="strafe-2" strafentyp="strafentyp-4" spieler-id="spieler-16" ereignis-id="ereignis-6">
         <bezahlt-am>11.09.2018</bezahlt-am>
-        <ereignis-datum>01.08.2018</ereignis-datum>
-        <ereignis-uhrzeit>15:30</ereignis-uhrzeit>
     </strafe>
 
     <strafe id="strafe-3" strafentyp="strafentyp-3" spieler-id="spieler-5" ereignis-id="ereignis-3">
         <bezahlt-am>01.08.2018</bezahlt-am>
-        <ereignis-datum>11.07.2018</ereignis-datum>
-        <ereignis-uhrzeit>15:30</ereignis-uhrzeit>
     </strafe>
 
     <strafe id="strafe-4" strafentyp="strafentyp-9" spieler-id="spieler-11" ereignis-id="ereignis-4">
         <bezahlt-am>08.05.2018</bezahlt-am>
-        <ereignis-datum>01.05.18</ereignis-datum>
-        <ereignis-uhrzeit>15:30</ereignis-uhrzeit>
     </strafe>
 
     <strafe id="strafe-5" strafentyp="strafentyp-9" spieler-id="spieler-14" ereignis-id="ereignis-4">
-        <bezahlt-am>15.05.18</bezahlt-am>
-        <ereignis-datum>01.05.18</ereignis-datum>
-        <ereignis-uhrzeit>15:30</ereignis-uhrzeit>
+        <bezahlt-am>15.05.2018</bezahlt-am>
     </strafe>
 
     <strafe id="strafe-6" strafentyp="strafentyp-8" spieler-id="spieler-1" ereignis-id="ereignis-7">
         <bezahlt-am></bezahlt-am> <!-- noch nicht bezahlt -->
-        <ereignis-datum>03.10.18</ereignis-datum>
-        <ereignis-uhrzeit>15:30</ereignis-uhrzeit>
     </strafe>
 
     <strafe id="strafe-7" strafentyp="strafentyp-2" spieler-id="spieler-5" ereignis-id="ereignis-1">
         <bezahlt-am></bezahlt-am> <!-- noch nicht bezahlt -->
-        <ereignis-datum>16.12.18</ereignis-datum>
-        <ereignis-uhrzeit>15:30</ereignis-uhrzeit>
     </strafe>
 
     <strafe id="strafe-8" strafentyp="strafentyp-5" spieler-id="spieler-7" ereignis-id="ereignis-8">
-        <bezahlt-am>11.09.18</bezahlt-am>
-        <ereignis-datum>11.09.18</ereignis-datum>
-        <ereignis-uhrzeit>15:30</ereignis-uhrzeit>
+        <bezahlt-am>11.09.2018</bezahlt-am>
     </strafe>
 
     <strafe id="strafe-9" strafentyp="strafentyp-7" spieler-id="spieler-2" ereignis-id="ereignis-3">
-        <bezahlt-am>11.07.18</bezahlt-am>
-        <ereignis-datum>11.07.18</ereignis-datum>
-        <ereignis-uhrzeit>15:30</ereignis-uhrzeit>
+        <bezahlt-am>11.07.2018</bezahlt-am>
     </strafe>
 
     <strafe id="strafe-10" strafentyp="strafentyp-10" spieler-id="spieler-6" ereignis-id="ereignis-1">
         <bezahlt-am></bezahlt-am> <!-- noch nicht bezahlt -->
-        <ereignis-datum>16.12.18</ereignis-datum>
-        <ereignis-uhrzeit>15:30</ereignis-uhrzeit>
     </strafe>
 
 
     <!-- Strafentyp -->
-    <strafentyp id="strafentyp-1">
+    <strafentyp id="strafentyp-1" fairness="2">
         <strafentyp-bezeichnung>Rote Karte</strafentyp-bezeichnung>
         <definition>Rote Karte wegen Beleidigung oder Tätlichkeit</definition>
         <preis>80.00</preis>
-        <fairness>2</fairness>
     </strafentyp>
 
-    <strafentyp id="strafentyp-2">
+    <strafentyp id="strafentyp-2" fairness="1">
         <strafentyp-bezeichnung>Gelbe Karte</strafentyp-bezeichnung>
         <definition>Gelbe Karte wegen Kritik oder Unsportlichkeit</definition>
         <preis>40.00</preis>
-        <fairness>1</fairness>
     </strafentyp>
 
-    <strafentyp id="strafentyp-3">
+    <strafentyp id="strafentyp-3" fairness="0">
         <strafentyp-bezeichnung>Unentschuldigtes zu spät kommen Training</strafentyp-bezeichnung>
         <definition>Bescheid gegeben werden kann bis spätestens 15:00 Uhr am selben Tag</definition>
         <preis>20.00</preis>
-        <fairness>0</fairness>
     </strafentyp>
 
-    <strafentyp id="strafentyp-4">
+    <strafentyp id="strafentyp-4" fairness="0">
         <strafentyp-bezeichnung>Unentschuldigtes fehlen Training</strafentyp-bezeichnung>
         <definition>Bescheid gegeben werden kann bis spätestens 15:00 Uhr am selben Tag</definition>
         <preis>40.00</preis>
-        <fairness>0</fairness>
     </strafentyp>
 
-    <strafentyp id="strafentyp-5">
+    <strafentyp id="strafentyp-5" fairness="0">
         <strafentyp-bezeichnung>Unentschuldigtes zu spät kommen Spiel</strafentyp-bezeichnung>
         <definition>Bescheid gegeben werden muss mindestens ein Tag davor</definition>
         <preis>40.00</preis>
-        <fairness>0</fairness>
     </strafentyp>
 
-    <strafentyp id="strafentyp-6">
+    <strafentyp id="strafentyp-6" fairness="0">
         <strafentyp-bezeichnung>Unentschuldigtes fehlen Spiel</strafentyp-bezeichnung>
         <definition>Bescheid gegeben werden muss mindestens einen Tag davor</definition>
         <preis>80.00</preis>
-        <fairness>0</fairness>
     </strafentyp>
 
-    <strafentyp id="strafentyp-7">
+    <strafentyp id="strafentyp-7" fairness="0">
         <strafentyp-bezeichnung>Seltsames Verhalten</strafentyp-bezeichnung>
         <definition>Beurteilt der Trainer</definition>
         <preis>20.00</preis>
-        <fairness>0</fairness>
     </strafentyp>
 
-    <strafentyp id="strafentyp-8">
+    <strafentyp id="strafentyp-8" fairness="0">
         <strafentyp-bezeichnung>Handy klingeln in Besprechung</strafentyp-bezeichnung>
         <definition>Handy klingeln in Besprechung</definition>
         <preis>20.00</preis>
-        <fairness>0</fairness>
     </strafentyp>
 
-    <strafentyp id="strafentyp-9">
+    <strafentyp id="strafentyp-9" fairness="0">
         <strafentyp-bezeichnung>Utensilien vergessen</strafentyp-bezeichnung>
         <definition>Vergessen einer fürs Spiel oder Training benötigten Utensilien</definition>
         <preis>20.00</preis>
-        <fairness>0</fairness>
     </strafentyp>
 
-    <strafentyp id="strafentyp-10">
+    <strafentyp id="strafentyp-10" fairness="0">
         <strafentyp-bezeichnung>Rauchen oder Alkohol im Dress</strafentyp-bezeichnung>
         <definition>Wenn im Dress Alkohol konsumiert oder geraucht wird</definition>
         <preis>20.00</preis>
-        <fairness>0</fairness>
     </strafentyp>
 
     <!-- Ereignis -->
     <ereignis id="ereignis-1">
-        <ereignis-datum>16.12.18</ereignis-datum>
+        <ereignis-datum datum="20181216">16.12.2018</ereignis-datum>
         <ereignis-uhrzeit>15:30</ereignis-uhrzeit>
         <!-- Wenn es ein Spiel existiert der spiel-ort und das spiel-ergebnis, bei einem training nicht -->
         <spiel-ort>Hittisau</spiel-ort>
@@ -272,7 +244,7 @@
     </ereignis>
 
     <ereignis id="ereignis-2">
-        <ereignis-datum>20.06.18</ereignis-datum>
+        <ereignis-datum datum="20180620">20.06.2018</ereignis-datum>
         <ereignis-uhrzeit>15:30</ereignis-uhrzeit>
 
         <spiel-ort>Bezau</spiel-ort>
@@ -293,7 +265,7 @@
     </ereignis>
 
     <ereignis id="ereignis-3">
-        <ereignis-datum>11.07.18</ereignis-datum>
+        <ereignis-datum datum="20180711">11.07.2018</ereignis-datum>
         <ereignis-uhrzeit>15:30</ereignis-uhrzeit>
         <!-- Training deswegen kein spiel-ort und kein spiel-ergebnis -->
         <spiel-ort></spiel-ort>
@@ -318,7 +290,7 @@
     </ereignis>
 
     <ereignis id="ereignis-4">
-        <ereignis-datum>01.05.18</ereignis-datum>
+        <ereignis-datum datum="20180501">01.05.2018</ereignis-datum>
         <ereignis-uhrzeit>15:30</ereignis-uhrzeit>
 
         <spiel-ort>Mellau</spiel-ort>
@@ -339,7 +311,7 @@
     </ereignis>
 
     <ereignis id="ereignis-5">
-        <ereignis-datum>15.04.18</ereignis-datum>
+        <ereignis-datum datum="20180415">15.04.2018</ereignis-datum>
         <ereignis-uhrzeit>15:30</ereignis-uhrzeit>
         <!-- Training -->
         <spiel-ort></spiel-ort>
@@ -364,7 +336,7 @@
     </ereignis>
 
     <ereignis id="ereignis-6">
-        <ereignis-datum>01.08.18</ereignis-datum>
+        <ereignis-datum datum="20180801">01.08.2018</ereignis-datum>
         <ereignis-uhrzeit>15:30</ereignis-uhrzeit>
         <!-- Training bewusst spieler-16 weggelassen weil er ohne abmeldung nicht beim trainig anwesened war-->
         <spiel-ort></spiel-ort>
@@ -388,7 +360,7 @@
     </ereignis>
 
     <ereignis id="ereignis-7">
-        <ereignis-datum>03.10.18</ereignis-datum>
+        <ereignis-datum datum="20181003">03.10.2018</ereignis-datum>
         <ereignis-uhrzeit>15:30</ereignis-uhrzeit>
 
         <spiel-ort>Egg</spiel-ort>
@@ -409,7 +381,7 @@
     </ereignis>
 
     <ereignis id="ereignis-8">
-        <ereignis-datum>11.09.18</ereignis-datum>
+        <ereignis-datum datum="20180911">11.09.2018</ereignis-datum>
         <ereignis-uhrzeit>15:30</ereignis-uhrzeit>
 
         <spiel-ort>Schwarzenberg</spiel-ort>

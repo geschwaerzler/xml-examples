@@ -3,57 +3,57 @@
 <!DOCTYPE szene-open-air SYSTEM 'Festival.dtd'>
 
 <szene-open-air>
-    <address address-id="address-0" street="Street 1" number="4711" zip="6850" city="Dornbirn" country="Österreich">
+    <address address-id="address-0" street="Street" number="4711" zip="6850" city="Dornbirn" country="Österreich">
         <person person-id="person-id-0" fname="Günter" lname="Lauch" bdate="30.02.1950" telnr="06562626564"
-                email="kdsjf.afldsk@jdlkaf.com"/>
+            email="kdsjf.afldsk@jdlkaf.com"/>
         <person person-id="person-id-1" fname="Peter" lname="Lustig" bdate="13.06.1997" telnr="0676 456456"
-                email="peter.lustig@gmail.com"/>
+            email="peter.lustig@gmail.com"/>
     </address>
     <address address-id="address-1" street="Knie" number="57f" zip="6850" city="Dornbirn" country="Österreich">
         <person person-id="person-id-2" fname="Sum ting" lname="Wong" bdate="11.11.2000" telnr="0650 654521"
-                email="wot.da@fok.com"/>
+            email="wot.da@fok.com"/>
         <person person-id="person-id-3" fname="Claudia" lname="Müller" bdate="02.04.1987" telnr="0676 456456"
-                email="peter.lustig@gmail.com"/>
+            email="peter.lustig@gmail.com"/>
     </address>
     <address address-id="address-2" street="Augenstraße" number="3z" zip="6849" city="Alberschwende"
-             country="Österreich">
+        country="Österreich">
         <person person-id="person-id-4" fname="Iris" lname="Retina" bdate="10.09.1999" telnr="05572 54785"
-                email="iCanC@withMyEyes.com"/>
+            email="iCanC@withMyEyes.com"/>
         <person person-id="person-id-6" fname="Maxine" lname="Musterfrau" bdate="08.12.1978" telnr="0043 214 654"
-                email="max.mustermann@gmx.com"/>
+            email="max.mustermann@gmx.com"/>
         <person person-id="person-id-5" fname="iDontKnow" lname="AnymoreNames" bdate="02.04.1987" telnr="0676 456456"
-                email="sameBithDateandTelNr@nothing.com"/>
+            email="sameBithDateandTelNr@nothing.com"/>
     </address>
     <address address-id="address-75" street="Sesamestreet" number="Over 9000" zip="9001" city="Bregenz"
-             country="Österreich"/>
+        country="Österreich"/>
     <address address-id="address-76" street="1600 Pennsylvania Ave NW" number="1" zip="DC 20500" city="Washington"
-             country="USA">
+        country="USA">
         <person person-id="person-id-75" fname="Orange with" lname="Small Hands" bdate="14.06.1946" telnr="666"
-                email="theDevil@potus.gov"/>
+            email="theDevil@potus.gov"/>
     </address>
-
+    
     <address address-id="address-50" street="Grütstraße" number="4" zip="6890" city="Lustenau" country="Österreich">
         <person person-id="person-id-50" fname="Ludwig" lname="Bauer" bdate="15.07.1988" telnr="0656 2626543"
-                email="Ludwig.Bauer@gmx.at"/>
+            email="Ludwig.Bauer@gmx.at"/>
         <person person-id="person-id-51" fname="Wolfgang-Amadeus" lname="Mozart" bdate="04.06.1750" telnr="0676 442356"
-                email="wolfi.mozart@gmail.com"/>
+            email="wolfi.mozart@gmail.com"/>
     </address>
-
+    
     <address address-id="address-51" street="Augartenstraße" number="97" zip="6890" city="Lustenau"
-             country="Österreich">
+        country="Österreich">
         <person person-id="person-id-52" fname="Daniel" lname="Vogel" bdate="21.09.1995" telnr="0656 234567"
-                email="daniel_vogel@gmx.at"/>
+            email="daniel_vogel@gmx.at"/>
         <person person-id="person-id-53" fname="Christina" lname="Vogel" bdate="29.07.1989" telnr="0680 750753"
-                email="christina-vogel@gmx.at"/>
+            email="christina-vogel@gmx.at"/>
     </address>
-
+    
     <entry-type entry-type-id="entry-type-0" description="VIP"/>
     <entry-type entry-type-id="entry-type-1" description="Special-Offer (0.1% off)"/>
     <entry-type entry-type-id="entry-type-2" description="Normies"/>
     <entry-type entry-type-id="entry-type-3" description="Eary Bird (catches the worm)"/>
     <entry-type entry-type-id="entry-type-9001" description="AAA"/>
     <entry-type entry-type-id="entry-type-4" description="Darf nicht hinein"/>
-
+    
     <ressource ressource-id="ressource-id-0" description="Bierbank"/>
     <ressource ressource-id="ressource-id-1" description="Festzelt"/>
     <ressource ressource-id="ressource-id-2" description="Bassbox"/>
@@ -63,7 +63,7 @@
     <ressource ressource-id="ressource-id-50" description="Helferbier"/>
     <ressource ressource-id="ressource-id-51" description="Kabeltrommel"/>
     <ressource ressource-id="ressource-id-52" description="Couch"/>
-
+    
     <ressource ressource-id="ressource-id-6" description="Raumschiff"/>
     <ressource ressource-id="ressource-id-7" description="Penthaus-Wohnung"/>
     <ressource ressource-id="ressource-id-8" description="Designer-Unterhose"/>
@@ -72,7 +72,7 @@
     <ressource ressource-id="ressource-id-11" description="Würfelsuppe"/>
     <ressource ressource-id="ressource-id-12" description="Helikopterlandeplatz"/>
     <ressource ressource-id="ressource-id-13" description="Holzstock"/>
-
+    
     <ressort ressort-id="ressort-id-0" description="Bar">
         <job job-id="job-id-0" description="Bierbank aufstellen"/>
         <job job-id="job-id-1" description="Getränke einkühlen"/>
@@ -82,7 +82,7 @@
         <job job-id="job-id-5" description="Mülltonne aufstellen"/>
         <job job-id="job-id-14" description="Quality Assurance von allen Getränken"/>
     </ressort>
-
+    
     <ressort ressort-id="ressort-id-1" description="Bühnentechnik">
         <job job-id="job-id-6" description="Kabeltrommeln aufstellen"/>
         <job job-id="job-id-7" description="Soundsystem anstecken"/>
@@ -90,39 +90,39 @@
         <job job-id="job-id-9" description="Lichtsystem installieren und prüfen"/>
         <job job-id="job-id-15" description="Schlagerplaylist abspielen"/>
     </ressort>
-
+    
     <ressort ressort-id="ressort-id-2" description="Eingang">
         <job job-id="job-id-10" description="Gästeliste kontrollieren"/>
         <job job-id="job-id-11" description="Securities positionieren"/>
         <job job-id="job-id-12" description="Verkausstelle aufbauen"/>
         <job job-id="job-id-13" description="Wechselgeld und Zugangbändchen in Verkaufsstelle herrichten"/>
     </ressort>
-
+    
     <ressort ressort-id="ressort-id-50" description="Zelthotel">
         <job job-id="job-id-50" description="Eingang"/>
         <job job-id="job-id-51" description="Frühstück"/>
         <job job-id="job-id-52" description="Nachtaufsicht"/>
         <job job-id="job-id-53" description="Zelte aufstellen"/>
     </ressort>
-
+    
     <status status-id="status-id-0" description="verfügbar"/>
     <status status-id="status-id-1" description="aufgegessen"/>
     <status status-id="status-id-2" description="von schwarzem Loch verschluckt"/>
     <status status-id="status-id-3" description="im parallell-Universum verschwunden"/>
     <status status-id="status-id-4" description="404"/>
     <status status-id="status-id-5" description="nicht benötigt"/>
-
+    
     <helper helper-id="helper-id-0" person-id="person-id-0">
         <block date-of-issue="04.11.2016" description="Betrunken" lifted="false"/>
         <block date-of-issue="05.10.2000" description="Verschwörungstheorien" lifted="true"/>
         <block date-of-issue="04.11.2017" description="DJ Mischpult geklaut und damit Privatparty veranstaltet"
-               lifted="false"/>
+            lifted="false"/>
         <block date-of-issue="16.08.1998" description="Gesamter Biervorrat am Vortag ausgetrunken" lifted="true"/>
     </helper>
-
+    
     <helper helper-id="helper-id-1" person-id="person-id-1">
         <block date-of-issue="15.09.2009" description="Sich als Security ausgegben und hineingeschlichen"
-               lifted="true"/>
+            lifted="true"/>
         <block date-of-issue="05.10.2000" description="Sich als Zwillingbruder ausgegeben" lifted="true"/>
         <block date-of-issue="04.11.2017" description="Flitzer" lifted="false"/>
         <block date-of-issue="24.03.2006" description="Sich nach Norm verhalten" lifted="true"/>
@@ -136,25 +136,25 @@
         <block date-of-issue="15.09.2017" description="Sich mit einem Nordkoreaner geschlägert" lifted="false"/>
         <block date-of-issue="19.11.2017" description="Hat den roten Knopf gedrückt" lifted="true"/>
     </helper>
-
+    
     <member member-id="member-id-0" person-id="person-id-0" entry-date="18.07.1982" authorized-to-issue="false"/>
     <member member-id="member-id-1" person-id="person-id-1" entry-date="18.07.1983" authorized-to-issue="false"/>
     <member member-id="member-id-2" person-id="person-id-2" entry-date="08.07.1710" authorized-to-issue="true"/>
     <member member-id="member-id-3" person-id="person-id-3" entry-date="18.07.2157" authorized-to-issue="true"/>
-
-    <festival festival-year="festival-year-1997" description="epsum lorum">
+    
+    <festival festival-year="1997" description="epsum lorum">
         <guest-list person-id="person-id-0" entry-type="entry-type-0" entered="false"/>
         <guest-list person-id="person-id-1" entry-type="entry-type-1" entered="true"/>
         <guest-list person-id="person-id-2" entry-type="entry-type-1" entered="false"/>
         <req-ressource ressource-id="ressource-id-0" status-id="status-id-0" ressort-id="ressort-id-0"/>
         <helper-festival helper-id="helper-id-2" job-id="job-id-0"/>
-        <helper-festival helper-id="helper-id-0" job-id="job-id-0"/>
-        <helper-festival helper-id="helper-id-0" job-id="job-id-0"/>
-        <helper-festival helper-id="helper-id-0" job-id="job-id-0"/>
-        <helper-festival helper-id="helper-id-0" job-id="job-id-0"/>
+        <helper-festival helper-id="helper-id-0" job-id="job-id-9"/>
+        <helper-festival helper-id="helper-id-1" job-id="job-id-0"/>
+        <helper-festival helper-id="helper-id-7" job-id="job-id-5"/>
+        <helper-festival helper-id="helper-id-4" job-id="job-id-2"/>
     </festival>
-
-    <festival festival-year="festival-year-1795" description="!!!!ULTIMATE FESTIVAL!!!!!">
+    
+    <festival festival-year="1795" description="!!!!ULTIMATE FESTIVAL!!!!!">
         <guest-list person-id="person-id-2" entry-type="entry-type-1" entered="true"/>
         <guest-list person-id="person-id-5" entry-type="entry-type-3" entered="true"/>
         <guest-list person-id="person-id-1" entry-type="entry-type-2" entered="true"/>
@@ -169,5 +169,5 @@
         <helper-festival helper-id="helper-id-1" job-id="job-id-8"/>
         <helper-festival helper-id="helper-id-0" job-id="job-id-14"/>
     </festival>
-
+    
 </szene-open-air>
