@@ -6,7 +6,7 @@
 3) //airport[@id = 'gva']/name[@lang='fr'] (das war allerdings nicht in der Absicht des Prüfers)
 //name[text() = 'Genf']/../name[@lang = 'fr']
 //name[. = 'Genf']/../name[@lang = 'fr']
-//airport[@lang='de' and name='Genf']/name[@lang = 'fr']
+//airport[name/@lang='de' and name='Genf']/name[@lang = 'fr']
 
 4) Eine Liste der Flugnummern derjenigen Flüge,
 welche um GTM 5 Uhr 55 abfliegen oder landen.
