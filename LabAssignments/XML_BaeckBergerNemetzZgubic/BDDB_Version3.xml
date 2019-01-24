@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE breakdance-datenbank SYSTEM "BDDB_Version3.dtd">
+
+<breakdance-datenbank>
+
+	<schulstandort id="Dornbirn-1" standort_bezeichnung="Hauptstandort">
+		<raum id="R1" raum_kapazitaet="30">
+			<unterrichtseinheit id="ue1" crew_id="c1" ue_wochentag="Montag" wiederholung="woechentlich" ue_startZeit="19:30:00" ue_endZeit="20:30:00"/>
+			<unterrichtseinheit id="ue4"  crew_id="c3" ue_wochentag="Montag" wiederholung="woechentlich" ue_startZeit="19:30:00" ue_endZeit="20:30:00"/>
+			<unterrichtseinheit id="ue8"  crew_id="c4" ue_wochentag="Freitag" wiederholung="woechentlich" ue_startZeit="18:00:00" ue_endZeit="19:00:00"/>
+		</raum>
+		
+		<raum id="R2" raum_kapazitaet="30">
+		    <unterrichtseinheit id="ue9"  crew_id="c4" ue_wochentag="Freitag" wiederholung="woechentlich" ue_startZeit="18:00:00" ue_endZeit="19:00:00"/>
+	    	<unterrichtseinheit id="ue16"  crew_id="c4" ue_wochentag="Freitag" wiederholung="woechentlich" ue_startZeit="18:00:00" ue_endZeit="19:00:00"/>
+	       	<unterrichtseinheit id="ue34"  crew_id="c4" ue_wochentag="Freitag" wiederholung="woechentlich" ue_startZeit="18:00:00" ue_endZeit="19:00:00"/>
+		    <unterrichtseinheit id="ue43"  crew_id="c4" ue_wochentag="Freitag" wiederholung="woechentlich" ue_startZeit="18:00:00" ue_endZeit="19:00:00"/>
+	    	<unterrichtseinheit id="ue23"  crew_id="c4" ue_wochentag="Freitag" wiederholung="woechentlich" ue_startZeit="18:00:00" ue_endZeit="19:00:00"/>
+	    	<unterrichtseinheit id="ue3" crew_id="c2" ue_wochentag="Mittwoch" wiederholung="woechentlich" ue_startZeit="19:30:00" ue_endZeit="20:30:00"/>
+	    	<unterrichtseinheit id="ue11" crew_id="c5" ue_wochentag="Montag" wiederholung="woechentlich" ue_startZeit="18:00:00" ue_endZeit="19:30:00"/>
+	    	<unterrichtseinheit id="ue12" crew_id="c5" ue_wochentag="Mittwoch" wiederholung="woechentlich" ue_startZeit="20:30:00" ue_endZeit="21:30:00"/>
+	    	<unterrichtseinheit id="ue13" crew_id="c5" ue_wochentag="Freitag" wiederholung="woechentlich" ue_startZeit="19:00:00" ue_endZeit="20:00:00"/>
+		</raum>
+		
+		<raum id="D1.3" raum_kapazitaet="30">
+		    <unterrichtseinheit id="ue35" crew_id="c4" ue_wochentag="Freitag" wiederholung="woechentlich" ue_startZeit="17:45:00" ue_endZeit="19:00:00"/>
+		    <unterrichtseinheit id="ue10" crew_id="c4" ue_wochentag="Montag" wiederholung="woechentlich" ue_startZeit="17:00:00" ue_endZeit="17:45:00"/>
+		    <unterrichtseinheit id="ue14" crew_id="c6" ue_wochentag="Donnerstag" wiederholung="woechentlich" ue_startZeit="17:00:00" ue_endZeit="17:45:00"/>
+		</raum>
+	</schulstandort>
+	
+	<schulstandort id="Feldkirch" standort_bezeichnung="">
+	    <raum id="D4" raum_kapazitaet="30">
+			<unterrichtseinheit id="ue999" crew_id="c1" ue_wochentag="Montag" wiederholung="woechentlich" ue_startZeit="19:30:00" ue_endZeit="20:30:00"/>
+			<unterrichtseinheit id="ue2" crew_id="c3" ue_wochentag="Dienstag" wiederholung="woechentlich" ue_startZeit="20:30:00" ue_endZeit="21:30:00"/>
+			<unterrichtseinheit id="ue7" crew_id="c1" ue_wochentag="Mittwoch" wiederholung="monatlich" ue_startZeit="15:00:00" ue_endZeit="16:00:00"/>
+		</raum>
+	</schulstandort>
+	
+	<schulstandort id="Feldkirch-2" standort_bezeichnung="standort2">
+		<raum id="F1.1" raum_kapazitaet="30" >
+			<unterrichtseinheit id="ue18" crew_id="c3" ue_wochentag="Freitag" wiederholung="woechentlich" ue_startZeit="19:30:00" ue_endZeit="20:30:00"/>
+			<unterrichtseinheit id="ue17" crew_id="c2" ue_wochentag="Montag" wiederholung="woechentlich" ue_startZeit="12:30:00" ue_endZeit="13:30:00"/>
+		</raum>
+		<raum id="F1.2" raum_kapazitaet="30">
+			<unterrichtseinheit id="ue5" crew_id="c1" ue_wochentag="Freitag" wiederholung="monatlich" ue_startZeit="22:30:00" ue_endZeit="23:30:00"/>
+		</raum>
+		<raum id="F1.3" raum_kapazitaet="30">
+			<unterrichtseinheit id="ue6" crew_id="s0012" ue_wochentag="Samstag" wiederholung="woechentlich" ue_startZeit="19:30:00" ue_endZeit="20:30:00"/>
+		</raum>
+	</schulstandort>
+	
+	<crew id="c1" crew_name="freshmade" lehrer_id="l0001">
+		<crewmember schueler_id="s0035"/>
+		<crewmember schueler_id="s0036"/>
+		<crewmember schueler_id="s0037"/>
+		<crewmember schueler_id="s0038"/>
+		<crewmember schueler_id="s0039"/>
+		<crewmember schueler_id="s0050"/>
+		<crewmember schueler_id="s0051"/>
+		<crewmember schueler_id="s0052"/>
+	</crew>
+	
+	<crew id="c2" crew_name="l'etage" lehrer_id="l0002">
+		<crewmember schueler_id="s0001"/>
+		<crewmember schueler_id="s0002"/>
+		<crewmember schueler_id="s0041"/>
+		<crewmember schueler_id="s0040"/>
+	</crew>
+	
+	<crew id="c3" crew_name="jokers" lehrer_id="l0031">
+		<crewmember schueler_id="s0042"/>
+		<crewmember schueler_id="s0043"/>
+		<crewmember schueler_id="s0044"/>
+		<crewmember schueler_id="s0045"/>
+		<crewmember schueler_id="s0046"/>
+		<crewmember schueler_id="s0047"/>
+		<crewmember schueler_id="s0048"/>
+		<crewmember schueler_id="s0049"/>
+	</crew>
+	
+	<crew id="c4" crew_name="shuffler" lehrer_id="l0037">
+		<crewmember schueler_id="s0003"/>
+        <crewmember schueler_id="s0004"/>
+        <crewmember schueler_id="s0005"/>
+        <crewmember schueler_id="s0006"/>
+        <crewmember schueler_id="s0007"/>
+        <crewmember schueler_id="s0008"/>
+        <crewmember schueler_id="s0009"/>
+        <crewmember schueler_id="s0010"/>
+        <crewmember schueler_id="s0011"/>
+	</crew>
+	
+	<crew id="c5" crew_name="jumper" lehrer_id="l0038">
+	    <crewmember schueler_id="s0012"/>
+	    <crewmember schueler_id="s0013"/>
+	    <crewmember schueler_id="s0014"/>
+	    <crewmember schueler_id="s0015"/>
+	    <crewmember schueler_id="s0016"/>
+	    <crewmember schueler_id="s0017"/>
+	    <crewmember schueler_id="s0018"/>
+		<crewmember schueler_id="s0049"/>
+        <crewmember schueler_id="s0050"/>
+        <crewmember schueler_id="s0051"/>
+	</crew>
+	
+	<crew id="c6" crew_name="zumber" lehrer_id="l0036">
+	    <crewmember schueler_id="s0012"/>
+	    <crewmember schueler_id="s0013"/>
+	    <crewmember schueler_id="s0014"/>
+	    <crewmember schueler_id="s0043"/>
+	    <crewmember schueler_id="s0044"/>
+	    <crewmember schueler_id="s0045"/>
+	    <crewmember schueler_id="s0046"/>
+		<crewmember schueler_id="s0047"/>
+        <crewmember schueler_id="s0048"/>
+        <crewmember schueler_id="s0049"/>
+	</crew>	
+	
+	<crew id="c7" crew_name="magic" lehrer_id="l0035">
+	    <crewmember schueler_id="s0055"/>
+	    <crewmember schueler_id="s0056"/>
+	    <crewmember schueler_id="s0057"/>
+	    <crewmember schueler_id="s0059"/>
+	    <crewmember schueler_id="s0060"/>
+	    <crewmember schueler_id="s0062"/>
+	    <crewmember schueler_id="s0063"/>
+		<crewmember schueler_id="s0064"/>
+        <crewmember schueler_id="s0068"/>
+        <crewmember schueler_id="s0069"/>
+        <crewmember schueler_id="s0070"/>
+        <crewmember schueler_id="s0072"/>
+	</crew>	
+	
+	<crew id="c8" crew_name="moveIt" lehrer_id="l0043">
+	    <crewmember schueler_id="s0003"/>
+	    <crewmember schueler_id="s0004"/>
+	    <crewmember schueler_id="s0005"/>
+	    <crewmember schueler_id="s0044"/>
+	    <crewmember schueler_id="s0045"/>
+	    <crewmember schueler_id="s0046"/>
+	    <crewmember schueler_id="s0047"/>
+		<crewmember schueler_id="s0073"/>
+        <crewmember schueler_id="s0074"/>
+        <crewmember schueler_id="s0075"/>
+        <crewmember schueler_id="s0076"/>
+        <crewmember schueler_id="s0077"/>
+	</crew>	
+	
+	
+
+	<person personen_typ="schueler" id="s0001" vname="Patrick" nname="Poiger" geburtsdatum="08.12.1992"/>
+	<person personen_typ="schueler" id="s0002" vname="Lukas" nname="Bals" geburtsdatum="14.12.1997"/>
+	<person personen_typ="schueler" id="s0003" vname="Patrick" nname="Zgubic" geburtsdatum="07.06.1997"/>
+	<person personen_typ="schueler" id="s0004" vname="Iris" nname="Nemtz" geburtsdatum="29.09.1995"/>
+	<person personen_typ="schueler" id="s0005" vname="Theresa" nname="Miller" geburtsdatum="26.06.1997"/>
+	<person personen_typ="schueler" id="s0006" vname="Toni" nname="Frick" geburtsdatum="28.02.1977"/>
+	<person personen_typ="schueler" id="s0007" vname="Franziska" nname="Frick" geburtsdatum="11.06.1999"/>
+	<person personen_typ="schueler" id="s0008" vname="Lena" nname="Müller" geburtsdatum="21.06.1997"/>
+	<person personen_typ="schueler" id="s0009" vname="Corina" nname="Schweizer" geburtsdatum="21.03.1996"/>
+	<person personen_typ="schueler" id="s0010" vname="Victoria" nname="Hilka" geburtsdatum="20.10.1997"/>
+	<person personen_typ="schueler" id="s0011" vname="Johanna" nname="Frick" geburtsdatum="14.01.1997"/>
+    <person personen_typ="schueler" id="s0012" vname="Lukas" nname="Bals" geburtsdatum="14.12.1997"/>
+	<person personen_typ="schueler" id="s0013" vname="Katharina" nname="Bayer" geburtsdatum="10.12.1980"/>
+	<person personen_typ="schueler" id="s0014" vname="Rainer" nname="Bickel" geburtsdatum="22.04.1949"/>
+	<person personen_typ="schueler" id="s0015" vname="Yannik" nname="Hiber" geburtsdatum="04.02.1956"/>
+	<person personen_typ="schueler" id="s0016" vname="Letsgo" nname="Tyga" geburtsdatum="06.12.1990"/>
+	<person personen_typ="schueler" id="s0017" vname="Patrick" nname="Tesla" geburtsdatum="14.08.1997"/>
+	<person personen_typ="schueler" id="s0018" vname="Lilly" nname="Models" geburtsdatum="26.07.2008"/>
+	<person personen_typ="schueler" id="s0035" vname="Miriam" nname="Bett" geburtsdatum="02.02.2001"/>
+	<person personen_typ="schueler" id="s0036" vname="Niklas" nname="Meusburger" geburtsdatum="30.11.1999"/>
+	<person personen_typ="schueler" id="s0037" vname="Tim" nname="Hyan" geburtsdatum="14.08.2002"/>
+	<person personen_typ="schueler" id="s0038" vname="Severin" nname="Schmitt" geburtsdatum="11.05.1996"/>
+	<person personen_typ="schueler" id="s0039" vname="Annika" nname="Pieri" geburtsdatum="09.06.1997"/>
+	<person personen_typ="schueler" id="s0041" vname="Hans" nname="Thiel" geburtsdatum="06.07.1995"/>
+	<person personen_typ="schueler" id="s0040" vname="Lukas" nname="Zimmermann" geburtsdatum="18.11.1996"/>
+	<person personen_typ="schueler" id="s0042" vname="Mathias" nname="Winder" geburtsdatum="19.10.1998"/>
+	<person personen_typ="schueler" id="s0043" vname="Thomas" nname="Lerch" geburtsdatum="05.05.2005"/>
+	<person personen_typ="schueler" id="s0044" vname="Bettina" nname="Unterberger" geburtsdatum="03.03.2006"/>
+	<person personen_typ="schueler" id="s0045" vname="Lisa" nname="Huemer" geburtsdatum="05.12.2001"/>
+	<person personen_typ="schueler" id="s0046" vname="Katharina" nname="Summer" geburtsdatum="14.10.2002"/>
+	<person personen_typ="schueler" id="s0047" vname="Nils" nname="Holgersohn" geburtsdatum="11.12.1997"/>
+	<person personen_typ="schueler" id="s0048" vname="Gabriela" nname="Troy" geburtsdatum="02.12.2003"/>
+	<person personen_typ="schueler" id="s0049" vname="Matthias" nname="Lerch" geburtsdatum="10.12.2006"/>
+	<person personen_typ="schueler" id="s0050" vname="Jolanda" nname="Holger" geburtsdatum="08.10.1997"/>
+	<person personen_typ="schueler" id="s0051" vname="Emma" nname="Rella" geburtsdatum="02.06.2005"/>
+	<person personen_typ="schueler" id="s0052" vname="Manuela" nname="Puder" geburtsdatum="05.08.2002"/>
+	<person personen_typ="schueler" id="s0053" vname="Veronika" nname="Fritz" geburtsdatum="23.02.1997"/>
+	<person personen_typ="schueler" id="s0054" vname="Lara" nname="Gut" geburtsdatum="19.06.1993"/>
+	<person personen_typ="schueler" id="s0055" vname="Peter" nname="Parker" geburtsdatum="07.10.1984"/>
+	<person personen_typ="schueler" id="s0056" vname="Arnold" nname="Haugen" geburtsdatum="12.11.1989"/>
+	<person personen_typ="schueler" id="s0057" vname="Dennis" nname="Malgin" geburtsdatum="09.10.1997"/>
+	<person personen_typ="schueler" id="s0058" vname="Dennis" nname="Sticha" geburtsdatum="14.08.1998"/>
+	<person personen_typ="schueler" id="s0059" vname="Patrick" nname="Stuck" geburtsdatum="23.10.1990"/>
+	<person personen_typ="schueler" id="s0060" vname="Michael" nname="Sparr" geburtsdatum="14.02.1989"/>
+	<person personen_typ="schueler" id="s0061" vname="Alexander" nname="Ritzinger" geburtsdatum="22.10.1997"/>
+	<person personen_typ="schueler" id="s0062" vname="Patrick" nname="Halbeisen" geburtsdatum="02.05.1985"/>
+	<person personen_typ="schueler" id="s0063" vname="Katharina" nname="Maier" geburtsdatum="13.07.2000"/>
+	<person personen_typ="schueler" id="s0064" vname="Maria" nname="Winkler" geburtsdatum="13.11.2001"/>
+	<person personen_typ="schueler" id="s0065" vname="Magdalena" nname="Baur" geburtsdatum="22.03.2003"/>
+	<person personen_typ="schueler" id="s0066" vname="Kilian" nname="Baur" geburtsdatum="23.07.1999"/>
+	<person personen_typ="schueler" id="s0067" vname="Kira" nname="Hofmann" geburtsdatum="12.10.1989"/>
+	<person personen_typ="schueler" id="s0068" vname="Bastian" nname="Gaul" geburtsdatum="23.09.1996"/>
+	<person personen_typ="schueler" id="s0069" vname="Arielle" nname="Fisch" geburtsdatum="13.04.1995"/>
+	<person personen_typ="schueler" id="s0070" vname="Pia" nname="Loacker" geburtsdatum="03.11.1999"/>
+	<person personen_typ="schueler" id="s0071" vname="Stella" nname="Buschauer" geburtsdatum="05.06.1998"/>
+	<person personen_typ="schueler" id="s0072" vname="Alena" nname="Saringer" geburtsdatum="01.11.1999"/>
+	<person personen_typ="schueler" id="s0073" vname="Ralf" nname="Rauch" geburtsdatum="23.05.1994"/>
+	<person personen_typ="schueler" id="s0074" vname="Elias" nname="Wallenta" geburtsdatum="22.10.1999"/>
+	<person personen_typ="schueler" id="s0075" vname="Erwin" nname="Walder" geburtsdatum="19.04.19978"/>
+	<person personen_typ="schueler" id="s0076" vname="Isabella" nname="Nestler" geburtsdatum="16.07.1989"/>
+	<person personen_typ="schueler" id="s0077" vname="Larissa" nname="Bacher" geburtsdatum="18.05.1994"/>
+	
+	<person personen_typ="lehrer" id="l0001" vname="Mike" nname="Saretzki" geburtsdatum="07.02.1978"/>
+	<person personen_typ="lehrer" id="l0002" vname="Josef" nname="Gair" geburtsdatum="22.04.1957"/>
+	<person personen_typ="lehrer" id="l0031" vname="Hannes" nname="Bacher" geburtsdatum="22.06.1988"/>
+	<person personen_typ="lehrer" id="l0033" vname="Mona" nname="Lisa" geburtsdatum="24.09.1650"/>
+	<person personen_typ="lehrer" id="l0034" vname="Johannes" nname="Brahms" geburtsdatum="29.11.1995"/>
+	<person personen_typ="lehrer" id="l0035" vname="Wolfgang Amadeus" nname="Mozart" geburtsdatum="16.06.1960"/>
+	<person personen_typ="lehrer" id="l0036" vname="Emma" nname="Dancer" geburtsdatum="04.05.1991"/>
+	<person personen_typ="lehrer" id="l0037" vname="Patrick" nname="Moondancer" geburtsdatum="07.05.1998"/>
+	<person personen_typ="lehrer" id="l0038" vname="Tom" nname="Mayor" geburtsdatum="29.08.1996"/>
+	<person personen_typ="lehrer" id="l0039" vname="Luis" nname="Burtscher" geburtsdatum="26.01.1966"/>
+	<person personen_typ="lehrer" id="l0040" vname="Toni" nname="Buschmann" geburtsdatum="16.05.1969"/>
+	<person personen_typ="lehrer" id="l0041" vname="Julian" nname="Burger" geburtsdatum="04.11.1996"/>
+	<person personen_typ="lehrer" id="l0042" vname="Natalie" nname="Hammer" geburtsdatum="09.04.1997"/>
+	<person personen_typ="lehrer" id="l0043" vname="Jemima" nname="Auer" geburtsdatum="10.08.1999"/>
+	<person personen_typ="lehrer" id="l0044" vname="Lisa" nname="Schlacher" geburtsdatum="17.06.1999"/>
+	
+	
+	<lehrer lehrer_id = "l0001" >
+		<tanzstile tanzstil_id = "T1"/>	
+	</lehrer>
+	<lehrer lehrer_id = "l0002" >
+		<tanzstile tanzstil_id = "T3"/>	
+	</lehrer>
+	<lehrer lehrer_id = "l0031" >
+		<tanzstile tanzstil_id = "T1"/>
+		<tanzstile tanzstil_id = "T2"/>	
+	</lehrer>
+	<lehrer lehrer_id = "l0035" >
+		<tanzstile tanzstil_id = "T4"/>
+	</lehrer>
+	
+    <lehrer lehrer_id = "l0036" >
+		<tanzstile tanzstil_id = "T1"/>
+		<tanzstile tanzstil_id = "T3"/>
+		<tanzstile tanzstil_id = "T4"/>
+	</lehrer>
+	<lehrer lehrer_id = "l0037" >
+		<tanzstile tanzstil_id = "T2"/>
+	</lehrer>
+	<lehrer lehrer_id = "l0038" >
+		<tanzstile tanzstil_id = "T3"/>
+		<tanzstile tanzstil_id = "T4"/>
+	</lehrer>
+	
+	<lehrer lehrer_id = "l0042" >
+		<tanzstile tanzstil_id = "T3"/>
+	</lehrer>
+	
+	<lehrer lehrer_id = "l0043" >
+		<tanzstile tanzstil_id = "T2"/>
+	</lehrer>
+
+	
+	<tanzstil id = "T1" tanzstil_bezeichung = "TopRock"/>
+	<tanzstil id = "T2" tanzstil_bezeichung = "HipHop"/>
+	<tanzstil id = "T3" tanzstil_bezeichung = "Locking"/>
+	<tanzstil id = "T4" tanzstil_bezeichung = "House"/>
+
+</breakdance-datenbank>

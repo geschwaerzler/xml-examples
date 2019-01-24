@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT aktiva (company*, worker*, request*, offer*, qualification*)>
+
+<!ELEMENT company (address+, company-contract*, contact)>
+<!ATTLIST company
+	id ID #REQUIRED
+	name CDATA #REQUIRED
+>
+
+<!ELEMENT address EMPTY>
+<!ATTLIST address
+	country CDATA #REQUIRED
+	zip CDATA #REQUIRED
+	city CDATA #REQUIRED
+	street CDATA #REQUIRED
+>
+
+<!ELEMENT company-contract EMPTY>
+<!ATTLIST company-contract
+	offer-id IDREF #REQUIRED
+	hourly-wage CDATA #REQUIRED
+>
+
+<!ELEMENT contact EMPTY>
+<!ATTLIST contact
+	fname CDATA #REQUIRED
+	lname CDATA #REQUIRED
+	phonenumber CDATA #REQUIRED
+	e-mail CDATA #REQUIRED
+>
+
+
+<!ELEMENT worker (address, cv-entry*, worker-contract*)>
+<!ATTLIST worker
+	id ID #REQUIRED
+	fname CDATA #REQUIRED
+	lname CDATA #REQUIRED
+	phonenumber CDATA #REQUIRED
+	e-mail CDATA #IMPLIED
+	qualification IDREF #REQUIRED
+>
+
+<!ELEMENT cv-entry EMPTY>
+<!ATTLIST cv-entry
+	start CDATA #REQUIRED
+	end CDATA #REQUIRED
+	company-name CDATA #REQUIRED
+>
+
+<!ELEMENT worker-contract EMPTY>
+<!ATTLIST worker-contract
+	offer-id IDREF #REQUIRED
+	hourly-wage CDATA #REQUIRED
+>
+
+<!ELEMENT request (denied-worker*, request-entry+)>
+<!ATTLIST request
+	id ID #REQUIRED
+>
+
+<!ELEMENT denied-worker EMPTY>
+<!ATTLIST denied-worker
+	worker-id IDREF #REQUIRED	
+>
+
+<!ELEMENT request-entry EMPTY>
+<!ATTLIST request-entry
+	start CDATA #REQUIRED
+	end CDATA #IMPLIED
+	qualification IDREF #REQUIRED
+>
+
+<!ELEMENT offer (offered-worker+)>
+<!ATTLIST offer
+	id ID #REQUIRED
+	request-id IDREF #REQUIRED
+>
+
+<!ELEMENT offered-worker EMPTY>
+<!ATTLIST offered-worker
+	worker-id IDREF #REQUIRED
+	hourly-rate CDATA #REQUIRED
+>
+
+<!ELEMENT qualification EMPTY>
+<!ATTLIST qualification
+	id ID #REQUIRED
+	average-wage CDATA #REQUIRED
+>

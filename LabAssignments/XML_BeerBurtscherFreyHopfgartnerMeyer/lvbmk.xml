@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE LVBMK SYSTEM "lvbmk.dtd">
+<LVBMK>
+	<!-- PERSONEN -->
+
+	<Person pers_id="person_0" vname="Emanuel" nname="Beer"
+		geburtsdatum="03.12.1989" telefon_nr="+43 680 4523123"
+		email="emanuel.beer@bmklaus.at">
+		<Adresse adress_id="adresse_0" land="Österreich"
+			ort="Feldkirch" plz="6800" strasse="Bahnhofstrasse" strassennr="1" />
+		<Ist_In zvr="zvr_825141340" bdatum="23.04.2000" adatum="25.06.2018"/>
+	</Person>
+	<Person pers_id="person_1" vname="Frey" nname="Alen"
+		geburtsdatum="01.07.1991" telefon_nr="+43 680 6666666"
+		email="alen.frey@students.fhv.at">
+		<Adresse adress_id="adresse_1" land="Österreich"
+			ort="Feldkirch" plz="6800" strasse="Montfortplatz" strassennr="23" />
+	</Person>
+	<Person pers_id="person_2" vname="Katrin" nname="Burtscher"
+		geburtsdatum="14.08.1994" telefon_nr="+43 644 3456223"
+		email="kathrin.burtscher@gmx.at">
+		<Adresse adress_id="adresse_2" land="Österreich"
+			ort="Feldkirch" plz="6800" strasse="Bahnhofstrasse" strassennr="1" />
+		<Ist_In zvr="zvr_825141340" bdatum="09.03.2008"/>
+	</Person>
+	<Person pers_id="person_3" vname="Dominic" nname="Meyer"
+		geburtsdatum="20.05.1994" telefon_nr="+43 650 4567122"
+		email="dominic.meyer@a1.net">
+		<Adresse adress_id="adresse_3" land="Österreich"
+			ort="Bludenz" plz="6800" strasse="Bahnhofstrasse" strassennr="1" />
+	</Person>
+	<Person pers_id="person_4" vname="Miriam" nname="Pfister"
+		geburtsdatum="19.03.1999" telefon_nr="+43 680 3498121"
+		email="miriam.pfister@hotmail.com">
+		<Adresse adress_id="adresse_4" land="Österreich"
+			ort="Götzis" plz="6840" strasse="Littastraße" strassennr="6" />
+	</Person>
+	<Person pers_id="person_5" vname="Julian" nname="Ostermeier"
+		geburtsdatum="26.07.1988" telefon_nr="+43 660 4523898"
+		email="julian.ostermeier@gmx.at">
+		<Adresse adress_id="adresse_5" land="Österreich"
+			ort="Klaus" plz="6833" strasse="Treietstraße" strassennr="43" />
+		<Ist_In zvr="zvr_888888888" bdatum="19.09.2009"/>
+	</Person>
+	<Person pers_id="person_6" vname="Andre" nname="Hopfgartner"
+		geburtsdatum="03.12.1989" telefon_nr="+43 680 1155745"
+		email="andre.hopfgartner@hotmail.com">
+		<Adresse adress_id="adresse_6" land="Österreich"
+			ort="Bürs" plz="6706" strasse="Bremschlstraße" strassennr="16" />
+	</Person>
+	<Person pers_id="person_7" vname="Gerhard" nname="Schwärzler"
+	    geburtsdatum="31.02.1991" telefon_nr="+43 680 6851234"
+	    email="gerhard.schwaerzler@fhv.at">
+	    <Adresse adress_id="adresse_7" land="Österreich"
+	        ort="Bregenz" plz="6900" strasse="Geheimweg" strassennr="8" />
+	</Person>       
+
+	<!-- VEREINE -->
+
+	<Verein zvr="zvr_825141340" vereinsname="Bürgermusik Götzis">
+		<Adresse adress_id="adresse_8" land="Österreich" ort="Götzis"
+			plz="6832" strasse="Straße" strassennr="4" />
+	</Verein>
+	<Verein zvr="zvr_888888888" vereinsname="Bürgermusik Klaus">
+		<Adresse adress_id="adresse_9" land="Österreich" ort="Götzis"
+			plz="6832" strasse="Straße" strassennr="4" />
+	</Verein>
+	<Verein zvr="zvr_666664711" vereinsname="Bürgermusik Vandans">
+		<Adresse adress_id="adresse_10" land="Österreich" ort="Vandans"
+		    plz="6773" strasse="Unterer Weg" strassennr="5" />
+ 	
+	</Verein>
+
+	<!-- PREISKATEGORIEN -->
+
+	<Preiskategorie pkat_id="pkat_0" preis="0"
+		bezeichnung="Verleih_Intern" />
+	<Preiskategorie pkat_id="pkat_1" preis="50"
+		bezeichnung="Verleih_Extern" />
+
+	<!-- ARTIKEL -->
+
+	<Artikel artikel_id="artikel_0" bezeichnung="Hemd" hersteller="Grossmann" kaufpreis="50" kaufdatum="02.02.2017" >
+		<Bekleidung seriennummer="0000000000000" groesse="40" />
+	</Artikel>
+	<Artikel artikel_id="artikel_1" bezeichnung="Hemd" hersteller="Grossmann" kaufpreis="50" kaufdatum="02.02.1988" >
+		<Bekleidung seriennummer="0000000000001" groesse="40" />
+	</Artikel>
+	<Artikel artikel_id="artikel_2" bezeichnung="Hemd" hersteller="Grossmann" kaufpreis="50" kaufdatum="02.02.2015" >
+		<Bekleidung seriennummer="0000000000002" groesse="41" />
+	</Artikel>
+	<Artikel artikel_id="artikel_3" bezeichnung="Hemd" hersteller="Grossmann" kaufpreis="50" kaufdatum="03.09.2000" >
+		<Bekleidung seriennummer="0000000000003" groesse="42" />
+	</Artikel>
+	<Artikel artikel_id="artikel_4" bezeichnung="Hemd" hersteller="Grossmann" kaufpreis="50" kaufdatum="22.11.2013" >
+		<Bekleidung seriennummer="0000000000004" groesse="43" />
+	</Artikel>
+	<Artikel artikel_id="artikel_5" bezeichnung="Hemd" hersteller="Grossmann" kaufpreis="50" kaufdatum="02.02.2017" >
+		<Bekleidung seriennummer="0000000000005"  groesse="44" />
+	</Artikel>
+	<Artikel artikel_id="artikel_6" bezeichnung="Hemd" hersteller="Grossmann" kaufpreis="50" kaufdatum="02.02.2017" >
+		<Bekleidung seriennummer="0000000000006" groesse="45" />
+	</Artikel>
+	<Artikel artikel_id="artikel_7" bezeichnung="Hemd" hersteller="Grossmann" kaufpreis="50" kaufdatum="02.02.2017" >
+		<Bekleidung seriennummer="0000000000007"  groesse="46" />
+	</Artikel>
+	<Artikel artikel_id="artikel_8" bezeichnung="Hemd" hersteller="Grossmann" kaufpreis="50" kaufdatum="02.02.2017" >
+		<Bekleidung seriennummer="0000000000008" groesse="47" />
+	</Artikel>
+	<Artikel artikel_id="artikel_9" bezeichnung="Hemd" hersteller="Grossmann" kaufpreis="50" kaufdatum="02.02.2017" >
+		<Bekleidung seriennummer="0000000000009" groesse="48" />
+	</Artikel>
+	<Artikel artikel_id="artikel_10" bezeichnung="Hemd" hersteller="Grossmann" kaufpreis="50" kaufdatum="02.02.2017" >
+		<Bekleidung seriennummer="0000000000010" groesse="49" />
+	</Artikel>
+	<Artikel artikel_id="artikel_11" bezeichnung="Hemd" hersteller="Grossmann" kaufpreis="50" kaufdatum="02.02.2017" >
+		<Bekleidung seriennummer="0000000000011" groesse="50" />
+	</Artikel>
+	<Artikel artikel_id="artikel_12" bezeichnung="Hemd" hersteller="Grossmann" kaufpreis="50" kaufdatum="02.02.2017" >
+		<Bekleidung seriennummer="0000000000012" groesse="51" />
+	</Artikel>
+	<Artikel artikel_id="artikel_13" bezeichnung="Jacke" hersteller="Grossmann" kaufpreis="50" kaufdatum="10.03.2010" >
+		<Bekleidung seriennummer="0000000000013" groesse="45" />
+	</Artikel>
+	<Artikel artikel_id="artikel_14" bezeichnung="Jacke" hersteller="Grossmann" kaufpreis="50" kaufdatum="10.03.2017" >
+		<Bekleidung seriennummer="0000000000014" groesse="46" />
+	</Artikel>
+	<Artikel artikel_id="artikel_15" bezeichnung="Jacke" hersteller="Grossmann" kaufpreis="50" kaufdatum="10.03.2017" >
+		<Bekleidung seriennummer="0000000000015" groesse="47" />
+	</Artikel>
+	<Artikel artikel_id="artikel_16" bezeichnung="Jacke" hersteller="Grossmann" kaufpreis="50" kaufdatum="10.03.2017" >
+		<Bekleidung seriennummer="0000000000016" groesse="48" />
+	</Artikel>
+	<Artikel artikel_id="artikel_17" bezeichnung="Jacke" hersteller="Grossmann" kaufpreis="50" kaufdatum="10.03.2017"
+			 ausmusterdatum="28.10.2018">
+		<Bekleidung seriennummer="0000000000017" groesse="49" />
+	</Artikel>
+	<Artikel artikel_id="artikel_18" bezeichnung="Saxophon" hersteller="Yamaha" kaufpreis="1000" kaufdatum="13.02.2016" >
+		<Equipment seriennummer="954S1" />
+	</Artikel>
+	<Artikel artikel_id="artikel_19" bezeichnung="Saxophon" hersteller="Yamaha" kaufpreis="1000" kaufdatum="22.04.2016" >
+		<Equipment seriennummer="954S2" />
+	</Artikel>
+	<Artikel artikel_id="artikel_20" bezeichnung="Saxophon" hersteller="Yamaha" kaufpreis="1000" kaufdatum="14.05.2017" >
+		<Equipment seriennummer="954S3" />
+	</Artikel>
+	<Artikel artikel_id="artikel_21" bezeichnung="Saxophon" hersteller="Yamaha" kaufpreis="1000" kaufdatum="01.06.2018" >
+		<Equipment seriennummer="954S4" />
+	</Artikel>
+	<Artikel artikel_id="artikel_22" bezeichnung="Saxophon" hersteller="Yamaha" kaufpreis="1000" kaufdatum="01.06.2018" >
+		<Equipment seriennummer="954S5" />
+	</Artikel>
+	<Artikel artikel_id="artikel_23" bezeichnung="Trompete" hersteller="Yamaha" kaufpreis="700" kaufdatum="24.07.2000" >
+		<Equipment seriennummer="954T1" />
+	</Artikel>
+	<Artikel artikel_id="artikel_24" bezeichnung="Trompete" hersteller="Yamaha" kaufpreis="700" kaufdatum="13.02.2018"
+			 ausmusterdatum="12.12.2018">
+		<Equipment seriennummer="954T2" />
+	</Artikel>
+	<Artikel artikel_id="artikel_25" bezeichnung="Trompete" hersteller="Yamaha" kaufpreis="700" kaufdatum="16.05.1995" >
+		<Equipment seriennummer="954T3" />
+	</Artikel>
+	<Artikel artikel_id="artikel_26" bezeichnung="Gitarre" hersteller="Epiphone" kaufpreis="400" kaufdatum="21.01.1994" >
+		<Equipment seriennummer="954G1" />
+	</Artikel>
+	<Artikel artikel_id="artikel_27" bezeichnung="Gitarre" hersteller="Epiphone" kaufpreis="400" kaufdatum="21.01.2005"
+			 ausmusterdatum="18.01.2018" >
+		<Equipment seriennummer="954G2" />
+	</Artikel>
+	<Artikel artikel_id="artikel_28" bezeichnung="Waldhorn" hersteller="Yamaha" kaufpreis="700" kaufdatum="30.04.2017" >
+		<Equipment seriennummer="954W1" />
+	</Artikel>
+	<Artikel artikel_id="artikel_29" bezeichnung="Waldhorn" hersteller="Yamaha" kaufpreis="700" kaufdatum="02.02.2017" >
+		<Equipment seriennummer="954W2" />
+	</Artikel>
+	<Artikel artikel_id="artikel_30" bezeichnung="Waldhorn" hersteller="Yamaha" kaufpreis="700" kaufdatum="07.01.1999" >
+		<Equipment seriennummer="954W3" />
+	</Artikel>
+	<Artikel artikel_id="artikel_31" bezeichnung="Ukulele" hersteller="Mahamo" kaufpreis="300" kaufdatum="15.10.1990" >
+		<Equipment seriennummer="MHU1" />
+	</Artikel>
+	<Artikel artikel_id="artikel_32" bezeichnung="Ukulele" hersteller="Mahamo" kaufpreis="300" kaufdatum="15.10.2017" >
+		<Equipment seriennummer="MHU2" />
+	</Artikel>
+	<Artikel artikel_id="artikel_33" bezeichnung="Triangel" hersteller="Sonor" kaufpreis="50" kaufdatum="23.09.2018" >
+		<Equipment seriennummer="SOTR1" />
+	</Artikel>
+	<Artikel artikel_id="artikel_34" bezeichnung="Triangel" hersteller="Sonor" kaufpreis="50" kaufdatum="23.09.2018" >
+		<Equipment seriennummer="SOTR2" />
+	</Artikel>
+	<Artikel artikel_id="artikel_35" bezeichnung="Triangel" hersteller="Sonor" kaufpreis="50" kaufdatum="23.09.2018" >
+		<Equipment seriennummer="SOTR3" />
+	</Artikel>
+	<Artikel artikel_id="artikel_36" bezeichnung="Triangel" hersteller="Sonor" kaufpreis="50" kaufdatum="19.07.1996" >
+		<Equipment seriennummer="SOTR4" />
+	</Artikel>
+
+	<!-- VORGAENGE -->
+
+	<Vorgang vorgang_id="vorgang_0" artikel_id="artikel_0"
+		pkat_id="pkat_0" pers_id="person_0" bezeichnung="Verleih"
+		startdatum="23.02.2018" />
+    <Vorgang vorgang_id="vorgang_1" artikel_id="artikel_1"
+             pkat_id="pkat_0" pers_id="person_1" bezeichnung="Reparatur"
+             startdatum="22.12.1989" enddatum="24.12.1989"
+			 kommentar="Knöpfe wieder angenäht"/>
+    <Vorgang vorgang_id="vorgang_2" artikel_id="artikel_2"
+             pkat_id="pkat_0" pers_id="person_1" bezeichnung="Verleih"
+             startdatum="11.01.2016"/>
+    <Vorgang vorgang_id="vorgang_3" artikel_id="artikel_3"
+             pkat_id="pkat_1" pers_id="person_1" bezeichnung="Verleih"
+             startdatum="05.06.2001"/>
+    <Vorgang vorgang_id="vorgang_4" artikel_id="artikel_4"
+             pkat_id="pkat_0" pers_id="person_6" bezeichnung="Reparatur"
+             startdatum="12.08.2014" enddatum="16.08.2014"
+			 kommentar="Ärmel wieder angenäht"/>
+    <Vorgang vorgang_id="vorgang_5" artikel_id="artikel_18"
+             pkat_id="pkat_0" pers_id="person_5" bezeichnung="Reparatur"
+             startdatum="17.02.2018" enddatum="23.02.2018"
+			 kommentar="Ausgebeult, Kork ersetzt"/>
+    <Vorgang vorgang_id="vorgang_6" artikel_id="artikel_23"
+             pkat_id="pkat_0" pers_id="person_3" bezeichnung="Verleih"
+             startdatum="10.09.2017" enddatum="18.12.2018"
+			 kommentar="Instrument nach Rückgabe ok"/>
+    <Vorgang vorgang_id="vorgang_7" artikel_id="artikel_25"
+             pkat_id="pkat_0" pers_id="person_1" bezeichnung="Verleih"
+             startdatum="08.09.1999"/>
+    <Vorgang vorgang_id="vorgang_8" artikel_id="artikel_26"
+             pkat_id="pkat_0" pers_id="person_4" bezeichnung="Verleih"
+             startdatum="19.05.1997" />
+    <Vorgang vorgang_id="vorgang_9" artikel_id="artikel_23"
+             pkat_id="pkat_0" pers_id="person_3" bezeichnung="Verleih"
+             startdatum="19.12.2018"/>
+    <Vorgang vorgang_id="vorgang_10" artikel_id="artikel_31"
+             pkat_id="pkat_0" pers_id="person_2" bezeichnung="Verleih"
+             startdatum="24.12.1989" kommentar="Kauf Hemd"/>
+    <Vorgang vorgang_id="vorgang_11" artikel_id="artikel_30"
+             pkat_id="pkat_0" pers_id="person_6" bezeichnung="Reparatur"
+             startdatum="02.04.2000" enddatum="10.04.2000" kommentar="Ausgebeult"/>
+    <Vorgang vorgang_id="vorgang_12" artikel_id="artikel_36"
+             pkat_id="pkat_0" pers_id="person_2" bezeichnung="Verleih"
+             startdatum="11.02.2003"/>
+    <Vorgang vorgang_id="vorgang_13" artikel_id="artikel_32"
+             pkat_id="pkat_0" pers_id="person_4" bezeichnung="Verleih"
+             startdatum="24.12.1989" kommentar="Kauf Hemd"/>
+    <Vorgang vorgang_id="vorgang_14" artikel_id="artikel_27"
+             pkat_id="pkat_0" pers_id="person_6" bezeichnung="Verleih"
+             startdatum="09.06.2006" enddatum="18.01.2018"
+			 kommentar="Kaputt nach Verleih"/>
+    <Vorgang vorgang_id="vorgang_15" artikel_id="artikel_16"
+             pkat_id="pkat_0" pers_id="person_3" bezeichnung="Verleih"
+             startdatum="10.03.2010"/>
+</LVBMK>

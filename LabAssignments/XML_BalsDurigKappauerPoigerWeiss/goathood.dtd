@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT goat-hood (spieler*, strafe*, strafentyp*, ereignis*)>
+
+<!--Spieler-->
+<!ELEMENT spieler (rueckennummer, vorname, nachname, geburtsdatum)>
+<!ELEMENT rueckennummer (#PCDATA)>
+<!ELEMENT vorname (#PCDATA)>
+<!ELEMENT nachname (#PCDATA)>
+<!ELEMENT geburtsdatum (#PCDATA)>
+
+<!--Strafe-->
+<!ELEMENT strafe (bezahlt-am, ereignis-datum, ereignis-uhrzeit)>
+<!ELEMENT bezahlt-am (#PCDATA)>
+<!ELEMENT ereignis-datum (#PCDATA)>
+<!ELEMENT ereignis-uhrzeit (#PCDATA)>
+
+
+<!--Strafentyp-->
+<!ELEMENT strafentyp (strafentyp-bezeichnung, definition, preis, fairness)>
+<!ELEMENT strafentyp-bezeichnung (#PCDATA)>
+<!ELEMENT definition (#PCDATA)>
+<!ELEMENT preis (#PCDATA)>
+<!ELEMENT fairness (#PCDATA)>
+
+<!--Ereignis-->
+<!ELEMENT ereignis (ereignis-datum, ereignis-uhrzeit, spiel-ort?, spiel-ergebnis?, ereignis-spieler*)>
+<!ELEMENT spiel-ort (#PCDATA)>
+<!ELEMENT spiel-ergebnis (#PCDATA)>
+<!ELEMENT ereignis-spieler (#PCDATA)>
+
+
+<!ATTLIST spieler
+        id ID #REQUIRED>
+
+<!ATTLIST ereignis
+        id ID #REQUIRED>
+
+<!ATTLIST strafe
+        id ID #REQUIRED
+        strafentyp IDREF #REQUIRED
+        spieler-id IDREF #REQUIRED
+        ereignis-id IDREF #REQUIRED>
+
+<!ATTLIST strafentyp
+        id ID #REQUIRED>
+
+<!ATTLIST ereignis-spieler
+        spieler-id IDREF #REQUIRED>

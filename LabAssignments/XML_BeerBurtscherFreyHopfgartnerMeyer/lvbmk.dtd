@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+        <!ELEMENT LVBMK (Person|Verein|Adresse|Ist_In|Preiskategorie|Artikel|Vorgang)*>
+        <!ELEMENT Person (Adresse|Ist_In)*>
+        <!ATTLIST Person
+        		pers_id ID #REQUIRED
+        		vname CDATA #REQUIRED
+        		nname CDATA #REQUIRED
+        		geburtsdatum CDATA #REQUIRED
+        		email CDATA #REQUIRED
+        		telefon_nr CDATA #REQUIRED>
+        <!ELEMENT Adresse (#PCDATA)>
+        <!ATTLIST Adresse
+                adress_id ID #REQUIRED
+                land CDATA #REQUIRED
+                ort CDATA #REQUIRED
+                plz CDATA #REQUIRED
+                strasse CDATA #REQUIRED
+                strassennr CDATA #REQUIRED>
+        <!ELEMENT Verein (Adresse)*>
+        <!ATTLIST Verein
+                vereinsname CDATA #REQUIRED
+                zvr ID #REQUIRED>
+		<!ELEMENT Ist_In (#PCDATA)>
+		<!ATTLIST Ist_In
+				zvr IDREF #REQUIRED
+				bdatum CDATA #REQUIRED
+				adatum CDATA #IMPLIED>
+        <!ELEMENT Preiskategorie (#PCDATA)>
+        <!ATTLIST Preiskategorie
+                bezeichnung (Verleih_Intern|Verleih_Extern) #REQUIRED
+                pkat_id ID #REQUIRED
+                preis CDATA #REQUIRED>
+        <!ELEMENT Artikel (Equipment|Bekleidung)*>
+        <!ATTLIST Artikel
+                artikel_id ID #REQUIRED
+                bezeichnung CDATA #REQUIRED
+                hersteller CDATA #REQUIRED
+                kaufdatum CDATA #REQUIRED
+				ausmusterdatum CDATA #IMPLIED
+                kaufpreis CDATA #REQUIRED>
+        <!ELEMENT Equipment (#PCDATA)>
+        <!ATTLIST Equipment
+                seriennummer CDATA #REQUIRED>
+        <!ELEMENT Bekleidung (#PCDATA)>
+        <!ATTLIST Bekleidung
+                seriennummer CDATA #REQUIRED
+                groesse CDATA #REQUIRED>
+        <!ELEMENT Vorgang (#PCDATA)>
+        <!ATTLIST Vorgang
+                vorgang_id ID #REQUIRED
+                artikel_id IDREF #REQUIRED
+                pkat_id IDREF #REQUIRED
+                pers_id IDREF #IMPLIED
+                bezeichnung (Verleih|Reparatur) #REQUIRED
+                startdatum CDATA #REQUIRED
+                enddatum CDATA #IMPLIED
+                kommentar CDATA #IMPLIED>

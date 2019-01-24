@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE goat-hood SYSTEM "goathood.dtd">
+
+<goat-hood>
+    <!-- Spieler -->
+    <spieler id="spieler-1">
+        <rueckennummer>09</rueckennummer>
+        <vorname>Lukas</vorname>
+        <nachname>Bals</nachname>
+        <geburtsdatum>28.06.97</geburtsdatum>
+    </spieler>
+
+    <spieler id="spieler-2">
+        <rueckennummer>10</rueckennummer>
+        <vorname>Papa</vorname>
+        <nachname>Poiger</nachname>
+        <geburtsdatum>02.06.92</geburtsdatum>
+    </spieler>
+
+    <spieler id="spieler-3">
+        <rueckennummer>25</rueckennummer>
+        <vorname>Michael</vorname>
+        <nachname>Kappaurer</nachname>
+        <geburtsdatum>20.12.96</geburtsdatum>
+    </spieler>
+
+    <spieler id="spieler-4">
+        <rueckennummer>14</rueckennummer>
+        <vorname>Wusel</vorname>
+        <nachname>Imperial</nachname>
+        <geburtsdatum>31.10.17</geburtsdatum>
+    </spieler>
+
+    <spieler id="spieler-5">
+        <rueckennummer>02</rueckennummer>
+        <vorname>Pia</vorname>
+        <nachname>Weiß</nachname>
+        <geburtsdatum>15.12.93</geburtsdatum>
+    </spieler>
+
+    <spieler id="spieler-6">
+        <rueckennummer>08</rueckennummer>
+        <vorname>Vanessa</vorname>
+        <nachname>Durig</nachname>
+        <geburtsdatum>14.03.99</geburtsdatum>
+    </spieler>
+
+    <spieler id="spieler-7">
+        <rueckennummer>01</rueckennummer>
+        <vorname>Max</vorname>
+        <nachname>Mustermann</nachname>
+        <geburtsdatum>12.02.95</geburtsdatum>
+    </spieler>
+
+    <spieler id="spieler-8">
+        <rueckennummer>03</rueckennummer>
+        <vorname>Marcel</vorname>
+        <nachname>Müller</nachname>
+        <geburtsdatum>25.01.97</geburtsdatum>
+    </spieler>
+
+    <spieler id="spieler-9">
+        <rueckennummer>04</rueckennummer>
+        <vorname>Fabian</vorname>
+        <nachname>Rosenberger</nachname>
+        <geburtsdatum>01.07.94</geburtsdatum>
+    </spieler>
+
+    <spieler id="spieler-10">
+        <rueckennummer>05</rueckennummer>
+        <vorname>Hans</vorname>
+        <nachname>Wurst</nachname>
+        <geburtsdatum>11.09.95</geburtsdatum>
+    </spieler>
+
+    <spieler id="spieler-11">
+        <rueckennummer>06</rueckennummer>
+        <vorname>Alexander</vorname>
+        <nachname>Meusburger</nachname>
+        <geburtsdatum>20.12.97</geburtsdatum>
+    </spieler>
+
+    <spieler id="spieler-12">
+        <rueckennummer>07</rueckennummer>
+        <vorname>Hannes</vorname>
+        <nachname>Kannes</nachname>
+        <geburtsdatum>13.03.91</geburtsdatum>
+    </spieler>
+
+    <spieler id="spieler-13">
+        <rueckennummer>11</rueckennummer>
+        <vorname>Moritz</vorname>
+        <nachname>Gruber</nachname>
+        <geburtsdatum>08.05.98</geburtsdatum>
+    </spieler>
+
+    <spieler id="spieler-14">
+        <rueckennummer>12</rueckennummer>
+        <vorname>Sebastian</vorname>
+        <nachname>Gruber</nachname>
+        <geburtsdatum>17.10.95</geburtsdatum>
+    </spieler>
+
+    <spieler id="spieler-15">
+        <rueckennummer>13</rueckennummer>
+        <vorname>Manfred</vorname>
+        <nachname>Wagner</nachname>
+        <geburtsdatum>30.11.98</geburtsdatum>
+    </spieler>
+
+    <spieler id="spieler-16">
+        <rueckennummer>15</rueckennummer>
+        <vorname>Felix</vorname>
+        <nachname>Winkler</nachname>
+        <geburtsdatum>17.05.99</geburtsdatum>
+    </spieler>
+
+    <!-- Strafen -->
+    <strafe id="strafe-1" strafentyp="strafentyp-1" spieler-id="spieler-6" ereignis-id="ereignis-1">
+        <bezahlt-am>19.12.18</bezahlt-am>
+        <ereignis-datum>16.12.18</ereignis-datum>
+        <ereignis-uhrzeit>15:30</ereignis-uhrzeit>
+    </strafe>
+
+    <strafe id="strafe-2" strafentyp="strafentyp-4" spieler-id="spieler-16" ereignis-id="ereignis-6">
+        <bezahlt-am>11.09.2018</bezahlt-am>
+        <ereignis-datum>01.08.2018</ereignis-datum>
+        <ereignis-uhrzeit>15:30</ereignis-uhrzeit>
+    </strafe>
+
+    <strafe id="strafe-3" strafentyp="strafentyp-3" spieler-id="spieler-5" ereignis-id="ereignis-3">
+        <bezahlt-am>01.08.2018</bezahlt-am>
+        <ereignis-datum>11.07.2018</ereignis-datum>
+        <ereignis-uhrzeit>15:30</ereignis-uhrzeit>
+    </strafe>
+
+    <strafe id="strafe-4" strafentyp="strafentyp-9" spieler-id="spieler-11" ereignis-id="ereignis-4">
+        <bezahlt-am>08.05.2018</bezahlt-am>
+        <ereignis-datum>01.05.18</ereignis-datum>
+        <ereignis-uhrzeit>15:30</ereignis-uhrzeit>
+    </strafe>
+
+    <strafe id="strafe-5" strafentyp="strafentyp-9" spieler-id="spieler-14" ereignis-id="ereignis-4">
+        <bezahlt-am>15.05.18</bezahlt-am>
+        <ereignis-datum>01.05.18</ereignis-datum>
+        <ereignis-uhrzeit>15:30</ereignis-uhrzeit>
+    </strafe>
+
+    <strafe id="strafe-6" strafentyp="strafentyp-8" spieler-id="spieler-1" ereignis-id="ereignis-7">
+        <bezahlt-am></bezahlt-am> <!-- noch nicht bezahlt -->
+        <ereignis-datum>03.10.18</ereignis-datum>
+        <ereignis-uhrzeit>15:30</ereignis-uhrzeit>
+    </strafe>
+
+    <strafe id="strafe-7" strafentyp="strafentyp-2" spieler-id="spieler-5" ereignis-id="ereignis-1">
+        <bezahlt-am></bezahlt-am> <!-- noch nicht bezahlt -->
+        <ereignis-datum>16.12.18</ereignis-datum>
+        <ereignis-uhrzeit>15:30</ereignis-uhrzeit>
+    </strafe>
+
+    <strafe id="strafe-8" strafentyp="strafentyp-5" spieler-id="spieler-7" ereignis-id="ereignis-8">
+        <bezahlt-am>11.09.18</bezahlt-am>
+        <ereignis-datum>11.09.18</ereignis-datum>
+        <ereignis-uhrzeit>15:30</ereignis-uhrzeit>
+    </strafe>
+
+    <strafe id="strafe-9" strafentyp="strafentyp-7" spieler-id="spieler-2" ereignis-id="ereignis-3">
+        <bezahlt-am>11.07.18</bezahlt-am>
+        <ereignis-datum>11.07.18</ereignis-datum>
+        <ereignis-uhrzeit>15:30</ereignis-uhrzeit>
+    </strafe>
+
+    <strafe id="strafe-10" strafentyp="strafentyp-10" spieler-id="spieler-6" ereignis-id="ereignis-1">
+        <bezahlt-am></bezahlt-am> <!-- noch nicht bezahlt -->
+        <ereignis-datum>16.12.18</ereignis-datum>
+        <ereignis-uhrzeit>15:30</ereignis-uhrzeit>
+    </strafe>
+
+
+    <!-- Strafentyp -->
+    <strafentyp id="strafentyp-1">
+        <strafentyp-bezeichnung>Rote Karte</strafentyp-bezeichnung>
+        <definition>Rote Karte wegen Beleidigung oder Tätlichkeit</definition>
+        <preis>80.00</preis>
+        <fairness>2</fairness>
+    </strafentyp>
+
+    <strafentyp id="strafentyp-2">
+        <strafentyp-bezeichnung>Gelbe Karte</strafentyp-bezeichnung>
+        <definition>Gelbe Karte wegen Kritik oder Unsportlichkeit</definition>
+        <preis>40.00</preis>
+        <fairness>1</fairness>
+    </strafentyp>
+
+    <strafentyp id="strafentyp-3">
+        <strafentyp-bezeichnung>Unentschuldigtes zu spät kommen Training</strafentyp-bezeichnung>
+        <definition>Bescheid gegeben werden kann bis spätestens 15:00 Uhr am selben Tag</definition>
+        <preis>20.00</preis>
+        <fairness>0</fairness>
+    </strafentyp>
+
+    <strafentyp id="strafentyp-4">
+        <strafentyp-bezeichnung>Unentschuldigtes fehlen Training</strafentyp-bezeichnung>
+        <definition>Bescheid gegeben werden kann bis spätestens 15:00 Uhr am selben Tag</definition>
+        <preis>40.00</preis>
+        <fairness>0</fairness>
+    </strafentyp>
+
+    <strafentyp id="strafentyp-5">
+        <strafentyp-bezeichnung>Unentschuldigtes zu spät kommen Spiel</strafentyp-bezeichnung>
+        <definition>Bescheid gegeben werden muss mindestens ein Tag davor</definition>
+        <preis>40.00</preis>
+        <fairness>0</fairness>
+    </strafentyp>
+
+    <strafentyp id="strafentyp-6">
+        <strafentyp-bezeichnung>Unentschuldigtes fehlen Spiel</strafentyp-bezeichnung>
+        <definition>Bescheid gegeben werden muss mindestens einen Tag davor</definition>
+        <preis>80.00</preis>
+        <fairness>0</fairness>
+    </strafentyp>
+
+    <strafentyp id="strafentyp-7">
+        <strafentyp-bezeichnung>Seltsames Verhalten</strafentyp-bezeichnung>
+        <definition>Beurteilt der Trainer</definition>
+        <preis>20.00</preis>
+        <fairness>0</fairness>
+    </strafentyp>
+
+    <strafentyp id="strafentyp-8">
+        <strafentyp-bezeichnung>Handy klingeln in Besprechung</strafentyp-bezeichnung>
+        <definition>Handy klingeln in Besprechung</definition>
+        <preis>20.00</preis>
+        <fairness>0</fairness>
+    </strafentyp>
+
+    <strafentyp id="strafentyp-9">
+        <strafentyp-bezeichnung>Utensilien vergessen</strafentyp-bezeichnung>
+        <definition>Vergessen einer fürs Spiel oder Training benötigten Utensilien</definition>
+        <preis>20.00</preis>
+        <fairness>0</fairness>
+    </strafentyp>
+
+    <strafentyp id="strafentyp-10">
+        <strafentyp-bezeichnung>Rauchen oder Alkohol im Dress</strafentyp-bezeichnung>
+        <definition>Wenn im Dress Alkohol konsumiert oder geraucht wird</definition>
+        <preis>20.00</preis>
+        <fairness>0</fairness>
+    </strafentyp>
+
+    <!-- Ereignis -->
+    <ereignis id="ereignis-1">
+        <ereignis-datum>16.12.18</ereignis-datum>
+        <ereignis-uhrzeit>15:30</ereignis-uhrzeit>
+        <!-- Wenn es ein Spiel existiert der spiel-ort und das spiel-ergebnis, bei einem training nicht -->
+        <spiel-ort>Hittisau</spiel-ort>
+        <spiel-ergebnis>0:5</spiel-ergebnis>
+
+        <ereignis-spieler spieler-id="spieler-1"/>
+        <ereignis-spieler spieler-id="spieler-2"/>
+        <ereignis-spieler spieler-id="spieler-3"/>
+        <ereignis-spieler spieler-id="spieler-4"/>
+        <ereignis-spieler spieler-id="spieler-5"/>
+        <ereignis-spieler spieler-id="spieler-6"/>
+        <ereignis-spieler spieler-id="spieler-7"/>
+        <ereignis-spieler spieler-id="spieler-8"/>
+        <ereignis-spieler spieler-id="spieler-9"/>
+        <ereignis-spieler spieler-id="spieler-10"/>
+        <ereignis-spieler spieler-id="spieler-11"/>
+        <ereignis-spieler spieler-id="spieler-12"/>
+        <ereignis-spieler spieler-id="spieler-13"/>
+    </ereignis>
+
+    <ereignis id="ereignis-2">
+        <ereignis-datum>20.06.18</ereignis-datum>
+        <ereignis-uhrzeit>15:30</ereignis-uhrzeit>
+
+        <spiel-ort>Bezau</spiel-ort>
+        <spiel-ergebnis>2:3</spiel-ergebnis>
+
+        <ereignis-spieler spieler-id="spieler-1"/>
+        <ereignis-spieler spieler-id="spieler-7"/>
+        <ereignis-spieler spieler-id="spieler-8"/>
+        <ereignis-spieler spieler-id="spieler-9"/>
+        <ereignis-spieler spieler-id="spieler-10"/>
+        <ereignis-spieler spieler-id="spieler-11"/>
+        <ereignis-spieler spieler-id="spieler-12"/>
+        <ereignis-spieler spieler-id="spieler-13"/>
+        <ereignis-spieler spieler-id="spieler-14"/>
+        <ereignis-spieler spieler-id="spieler-15"/>
+        <ereignis-spieler spieler-id="spieler-16"/>
+        <ereignis-spieler spieler-id="spieler-2"/>
+    </ereignis>
+
+    <ereignis id="ereignis-3">
+        <ereignis-datum>11.07.18</ereignis-datum>
+        <ereignis-uhrzeit>15:30</ereignis-uhrzeit>
+        <!-- Training deswegen kein spiel-ort und kein spiel-ergebnis -->
+        <spiel-ort></spiel-ort>
+        <spiel-ergebnis></spiel-ergebnis>
+
+        <ereignis-spieler spieler-id="spieler-1"/>
+        <ereignis-spieler spieler-id="spieler-2"/>
+        <ereignis-spieler spieler-id="spieler-3"/>
+        <ereignis-spieler spieler-id="spieler-4"/>
+        <ereignis-spieler spieler-id="spieler-5"/>
+        <ereignis-spieler spieler-id="spieler-6"/>
+        <ereignis-spieler spieler-id="spieler-7"/>
+        <ereignis-spieler spieler-id="spieler-8"/>
+        <ereignis-spieler spieler-id="spieler-9"/>
+        <ereignis-spieler spieler-id="spieler-10"/>
+        <ereignis-spieler spieler-id="spieler-11"/>
+        <ereignis-spieler spieler-id="spieler-12"/>
+        <ereignis-spieler spieler-id="spieler-13"/>
+        <ereignis-spieler spieler-id="spieler-14"/>
+        <ereignis-spieler spieler-id="spieler-15"/>
+        <ereignis-spieler spieler-id="spieler-16"/>
+    </ereignis>
+
+    <ereignis id="ereignis-4">
+        <ereignis-datum>01.05.18</ereignis-datum>
+        <ereignis-uhrzeit>15:30</ereignis-uhrzeit>
+
+        <spiel-ort>Mellau</spiel-ort>
+        <spiel-ergebnis>3:3</spiel-ergebnis>
+
+        <ereignis-spieler spieler-id="spieler-1"/>
+        <ereignis-spieler spieler-id="spieler-4"/>
+        <ereignis-spieler spieler-id="spieler-8"/>
+        <ereignis-spieler spieler-id="spieler-16"/>
+        <ereignis-spieler spieler-id="spieler-2"/>
+        <ereignis-spieler spieler-id="spieler-6"/>
+        <ereignis-spieler spieler-id="spieler-11"/>
+        <ereignis-spieler spieler-id="spieler-12"/>
+        <ereignis-spieler spieler-id="spieler-13"/>
+        <ereignis-spieler spieler-id="spieler-14"/>
+        <ereignis-spieler spieler-id="spieler-3"/>
+        <ereignis-spieler spieler-id="spieler-7"/>
+    </ereignis>
+
+    <ereignis id="ereignis-5">
+        <ereignis-datum>15.04.18</ereignis-datum>
+        <ereignis-uhrzeit>15:30</ereignis-uhrzeit>
+        <!-- Training -->
+        <spiel-ort></spiel-ort>
+        <spiel-ergebnis></spiel-ergebnis>
+
+        <ereignis-spieler spieler-id="spieler-1"/>
+        <ereignis-spieler spieler-id="spieler-2"/>
+        <ereignis-spieler spieler-id="spieler-3"/>
+        <ereignis-spieler spieler-id="spieler-4"/>
+        <ereignis-spieler spieler-id="spieler-5"/>
+        <ereignis-spieler spieler-id="spieler-6"/>
+        <ereignis-spieler spieler-id="spieler-7"/>
+        <ereignis-spieler spieler-id="spieler-8"/>
+        <ereignis-spieler spieler-id="spieler-9"/>
+        <ereignis-spieler spieler-id="spieler-10"/>
+        <ereignis-spieler spieler-id="spieler-11"/>
+        <ereignis-spieler spieler-id="spieler-12"/>
+        <ereignis-spieler spieler-id="spieler-13"/>
+        <ereignis-spieler spieler-id="spieler-14"/>
+        <ereignis-spieler spieler-id="spieler-15"/>
+        <ereignis-spieler spieler-id="spieler-16"/>
+    </ereignis>
+
+    <ereignis id="ereignis-6">
+        <ereignis-datum>01.08.18</ereignis-datum>
+        <ereignis-uhrzeit>15:30</ereignis-uhrzeit>
+        <!-- Training bewusst spieler-16 weggelassen weil er ohne abmeldung nicht beim trainig anwesened war-->
+        <spiel-ort></spiel-ort>
+        <spiel-ergebnis></spiel-ergebnis>
+
+        <ereignis-spieler spieler-id="spieler-1"/>
+        <ereignis-spieler spieler-id="spieler-2"/>
+        <ereignis-spieler spieler-id="spieler-3"/>
+        <ereignis-spieler spieler-id="spieler-4"/>
+        <ereignis-spieler spieler-id="spieler-5"/>
+        <ereignis-spieler spieler-id="spieler-6"/>
+        <ereignis-spieler spieler-id="spieler-7"/>
+        <ereignis-spieler spieler-id="spieler-8"/>
+        <ereignis-spieler spieler-id="spieler-9"/>
+        <ereignis-spieler spieler-id="spieler-10"/>
+        <ereignis-spieler spieler-id="spieler-11"/>
+        <ereignis-spieler spieler-id="spieler-12"/>
+        <ereignis-spieler spieler-id="spieler-13"/>
+        <ereignis-spieler spieler-id="spieler-14"/>
+        <ereignis-spieler spieler-id="spieler-15"/>
+    </ereignis>
+
+    <ereignis id="ereignis-7">
+        <ereignis-datum>03.10.18</ereignis-datum>
+        <ereignis-uhrzeit>15:30</ereignis-uhrzeit>
+
+        <spiel-ort>Egg</spiel-ort>
+        <spiel-ergebnis>2:4</spiel-ergebnis>
+
+        <ereignis-spieler spieler-id="spieler-1"/>
+        <ereignis-spieler spieler-id="spieler-3"/>
+        <ereignis-spieler spieler-id="spieler-7"/>
+        <ereignis-spieler spieler-id="spieler-9"/>
+        <ereignis-spieler spieler-id="spieler-10"/>
+        <ereignis-spieler spieler-id="spieler-11"/>
+        <ereignis-spieler spieler-id="spieler-8"/>
+        <ereignis-spieler spieler-id="spieler-16"/>
+        <ereignis-spieler spieler-id="spieler-2"/>
+        <ereignis-spieler spieler-id="spieler-6"/>
+        <ereignis-spieler spieler-id="spieler-14"/>
+        <ereignis-spieler spieler-id="spieler-15"/>
+    </ereignis>
+
+    <ereignis id="ereignis-8">
+        <ereignis-datum>11.09.18</ereignis-datum>
+        <ereignis-uhrzeit>15:30</ereignis-uhrzeit>
+
+        <spiel-ort>Schwarzenberg</spiel-ort>
+        <spiel-ergebnis>2:4</spiel-ergebnis>
+
+        <ereignis-spieler spieler-id="spieler-1"/>
+        <ereignis-spieler spieler-id="spieler-3"/>
+        <ereignis-spieler spieler-id="spieler-14"/>
+        <ereignis-spieler spieler-id="spieler-9"/>
+        <ereignis-spieler spieler-id="spieler-16"/>
+        <ereignis-spieler spieler-id="spieler-11"/>
+        <ereignis-spieler spieler-id="spieler-8"/>
+        <ereignis-spieler spieler-id="spieler-13"/>
+        <ereignis-spieler spieler-id="spieler-2"/>
+        <ereignis-spieler spieler-id="spieler-6"/>
+        <ereignis-spieler spieler-id="spieler-4"/>
+        <ereignis-spieler spieler-id="spieler-7"/>
+    </ereignis>
+</goat-hood>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT breakdance-datenbank (schulstandort*, crew*, person*, lehrer*, tanzstil* )>
+
+<!ELEMENT schulstandort (raum)*>
+<!ATTLIST schulstandort 
+	id ID #REQUIRED
+	standort_bezeichnung CDATA #REQUIRED
+>
+
+<!ELEMENT raum (unterrichtseinheit)*>
+<!ATTLIST raum 
+	id ID #REQUIRED
+	raum_kapazitaet CDATA #REQUIRED
+>
+
+<!ELEMENT unterrichtseinheit EMPTY>
+<!ATTLIST unterrichtseinheit
+	id ID #REQUIRED
+	crew_id IDREF #REQUIRED
+	ue_wochentag CDATA #REQUIRED
+	wiederholung CDATA #REQUIRED
+	ue_startZeit CDATA #IMPLIED
+	ue_endZeit CDATA #IMPLIED
+	>
+
+<!ELEMENT crew (crewmember)*>
+<!ATTLIST crew
+	id ID #REQUIRED
+	crew_name CDATA #REQUIRED
+	lehrer_id IDREF #REQUIRED
+>
+
+<!ELEMENT crewmember EMPTY>
+<!ATTLIST crewmember
+	schueler_id IDREF #REQUIRED
+>
+
+<!ELEMENT person EMPTY>
+<!ATTLIST person
+	personen_typ CDATA #REQUIRED
+	id ID #REQUIRED
+	vname CDATA #REQUIRED
+	nname CDATA #REQUIRED
+	geburtsdatum CDATA #REQUIRED
+>
+
+<!ELEMENT lehrer (tanzstile)*>
+<!ATTLIST lehrer
+	lehrer_id IDREF #REQUIRED
+>
+<!ELEMENT tanzstile EMPTY>
+<!ATTLIST tanzstile
+	tanzstil_id IDREF #REQUIRED
+>
+
+<!ELEMENT tanzstil EMPTY>
+<!ATTLIST tanzstil
+	id ID #REQUIRED
+	tanzstil_bezeichung CDATA #REQUIRED
+>
+	

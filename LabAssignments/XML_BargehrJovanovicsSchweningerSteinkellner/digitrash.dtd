@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+        <!ELEMENT DigiTrash (Rechnung*, Rechnungsposten*, Kategorie*)>
+        <!ELEMENT Rechnung (Beinhaltet*)>
+        <!ATTLIST Rechnung
+                id              ID #REQUIRED
+                type            (kunde | monat) #REQUIRED
+                zeitstempel     CDATA #REQUIRED
+                >
+
+        <!ELEMENT Rechnungsposten EMPTY>
+        <!ATTLIST Rechnungsposten
+                id              ID #REQUIRED
+                anzahl          CDATA #REQUIRED
+                stueckpreis     CDATA #REQUIRED
+                steuer          CDATA #REQUIRED
+                artikel-id      IDREF #REQUIRED
+                >
+
+        <!ELEMENT Kategorie (Artikel*)>
+        <!ATTLIST Kategorie
+                id              ID #REQUIRED
+                bezeichnung     CDATA #REQUIRED
+                mehrwertsteuer  CDATA #REQUIRED
+                >
+
+        <!ELEMENT Artikel EMPTY>
+        <!ATTLIST Artikel
+                id              ID #REQUIRED
+                bezeichnung     CDATA #REQUIRED
+                beschreibung    CDATA #REQUIRED
+                groesse         CDATA #REQUIRED
+                einheit         CDATA #REQUIRED
+                packungsgroesse CDATA #REQUIRED
+                verkaufspreis   CDATA #REQUIRED
+                >
+
+        <!ELEMENT Beinhaltet EMPTY>
+        <!ATTLIST Beinhaltet
+                rechnungsposten-id  IDREF #REQUIRED
+                >

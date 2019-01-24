@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE aktiva SYSTEM "aktiva.dtd">
+<aktiva>
+
+	<company id="company-1" name="FHV GmbH">
+		<address country="AUT" zip="6850" city="Dornbirn" street="Hochschulstraße 1"/>
+		<contact fname="Max" lname="Mustermann" phonenumber="6428429" e-mail="abc@gmx.at"/>
+	</company>
+	<company id="company-2" name="Grass">
+		<address country="AUT" zip="6973" city="Höchst" street="Grass Platz 1"/>
+		<contact fname="Gustav" lname="Klien" phonenumber="26497975168" e-mail="gustav@gmx.at"/>
+	</company>
+	<company id="company-3" name="I+R Gruppe GmbH">
+		<address country="AUT" zip="6923" city="Lauterach" street="Johann-Schertler-Straße 1"/>
+		<company-contract offer-id="offer-1" hourly-wage="20.00"/>
+		<company-contract offer-id="offer-1" hourly-wage="19.00"/>
+		<company-contract offer-id="offer-1" hourly-wage="18.00"/>
+		<contact fname="Anna" lname="Bolika" phonenumber="715428429" e-mail="anna@gmx.at"/>
+	</company>
+	<company id="company-4" name="Scheffknecht Transporte">
+		<address country="AUT" zip="6890" city="Lustenau" street="Hagstraße 30"/>
+		<company-contract offer-id="offer-5" hourly-wage="8.00"/>
+		<company-contract offer-id="offer-5" hourly-wage="8.00"/>
+		<contact fname="Hans" lname="Friedl" phonenumber="642844729" e-mail="scheffknecht@hotmail.at"/>
+	</company>
+	<company id="company-5" name="Elektro Österle GmbH">
+		<address country="AUT" zip="6933" city="Doren" street="Schnoran 182"/>
+		<contact fname="Hein" lname="Blöd" phonenumber="36168248" e-mail="heinblöd@gmail.at"/>
+	</company>
+	<company id="company-6" name="Engel Installationen">
+		<address country="AUT" zip="6850" city="Dornbirn" street="Schwefel 26"/>
+		<company-contract offer-id="offer-3" hourly-wage="15.00"/>
+		<company-contract offer-id="offer-3" hourly-wage="7.00"/>
+		<company-contract offer-id="offer-3" hourly-wage="7.00"/>
+		<contact fname="Erhardt" lname="Engel" phonenumber="05572 22552-3" e-mail="engel.inst@a1.net"/>
+	</company>
+	<company id="company-7" name="Zimmerman Bau-GmbH">
+		<address country="AUT" zip="6900" city="Bregenz" street="Quellenstraße 45"/>
+		<company-contract offer-id="offer-2" hourly-wage="17.00"/>
+		<company-contract offer-id="offer-2" hourly-wage="17.00"/>
+		<company-contract offer-id="offer-2" hourly-wage="17.00"/>
+		<contact fname="Sarah" lname="Gmeiner" phonenumber="05574 42979-1" e-mail="sgmein@gmail.at"/>
+	</company>
+	<company id="company-8" name="Fliesen Felder">
+		<address country="AUT" zip="6890" city="Lustenau" street="Mähdlestraße 40"/>
+		<company-contract offer-id="offer-4" hourly-wage="10.00"/>
+		<company-contract offer-id="offer-4" hourly-wage="7.50"/>
+		<contact fname="Else" lname="Prokopic" phonenumber="05577 62535-1" e-mail="else.prokopic@felder.at"/>
+	</company>
+	
+	
+	<worker id="worker-1" fname="Paul" lname="Gruber" phonenumber="1983915" e-mail="hshg@gmail.com" qualification="elektriker">
+		<address country="AUT" zip="6850" city="Schwarzenberg" street="Nebengasse 1"/>
+		<cv-entry start="12.12.2000" end="02.02.2010" company-name="I+R Gruppe GmbH"/>
+		<cv-entry start="01.03.2010" end="30.08.2016" company-name="JoviTech"/>
+		<cv-entry start="12.11.2016" end="01.01.2017" company-name="Blum"/>
+		<cv-entry start="04.01.2017" end="19.04.2017" company-name="GBWeiß"/>
+		<cv-entry start="20.04.2018" end="12.12.2018" company-name="Elektro-Willi"/>
+		<worker-contract offer-id="offer-1" hourly-wage="17.00"/>
+	</worker>
+	<worker id="worker-2" fname="Horst" lname="Hammer" phonenumber="7890022" e-mail="horsthg@gmx.com" qualification="maurer">
+		<address country="AUT" zip="6900" city="Bregenz" street="Leutbühel 2"/>
+		<cv-entry start="10.01.1999" end="03.04.2002" company-name="Bachmann"/>
+		<cv-entry start="02.12.2000" end="02.09.2005" company-name="I+R Gruppe GmbH"/>
+		<cv-entry start="16.09.2005" end="28.10.2011" company-name="Loacker"/>
+		<cv-entry start="12.12.2011" end="02.02.2012" company-name="Zimmerman Bau-GmbH"/>
+		<cv-entry start="10.04.2012" end="10.04.2018" company-name="Huppenkothen"/>
+		<worker-contract offer-id="offer-1" hourly-wage="16.00"/>
+		<worker-contract offer-id="offer-2" hourly-wage="16.00"/>
+	</worker>
+	<worker id="worker-3" fname="Karl" lname="Kleister" phonenumber="1234567" e-mail="kleister.karl@gmail.com" qualification="gwh-installateur">
+		<address country="AUT" zip="6923" city="Lauterach" street="Bundesstrasse 115"/>
+		<cv-entry start="19.09.1998" end="02.09.2000" company-name="Karls Klos"/>
+		<cv-entry start="12.12.2000" end="02.02.2010" company-name="I+R Gruppe GmbH"/>
+		<cv-entry start="05.05.2010" end="30.8.2013" company-name="Heizungen Hubert"/>
+		<cv-entry start="03.09.2013" end="20.12.2018" company-name="Summer Sanitär u. Heizungstechnik"/>
+		<worker-contract offer-id="offer-1" hourly-wage="17.00"/>
+	</worker>
+	<worker id="worker-4" fname="Dörthe" lname="Müller" phonenumber="0664 908763" e-mail="doemueg@gmail.com" qualification="hilfsarbeiter">
+		<address country="AUT" zip="6933" city="Doren" street="Hubahn 23"/>
+		<cv-entry start="01.01.2013" end="01.02.2015" company-name="Engel Installationen"/>
+		<cv-entry start="15.06.2015" end="30.12.2015" company-name="Fliesen Felder"/>
+		<cv-entry start="13.09.2017" end="" company-name="Scheffknecht Transporte"/>
+		<worker-contract offer-id="offer-3" hourly-wage="6.00"/>
+		<worker-contract offer-id="offer-4" hourly-wage="6.00"/>
+		<worker-contract offer-id="offer-5" hourly-wage="6.50"/>
+	</worker>
+	<worker id="worker-5" fname="Tobias" lname="Strnic" phonenumber="0600 8765432" e-mail="tob.str@gmx.at" qualification="fliesenleger">
+		<address country="AUT" zip="6900" city="Bregenz" street="Wolfbergstraße 10"/>
+		<cv-entry start="04.01.2013" end="19.08.2015" company-name="Fliesen Form"/>
+		<cv-entry start="13.09.2015" end="" company-name="Fliesen Felder"/>
+		<worker-contract offer-id="offer-4" hourly-wage="8.00"/>
+	</worker>
+	<worker id="worker-6" fname="Herbert" lname="Lamprecht" phonenumber="05574 08542" e-mail="herlamp@a1.at" qualification="klempner">
+		<address country="AUT" zip="6850" city="Dornbirn" street="J.G. Ulmerstraße 13"/>
+		<cv-entry start="01.01.2013" end="01.09.2015" company-name="Engel Installationen"/>
+		<cv-entry start="12.11.15" end="01.01.17" company-name="Tenne Bad und Sanitär"/>
+		<cv-entry start="05.02.17" end="20.11.18" company-name="Badmann Installationen"/>
+		<worker-contract offer-id="offer-3" hourly-wage="13.00"/>
+	</worker>
+	<worker id="worker-7" fname="Nenad" lname="Özcan" phonenumber="0600 657843" e-mail="nenad.oezcan@gmail.at" qualification="zimmerer">
+		<address country="AUT" zip="6850" city="Dornbirn" street="Hoschulstraße 20"/>
+		<cv-entry start="12.12.2011" end="02.02.2012" company-name="Zimmermann Bau-GmbH"/>
+		<cv-entry start="05.04.2012" end="20.11.18" company-name="Holzmann"/>
+ 		<worker-contract offer-id="offer-2" hourly-wage="14.50"/>
+	</worker>
+	<worker id="worker-8" fname="Markus" lname="Österle" phonenumber="0664 908070" e-mail="markus.oe@a1.net" qualification="dachdecker">
+		<address country="AUT" zip="6900" city="Bregenz" street="Gallusstraße 37"/>
+		<cv-entry start="12.12.2011" end="02.02.2012" company-name="Zimmermann Bau-GmbH"/>
+		<cv-entry start="01.10.2012" end="25.12.2018" company-name="Zimmerei Berchtel GmbH"/>
+		<worker-contract offer-id="offer-2" hourly-wage="13.50"/>
+	</worker>
+	<worker id="worker-9" fname="Erich" lname="Schneider" phonenumber="0664 934570" qualification="elektriker">
+		<address country="AUT" zip="6900" city="Bregenz" street="Bergstraße 6"/>
+		<cv-entry start="06.06.1990" end="06.06.2017" company-name="Elektro Pluschnig GmbH"/>
+	</worker>
+	<worker id="worker-10" fname="Christina" lname="Grabher" phonenumber="0664 900998" e-mail="grabher.christina@gmx.at" qualification="elektriker">
+		<address country="AUT" zip="6900" city="Bregenz" street="Arlbergstraße 75"/>
+		<cv-entry start="05.04.1999" end="10.10.2005" company-name="I+R Gruppe GmbH"/>
+		<cv-entry start="03.04.2006" end="10.10.2017" company-name="Elektro-Willie"/>
+	</worker>
+		<worker id="worker-11" fname="Emil" lname="Nussbaumer" phonenumber="0660 890998" qualification="hilfsarbeiter">
+		<address country="AUT" zip="6850" city="Dorbirn" street="Wallenmahd 22"/>
+		<cv-entry start="01.01.2007" end="31.12.2008" company-name="I+R Gruppe GmbH"/>
+		<cv-entry start="01.01.2009" end="31.12.2010" company-name="Flatz"/>
+		<cv-entry start="01.01.2011" end="31.12.2012" company-name="Collini"/>
+		<cv-entry start="01.02.2013" end="01.02.2015" company-name="Engel Installationen"/>
+		<cv-entry start="01.04.2015" end="31.07.2017" company-name="Blum"/>
+		<cv-entry start="13.09.2017" end="" company-name="Scheffknecht Transporte"/>
+		<worker-contract offer-id="offer-3" hourly-wage="6.00"/>
+		<worker-contract offer-id="offer-5" hourly-wage="6.50"/>
+	</worker>
+	
+	<request id="request-1">
+		<denied-worker worker-id="worker-10"/>
+		<request-entry start="12.12.2000" end="02.02.2010" qualification="elektriker"/>
+		<request-entry start="12.12.2000" end="02.02.2010" qualification="gwh-installateur"/>
+		<request-entry start="02.12.2000" end="02.09.2005" qualification="maurer"/>		
+	</request>
+	<request id="request-2">
+		<request-entry start="12.12.2011" end="02.02.2012" qualification="dachdecker"/>
+		<request-entry start="12.12.2011" end="02.02.2012" qualification="zimmerer"/>
+		<request-entry start="12.12.2011" end="02.02.2012" qualification="maurer"/>		
+	</request>
+	<request id="request-3">
+		<denied-worker worker-id="worker-1"/>
+		<request-entry start="01.01.2013" end="01.09.2015" qualification="klempner"/>
+		<request-entry start="01.01.2013" end="01.02.2015" qualification="hilfsarbeiter"/>	
+		<request-entry start="01.02.2013" end="01.02.2015" qualification="hilfsarbeiter"/>		
+	</request>
+	<request id="request-4">
+	<denied-worker worker-id="worker-11"/>
+		<request-entry start="13.09.2015" qualification="fliesenleger"/>
+		<request-entry start="15.06.2015" end="30.12.2015" qualification="hilfsarbeiter"/>
+	</request>
+	<request id="request-5">
+		<request-entry start="13.09.2017" qualification="hilfsarbeiter"/>
+		<request-entry start="13.09.2017" qualification="hilfsarbeiter"/>		
+	</request>
+
+	<offer id="offer-1" request-id="request-1">
+		<offered-worker worker-id="worker-1" hourly-rate="20.00"/>
+		<offered-worker worker-id="worker-3" hourly-rate="19.00"/>
+		<offered-worker worker-id="worker-2" hourly-rate="18.00"/>
+	</offer>
+	<offer id="offer-2" request-id="request-2">	
+		<offered-worker worker-id="worker-8" hourly-rate="17.00"/>
+		<offered-worker worker-id="worker-7" hourly-rate="17.00"/>
+		<offered-worker worker-id="worker-2" hourly-rate="17.00"/>
+	</offer>
+	<offer id="offer-3" request-id="request-3">	
+		<offered-worker worker-id="worker-6" hourly-rate="15.00"/>
+		<offered-worker worker-id="worker-4" hourly-rate="7.00"/>
+		<offered-worker worker-id="worker-11" hourly-rate="7.00"/>
+	</offer>
+	<offer id="offer-4" request-id="request-4">	
+		<offered-worker worker-id="worker-5" hourly-rate="10.00"/>
+		<offered-worker worker-id="worker-4" hourly-rate="7.50"/>
+	</offer>
+	<offer id="offer-5" request-id="request-5">	
+		<offered-worker worker-id="worker-11" hourly-rate="8.00"/>
+		<offered-worker worker-id="worker-4" hourly-rate="8.00"/>
+	</offer>
+	
+	<qualification id="elektriker" average-wage="15.00"/>
+	<qualification id="gwh-installateur" average-wage="14.00"/>
+	<qualification id="hilfsarbeiter" average-wage="5.00"/>
+	<qualification id="maurer" average-wage="15.00"/>
+	<qualification id="klempner" average-wage="12.50"/>
+	<qualification id="zimmerer" average-wage="12.00"/>
+	<qualification id="fliesenleger" average-wage="7.00"/>
+	<qualification id="dachdecker" average-wage="16.00"/>
+	
+</aktiva>

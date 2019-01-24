@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT fbdb (team+,person*,player*,game*,employee*,assessment*,category*)>
+
+<!ELEMENT person EMPTY>
+<!ATTLIST person 
+	id ID #REQUIRED
+	fname CDATA #REQUIRED		
+	lname CDATA #REQUIRED	
+	residence CDATA #REQUIRED	
+	street CDATA #REQUIRED	
+	postcode CDATA #REQUIRED	
+	salary CDATA #REQUIRED	
+	fdate CDATA #REQUIRED>	
+	
+
+<!ELEMENT player (assessment+)>
+<!ATTLIST player
+	person-id  IDREF #REQUIRED
+    playtime CDATA #REQUIRED
+	scorebonus CDATA #REQUIRED>
+
+<!ELEMENT employee (occupation)>
+<!ATTLIST employee
+	person-id IDREF #REQUIRED>
+
+<!ELEMENT occupation EMPTY>
+<!ATTLIST occupation 
+	occupation_description CDATA #REQUIRED>
+	
+
+<!ELEMENT team (employee*,player+)>
+<!ATTLIST team 
+	team-name ID #REQUIRED
+	number-of-games CDATA #IMPLIED>
+
+<!ELEMENT assessment EMPTY>
+<!ATTLIST assessment
+	assessment-id ID #REQUIRED
+	category_id IDREF #REQUIRED
+	game_id IDREF #REQUIRED
+	score CDATA #REQUIRED>
+	
+<!ELEMENT category EMPTY>
+<!ATTLIST category
+	category_id ID #REQUIRED
+	category_description CDATA #REQUIRED>
+
+<!ELEMENT game EMPTY>
+<!ATTLIST game
+	game_id ID #REQUIRED
+	team-name IDREF #REQUIRED
+	stadium_name CDATA #REQUIRED
+	location CDATA #REQUIRED
+	street CDATA #IMPLIED
+	postcode CDATA #IMPLIED
+	date CDATA #REQUIRED
+	enemy_team CDATA #REQUIRED
+	result CDATA #REQUIRED>
+	
+
+	

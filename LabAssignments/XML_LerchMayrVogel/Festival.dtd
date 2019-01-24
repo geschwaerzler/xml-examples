@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT szene-open-air (address*, entry-type*, ressource*, ressort*, status*, helper*, member*, festival*)>
+
+<!ELEMENT address (person)*>
+<!ATTLIST address
+        address-id  ID #REQUIRED
+        street CDATA #REQUIRED
+        number CDATA #REQUIRED
+        zip CDATA #REQUIRED
+        city CDATA #REQUIRED
+        country CDATA #REQUIRED>
+
+<!ELEMENT person EMPTY>
+<!ATTLIST person
+        person-id ID #REQUIRED
+        fname CDATA #REQUIRED
+        lname CDATA #REQUIRED
+        bdate CDATA #REQUIRED
+        telnr CDATA #REQUIRED
+        email CDATA #REQUIRED>
+
+<!ELEMENT entry-type EMPTY>
+<!ATTLIST entry-type
+        entry-type-id ID #REQUIRED
+        description CDATA #REQUIRED>
+
+<!ELEMENT ressource EMPTY>
+<!ATTLIST ressource
+        ressource-id ID #REQUIRED
+        description CDATA #REQUIRED>
+
+<!ELEMENT ressort (job)*>
+<!ATTLIST ressort
+        ressort-id ID #REQUIRED
+        description CDATA #REQUIRED>
+
+<!ELEMENT job EMPTY>
+<!ATTLIST  job
+        job-id ID #REQUIRED
+        description CDATA #REQUIRED>
+
+<!ELEMENT status EMPTY>
+<!ATTLIST status
+        status-id ID #REQUIRED
+        description CDATA #REQUIRED>
+
+<!ELEMENT helper (block)*>
+<!ATTLIST helper
+        helper-id ID #REQUIRED
+        person-id IDREF #REQUIRED>
+
+<!ELEMENT block EMPTY>
+<!ATTLIST block
+        date-of-issue CDATA #REQUIRED
+        description CDATA #REQUIRED
+        lifted CDATA #REQUIRED>
+
+<!ELEMENT member EMPTY>
+<!ATTLIST member
+        member-id ID #REQUIRED
+        person-id IDREF #REQUIRED
+        entry-date CDATA #REQUIRED
+        authorized-to-issue CDATA #REQUIRED>
+
+<!ELEMENT festival (guest-list+, req-ressource+, helper-festival+)>
+<!ATTLIST festival
+        festival-year ID #REQUIRED
+        description CDATA #REQUIRED
+        >
+
+<!ELEMENT guest-list EMPTY>
+<!ATTLIST guest-list
+        person-id IDREF #REQUIRED
+        entry-type IDREF #REQUIRED
+        entered (true|false) #REQUIRED
+        >
+
+<!ELEMENT req-ressource EMPTY>
+<!ATTLIST req-ressource
+        ressource-id IDREF #REQUIRED
+        status-id IDREF #REQUIRED
+        ressort-id IDREF #REQUIRED>
+
+<!ELEMENT helper-festival EMPTY>
+<!ATTLIST helper-festival
+        helper-id IDREF #REQUIRED
+        job-id IDREF #REQUIRED>
