@@ -25,5 +25,20 @@
   </xsl:template>
   
   <!-- here comes your work -->
-    
+  <xsl:template match='flight' mode='departure'>
+    <tr>
+      <td><xsl:value-of select="substring(departure/time[@zone='local']/@time, 1, 5)"/></td>
+      <td><xsl:value-of select="concat(@operator-id, ' ', @nr)"/></td>
+      <td><xsl:value-of select="id(arrival/@airport-id)/name[@lang='en']"/></td>
+    </tr>
+  </xsl:template>
+  
+  <xsl:template match='flight' mode='arrival'>
+    <tr>
+      <td><xsl:value-of select="substring(arrival/time[@zone='local']/@time, 1, 5)"/></td>
+      <td><xsl:value-of select="concat(@operator-id, ' ', @nr)"/></td>
+      <td><xsl:value-of select="id(departure/@airport-id)/name[@lang='en']"/></td>
+    </tr>
+  </xsl:template>
+
 </xsl:stylesheet>

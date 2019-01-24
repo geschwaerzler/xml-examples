@@ -1,0 +1,17 @@
+1.) //flight[@operator-id = 'OS']/@nr
+
+2.) count(//departure[@airport-id = 'vie'])
+ count(//flight/departure[@airport-id = 'vie'])
+
+3) //airport[@id = 'gva']/name[@lang='fr'] (das war allerdings nicht in der Absicht des Prüfers)
+//name[text() = 'Genf']/../name[@lang = 'fr']
+//name[. = 'Genf']/../name[@lang = 'fr']
+//airport[@lang='de' and name='Genf']/name[@lang = 'fr']
+
+4) Eine Liste der Flugnummern derjenigen Flüge,
+welche um GTM 5 Uhr 55 abfliegen oder landen.
+Das Ergebnis ist: 568. (optional, aber hilfreich, falls der Korrektor den Antworttext
+nicht sinngebend erfasst).
+
+5) Diese Ausdruck liefert eine Liste aller Attribute.
+alternativ: Das Ergebnis von //@* ist eine Liste aller attibute-nodes des Dokuments X1.xml. 

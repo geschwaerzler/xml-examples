@@ -12,3 +12,20 @@
 <!ATTLIST name lang CDATA #IMPLIED>
 
 <!-- here comes your work -->
+<!ELEMENT flight (departure, arrival)>
+<!ATTLIST flight
+  operator-id IDREF #REQUIRED
+  nr          CDATA #REQUIRED>
+  
+<!ELEMENT departure (time,time) >
+<!ATTLIST departure airport-id IDREF #REQUIRED >
+
+<!ELEMENT arrival (time,time) >
+<!ATTLIST arrival airport-id IDREF #REQUIRED >
+
+<!ELEMENT time EMPTY>
+<!ATTLIST time
+  zone ( GMT | local ) #REQUIRED
+  day  CDATA           #REQUIRED
+  time CDATA           #REQUIRED
+>
