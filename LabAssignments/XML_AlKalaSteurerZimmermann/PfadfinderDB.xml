@@ -6,141 +6,163 @@
 	fortlaufenden Nummer -->
 
 <PfadfinderDB>
-	<Resource id="res-1" name="Pfadiheim"
-		info="Pfadfinderheim Nüziders, Mitteleule 32" />
-	<Resource id="res-2" name="Ferrino-1" info="8-Mann-Zelt" />
-	<Resource id="res-3" name="Ferrino-2" info="8-Mann-Zelt" />
-	<Resource id="res-4" name="Iglu-1" info="2-Mann-Zelt" />
-	<Resource id="res-5" name="Iglu-2" info="2-Mann-Zelt" />
-
-	<Leader id="lea-1" name="Lukas" />
-	<Leader id="lea-2" name="Stephan" />
-	<Leader id="lea-3" name="Jenny" />
-	<Leader id="lea-4" name="Marco" />
-	<Leader id="lea-5" name="Tami" />
-
-	<Invitation id="inv-1" name="Invitation-1" accepted="true">
-		<for leader-id="lea-1" />
-	</Invitation>
-	<Invitation id="inv-2" name="Invitation-2" accepted="true">
-		<for leader-id="lea-2" />
-	</Invitation>
-	<Invitation id="inv-3" name="Invitation-3" accepted="true">
-		<for leader-id="lea-3" />
-	</Invitation>
-	<Invitation id="inv-4" name="Invitation-4" accepted="false">
-		<for leader-id="lea-4" />
-	</Invitation>
-	<Invitation id="inv-5" name="Invitation-5" accepted="true">
-		<for leader-id="lea-5" />
-	</Invitation>
-	<Invitation id="inv-6" name="Invitation-6" accepted="false">
-		<for leader-id="lea-2" />
-	</Invitation>
-	<Invitation id="inv-7" name="Invitation-7" accepted="true">
-		<for leader-id="lea-5" />
-	</Invitation>
-	<Invitation id="inv-8" name="Invitation-8" accepted="false">
-		<for leader-id="lea-3" />
-	</Invitation>
-	<Invitation id="inv-9" name="Invitation-9" accepted="true">
-		<for leader-id="lea-1" />
-	</Invitation>
-	<Invitation id="inv-10" name="Invitation-10"
-		accepted="false">
-		<for leader-id="lea-1" />
-	</Invitation>
-
-	<Event id="eve-1" startdate="12.01.2019" enddate="12.01.2019"
-		name="Heimstunde">
-		<uses resource-id="res-1" />
-		<invited invitation-id="inv-8" />
-		<invited invitation-id="inv-9" />
-	</Event>
-	<Event id="eve-2" startdate="26.01.2019" enddate="26.01.2019"
-		name="Heimstunde">
-		<uses resource-id="res-1" />
-		<uses resource-id="res-4" />
-		<uses resource-id="res-5" />
-		<invited invitation-id="inv-6" />
-		<invited invitation-id="inv-7" />
-		<invited invitation-id="inv-10" />
-	</Event>
-	<Event id="eve-3" startdate="22.02.2019" enddate="24.02.2019"
-		name="Winter Wochenendlager"
-		info="alljährliches Wochenendlager bei Schnee im Pfadfinderheim">
-		<uses resource-id="res-2" />
-		<uses resource-id="res-3" />
-		<invited invitation-id="inv-1" />
-		<invited invitation-id="inv-2" />
-		<invited invitation-id="inv-3" />
-		<invited invitation-id="inv-4" />
-		<invited invitation-id="inv-5" />
-	</Event>
-
-	<Task id="tas-1" duedate="31.01.2019" name="Heimreinigung"
-		info="Komplettreinigung des Pfadfinderheims">
-		<assigned leader-id="lea-1" />
-		<assigned leader-id="lea-3" />
-		<assigned leader-id="lea-5" />
-	</Task>
-	<Task id="tas-2" duedate="31.01.2019"
-		name="Ausschreibung zweites Halbjahr"
-		info="Heimstundenplan erstellen und als Ausschreibung an die Eltern senden">
-		<assigned leader-id="lea-1" />
-	</Task>
-	<Task id="tas-3" duedate="08.02.2019"
-		name="Ausschreibung Winterlager"
-		info="Ausschreibung fürs Winterlager erstellen und an Eltern versenden">
-		<assigned leader-id="lea-5" />
-	</Task>
-	<Task id="tas-4" duedate="31.12.2018" name="Protokoll Gruppenrat"
-		info="Protokoll des Gruppenrats fertigstellen und an Gruppenleitung senden">
-		<assigned leader-id="lea-4" />
-	</Task>
-	<Task id="tas-5" duedate="06.01.2019" name="Protokoll Gruppenrat"
-		info="Protokoll des Gruppenrats kontrollieren und an Leiter senden">
-		<assigned leader-id="lea-2" />
-		<assigned leader-id="lea-3" />
-	</Task>
-	<Task id="tas-6" duedate="15.01.2019" name="Planung Gruppenrat"
-		info="Gruppenrat planen, Agenda erstellen, Ausschreibun an Leiter senden">
-		<assigned leader-id="lea-2" />
-		<assigned leader-id="lea-3" />
-	</Task>
-	<Task id="tas-7" duedate="01.02.2019" name="Planung Winterlager"
-		info="Planung Programm und Umsetzung">
-		<assigned leader-id="lea-1" />
-		<assigned leader-id="lea-3" />
-		<assigned leader-id="lea-5" />
-	</Task>
-	<Task id="tas-8" duedate="10.01.2019"
-		name="Planung Heimstunde WiWö 12.01"
-		info="Planung der Heimstunde am 12.01 für Wichtel nd Wölflinge">
-		<assigned leader-id="lea-4" />
-	</Task>
-	<Task id="tas-9" duedate="10.01.2019"
-		name="Planung Heimstunde GuSp 12.01"
-		info="Planung der Heimstunde am 12.01 für Guides und Späher">
-		<assigned leader-id="lea-5" />
-	</Task>
-	<Task id="tas-10" duedate="24.01.2019"
-		name="Planung Heimstunde Wiwö 26.01"
-		info="Planung der Heimstunde am 26.01 für Wichtel nd Wölflinge">
-		<assigned leader-id="lea-4" />
-	</Task>
-	<Task id="tas-11" duedate="24.01.2019"
-		name="Planung Heimstunde GuSp 26.01"
-		info="Planung der Heimstunde am 26.01 für Guides und Späher">
-		<assigned leader-id="lea-3" />
-	</Task>
-	<Task id="tas-12" duedate="06.01.2019" name="Termin Gruppenrat"
-		info="Einigung auf einen Termin für den nächsten Gruppenrat, ideal noch im Jänner">
-		<assigned leader-id="lea-1" />
-		<assigned leader-id="lea-2" />
-		<assigned leader-id="lea-3" />
-		<assigned leader-id="lea-4" />
-		<assigned leader-id="lea-5" />
-	</Task>
-
+    
+    <Resource1>
+        <Resource_name>Pfadfinder Resourcen</Resource_name>
+        <Leader1>
+            <id>101</id>
+            <name>Lukas</name>
+            <designation>Manager</designation>
+        </Leader1>
+        
+        <Leader1>
+            <id>102</id>
+            <name>Patrick</name>
+            <designation>Gruppe_verwalter</designation>
+        </Leader1>
+        
+        <Leader1>
+            <id>103</id>
+            <name>Anas</name>
+            <designation>Gruppe_verwalter</designation>
+        </Leader1>
+    </Resource1>
+    
+    <Resource id="res-1" name="Pfadiheim"
+        info="Pfadfinderheim Nüziders, Mitteleule 32" />
+    <Resource id="res-2" name="Ferrino-1" info="8-Mann-Zelt" />
+    <Resource id="res-3" name="Ferrino-2" info="8-Mann-Zelt" />
+    <Resource id="res-4" name="Iglu-1" info="2-Mann-Zelt" />
+    <Resource id="res-5" name="Iglu-2" info="2-Mann-Zelt" />
+    
+    <Leader id="lea-1" name="Lukas" />
+    <Leader id="lea-2" name="Stephan" />
+    <Leader id="lea-3" name="Jenny" />
+    <Leader id="lea-4" name="Marco" />
+    <Leader id="lea-5" name="Tami" />
+    
+    <Invitation id="inv-1" name="Invitation-1" accepted="true">
+        <for leader-id="lea-1" />
+    </Invitation>
+    <Invitation id="inv-2" name="Invitation-2" accepted="true">
+        <for leader-id="lea-2" />
+    </Invitation>
+    <Invitation id="inv-3" name="Invitation-3" accepted="true">
+        <for leader-id="lea-3" />
+    </Invitation>
+    <Invitation id="inv-4" name="Invitation-4" accepted="false">
+        <for leader-id="lea-4" />
+    </Invitation>
+    <Invitation id="inv-5" name="Invitation-5" accepted="true">
+        <for leader-id="lea-5" />
+    </Invitation>
+    <Invitation id="inv-6" name="Invitation-6" accepted="false">
+        <for leader-id="lea-2" />
+    </Invitation>
+    <Invitation id="inv-7" name="Invitation-7" accepted="true">
+        <for leader-id="lea-5" />
+    </Invitation>
+    <Invitation id="inv-8" name="Invitation-8" accepted="false">
+        <for leader-id="lea-3" />
+    </Invitation>
+    <Invitation id="inv-9" name="Invitation-9" accepted="true">
+        <for leader-id="lea-1" />
+    </Invitation>
+    <Invitation id="inv-10" name="Invitation-10"
+        accepted="false">
+        <for leader-id="lea-1" />
+    </Invitation>
+    
+    <Event id="eve-1" startdate="12.01.2019" enddate="12.01.2019"
+        name="Heimstunde">
+        <uses resource-id="res-1" />
+        <invited invitation-id="inv-8" />
+        <invited invitation-id="inv-9" />
+    </Event>
+    <Event id="eve-2" startdate="26.01.2019" enddate="26.01.2019"
+        name="Heimstunde">
+        <uses resource-id="res-1" />
+        <uses resource-id="res-4" />
+        <uses resource-id="res-5" />
+        <invited invitation-id="inv-6" />
+        <invited invitation-id="inv-7" />
+        <invited invitation-id="inv-10" />
+    </Event>
+    <Event id="eve-3" startdate="22.02.2019" enddate="24.02.2019"
+        name="Winter Wochenendlager"
+        info="alljährliches Wochenendlager bei Schnee im Pfadfinderheim">
+        <uses resource-id="res-2" />
+        <uses resource-id="res-3" />
+        <invited invitation-id="inv-1" />
+        <invited invitation-id="inv-2" />
+        <invited invitation-id="inv-3" />
+        <invited invitation-id="inv-4" />
+        <invited invitation-id="inv-5" />
+    </Event>
+    
+    <Task id="tas-1" duedate="31.01.2019" name="Heimreinigung"
+        info="Komplettreinigung des Pfadfinderheims">
+        <assigned leader-id="lea-1" />
+        <assigned leader-id="lea-3" />
+        <assigned leader-id="lea-5" />
+    </Task>
+    <Task id="tas-2" duedate="31.01.2019"
+        name="Ausschreibung zweites Halbjahr"
+        info="Heimstundenplan erstellen und als Ausschreibung an die Eltern senden">
+        <assigned leader-id="lea-1" />
+    </Task>
+    <Task id="tas-3" duedate="08.02.2019"
+        name="Ausschreibung Winterlager"
+        info="Ausschreibung fürs Winterlager erstellen und an Eltern versenden">
+        <assigned leader-id="lea-5" />
+    </Task>
+    <Task id="tas-4" duedate="31.12.2018" name="Protokoll Gruppenrat"
+        info="Protokoll des Gruppenrats fertigstellen und an Gruppenleitung senden">
+        <assigned leader-id="lea-4" />
+    </Task>
+    <Task id="tas-5" duedate="06.01.2019" name="Protokoll Gruppenrat"
+        info="Protokoll des Gruppenrats kontrollieren und an Leiter senden">
+        <assigned leader-id="lea-2" />
+        <assigned leader-id="lea-3" />
+    </Task>
+    <Task id="tas-6" duedate="15.01.2019" name="Planung Gruppenrat"
+        info="Gruppenrat planen, Agenda erstellen, Ausschreibun an Leiter senden">
+        <assigned leader-id="lea-2" />
+        <assigned leader-id="lea-3" />
+    </Task>
+    <Task id="tas-7" duedate="01.02.2019" name="Planung Winterlager"
+        info="Planung Programm und Umsetzung">
+        <assigned leader-id="lea-1" />
+        <assigned leader-id="lea-3" />
+        <assigned leader-id="lea-5" />
+    </Task>
+    <Task id="tas-8" duedate="10.01.2019"
+        name="Planung Heimstunde WiWö 12.01"
+        info="Planung der Heimstunde am 12.01 für Wichtel nd Wölflinge">
+        <assigned leader-id="lea-4" />
+    </Task>
+    <Task id="tas-9" duedate="10.01.2019"
+        name="Planung Heimstunde GuSp 12.01"
+        info="Planung der Heimstunde am 12.01 für Guides und Späher">
+        <assigned leader-id="lea-5" />
+    </Task>
+    <Task id="tas-10" duedate="24.01.2019"
+        name="Planung Heimstunde Wiwö 26.01"
+        info="Planung der Heimstunde am 26.01 für Wichtel nd Wölflinge">
+        <assigned leader-id="lea-4" />
+    </Task>
+    <Task id="tas-11" duedate="24.01.2019"
+        name="Planung Heimstunde GuSp 26.01"
+        info="Planung der Heimstunde am 26.01 für Guides und Späher">
+        <assigned leader-id="lea-3" />
+    </Task>
+    <Task id="tas-12" duedate="06.01.2019" name="Termin Gruppenrat"
+        info="Einigung auf einen Termin für den nächsten Gruppenrat, ideal noch im Jänner">
+        <assigned leader-id="lea-1" />
+        <assigned leader-id="lea-2" />
+        <assigned leader-id="lea-3" />
+        <assigned leader-id="lea-4" />
+        <assigned leader-id="lea-5" />
+    </Task>
+    
 </PfadfinderDB>

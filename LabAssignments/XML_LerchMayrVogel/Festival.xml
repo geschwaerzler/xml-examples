@@ -23,6 +23,11 @@
             email="max.mustermann@gmx.com"/>
         <person person-id="person-id-5" fname="iDontKnow" lname="AnymoreNames" bdate="02.04.1987" telnr="0676 456456"
             email="sameBithDateandTelNr@nothing.com"/>
+        
+    </address>
+    <address address-id="address-3" street="Langestraße" number="96" zip="0000" city="Bregenz" country="Lichtenstein">
+        <person person-id="person-id-10" fname="Wong" lname="Name" bdate="05.08.1987" telnr="65465894" email="aslödkj@öaldjf.com"/>
+        <person person-id="person-id-11" fname="Ho Lee" lname="Sheet" bdate="12.08.1991" telnr="123456" email="ho.lee@sheet.com"/>
     </address>
     <address address-id="address-75" street="Sesamestreet" number="Over 9000" zip="9001" city="Bregenz"
         country="Österreich"/>
@@ -120,6 +125,9 @@
         <block date-of-issue="16.08.1998" description="Gesamter Biervorrat am Vortag ausgetrunken" lifted="true"/>
     </helper>
     
+    <helper helper-id="helper-id-1112" person-id="person-id-10"></helper>
+    <helper helper-id="helper-id-1111" person-id="person-id-11"></helper>
+    
     <helper helper-id="helper-id-1" person-id="person-id-1">
         <block date-of-issue="15.09.2009" description="Sich als Security ausgegben und hineingeschlichen"
             lifted="true"/>
@@ -142,7 +150,7 @@
     <member member-id="member-id-2" person-id="person-id-2" entry-date="08.07.1710" authorized-to-issue="true"/>
     <member member-id="member-id-3" person-id="person-id-3" entry-date="18.07.2157" authorized-to-issue="true"/>
     
-    <festival festival-year="1997" description="epsum lorum">
+    <festival festival-year="festival-year-1997" description="epsum lorum">
         <guest-list person-id="person-id-0" entry-type="entry-type-0" entered="false"/>
         <guest-list person-id="person-id-1" entry-type="entry-type-1" entered="true"/>
         <guest-list person-id="person-id-2" entry-type="entry-type-1" entered="false"/>
@@ -152,9 +160,19 @@
         <helper-festival helper-id="helper-id-1" job-id="job-id-0"/>
         <helper-festival helper-id="helper-id-7" job-id="job-id-5"/>
         <helper-festival helper-id="helper-id-4" job-id="job-id-2"/>
+        <helper-festival helper-id="helper-id-4" job-id="job-id-1"/>
+        <helper-festival helper-id="helper-id-4" job-id="job-id-3"/>
+        <helper-festival helper-id="helper-id-1111" job-id="job-id-11"/>
+        <helper-festival helper-id="helper-id-1111" job-id="job-id-8"/>
+        <helper-festival helper-id="helper-id-1111" job-id="job-id-15"/>
+        <helper-festival helper-id="helper-id-1111" job-id="job-id-3"/>
+        <helper-festival helper-id="helper-id-1111" job-id="job-id-1"/>
+        <helper-festival helper-id="helper-id-1112" job-id="job-id-5"/>
+        <helper-festival helper-id="helper-id-1112" job-id="job-id-6"/>
+        <helper-festival helper-id="helper-id-1112" job-id="job-id-7"/>
     </festival>
     
-    <festival festival-year="1795" description="!!!!ULTIMATE FESTIVAL!!!!!">
+    <festival festival-year="festival-year-1795" description="!!!!ULTIMATE FESTIVAL!!!!!">
         <guest-list person-id="person-id-2" entry-type="entry-type-1" entered="true"/>
         <guest-list person-id="person-id-5" entry-type="entry-type-3" entered="true"/>
         <guest-list person-id="person-id-1" entry-type="entry-type-2" entered="true"/>
