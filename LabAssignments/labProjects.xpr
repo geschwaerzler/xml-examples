@@ -51,7 +51,7 @@
                                     <String></String>
                                 </field>
                                 <field name="inputXSLURL">
-                                    <String>${pdu}/XML_LerchMayrVogel/festivalPDF.xsl</String>
+                                    <String>${pdu}/XML_LerchMayrVogel/Late%20Submission%20-%20festivalPDF.xsl</String>
                                 </field>
                                 <field name="inputXMLURL">
                                     <String>${pdu}/XML_LerchMayrVogel/festival.xml</String>

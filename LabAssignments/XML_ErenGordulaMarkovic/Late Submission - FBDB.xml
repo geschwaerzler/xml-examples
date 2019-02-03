@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fbdb SYSTEM "FBDB.dtd">
+
+<fbdb>
+<team team-name="U18" number-of-games="3">
+	<employee person-id="p12">
+		<occupation occupation_description="Trainer"></occupation>
+	</employee>
+	<player person-id="p1" playtime="t180" scorebonus="1">
+		<assessment assessment-id="a1" category_id="c1" game_id="g1" score="7"/>
+		<assessment assessment-id="a12" category_id="c1" game_id="g2" score="5"/>
+		<assessment assessment-id="a15" category_id="c1" game_id="g3" score="7"/>
+	</player>
+	
+	<player person-id="p2" playtime="t180" scorebonus="1">
+		<assessment assessment-id="a2" category_id="c1" game_id="g1" score="2"/>
+		<assessment assessment-id="a13" category_id="c3" game_id="g2" score="1"/>
+	</player>
+	
+	<player person-id="p3" playtime="t180" scorebonus="1">
+		<assessment assessment-id="a3" category_id="c1" game_id="g1" score="3"/>
+		<assessment assessment-id="a14" category_id="c1" game_id="g3" score="1"/>
+	</player>
+	
+	<player person-id="p4" playtime="t80" scorebonus="1">
+		<assessment assessment-id="a4" category_id="c2" game_id="g2" score="1"/>
+	</player>
+	<player person-id="p5" playtime="t180" scorebonus="1">
+		<assessment assessment-id="a5" category_id="c2" game_id="g2" score="2"/>
+	</player>
+	<player person-id="p6" playtime="t180" scorebonus="1">
+		<assessment assessment-id="a6" category_id="c2" game_id="g3" score="3"/>
+	</player>
+	<player person-id="p7" playtime="t180" scorebonus="1">
+		<assessment assessment-id="a7" category_id="c3" game_id="g1" score="1"/>
+	</player>
+	<player person-id="p8" playtime="t180" scorebonus="1">
+		<assessment assessment-id="a8" category_id="c3" game_id="g1" score="2"/>
+	</player>
+		<player person-id="p9" playtime="t180" scorebonus="1">
+		<assessment assessment-id="a9" category_id="c3" game_id="g3" score="3"/>
+	</player>
+		<player person-id="p10" playtime="t180" scorebonus="1">
+		<assessment assessment-id="a10" category_id="c3" game_id="g2" score="5"/>
+	</player>
+	<player person-id="p11" playtime="t180" scorebonus="1">
+		<assessment assessment-id="a11" category_id="c1" game_id="g2" score="1"/>
+	</player>
+</team>
+
+
+<team team-name="U17" number-of-games="3">
+	<employee person-id="p13">
+		<occupation occupation_description="Trainer"></occupation>
+	</employee>
+	<player person-id="p14" playtime="t180" scorebonus="1">
+		<assessment assessment-id="a16" category_id="c1" game_id="g4" score="13"/>
+		<assessment assessment-id="a17" category_id="c1" game_id="g5" score="50"/>
+		<assessment assessment-id="a18" category_id="c1" game_id="g6" score="2"/>
+	</player>
+	
+	<player person-id="p15" playtime="t180" scorebonus="1">
+		<assessment assessment-id="a19" category_id="c1" game_id="g4" score="2"/>
+		<assessment assessment-id="a20" category_id="c3" game_id="g5" score="1"/>
+	</player>
+	
+	<player person-id="p16" playtime="t180" scorebonus="1">
+		<assessment assessment-id="a21" category_id="c1" game_id="g4" score="3"/>
+		<assessment assessment-id="a22" category_id="c1" game_id="g6" score="1"/>
+	</player>
+	
+	<player person-id="p17" playtime="t80" scorebonus="1">
+		<assessment assessment-id="a23" category_id="c2" game_id="g4" score="1"/>
+	</player>
+	<player person-id="p18" playtime="t180" scorebonus="1">
+		<assessment assessment-id="a24" category_id="c2" game_id="g4" score="2"/>
+	</player>
+	<player person-id="p19" playtime="t180" scorebonus="1">
+		<assessment assessment-id="a25" category_id="c2" game_id="g5" score="3"/>
+	</player>
+	<player person-id="p20" playtime="t180" scorebonus="1">
+		<assessment assessment-id="a26" category_id="c3" game_id="g6" score="1"/>
+	</player>
+	<player person-id="p21" playtime="t180" scorebonus="1">
+		<assessment assessment-id="a27" category_id="c3" game_id="g4" score="2"/>
+	</player>
+		<player person-id="p22" playtime="t180" scorebonus="1">
+		<assessment assessment-id="a28" category_id="c3" game_id="g4" score="3"/>
+	</player>
+		<player person-id="p23" playtime="t180" scorebonus="1">
+		<assessment assessment-id="a29" category_id="c3" game_id="g5" score="5"/>
+	</player>
+	<player person-id="p24" playtime="t180" scorebonus="1">
+		<assessment assessment-id="a30" category_id="c1" game_id="g6" score="1"/>
+		<assessment assessment-id="a31" category_id="c1" game_id="g6" score="1"/>
+		<assessment assessment-id="a32" category_id="c1" game_id="g6" score="1"/>
+	</player>
+</team>
+
+
+<person id="p1" fname="Laurin" lname="Godula" residence="Langen" street="Sonnen Str" 
+postcode="51" salary="5" fdate="10-10-2008"/>
+<person id="p2" fname="Siegfried" lname="Heidl" residence="Bregenz" street="Mond Str" 
+postcode="102" salary="5" fdate="04-05-2008"/>
+<person id="p3" fname="Jonas" lname="Sonnenweg" residence="Bregenz" street="Alfons Str" 
+postcode="57" salary="5" fdate="05-04-2008"/>
+<person id="p4" fname="Johannes" lname="Sohn" residence="Hörbranz" street="Heinzle Str" 
+postcode="88" salary="5" fdate="02-01-2008"></person>
+<person id="p5" fname="Nicolai" lname="Mond" residence="Gaißau" street="Gehweg Str" 
+postcode="01" salary="5" fdate="05-01-2008"></person>
+<person id="p6" fname="Nikolas" lname="Mayer" residence="Wolfurt" street="Hochschul Str" 
+postcode="51" salary="5" fdate="08-12-2008"></person>
+<person id="p7" fname="Michael" lname="Ballack" residence="Wolfurt" street="Geweg Str" 
+postcode="40" salary="5" fdate="04-10-2008"></person>
+<person id="p8" fname="Vladislav" lname="Richard" residence="Wolfurt" street="Haupt Str" 
+postcode="25" salary="5" fdate="10-07-2008"></person>
+<person id="p9" fname="Dimtiry" lname="Blyat" residence="Wolfurt" street="Waldweg Str" 
+postcode="77" salary="5" fdate="09-11-2008"></person>
+<person id="p10" fname="Michael" lname="Jordan" residence="Wolfurt" street="Negrelli Str" 
+postcode="65" salary="5" fdate="03-02-2008"></person>
+<person id="p11" fname="Tiger" lname="Woods" residence="Aachen" street="Berchtold Str" 
+postcode="48" salary="5" fdate="01-01-2008"></person>
+<person id="p12" fname="Metzler" lname="Vogel" residence="Wolfurt" street="Trainer Str" 
+postcode="31" salary="5" fdate="01-01-2008"></person>
+
+
+<person id="p13" fname="Zinedin" lname="Zidane" residence="Paris" street="Eifelturm Str" 
+postcode="800" salary="5" fdate="01-01-2008"></person>
+<person id="p14" fname="Stefan" lname="Spieler" residence="Dornbirn" street="Sohm Str" 
+postcode="516" salary="5" fdate="10-10-2008"/>
+<person id="p15" fname="Mustafa" lname="Musti" residence="Hörbranz" street="Gewürz Str" 
+postcode="568" salary="5" fdate="04-05-2008"/>
+<person id="p16" fname="Pirlo" lname="Lini" residence="Fussach" street="Trachten Str" 
+postcode="45" salary="5" fdate="05-04-2008"/>
+<person id="p17" fname="Johan" lname="Geher" residence="Höchst" street="Baum Str" 
+postcode="88" salary="5" fdate="02-01-2008"></person>
+<person id="p18" fname="Günther" lname="Walser" residence="Gaißau" street="Laufweg Str" 
+postcode="54" salary="5" fdate="05-01-2008"></person>
+<person id="p19" fname="Luca" lname="Siegfried" residence="Götzis" street="Haupt Str" 
+postcode="102" salary="5" fdate="08-12-2008"></person>
+<person id="p20" fname="Michael" lname="Spielberg" residence="Bludenz" street="Geweg Str" 
+postcode="77" salary="5" fdate="04-10-2008"></person>
+<person id="p21" fname="Patrick" lname="Zgubic" residence="Bludenz" street="Kaiser Str" 
+postcode="25" salary="5" fdate="10-07-2008"></person>
+<person id="p22" fname="Boris" lname="Adili" residence="Altach" street="Randweg Str" 
+postcode="20" salary="5" fdate="09-11-2008"></person>
+<person id="p23" fname="Joshua" lname="Bäck" residence="Schwarzach" street="Negrelli Str" 
+postcode="1" salary="5" fdate="03-02-2008"></person>
+<person id="p24" fname="Marko" lname="Markovic" residence="Dornbirn" street="Fleisch Str" 
+postcode="12" salary="5" fdate="01-01-2008"></person>
+
+
+<game game_id="g1" team-name="U18" stadium_name="Achplatz" location="Wolfurt" street="Sportplatzstraße" 
+postcode="6960" date="2018-01-15" enemy_team="FC-Lauterach" result="4:2"/>
+<game game_id="g2" team-name="U18" stadium_name="Alianzarena" location="Deutschland-München" street="Werner-Heisenberg-Allee 25"
+ postcode="80939" date="2018-02-24" enemy_team="FC-Bayern" result="5:3"/>
+<game game_id="g3" team-name="U18" stadium_name="Sportplatz Staufenblick" location="Dornbirn" street="Badgasse 40"
+ postcode="6850" date="2018-03-10" enemy_team="FC-Eintracht Bremenmahd" result="2:2"/>
+ 
+<game game_id="g4" team-name="U17" stadium_name="Achplatz" location="Wolfurt" street="Sportplatzstraße" 
+postcode="6960" date="2018-01-15" enemy_team="FC-Lauterach" result="4:2"/>
+<game game_id="g5" team-name="U17" stadium_name="Alianzarena" location="Deutschland-München" street="Werner-Heisenberg-Allee 25"
+ postcode="80939" date="2018-02-24" enemy_team="FC-Bayern" result="5:3"/>
+<game game_id="g6" team-name="U17" stadium_name="Sportplatz Staufenblick" location="Dornbirn" street="Badgasse 40"
+ postcode="6850" date="2018-03-10" enemy_team="FC-Eintracht Bremenmahd" result="2:2"/>
+
+<category category_id="c1" category_description="Tore geschossen"/>
+<category category_id="c2" category_description="Tore verhindert"/>
+<category category_id="c3" category_description="Anzahl Fouls"/>
+
+</fbdb>
