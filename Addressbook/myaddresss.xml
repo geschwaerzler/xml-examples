@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE address-book SYSTEM "addresses.dtd">
+
+<address-book>
+	<person>
+		<firstname>Gerhard</firstname> <lastname>Schwärzler</lastname>
+		<address type="home">
+			<street>Rathausplatz 24</street>
+			<zip>6900</zip> <city>Bregenz</city>
+		</address>
+		<address type="work">
+			<street>Hochschulstraße 1</street>
+			<zip>6850</zip> <city>Dornbirn</city>
+		</address>
+		<phone type="mobile">+43 676 5432100</phone>
+		<phone type="landline">+43 5574 53344</phone>
+		<e-mail>gerhard.schwaerzler@fhv.at</e-mail>
+	</person>
+	
+	<company>
+		<name>nu Datenautomaten GmbH</name>
+		<address type="work">
+			<street>Rathausstraße 2</street>
+			<zip>6900</zip> <city>Bregenz</city>
+		</address>
+		<phone type="landline">+43 5574 53344</phone>
+		<e-mail>office@datenautomaten.nu</e-mail>
+	</company>
+	
+</address-book>

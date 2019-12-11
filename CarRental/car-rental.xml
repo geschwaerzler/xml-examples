@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE car-rental SYSTEM "car-rental.dtd">
+<car-rental>
+	<stadt stadtcode="B__" name="Bregenz" einwohner_anzahl="30000">
+		<vermiet-station id="vermiet-station-1" stations_name="Leutbühel" adresse="Leutbühel 1" mitarbeiter_anzahl="2"/>
+		<vermiet-station
+			id="vermiet-station-2"
+			stations_name="Vorkloster"
+			adresse="Rheinstarße 41"
+			mitarbeiter_anzahl="1"
+			geoeffnet_von="08:00:00"
+			geoeffnet_bis="19:00:00"/>
+	</stadt>
+
+	<stadt stadtcode="DO_" name="Dornbirn" einwohner_anzahl="45000">
+		<vermiet-station
+			id="vermiet-station-3"
+			stations_name="HBf"
+			adresse="Bahnhofstraße 1"
+			mitarbeiter_anzahl="1"
+			geoeffnet_von="08:00:00"
+			geoeffnet_bis="19:00:00"/>
+		<vermiet-station
+			id="vermiet-station-4"
+			stations_name="FHV"
+			adresse="Hochschulstraße 1"
+			mitarbeiter_anzahl="1"
+			geoeffnet_von="08:00:00"
+			geoeffnet_bis="19:00:00"/>
+	</stadt>
+	<stadt stadtcode="HOH" name="Hohenems" einwohner_anzahl="15000"/>
+	<stadt stadtcode="FK_" name="Feldkirch" einwohner_anzahl="34000"/>
+	<stadt stadtcode="BZ_" name="Bludenz" einwohner_anzahl="14000"/>
+	
+	<autokategorie kategorie_bezeichnung="Classic" grundtarif="200.0" km_preis="1.20">
+		<autotyp id="autotyp-1" typ_bezeichnung="Porsche 911 Targa" benzinverbrauch="9.5">
+			<extraausstattung id="extraausstattung-1" extras_bezeichnung="TDK Tapedeck inkl. 20 MCs 70er" aufpreis="20.0"/>
+			<extraausstattung id="extraausstattung-2" extras_bezeichnung="Michelin Kartensatz Mitteleuropa" aufpreis="50.0"/>
+		</autotyp>
+		<autotyp id="autotyp-2" typ_bezeichnung="Landrover V8" benzinverbrauch="18.0">
+			<extraausstattung id="extraausstattung-3" extras_bezeichnung="Dachträger" aufpreis="5.0"/>
+			<extraausstattung id="extraausstattung-4" extras_bezeichnung="Reserverad auf Motorhaube" aufpreis="25.0"/>
+			<extraausstattung id="extraausstattung-5" extras_bezeichnung="20L Treibstoffkanister" aufpreis="10.0"/>
+		</autotyp>
+		<autotyp id="autotyp-3" typ_bezeichnung="VW Bus 'Bulli'" benzinverbrauch="12.0"/>
+		<autotyp id="autotyp-4" typ_bezeichnung="Ferrari 308 GTS" benzinverbrauch="14.5">
+			<extraausstattung id="extraausstattung-6" extras_bezeichnung="Leder Interieur" aufpreis="50.0"/>
+			<extraausstattung id="extraausstattung-7" extras_bezeichnung="Klimaanlage" aufpreis="50.0"/>
+		</autotyp>
+	</autokategorie>
+	<autokategorie kategorie_bezeichnung="E-Car" grundtarif="50.0" km_preis="0.40">
+		<autotyp id="autotyp-5" typ_bezeichnung="BMW i3" benzinverbrauch="0.0"/>
+		<autotyp id="autotyp-6" typ_bezeichnung="Renault ZOE" benzinverbrauch="0.0"/>
+	</autokategorie>
+	
+	<auto kennzeichen="B-911S" km_stand="215766" farbe="weiß" autotyp-id="autotyp-1" vermiet-station-id="vermiet-station-1">
+		<verfuegt_ueber extraausstattung-id="extraausstattung-1"/>
+	</auto>
+	<auto kennzeichen="DO-I3W" km_stand="215766" farbe="weiß" autotyp-id="autotyp-5" vermiet-station-id="vermiet-station-4"/>
+	<auto kennzeichen="DO-I3R" km_stand="215766" farbe="rot" autotyp-id="autotyp-5" vermiet-station-id="vermiet-station-4"/>
+	<auto kennzeichen="DO-ZOEW" km_stand="215766" farbe="weiß" autotyp-id="autotyp-6" vermiet-station-id="vermiet-station-4"/>
+	<auto kennzeichen="DO-ZOER" km_stand="215766" farbe="rot" autotyp-id="autotyp-6" vermiet-station-id="vermiet-station-4"/>
+	
+	<!-- For the purpose of demonstrating datetime literals,
+	     anfangsdatum is set to a datetime value. -->
+	<kunde
+		fuehrerschein_nummer = "A-07177931"
+		kunde_name="Dr. Gerhard Schwärzler"
+		anschrift="Rathausplatz 25, 6900 Bregenz">
+		<reservierung
+			vermiet-station-id="vermiet-station-2"
+			reservierungs_nr="B.253.265"
+			anfangsdatum="2017-12-24T12:00:00"
+			enddatum="2017-12-31"
+			kategorie_bezeichnung="Classic">
+			<mietvertrag kennzeichen="B-911S" km_stand_uebergabe="213012" km_stand_rueckgabe="215766"/>
+		</reservierung>
+	</kunde>
+</car-rental>
