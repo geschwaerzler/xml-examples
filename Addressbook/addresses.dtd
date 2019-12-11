@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!ELEMENT addresses (person*)>
+<!ELEMENT address-book (person | company)*>
 
 <!ELEMENT person (title?, ((firstname, lastname) | (lastname, firstname)), address+, phone*, e-mail)>
 
@@ -13,8 +13,5 @@
 <!ELEMENT street (#PCDATA)>
 <!ELEMENT zip (#PCDATA)>
 <!ELEMENT city (#PCDATA)>
-
-<!ELEMENT phone (#PCDATA)>
-<!ATTLIST phone type (landline | mobile) #REQUIRED>
 
 <!ELEMENT e-mail (#PCDATA)>

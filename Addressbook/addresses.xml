@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE addresses SYSTEM "addresses.dtd">
+<!DOCTYPE address-book SYSTEM "addresses.dtd">
 <!-- Kommentar vor dem Root-Element -->
-<addresses>
+<address-book>
 	<!-- Kommentar zwischen tags -->
 	<person>
 		<title>Dr.</title>
@@ -34,4 +34,4 @@
 		<e-mail>regina.boller@fachhochschule.at</e-mail>
 	</person>
 		
-</addresses>
+</address-book>
