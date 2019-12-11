@@ -52,7 +52,7 @@
 			vermiet-station-id="vermiet-station-2"
 			reservierungs_nr="B.253.265"
 			anfangsdatum="2017-12-24T12:00:00"
-			enddatum="2017-31-12"
+			enddatum="2017-12-31"
 			kategorie_bezeichnung="Classic">
 			<mietvertrag kennzeichen="B-911S" km_stand_uebergabe="213012" km_stand_rueckgabe="215766"/>
 		</reservierung>
