@@ -1,26 +1,3 @@
 <?xml encoding="UTF-8"?>
 
-<!ELEMENT collection (description,author*,recipe+)>
-
-<!ELEMENT description (#PCDATA)>
-
-<!ELEMENT recipe (title,image,ingredient+,preparation,comment?,nutrition?)>
-<!ATTLIST recipe
-  nr-of-persons CDATA #IMPLIED>
-
-<!ELEMENT title (#PCDATA)>
-<!ELEMENT image (#PCDATA)>
-
-<!ELEMENT comment (#PCDATA)>
-
-<!ELEMENT nutrition EMPTY>
-<!ATTLIST nutrition
-  alcohol CDATA #IMPLIED
-  calories CDATA #REQUIRED
-  carbohydrates CDATA #REQUIRED
-  fat CDATA #REQUIRED
-  protein CDATA #REQUIRED>
-
-<!-- Here comes your work.
-  Please complete this DTD in order to validate the example XMF file recipes.xml
--->
+<!ELEMENT collection EMPTY>
