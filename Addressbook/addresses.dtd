@@ -2,7 +2,7 @@
 
 <!ELEMENT address-book (person | company)*>
 
-<!ELEMENT person (title?, ((firstname, lastname) | (lastname, firstname)), address+, phone*, e-mail)>
+<!ELEMENT company (name, address+, phone*, e-mail)> 
 
 <!ELEMENT address (street, zip, city)>
 <!ATTLIST address type (home | work) #REQUIRED>
@@ -15,3 +15,13 @@
 <!ELEMENT city (#PCDATA)>
 
 <!ELEMENT e-mail (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+
+<!-- here comes your work -->
+
+<!ELEMENT phone (#PCDATA)>
+<!ATTLIST phone type CDATA #REQUIRED>
+
+<!ELEMENT person (title?, ((firstname, lastname) | (lastname, firstname)),
+  address+, phone*, e-mail)>
+  

@@ -49,15 +49,32 @@
 		</autotyp>
 	</autokategorie>
 	<autokategorie kategorie_bezeichnung="E-Car" grundtarif="50.0" km_preis="0.40">
-		<autotyp id="autotyp-5" typ_bezeichnung="BMW i3" benzinverbrauch="0.0"/>
+		<autotyp id="autotyp-5" typ_bezeichnung="BMW i3" benzinverbrauch="0.0">
+			<extraausstattung aufpreis="70" extras_bezeichnung="Sitzheizung" id="extraausstattung-8"/>
+			<extraausstattung aufpreis="50" extras_bezeichnung="Klimaanlage" id="extraausstattung-9"/>
+		</autotyp>
 		<autotyp id="autotyp-6" typ_bezeichnung="Renault ZOE" benzinverbrauch="0.0"/>
 	</autokategorie>
 	
-	<auto kennzeichen="B-911S" km_stand="215766" farbe="weiß" autotyp-id="autotyp-1" vermiet-station-id="vermiet-station-1">
+	<auto kennzeichen="B-911S" km_stand="215766" farbe="weiß" autotyp-id="autotyp-1"
+		vermiet-station-id="vermiet-station-1" image="https://www.classicdriver.com/sites/default/files/article_images/porsche-911-targa.jpg">
 		<verfuegt_ueber extraausstattung-id="extraausstattung-1"/>
 	</auto>
-	<auto kennzeichen="DO-I3W" km_stand="215766" farbe="weiß" autotyp-id="autotyp-5" vermiet-station-id="vermiet-station-4"/>
-	<auto kennzeichen="DO-I3R" km_stand="215766" farbe="rot" autotyp-id="autotyp-5" vermiet-station-id="vermiet-station-4"/>
+	<auto kennzeichen="B-911G" km_stand="215766" farbe="grün" autotyp-id="autotyp-1" vermiet-station-id="vermiet-station-1">
+		<verfuegt_ueber extraausstattung-id="extraausstattung-1"/>
+	</auto>
+	<auto kennzeichen="B-911Y" km_stand="215766" farbe="gelb" autotyp-id="autotyp-1" vermiet-station-id="vermiet-station-1">
+		<verfuegt_ueber extraausstattung-id="extraausstattung-1"/>
+	</auto>
+	<auto kennzeichen="B-308R" km_stand="215766" farbe="rot" autotyp-id="autotyp-4" vermiet-station-id="vermiet-station-1">
+		<verfuegt_ueber extraausstattung-id="extraausstattung-1"/>
+	</auto>
+	<auto kennzeichen="DO-I3W" km_stand="215766" farbe="weiß" autotyp-id="autotyp-5" vermiet-station-id="vermiet-station-4">
+		<verfuegt_ueber extraausstattung-id="extraausstattung-8"/>
+	</auto>
+	<auto kennzeichen="DO-I3R" km_stand="215766" farbe="rot" autotyp-id="autotyp-5" vermiet-station-id="vermiet-station-4">
+		<verfuegt_ueber extraausstattung-id="extraausstattung-9"/>
+	</auto>
 	<auto kennzeichen="DO-ZOEW" km_stand="215766" farbe="weiß" autotyp-id="autotyp-6" vermiet-station-id="vermiet-station-4"/>
 	<auto kennzeichen="DO-ZOER" km_stand="215766" farbe="rot" autotyp-id="autotyp-6" vermiet-station-id="vermiet-station-4"/>
 	

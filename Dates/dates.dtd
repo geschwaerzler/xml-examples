@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT some-days (date1+, date2)>
+
+<!ELEMENT date1 EMPTY>
+<!ATTLIST date1 day CDATA #REQUIRED
+                month (1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12) #REQUIRED
+                year  CDATA #REQUIRED
+>
+
+
+<!-- ELEMENT date2 (day, month, year) -->
+<!-- ELEMENT date2 (day | month | year)* -->
+<!ELEMENT date2 (
+	(day, month+, year) |
+	(day, year, month+) |
+	(month+, day, year) |
+	(month+, year, day) |
+	(year, month+, day) |
+	(year, day, month+)
+)>
+<!ELEMENT day (#PCDATA)>
+<!ELEMENT month (#PCDATA)>
+<!ELEMENT year (#PCDATA)>

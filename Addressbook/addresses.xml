@@ -22,6 +22,17 @@
 		<e-mail>gerhard@fachhochschule.at</e-mail>
 	</person>
 	
+	<company>
+		<name>nu Datenautomaten GmbH</name>
+		<address type="work">
+			<street>Rathausstraße 2</street>
+			<zip>6900</zip> <city>Bregenz</city>
+		</address>
+		<phone type="landline">+43 5574 53344</phone>
+		<e-mail>office@datenautomaten.nu</e-mail>
+	</company>
+	
+	
 	<person>
 		<title>Prof.</title>
 		<lastname>Kadgien</lastname>

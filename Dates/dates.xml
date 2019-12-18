@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE some-days SYSTEM "Dates.dtd">
+<some-days>
+
+	<date1 day="17" month="12" year="2019"/>
+	<date1 month="12" day="17" year="2019"/>
+	
+	<date2>
+		<day>17</day>
+		<month>12</month>
+		<month>Dezember</month>
+		<year>2019</year>
+	</date2>
+
+</some-days>
