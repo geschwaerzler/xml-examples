@@ -1,3 +1,40 @@
 <?xml encoding="UTF-8"?>
 
-<!ELEMENT collection EMPTY>
+<!ELEMENT collection (description, author*, recipe+)>
+
+<!ELEMENT description (#PCDATA)>
+
+<!ELEMENT author (#PCDATA)>
+<!ATTLIST author
+	id ID #REQUIRED
+    title CDATA #IMPLIED
+>
+
+<!ELEMENT recipe (title, image, ingredient+, preparation, comment?, nutrition)>
+<!ATTLIST recipe nr-of-persons CDATA #IMPLIED>
+<!ATTLIST recipe author-id IDREF #IMPLIED>
+
+<!ELEMENT title ANY>
+<!ELEMENT image ANY>
+<!ELEMENT ingredient (ingredient*, preparation?)>
+<!ATTLIST ingredient
+	name CDATA #REQUIRED
+	amount CDATA #IMPLIED
+	unit CDATA #IMPLIED
+>
+
+
+
+<!ELEMENT preparation (step+)>
+<!ELEMENT comment ANY>
+<!ELEMENT nutrition ANY>
+<!ATTLIST nutrition
+	calories CDATA #REQUIRED
+	fat CDATA #REQUIRED
+	carbohydrates CDATA #REQUIRED
+	protein CDATA #REQUIRED
+	alcohol CDATA #IMPLIED
+>
+
+
+<!ELEMENT step (#PCDATA)>
