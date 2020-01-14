@@ -6,6 +6,8 @@
     
     <xsl:output method="html"/>
     
+    <xsl:decimal-format name="austrian" decimal-separator="," grouping-separator="."/>
+    
     <xsl:template match="/">
         <html>
             <head>
@@ -36,7 +38,22 @@
                     <xsl:apply-templates select="collection/recipe" mode="toc"/>
                 </ol>
                 
+                <!-- Details zu den Rezepten -->
                 <xsl:apply-templates select="collection/recipe" mode="detail"/>
+                
+                <h2>Index of Ingredients</h2>
+                <ul>
+                    <xsl:for-each select="//ingredient">
+                        <xsl:sort select="upper-case(@name)"/>
+                        <li xml:space="preserve">
+                            <xsl:value-of select="@name"/><xsl:if test="@amount or @unit">, 
+                                <xsl:value-of select="@amount"/>
+                                <xsl:value-of select="@unit"/>
+                            </xsl:if>
+                        </li>
+                    </xsl:for-each>                    
+                </ul>
+                
             </body>
         </html>
     </xsl:template>
@@ -47,6 +64,38 @@
     
     <xsl:template match="recipe" mode="detail">
         <h2 id="{generate-id()}"><xsl:value-of select="title"/></h2>
+        
+        <h3>Author</h3>
+        <!-- Zugtiff per XPath mit Hilfe einer Vriablen-->
+        <xsl:variable name="a-id" select="@author-id"/>
+        <div xml:space="preserve">
+            Author:
+            <xsl:value-of select="//author[@id = $a-id]/@title"/>
+            <xsl:value-of select="//author[@id = $a-id]"/>
+        </div>
+        
+        <!-- Zugriff per id() Funktion -->
+        <div xml:space="preserve">
+            Author:
+            <xsl:value-of select="id(@author-id)/@title"/>
+            <xsl:value-of select="id(@author-id)"/>
+        </div>
+        
+        <!-- und nun etwas eleganter per template -->
+        <xsl:apply-templates select="id(@author-id)"/>
+        
+        <h3>Nutrition</h3>
+        <dl>
+            <dt>calories</dt>
+            <dd>
+                <xsl:value-of select="format-number(nutrition/@calories, '#.##0', 'austrian')"/>
+            </dd>
+            <dt>fat</dt><dd><xsl:value-of select="nutrition/@fat"/></dd>
+            <dt>carbohydrates</dt><dd><xsl:value-of select="nutrition/@carbohydrates"/></dd>
+            <dt>protein</dt><dd><xsl:value-of select="nutrition/@protein"/></dd>
+            <dt>alcohol</dt><dd><xsl:value-of select="nutrition/@alcohol"/></dd>
+        </dl>
+        
         <img src="{image}"></img>
         
         <h3>Preparation</h3>
@@ -55,6 +104,14 @@
                 <li><xsl:value-of select="."/></li>
             </xsl:for-each>
         </ol>
+    </xsl:template>
+    
+    <xsl:template match="author" xml:space="preserve">
+        <div>
+            Author:
+            <xsl:value-of select="@title"/>
+            <xsl:value-of select="."/>
+        </div>
     </xsl:template>
     
 </xsl:stylesheet>
