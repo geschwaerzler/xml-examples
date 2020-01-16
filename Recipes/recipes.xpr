@@ -167,13 +167,13 @@
                                     <String></String>
                                 </field>
                                 <field name="inputXSLURL">
-                                    <null/>
+                                    <String>${pdu}/recipes2pdf.xsl</String>
                                 </field>
                                 <field name="inputXMLURL">
-                                    <String>${currentFileURL}</String>
+                                    <String>${pdu}/recipes.xml</String>
                                 </field>
                                 <field name="defaultScenario">
-                                    <Boolean>true</Boolean>
+                                    <Boolean>false</Boolean>
                                 </field>
                                 <field name="isFOPPerforming">
                                     <Boolean>true</Boolean>
