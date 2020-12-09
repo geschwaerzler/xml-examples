@@ -1,0 +1,12 @@
+{
+	"object1" : {
+		"firstname": "Gerhard",
+		"lastname" : "Schwärzler"
+	},
+	"object2 == objects1" : {
+		"lastname" : "Schwärzler",
+		"firstname": "Gerhard"
+	},
+	"array1"           : ["Gerhard", "Schwärzler"],
+	"array2 != array1" : ["Schwärzler", "Gerhard"]
+}
