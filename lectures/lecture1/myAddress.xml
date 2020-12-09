@@ -1,0 +1,58 @@
+<?xml version="1.0" ?>
+<address-book>
+	<person>
+		<title>Dr.</title>
+		<firstname>Gerhard</firstname>
+		<lastname>Schwärzler</lastname>
+		
+		<address type="office">
+			<street>Rathausstraße 2</street>
+			<zip>6900</zip>
+			<city>Bregenz</city>
+		</address>
+	
+		<address type="lecture">
+			<street>Hochschulstraße 1</street>
+			<zip>6850</zip>
+			<city>Dornbirn</city>
+		</address>		
+		
+		<address type="wohnsitz-haupt">
+			<street>Hochschulstraße 1</street>
+			<zip>6850</zip>
+			<city>Dornbirn</city>
+		</address>		
+
+		<address type="wohnsitz-neben">
+			<street>Hochschulstraße 1</street>
+			<zip>6850</zip>
+			<city>Dornbirn</city>
+		</address>		
+
+		<address type="wohnsitz" priority="haupt">
+			<street>Hochschulstraße 1</street>
+			<zip>6850</zip>
+			<city>Dornbirn</city>
+		</address>		
+
+		<address type="wohnsitz" priority="neben">
+			<street>Hochschulstraße 1</street>
+			<zip>6850</zip>
+			<city>Dornbirn</city>
+		</address>		
+
+		<phone type="private">05574 53344</phone>
+		<phone type="office">05572 792 4444</phone>
+	</person>
+	
+	<person>
+		<title>Dr.</title>
+		<firstname>Regine</firstname>
+		<lastname>Kagien</lastname>
+		<address type="work">
+			<street>Hochschulstraße 1</street>
+			<zip>6850</zip>
+			<city>Dornbirn</city>
+		</address>
+	</person>
+</address-book>
