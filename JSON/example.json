@@ -1,0 +1,10 @@
+{
+	"message" : {
+		"from"    : "me@my-address.com",
+		"to"      : "you@your-address.com",
+		"cc"      : ["cc1@cc-address.com", "cc2@cc-address.com"],
+		"subject" : "JSON is really cool!",
+		"text"    : "How many ways is JSON cool? Let me count the ways...",
+		"length"  : 52
+	}
+}
