@@ -15,6 +15,7 @@
 				</ol>
 				
 				<xsl:apply-templates select="collection/recipe" mode="detail"/>
+
 				
 				<h2>Index of Ingredients</h2>
 				<table>
@@ -32,19 +33,27 @@
 	
 	
 	<xsl:template match="recipe" mode="toc">
-		<li><a href="#recipe-{position()}"><xsl:value-of select="title"/></a></li>
+		<li><a href="#{generate-id()}"><xsl:value-of select="title"/></a></li>
 	</xsl:template>
 	
 	
 	<xsl:template match="recipe" mode="detail">
-		<h2 id='recipe-{position()}'><xsl:value-of select="title"/></h2>
-		<img src="{image}"/>
+		<h2 id="{generate-id()}"><xsl:value-of select="title"/></h2>
+		
+		<xsl:if test="@author-id">
+			<p xml:space="preserve">by
+			 	<xsl:value-of select="id(@author-id)/@title"/>
+			 	<xsl:value-of select="id(@author-id)"/>
+			</p>
+		</xsl:if>
+		
+		<img src="{image}" width="50%"/>
 		
 		<h3>Ingredients</h3>
 		<ul>
 			<xsl:for-each select="ingredient">
-				<li id='{generate-id()}' xml:space='preserve'>
-					<xsl:value-of select="@amount"/>
+                <li id="{generate-id()}" xml:space="preserve">
+             		<xsl:value-of select="@amount"/>
 					<xsl:value-of select="@unit"/>
 					<xsl:value-of select="@name"/>
 				</li>
