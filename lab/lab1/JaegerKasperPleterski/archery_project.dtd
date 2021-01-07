@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT tournament (group+, shooting-style+)>
+<!ATTLIST tournament
+        id 				ID 		#REQUIRED
+        host_country 	CDATA 	#REQUIRED
+        host_city_code 	CDATA 	#REQUIRED
+        event_year 		CDATA 	#REQUIRED
+>
+    
+        
+<!ELEMENT group (participant+, round+)>
+<!ATTLIST group
+        id 			ID 		#REQUIRED
+        round_id 	IDREF 	#REQUIRED
+>   
+     
+             
+<!ELEMENT participant EMPTY>
+<!ATTLIST participant
+        id 				ID 		#REQUIRED
+        person_id 		IDREF 	#REQUIRED
+        role 			CDATA 	#REQUIRED
+        gender 			CDATA 	#REQUIRED
+        is_professional CDATA 	#REQUIRED
+        style_name 		CDATA 	#REQUIRED
+        group_name 		CDATA 	#REQUIRED
+>
+
+
+<!ELEMENT round (results+)>
+<!ATTLIST round
+        id 					ID 		#REQUIRED
+        round_type_name 	CDATA 	#REQUIRED
+        round_number 		CDATA 	#REQUIRED
+        place 				CDATA 	#REQUIRED
+        start_time 			CDATA 	#REQUIRED
+>
+
+
+<!ELEMENT results EMPTY>
+<!ATTLIST results
+        person_id 		IDREF 	#REQUIRED
+        participant_id 	IDREF	#REQUIRED
+        points 			CDATA 	#REQUIRED
+>
+
+ 
+
+<!ELEMENT shooting-style (division+)>
+<!ATTLIST shooting-style
+    	id 			ID 		#REQUIRED
+    	style_name 	CDATA 	#REQUIRED
+   		bow_type 	CDATA 	#REQUIRED
+>
+
+ 
+
+<!ELEMENT division (person+)>
+<!ATTLIST division
+        id 					ID 		#REQUIRED
+        gender 				CDATA 	#REQUIRED
+        is_professional 	CDATA 	#REQUIRED
+        age_group_name 		CDATA 	#REQUIRED
+>
+
+ 
+<!ELEMENT person EMPTY>
+<!ATTLIST person
+        id 				ID 		#REQUIRED
+        firstname 		CDATA 	#REQUIRED
+        lastname 		CDATA 	#REQUIRED
+        password 		CDATA 	#REQUIRED
+        email 			CDATA 	#REQUIRED
+        tournament_role CDATA 	#REQUIRED
+>
+ 

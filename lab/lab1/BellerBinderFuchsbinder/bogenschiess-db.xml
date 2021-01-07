@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE bogenschiess-db SYSTEM "bogenschiess-db.dtd">
+
+<bogenschiess-db>
+    <tournament id="t1" host_country="Austria" host_city_code="FK" event_year="2020">
+        <person id="pers1" firstname="Hans" lastname="Peter" password="1234" email="hans@bogenadmin.at" tournament_role="ADMIN"/>
+
+        <person id="pers2" firstname="Max" lastname="Mustermann" password="12345" email="max@muster.at" tournament_role="PARTICIPANT">
+            <participant gender="MALE" is_professional="FALSE">
+                <style-and-division>
+                    <shooting-style style_name="STYLE1" bow_type="TEXAS"/>
+                    <age-group gr_name="ADULT"/>
+                </style-and-division>
+            </participant>
+        </person>
+
+        <person id="pers3" firstname="Peter" lastname="Mustermann" password="12345" email="peter@muster.at" tournament_role="PARTICIPANT">
+            <participant gender="MALE" is_professional="FALSE">
+                <style-and-division>
+                    <shooting-style style_name="STYLE1" bow_type="TEXAS"/>
+                    <age-group gr_name="ADULT"/>
+                </style-and-division>
+            </participant>
+        </person>
+
+        <person id="pers4" firstname="Petra" lastname="Lustig" password="12345" email="petra@lustig.com" tournament_role="PARTICIPANT">
+            <participant gender="FEMALE" is_professional="FALSE">
+                <style-and-division>
+                    <shooting-style style_name="STYLE1" bow_type="TEXAS"/>
+                    <age-group gr_name="ADULT"/>
+                </style-and-division>
+            </participant>
+        </person>
+
+        <person id="pers5" firstname="Hildeard" lastname="Ziel" password="12345" email="hildegard@zielsicher.com" tournament_role="PARTICIPANT">
+            <participant gender="FEMALE" is_professional="FALSE">
+                <style-and-division>
+                    <shooting-style style_name="STYLE1" bow_type="TEXAS"/>
+                    <age-group gr_name="ADULT"/>
+                </style-and-division>
+            </participant>
+        </person>
+
+        <person id="pers6" firstname="Klaus" lastname="Uhr" password="12345" email="klaus@uhr.com" tournament_role="PARTICIPANT">
+            <participant gender="MALE" is_professional="FALSE">
+                <style-and-division>
+                    <shooting-style style_name="STYLE2" bow_type="MECHANIC"/>
+                    <age-group gr_name="CHILD"/>
+                </style-and-division>
+            </participant>
+        </person>
+
+        <person id="pers7" firstname="Rob" lastname="Otter" password="12345" email="rob@otter.com" tournament_role="PARTICIPANT">
+            <participant gender="MALE" is_professional="FALSE">
+                <style-and-division>
+                    <shooting-style style_name="STYLE2" bow_type="MECHANIC"/>
+                    <age-group gr_name="CHILD"/>
+                </style-and-division>
+            </participant>
+        </person>
+
+        <person id="pers8" firstname="Mark" lastname="Aroni" password="12345" email="mark@roni.com" tournament_role="PARTICIPANT">
+            <participant gender="MALE" is_professional="FALSE">
+                <style-and-division>
+                    <shooting-style style_name="STYLE2" bow_type="MECHANIC"/>
+                    <age-group gr_name="CHILD"/>
+                </style-and-division>
+            </participant>
+        </person>
+
+        <round id="r1" round_number="1" place="Reichenfeld" start_time="12:00" round_type_name="outdoor">
+            <group id="gr1">
+                <group-role person-id="pers2" group-role="writer"/>
+                <group-role person-id="pers3" group-role="shooting"/>
+            </group>
+            <group id="gr2">
+                <group-role person-id="pers4" group-role="writer"/>
+                <group-role person-id="pers5" group-role="shooting"/>
+            </group>
+
+            <result id="res1" person-id="pers2" points="10"/>
+            <result id="res2" person-id="pers3" points="10"/>
+            <result id="res3" person-id="pers4" points="12"/>
+            <result id="res4" person-id="pers5" points="12"/>
+        </round>
+
+        <round id="r2" round_number="2" place="Reichenfeld" start_time="14:00" round_type_name="outdoor">
+            <group id="gr3">
+                <group-role person-id="pers2" group-role="shooting"/>
+                <group-role person-id="pers3" group-role="writer"/>
+            </group>
+            <group id="gr4">
+                <group-role person-id="pers4" group-role="shooting"/>
+                <group-role person-id="pers5" group-role="writer"/>
+            </group>
+
+            <result id="res5" person-id="pers2" points="11"/>
+            <result id="res6" person-id="pers3" points="11"/>
+            <result id="res7" person-id="pers4" points="9"/>
+            <result id="res8" person-id="pers5" points="9"/>
+        </round>
+
+        <round id="r3" round_number="3" place="Reichenfeld Turnhalle" start_time="16:00" round_type_name="indoor">
+            <group id="gr5">
+                <group-role person-id="pers2" group-role="writer"/>
+                <group-role person-id="pers5" group-role="shooting"/>
+            </group>
+            <group id="gr6">
+                <group-role person-id="pers4" group-role="writer"/>
+                <group-role person-id="pers3" group-role="shooting"/>
+            </group>
+
+            <result id="res9" person-id="pers2" points="8"/>
+            <result id="res10" person-id="pers3" points="14"/>
+            <result id="res11" person-id="pers4" points="14"/>
+            <result id="res12" person-id="pers5" points="8"/>
+        </round>
+
+        <round id="r4" round_number="4" place="Reichenfeld Turnhalle" start_time="18:00" round_type_name="indoor">
+            <group id="gr7">
+                <group-role person-id="pers2" group-role="shooting"/>
+                <group-role person-id="pers5" group-role="writer"/>
+            </group>
+            <group id="gr8">
+                <group-role person-id="pers4" group-role="shooting"/>
+                <group-role person-id="pers3" group-role="writer"/>
+            </group>
+
+            <result id="res13" person-id="pers2" points="11"/>
+            <result id="res14" person-id="pers3" points="9"/>
+            <result id="res15" person-id="pers4" points="9"/>
+            <result id="res16" person-id="pers5" points="11"/>
+        </round>
+
+        <round id="r5" round_number="5" place="Reichenfeld Turnhalle" start_time="20:00" round_type_name="indoor-final">
+            <group id="gr9">
+                <group-role person-id="pers2" group-role="shooting"/>
+                <group-role person-id="pers5" group-role="shooting"/>
+                <group-role person-id="pers4" group-role="writer"/>
+                <group-role person-id="pers3" group-role="shooting"/>
+            </group>
+
+            <result id="res17" person-id="pers2" points="30"/>
+            <result id="res18" person-id="pers3" points="29"/>
+            <result id="res19" person-id="pers4" points="31"/>
+            <result id="res20" person-id="pers5" points="34"/>
+        </round>
+
+        <round id="r6" round_number="5" place="Reichenfeld Turnhalle 2" start_time="20:00" round_type_name="indoor-final">
+            <group id="gr10">
+                <group-role person-id="pers6" group-role="shooting"/>
+                <group-role person-id="pers7" group-role="shooting"/>
+                <group-role person-id="pers8" group-role="writer"/>
+            </group>
+
+            <result id="res21" person-id="pers6" points="42"/>
+            <result id="res22" person-id="pers7" points="39"/>
+            <result id="res23" person-id="pers8" points="40"/>
+        </round>
+
+        <round-type round_type_name="outdoor"/>
+        <round-type round_type_name="indoor"/>
+        <round-type round_type_name="indoor-final"/>
+    </tournament>
+</bogenschiess-db>
