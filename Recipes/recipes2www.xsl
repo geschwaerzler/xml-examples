@@ -38,6 +38,8 @@
 	
 	
 	<xsl:template match="recipe" mode="detail">
+		<hr/>
+		
 		<h2 id="{generate-id()}"><xsl:value-of select="title"/></h2>
 		
 		<xsl:if test="@author-id">
