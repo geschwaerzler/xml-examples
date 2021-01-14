@@ -1,0 +1,96 @@
+html {
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.subtext {
+    color: gray;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+
+h2 {
+    border-bottom: 1px solid black;
+}
+
+img.preview-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+img.preview-pic.small {
+    width: 25px;
+    height: 25px;
+}
+
+a {
+    text-decoration: none;
+    padding: 0.5rem;
+    display: inline-block;
+    color: #1a89e6;
+}
+
+li {
+    padding: .2rem;
+}
+
+
+div.person-container, div.round-container {
+    display: block;
+    margin: 2rem;
+    background: #fdfdfd;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 4px 4px 10px #b1b1b1;
+}
+
+
+div.person-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: min-content min-content 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+            "person_name person_name person_name profile_pic"
+            "pers_details point_sum style_division style_division"
+            "result_table result_table result_table result_table";
+}
+.person_name { grid-area: person_name; }
+.person_name > h3 {
+    font-size: 3rem;
+}
+.profile_pic {
+    grid-area: profile_pic;
+}
+
+.profile_pic > img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 4px 6px 9px #9d9d9d;
+}
+.style_division { grid-area: style_division; }
+.result_table { grid-area: result_table; }
+table {
+    width: 100%;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+td {
+    padding: .5rem 1rem;
+}
+.pers_details { grid-area: pers_details; }
+.point_sum {
+    grid-area: point_sum;
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

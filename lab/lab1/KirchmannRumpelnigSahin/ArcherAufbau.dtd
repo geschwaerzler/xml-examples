@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT Aufbau (Team*, Station*, Round*, Division*, Marker_Color*)>
+
+<!ELEMENT Team (Team_Member*, builds*)>
+<!ATTLIST Team
+	id ID #REQUIRED
+	leader IDREF #REQUIRED
+>
+
+<!ELEMENT Team_Member (#PCDATA)>
+<!ATTLIST Team_Member
+	id ID #REQUIRED
+	fname CDATA #REQUIRED
+	middle_name CDATA #IMPLIED
+	lname CDATA #REQUIRED
+>
+
+<!ELEMENT builds (#PCDATA)>
+<!ATTLIST builds
+	station_id IDREF #REQUIRED
+>
+
+<!ELEMENT Station (position_at*)>
+<!ATTLIST Station
+	id ID #REQUIRED
+	position_ns CDATA #REQUIRED
+	position_we CDATA #REQUIRED
+>
+
+<!ELEMENT position_at (#PCDATA)>
+<!ATTLIST position_at
+	target_id IDREF #REQUIRED
+>
+
+<!ELEMENT Round (Standard_Unit*)>
+<!ATTLIST Round
+	id ID #REQUIRED
+	day CDATA #REQUIRED
+>
+
+<!ELEMENT Standard_Unit (Target_Type*)>
+<!ATTLIST Standard_Unit
+	id ID #REQUIRED
+	round_type CDATA #REQUIRED
+>
+
+<!ELEMENT Target_Type (Shooting_Position*)>
+<!ATTLIST Target_Type
+	id ID #REQUIRED
+	target_size CDATA #REQUIRED
+>
+
+<!ELEMENT Shooting_Position (#PCDATA)>
+<!ATTLIST Shooting_Position
+	id ID #REQUIRED
+	distance CDATA #REQUIRED
+	division_id IDREF #REQUIRED
+	color_id IDREF #REQUIRED
+>	
+
+<!ELEMENT Division EMPTY>
+<!ATTLIST Division
+	id ID #REQUIRED
+	division_name CDATA #REQUIRED
+>
+
+<!ELEMENT Marker_Color (#PCDATA)>
+<!ATTLIST Marker_Color
+	id ID #REQUIRED
+	coloring CDATA #REQUIRED
+>

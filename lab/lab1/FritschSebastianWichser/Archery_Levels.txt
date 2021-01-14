@@ -1,0 +1,25 @@
+
+
+LEVEL 0
+		Turnier
+		Altersklasse
+		Schieﬂstil
+		Liga
+		Parcours
+
+LEVEL 1
+		Stil_und_Einteilung
+		Scheibe
+		Runde
+	
+LEVEL 2
+		Teilnehmer
+		Wird_ausgetragen_auf
+		Nimmt_teil
+	Gruppe
+	
+LEVEL 3
+		Punktestand
+	
+	
+	

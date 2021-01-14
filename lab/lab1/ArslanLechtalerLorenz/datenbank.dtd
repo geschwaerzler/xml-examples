@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT bogenschiessen (turniere, nimmtteil, turnier_teilnehmer, parcours, punktestände, stiele, altersklassen, schieß_stiele, ligen)>
+
+<!ELEMENT parcours (parkur)*>
+<!ELEMENT parkur (scheiben)*>
+<!ATTLIST parkur
+	parkur_id	ID	#REQUIRED
+	parkur_name CDATA #REQUIRED
+>
+<!ELEMENT scheiben EMPTY>
+<!ATTLIST scheiben
+	scheiben_id ID #REQUIRED
+>
+
+<!ELEMENT altersklassen (altersklasse)*>
+<!ELEMENT altersklasse (#PCDATA)>
+<!ATTLIST altersklasse
+	altersklassen_id ID #REQUIRED
+>
+
+
+<!ELEMENT schieß_stiele (schieß_stiel)*>
+<!ELEMENT schieß_stiel (#PCDATA)>
+<!ATTLIST schieß_stiel
+	schieß_stiel_id ID #REQUIRED
+>
+
+<!ELEMENT ligen (liga)*>
+<!ELEMENT liga (#PCDATA)>
+<!ATTLIST liga
+	liga_id ID #REQUIRED
+>
+	
+<!ELEMENT stiele (stiel)*>
+<!ELEMENT stiel EMPTY>
+<!ATTLIST stiel
+	stiel_id ID #REQUIRED
+	altersklassen_id	IDREF  #REQUIRED
+	schieß_stiel_id	IDREF  #REQUIRED
+	liga_id	IDREF  #REQUIRED
+>
+
+
+<!ELEMENT turnier_teilnehmer (teilnehmer)*>
+<!ELEMENT teilnehmer (teilnehmer_Vn, teilnehmer_Nn)>
+<!ATTLIST teilnehmer
+	person_id 	ID	#REQUIRED
+	stiel_id	IDREF	#REQUIRED
+>
+<!ELEMENT teilnehmer_Vn (#PCDATA)>
+<!ELEMENT teilnehmer_Nn (#PCDATA)>
+
+
+<!ELEMENT turniere (turnier)*>
+
+<!ELEMENT turnier (Runde)*>
+<!ATTLIST turnier 
+	lfd_nummer	ID	#REQUIRED
+>
+<!ELEMENT Runde (Gruppe)*>
+<!ATTLIST Runde
+	parkur_id	IDREF	#REQUIRED
+	
+>	
+<!ELEMENT Gruppe (Schütze)*>
+<!ATTLIST Gruppe
+	gruppen_id 	ID	#REQUIRED
+>	
+<!ELEMENT Schütze EMPTY>
+<!ATTLIST Schütze
+	person_id	IDREF		#REQUIRED
+	rolle		CDATA	#REQUIRED
+>
+
+
+<!ELEMENT nimmtteil (teilen)*>
+<!ELEMENT teilen EMPTY>
+<!ATTLIST teilen
+	lfd_nummer	IDREF	#REQUIRED
+	person_id	IDREF	#REQUIRED
+>
+
+<!ELEMENT punktestände (turnier_punkte)*>
+
+<!ELEMENT turnier_punkte (punktestand)*>
+<!ATTLIST turnier_punkte
+	turnier_id	IDREF #REQUIRED
+>
+
+<!ELEMENT punktestand (Runde)*>
+<!ATTLIST punktestand
+	person_id	IDREF #REQUIRED
+>
+
+<!ELEMENT Runde_punkte (scheiben_punkte)*>
+<!ATTLIST Runde_punkte
+	parkur_id	IDREF #REQUIRED
+>
+
+<!ELEMENT scheiben_punkte (schüsse)*>
+<!ATTLIST scheiben_punkte
+	scheiben_id	IDREF #REQUIRED
+>
+<!ELEMENT schüsse (#PCDATA)>
+	
+
+
+
+
+
+
+

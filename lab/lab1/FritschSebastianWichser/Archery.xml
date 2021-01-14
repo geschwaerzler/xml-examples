@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE archery_db SYSTEM "Archery.dtd">
+
+<archery_db>
+
+<teilnehmer teilnehmer_ID = "P230" nomenklatur-ID = "AFBL" vorname = "Jane" nachname = "Doe" ></teilnehmer>
+<teilnehmer teilnehmer_ID = "P231" nomenklatur-ID = "AMBL" vorname = "John" nachname = "Doe" ></teilnehmer>
+<teilnehmer teilnehmer_ID = "P232" nomenklatur-ID = "AMBL" vorname = "Jack" nachname = "Miller" ></teilnehmer>
+<teilnehmer teilnehmer_ID = "P233" nomenklatur-ID = "AFBL" vorname = "Paula" nachname = "Sutter" ></teilnehmer>
+<teilnehmer teilnehmer_ID = "P234" nomenklatur-ID = "AFBL" vorname = "Anna" nachname = "Grabherr" ></teilnehmer>
+
+<teilnehmer teilnehmer_ID = "P235" nomenklatur-ID = "AFFS" vorname = "Rose" nachname = "Bush" ></teilnehmer>
+<teilnehmer teilnehmer_ID = "P236" nomenklatur-ID = "AMFS" vorname = "John" nachname = "Wick" ></teilnehmer>
+<teilnehmer teilnehmer_ID = "P237" nomenklatur-ID = "AMFS" vorname = "Klaus" nachname = "Miller" ></teilnehmer>
+<teilnehmer teilnehmer_ID = "P238" nomenklatur-ID = "AFFS" vorname = "Margret" nachname = "Peterson" ></teilnehmer>
+<teilnehmer teilnehmer_ID = "P239" nomenklatur-ID = "AFFS" vorname = "Lena" nachname = "Hofer" ></teilnehmer>
+
+<altersklasse altersklassen_ID = "Senior"></altersklasse>
+<altersklasse altersklassen_ID= "Veteran"></altersklasse>
+<altersklasse altersklassen_ID = "Adult"></altersklasse>
+<altersklasse altersklassen_ID = "Young-Adult"></altersklasse>
+<altersklasse altersklassen_ID = "Junior"></altersklasse>
+<altersklasse altersklassen_ID = "Cubs"></altersklasse>
+	
+<schieß-stil stil_ID = "BB" bogentyp = "Bareboe - Recurved and compound"></schieß-stil>
+<schieß-stil stil_ID = "FU" bogentyp = "Freestyle Unlimited"></schieß-stil>
+<schieß-stil stil_ID = "FS" bogentyp = "Freestyle Limited"></schieß-stil>
+<schieß-stil stil_ID = "LB" bogentyp = "Longbow"></schieß-stil>
+<schieß-stil stil_ID = "BU" bogentyp = "Bowhunter Unlimited"></schieß-stil>
+<schieß-stil stil_ID = "BL" bogentyp = "Bowhunter Limited"></schieß-stil>
+<schieß-stil stil_ID = "BH" bogentyp = "Bowhunter Recurve and compound"></schieß-stil>
+<schieß-stil stil_ID = "HB" bogentyp = "Historical Bow"></schieß-stil>
+<schieß-stil stil_ID = "TR" bogentyp = "Traditional Recurve Bow"></schieß-stil>
+	
+<liga liga_ID = "Amateur"></liga>
+<liga liga_ID= "Profi"></liga>
+	
+<stil_und_einteilung nomenklatur_ID = "AFBL" geschlecht = "F" altersklassen-ID = "Adult" stil-ID = "BL" liga-ID = "Amateur"></stil_und_einteilung>
+<stil_und_einteilung nomenklatur_ID = "AMBL" geschlecht = "M" altersklassen-ID = "Adult" stil-ID = "BL" liga-ID = "Amateur"></stil_und_einteilung>
+<stil_und_einteilung nomenklatur_ID = "AMFS" geschlecht = "M" altersklassen-ID = "Adult" stil-ID = "FS" liga-ID = "Amateur"></stil_und_einteilung>
+<stil_und_einteilung nomenklatur_ID = "AFFS" geschlecht = "F" altersklassen-ID = "Adult" stil-ID = "FS" liga-ID = "Amateur"></stil_und_einteilung>	
+
+<turnier turnier_ID = "Turnier20" jahr = "2019" land = "Uruguay" laufende_nummer = "N20">
+
+	<parcour parcoursbezeichnung_ID = "Hunter">
+		
+		<runde runden_ID = "Hunter_01">
+			<scheibe scheiben_ID = "H1_1"></scheibe>
+			<scheibe scheiben_ID = "H1_2"></scheibe>
+			<scheibe scheiben_ID = "H1_3"></scheibe>
+			<scheibe scheiben_ID = "H1_4"></scheibe>
+			<scheibe scheiben_ID = "H1_5"></scheibe>
+		</runde>
+	
+		<runde runden_ID = "Hunter_02">
+			<scheibe scheiben_ID = "H2_1"></scheibe>
+			<scheibe scheiben_ID = "H2_2"></scheibe>
+			<scheibe scheiben_ID = "H2_3"></scheibe>
+			<scheibe scheiben_ID = "H2_4"></scheibe>
+			<scheibe scheiben_ID = "H2_5"></scheibe>
+		</runde>
+	</parcour>
+
+	<parcour parcoursbezeichnung_ID = "Animal">
+		<runde runden_ID = "Animal_01">
+			<scheibe scheiben_ID = "A_1"></scheibe>
+			<scheibe scheiben_ID = "A_2"></scheibe>
+			<scheibe scheiben_ID = "A_3"></scheibe>
+			<scheibe scheiben_ID = "A_4"></scheibe>
+			<scheibe scheiben_ID = "A_5"></scheibe>
+		</runde>
+	</parcour>
+
+	<parcour parcoursbezeichnung_ID = "Field">
+
+		<runde runden_ID = "Field_01">
+			<scheibe scheiben_ID = "F1_1"></scheibe>
+			<scheibe scheiben_ID = "F1_2"></scheibe>
+			<scheibe scheiben_ID = "F1_3"></scheibe>
+			<scheibe scheiben_ID = "F1_4"></scheibe>
+			<scheibe scheiben_ID = "F1_5"></scheibe>
+		</runde>
+	
+		<runde runden_ID = "Field_02">
+			<scheibe scheiben_ID = "F2_1"></scheibe>
+			<scheibe scheiben_ID = "F2_2"></scheibe>
+			<scheibe scheiben_ID = "F2_3"></scheibe>
+			<scheibe scheiben_ID = "F2_4"></scheibe>
+			<scheibe scheiben_ID = "F2_5"></scheibe>
+		</runde>
+	
+	</parcour>
+	
+	<gruppe gruppen_ID = "Gruppe01" runde-ID = "Hunter_01">
+	
+		<mitglied teilnehmer-ID = "P230" rolle = "Gruppenleiter">
+			<punktestand punktestand_ID = "P230-1" scheibe-ID = "H1_1" punkte = "40"></punktestand>
+			<punktestand punktestand_ID = "P230-2" scheibe-ID = "H1_2" punkte = "10"></punktestand>
+			<punktestand punktestand_ID = "P230-3" scheibe-ID = "H1_3" punkte = "25"></punktestand>
+			<punktestand punktestand_ID = "P230-4" scheibe-ID = "H1_4" punkte = "30"></punktestand>
+			<punktestand punktestand_ID = "P230-5" scheibe-ID = "H1_5" punkte = "35"></punktestand>
+		</mitglied>
+		
+		<mitglied teilnehmer-ID = "P231" rolle = "Schreiber">
+			<punktestand punktestand_ID = "P231-1" scheibe-ID = "H1_1" punkte = "20"></punktestand>
+			<punktestand punktestand_ID = "P231-2" scheibe-ID = "H1_2" punkte = "5"></punktestand>
+			<punktestand punktestand_ID = "P231-3" scheibe-ID = "H1_3" punkte = "15"></punktestand>
+			<punktestand punktestand_ID = "P231-4" scheibe-ID = "H1_4" punkte = "40"></punktestand>
+			<punktestand punktestand_ID = "P231-5" scheibe-ID = "H1_5" punkte = "30"></punktestand>
+		</mitglied>
+		
+		<mitglied teilnehmer-ID = "P232" rolle = "Schreiber">
+			<punktestand punktestand_ID = "P232-1" scheibe-ID = "H1_1" punkte = "25"></punktestand>
+			<punktestand punktestand_ID = "P232-2" scheibe-ID = "H1_2" punkte = "15"></punktestand>
+			<punktestand punktestand_ID = "P232-3" scheibe-ID = "H1_3" punkte = "20"></punktestand>
+			<punktestand punktestand_ID = "P232-4" scheibe-ID = "H1_4" punkte = "40"></punktestand>
+			<punktestand punktestand_ID = "P232-5" scheibe-ID = "H1_5" punkte = "35"></punktestand>
+		</mitglied>
+		
+		<mitglied teilnehmer-ID = "P233" rolle = "Schütze">
+			<punktestand punktestand_ID = "P233-1" scheibe-ID = "H1_1" punkte = "15"></punktestand>
+			<punktestand punktestand_ID = "P233-2" scheibe-ID = "H1_2" punkte = "30"></punktestand>
+			<punktestand punktestand_ID = "P233-3" scheibe-ID = "H1_3" punkte = "40"></punktestand>
+			<punktestand punktestand_ID = "P233-4" scheibe-ID = "H1_4" punkte = "50"></punktestand>
+			<punktestand punktestand_ID = "P233-5" scheibe-ID = "H1_5" punkte = "35"></punktestand>
+		</mitglied>
+		
+		<mitglied teilnehmer-ID = "P234" rolle = "Schütze">
+			<punktestand punktestand_ID = "P234-1" scheibe-ID = "H1_1" punkte = "25"></punktestand>
+			<punktestand punktestand_ID = "P234-2" scheibe-ID = "H1_2" punkte = "15"></punktestand>
+			<punktestand punktestand_ID = "P234-3" scheibe-ID = "H1_3" punkte = "20"></punktestand>
+			<punktestand punktestand_ID = "P234-4" scheibe-ID = "H1_4" punkte = "40"></punktestand>
+			<punktestand punktestand_ID = "P234-5" scheibe-ID = "H1_5" punkte = "35"></punktestand>
+		</mitglied>
+	</gruppe>
+	
+		<gruppe gruppen_ID = "Gruppe02" runde-ID = "Animal_01">
+	
+		<mitglied teilnehmer-ID = "P235" rolle = "Gruppenleiter">
+			<punktestand punktestand_ID = "P235-1" scheibe-ID = "A_1" punkte = "50"></punktestand>
+			<punktestand punktestand_ID = "P235-2" scheibe-ID = "A_2" punkte = "15"></punktestand>
+			<punktestand punktestand_ID = "P235-3" scheibe-ID = "A_3" punkte = "15"></punktestand>
+			<punktestand punktestand_ID = "P235-4" scheibe-ID = "A_4" punkte = "40"></punktestand>
+			<punktestand punktestand_ID = "P235-5" scheibe-ID = "A_5" punkte = "35"></punktestand>
+		</mitglied>
+		
+		<mitglied teilnehmer-ID = "P236" rolle = "Schreiber">
+			<punktestand punktestand_ID = "P236-1" scheibe-ID = "A_1" punkte = "25"></punktestand>
+			<punktestand punktestand_ID = "P236-2" scheibe-ID = "A_2" punkte = "15"></punktestand>
+			<punktestand punktestand_ID = "P236-3" scheibe-ID = "A_3" punkte = "25"></punktestand>
+			<punktestand punktestand_ID = "P236-4" scheibe-ID = "A_4" punkte = "10"></punktestand>
+			<punktestand punktestand_ID = "P236-5" scheibe-ID = "A_5" punkte = "15"></punktestand>
+		</mitglied>
+		
+		<mitglied teilnehmer-ID = "P237" rolle = "Schreiber">
+			<punktestand punktestand_ID = "P237-1" scheibe-ID = "A_1" punkte = "25"></punktestand>
+			<punktestand punktestand_ID = "P237-2" scheibe-ID = "A_2" punkte = "10"></punktestand>
+			<punktestand punktestand_ID = "P237-3" scheibe-ID = "A_3" punkte = "20"></punktestand>
+			<punktestand punktestand_ID = "P237-4" scheibe-ID = "A_4" punkte = "45"></punktestand>
+			<punktestand punktestand_ID = "P237-5" scheibe-ID = "A_5" punkte = "35"></punktestand>
+		</mitglied>
+		
+		<mitglied teilnehmer-ID = "P238" rolle = "Schütze">
+			<punktestand punktestand_ID = "P238-1" scheibe-ID = "A_1" punkte = "20"></punktestand>
+			<punktestand punktestand_ID = "P238-2" scheibe-ID = "A_2" punkte = "35"></punktestand>
+			<punktestand punktestand_ID = "P238-3" scheibe-ID = "A_3" punkte = "20"></punktestand>
+			<punktestand punktestand_ID = "P238-4" scheibe-ID = "A_4" punkte = "30"></punktestand>
+			<punktestand punktestand_ID = "P238-5" scheibe-ID = "A_5" punkte = "35"></punktestand>
+		</mitglied>
+				
+		<mitglied teilnehmer-ID = "P239" rolle = "Schütze">
+			<punktestand punktestand_ID = "P239-1" scheibe-ID = "A_1" punkte = "15"></punktestand>
+			<punktestand punktestand_ID = "P239-2" scheibe-ID = "A_2" punkte = "35"></punktestand>
+			<punktestand punktestand_ID = "P239-3" scheibe-ID = "A_3" punkte = "10"></punktestand>
+			<punktestand punktestand_ID = "P239-4" scheibe-ID = "A_4" punkte = "30"></punktestand>
+			<punktestand punktestand_ID = "P239-5" scheibe-ID = "A_5" punkte = "35"></punktestand>
+		</mitglied>
+	</gruppe>
+	
+
+</turnier>
+
+
+</archery_db>
+
+

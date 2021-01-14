@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT archerDB (description?, tournament*, division+, class+, style+, archerclass+)>
+
+<!ELEMENT description (#PCDATA)>
+
+<!ELEMENT tournament (location, official+, round+, archer+)>
+<!ATTLIST tournament	   id 				ID 	  #REQUIRED
+						   tournament_name	CDATA #REQUIRED
+>
+
+<!ELEMENT location EMPTY>
+<!ATTLIST location zip_code CDATA #REQUIRED
+				   iso_code CDATA #REQUIRED
+				   street 	CDATA #REQUIRED
+		  		   number 	CDATA #REQUIRED
+>
+
+<!ELEMENT official (accompanies*)>
+<!ATTLIST official		   fname			CDATA #REQUIRED
+						   lname			CDATA #REQUIRED
+						   function			CDATA #REQUIRED
+>
+
+<!ELEMENT accompanies EMPTY>
+<!ATTLIST accompanies	   group_id	IDREF #REQUIRED
+>
+
+<!ELEMENT round (parcour+, group+)>
+<!ATTLIST round		id				ID	  #REQUIRED   
+					round_name		CDATA #REQUIRED>
+
+<!ELEMENT parcour (target+)>
+<!ATTLIST parcour	   	   id			ID	  #REQUIRED
+						   parcour_name CDATA #REQUIRED
+>
+
+<!ELEMENT target EMPTY>
+<!ATTLIST target	id			ID		#REQUIRED>
+
+<!ELEMENT group EMPTY>
+<!ATTLIST group		   	   id				ID 	  #REQUIRED
+						   group_name		CDATA #REQUIRED
+						   parcour_id		IDREF #REQUIRED
+>
+
+<!ELEMENT archer (scorecard+, member_of+)>
+<!ATTLIST archer		   fname			CDATA #REQUIRED
+						   lname			CDATA #REQUIRED
+						   archerclass_id	IDREF #REQUIRED
+>
+
+<!ELEMENT scorecard (point*)>
+<!ATTLIST scorecard  	   sc_number		CDATA	#REQUIRED>
+
+<!ELEMENT point EMPTY>
+<!ATTLIST point targetpoints	CDATA	#REQUIRED
+		  		target_id		IDREF	#REQUIRED
+		  		round_id		IDREF	#REQUIRED
+>
+
+<!ELEMENT member_of EMPTY>
+<!ATTLIST member_of 	   group_id		IDREF 	#REQUIRED>
+
+<!ELEMENT division (has_classification+)>
+<!ATTLIST division	   id			 ID	    #REQUIRED
+					   division_name CDATA  #REQUIRED	   
+>
+
+<!ELEMENT has_classification EMPTY>
+<!ATTLIST has_classification class_id		IDREF #REQUIRED
+>
+
+<!ELEMENT class EMPTY>
+<!ATTLIST class	  	   id			ID	  #REQUIRED
+					   class_name 	CDATA #REQUIRED
+>
+
+<!ELEMENT style EMPTY>
+<!ATTLIST style	   	   id			ID	   #REQUIRED
+					   style_name	CDATA  #REQUIRED
+>
+
+<!ELEMENT archerclass EMPTY>
+<!ATTLIST archerclass	   id 				ID 	  #REQUIRED
+						   archerclass_name	CDATA #REQUIRED
+						   division_id		IDREF #REQUIRED
+						   style_id			IDREF #REQUIRED
+>
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE archerDB SYSTEM "unserProjekt.dtd">
+
+<archerDB>
+
+	<description>
+		Archer Database 
+	</description>
+	
+	<tournament id="wfac" tournament_name="WFAC2021">
+	
+		<location 
+			zip_code="43" 
+			iso_code="AUT" 
+			street="Teststreet" 
+			number="1"/>
+			
+		<official 
+			fname="Karl" 
+			lname="Watcher" 
+			function="Referee">
+			
+			<accompanies group_id="grp3"/>
+			<accompanies group_id="grp6"/>
+			<accompanies group_id="grp9"/>
+		</official>
+		
+		<official 
+			fname="Grace" 
+			lname="Watcher" 
+			function="Referee">
+			
+			<accompanies group_id="grp12"/>
+			<accompanies group_id="grp15"/>
+		</official>
+					
+		<round id="rou1" round_name="Field Round 1">
+			<parcour id="par1" parcour_name="Field Parcour 1">
+				<target id="tar1"/>
+				<target id="tar2"/>
+				<target id="tar3"/>
+				<target id="tar4"/>
+				<target id="tar5"/>
+			</parcour>
+			
+			<parcour id="par2" parcour_name="Field Parcour 2">
+				<target id="tar6"/>
+				<target id="tar7"/>
+				<target id="tar8"/>
+				<target id="tar9"/>
+				<target id="tar10"/>
+			</parcour>
+			
+			<parcour id="par3" parcour_name="Field Parcour 3">
+				<target id="tar11"/>
+				<target id="tar12"/>
+				<target id="tar13"/>
+				<target id="tar14"/>
+				<target id="tar15"/>
+			</parcour>
+			
+			<group id="grp1" group_name="Gruppe 1" parcour_id="par1"/>
+			<group id="grp2" group_name="Gruppe 2" parcour_id="par2"/>
+			<group id="grp3" group_name="Gruppe 3" parcour_id="par3"/>
+		</round>
+			
+		<round id="rou2" round_name="Hunter Round 1">
+			<parcour id="par4" parcour_name="Hunter Parcour 1">
+				<target id="tar16"/>
+				<target id="tar17"/>
+				<target id="tar18"/>
+				<target id="tar19"/>
+				<target id="tar20"/>
+			</parcour>
+			
+			<parcour id="par5" parcour_name="Hunter Parcour 2">
+				<target id="tar21"/>
+				<target id="tar22"/>
+				<target id="tar23"/>
+				<target id="tar24"/>
+				<target id="tar25"/>
+			</parcour>
+			
+			<parcour id="par6" parcour_name="Hunter Parcour 3">
+				<target id="tar26"/>
+				<target id="tar27"/>
+				<target id="tar28"/>
+				<target id="tar29"/>
+				<target id="tar30"/>
+			</parcour>
+			
+			<group id="grp4" group_name="Gruppe 4"  parcour_id="par4"/>
+			<group id="grp5" group_name="Gruppe 5"  parcour_id="par5"/>
+			<group id="grp6" group_name="Gruppe 6"  parcour_id="par6"/>
+		</round>
+		
+		<round id="rou3" round_name="Animal Round">
+			<parcour id="par7" parcour_name="Animal Parcour 1">
+				<target id="tar31"/>
+				<target id="tar32"/>
+				<target id="tar33"/>
+				<target id="tar34"/>
+				<target id="tar35"/>
+			</parcour>
+			
+			<parcour id="par8" parcour_name="Animal Parcour 2">
+				<target id="tar36"/>
+				<target id="tar37"/>
+				<target id="tar38"/>
+				<target id="tar39"/>
+				<target id="tar40"/>
+			</parcour>
+			
+			<parcour id="par9" parcour_name="Animal Parcour 3">
+				<target id="tar41"/>
+				<target id="tar42"/>
+				<target id="tar43"/>
+				<target id="tar44"/>
+				<target id="tar45"/>
+			</parcour>
+			
+			<group id="grp7" group_name="Gruppe 7"  parcour_id="par7"/>
+			<group id="grp8" group_name="Gruppe 8"  parcour_id="par8"/>
+			<group id="grp9" group_name="Gruppe 9"  parcour_id="par9"/>
+		</round>
+			
+		<round id="rou4" round_name="Field Round 2">
+				<parcour id="par10" parcour_name="Field Parcour 4">
+				<target id="tar46"/>
+				<target id="tar47"/>
+				<target id="tar48"/>
+				<target id="tar49"/>
+				<target id="tar50"/>
+			</parcour>
+			
+			<parcour id="par11" parcour_name="Field Parcour 5">
+				<target id="tar51"/>
+				<target id="tar52"/>
+				<target id="tar53"/>
+				<target id="tar54"/>
+				<target id="tar55"/>
+			</parcour>
+			
+			<parcour id="par12" parcour_name="Field Parcour 6">
+				<target id="tar56"/>
+				<target id="tar57"/>
+				<target id="tar58"/>
+				<target id="tar59"/>
+				<target id="tar60"/>
+			</parcour>
+			<group id="grp10" group_name="Gruppe 10"  parcour_id="par10"/>
+			<group id="grp11" group_name="Gruppe 11"  parcour_id="par11"/>
+			<group id="grp12" group_name="Gruppe 12"  parcour_id="par12"/>
+		</round>
+			
+		<round id="rou5" round_name="Hunter Round 2">
+			<parcour id="par13" parcour_name="Hunter Parcour 4">
+				<target id="tar61"/>
+				<target id="tar62"/>
+				<target id="tar63"/>
+				<target id="tar64"/>
+				<target id="tar65"/>
+			</parcour>
+			
+			<parcour id="par14" parcour_name="Hunter Parcour 5">
+				<target id="tar66"/>
+				<target id="tar67"/>
+				<target id="tar68"/>
+				<target id="tar69"/>
+				<target id="tar70"/>
+			</parcour>
+			
+			<parcour id="par15" parcour_name="Hunter Parcour 6">
+				<target id="tar71"/>
+				<target id="tar72"/>
+				<target id="tar73"/>
+				<target id="tar74"/>
+				<target id="tar75"/>
+			</parcour>
+			
+			<group id="grp13" group_name="Gruppe 13"  parcour_id="par13"/>
+			<group id="grp14" group_name="Gruppe 14"  parcour_id="par14"/>
+			<group id="grp15" group_name="Gruppe 15"  parcour_id="par15"/>
+		</round>
+			
+		<archer
+			fname="Arthur" 
+			lname="Old" 
+			archerclass_id="archc1">
+			
+			<scorecard sc_number="1">
+				<point targetpoints="32" target_id="tar1"  round_id="rou1"/>
+				<point targetpoints="44" target_id="tar2"  round_id="rou1"/>
+				<point targetpoints="11" target_id="tar3"  round_id="rou1"/>
+			</scorecard>
+			
+			<scorecard sc_number="2">
+				<point targetpoints="12" target_id="tar16" round_id="rou2" />
+				<point targetpoints="19" target_id="tar17" round_id="rou2" />
+				<point targetpoints="14" target_id="tar18" round_id="rou2" />
+			</scorecard>
+			
+			<scorecard sc_number="3">
+				<point targetpoints="55" target_id="tar31" round_id="rou3" />
+				<point targetpoints="24" target_id="tar32" round_id="rou3" />
+				<point targetpoints="39" target_id="tar33" round_id="rou3" />
+			</scorecard>
+			
+			<scorecard sc_number="4">
+				<point targetpoints="74" target_id="tar46" round_id="rou4" />
+				<point targetpoints="65" target_id="tar47" round_id="rou4" />
+				<point targetpoints="25" target_id="tar48" round_id="rou4" />
+			</scorecard>
+			
+			<scorecard sc_number="5">
+				<point targetpoints="14" target_id="tar61" round_id="rou5" />
+				<point targetpoints="15" target_id="tar62" round_id="rou5" />
+				<point targetpoints="34" target_id="tar63" round_id="rou5" />
+			</scorecard>
+			
+			<member_of group_id="grp1"/>
+			<member_of group_id="grp4"/>
+			<member_of group_id="grp7"/>
+			<member_of group_id="grp10"/>
+			<member_of group_id="grp13"/>
+		</archer>
+		
+		<archer
+			fname="Martin" 
+			lname="Watson" 
+			archerclass_id="archc1">
+			
+			<scorecard sc_number="1">
+				<point targetpoints="17" target_id="tar1" round_id="rou1" />
+				<point targetpoints="45" target_id="tar2" round_id="rou1" />
+				<point targetpoints="23" target_id="tar3" round_id="rou1" />
+			</scorecard>
+			
+			<scorecard sc_number="2">
+				<point targetpoints="29" target_id="tar16" round_id="rou2" />
+				<point targetpoints="12" target_id="tar17" round_id="rou2" />
+				<point targetpoints="44" target_id="tar18" round_id="rou2" />
+			</scorecard>
+			
+			<scorecard sc_number="3">
+				<point targetpoints="29" target_id="tar31" round_id="rou3" />
+				<point targetpoints="12" target_id="tar32" round_id="rou3" />
+				<point targetpoints="44" target_id="tar33" round_id="rou3" />
+			</scorecard>
+			
+			<scorecard sc_number="4">
+				<point targetpoints="14" target_id="tar46" round_id="rou4" />
+				<point targetpoints="15" target_id="tar47" round_id="rou4" />
+				<point targetpoints="21" target_id="tar48" round_id="rou4" />
+			</scorecard>
+			
+			<scorecard sc_number="5">
+				<point targetpoints="14" target_id="tar61" round_id="rou5" />
+				<point targetpoints="19" target_id="tar62" round_id="rou5" />
+				<point targetpoints="16" target_id="tar63" round_id="rou5" />
+			</scorecard>	
+			
+			<member_of group_id="grp1"/>
+			<member_of group_id="grp4"/>
+			<member_of group_id="grp7"/>
+			<member_of group_id="grp10"/>
+			<member_of group_id="grp13"/>
+		</archer>
+		
+		<archer
+			fname="John" 
+			lname="Audult" 
+			archerclass_id="archc2">
+			
+			<scorecard sc_number="1">
+				<point targetpoints="50" target_id="tar6" round_id="rou1" />
+				<point targetpoints="60" target_id="tar7" round_id="rou1" />
+				<point targetpoints="22" target_id="tar8" round_id="rou1" />
+			</scorecard>
+			
+			<scorecard sc_number="2">
+				<point targetpoints="9" target_id="tar21" round_id="rou2" />
+				<point targetpoints="2" target_id="tar22" round_id="rou2" />
+				<point targetpoints="4" target_id="tar23" round_id="rou2" />
+			</scorecard>
+			
+			<scorecard sc_number="3"/>
+			<scorecard sc_number="4"/>
+			<scorecard sc_number="5"/>	
+			
+			<member_of group_id="grp2"/>
+			<member_of group_id="grp5"/>
+			<member_of group_id="grp8"/>
+			<member_of group_id="grp11"/>
+			<member_of group_id="grp14"/>
+		</archer>
+		
+		<archer
+			fname="Jeff" 
+			lname="Parker" 
+			archerclass_id="archc2">
+			
+			<scorecard sc_number="1">
+				<point targetpoints="25" target_id="tar6" round_id="rou1" />
+				<point targetpoints="22" target_id="tar7" round_id="rou1" />
+				<point targetpoints="17" target_id="tar8" round_id="rou1" />
+			</scorecard>
+			
+			<scorecard sc_number="2">
+				<point targetpoints="3" target_id="tar21" round_id="rou2" />
+				<point targetpoints="2" target_id="tar22" round_id="rou2" />
+				<point targetpoints="4" target_id="tar23" round_id="rou2" />
+			</scorecard>
+			
+			<scorecard sc_number="3"/>
+			<scorecard sc_number="4"/>
+			<scorecard sc_number="5"/>	
+			
+			<member_of group_id="grp2"/>
+			<member_of group_id="grp5"/>
+			<member_of group_id="grp8"/>
+			<member_of group_id="grp11"/>
+			<member_of group_id="grp14"/>
+		</archer>
+		
+		<archer
+			fname="Leon" 
+			lname="Miller" 
+			archerclass_id="archc3">
+			
+			<scorecard sc_number="1">
+				<point targetpoints="7" target_id="tar11" round_id="rou1" />
+				<point targetpoints="8" target_id="tar12" round_id="rou1" />
+				<point targetpoints="9" target_id="tar13" round_id="rou1" />
+			</scorecard>
+			
+			<scorecard sc_number="2">
+				<point targetpoints="2" target_id="tar26" round_id="rou2" />
+				<point targetpoints="1" target_id="tar27" round_id="rou2" />
+				<point targetpoints="9" target_id="tar28" round_id="rou2" />
+			</scorecard>
+			
+			<scorecard sc_number="3"/>
+			<scorecard sc_number="4"/>
+			<scorecard sc_number="5"/>		
+			
+			<member_of group_id="grp3"/>
+			<member_of group_id="grp6"/>
+			<member_of group_id="grp9"/>
+			<member_of group_id="grp12"/>
+			<member_of group_id="grp15"/>
+		</archer>
+		
+		<archer
+			fname="Melinda" 
+			lname="Lee" 
+			archerclass_id="archc3">
+			
+			<scorecard sc_number="1">
+				<point targetpoints="9" target_id="tar11" round_id="rou1" />
+				<point targetpoints="11" target_id="tar12" round_id="rou1" />
+				<point targetpoints="12" target_id="tar13" round_id="rou1" />
+			</scorecard>
+			
+			<scorecard sc_number="2">
+				<point targetpoints="14" target_id="tar26" round_id="rou2" />
+				<point targetpoints="18" target_id="tar27" round_id="rou2" />
+				<point targetpoints="4" target_id="tar28" round_id="rou2" />
+			</scorecard>
+			
+			<scorecard sc_number="3"/>
+			<scorecard sc_number="4"/>
+			<scorecard sc_number="5"/>		
+			
+			<member_of group_id="grp3"/>
+			<member_of group_id="grp6"/>
+			<member_of group_id="grp9"/>
+			<member_of group_id="grp12"/>
+			<member_of group_id="grp15"/>
+		</archer>
+		
+	</tournament> 
+	
+	<division id="div1" division_name="Seniors_Male">
+		<has_classification class_id="cla1"/> 
+		<has_classification class_id="cla2"/> 
+		<has_classification class_id="cla3"/> 
+	</division>
+	
+	<division id="div2" division_name="Audults_Female">
+		<has_classification class_id="cla1"/> 
+		<has_classification class_id="cla2"/> 
+		<has_classification class_id="cla3"/> 
+	</division>
+	
+	<division id="div3" division_name="Juniors_Female">
+		<has_classification class_id="cla1"/> 
+		<has_classification class_id="cla2"/> 
+		<has_classification class_id="cla3"/> 
+	</division>
+	
+	<class id="cla1" class_name="A"/>
+	<class id="cla2" class_name="B"/>
+	<class id="cla3" class_name="C"/>
+		
+	<style id="sty1" style_name="Barebow-Recurve"/>
+	<style id="sty2" style_name="Freestyle Limited Recurve"/>
+	<style id="sty3" style_name="Bowhunter_Recurve"/>
+	
+	<archerclass 
+		id="archc1" 
+		archerclass_name="SMBB-R" 
+		division_id="div1" 
+		style_id="sty1"/>
+	
+	<archerclass 
+		id="archc2" 
+		archerclass_name="AFFS-R" 
+		division_id="div2" 
+		style_id="sty2"/>
+	
+	<archerclass 
+		id="archc3" 
+		archerclass_name="JFBH-R" 
+		division_id="div3" 
+		style_id="sty3"/>
+</archerDB>

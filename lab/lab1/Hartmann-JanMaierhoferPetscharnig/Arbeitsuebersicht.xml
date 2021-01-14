@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE Arbeitsuebersicht SYSTEM "Arbeitsuebersicht.dtd">
+
+<Arbeitsuebersicht>
+
+	<Aufgabe ID="Aufgabe1"
+		aufgabe_bezeichnung="Zielscheiben aufstellen">
+		<Termin termin_ID="T-1" datum="2020-12-17"
+			beginn_uhrzeit="12:00:00" ende_uhrzeit="17:00:00" />
+		<Mitarbeiter mitarbeiter_ID="m-1" vorname="Testi"
+			nachname="Testmann" tel_nr="+43 1890" gehalt="500">
+			<Rolle rollen_ID="r-1" titel="Kurssetzer">
+			</Rolle>
+		</Mitarbeiter>
+	</Aufgabe>
+
+
+	<Aufgabe ID="Aufgabe2"
+		aufgabe_bezeichnung="Material aus Lager holen">
+		<Termin termin_ID="Termin2" datum="2020-12-16"
+			beginn_uhrzeit="08:00:00" ende_uhrzeit="11:00:00" ></Termin>
+		<Mitarbeiter mitarbeiter_ID="m-2" vorname="Testine"
+			nachname="Testfrau" tel_nr="+43 9999" gehalt="500">
+		<Rolle rollen_ID="r-2" titel="Aufbauhelfer" />
+		</Mitarbeiter>
+	</Aufgabe>
+
+	<Aufgabe ID="Aufgabe3" aufgabe_bezeichnung="Kontrolle Material">
+		<Termin termin_ID="Termin3" datum="2020-12-16"
+			beginn_uhrzeit="11:00:00" ende_uhrzeit="17:00:00" />
+		<Mitarbeiter mitarbeiter_ID="m-3" vorname="Testle"
+			nachname="Testkind" tel_nr="+43 1111" gehalt="570">
+			
+		<Rolle rollen_ID="r-3" titel="Helfer" /></Mitarbeiter>
+
+
+		<Mitarbeiter mitarbeiter_ID="m-4" vorname="Max"
+			nachname="Power" tel_nr="+43 1234" gehalt="1000">
+			<Rolle rollen_ID="r-4" titel="Koordinator">
+			</Rolle>
+		</Mitarbeiter>
+	</Aufgabe>
+
+
+	<Ort ort_ID="o-1" ort_name="Hinterholz 8"
+		gps_daten="47° 30 2.7' N 9° 44 32.316' E">
+		<Lager lager_nr="1" />
+	</Ort>
+
+	<Ort ort_ID="o-2" ort_name="Gotham City"
+		gps_daten="47° 34 44.756' N 9° 43 22.911' E">
+	</Ort>
+
+	<Ort ort_ID="o-3" ort_name="Schlumpfhausen"
+		gps_daten="47° 38 60' N 9° 41 60' E">
+	</Ort>
+
+	<Ort ort_ID="o-4" ort_name="Reisfelder von Vietnam"
+		gps_daten="47° 34 47.215' N 9° 40 44.159' E">
+	</Ort>
+
+	<Ort ort_ID="o-5"
+		ort_name="Das innere von Charlies Schockoladenfabrik"
+		gps_daten="47° 34 23,48' N 9° 47 56,875' E">
+	</Ort>
+
+	<Ort ort_ID="o-6" ort_name="Dschibuti"
+		gps_daten="47° 34 23,48' N 9° 47 56-875' E">
+	</Ort>
+
+	<Ort ort_ID="o-7" ort_name="Buxdehude"
+		gps_daten="47° 34 47.213' N 9° 40 44.16' E">
+	</Ort>
+
+
+	<Material 
+	material_ID="ma-1"
+		materialbezeichnung="Hirschatrappe" zustand="abgenutzt">
+	</Material>
+
+	<Material 
+	material_ID="ma-2"
+		materialbezeichnung="Baerenatrappe" zustand="abgenutzt">
+	</Material>
+
+	<Material 
+	material_ID="ma-3"
+		materialbezeichnung="Zielscheibe 30cm" zustand="guter Zustand">
+	</Material>
+
+	<Material material_ID="ma-4"
+		materialbezeichnung="Zielscheibe 50cm" zustand="guter Zustand">
+	</Material>
+
+	<Material material_ID="ma-5"
+		materialbezeichnung="Zielscheibe 100cm" zustand="guter Zustand">
+	</Material>
+
+	<Material 
+	material_ID="ma-6"
+		materialbezeichnung="Dicke Waschbaerattrappe" zustand="neu">
+	</Material>
+
+	<Material material_ID="ma-7" materialbezeichnung="Absperrband"
+		zustand="neu">
+	</Material>
+
+	<Material material_ID="ma-8" materialbezeichnung="Holzpfisten"
+		zustand="in gutem Zustand">
+	</Material>
+
+	<Material material_ID="ma-9" materialbezeichnung="Markierspray"
+		zustand="neu">
+	</Material>
+
+	<Material material_ID="ma-10" materialbezeichnung="Leiter"
+		zustand="neu">
+	</Material>
+
+
+	<Bewerb bewerb_ID="b-1" bewerb_name="Field Round">
+	</Bewerb>
+
+	<Bewerb bewerb_ID="b-2" bewerb_name="Hunter Round">
+	</Bewerb>
+
+	<Bewerb bewerb_ID="b-3"
+		bewerb_name="Animal Round Marked Distances">
+	</Bewerb>
+
+	<Bewerb bewerb_ID="b-4"
+		bewerb_name="Animal Round Unmarked Distances">
+	</Bewerb>
+
+	<Bewerb bewerb_ID="b-5"
+		bewerb_name="IFAA 3-D Hunting Round (1 Arrow)">
+	</Bewerb>
+
+	<Bewerb bewerb_ID="b-6"
+		bewerb_name="IFAA 3-D Hunting Round (2 Arrow)">
+	</Bewerb>
+
+	<Bewerb bewerb_ID="b-7" bewerb_name="International Round">
+	</Bewerb>
+
+	<Bewerb bewerb_ID="b-8" bewerb_name="Expert Field Round">
+	</Bewerb>
+
+
+	<Parkour parkour_ID="p-1" parkour_name="Schraeger Huegel">
+		<Station station_nr="sn-1" />
+		<Station station_nr="sn-2" />
+		<Station station_nr="sn-3" />
+		<Station station_nr="sn-4" />
+		<Station station_nr="sn-5" />
+		<Station station_nr="sn-6" />
+
+	</Parkour>
+
+	<Parkour parkour_ID="p-2" parkour_name="Tanzender Baer">
+		<Station station_nr="sn-1" />
+		<Station station_nr="sn-2" />
+		<Station station_nr="sn-3" />
+		<Station station_nr="sn-4" />
+		<Station station_nr="sn-5" />
+		<Station station_nr="sn-6" />
+	</Parkour>
+
+	<Parkour parkour_ID="p-3" parkour_name="Windschneise">
+		<Station station_nr="sn-1" />
+		<Station station_nr="sn-2" />
+		<Station station_nr="sn-3" />
+		<Station station_nr="sn-4" />
+		<Station station_nr="sn-5" />
+		<Station station_nr="sn-6" />
+	</Parkour>
+
+	<Parkour parkour_ID="p-4" parkour_name="Singende Eule">
+		<Station station_nr="sn-1" />
+		<Station station_nr="sn-2" />
+		<Station station_nr="sn-3" />
+		<Station station_nr="sn-4" />
+		<Station station_nr="sn-5" />
+		<Station station_nr="sn-6" />
+	</Parkour>
+
+	<Parkour parkour_ID="p-5" parkour_name="Blendene Sonne">
+		<Station station_nr="sn-1" />
+		<Station station_nr="sn-2" />
+		<Station station_nr="sn-3" />
+		<Station station_nr="sn-4" />
+		<Station station_nr="sn-5" />
+		<Station station_nr="sn-6" />
+	</Parkour>
+
+	<Parkour parkour_ID="p-6" parkour_name="Ultimative Schwerkraft">
+		<Station station_nr="sn-1" />
+		<Station station_nr="sn-2" />
+		<Station station_nr="sn-3" />
+		<Station station_nr="sn-4" />
+		<Station station_nr="sn-5" />
+		<Station station_nr="sn-6" />
+	</Parkour>
+
+
+	<Mitarbeiter mitarbeiter_ID="m-5" vorname="Seabastian"
+		nachname="Lang" tel_nr="+43 4321" gehalt="250">
+		<Rolle rollen_ID="r-5" titel="Fahnenhalter">
+		</Rolle>
+	</Mitarbeiter>
+
+
+	<Mitarbeiter mitarbeiter_ID="m-6" vorname="Silvester"
+		nachname="Neujahr" tel_nr="+43 5454" gehalt="2020">
+		<Rolle rollen_ID="r-6" titel="Sanitaeter">
+		</Rolle>
+	</Mitarbeiter>
+		
+	<Rolle rollen_ID="r-70" titel="Test70" />
+	
+</Arbeitsuebersicht>

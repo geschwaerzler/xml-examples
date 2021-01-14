@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!ELEMENT bogenschiess-db (tournament*)>
+
+<!ELEMENT tournament (person*, round*, round-type*)>
+<!ATTLIST tournament
+        id ID #REQUIRED
+        host_country CDATA #REQUIRED
+        host_city_code CDATA #REQUIRED
+        event_year CDATA #REQUIRED
+        >
+
+<!ELEMENT person (participant*)>
+<!ATTLIST person
+        id ID #REQUIRED
+        firstname CDATA #REQUIRED
+        lastname CDATA #REQUIRED
+        password CDATA #REQUIRED
+        email CDATA #REQUIRED
+        tournament_role CDATA #REQUIRED
+        profile_pic CDATA #IMPLIED
+        >
+
+<!ELEMENT participant (style-and-division)>
+
+<!ELEMENT style-and-division (shooting-style, age-group)>
+<!ATTLIST participant
+        gender CDATA #REQUIRED
+        is_professional CDATA #REQUIRED
+        >
+
+<!ELEMENT shooting-style EMPTY>
+<!ATTLIST shooting-style
+    style_name CDATA #REQUIRED
+    bow_type CDATA #REQUIRED
+>
+
+
+<!ELEMENT age-group EMPTY>
+<!ATTLIST age-group
+    gr_name CDATA #REQUIRED
+>
+
+
+<!ELEMENT group (group-role*)>
+<!ATTLIST group
+        id ID #REQUIRED
+        >
+
+<!ELEMENT group-role EMPTY>
+<!ATTLIST group-role
+        person-id IDREF #REQUIRED
+        group-role CDATA #REQUIRED
+>
+
+<!ELEMENT result EMPTY>
+<!ATTLIST result
+        id ID #REQUIRED
+        person-id IDREF #REQUIRED
+        points CDATA #REQUIRED
+>
+
+<!ELEMENT round (group+, result*)>
+<!ATTLIST round
+        id ID #REQUIRED
+        round_type_name IDREF #REQUIRED
+        round_number CDATA #REQUIRED
+        place CDATA #REQUIRED
+        start_time CDATA #REQUIRED
+        >
+
+<!ELEMENT round-type EMPTY>
+<!ATTLIST round-type
+        round_type_name ID #REQUIRED
+>

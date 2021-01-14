@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE bogenschiessen SYSTEM "datenbank.dtd">
+
+<bogenschiessen>
+
+	<altersklassen>
+		<altersklasse altersklasse_id="1">Senior Man</altersklasse>
+		<altersklasse altersklasse_id="2">Senior Women</altersklasse>
+		<altersklasse altersklasse_id="3">Veteran Women</altersklasse>
+		<altersklasse altersklasse_id="4">Veteran Men</altersklasse>
+		<altersklasse altersklasse_id="5">Adult Women</altersklasse>
+		<altersklasse altersklasse_id="6">Adult Men</altersklasse>
+		<altersklasse altersklasse_id="7">Young Adult Women</altersklasse>
+		<altersklasse altersklasse_id="8">Young Adult Men</altersklasse>
+		<altersklasse altersklasse_id="9">Junior Girls</altersklasse>
+		<altersklasse altersklasse_id="10">Junior Boys</altersklasse>
+		<altersklasse altersklasse_id="11">Cubs Girls</altersklasse>
+		<altersklasse altersklasse_id="12">Cubs Boys</altersklasse>
+	</altersklassen>
+	<schieß_stiele>
+		<schieß_stiel stiel_id="1">BB</schieß_stie>
+		<schieß_stiel stiel_id="2">FU</schieß_stie>
+		<schieß_stiel stiel_id="3">FS</schieß_stie>
+		<schieß_stiel stiel_id="4">BH</schieß_stie>
+		<schieß_stiel stiel_id="5">BU</schieß_stie>
+		<schieß_stiel stiel_id="6">BL</schieß_stie>
+		<schieß_stiel stiel_id="7">LB</schieß_stie>
+		<schieß_stiel stiel_id="8">HB</schieß_stie>
+		<schieß_stiel stiel_id="9">TR</schieß_stie>
+	</schieß_stiele>
+	<ligen>
+		<liga liga_id="1">amateur</liga>
+		<liga liga_id="2">profi</liga>
+	</ligen>
+	<stiele>
+	
+		<!-amatur
+		
+		<stiel stiel_id="1" altersklasse_id="1" schieß_stiel="1" liga="1" />
+		<stiel stiel_id="2" altersklasse_id="2" schieß_stiel="1" liga="1" />
+		<stiel stiel_id="3" altersklasse_id="3" schieß_stiel="1" liga="1" />
+		
+		<!-Profi>
+		<stiel stiel_id="1" altersklasse_id="2" schieß_stiel="2" liga="2" />
+		<stiel stiel_id="2" altersklasse_id="5" schieß_stiel="3" liga="2" />
+
+
+	</stiele>
+
+
+	<turnier_teilnehmer>
+		<teilnehmer person_id="1" stiel_id="1">
+			<teilnehmer_Vn>Hans</teilnehmer_Vn>
+			<teilnemehr_Nn>Dieter</teilnemehr_Nn>
+		</teilnehmer>
+
+		<teilnehmer person_id="3" stiel_id="1">
+			<teilnehmer_Vn>Franz</teilnehmer_Vn>
+			<teilnemehr_Nn>Meier</teilnemehr_Nn>
+		</teilnehmer>
+
+		<teilnehmer person_id="3" stiel_id="6">
+			<teilnehmer_Vn>Anton</teilnehmer_Vn>
+			<teilnemehr_Nn>Trio</teilnemehr_Nn>
+		</teilnehmer>
+	</turnier_teilnehmer>
+
+	<pacours>
+		<parkur parkur_id="1" parkur_name="Hunting">
+			<scheiben scheiben_id="1" />
+			<scheiben scheiben_id="2" />
+			<scheiben scheiben_id="3" />
+			<scheiben scheiben_id="4" />
+			<scheiben scheiben_id="5" />
+			<scheiben scheiben_id="6" />
+			<scheiben scheiben_id="7" />
+			<scheiben scheiben_id="8" />
+			<scheiben scheiben_id="9" />
+			<scheiben scheiben_id="10" />
+			<scheiben scheiben_id="11" />
+			<scheiben scheiben_id="12" />
+			<scheiben scheiben_id="13" />
+			<scheiben scheiben_id="14" />
+			<scheiben scheiben_id="15" />
+			<scheiben scheiben_id="16" />
+			<scheiben scheiben_id="17" />
+			<scheiben scheiben_id="18" />
+			<scheiben scheiben_id="19" />
+			<scheiben scheiben_id="20" />
+			<scheiben scheiben_id="21" />
+			<scheiben scheiben_id="22" />
+			<scheiben scheiben_id="23" />
+			<scheiben scheiben_id="24" />
+			<scheiben scheiben_id="25" />
+			<scheiben scheiben_id="26" />
+			<scheiben scheiben_id="27" />
+			<scheiben scheiben_id="28" />
+		</parkur>
+	</pacours>
+
+	<turniere>
+		<turnier lfd_nummer="1" jahr="2020" land="Österreich">
+			<Runde parkur_id="1">
+				>
+				<Gruppe gruppen_id="1">
+					<Schützen person-id="1" rolle="Verantwortlicher" />
+					<Schützen person-id="1" rolle="Schreiber" />
+					<Schützen person-id="1" rolle="Schreiber" />
+					<Schützen person-id="1" />
+					<Schützen person-id="1" />
+					<Schützen person-id="1" />
+				</Gruppe>
+			</Runde>
+		</turnier>
+	</turniere>
+
+	<nimmtteil>
+		<teilen lfd_nummer="1" teilnehmer_id="1" />
+	</nimmtteil>
+
+
+	<punktestände>
+		<turnier_punkte turnier_id="1">
+			<punktestand person_id="1">
+				<Runde parkur_id="1">
+					<scheiben_punkte scheiben_id="1">
+						<schüsse>10</schüsse>
+						<schüsse>10</schüsse>
+						<schüsse>10</schüsse>
+					</scheiben_punkte>
+				</Runde>
+			</punktestand>
+			<punktestand person_id="2">
+				<Runde parkur_id="1">
+					<scheiben_punkte scheiben_id="1">
+						<schüsse>10</schüsse>
+						<schüsse>10</schüsse>
+						<schüsse>10</schüsse>
+					</scheiben_punkte>
+				</Runde>
+			</punktestand>
+			<punktestand person_id="3">
+				<Runde parkur_id="1">
+					<scheiben_punkte scheiben_id="1">
+						<schüsse>10</schüsse>
+						<schüsse>10</schüsse>
+						<schüsse>10</schüsse>
+					</scheiben_punkte>
+				</Runde>
+			</punktestand>
+
+	</punktestände>
+
+</turnier_punkte>
+
+</bogenschiessen>
+
+
+

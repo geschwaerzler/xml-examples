@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE archery-organisation SYSTEM "archery-organisation.dtd">
+
+<archery-organisation>
+
+<ort ort_id="ORT1" ort_name="Oberschnacksling"
+		gps_daten="48° 5′ 3″ N, 13° 52′ 49″ O"/>
+
+<ort ort_id="ORT2" ort_name="Unterschnacksling"
+		gps_daten="47° 3′ 1″ N, 11° 50′ 47″ O"/>
+		
+<ort ort_id="ORT3" ort_name="Mittelschacksling"
+		gps_daten="48° 4′ 2″ N, 12° 51′ 48″ O"/>
+
+<material material_id="BESEN1" material_bezeichnung="Besen"
+				material_zustand="gut" />
+
+<material material_id="BESEN2" material_bezeichnung="Besen"
+				material_zustand="schlecht" />
+		
+<material material_id="TIER1" material_bezeichnung="Bärenattrappe"
+				material_zustand="sehr gut" />
+
+<material material_id="TIER2" material_bezeichnung="Hirschattrappe"
+				material_zustand="gut" />			
+
+<material material_id="TIER3" material_bezeichnung="Biberattrappe"
+				material_zustand="schlecht" />				
+
+
+<material material_id="TIER4" material_bezeichnung="Elefantattrappe"
+				material_zustand="sehr schlecht" />					
+
+<material material_id ="KIT1" material_bezeichnung ="Verbandskasten"
+				material_zustand ="sehr gut" />				
+				
+<lager lager_id="LAGER1" lager_name="Lagerhütte-Oberschnacksling" ort_id="ORT1">
+	<lagert material_id ="BESEN1"/>
+	<lagert material_id ="BESEN2"/>
+	<lagert material_id ="KIT1"/>
+</lager>
+
+<lager lager_id="LAGER2" lager_name="Lagerhütte-Unterschnacksling" ort_id = "ORT2">
+	<lagert material_id = "TIER1"/>
+	<lagert material_id = "TIER2"/>
+	<lagert material_id = "TIER3"/>
+</lager>
+	
+<parkour parkour_id="PARKOUR1" parkour_name="Schnackslinglauf">
+		<station station_nr="ST-1" ort_id="ORT1">
+		 	<benoetigt material_id ="TIER1"/>
+		 </station>
+		<station station_nr="ST-2" ort_id="ORT2">
+			<benoetigt material_id ="TIER2"/>
+		 </station>
+		<station station_nr="ST-3" ort_id="ORT3">
+		 	<benoetigt material_id ="TIER3"/>
+		 </station>
+	</parkour>
+	
+				
+<aufgabe aufgabe_id="TASK1" aufgabe_bezeichnung="Lager_aufräumen">
+		<an ort_id ="ORT1"/>
+		<an ort_id ="ORT2"/> 
+		<verwende material_id ="BESEN1"/>
+		<termin datum="17.12.2020" beginn_uhrzeit="9:00"
+			ende_uhrzeit="12:00" />
+</aufgabe>
+	
+<aufgabe aufgabe_id="TASK2" aufgabe_bezeichnung="PARKOUR1_Station1_herrichten">
+		<an ort_id ="ORT1" parkour_id ="PARKOUR1" station_nr ="ST-1"/>
+		<verwende material_id ="TIER1"/>
+		<termin datum="17.12.2020" beginn_uhrzeit="7:00"
+			ende_uhrzeit="9:00" />
+</aufgabe>
+
+		
+<aufgabe aufgabe_id="TASK3" aufgabe_bezeichnung="PARKOUR1_Station2_herrichten">
+		<an ort_id ="ORT2" parkour_id ="PARKOUR1" station_nr = "ST-2"/>
+		<verwende material_id = "TIER2"/>
+		<termin datum="17.12.2020" beginn_uhrzeit="9:00"
+			ende_uhrzeit="11:00" />
+</aufgabe>
+
+
+<aufgabe aufgabe_id ="TASK4" aufgabe_bezeichnung="PARKOUR1_Station3_herrichten">
+	<an ort_id ="ORT3" parkour_id ="PARKOUR1" station_nr = "ST-3"/>
+		<verwende material_id = "TIER3"/>
+		<termin datum="17.12.2020" beginn_uhrzeit="7:00"
+			ende_uhrzeit="9:00" />
+</aufgabe>
+
+
+<aufgabe aufgabe_id="TASK5" aufgabe_bezeichnung="ATTRAPPE_reparieren">
+			<an ort_id ="ORT1" lager_id ="LAGER2"/>
+			<verwende material_id ="TIER4"/>
+			<termin datum="17.12.2020" beginn_uhrzeit="9:00"
+			ende_uhrzeit="17:00" />
+	
+</aufgabe><aufgabe aufgabe_id="TASK6" aufgabe_bezeichnung="Gelände_patrouillieren">
+		<an ort_id ="ORT1"/>
+		<an ort_id ="ORT2"/> 
+		<an ort_id ="ORT3"/> 
+		<verwende material_id ="KIT1"/>
+		<termin datum="17.12.2020" beginn_uhrzeit="7:00"
+			ende_uhrzeit="17:00" />
+</aufgabe>
+	
+
+
+<rolle rolle_id ="R1" titel ="Stationenaufbauer"/>
+
+<rolle rolle_id ="R2" titel ="Reparierer"/>
+
+<rolle rolle_id ="R3" titel ="Lageraufräumer"/>
+
+<rolle rolle_id ="R4" titel = "Sanitäter"/>
+
+<mitarbeiter mitarbeiter_id ="M1" fname ="Max" lname ="Power" 
+				tel_nr ="06606767" gehalt ="1000">
+	<hatRolle rolle_id ="R3"/>
+	<hatAufgabe aufgabe_id = "TASK1"/>
+	</mitarbeiter>
+
+<mitarbeiter mitarbeiter_id ="M2" fname ="Axel" lname ="Schweiß" 
+				tel_nr ="06606787" gehalt ="1100">
+	<hatRolle rolle_id ="R1"/>
+	<hatAufgabe aufgabe_id = "TASK2"/>
+	<hatAufgabe aufgabe_id ="TASK3"/>
+</mitarbeiter>
+
+<mitarbeiter mitarbeiter_id ="M3" fname ="Bruce" lname ="Batman" 
+				tel_nr ="066067353" gehalt ="1110">
+	<hatRolle rolle_id ="R1"/>
+	<hatAufgabe aufgabe_id = "TASK4"/>
+</mitarbeiter>
+
+
+<mitarbeiter mitarbeiter_id ="M4" fname ="Bruce" lname ="Batman" 
+				tel_nr ="0660673425" gehalt ="1111">
+	<hatRolle rolle_id ="R2"/>
+	<hatAufgabe aufgabe_id = "TASK5"/>
+</mitarbeiter>
+
+<mitarbeiter mitarbeiter_id ="M5" fname ="Sani" lname ="Sandmann" 
+				tel_nr ="06606235" gehalt ="2000">
+	<hatRolle rolle_id ="R4"/>
+	<hatAufgabe aufgabe_id = "TASK6"/>
+</mitarbeiter>
+
+</archery-organisation>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT Arbeitsuebersicht (Aufgabe*, Ort*, Material*, Bewerb*, Parkour*, Mitarbeiter*, Rolle*)>
+
+<!ELEMENT Aufgabe (Termin?, Mitarbeiter*)>
+<!ATTLIST Aufgabe
+    ID                        ID        #REQUIRED
+    aufgabe_bezeichnung     CDATA     #REQUIRED
+>
+
+<!ELEMENT Termin EMPTY>
+<!ATTLIST Termin
+    termin_ID                        ID        #REQUIRED
+    datum                    CDATA    #REQUIRED
+    beginn_uhrzeit            CDATA    #REQUIRED
+    ende_uhrzeit            CDATA    #REQUIRED
+>
+
+<!ELEMENT Mitarbeiter (Rolle*)>
+<!ATTLIST Mitarbeiter
+    mitarbeiter_ID            ID      #REQUIRED
+    vorname                    CDATA    #REQUIRED
+    nachname                CDATA    #REQUIRED
+    tel_nr                    CDATA    #REQUIRED
+    gehalt                    CDATA    #REQUIRED
+>
+
+<!ELEMENT Rolle ANY>
+<!ATTLIST Rolle
+    rollen_ID                ID    #REQUIRED
+    titel                    CDATA    #REQUIRED
+>
+
+<!ELEMENT Ort (Lager?)>
+<!ATTLIST Ort
+    ort_ID                    ID        #REQUIRED
+    ort_name                CDATA    #REQUIRED
+    gps_daten                CDATA    #REQUIRED
+>
+
+<!ELEMENT Lager EMPTY>
+<!ATTLIST Lager
+    lager_nr                CDATA     #REQUIRED
+>
+
+<!ELEMENT Parkour (Station*)>
+<!ATTLIST Parkour
+    parkour_ID                ID        #REQUIRED
+    parkour_name            CDATA    #REQUIRED
+>
+
+<!ELEMENT Station EMPTY>
+<!ATTLIST Station
+    station_nr                CDATA        #REQUIRED
+>
+
+<!ELEMENT Bewerb ANY>
+<!ATTLIST Bewerb
+    bewerb_ID                ID        #REQUIRED
+    bewerb_name                CDATA    #REQUIRED
+>
+
+<!ELEMENT Material ANY>
+<!ATTLIST Material
+    material_ID                ID        #REQUIRED
+    materialbezeichnung        CDATA    #REQUIRED
+    zustand                    CDATA    #REQUIRED
+>
+

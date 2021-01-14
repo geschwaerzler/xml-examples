@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT archery_db (teilnehmer*, altersklasse*, schieß-stil*, liga*, stil_und_einteilung*, turnier*)>
+
+<!ELEMENT turnier (parcour*, gruppe* )>
+<!ATTLIST turnier
+	turnier_ID			ID #REQUIRED
+	jahr				CDATA #REQUIRED
+	laufende_nummer		CDATA #REQUIRED
+	land				CDATA #REQUIRED
+>
+
+<!ELEMENT parcour (runde*)>
+<!ATTLIST parcour
+	parcoursbezeichnung_ID 				ID #REQUIRED
+>
+
+<!ELEMENT stil_und_einteilung EMPTY>
+<!ATTLIST stil_und_einteilung
+	nomenklatur_ID				ID #REQUIRED
+	geschlecht					CDATA #REQUIRED
+	altersklassen-ID 			IDREF #REQUIRED
+	stil-ID						IDREF #REQUIRED
+	liga-ID						IDREF #REQUIRED
+>
+
+<!ELEMENT altersklasse EMPTY>
+<!ATTLIST altersklasse
+	altersklassen_ID				ID #REQUIRED
+>
+
+<!ELEMENT schieß-stil EMPTY>
+<!ATTLIST schieß-stil
+	stil_ID				ID #REQUIRED
+	bogentyp			CDATA #REQUIRED
+>
+
+<!ELEMENT liga EMPTY>
+<!ATTLIST liga
+	liga_ID			ID #REQUIRED
+>
+
+<!ELEMENT teilnehmer EMPTY>
+<!ATTLIST teilnehmer
+	teilnehmer_ID			ID #REQUIRED
+	nomenklatur-ID  		IDREF #REQUIRED
+	vorname					CDATA #REQUIRED
+	nachname				CDATA #REQUIRED
+>
+
+<!ELEMENT runde (scheibe*)>
+<!ATTLIST runde
+	runden_ID				ID #REQUIRED
+>
+
+<!ELEMENT scheibe EMPTY>
+<!ATTLIST scheibe
+	scheiben_ID					ID #REQUIRED
+>
+
+
+<!ELEMENT gruppe (mitglied*)>
+<!ATTLIST gruppe
+	gruppen_ID		ID #REQUIRED
+	runde-ID		IDREF #REQUIRED
+>
+
+<!ELEMENT mitglied (punktestand*)>
+<!ATTLIST mitglied
+	teilnehmer-ID		IDREF #REQUIRED
+	rolle				(Gruppenleiter | Schreiber | Schütze) #REQUIRED
+>
+
+<!ELEMENT punktestand EMPTY>
+<!ATTLIST punktestand
+	punktestand_ID				ID #REQUIRED
+	scheibe-ID					IDREF #REQUIRED
+	punkte						CDATA #REQUIRED
+>
+
+
+
+

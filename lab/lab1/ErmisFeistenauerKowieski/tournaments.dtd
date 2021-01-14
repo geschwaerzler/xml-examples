@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!ELEMENT tournaments (tournament*, parcour*, archerclass*, person*, style*, division*, class*)>
+
+
+<!ELEMENT person EMPTY>
+<!ATTLIST person
+        person_id           ID      #REQUIRED
+        fname               CDATA   #REQUIRED
+        lname               CDATA   #REQUIRED>
+
+<!ELEMENT archerclass EMPTY>
+<!ATTLIST archerclass
+        archerclass_name    ID      #REQUIRED
+        division_name       IDREF   #REQUIRED
+        style_name          IDREF   #REQUIRED
+        class_name          IDREF   #REQUIRED>
+
+<!ELEMENT division EMPTY>
+<!ATTLIST division
+        division_name       ID      #REQUIRED>
+
+<!ELEMENT style EMPTY>
+<!ATTLIST style
+        style_name          ID      #REQUIRED>
+
+
+<!ELEMENT class EMPTY>
+<!ATTLIST class
+        class_name          ID      #REQUIRED>
+
+
+<!ELEMENT parcour (target*)>
+<!ATTLIST parcour
+        parcour_no          ID      #REQUIRED
+        parcour_name        CDATA   #REQUIRED>
+
+<!ELEMENT tournament (location, archer*, round*, group*, employee*)>
+<!ATTLIST tournament
+        tournament_id       ID      #REQUIRED
+        name                CDATA   #REQUIRED>
+
+<!ELEMENT location EMPTY>
+<!ATTLIST location
+        zip_code            CDATA   #REQUIRED
+        iso_code            CDATA   #REQUIRED
+        street              CDATA   #REQUIRED
+        street_no           CDATA   #REQUIRED>
+
+
+<!ELEMENT archer (scorecard, member_of*)>
+<!ATTLIST archer
+        archer_id           ID      #REQUIRED
+        person_id           IDREF   #REQUIRED
+        archerclass_name    IDREF   #REQUIRED>
+
+<!ELEMENT scorecard (point*)>
+<!ATTLIST scorecard
+        scorecard_id         ID     #REQUIRED
+        round_id             IDREF  #REQUIRED>
+
+<!ELEMENT point EMPTY>
+<!ATTLIST point
+        target_points       CDATA   #REQUIRED
+        target_no           IDREF   #REQUIRED>
+
+<!ELEMENT round (played_on*, group*)>
+<!ATTLIST round
+        round_id            ID      #REQUIRED
+        round_name          CDATA   #REQUIRED>
+
+<!ELEMENT played_on EMPTY>
+<!ATTLIST played_on
+        parcour_id          IDREF   #REQUIRED>
+
+<!ELEMENT member_of EMPTY>
+<!ATTLIST member_of
+        group_id            IDREF   #REQUIRED>
+
+<!ELEMENT target EMPTY>
+<!ATTLIST target
+        target_no           ID      #REQUIRED>
+
+<!ELEMENT group (accompanied_by?, has_member*)>
+<!ATTLIST group
+        group_id            ID      #REQUIRED>
+
+<!ELEMENT has_member EMPTY>
+<!ATTLIST has_member
+        archer_id           IDREF   #REQUIRED>
+
+<!ELEMENT accompanied_by EMPTY>
+<!ATTLIST accompanied_by
+        person_id           IDREF   #REQUIRED>
+
+<!ELEMENT employee EMPTY>
+<!ATTLIST employee
+        person_id           IDREF    #REQUIRED
+        function            CDATA    #REQUIRED>
+
+
+
+
+

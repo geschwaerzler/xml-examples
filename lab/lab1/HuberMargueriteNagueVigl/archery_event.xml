@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE archery_event SYSTEM "archery_event.dtd">
+
+<archery_event>
+	<tournament tournament_name = "WA_EVENT" year = "2021" place = "Bregenz">
+	
+		<group group_id = "group1" round_no = "1">
+        	<target target_id="target1" size ="10">
+        		<score shot_no="0001" target_score= "2" participant_id = "participant1"/>
+        		<score shot_no="0002" target_score= "5" participant_id = "participant2"/>
+        		<score shot_no="0003" target_score= "3" participant_id = "participant3"/>
+        		<score shot_no="0004" target_score= "2" participant_id = "participant4"/>
+        		<score shot_no="0005" target_score= "5" participant_id = "participant5"/>
+        		<score shot_no="0006" target_score= "2" participant_id = "participant6"/>
+        		<score shot_no="0007" target_score= "1" participant_id = "participant7"/>
+        		<score shot_no="0008" target_score= "2" participant_id = "participant8"/>
+        	</target>
+
+        	<target target_id="target2" size ="80">
+        		<score shot_no="0001" target_score= "2" participant_id = "participant1"/>
+        		<score shot_no="0002" target_score= "5" participant_id = "participant2"/>
+        		<score shot_no="0003" target_score= "3" participant_id = "participant3"/>
+       			<score shot_no="0004" target_score= "2" participant_id = "participant4"/>
+        		<score shot_no="0005" target_score= "5" participant_id = "participant5"/>
+       	 		<score shot_no="0006" target_score= "2" participant_id = "participant6"/>
+       	 		<score shot_no="0007" target_score= "1" participant_id = "participant7"/>
+        		<score shot_no="0008" target_score= "2" participant_id = "participant8"/>
+        	</target>
+	    </group>
+	    
+	    <group group_id = "group2" round_no = "1">
+	        <target target_id="target3" size ="20">
+        		<score shot_no="0001" target_score= "2" participant_id = "participant9"/>
+        		<score shot_no="0002" target_score= "4" participant_id = "participant10"/>
+        		<score shot_no="0003" target_score= "6" participant_id = "participant11"/>
+        		<score shot_no="0004" target_score= "7" participant_id = "participant12"/>
+        		<score shot_no="0005" target_score= "9" participant_id = "participant13"/>
+        		<score shot_no="0006" target_score= "1" participant_id = "participant14"/>
+        		<score shot_no="0007" target_score= "1" participant_id = "participant15"/>
+        		<score shot_no="0008" target_score= "2" participant_id = "participant16"/>
+        	</target>
+	        
+	        
+	        <target target_id="target4" size ="15">
+        		<score shot_no="0001" target_score= "4" participant_id = "participant9"/>
+        		<score shot_no="0002" target_score= "9" participant_id = "participant10"/>
+        		<score shot_no="0003" target_score= "8" participant_id = "participant11"/>
+        		<score shot_no="0004" target_score= "6" participant_id = "participant12"/>
+        		<score shot_no="0005" target_score= "7" participant_id = "participant13"/>
+        		<score shot_no="0006" target_score= "9" participant_id = "participant14"/>
+        		<score shot_no="0007" target_score= "10" participant_id = "participant15"/>
+        		<score shot_no="0008" target_score= "7" participant_id = "participant16"/>
+        	</target>
+	    </group>
+	    
+	    <group group_id = "group3" round_no = "1">
+	        <target target_id="target5" size ="10">
+        		<score shot_no="0001" target_score= "3" participant_id = "participant17"/>
+        		<score shot_no="0002" target_score= "7" participant_id = "participant18"/>
+        		<score shot_no="0003" target_score= "9" participant_id = "participant19"/>
+        		<score shot_no="0004" target_score= "8" participant_id = "participant20"/>
+        		<score shot_no="0005" target_score= "5" participant_id = "participant21"/>
+        		<score shot_no="0006" target_score= "1" participant_id = "participant22"/>
+        		<score shot_no="0007" target_score= "3" participant_id = "participant23"/>
+        		<score shot_no="0008" target_score= "6" participant_id = "participant24"/>
+        	</target>
+	        
+	        
+	        <target target_id="target6" size ="80">
+        		<score shot_no="0001" target_score= "5" participant_id = "participant17"/>
+        		<score shot_no="0002" target_score= "9" participant_id = "participant18"/>
+        		<score shot_no="0003" target_score= "8" participant_id = "participant19"/>
+        		<score shot_no="0004" target_score= "2" participant_id = "participant20"/>
+        		<score shot_no="0005" target_score= "4" participant_id = "participant21"/>
+        		<score shot_no="0006" target_score= "5" participant_id = "participant22"/>
+        		<score shot_no="0007" target_score= "1" participant_id = "participant23"/>
+        		<score shot_no="0008" target_score= "8" participant_id = "participant24"/>
+        	</target>
+	    </group>
+	    
+	    <group group_id = "group4" round_no = "1">
+	        <target target_id="target7" size ="20">
+        		<score shot_no="0001" target_score= "1" participant_id = "participant25"/>
+        		<score shot_no="0002" target_score= "6" participant_id = "participant26"/>
+        		<score shot_no="0003" target_score= "7" participant_id = "participant27"/>
+        		<score shot_no="0004" target_score= "4" participant_id = "participant28"/>
+        		<score shot_no="0005" target_score= "2" participant_id = "participant29"/>
+        		<score shot_no="0006" target_score= "0" participant_id = "participant30"/>
+        		<score shot_no="0007" target_score= "8" participant_id = "participant31"/>
+        		<score shot_no="0008" target_score= "6" participant_id = "participant32"/>
+        	</target>
+	        
+	        
+	        <target target_id="target8" size ="15">
+        		<score shot_no="0001" target_score= "10" participant_id = "participant25"/>
+        		<score shot_no="0002" target_score= "6" participant_id = "participant26"/>
+        		<score shot_no="0003" target_score= "1" participant_id = "participant27"/>
+        		<score shot_no="0004" target_score= "3" participant_id = "participant28"/>
+        		<score shot_no="0005" target_score= "1" participant_id = "participant29"/>
+        		<score shot_no="0006" target_score= "3" participant_id = "participant30"/>
+        		<score shot_no="0007" target_score= "0" participant_id = "participant31"/>
+        		<score shot_no="0008" target_score= "8" participant_id = "participant32"/>
+        	</target>
+	    </group>
+	    
+	    <group group_id = "group5" round_no = "1">
+	        <target target_id="target9" size ="15">
+        		<score shot_no="0001" target_score= "4" participant_id = "participant33"/>
+        		<score shot_no="0002" target_score= "7" participant_id = "participant34"/>
+        		<score shot_no="0003" target_score= "6" participant_id = "participant35"/>
+        		<score shot_no="0004" target_score= "5" participant_id = "participant36"/>
+        		<score shot_no="0005" target_score= "9" participant_id = "participant37"/>
+        		<score shot_no="0006" target_score= "8" participant_id = "participant38"/>
+        		<score shot_no="0007" target_score= "3" participant_id = "participant39"/>
+        		<score shot_no="0008" target_score= "8" participant_id = "participant40"/>
+        	</target>
+	        
+	        
+	        <target target_id="target10" size ="10">
+        		<score shot_no="0001" target_score= "7" participant_id = "participant33"/>
+        		<score shot_no="0002" target_score= "8" participant_id = "participant34"/>
+        		<score shot_no="0003" target_score= "1" participant_id = "participant35"/>
+        		<score shot_no="0004" target_score= "7" participant_id = "participant36"/>
+        		<score shot_no="0005" target_score= "7" participant_id = "participant37"/>
+        		<score shot_no="0006" target_score= "10" participant_id = "participant38"/>
+        		<score shot_no="0007" target_score= "9" participant_id = "participant39"/>
+        		<score shot_no="0008" target_score= "7" participant_id = "participant40"/>
+        	</target>
+	    </group>
+	    
+	    <group group_id = "group6" round_no = "1">
+	        <target target_id="targe11" size ="80">
+        		<score shot_no="0001" target_score= "9" participant_id = "participant41"/>
+        		<score shot_no="0002" target_score= "10" participant_id = "participant42"/>
+        		<score shot_no="0003" target_score= "8" participant_id = "participant43"/>
+        		<score shot_no="0004" target_score= "3" participant_id = "participant44"/>
+        		<score shot_no="0005" target_score= "1" participant_id = "participant45"/>
+        		<score shot_no="0006" target_score= "7" participant_id = "participant46"/>
+        		<score shot_no="0007" target_score= "6" participant_id = "participant47"/>
+        		<score shot_no="0008" target_score= "5" participant_id = "participant48"/>
+        	</target>
+	        
+	        
+	        <target target_id="target12" size ="15">
+        		<score shot_no="0001" target_score= "9" participant_id = "participant41"/>
+        		<score shot_no="0002" target_score= "5" participant_id = "participant42"/>
+        		<score shot_no="0003" target_score= "4" participant_id = "participant43"/>
+        		<score shot_no="0004" target_score= "6" participant_id = "participant44"/>
+        		<score shot_no="0005" target_score= "7" participant_id = "participant45"/>
+        		<score shot_no="0006" target_score= "6" participant_id = "participant46"/>
+        		<score shot_no="0007" target_score= "5" participant_id = "participant47"/>
+        		<score shot_no="0008" target_score= "8" participant_id = "participant48"/>
+        	</target>
+	    </group>
+	
+	
+		<division division_name = "Langbogen" age_from = "10" age_to = "20">
+			<class gender = "M">
+				<participant id = "participant1" country = "Austria" lname = "Doe" fname = "John"/>
+				<participant id = "participant2" country = "USA" lname = "Franko" fname = "James"/>
+				<participant id = "participant3" country = "Auenland" lname = "Beutlin" fname = "Frodo"/>
+				<participant id = "participant4" country = "USA" lname = "Tarantino" fname = "Quentin"/>
+				<participant id = "participant5" country = "USA" lname = "Kubrick" fname = "Stanley"/>
+				<participant id = "participant6" country = "USA" lname = "Winding Refn" fname = "Nicolas"/>
+			</class>
+			<class gender = "F">
+				<participant id = "participant7" country = "Austria" lname = "Olsen" fname = "Olivia"/>
+				<participant id = "participant8" country = "USA" lname = "Streep" fname = "Meryl"/>
+				<participant id = "participant9" country = "USA" lname = "Michelle" fname = "Obama"/>
+				<participant id = "participant10" country = "Israel" lname = "Mutter Jesu" fname = "Maria von Nazaret"/>
+				<participant id = "participant11" country = "Polen" lname = "Curie" fname = "Marie"/>	
+				<participant id = "participant12" country = "USA" lname = "Robbie" fname = "Margot"/>	
+			</class>
+		</division>
+		
+		
+		<division division_name = "Langbogen" age_from = "21" age_to = "40">
+			<class gender = "M">
+				<participant id = "participant13" country = "Austria" lname = "Jonas" fname = "Röthke"/>
+				<participant id = "participant14" country = "USA" lname = "Egon" fname = "Mann"/>
+                <participant id = "participant15" country = "Austria" lname = "Louis" fname = "Ueberroth"/>
+                <participant id = "participant16" country = "Germany" lname = "Nicolas" fname = "Schiffer"/>
+                <participant id = "participant17" country = "Italy" lname = "Mathias" fname = "Lachs"/>
+                <participant id = "participant18" country = "Austria" lname = "Maxi" fname = "Littauer"/>
+			</class>
+			<class gender = "F">
+				<participant id = "participant19" country = "Austria" lname = "Musterfrau" fname = "Maxime"/>
+				<participant id = "participant20" country = "Austria" lname = "Amalie" fname = "Wittich"/>
+                <participant id = "participant21" country = "Hungary" lname = "Vicki" fname = "Herzog"/>
+                <participant id = "participant22" country = "France" lname = "Dorothea" fname = "Creuzburg"/>
+                <participant id = "participant23" country = "Spain" lname = "Catharina" fname = "Egner"/>
+                <participant id = "participant24" country = "Austria" lname = "Ada" fname = "Straussler"/>
+			</class>
+		</division>
+		
+		
+		<division division_name = "Kurzbogen" age_from = "10" age_to = "20">
+			<class gender = "M">
+				<participant id = "participant25" country = "USA" lname = "DiCaprio" fname = "Leonardo" />
+				<participant id = "participant26" country = "Austria" lname = "Waltz" fname = "Christoph" />
+				<participant id = "participant27" country = "England" lname = "Freddie" fname = "Mercury" />
+				<participant id = "participant28" country = "England" lname = "Elton" fname = "John" />
+				<participant id = "participant29" country = "Austria" lname = "Clemens" fname = "Sperl"/>
+                <participant id = "participant30" country = "Austria" lname = "Kilian" fname = "Korholz"/>	
+			</class>
+			<class gender = "F">
+				<participant id = "participant31" country = "Austria" lname = "Stauber" fname = "Elisabeth" />
+				<participant id = "participant32" country = "USA" lname = "Houston" fname = "Whitney" />
+				<participant id = "participant33" country = "Austria" lname = "Wagner-Rendi" fname = "Pamela" />
+				<participant id = "participant34" country = "Deutschland" lname = "Frank" fname = "Anne" />
+				<participant id = "participant35" country = "Venezuela" lname = "Nini" fname = "Schwender"/>
+                <participant id = "participant36" country = "Austria" lname = "Kaitlyn" fname = "Holloway"/>
+			</class>
+		</division>
+		
+		<division division_name = "Kurzbogen" age_from = "21" age_to = "40">
+			<class gender = "M">
+				<participant id = "participant37" country = "USA" lname = "Jaxx" fname = "Callahan" />
+				<participant id = "participant38" country = "Switzerland" lname = "Yannik" fname = "Buchwald"/>
+                <participant id = "participant39" country = "Switzerland" lname = "Stephan" fname = "Wachtel"/>
+                <participant id = "participant40" country = "Italy" lname = "Eduard" fname = "Loeb"/>
+                <participant id = "participant41" country = "Australia" lname = "Arne" fname = "Brandeis"/>
+                <participant id = "participant42" country = "Australia" lname = "Harris" fname = "Coulsen"/>
+                
+			</class>
+			<class gender = "F">
+				<participant id = "participant43" country = "Austria" lname = "Iris" fname = "Hackett" />
+				<participant id = "participant44" country = "Portugal" lname = "Ola" fname = "Weisskopf" />
+                <participant id = "participant45" country = "Germany" lname = "Hella" fname = "Quaschny" />
+                <participant id = "participant46" country = "Austria" lname = "Rita" fname = "Niedermayer" />
+                <participant id = "participant47" country = "Brazil" lname = "Barbara" fname = "Stoltenberg" />
+                <participant id = "participant48" country = "Spain" lname = "Callie" fname = "Rosales" />
+			</class>
+		</division>
+	</tournament>
+
+</archery_event>

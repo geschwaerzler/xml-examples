@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wfac SYSTEM "WFAC.dtd">
+
+<wfac>
+
+<!--  Day 1 -->
+
+	<group id = "G-1">
+		<groupmember registration_id = "C-1" role = "owner"/>
+		<groupmember registration_id = "C-2" role = "scorrer"/>
+		<groupmember registration_id = "C-3" role = "scorrer"/>
+		<groupmember registration_id = "C-4" role = "member"/>
+	</group>
+	
+	<group id = "G-2">
+		<groupmember registration_id = "C-5" role = "owner"/>
+		<groupmember registration_id = "C-6" role = "scorrer"/>
+		<groupmember registration_id = "C-7" role = "scorrer"/>
+		<groupmember registration_id = "C-8" role = "member"/>
+	</group>
+
+<!--  Competitor & Score -->
+
+	<competitor registration_id = "C-1" fname = "Hossein" lname = "Jafari">
+		<scorecard scorecard_id = "S-1">
+			<scorecard_entry entry_number = "E-1" score = "200" target-id = "T-1"/>
+			<scorecard_entry entry_number = "E-2" score = "200" target-id = "T-2"/>
+			<scorecard_entry entry_number = "E-3" score = "200" target-id = "T-3"/>
+			<scorecard_entry entry_number = "E-4" score = "200" target-id = "T-4"/>
+			<scorecard_entry entry_number = "E-5" score = "200" target-id = "T-5"/>
+			<scorecard_entry entry_number = "E-6" score = "200" target-id = "T-6"/>
+			<scorecard_entry entry_number = "E-7" score = "200" target-id = "T-7"/>
+			<scorecard_entry entry_number = "E-8" score = "200" target-id = "T-8"/>
+			<scorecard_entry entry_number = "E-9" score = "200" target-id = "T-9"/>
+			<scorecard_entry entry_number = "E-10" score = "200" target-id = "T-10"/>
+		</scorecard>
+	</competitor>
+	
+	<competitor registration_id = "C-2" fname = "Dominik" lname = "Roth">
+		<scorecard scorecard_id = "S-2">
+			<scorecard_entry entry_number = "E-11" score = "200" target-id = "T-1"/>
+			<scorecard_entry entry_number = "E-12" score = "200" target-id = "T-2"/>
+			<scorecard_entry entry_number = "E-13" score = "200" target-id = "T-3"/>
+			<scorecard_entry entry_number = "E-14" score = "200" target-id = "T-4"/>
+			<scorecard_entry entry_number = "E-15" score = "200" target-id = "T-5"/>
+			<scorecard_entry entry_number = "E-16" score = "200" target-id = "T-6"/>
+			<scorecard_entry entry_number = "E-17" score = "200" target-id = "T-7"/>
+			<scorecard_entry entry_number = "E-18" score = "200" target-id = "T-8"/>
+			<scorecard_entry entry_number = "E-19" score = "200" target-id = "T-9"/>
+			<scorecard_entry entry_number = "E-20" score = "200" target-id = "T-10"/>
+		</scorecard>
+	</competitor>
+	
+	<competitor registration_id = "C-3" fname = "Lessli" lname = "Winkel">
+		<scorecard scorecard_id = "S-3">
+			<scorecard_entry entry_number = "E-21" score = "200" target-id = "T-1"/>
+			<scorecard_entry entry_number = "E-22" score = "200" target-id = "T-2"/>
+			<scorecard_entry entry_number = "E-23" score = "200" target-id = "T-3"/>
+			<scorecard_entry entry_number = "E-24" score = "200" target-id = "T-4"/>
+			<scorecard_entry entry_number = "E-25" score = "200" target-id = "T-5"/>
+			<scorecard_entry entry_number = "E-26" score = "200" target-id = "T-6"/>
+			<scorecard_entry entry_number = "E-27" score = "200" target-id = "T-7"/>
+			<scorecard_entry entry_number = "E-28" score = "200" target-id = "T-8"/>
+			<scorecard_entry entry_number = "E-29" score = "200" target-id = "T-9"/>
+			<scorecard_entry entry_number = "E-30" score = "200" target-id = "T-10"/>
+		</scorecard>
+	</competitor>
+	
+	<competitor registration_id = "C-4" fname = "Peter" lname = "Reiter">
+		<scorecard scorecard_id = "S-4">
+			<scorecard_entry entry_number = "E-31" score = "200" target-id = "T-1"/>
+			<scorecard_entry entry_number = "E-32" score = "200" target-id = "T-2"/>
+			<scorecard_entry entry_number = "E-33" score = "200" target-id = "T-3"/>
+			<scorecard_entry entry_number = "E-34" score = "200" target-id = "T-4"/>
+			<scorecard_entry entry_number = "E-35" score = "200" target-id = "T-5"/>
+			<scorecard_entry entry_number = "E-36" score = "200" target-id = "T-6"/>
+			<scorecard_entry entry_number = "E-37" score = "200" target-id = "T-7"/>
+			<scorecard_entry entry_number = "E-38" score = "200" target-id = "T-8"/>
+			<scorecard_entry entry_number = "E-39" score = "200" target-id = "T-9"/>
+			<scorecard_entry entry_number = "E-40" score = "200" target-id = "T-10"/>
+		</scorecard>
+	</competitor>
+	
+	<competitor registration_id = "C-5" fname = "Lulu" lname = "Hammelbach">
+		<scorecard scorecard_id = "S-5">
+			<scorecard_entry entry_number = "E-41" score = "200" target-id = "T-11"/>
+			<scorecard_entry entry_number = "E-42" score = "200" target-id = "T-12"/>
+			<scorecard_entry entry_number = "E-43" score = "200" target-id = "T-13"/>
+			<scorecard_entry entry_number = "E-44" score = "200" target-id = "T-14"/>
+			<scorecard_entry entry_number = "E-45" score = "200" target-id = "T-15"/>
+			<scorecard_entry entry_number = "E-46" score = "200" target-id = "T-16"/>
+			<scorecard_entry entry_number = "E-47" score = "200" target-id = "T-17"/>
+			<scorecard_entry entry_number = "E-48" score = "200" target-id = "T-18"/>
+			<scorecard_entry entry_number = "E-49" score = "200" target-id = "T-19"/>
+			<scorecard_entry entry_number = "E-50" score = "200" target-id = "T-20"/>
+		</scorecard>
+	</competitor>
+	
+	<competitor registration_id = "C-6" fname = "Franz" lname = "Lautern">
+		<scorecard scorecard_id = "S-6">
+			<scorecard_entry entry_number = "E-51" score = "200" target-id = "T-11"/>
+			<scorecard_entry entry_number = "E-52" score = "200" target-id = "T-12"/>
+			<scorecard_entry entry_number = "E-53" score = "200" target-id = "T-13"/>
+			<scorecard_entry entry_number = "E-54" score = "200" target-id = "T-14"/>
+			<scorecard_entry entry_number = "E-55" score = "200" target-id = "T-15"/>
+			<scorecard_entry entry_number = "E-56" score = "200" target-id = "T-16"/>
+			<scorecard_entry entry_number = "E-57" score = "200" target-id = "T-17"/>
+			<scorecard_entry entry_number = "E-58" score = "200" target-id = "T-18"/>
+			<scorecard_entry entry_number = "E-59" score = "200" target-id = "T-19"/>
+			<scorecard_entry entry_number = "E-60" score = "200" target-id = "T-20"/>
+		</scorecard>
+	</competitor>
+	
+	<competitor registration_id = "C-7" fname = "Uli" lname = "Groß">
+		<scorecard scorecard_id = "S-7">
+			<scorecard_entry entry_number = "E-61" score = "200" target-id = "T-11"/>
+			<scorecard_entry entry_number = "E-62" score = "200" target-id = "T-12"/>
+			<scorecard_entry entry_number = "E-63" score = "200" target-id = "T-13"/>
+			<scorecard_entry entry_number = "E-64" score = "200" target-id = "T-14"/>
+			<scorecard_entry entry_number = "E-65" score = "200" target-id = "T-15"/>
+			<scorecard_entry entry_number = "E-66" score = "200" target-id = "T-16"/>
+			<scorecard_entry entry_number = "E-67" score = "200" target-id = "T-17"/>
+			<scorecard_entry entry_number = "E-68" score = "200" target-id = "T-18"/>
+			<scorecard_entry entry_number = "E-69" score = "200" target-id = "T-19"/>
+			<scorecard_entry entry_number = "E-70" score = "200" target-id = "T-20"/>
+		</scorecard>
+	</competitor>
+	
+	<competitor registration_id = "C-8" fname = "Otto" lname = "Schuster">
+		<scorecard scorecard_id = "S-8">
+			<scorecard_entry entry_number = "E-71" score = "200" target-id = "T-11"/>
+			<scorecard_entry entry_number = "E-72" score = "200" target-id = "T-12"/>
+			<scorecard_entry entry_number = "E-73" score = "200" target-id = "T-13"/>
+			<scorecard_entry entry_number = "E-74" score = "200" target-id = "T-14"/>
+			<scorecard_entry entry_number = "E-75" score = "200" target-id = "T-15"/>
+			<scorecard_entry entry_number = "E-76" score = "200" target-id = "T-16"/>
+			<scorecard_entry entry_number = "E-77" score = "200" target-id = "T-17"/>
+			<scorecard_entry entry_number = "E-78" score = "200" target-id = "T-18"/>
+			<scorecard_entry entry_number = "E-79" score = "200" target-id = "T-19"/>
+			<scorecard_entry entry_number = "E-80" score = "200" target-id = "T-20"/>
+		</scorecard>
+	</competitor>
+			
+			
+<!-- Round -->
+ 	
+ 	<round id = "R-1" datum = "10.01.2021" style = "hunter">
+ 		<parcour id = "P-1">
+ 			<target id = "T-1" size = "100"/>
+ 			<target id = "T-2" size = "100"/>
+ 			<target id = "T-3" size = "100"/>
+ 			<target id = "T-4" size = "100"/>
+ 			<target id = "T-5" size = "100"/>
+ 			<target id = "T-6" size = "100"/>
+ 			<target id = "T-7" size = "100"/>
+ 			<target id = "T-8" size = "100"/>
+ 			<target id = "T-9" size = "100"/>
+ 			<target id = "T-10" size = "100"/>
+ 		</parcour>
+ 		<parcour id = "P-2">
+ 			<target id = "T-11" size = "100"/>
+ 			<target id = "T-12" size = "100"/>
+ 			<target id = "T-13" size = "100"/>
+ 			<target id = "T-14" size = "100"/>
+ 			<target id = "T-15" size = "100"/>
+ 			<target id = "T-16" size = "100"/>
+ 			<target id = "T-17" size = "100"/>
+ 			<target id = "T-18" size = "100"/>
+ 			<target id = "T-19" size = "100"/>
+ 			<target id = "T-20" size = "100"/>
+ 		</parcour>
+ 	</round>
+ </wfac>
