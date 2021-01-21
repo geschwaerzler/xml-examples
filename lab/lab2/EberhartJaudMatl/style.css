@@ -1,0 +1,40 @@
+html {
+    font-family: Calibri;
+    height: 100%;
+    width: 100%;
+    background-color: #d4e892;
+}
+.container {
+    width: 40%;
+    margin: auto;
+    padding: 50px;
+    background-color: white;
+}
+@media screen and (max-width: 800px) {
+    .container {
+        width: inherit;
+        margin: 0;
+    }
+}
+
+table {
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid black;
+}
+th {
+    background-color: #dbdbd9;
+}
+th, td {
+    padding: 3px;
+}
+
+.center {
+    text-align: center;
+}
+
+.title {
+    font-size: 2.5em;
+    border-bottom: 1px black solid;
+}

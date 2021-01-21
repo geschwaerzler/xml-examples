@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT bogenschiessen (altersklassen,
+							schieß_stile,
+							ligen,
+							stile,
+							turnier_teilnehmer,
+							pacours,
+							turniere,
+							nimmtteil,
+							punktestände)>
+							
+
+
+
+<!ELEMENT altersklassen (altersklasse)*>
+<!ELEMENT altersklasse (#PCDATA)>
+<!ATTLIST altersklasse
+	altersklassen_id ID #REQUIRED
+>
+
+
+<!ELEMENT schieß_stile (schieß_stil)*>
+<!ELEMENT schieß_stil (#PCDATA)>
+<!ATTLIST schieß_stil
+	schieß_stiel_id ID #REQUIRED
+>
+
+<!ELEMENT ligen (liga)*>
+<!ELEMENT liga (#PCDATA)>
+<!ATTLIST liga
+	liga_id ID #REQUIRED
+>
+	
+<!ELEMENT stile (stil)*>
+<!ELEMENT stil EMPTY>
+<!ATTLIST stil
+	stiel_id ID #REQUIRED
+	altersklasse_id	IDREF  #REQUIRED
+	schieß_stiel_id	IDREF  #REQUIRED
+	liga_id	IDREF  #REQUIRED
+>
+
+<!ELEMENT pacours (parkur)*>
+<!ELEMENT parkur (scheiben)*>
+<!ATTLIST parkur
+	parkur_id	ID	#REQUIRED
+	parkur_name CDATA #REQUIRED
+>
+<!ELEMENT scheiben EMPTY>
+<!ATTLIST scheiben
+	scheiben_id ID #REQUIRED
+>
+
+<!ELEMENT turnier_teilnehmer (teilnehmer)*>
+<!ELEMENT teilnehmer (teilnehmer_Vn, teilnehmer_Nn)>
+<!ATTLIST teilnehmer
+	person_id 	ID	#REQUIRED
+	stiel_id	IDREF	#REQUIRED
+>
+<!ELEMENT teilnehmer_Vn (#PCDATA)>
+<!ELEMENT teilnehmer_Nn (#PCDATA)>
+
+
+<!ELEMENT turniere (turnier)*>
+
+<!ELEMENT turnier (Runde)*>
+<!ATTLIST turnier 
+    Name          ID    #REQUIRED
+	lfd_nummer	ID	#REQUIRED
+	jahr CDATA	#REQUIRED
+	land CDATA	#REQUIRED
+>
+<!ELEMENT Runde (Gruppe)*>
+<!ATTLIST Runde
+	parkur_id	IDREF	#REQUIRED
+    runden_id	ID	   #REQUIRED
+    date         CDATA    #REQUIRED
+	
+>	
+<!ELEMENT Gruppe (schütze)*>
+<!ATTLIST Gruppe
+	gruppen_id 	ID	#REQUIRED
+>	
+<!ELEMENT schütze EMPTY>
+<!ATTLIST schütze
+	person_id	IDREF	#REQUIRED
+	rolle		CDATA	#IMPLIED
+>
+
+
+<!ELEMENT nimmtteil (teilen)*>
+<!ELEMENT teilen EMPTY>
+<!ATTLIST teilen
+	lfd_nummer	IDREF	#REQUIRED
+	person_id	IDREF	#REQUIRED
+>
+
+<!ELEMENT punktestände (turnier_punkte)*>
+
+<!ELEMENT turnier_punkte (punktestand)*>
+<!ATTLIST turnier_punkte
+	turnier_id	IDREF #REQUIRED
+>
+
+<!ELEMENT punktestand (Runde_punkte)*>
+<!ATTLIST punktestand
+	person_id	IDREF #REQUIRED
+>
+
+<!ELEMENT Runde_punkte (scheiben_punkte)*>
+<!ATTLIST Runde_punkte
+	runden_id	IDREF #REQUIRED
+>
+
+<!ELEMENT scheiben_punkte (schüsse)*>
+<!ATTLIST scheiben_punkte
+	scheiben_id	IDREF #REQUIRED
+>
+<!ELEMENT schüsse (#PCDATA)>
+	
+
+
+
+
+
+
+

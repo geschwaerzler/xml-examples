@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wfac SYSTEM "Scorecard_wfac.dtd">
+
+<wfac>
+    <round round-name-short="A" round-name-full="Animal Round" />
+    <round round-name-short="H" round-name-full="Hunter Round" />
+    <round round-name-short="F" round-name-full="Field Round" />
+
+    <parcour parcour-id="parcour-1" round-name-short="A">
+        <target target-id="target-1" lon="58.222760" lat="24.536553" size="5"/>
+        <target target-id="target-2" lon="58.223163" lat="24.535306" size="3"/>
+        <target target-id="target-3" lon="58.223858" lat="24.533139" size="1"/>
+    </parcour>
+    <parcour parcour-id="parcour-2" round-name-short="F">
+        <target target-id="target-4" lon="58.222760" lat="24.536566" size="4" />
+        <target target-id="target-5" lon="58.222770" lat="24.536555" size="6" />
+        <target target-id="target-6" lon="58.222769" lat="24.536559" size="8" />
+    </parcour>
+
+    <competitor registration-id="c-1"
+                street="Nevada Street"
+                house-number="308"
+                zip-code="12345"
+                country="USA"
+                city="Albuquerque"
+                fname="Walter"
+                lname="White"
+                email="heisenberg@aon.at"
+                nationality="USA"
+                is-present="T"
+    />
+    <competitor registration-id="c-2"
+                street="Nevada Street"
+                house-number="308"
+                zip-code="12345"
+                country="USA"
+                city="Albuquerque"
+                fname="Skylar"
+                lname="White"
+                email="skylar.white@gmail.com"
+                nationality="USA"
+                is-present="T"
+    />
+    <competitor registration-id="c-3"
+                street="Lane Avenue"
+                house-number="256"
+                zip-code="12345"
+                country="USA"
+                city="Albuquerque"
+                fname="Jesse"
+                lname="Pinkman"
+                email="sprichnachdemton@gmail.com"
+                nationality="USA"
+                is-present="T"
+    />
+    <competitor registration-id="c-4"
+                street="Unbekannte Straße"
+                house-number="32"
+                zip-code="6850"
+                country="Austria"
+                city="Dornbirn"
+                fname="Armin"
+                lname="Simma"
+                email="armin.simma@gmail.com"
+                nationality="Austria"
+                is-present="T"
+    />
+    <competitor registration-id="c-5"
+                street="Gerberstraße"
+                house-number="45b"
+                zip-code="6845"
+                country="Austria"
+                city="Hohenems"
+                fname="Reiner"
+                lname="Schneider"
+                email="reiner.schneider@irgendeinedomain.at"
+                nationality="Austria"
+                is-present="T"
+    />
+    <competitor registration-id="c-6"
+                street="Schillerstraße"
+                house-number="2"
+                zip-code="6900"
+                country="Austria"
+                city="Bregenz"
+                fname="Selina"
+                lname="Düringer"
+                email="markus@irgendeinedomain.at"
+                nationality="Austria"
+                is-present="T"
+    />
+    <competitor registration-id="c-7"
+                street="Grüner Damm"
+                house-number="7"
+                zip-code="6900"
+                country="Austria"
+                city="Dornbirn"
+                fname="Franz"
+                lname="Fritz"
+                email="franzfritz@irgendeinedomain.at"
+                nationality="Austria"
+                is-present="T"
+    />
+
+    <!-- group has already played all 3 targets -->
+    <group group-id="group-1.1" date="2020-05-22">
+        <participant role="captain" registration-id="c-5">
+            <scorecard scorecard-id="card-1" round-name-short="F">
+                <scorecard-entry entry-number="entry-1" target-id="target-1" score="10"/>
+                <scorecard-entry entry-number="entry-2" target-id="target-1" score="9"/>
+                <scorecard-entry entry-number="entry-3" target-id="target-1" score="10"/>
+                <scorecard-entry entry-number="entry-4" target-id="target-1" score="8"/>
+                <scorecard-entry entry-number="entry-5" target-id="target-2" score="10"/>
+                <scorecard-entry entry-number="entry-6" target-id="target-2" score="5"/>
+                <scorecard-entry entry-number="entry-7" target-id="target-2" score="4"/>
+                <scorecard-entry entry-number="entry-8" target-id="target-2" score="10"/>
+                <scorecard-entry entry-number="entry-9" target-id="target-3" score="4"/>
+                <scorecard-entry entry-number="entry-10" target-id="target-3" score="2"/>
+                <scorecard-entry entry-number="entry-11" target-id="target-3" score="2"/>
+                <scorecard-entry entry-number="entry-12" target-id="target-3" score="8"/>
+            </scorecard>
+        </participant>
+        <participant role="scorer" registration-id="c-3">
+            <scorecard scorecard-id="card-2" round-name-short="F">
+                <scorecard-entry entry-number="entry-13" target-id="target-1" score="8"/>
+                <scorecard-entry entry-number="entry-14" target-id="target-1" score="9"/>
+                <scorecard-entry entry-number="entry-15" target-id="target-1" score="4"/>
+                <scorecard-entry entry-number="entry-16" target-id="target-1" score="1"/>
+                <scorecard-entry entry-number="entry-17" target-id="target-2" score="5"/>
+                <scorecard-entry entry-number="entry-18" target-id="target-2" score="3"/>
+                <scorecard-entry entry-number="entry-19" target-id="target-2" score="10"/>
+                <scorecard-entry entry-number="entry-20" target-id="target-2" score="9"/>
+                <scorecard-entry entry-number="entry-21" target-id="target-3" score="10"/>
+                <scorecard-entry entry-number="entry-22" target-id="target-3" score="5"/>
+                <scorecard-entry entry-number="entry-23" target-id="target-3" score="9"/>
+                <scorecard-entry entry-number="entry-24" target-id="target-3" score="10"/>
+            </scorecard>
+        </participant>
+        <participant role="scorer" registration-id="c-4">
+            <scorecard scorecard-id="card-3" round-name-short="F">
+                <scorecard-entry entry-number="entry-25" target-id="target-1" score="7"/>
+                <scorecard-entry entry-number="entry-26" target-id="target-1" score="10"/>
+                <scorecard-entry entry-number="entry-27" target-id="target-1" score="5"/>
+                <scorecard-entry entry-number="entry-28" target-id="target-1" score="7"/>
+                <scorecard-entry entry-number="entry-29" target-id="target-2" score="2"/>
+                <scorecard-entry entry-number="entry-30" target-id="target-2" score="5"/>
+                <scorecard-entry entry-number="entry-31" target-id="target-2" score="9"/>
+                <scorecard-entry entry-number="entry-32" target-id="target-2" score="4"/>
+                <scorecard-entry entry-number="entry-33" target-id="target-3" score="7"/>
+                <scorecard-entry entry-number="entry-34" target-id="target-3" score="9"/>
+                <scorecard-entry entry-number="entry-35" target-id="target-3" score="2"/>
+                <scorecard-entry entry-number="entry-36" target-id="target-3" score="7"/>
+            </scorecard>
+        </participant>
+        <participant role="player" registration-id="c-1">
+            <scorecard scorecard-id="card-4" round-name-short="F">
+                <scorecard-entry entry-number="entry-37" score="1" target-id="target-1"/>
+                <scorecard-entry entry-number="entry-38" target-id="target-1" score="6"/>
+                <scorecard-entry entry-number="entry-39" target-id="target-1" score="8"/>
+                <scorecard-entry entry-number="entry-40" target-id="target-1" score="10"/>
+                <scorecard-entry entry-number="entry-42" target-id="target-2" score="6"/>
+                <scorecard-entry entry-number="entry-43" target-id="target-2" score="6"/>
+                <scorecard-entry entry-number="entry-44" target-id="target-2" score="3"/>
+                <scorecard-entry entry-number="entry-45" target-id="target-2" score="9"/>
+                <scorecard-entry entry-number="entry-46" target-id="target-3" score="3"/>
+                <scorecard-entry entry-number="entry-47" target-id="target-3" score="8"/>
+                <scorecard-entry entry-number="entry-48" target-id="target-3" score="4"/>
+                <scorecard-entry entry-number="entry-49" target-id="target-3" score="10"/>
+            </scorecard>
+        </participant>
+        <participant role="player" registration-id="c-2">
+            <scorecard scorecard-id="card-5" round-name-short="F">
+                <scorecard-entry entry-number="entry-153" target-id="target-1" score="9"/>
+                <scorecard-entry entry-number="entry-50" target-id="target-1" score="7"/>
+                <scorecard-entry entry-number="entry-51" target-id="target-1" score="10"/>
+                <scorecard-entry entry-number="entry-52" target-id="target-1" score="7"/>
+                <scorecard-entry entry-number="entry-53" target-id="target-2" score="33"/>
+                <scorecard-entry entry-number="entry-54" target-id="target-2" score="9"/>
+                <scorecard-entry entry-number="entry-55" target-id="target-2" score="10"/>
+                <scorecard-entry entry-number="entry-56" target-id="target-2" score="9"/>
+                <scorecard-entry entry-number="entry-57" target-id="target-3" score="8"/>
+                <scorecard-entry entry-number="entry-58" target-id="target-3" score="4"/>
+                <scorecard-entry entry-number="entry-59" target-id="target-3" score="7"/>
+                <scorecard-entry entry-number="entry-60" target-id="target-3" score="10"/>
+            </scorecard>
+        </participant>
+    </group>
+    
+    <group group-id="group-2.1" date="2020-05-22">
+        <participant role="captain" registration-id="c-6">
+            <scorecard scorecard-id="card-6" round-name-short="A">
+                <scorecard-entry entry-number="entry-152" target-id="target-1" score="9"/>
+                <scorecard-entry entry-number="entry-61" target-id="target-1" score="7"/>
+                <scorecard-entry entry-number="entry-62" target-id="target-1" score="9"/>
+                <scorecard-entry entry-number="entry-63" target-id="target-1" score="10"/>
+                <scorecard-entry entry-number="entry-64" target-id="target-2" score="4"/>
+                <scorecard-entry entry-number="entry-65" target-id="target-2" score="7"/>
+                <scorecard-entry entry-number="entry-66" target-id="target-2" score="3"/>
+                <scorecard-entry entry-number="entry-67" target-id="target-2" score="6"/>
+            </scorecard>
+        </participant>
+        <participant role="scorer" registration-id="c-7">
+            <scorecard scorecard-id="card-7" round-name-short="A">
+                <scorecard-entry entry-number="entry-68" target-id="target-1" score="8"/>
+                <scorecard-entry entry-number="entry-69" target-id="target-1" score="4"/>
+                <scorecard-entry entry-number="entry-70" target-id="target-1" score="6"/>
+                <scorecard-entry entry-number="entry-71" target-id="target-1" score="4"/>
+                <scorecard-entry entry-number="entry-72" target-id="target-2" score="9"/>
+                <scorecard-entry entry-number="entry-73" target-id="target-2" score="3"/>
+                <scorecard-entry entry-number="entry-74" target-id="target-2" score="7"/>
+                <scorecard-entry entry-number="entry-75" target-id="target-2" score="9"/>
+            </scorecard>
+        </participant>
+    </group>
+    
+    <group group-id="group-1.2" date="2020-05-23">
+        <participant role="captain" registration-id="c-5">
+            <scorecard scorecard-id="card-8" round-name-short="F">
+                <scorecard-entry entry-number="entry-76" target-id="target-1" score="10"/>
+                <scorecard-entry entry-number="entry-77" target-id="target-1" score="9"/>
+                <scorecard-entry entry-number="entry-78" target-id="target-1" score="10"/>
+                <scorecard-entry entry-number="entry-79" target-id="target-1" score="8"/>
+                <scorecard-entry entry-number="entry-80" target-id="target-2" score="10"/>
+                <scorecard-entry entry-number="entry-81" target-id="target-2" score="5"/>
+                <scorecard-entry entry-number="entry-82" target-id="target-2" score="4"/>
+                <scorecard-entry entry-number="entry-83" target-id="target-2" score="10"/>
+                <scorecard-entry entry-number="entry-84" target-id="target-3" score="4"/>
+                <scorecard-entry entry-number="entry-85" target-id="target-3" score="2"/>
+                <scorecard-entry entry-number="entry-86" target-id="target-3" score="2"/>
+                <scorecard-entry entry-number="entry-87" target-id="target-3" score="8"/>
+            </scorecard>
+        </participant>
+        <participant role="scorer" registration-id="c-3">
+            <scorecard scorecard-id="card-9" round-name-short="F">
+                <scorecard-entry entry-number="entry-88" target-id="target-1" score="8"/>
+                <scorecard-entry entry-number="entry-89" target-id="target-1" score="9"/>
+                <scorecard-entry entry-number="entry-90" target-id="target-1" score="4"/>
+                <scorecard-entry entry-number="entry-91" target-id="target-1" score="1"/>
+                <scorecard-entry entry-number="entry-92" target-id="target-2" score="5"/>
+                <scorecard-entry entry-number="entry-93" target-id="target-2" score="3"/>
+                <scorecard-entry entry-number="entry-94" target-id="target-2" score="10"/>
+                <scorecard-entry entry-number="entry-95" target-id="target-2" score="9"/>
+                <scorecard-entry entry-number="entry-96" target-id="target-3" score="10"/>
+                <scorecard-entry entry-number="entry-97" target-id="target-3" score="5"/>
+                <scorecard-entry entry-number="entry-98" target-id="target-3" score="9"/>
+                <scorecard-entry entry-number="entry-99" target-id="target-3" score="10"/>
+            </scorecard>
+        </participant>
+        <participant role="scorer" registration-id="c-4">
+            <scorecard scorecard-id="card-10" round-name-short="F">
+                <scorecard-entry entry-number="entry-100" target-id="target-1" score="7"/>
+                <scorecard-entry entry-number="entry-101" target-id="target-1" score="10"/>
+                <scorecard-entry entry-number="entry-102" target-id="target-1" score="5"/>
+                <scorecard-entry entry-number="entry-103" target-id="target-1" score="7"/>
+                <scorecard-entry entry-number="entry-104" target-id="target-2" score="2"/>
+                <scorecard-entry entry-number="entry-105" target-id="target-2" score="5"/>
+                <scorecard-entry entry-number="entry-106" target-id="target-2" score="9"/>
+                <scorecard-entry entry-number="entry-107" target-id="target-2" score="4"/>
+                <scorecard-entry entry-number="entry-108" target-id="target-3" score="7"/>
+                <scorecard-entry entry-number="entry-109" target-id="target-3" score="9"/>
+                <scorecard-entry entry-number="entry-110" target-id="target-3" score="2"/>
+                <scorecard-entry entry-number="entry-111" target-id="target-3" score="7"/>
+            </scorecard>
+        </participant>
+        <participant role="player" registration-id="c-1">
+            <scorecard scorecard-id="card-11" round-name-short="F">
+                <scorecard-entry entry-number="entry-112" score="1" target-id="target-1"/>
+                <scorecard-entry entry-number="entry-113" target-id="target-1" score="6"/>
+                <scorecard-entry entry-number="entry-114" target-id="target-1" score="8"/>
+                <scorecard-entry entry-number="entry-115" target-id="target-1" score="10"/>
+                <scorecard-entry entry-number="entry-116" target-id="target-2" score="6"/>
+                <scorecard-entry entry-number="entry-117" target-id="target-2" score="6"/>
+                <scorecard-entry entry-number="entry-118" target-id="target-2" score="3"/>
+                <scorecard-entry entry-number="entry-119" target-id="target-2" score="9"/>
+                <scorecard-entry entry-number="entry-120" target-id="target-3" score="3"/>
+                <scorecard-entry entry-number="entry-121" target-id="target-3" score="8"/>
+                <scorecard-entry entry-number="entry-122" target-id="target-3" score="4"/>
+                <scorecard-entry entry-number="entry-123" target-id="target-3" score="10"/>
+            </scorecard>
+        </participant>
+        <participant role="player" registration-id="c-2">
+            <scorecard scorecard-id="card-12" round-name-short="F">
+                <scorecard-entry entry-number="entry-124" target-id="target-1" score="9"/>
+                <scorecard-entry entry-number="entry-125" target-id="target-1" score="7"/>
+                <scorecard-entry entry-number="entry-126" target-id="target-1" score="10"/>
+                <scorecard-entry entry-number="entry-127" target-id="target-1" score="7"/>
+                <scorecard-entry entry-number="entry-128" target-id="target-2" score="33"/>
+                <scorecard-entry entry-number="entry-129" target-id="target-2" score="9"/>
+                <scorecard-entry entry-number="entry-130" target-id="target-2" score="10"/>
+                <scorecard-entry entry-number="entry-131" target-id="target-2" score="9"/>
+                <scorecard-entry entry-number="entry-132" target-id="target-3" score="8"/>
+                <scorecard-entry entry-number="entry-133" target-id="target-3" score="4"/>
+                <scorecard-entry entry-number="entry-134" target-id="target-3" score="7"/>
+                <scorecard-entry entry-number="entry-135" target-id="target-3" score="10"/>
+            </scorecard>
+        </participant>
+    </group>
+
+    <!-- group has only played 2 of 3 targets -->
+    <group group-id="group-2" date="2020-05-23">
+        <participant role="captain" registration-id="c-6">
+            <scorecard scorecard-id="card-13" round-name-short="A">
+                <scorecard-entry entry-number="entry-136" target-id="target-1" score="9"/>
+                <scorecard-entry entry-number="entry-137" target-id="target-1" score="7"/>
+                <scorecard-entry entry-number="entry-138" target-id="target-1" score="9"/>
+                <scorecard-entry entry-number="entry-139" target-id="target-1" score="10"/>
+                <scorecard-entry entry-number="entry-140" target-id="target-2" score="4"/>
+                <scorecard-entry entry-number="entry-141" target-id="target-2" score="7"/>
+                <scorecard-entry entry-number="entry-142" target-id="target-2" score="3"/>
+                <scorecard-entry entry-number="entry-143" target-id="target-2" score="6"/>
+            </scorecard>
+        </participant>
+        <participant role="scorer" registration-id="c-7">
+            <scorecard scorecard-id="card-14" round-name-short="A">
+                <scorecard-entry entry-number="entry-144" target-id="target-1" score="8"/>
+                <scorecard-entry entry-number="entry-145" target-id="target-1" score="4"/>
+                <scorecard-entry entry-number="entry-146" target-id="target-1" score="6"/>
+                <scorecard-entry entry-number="entry-147" target-id="target-1" score="4"/>
+                <scorecard-entry entry-number="entry-148" target-id="target-2" score="9"/>
+                <scorecard-entry entry-number="entry-149" target-id="target-2" score="3"/>
+                <scorecard-entry entry-number="entry-150" target-id="target-2" score="7"/>
+                <scorecard-entry entry-number="entry-151" target-id="target-2" score="9"/>
+            </scorecard>
+        </participant>
+    </group>
+</wfac>

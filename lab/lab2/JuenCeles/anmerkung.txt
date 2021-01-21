@@ -1,0 +1,3 @@
+Ich wollte noch weitere links hinzufügen, jedoch funktionieren diese nicht wie z.b bei Mitarbeiter details ersichtlich,
+obwohl die verlinkung die gleiche wäre, deshalb weggelassen außer bei mitarbeiter um den gedanken immerhin aufzuzeigen wie es 
+aussehen hätte können.

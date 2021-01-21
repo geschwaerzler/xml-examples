@@ -1,0 +1,21 @@
+body { font-family: Arial;
+		font-size: 12pt;
+		text-align: center;
+		background-color: #bdfbf1;
+}
+
+h1 {
+	color: red;
+	font-size: 16pt;
+	text-align: center;
+}
+h2 {
+	color: #0000ff;
+	font-size: 14pt;
+	text-align: center; 
+}
+
+p {
+	margin-bottom: 12pt;
+}
+

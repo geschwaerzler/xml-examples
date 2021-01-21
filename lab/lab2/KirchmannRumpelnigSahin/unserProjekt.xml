@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE collection SYSTEM "unserProjekt.dtd">
+<?xml-stylesheet type="text/xsl" href="unserProjekt2html.xsl"?>
+
+<Aufbau>
+
+	<Team id="team-1" leader="member-3">
+		<Team_Member id="member-1" fname="Zikrihan" middle_name=""
+			lname="Sahin" />
+		<Team_Member id="member-2" fname="Justin"
+			middle_name="Jeremias" lname="Kirchmann" />
+		<Team_Member id="member-3" fname="Michael"
+			middle_name="Adrian" lname="Rumpelnig" />
+		<builds station_id="station-1" />
+		<builds station_id="station-2" />
+	</Team>
+
+	<Team id="team-2" leader="member-3">
+		<Team_Member lname="Öztürk" fname="Mert" id="member-4" />
+		<Team_Member lname="Hartmann" fname="Bünjamin"
+			id="member-5" />
+		<builds station_id="station-3" />
+		<builds station_id="station-4" />
+		<builds station_id="station-5" />
+		<builds station_id="station-6" />
+	</Team>
+
+	<Team id="team-3" leader="member-3">
+		<Team_Member lname="Ermis" fname="Oguzhan" id="member-6" />
+		<Team_Member lname="Kowalski" fname="Dominik"
+			id="member-7" />
+		<builds station_id="station-7" />
+	</Team>
+
+	<Station id="station-1" position_ns="90°" position_we="180°">
+		<position_at target_id="target-1" />
+	</Station>
+
+	<Station id="station-2" position_ns="10°" position_we="20°">
+		<position_at target_id="target-2" />
+	</Station>
+
+	<Station id="station-3" position_ns="15°" position_we="80°">
+		<position_at target_id="target-3" />
+	</Station>
+
+	<Station id="station-4" position_ns="69°" position_we="420°">
+		<position_at target_id="target-4" />
+	</Station>
+
+	<Station id="station-5" position_ns="33°" position_we="98°">
+		<position_at target_id="target-5" />
+	</Station>
+
+	<Station id="station-6" position_ns="1°" position_we="2°">
+		<position_at target_id="target-6" />
+	</Station>
+
+	<Station id="station-7" position_ns="1000°" position_we="1000°">
+		<position_at target_id="target-7" />
+	</Station>
+
+	<Round id="round-1" day="01.01.2021">
+
+		<Standard_Unit id="unit-1" round_type="Field Round">
+
+			<Target_Type id="target-1" target_size="50cm">
+
+				<Shooting_Position id="position-1"
+					distance="50yds" division_id="division-1" color_id="color-1" />
+
+				<Shooting_Position id="position-2"
+					distance="50yds" division_id="division-2" color_id="color-2" />
+
+				<Shooting_Position id="position-3"
+					distance="20yds" division_id="division-3" color_id="color-3" />
+
+			</Target_Type>
+
+			<Target_Type id="target-2" target_size="35cm">
+
+				<Shooting_Position id="position-4"
+					distance="25yds" division_id="division-1" color_id="color-1" />
+
+				<Shooting_Position id="position-5"
+					distance="25yds" division_id="division-2" color_id="color-2" />
+
+				<Shooting_Position id="position-6"
+					distance="10yds" division_id="division-3" color_id="color-3" />
+
+			</Target_Type>
+
+		</Standard_Unit>
+
+	</Round>
+
+	<Round id="round-2" day="02.01.2021">
+
+		<Standard_Unit id="unit-2" round_type="Hunter Round">
+
+			<Target_Type id="target-3" target_size="65cm">
+
+				<Shooting_Position id="position-7"
+					distance="70yds" division_id="division-1" color_id="color-1" />
+
+				<Shooting_Position id="position-8"
+					distance="70yds" division_id="division-2" color_id="color-2" />
+
+				<Shooting_Position id="position-9"
+					distance="35yds" division_id="division-3" color_id="color-3" />
+
+			</Target_Type>
+
+			<Target_Type id="target-4" target_size="35cm">
+
+				<Shooting_Position id="position-10"
+					distance="25yds" division_id="division-1" color_id="color-1" />
+
+				<Shooting_Position id="position-11"
+					distance="25yds" division_id="division-2" color_id="color-2" />
+
+				<Shooting_Position id="position-12"
+					distance="10yds" division_id="division-3" color_id="color-3" />
+
+			</Target_Type>
+
+		</Standard_Unit>
+
+	</Round>
+
+	<Round id="round-3" day="03.01.2021">
+
+		<Standard_Unit id="unit-3" round_type="Animal Round">
+
+			<Target_Type id="target-5" target_size="Group Face 1">
+
+				<Shooting_Position id="position-13"
+					distance="50yds" division_id="division-1" color_id="color-4" />
+
+				<Shooting_Position id="position-14"
+					distance="40yds" division_id="division-2" color_id="color-2" />
+
+				<Shooting_Position id="position-15"
+					distance="30yds" division_id="division-3" color_id="color-3" />
+
+			</Target_Type>
+
+			<Target_Type id="target-6" target_size="Group Face 2">
+
+				<Shooting_Position id="position-16"
+					distance="50yds" division_id="division-1" color_id="color-4" />
+
+				<Shooting_Position id="position-17"
+					distance="50yds" division_id="division-2" color_id="color-2" />
+
+				<Shooting_Position id="position-18"
+					distance="25yds" division_id="division-3" color_id="color-3" />
+
+			</Target_Type>
+
+		</Standard_Unit>
+
+	</Round>
+
+	<Round id="round-4" day="04.01.2021">
+
+		<Standard_Unit id="unit-4" round_type="Animal Round">
+
+			<Target_Type id="target-7" target_size="Group Face 3">
+
+				<Shooting_Position id="position-19"
+					distance="100yds" division_id="division-1" color_id="color-4" />
+
+				<Shooting_Position id="position-20"
+					distance="100yds" division_id="division-2" color_id="color-2" />
+
+				<Shooting_Position id="position-21"
+					distance="100yds" division_id="division-3" color_id="color-3" />
+
+			</Target_Type>
+
+		</Standard_Unit>
+
+	</Round>
+
+	<Division id="division-1" division_name="Junior" />
+	<Division id="division-2"
+		division_name="Senior, Adult, Veteran, Joung Adult" />
+	<Division id="division-3" division_name="Cub" />
+
+	<Marker_Color id="color-1" coloring="blue" />
+	<Marker_Color id="color-2" coloring="white" />
+	<Marker_Color id="color-3" coloring="black" />
+	<Marker_Color coloring="red" id="color-4" />
+</Aufbau>

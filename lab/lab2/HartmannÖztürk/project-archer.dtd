@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!ELEMENT project-archer (description, person*, round_type*, target_size*, team*, station*, round*)>
+
+<!ELEMENT description (#PCDATA)>
+
+<!ELEMENT person EMPTY>
+<!ATTLIST person
+	id				ID		#REQUIRED
+	fname			CDATA	#REQUIRED
+	middle_name		CDATA	#IMPLIED
+	lname			CDATA	#REQUIRED
+>
+
+<!ELEMENT team_member EMPTY>
+<!ATTLIST team_member
+	id				IDREF #REQUIRED
+>
+
+<!ELEMENT team (team_member+)>
+<!ATTLIST team
+	id				ID		#REQUIRED
+	leader_id		IDREF	#REQUIRED
+>
+
+<!ELEMENT round_type EMPTY>
+<!ATTLIST round_type
+	id				ID		#REQUIRED
+>
+
+<!ELEMENT target_size EMPTY>
+<!ATTLIST target_size
+	id				ID		#REQUIRED
+>
+
+<!ELEMENT responsible_for EMPTY>
+<!ATTLIST responsible_for
+	id				IDREF	#REQUIRED
+>
+
+<!ELEMENT position_at EMPTY>
+<!ATTLIST position_at
+	id				IDREF	#REQUIRED
+	round_type		IDREF	#REQUIRED
+>
+
+<!ELEMENT station (responsible_for*, position_at*)>
+<!ATTLIST station
+	id				ID		#REQUIRED
+	position_ns		CDATA	#REQUIRED
+	position_we		CDATA	#REQUIRED
+>
+
+<!ELEMENT shooting_position EMPTY>
+<!ATTLIST shooting_position
+	id				ID		#REQUIRED
+	distance		CDATA	#REQUIRED
+>
+
+<!ELEMENT division (shooting_position*)>
+<!ATTLIST division
+	division_name	CDATA	#REQUIRED
+	coloring		(white|blue|black|red|yellow|blue-white|blue-red|blue-yellow) #REQUIRED
+>
+
+<!ELEMENT target (division+)>
+<!ATTLIST target
+	id				ID		#REQUIRED
+>
+
+<!ELEMENT target_type (target*)>
+<!ATTLIST target_type
+	id				IDREF	#REQUIRED
+>
+
+<!ELEMENT standard_unit (target_type+)>
+<!ATTLIST standard_unit
+	id				IDREF	#REQUIRED
+>
+
+<!ELEMENT round (standard_unit*)>
+<!ATTLIST round
+	id				ID		#REQUIRED
+	day				CDATA	#REQUIRED
+>

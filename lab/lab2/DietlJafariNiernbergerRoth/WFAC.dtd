@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT wfac (group+,competitor+,round+)>
+
+<!ELEMENT group (groupmember+)>
+<!ATTLIST group
+		id ID #REQUIRED
+>
+
+<!ELEMENT competitor (scorecard*)>
+<!ATTLIST competitor
+		registration_id ID #REQUIRED
+		fname CDATA #REQUIRED
+		lname CDATA #REQUIRED
+>
+
+<!ELEMENT round (parcour+)>
+<!ATTLIST round
+		id ID #REQUIRED
+		datum CDATA #REQUIRED
+		style (hunter|animel) #REQUIRED
+>
+
+<!ELEMENT groupmember EMPTY>
+<!ATTLIST groupmember
+		registration_id IDREF #REQUIRED
+		role CDATA #REQUIRED
+>
+
+<!ELEMENT scorecard (scorecard_entry*)>
+<!ATTLIST scorecard
+		scorecard_id ID #REQUIRED
+>
+		
+<!ELEMENT scorecard_entry EMPTY>
+<!ATTLIST scorecard_entry
+		entry_number ID #REQUIRED
+		score CDATA #REQUIRED
+		target-id IDREF #REQUIRED
+>
+
+<!ELEMENT parcour (target+)>
+<!ATTLIST parcour
+		id ID #REQUIRED
+>
+
+<!ELEMENT target EMPTY>
+<!ATTLIST target
+		id ID #REQUIRED
+		size CDATA #REQUIRED
+>

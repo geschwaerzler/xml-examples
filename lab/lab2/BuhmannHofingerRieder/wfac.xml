@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wfac SYSTEM "wfac.dtd">
+<!-- Buhmann Tobias, Hofinger Victoria, Rieder David -->
+
+<tournament>
+
+	<person id="p1" shootingstyle="BB"  lname="Black" fname="Regulus" country="United Kingdom" gender="M"/>
+	<person id="p2" shootingstyle="FU" lname="Lovegood" fname="Xenophilius" country="Germany" gender="M"/>
+	<person id="p3" shootingstyle="HB"  lname="Tonks" fname="Nymphadora " country="Estland" gender="F"/>
+	<person id="p4" shootingstyle="HB"  lname="Sinistra " fname="Aurora " country="Romania" gender="F"/>
+    <person id="p5" shootingstyle="BB"  lname="Trelawney" fname="Sibyll" country="Belgium" gender="F"/>
+    <person id="p6" shootingstyle="FU" lname="Slughorn" fname="Horace" country="French" gender="M"/>
+    <person id="p7" shootingstyle="HB"  lname="Shacklebolt" fname="Kingsley" country="Hungary" gender="M"/>
+    <person id="p8" shootingstyle="HB"  lname="Lestrange" fname="Bellatrix" country="Netherlands" gender="F"/>
+
+
+    <tournamentday date="20.12.2020" roundname="Field_Round">
+    <group id="g1">
+        <competitor person_id="p1">
+            <scorecard totalscore="105">
+
+                <station>
+                    <Scorentry points="15" />
+                    <Scorentry points="10" />
+                    <Scorentry points="20" />
+                    <Scorentry points="0" />
+                </station>
+
+                <station>
+                    <Scorentry points="25" />
+                    <Scorentry points="5" />
+                    <Scorentry points="20" />
+                    <Scorentry points="10" />
+                </station>
+
+            </scorecard>
+        </competitor>
+
+        <competitor person_id="p2">
+            <scorecard totalscore="120">
+
+                <station>
+                    <Scorentry points="10" />
+                    <Scorentry points="20" />
+                    <Scorentry points="15" />
+                    <Scorentry points="5" />
+                </station>
+                
+                <station>
+                    <Scorentry points="10" />
+                    <Scorentry points="15" />
+                    <Scorentry points="20" />
+                    <Scorentry points="25" />
+                </station>
+
+            </scorecard>
+        </competitor>
+
+        <competitor person_id="p3">
+            <scorecard totalscore="70">
+
+                <station>
+                    <Scorentry points="5" />
+                    <Scorentry points="0" />
+                    <Scorentry points="15" />
+                    <Scorentry points="10" />
+                </station>
+                
+                <station>
+                    <Scorentry points="15" />
+                    <Scorentry points="5" />
+                    <Scorentry points="10" />
+                    <Scorentry points="10" />
+                </station>
+
+            </scorecard>
+        </competitor>
+
+    </group>
+
+    <group id="g2">
+        <competitor person_id="p5">
+            <scorecard totalscore="100">
+
+                <station>
+                    <Scorentry points="25" />
+                    <Scorentry points="10" />
+                    <Scorentry points="15" />
+                    <Scorentry points="10" />
+                </station>
+
+                <station>
+                    <Scorentry points="0" />
+                    <Scorentry points="20" />
+                    <Scorentry points="5" />
+                    <Scorentry points="15" />
+                </station>
+
+            </scorecard>
+        </competitor>
+
+        <competitor person_id="p6">
+            <scorecard totalscore="100">
+                <station>
+                    <Scorentry points="25" />
+                    <Scorentry points="10" />
+                    <Scorentry points="15" />
+                    <Scorentry points="0" />
+                </station>
+                
+                <station>
+                    <Scorentry points="10" />
+                    <Scorentry points="0" />
+                    <Scorentry points="30" />
+                    <Scorentry points="10" />
+                </station>
+
+            </scorecard>
+        </competitor>
+
+        <competitor person_id="p7">
+            <scorecard totalscore="135">
+
+                <station>
+                    <Scorentry points="20" />
+                    <Scorentry points="10" />
+                    <Scorentry points="15" />
+                    <Scorentry points="10" />
+                </station>
+                
+                <station>
+                    <Scorentry points="10" />
+                    <Scorentry points="20" />
+                    <Scorentry points="20" />
+                    <Scorentry points="30" />
+                </station>
+
+            </scorecard>
+        </competitor>
+
+    </group>
+	</tournamentday>
+    
+    <tournamentday date="21.12.2020" roundname="Field_Round">
+        <group id="g3">
+            <competitor person_id="p1">
+                <scorecard totalscore="95">
+                    
+                    <station>
+                        <Scorentry points="20" />
+                        <Scorentry points="10" />
+                        <Scorentry points="5" />
+                        <Scorentry points="0" />
+                    </station>
+                    
+                    <station>
+                        <Scorentry points="25" />
+                        <Scorentry points="10" />
+                        <Scorentry points="20" />
+                        <Scorentry points="5" />
+                    </station>
+                    
+                </scorecard>
+            </competitor>
+            
+            <competitor person_id="p2">
+                <scorecard totalscore="95">
+                    
+                    <station>
+                        <Scorentry points="10" />
+                        <Scorentry points="20" />
+                        <Scorentry points="15" />
+                        <Scorentry points="0" />
+                    </station>
+                    
+                    <station>
+                        <Scorentry points="10" />
+                        <Scorentry points="15" />
+                        <Scorentry points="20" />
+                        <Scorentry points="5" />
+                    </station>
+                    
+                </scorecard>
+            </competitor>
+            
+            <competitor person_id="p3">
+                <scorecard totalscore="90">
+                    
+                    <station>
+                        <Scorentry points="5" />
+                        <Scorentry points="15" />
+                        <Scorentry points="30" />
+                        <Scorentry points="10" />
+                    </station>
+                    
+                    <station>
+                        <Scorentry points="10" />
+                        <Scorentry points="5" />
+                        <Scorentry points="0" />
+                        <Scorentry points="15" />
+                    </station>
+                    
+                </scorecard>
+            </competitor>
+            
+        </group>
+        
+        <group id="g4">
+            <competitor person_id="p4">
+                <scorecard totalscore="125">
+                    
+                    <station>
+                        <Scorentry points="30" />
+                        <Scorentry points="20" />
+                        <Scorentry points="15" />
+                        <Scorentry points="10" />
+                    </station>
+                    
+                    <station>
+                        <Scorentry points="10" />
+                        <Scorentry points="20" />
+                        <Scorentry points="5" />
+                        <Scorentry points="15" />
+                    </station>
+                    
+                </scorecard>
+            </competitor>
+            
+            <competitor person_id="p6">
+                <scorecard totalscore="120">
+                    <station>
+                        <Scorentry points="20" />
+                        <Scorentry points="15" />
+                        <Scorentry points="15" />
+                        <Scorentry points="0" />
+                    </station>
+                    
+                    <station>
+                        <Scorentry points="5" />
+                        <Scorentry points="20" />
+                        <Scorentry points="20" />
+                        <Scorentry points="25" />
+                    </station>
+                    
+                </scorecard>
+            </competitor>
+            
+            <competitor person_id="p7">
+                <scorecard totalscore="125">
+                    
+                    <station>
+                        <Scorentry points="10" />
+                        <Scorentry points="15" />
+                        <Scorentry points="15" />
+                        <Scorentry points="25" />
+                    </station>
+                    
+                    <station>
+                        <Scorentry points="10" />
+                        <Scorentry points="5" />
+                        <Scorentry points="15" />
+                        <Scorentry points="30" />
+                    </station>
+                    
+                </scorecard>
+            </competitor>
+            
+        </group>
+    </tournamentday>
+    
+</tournament>

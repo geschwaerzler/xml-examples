@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!ELEMENT bogenschiessen (turniere, nimmtteil, turnier_teilnehmer, parcours, punktestände, stiele, altersklassen, schieß_stiele, ligen)>
+<!ELEMENT bogenschiessen (altersklassen,
+							schieß_stile,
+							ligen,
+							stile,
+							turnier_teilnehmer,
+							pacours,
+							turniere,
+							nimmtteil,
+							punktestände)>
+							
 
-<!ELEMENT parcours (parkur)*>
-<!ELEMENT parkur (scheiben)*>
-<!ATTLIST parkur
-	parkur_id	ID	#REQUIRED
-	parkur_name CDATA #REQUIRED
->
-<!ELEMENT scheiben EMPTY>
-<!ATTLIST scheiben
-	scheiben_id ID #REQUIRED
->
+
 
 <!ELEMENT altersklassen (altersklasse)*>
 <!ELEMENT altersklasse (#PCDATA)>
@@ -20,9 +20,9 @@
 >
 
 
-<!ELEMENT schieß_stiele (schieß_stiel)*>
-<!ELEMENT schieß_stiel (#PCDATA)>
-<!ATTLIST schieß_stiel
+<!ELEMENT schieß_stile (schieß_stil)*>
+<!ELEMENT schieß_stil (#PCDATA)>
+<!ATTLIST schieß_stil
 	schieß_stiel_id ID #REQUIRED
 >
 
@@ -32,15 +32,25 @@
 	liga_id ID #REQUIRED
 >
 	
-<!ELEMENT stiele (stiel)*>
-<!ELEMENT stiel EMPTY>
-<!ATTLIST stiel
+<!ELEMENT stile (stil)*>
+<!ELEMENT stil EMPTY>
+<!ATTLIST stil
 	stiel_id ID #REQUIRED
-	altersklassen_id	IDREF  #REQUIRED
+	altersklasse_id	IDREF  #REQUIRED
 	schieß_stiel_id	IDREF  #REQUIRED
 	liga_id	IDREF  #REQUIRED
 >
 
+<!ELEMENT pacours (parkur)*>
+<!ELEMENT parkur (scheiben)*>
+<!ATTLIST parkur
+	parkur_id	ID	#REQUIRED
+	parkur_name CDATA #REQUIRED
+>
+<!ELEMENT scheiben EMPTY>
+<!ATTLIST scheiben
+	scheiben_id ID #REQUIRED
+>
 
 <!ELEMENT turnier_teilnehmer (teilnehmer)*>
 <!ELEMENT teilnehmer (teilnehmer_Vn, teilnehmer_Nn)>
@@ -57,20 +67,22 @@
 <!ELEMENT turnier (Runde)*>
 <!ATTLIST turnier 
 	lfd_nummer	ID	#REQUIRED
+	jahr CDATA	#REQUIRED
+	land CDATA	#REQUIRED
 >
 <!ELEMENT Runde (Gruppe)*>
 <!ATTLIST Runde
 	parkur_id	IDREF	#REQUIRED
 	
 >	
-<!ELEMENT Gruppe (Schütze)*>
+<!ELEMENT Gruppe (schütze)*>
 <!ATTLIST Gruppe
 	gruppen_id 	ID	#REQUIRED
 >	
-<!ELEMENT Schütze EMPTY>
-<!ATTLIST Schütze
-	person_id	IDREF		#REQUIRED
-	rolle		CDATA	#REQUIRED
+<!ELEMENT schütze EMPTY>
+<!ATTLIST schütze
+	person_id	IDREF	#REQUIRED
+	rolle		CDATA	#IMPLIED
 >
 
 
@@ -88,7 +100,7 @@
 	turnier_id	IDREF #REQUIRED
 >
 
-<!ELEMENT punktestand (Runde)*>
+<!ELEMENT punktestand (Runde_punkte)*>
 <!ATTLIST punktestand
 	person_id	IDREF #REQUIRED
 >

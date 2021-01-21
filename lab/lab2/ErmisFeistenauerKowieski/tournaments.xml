@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tournaments SYSTEM "tournaments.dtd">
+
+<tournaments>
+    <tournament tournament_id="tournament_1" name ="RobinHoodTurnier">
+
+        <location zip_code="6890" iso_code="AT" street="Robin Hood Street" street_no="1"/>
+
+        <archer archer_id="archer_1" person_id="person_1" archerclass_name="C_BB_Veteran">
+            <scorecard scorecard_id = "scorecard_1" round_id = "round_1">
+                <point target_points="20" target_no="target_1"/>
+                <point target_points="20" target_no="target_2"/>
+                <point target_points="16" target_no="target_3"/>
+                <point target_points="18" target_no="target_4"/>
+                <point target_points="20" target_no="target_5"/>
+                <point target_points="10" target_no="target_6"/>
+                <point target_points="10" target_no="target_7"/>
+                <point target_points="10" target_no="target_8"/>
+                <point target_points="20" target_no="target_9"/>
+                <point target_points="18" target_no="target_10"/>
+                <point target_points="18" target_no="target_11"/>
+                <point target_points="18" target_no="target_12"/>
+                <point target_points="20" target_no="target_13"/>
+                <point target_points="20" target_no="target_14"/>
+            </scorecard>
+            <member_of group_id="group_1"/>
+        </archer>
+
+        <archer archer_id="archer_2" person_id="person_3" archerclass_name="C_BB_Veteran">
+            <scorecard scorecard_id = "scorecard_2" round_id = "round_1">
+                <point target_points="10" target_no="target_1"/>
+                <point target_points="10" target_no="target_2"/>
+                <point target_points="16" target_no="target_3"/>
+                <point target_points="16" target_no="target_4"/>
+                <point target_points="10" target_no="target_5"/>
+                <point target_points="10" target_no="target_6"/>
+                <point target_points="10" target_no="target_7"/>
+                <point target_points="10" target_no="target_8"/>
+                <point target_points="20" target_no="target_9"/>
+                <point target_points="16" target_no="target_10"/>
+                <point target_points="16" target_no="target_11"/>
+                <point target_points="16" target_no="target_12"/>
+                <point target_points="20" target_no="target_13"/>
+                <point target_points="20" target_no="target_14"/>
+            </scorecard>
+			<member_of group_id="group_1"/>
+        </archer>
+
+        <archer archer_id="archer_3" person_id="person_4" archerclass_name="C_BB_Veteran">
+            <scorecard scorecard_id = "scorecard_3" round_id = "round_1">
+                <point target_points="16" target_no="target_1"/>
+                <point target_points="16" target_no="target_2"/>
+                <point target_points="16" target_no="target_3"/>
+                <point target_points="18" target_no="target_4"/>
+                <point target_points="18" target_no="target_5"/>
+                <point target_points="18" target_no="target_6"/>
+                <point target_points="20" target_no="target_7"/>
+                <point target_points="20" target_no="target_8"/>
+                <point target_points="16" target_no="target_9"/>
+                <point target_points="16" target_no="target_10"/>
+                <point target_points="16" target_no="target_11"/>
+                <point target_points="20" target_no="target_12"/>
+                <point target_points="20" target_no="target_13"/>
+                <point target_points="20" target_no="target_14"/>
+            </scorecard>
+			<member_of group_id="group_1"/>
+        </archer>
+
+        <archer archer_id="archer_4" person_id="person_5" archerclass_name="B_FU_Junior">
+            <scorecard scorecard_id = "scorecard_4" round_id = "round_1">
+                <point target_points="5" target_no="target_1"/>
+                <point target_points="15" target_no="target_2"/>
+                <point target_points="4" target_no="target_3"/>
+                <point target_points="3" target_no="target_4"/>
+                <point target_points="15" target_no="target_5"/>
+                <point target_points="0" target_no="target_6"/>
+                <point target_points="0" target_no="target_7"/>
+                <point target_points="0" target_no="target_8"/>
+                <point target_points="8" target_no="target_9"/>
+                <point target_points="9" target_no="target_10"/>
+                <point target_points="9" target_no="target_11"/>
+                <point target_points="5" target_no="target_12"/>
+                <point target_points="4" target_no="target_13"/>
+                <point target_points="15" target_no="target_14"/>
+            </scorecard>
+			<member_of group_id="group_2"/>
+        </archer>
+
+        <archer archer_id="archer_5" person_id="person_6" archerclass_name="B_FU_Junior">
+            <scorecard scorecard_id = "scorecard_5" round_id = "round_1">
+                <point target_points="0" target_no="target_1"/>
+                <point target_points="0" target_no="target_2"/>
+                <point target_points="5" target_no="target_3"/>
+                <point target_points="5" target_no="target_4"/>
+                <point target_points="8" target_no="target_5"/>
+                <point target_points="8" target_no="target_6"/>
+                <point target_points="9" target_no="target_7"/>
+                <point target_points="9" target_no="target_8"/>
+                <point target_points="9" target_no="target_9"/>
+                <point target_points="8" target_no="target_10"/>
+                <point target_points="15" target_no="target_11"/>
+                <point target_points="15" target_no="target_12"/>
+                <point target_points="15" target_no="target_13"/>
+                <point target_points="15" target_no="target_14"/>
+            </scorecard>
+			<member_of group_id="group_2"/>
+        </archer>
+		
+		<archer archer_id="archer_6" person_id="person_11" archerclass_name="B_FU_Cub">
+            <scorecard scorecard_id = "scorecard_6" round_id = "round_2">
+                <point target_points="5" target_no="target_29"/>
+                <point target_points="15" target_no="target_30"/>
+                <point target_points="20" target_no="target_31"/>
+                <point target_points="18" target_no="target_32"/>
+                <point target_points="15" target_no="target_33"/>
+                <point target_points="20" target_no="target_34"/>
+                <point target_points="15" target_no="target_35"/>
+                <point target_points="20" target_no="target_36"/>
+                <point target_points="15" target_no="target_37"/>
+                <point target_points="15" target_no="target_38"/>
+                <point target_points="15" target_no="target_39"/>
+                <point target_points="20" target_no="target_40"/>
+                <point target_points="12" target_no="target_41"/>
+                <point target_points="20" target_no="target_42"/>
+            </scorecard>
+			<member_of group_id="group_3"/>
+        </archer>
+
+                <archer archer_id="archer_7" person_id="person_12" archerclass_name="B_FU_Cub">
+            <scorecard scorecard_id = "scorecard_7" round_id = "round_2">
+                <point target_points="20" target_no="target_29"/>
+                <point target_points="20" target_no="target_30"/>
+                <point target_points="15" target_no="target_31"/>
+                <point target_points="15" target_no="target_32"/>
+                <point target_points="18" target_no="target_33"/>
+                <point target_points="18" target_no="target_34"/>
+                <point target_points="19" target_no="target_35"/>
+                <point target_points="19" target_no="target_36"/>
+                <point target_points="19" target_no="target_37"/>
+                <point target_points="18" target_no="target_38"/>
+                <point target_points="15" target_no="target_39"/>
+                <point target_points="20" target_no="target_40"/>
+                <point target_points="20" target_no="target_41"/>
+                <point target_points="18" target_no="target_42"/>
+            </scorecard>
+			<member_of group_id="group_3"/>
+        </archer>
+		
+		<archer archer_id="archer_8" person_id="person_13" archerclass_name="B_FU_Cub">
+            <scorecard scorecard_id = "scorecard_8" round_id = "round_2">
+                <point target_points="10" target_no="target_29"/>
+                <point target_points="10" target_no="target_30"/>
+                <point target_points="15" target_no="target_31"/>
+                <point target_points="18" target_no="target_32"/>
+                <point target_points="18" target_no="target_33"/>
+                <point target_points="20" target_no="target_34"/>
+                <point target_points="20" target_no="target_35"/>
+                <point target_points="19" target_no="target_36"/>
+                <point target_points="20" target_no="target_37"/>
+                <point target_points="20" target_no="target_38"/>
+                <point target_points="15" target_no="target_39"/>
+                <point target_points="15" target_no="target_40"/>
+                <point target_points="15" target_no="target_41"/>
+                <point target_points="15" target_no="target_42"/>
+            </scorecard>
+			<member_of group_id="group_3"/>
+        </archer>
+		
+		<archer archer_id="archer_9" person_id="person_14" archerclass_name="B_FU_Junior">
+            <scorecard scorecard_id = "scorecard_9" round_id = "round_2">
+                <point target_points="5" target_no="target_29"/>
+                <point target_points="10" target_no="target_30"/>
+                <point target_points="5" target_no="target_31"/>
+                <point target_points="8" target_no="target_32"/>
+                <point target_points="8" target_no="target_33"/>
+                <point target_points="2" target_no="target_34"/>
+                <point target_points="2" target_no="target_35"/>
+                <point target_points="1" target_no="target_36"/>
+                <point target_points="2" target_no="target_37"/>
+                <point target_points="2" target_no="target_38"/>
+                <point target_points="5" target_no="target_39"/>
+                <point target_points="5" target_no="target_40"/>
+                <point target_points="5" target_no="target_41"/>
+                <point target_points="5" target_no="target_42"/>
+            </scorecard>
+			<member_of group_id="group_4"/>
+        </archer>
+		
+		<archer archer_id="archer_10" person_id="person_15" archerclass_name="B_FU_Junior">
+            <scorecard scorecard_id = "scorecard_10" round_id = "round_2">
+                <point target_points="10" target_no="target_29"/>
+                <point target_points="10" target_no="target_30"/>
+                <point target_points="15" target_no="target_31"/>
+                <point target_points="18" target_no="target_32"/>
+                <point target_points="18" target_no="target_33"/>
+                <point target_points="20" target_no="target_34"/>
+                <point target_points="20" target_no="target_35"/>
+                <point target_points="19" target_no="target_36"/>
+                <point target_points="20" target_no="target_37"/>
+                <point target_points="20" target_no="target_38"/>
+                <point target_points="15" target_no="target_39"/>
+                <point target_points="15" target_no="target_40"/>
+                <point target_points="15" target_no="target_41"/>
+                <point target_points="15" target_no="target_42"/>
+            </scorecard>
+			<member_of group_id="group_4"/>
+        </archer>
+		
+		<round round_id="round_1" round_name="Field Round">
+            <played_on parcour_id="parcour_1"/>
+            <group group_id="group_1">
+                <has_member archer_id="archer_1"/>
+                <has_member archer_id="archer_2"/>
+                <has_member archer_id="archer_3"/>
+            </group>
+			<group group_id="group_2">
+                <accompanied_by person_id="person_7"/>
+                <has_member archer_id="archer_4"/>
+                <has_member archer_id="archer_5"/>
+            </group>
+        </round>
+
+        <round round_id="round_2" round_name="Field Round">
+            <played_on parcour_id="parcour_3"/>
+            <group group_id="group_3">
+                <has_member archer_id="archer_6"/>
+                <has_member archer_id="archer_7"/>
+                <has_member archer_id="archer_8"/>
+            </group>
+			<group group_id="group_4">
+				<accompanied_by person_id="person_7"/>
+                <has_member archer_id="archer_9"/>
+                <has_member archer_id="archer_10"/>
+            </group>
+        </round>
+
+        <employee person_id="person_2" function="Technical Controller"/>
+        <employee person_id="person_7" function="Child Care"/>
+        <employee person_id="person_8" function="Field Captain"/>
+        <employee person_id="person_9" function="Range Marshal"/>
+        <employee person_id="person_10" function="Tournament Manager"/>
+    </tournament>
+
+    <parcour parcour_no="parcour_1" parcour_name="Robin Hood Parcour">
+        <target target_no="target_1"/>
+        <target target_no="target_2"/>
+        <target target_no="target_3"/>
+        <target target_no="target_4"/>
+        <target target_no="target_5"/>
+        <target target_no="target_6"/>
+        <target target_no="target_7"/>
+        <target target_no="target_8"/>
+        <target target_no="target_9"/>
+        <target target_no="target_10"/>
+        <target target_no="target_11"/>
+        <target target_no="target_12"/>
+        <target target_no="target_13"/>
+        <target target_no="target_14"/>
+    </parcour>
+
+    <parcour parcour_no="parcour_2" parcour_name="Robin Hood Jr. Parcour">
+        <target target_no="target_15"/>
+        <target target_no="target_16"/>
+        <target target_no="target_17"/>
+        <target target_no="target_18"/>
+        <target target_no="target_19"/>
+        <target target_no="target_20"/>
+        <target target_no="target_21"/>
+        <target target_no="target_22"/>
+        <target target_no="target_23"/>
+        <target target_no="target_24"/>
+        <target target_no="target_25"/>
+        <target target_no="target_26"/>
+        <target target_no="target_27"/>
+        <target target_no="target_28"/>
+    </parcour>
+	
+	<parcour parcour_no="parcour_3" parcour_name="Robin Hood FH Parcour">
+        <target target_no="target_29"/>
+        <target target_no="target_30"/>
+        <target target_no="target_31"/>
+        <target target_no="target_32"/>
+        <target target_no="target_33"/>
+        <target target_no="target_34"/>
+        <target target_no="target_35"/>
+        <target target_no="target_36"/>
+        <target target_no="target_37"/>
+        <target target_no="target_38"/>
+        <target target_no="target_39"/>
+        <target target_no="target_40"/>
+        <target target_no="target_41"/>
+        <target target_no="target_42"/>
+    </parcour>
+
+    <archerclass archerclass_name="C_BB_Veteran" division_name="Veteran" style_name="BB" class_name="C"/>
+
+    <archerclass archerclass_name="B_FU_Junior" division_name="Junior" style_name="FU" class_name="B"/>
+	
+	<archerclass archerclass_name="B_FU_Cub" division_name="Cub" style_name="FU" class_name="B"/>
+
+    <person fname="Oguzhan" lname="Ermis" person_id="person_1"/>
+    <person fname="Dominik" lname="Kowieski" person_id="person_2"/>
+    <person fname="Jakob" lname="Feistenauer" person_id="person_3"/>
+    <person fname="Justin" lname="Kirchmann" person_id="person_4"/>
+    <person fname="Zikrihan" lname="Sahin" person_id="person_5"/>
+    <person fname="Justin" lname="Ströhle" person_id="person_6"/>
+    <person fname="Nico" lname="Tomasini" person_id="person_7"/>
+    <person fname="Fabian" lname="Egartner" person_id="person_8"/>
+    <person fname="Vanessa" lname="Graf" person_id="person_9"/>
+    <person fname="Maria" lname="Magdalena" person_id="person_10"/>
+    <person fname="Sebastian" lname="Kurz" person_id="person_11"/>
+    <person fname="Max" lname="Muster" person_id="person_12"/>
+    <person fname="Bertina" lname="Strols" person_id="person_13"/>
+    <person fname="Alexander" lname="Pizza" person_id="person_14"/>
+    <person fname="Alexander" lname="Sorloth" person_id="person_15"/>
+
+    <style style_name="BB"/>
+    <style style_name="FU"/>
+    <style style_name="FS"/>
+    <style style_name="BH"/>
+    <style style_name="BU"/>
+    <style style_name="BL"/>
+    <style style_name="LB"/>
+    <style style_name="HB"/>
+    <style style_name="TR"/>
+    <style style_name="FCL"/>
+    <style style_name="FRL"/>
+
+    <division division_name="Cub"/>
+    <division division_name="Junior"/>
+    <division division_name="YoungAdult"/>
+    <division division_name="Adult"/>
+    <division division_name="Veteran"/>
+    <division division_name="Senior"/>
+
+    <class class_name="A"/>
+    <class class_name="B"/>
+    <class class_name="C"/>
+
+</tournaments>
