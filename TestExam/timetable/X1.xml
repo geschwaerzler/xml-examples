@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE timetable SYSTEM "X1.dtd">
-<?xml-stylesheet type="text/xsl" href="X3.xsl"?>
+<!DOCTYPE timetable SYSTEM "X1.solution.dtd">
+<?xml-stylesheet type="text/xsl" href="X3.solution.xsl"?>
 <timetable>
 
   <airport id="zrh">
