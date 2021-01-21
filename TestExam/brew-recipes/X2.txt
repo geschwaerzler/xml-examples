@@ -3,6 +3,7 @@ Lösung X2 XPath für Bitterhopfen
 
 Lösung X2 XPath für Malzeinsatz
 count(//recipe[1]//grain)
+count(//recipe[position()=1]//grain)
 //recipe[1]/ingredients/count(grain)
 
 Lösung X2 Ergebnis des XPath Ausdruckes id(//recipe/@style-id)/@name

@@ -1,5 +1,6 @@
 X2 XPath für AUA Flüge
-/timetable/flight[@operator-id='OS']/@nr
+* /timetable/flight[@operator-id='OS']/@nr
+* //flight[@operator-id='OS']/@nr
 
 X2 XPath für Anzahl Flüge von Wien
 Hier zwei mögliche Lösungen:

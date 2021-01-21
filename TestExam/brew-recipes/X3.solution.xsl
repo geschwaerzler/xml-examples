@@ -61,7 +61,7 @@
 
 		<h3>Steps</h3>
 		<p>
-			<xsl:for-each select="step">
+			<xsl:for-each select="step" xml:space="preserve">
 				<xsl:value-of select="."/>
 			</xsl:for-each>
 		</p>
