@@ -45,7 +45,7 @@
 				<a name="KurzuebersichtAufgaben"><h1>Kurzübersicht Aufgaben</h1></a>
 				<br/>
 				<xsl:for-each select="Arbeitsuebersicht/Aufgabe">
-						<xsl:value-of select="@aufgabe_bezeichnung" />
+						<a href="#{generate-id()}"><xsl:value-of select="@aufgabe_bezeichnung" /></a>
 					<br /><br/>
 				</xsl:for-each>
 						<p></p>
@@ -53,7 +53,7 @@
 				<a name="Uebersicht"><h1>Übersicht:<br/></h1></a>
 				
 				<xsl:for-each select="Arbeitsuebersicht/Aufgabe">
-						<h2><xsl:value-of select="@aufgabe_bezeichnung"/>:</h2><br/>
+						<h2 id="{generate-id()}"><xsl:value-of select="@aufgabe_bezeichnung"/>:</h2><br/>
 						<xsl:value-of select="Termin/@datum"/>, <xsl:value-of select="Termin/@beginn_uhrzeit"/> bis <xsl:value-of select="Termin/@ende_uhrzeit"/>:<br/>
 						<xsl:sort select="Termin/@datum" order="ascending"/>
 						
