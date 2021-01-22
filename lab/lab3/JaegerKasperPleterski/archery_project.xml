@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tournament SYSTEM "archery_project.dtd">
+
+<tournament id = "T01" host_country = "Austria" host_city_code = "6900" event_year = "2022"> 
+
+    <group id = "G01" round_id = "R01" group_name = "junior">
+        <participant 
+            id = "X1" 
+            person_id = "P01" 
+            role = "leader"/>
+        <participant 
+            id = "X2" 
+            person_id = "P02" 
+            role = "secretary"/>
+        <participant 
+            id = "X3" 
+            person_id = "P03" 
+            role = "player"/>          
+        <round 
+            id = "R01" 
+            round_type_name = "field" 
+            round_number = "1" 
+            place = "station_5" 
+            start_time = "08:00:00">
+            <results participant_id = "X1">
+            	<score points = "20"/>
+            	<score points = "10"/>
+            	<score points = "9"/>
+           	</results>
+            <results participant_id = "X2">
+            	<score points = "7"/>
+            	<score points = "10"/>
+            	<score points = "21"/>
+           	</results>
+            <results participant_id = "X3">
+            	<score points = "23"/>
+            	<score points = "1"/>
+            	<score points = "8"/>
+           	</results>
+        </round>
+    </group>
+    
+    <group id = "G02" round_id = "R02" group_name = "senior">
+        <participant 
+            id = "X4" 
+            person_id = "P04" 
+            role = "leader" 
+            />
+        <participant 
+            id = "X5" 
+            person_id = "P05" 
+            role = "secretary" 
+            />
+        <participant 
+            id = "X6" 
+            person_id = "P06" 
+            role = "player" 
+            />
+        <participant 
+            id = "X7" 
+            person_id = "P07" 
+            role = "player" 
+            />
+         <participant 
+            id = "X8" 
+            person_id = "P08" 
+            role = "player" 
+            />
+        <round 
+            id = "R02" 
+            round_type_name = "hall" 
+            round_number = "2" 
+            place = "station_2" 
+            start_time = "09:30:00">
+            <results participant_id = "X4">
+            	<score points = "20"/>
+            	<score points = "15"/>
+            	<score points = "9"/>
+           	</results>
+            <results participant_id = "X5">
+            	<score points = "23"/>
+            	<score points = "19"/>
+            	<score points = "1"/>
+           	</results>
+            <results participant_id = "X6">
+            	<score points = "3"/>
+            	<score points = "21"/>
+            	<score points = "6"/>
+           	</results>
+           	   <results participant_id = "X7">
+            	<score points = "2"/>
+            	<score points = "18"/>
+            	<score points = "9"/>
+           	</results>
+            <results participant_id = "X8">
+            	<score points = "5"/>
+            	<score points = "11"/>
+            	<score points = "2"/>
+           	</results>
+        </round>
+    </group>
+    
+   <shooting-style id = "S01" style_name = "freestyle_unlimited" bow_type = "longbow">
+        <division id = "D01" gender = "m" is_professional = "false" age_group_name = "junior">
+            <person 
+                id = "P01" 
+                firstname = "Anton"
+                lastname = "Alle"
+                password = "djsld89"
+                email = "anton.alle@aon.at"
+                tournament_role = "participant"/>
+            <person 
+                id = "P02" 
+                firstname = "Bernd"
+                lastname = "Brot"
+                password = "jdl9fj"
+                email = "bernd.brot@aon.at"
+                tournament_role = "participant"/>
+            <person 
+                id = "P03" 
+                firstname = "Tom"
+                lastname = "Turbo"
+                password = "jdke78"
+                email = "tom.turbo@aon.at"
+                tournament_role = "participant"/>
+        </division>
+	</shooting-style>
+
+
+    <shooting-style id = "S02" style_name = "barebow" bow_type = "recurve">
+        <division id = "D02" gender = "f" is_professional = "false" age_group_name = "senior">
+            <person 
+                id = "P04"
+                firstname = "Anna"
+                lastname = "Amba"
+                password = "djf83"
+                email = "anna.amba@aon.at"
+                tournament_role = "participant"/>
+            <person 
+                id = "P05" 
+                firstname = "Brigitte"
+                lastname = "Willi"
+                password = "dkfk39"
+                email = "brigitte.willi@aon.at"
+                tournament_role = "participant"/>
+            <person 
+                id = "P06" 
+                firstname = "Ulli"
+                lastname = "Maier"
+                password = "djfk39"
+                email = "ulli.maier@aon.at"
+                tournament_role = "participant"/>
+            <person 
+                id = "P07" 
+                firstname = "Sarah"
+                lastname = "Schuster"
+                password = "dkfj893"
+                email = "sarah.schuster@aon.at"
+                tournament_role = "participant"/>
+             <person 
+                id = "P08" 
+                firstname = "Maria"
+                lastname = "Reiseck"
+                password = "kdli9"
+                email = "maria.reiseck@aon.at"
+                tournament_role = "participant"/>
+        </division>
+    </shooting-style>
+</tournament>
