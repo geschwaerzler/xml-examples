@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE FAC SYSTEM "FAC.dtd">
+
+<FAC>
+	<division division_code="SFBB-R" division_name="Barebow-Recurve" style_code="BB" style_name="Barebow-Recurve" age_from="65" age_to="150" level="Senior" pro_or_amateur="amateur">
+		<competitor competitor_id="competitor-1" fname="Silvia" lname="Wollny" nationality="Germany"/>
+		<competitor competitor_id="competitor-2" fname="Chantal" lname="Wollny" nationality="Germany"/>
+		<competitor competitor_id="competitor-3" fname="Sarafina" lname="Wollny" nationality="Germany"/>
+		<competitor competitor_id="competitor-4" fname="Sarah-Jane" lname="Wollny" nationality="Germany"/>
+		<competitor competitor_id="competitor-5" fname="Lavinia" lname="Wollny" nationality="Germany"/>
+		<competitor competitor_id="competitor-6" fname="Calenta" lname="Wollny" nationality="Germany"/>
+	</division>
+	
+	<division division_code="SFBB-R" division_name="Barebow-Recurve" style_code="BB" style_name="Barebow-Recurve" age_from="65" age_to="150" level="Senior" pro_or_amateur="amateur">
+		<competitor competitor_id="competitor-7" fname="Silvia" lname="Huber" nationality="Germany"/>
+		<competitor competitor_id="competitor-8" fname="Chantal" lname="Huber" nationality="Germany"/>
+		<competitor competitor_id="competitor-9" fname="Sarafina" lname="Huber" nationality="Germany"/>
+		<competitor competitor_id="competitor-10" fname="Sarah-Jane" lname="Huber" nationality="Germany"/>
+		<competitor competitor_id="competitor-11" fname="Lavinia" lname="Huber" nationality="Germany"/>
+		<competitor competitor_id="competitor-12" fname="Calenta" lname="Huber" nationality="Germany"/>
+	</division>
+	
+	<group group_id="group-1" captain="competitor-1" scorer_1="competitor-2" scorer_2="competitor-3" shooter_1="competitor-4" shooter_2="competitor-5" shooter_3="competitor-6">
+		<shoots_at target_number="hunter-target-1" round_name="Hunter"/>
+		<shoots_at target_number="hunter-target-2" round_name="Hunter"/>
+		<shoots_at target_number="hunter-target-3" round_name="Hunter"/>
+		<shoots_at target_number="hunter-target-4" round_name="Hunter"/>
+		<shoots_at target_number="hunter-target-5" round_name="Hunter"/>
+		<shoots_at target_number="hunter-target-6" round_name="Hunter"/>
+		<shoots_at target_number="hunter-target-7" round_name="Hunter"/>
+		
+		<shoots_at target_number="animal-target-1" round_name="Animal"/>
+		<shoots_at target_number="animal-target-2" round_name="Animal"/>
+		<shoots_at target_number="animal-target-3" round_name="Animal"/>
+		<shoots_at target_number="animal-target-4" round_name="Animal"/>
+		<shoots_at target_number="animal-target-5" round_name="Animal"/>
+		<shoots_at target_number="animal-target-6" round_name="Animal"/>
+		<shoots_at target_number="animal-target-7" round_name="Animal"/>
+		
+		<shoots_at target_number="field-target-1" round_name="Field"/>
+		<shoots_at target_number="field-target-2" round_name="Field"/>
+		<shoots_at target_number="field-target-3" round_name="Field"/>
+		<shoots_at target_number="field-target-4" round_name="Field"/>
+		<shoots_at target_number="field-target-5" round_name="Field"/>
+		<shoots_at target_number="field-target-6" round_name="Field"/>
+		<shoots_at target_number="field-target-7" round_name="Field"/>
+	</group>
+	
+	<group group_id="group-2" captain="competitor-7" scorer_1="competitor-8" scorer_2="competitor-9" shooter_1="competitor-10" shooter_2="competitor-11" shooter_3="competitor-12">
+		<shoots_at target_number="hunter-target-1" round_name="Hunter"/>
+		<shoots_at target_number="hunter-target-2" round_name="Hunter"/>
+		<shoots_at target_number="hunter-target-3" round_name="Hunter"/>
+		<shoots_at target_number="hunter-target-4" round_name="Hunter"/>
+		<shoots_at target_number="hunter-target-5" round_name="Hunter"/>
+		<shoots_at target_number="hunter-target-6" round_name="Hunter"/>
+		<shoots_at target_number="hunter-target-7" round_name="Hunter"/>
+		
+		<shoots_at target_number="animal-target-1" round_name="Animal"/>
+		<shoots_at target_number="animal-target-2" round_name="Animal"/>
+		<shoots_at target_number="animal-target-3" round_name="Animal"/>
+		<shoots_at target_number="animal-target-4" round_name="Animal"/>
+		<shoots_at target_number="animal-target-5" round_name="Animal"/>
+		<shoots_at target_number="animal-target-6" round_name="Animal"/>
+		<shoots_at target_number="animal-target-7" round_name="Animal"/>
+		
+		<shoots_at target_number="field-target-1" round_name="Field"/>
+		<shoots_at target_number="field-target-2" round_name="Field"/>
+		<shoots_at target_number="field-target-3" round_name="Field"/>
+		<shoots_at target_number="field-target-4" round_name="Field"/>
+		<shoots_at target_number="field-target-5" round_name="Field"/>
+		<shoots_at target_number="field-target-6" round_name="Field"/>
+		<shoots_at target_number="field-target-7" round_name="Field"/>
+	</group>
+		
+	<scorecard scorecard_id="scorecard-1" competitor_id="competitor-1">
+		<score-group round_id="field-1">
+			<score target_number="field-target-1" score="5"/>
+			<score target_number="field-target-2" score="8"/>
+			<score target_number="field-target-3" score="51"/>
+			<score target_number="field-target-4" score="6"/>
+			<score target_number="field-target-5" score="89"/>
+			<score target_number="field-target-6" score="23"/>
+			<score target_number="field-target-7" score="90"/>
+		</score-group>
+		<score-group round_id="field-1">
+			<score target_number="hunter-target-1" score="21"/>
+			<score target_number="hunter-target-2" score="43"/>
+			<score target_number="hunter-target-3" score="5"/>
+			<score target_number="hunter-target-4" score="61"/>
+			<score target_number="hunter-target-5" score="8"/>
+			<score target_number="hunter-target-6" score="123"/>
+			<score target_number="hunter-target-7" score="76"/>
+		</score-group>
+			<score-group round_id="animal-1">
+			<score target_number="animal-target-1" score="32"/>
+			<score target_number="animal-target-2" score="6"/>
+			<score target_number="animal-target-3" score="56"/>
+			<score target_number="animal-target-4" score="69"/>
+			<score target_number="animal-target-5" score="0"/>
+			<score target_number="animal-target-6" score="13"/>
+			<score target_number="animal-target-7" score="7"/>
+		</score-group>
+	</scorecard>
+	<scorecard scorecard_id="scorecard-3" competitor_id="competitor-3">
+		<score-group round_id="field-1">
+			<score target_number="field-target-1" score="5"/>
+			<score target_number="field-target-2" score="12"/>
+			<score target_number="field-target-3" score="51"/>
+			<score target_number="field-target-4" score="6"/>
+			<score target_number="field-target-5" score="89"/>
+			<score target_number="field-target-6" score="23"/>
+			<score target_number="field-target-7" score="90"/>
+		</score-group>
+		<score-group round_id="field-1">
+			<score target_number="hunter-target-1" score="21"/>
+			<score target_number="hunter-target-2" score="43"/>
+			<score target_number="hunter-target-3" score="5"/>
+			<score target_number="hunter-target-4" score="61"/>
+			<score target_number="hunter-target-5" score="8"/>
+			<score target_number="hunter-target-6" score="123"/>
+			<score target_number="hunter-target-7" score="76"/>
+		</score-group>
+			<score-group round_id="animal-1">
+			<score target_number="animal-target-1" score="32"/>
+			<score target_number="animal-target-2" score="6"/>
+			<score target_number="animal-target-3" score="56"/>
+			<score target_number="animal-target-4" score="69"/>
+			<score target_number="animal-target-5" score="0"/>
+			<score target_number="animal-target-6" score="13"/>
+			<score target_number="animal-target-7" score="7"/>
+		</score-group>
+	</scorecard>
+	<scorecard scorecard_id="scorecard-2" competitor_id="competitor-2">
+			<score-group round_id="field-1">
+			<score target_number="field-target-1" score="5"/>
+			<score target_number="field-target-2" score="4"/>
+			<score target_number="field-target-3" score="51"/>
+			<score target_number="field-target-4" score="6"/>
+			<score target_number="field-target-5" score="89"/>
+			<score target_number="field-target-6" score="23"/>
+			<score target_number="field-target-7" score="90"/>
+		</score-group>
+		<score-group round_id="field-1">
+			<score target_number="hunter-target-1" score="21"/>
+			<score target_number="hunter-target-2" score="43"/>
+			<score target_number="hunter-target-3" score="5"/>
+			<score target_number="hunter-target-4" score="61"/>
+			<score target_number="hunter-target-5" score="8"/>
+			<score target_number="hunter-target-6" score="123"/>
+			<score target_number="hunter-target-7" score="76"/>
+		</score-group>
+			<score-group round_id="animal-1">
+			<score target_number="animal-target-1" score="32"/>
+			<score target_number="animal-target-2" score="6"/>
+			<score target_number="animal-target-3" score="56"/>
+			<score target_number="animal-target-4" score="69"/>
+			<score target_number="animal-target-5" score="0"/>
+			<score target_number="animal-target-6" score="13"/>
+			<score target_number="animal-target-7" score="7"/>
+		</score-group>
+	</scorecard>
+	<scorecard scorecard_id="scorecard-4" competitor_id="competitor-4">
+			<score-group round_id="field-1">
+			<score target_number="field-target-1" score="5"/>
+			<score target_number="field-target-2" score="4"/>
+			<score target_number="field-target-3" score="51"/>
+			<score target_number="field-target-4" score="6"/>
+			<score target_number="field-target-5" score="89"/>
+			<score target_number="field-target-6" score="23"/>
+			<score target_number="field-target-7" score="90"/>
+		</score-group>
+		<score-group round_id="field-1">
+			<score target_number="hunter-target-1" score="21"/>
+			<score target_number="hunter-target-2" score="43"/>
+			<score target_number="hunter-target-3" score="5"/>
+			<score target_number="hunter-target-4" score="61"/>
+			<score target_number="hunter-target-5" score="8"/>
+			<score target_number="hunter-target-6" score="123"/>
+			<score target_number="hunter-target-7" score="76"/>
+		</score-group>
+			<score-group round_id="animal-1">
+			<score target_number="animal-target-1" score="32"/>
+			<score target_number="animal-target-2" score="6"/>
+			<score target_number="animal-target-3" score="56"/>
+			<score target_number="animal-target-4" score="69"/>
+			<score target_number="animal-target-5" score="0"/>
+			<score target_number="animal-target-6" score="13"/>
+			<score target_number="animal-target-7" score="7"/>
+		</score-group>
+	</scorecard>
+	<scorecard scorecard_id="scorecard-5" competitor_id="competitor-5">
+			<score-group round_id="field-1">
+			<score target_number="field-target-1" score="5"/>
+			<score target_number="field-target-2" score="4"/>
+			<score target_number="field-target-3" score="51"/>
+			<score target_number="field-target-4" score="6"/>
+			<score target_number="field-target-5" score="89"/>
+			<score target_number="field-target-6" score="23"/>
+			<score target_number="field-target-7" score="90"/>
+		</score-group>
+		<score-group round_id="field-1">
+			<score target_number="hunter-target-1" score="21"/>
+			<score target_number="hunter-target-2" score="43"/>
+			<score target_number="hunter-target-3" score="5"/>
+			<score target_number="hunter-target-4" score="61"/>
+			<score target_number="hunter-target-5" score="8"/>
+			<score target_number="hunter-target-6" score="123"/>
+			<score target_number="hunter-target-7" score="76"/>
+		</score-group>
+			<score-group round_id="animal-1">
+			<score target_number="animal-target-1" score="32"/>
+			<score target_number="animal-target-2" score="6"/>
+			<score target_number="animal-target-3" score="56"/>
+			<score target_number="animal-target-4" score="69"/>
+			<score target_number="animal-target-5" score="0"/>
+			<score target_number="animal-target-6" score="13"/>
+			<score target_number="animal-target-7" score="7"/>
+		</score-group>
+	</scorecard>
+	<scorecard scorecard_id="scorecard-6" competitor_id="competitor-6">
+			<score-group round_id="field-1">
+			<score target_number="field-target-1" score="5"/>
+			<score target_number="field-target-2" score="4"/>
+			<score target_number="field-target-3" score="51"/>
+			<score target_number="field-target-4" score="6"/>
+			<score target_number="field-target-5" score="89"/>
+			<score target_number="field-target-6" score="23"/>
+			<score target_number="field-target-7" score="90"/>
+		</score-group>
+		<score-group round_id="field-1">
+			<score target_number="hunter-target-1" score="21"/>
+			<score target_number="hunter-target-2" score="43"/>
+			<score target_number="hunter-target-3" score="5"/>
+			<score target_number="hunter-target-4" score="61"/>
+			<score target_number="hunter-target-5" score="8"/>
+			<score target_number="hunter-target-6" score="123"/>
+			<score target_number="hunter-target-7" score="76"/>
+		</score-group>
+			<score-group round_id="animal-1">
+			<score target_number="animal-target-1" score="32"/>
+			<score target_number="animal-target-2" score="6"/>
+			<score target_number="animal-target-3" score="56"/>
+			<score target_number="animal-target-4" score="69"/>
+			<score target_number="animal-target-5" score="0"/>
+			<score target_number="animal-target-6" score="13"/>
+			<score target_number="animal-target-7" score="7"/>
+		</score-group>
+	</scorecard>
+
+	<scorecard scorecard_id="scorecard-8" competitor_id="competitor-7">
+		<score-group round_id="field-1">
+			<score target_number="field-target-1" score="5"/>
+			<score target_number="field-target-2" score="4"/>
+			<score target_number="field-target-3" score="51"/>
+			<score target_number="field-target-4" score="6"/>
+			<score target_number="field-target-5" score="89"/>
+			<score target_number="field-target-6" score="23"/>
+			<score target_number="field-target-7" score="90"/>
+		</score-group>
+		<score-group round_id="field-1">
+			<score target_number="hunter-target-1" score="21"/>
+			<score target_number="hunter-target-2" score="43"/>
+			<score target_number="hunter-target-3" score="5"/>
+			<score target_number="hunter-target-4" score="61"/>
+			<score target_number="hunter-target-5" score="8"/>
+			<score target_number="hunter-target-6" score="123"/>
+			<score target_number="hunter-target-7" score="76"/>
+		</score-group>
+		<score-group round_id="animal-1">
+			<score target_number="animal-target-1" score="32"/>
+			<score target_number="animal-target-2" score="6"/>
+			<score target_number="animal-target-3" score="56"/>
+			<score target_number="animal-target-4" score="69"/>
+			<score target_number="animal-target-5" score="0"/>
+			<score target_number="animal-target-6" score="13"/>
+			<score target_number="animal-target-7" score="7"/>
+		</score-group>
+	</scorecard>
+	
+	<scorecard scorecard_id="scorecard-9" competitor_id="competitor-8">
+		<score-group round_id="field-1">
+			<score target_number="field-target-1" score="5"/>
+			<score target_number="field-target-2" score="4"/>
+			<score target_number="field-target-3" score="51"/>
+			<score target_number="field-target-4" score="6"/>
+			<score target_number="field-target-5" score="89"/>
+			<score target_number="field-target-6" score="23"/>
+			<score target_number="field-target-7" score="90"/>
+		</score-group>
+		<score-group round_id="field-1">
+			<score target_number="hunter-target-1" score="21"/>
+			<score target_number="hunter-target-2" score="43"/>
+			<score target_number="hunter-target-3" score="5"/>
+			<score target_number="hunter-target-4" score="61"/>
+			<score target_number="hunter-target-5" score="8"/>
+			<score target_number="hunter-target-6" score="123"/>
+			<score target_number="hunter-target-7" score="76"/>
+		</score-group>
+		<score-group round_id="animal-1">
+			<score target_number="animal-target-1" score="32"/>
+			<score target_number="animal-target-2" score="6"/>
+			<score target_number="animal-target-3" score="56"/>
+			<score target_number="animal-target-4" score="69"/>
+			<score target_number="animal-target-5" score="0"/>
+			<score target_number="animal-target-6" score="13"/>
+			<score target_number="animal-target-7" score="7"/>
+		</score-group>
+	</scorecard>
+	
+	<scorecard scorecard_id="scorecard-10" competitor_id="competitor-9">
+		<score-group round_id="field-1">
+			<score target_number="field-target-1" score="5"/>
+			<score target_number="field-target-2" score="4"/>
+			<score target_number="field-target-3" score="51"/>
+			<score target_number="field-target-4" score="6"/>
+			<score target_number="field-target-5" score="89"/>
+			<score target_number="field-target-6" score="23"/>
+			<score target_number="field-target-7" score="90"/>
+		</score-group>
+		<score-group round_id="field-1">
+			<score target_number="hunter-target-1" score="21"/>
+			<score target_number="hunter-target-2" score="43"/>
+			<score target_number="hunter-target-3" score="5"/>
+			<score target_number="hunter-target-4" score="61"/>
+			<score target_number="hunter-target-5" score="8"/>
+			<score target_number="hunter-target-6" score="123"/>
+			<score target_number="hunter-target-7" score="76"/>
+		</score-group>
+		<score-group round_id="animal-1">
+			<score target_number="animal-target-1" score="32"/>
+			<score target_number="animal-target-2" score="6"/>
+			<score target_number="animal-target-3" score="56"/>
+			<score target_number="animal-target-4" score="69"/>
+			<score target_number="animal-target-5" score="0"/>
+			<score target_number="animal-target-6" score="1"/>
+			<score target_number="animal-target-7" score="7"/>
+		</score-group>
+	</scorecard>
+	
+	<scorecard scorecard_id="scorecard-11" competitor_id="competitor-10">
+		<score-group round_id="field-1">
+			<score target_number="field-target-1" score="5"/>
+			<score target_number="field-target-2" score="4"/>
+			<score target_number="field-target-3" score="51"/>
+			<score target_number="field-target-4" score="6"/>
+			<score target_number="field-target-5" score="89"/>
+			<score target_number="field-target-6" score="23"/>
+			<score target_number="field-target-7" score="90"/>
+		</score-group>
+		<score-group round_id="field-1">
+			<score target_number="hunter-target-1" score="21"/>
+			<score target_number="hunter-target-2" score="43"/>
+			<score target_number="hunter-target-3" score="5"/>
+			<score target_number="hunter-target-4" score="61"/>
+			<score target_number="hunter-target-5" score="8"/>
+			<score target_number="hunter-target-6" score="123"/>
+			<score target_number="hunter-target-7" score="76"/>
+		</score-group>
+		<score-group round_id="animal-1">
+			<score target_number="animal-target-1" score="32"/>
+			<score target_number="animal-target-2" score="6"/>
+			<score target_number="animal-target-3" score="0"/>
+			<score target_number="animal-target-4" score="69"/>
+			<score target_number="animal-target-5" score="0"/>
+			<score target_number="animal-target-6" score="13"/>
+			<score target_number="animal-target-7" score="7"/>
+		</score-group>
+	</scorecard>
+	
+	<scorecard scorecard_id="scorecard-13" competitor_id="competitor-11">
+		<score-group round_id="field-1">
+			<score target_number="field-target-1" score="5"/>
+			<score target_number="field-target-2" score="4"/>
+			<score target_number="field-target-3" score="51"/>
+			<score target_number="field-target-4" score="6"/>
+			<score target_number="field-target-5" score="89"/>
+			<score target_number="field-target-6" score="23"/>
+			<score target_number="field-target-7" score="90"/>
+		</score-group>
+		<score-group round_id="field-1">
+			<score target_number="hunter-target-1" score="21"/>
+			<score target_number="hunter-target-2" score="43"/>
+			<score target_number="hunter-target-3" score="5"/>
+			<score target_number="hunter-target-4" score="61"/>
+			<score target_number="hunter-target-5" score="8"/>
+			<score target_number="hunter-target-6" score="123"/>
+			<score target_number="hunter-target-7" score="76"/>
+		</score-group>
+		<score-group round_id="animal-1">
+			<score target_number="animal-target-1" score="32"/>
+			<score target_number="animal-target-2" score="6"/>
+			<score target_number="animal-target-3" score="0"/>
+			<score target_number="animal-target-4" score="69"/>
+			<score target_number="animal-target-5" score="0"/>
+			<score target_number="animal-target-6" score="13"/>
+			<score target_number="animal-target-7" score="7"/>
+		</score-group>
+	</scorecard>
+	
+	<scorecard scorecard_id="scorecard-12" competitor_id="competitor-12">
+		<score-group round_id="field-1">
+			<score target_number="field-target-1" score="5"/>
+			<score target_number="field-target-2" score="4"/>
+			<score target_number="field-target-3" score="51"/>
+			<score target_number="field-target-4" score="6"/>
+			<score target_number="field-target-5" score="89"/>
+			<score target_number="field-target-6" score="23"/>
+			<score target_number="field-target-7" score="90"/>
+		</score-group>
+		<score-group round_id="field-1">
+			<score target_number="hunter-target-1" score="21"/>
+			<score target_number="hunter-target-2" score="43"/>
+			<score target_number="hunter-target-3" score="5"/>
+			<score target_number="hunter-target-4" score="61"/>
+			<score target_number="hunter-target-5" score="8"/>
+			<score target_number="hunter-target-6" score="123"/>
+			<score target_number="hunter-target-7" score="76"/>
+		</score-group>
+		<score-group round_id="animal-1">
+			<score target_number="animal-target-1" score="32"/>
+			<score target_number="animal-target-2" score="6"/>
+			<score target_number="animal-target-3" score="56"/>
+			<score target_number="animal-target-4" score="69"/>
+			<score target_number="animal-target-5" score="0"/>
+			<score target_number="animal-target-6" score="13"/>
+			<score target_number="animal-target-7" score="7"/>
+		</score-group>
+	</scorecard>
+
+	<round round_id="animal-1" name="Animal">
+		<target target_number="animal-target-1" size_of_face="65" veterans_distance="70" adults_distance="65" youngadults_distance="61" junior_distance="50" cub_distance="30"/>
+		<target target_number="animal-target-2" size_of_face="65" veterans_distance="70" adults_distance="65" youngadults_distance="61" junior_distance="50" cub_distance="30"/>
+		<target target_number="animal-target-3" size_of_face="65" veterans_distance="70" adults_distance="65" youngadults_distance="61" junior_distance="50" cub_distance="30"/>
+		<target target_number="animal-target-4" size_of_face="50" veterans_distance="64" adults_distance="64" youngadults_distance="64" junior_distance="51" cub_distance="20"/>
+		<target target_number="animal-target-5" size_of_face="50" veterans_distance="58" adults_distance="58" youngadults_distance="58" junior_distance="50" cub_distance="20"/>
+		<target target_number="animal-target-6" size_of_face="50" veterans_distance="58" adults_distance="58" youngadults_distance="58" junior_distance="50" cub_distance="20"/>
+		<target target_number="animal-target-7" size_of_face="50" veterans_distance="58" adults_distance="58" youngadults_distance="58" junior_distance="50" cub_distance="20"/>
+	</round>
+	
+	<round round_id="hunter-1" name="Hunter">
+		<target target_number="hunter-target-1" size_of_face="65" veterans_distance="70" adults_distance="65" youngadults_distance="61" junior_distance="50" cub_distance="30"/>
+		<target target_number="hunter-target-2" size_of_face="65" veterans_distance="70" adults_distance="65" youngadults_distance="61" junior_distance="50" cub_distance="30"/>
+		<target target_number="hunter-target-3" size_of_face="65" veterans_distance="70" adults_distance="65" youngadults_distance="61" junior_distance="50" cub_distance="30"/>
+		<target target_number="hunter-target-4" size_of_face="50" veterans_distance="64" adults_distance="64" youngadults_distance="64" junior_distance="51" cub_distance="20"/>
+		<target target_number="hunter-target-5" size_of_face="50" veterans_distance="58" adults_distance="58" youngadults_distance="58" junior_distance="50" cub_distance="20"/>
+		<target target_number="hunter-target-6" size_of_face="50" veterans_distance="58" adults_distance="58" youngadults_distance="58" junior_distance="50" cub_distance="20"/>
+		<target target_number="hunter-target-7" size_of_face="50" veterans_distance="58" adults_distance="58" youngadults_distance="58" junior_distance="50" cub_distance="20"/>
+	</round>
+	
+	<round round_id="field-1" name="Field">
+		<target target_number="field-target-1" size_of_face="65" veterans_distance="70" adults_distance="65" youngadults_distance="61" junior_distance="50" cub_distance="30"/>
+		<target target_number="field-target-2" size_of_face="65" veterans_distance="70" adults_distance="65" youngadults_distance="61" junior_distance="50" cub_distance="30"/>
+		<target target_number="field-target-3" size_of_face="65" veterans_distance="70" adults_distance="65" youngadults_distance="61" junior_distance="50" cub_distance="30"/>
+		<target target_number="field-target-4" size_of_face="50" veterans_distance="64" adults_distance="64" youngadults_distance="64" junior_distance="51" cub_distance="20"/>
+		<target target_number="field-target-5" size_of_face="50" veterans_distance="58" adults_distance="58" youngadults_distance="58" junior_distance="50" cub_distance="20"/>
+		<target target_number="field-target-6" size_of_face="50" veterans_distance="58" adults_distance="58" youngadults_distance="58" junior_distance="50" cub_distance="20"/>
+		<target target_number="field-target-7" size_of_face="50" veterans_distance="58" adults_distance="58" youngadults_distance="58" junior_distance="50" cub_distance="20"/>
+	</round>
+
+</FAC>

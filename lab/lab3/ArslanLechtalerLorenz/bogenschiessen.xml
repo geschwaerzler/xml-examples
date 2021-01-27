@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE bogenschiessen SYSTEM "bogenschiessen.dtd">
+
+<bogenschiessen>
+    
+    <altersklassen>
+        <altersklasse altersklassen_id="A-1">Senior Man</altersklasse>
+        <altersklasse altersklassen_id="A-2">Senior Women</altersklasse>
+        <altersklasse altersklassen_id="A-3">Veteran Women</altersklasse>
+        <altersklasse altersklassen_id="A-4">Veteran Men</altersklasse>
+        <altersklasse altersklassen_id="A-5">Adult Women</altersklasse>
+        <altersklasse altersklassen_id="A-6">Adult Men</altersklasse>
+        <altersklasse altersklassen_id="A-7">Young Adult Women</altersklasse>
+        <altersklasse altersklassen_id="A-8">Young Adult Men</altersklasse>
+        <altersklasse altersklassen_id="A-9">Junior Girls</altersklasse>
+        <altersklasse altersklassen_id="A-10">Junior Boys</altersklasse>
+        <altersklasse altersklassen_id="A-11">Cubs Girls</altersklasse>
+        <altersklasse altersklassen_id="A-12">Cubs Boys</altersklasse>
+    </altersklassen>
+    <schieß_stile>
+        <schieß_stil schieß_stiel_id="S-1">BB</schieß_stil>
+        <schieß_stil schieß_stiel_id="S-2">FU</schieß_stil>
+        <schieß_stil schieß_stiel_id="S-3">FS</schieß_stil>
+        <schieß_stil schieß_stiel_id="S-4">BH</schieß_stil>
+        <schieß_stil schieß_stiel_id="S-5">BU</schieß_stil>
+        <schieß_stil schieß_stiel_id="S-6">BL</schieß_stil>
+        <schieß_stil schieß_stiel_id="S-7">LB</schieß_stil>
+        <schieß_stil schieß_stiel_id="S-8">HB</schieß_stil>
+        <schieß_stil schieß_stiel_id="S-9">TR</schieß_stil>
+    </schieß_stile>
+    <ligen>
+        <liga liga_id="L-1">amateur</liga>
+        <liga liga_id="L-2">profi</liga>
+        <liga liga_id="L-3">test</liga>
+    </ligen>
+    
+    <stile>
+        
+        <!-- matur-->
+        
+        <stil stiel_id="SS-1" altersklasse_id="A-1" schieß_stiel_id="S-1" liga_id="L-1" />
+        <stil stiel_id="SS-2" altersklasse_id="A-2" schieß_stiel_id="S-1" liga_id="L-1" />
+        <stil stiel_id="SS-3" altersklasse_id="A-3" schieß_stiel_id="S-1" liga_id="L-1" />
+        
+        <!-- Profi-->
+        <stil stiel_id="SS-5" altersklasse_id="A-2" schieß_stiel_id="S-2" liga_id="L-2" />
+        <stil stiel_id="SS-6" altersklasse_id="A-5" schieß_stiel_id="S-3" liga_id="L-2" />
+        
+        
+    </stile>
+    
+    
+    <turnier_teilnehmer>
+        <teilnehmer person_id="p-1" stiel_id="SS-1">
+            <teilnehmer_Vn>Hans</teilnehmer_Vn>
+            <teilnehmer_Nn>Dieter</teilnehmer_Nn>
+        </teilnehmer>
+        
+        <teilnehmer person_id="p-2" stiel_id="SS-1">
+            <teilnehmer_Vn>Franz</teilnehmer_Vn>
+            <teilnehmer_Nn>Meier</teilnehmer_Nn>
+        </teilnehmer>
+        
+        <teilnehmer person_id="p-3" stiel_id="SS-6">
+            <teilnehmer_Vn>Anton</teilnehmer_Vn>
+            <teilnehmer_Nn>Trio</teilnehmer_Nn>
+        </teilnehmer>
+        
+        <teilnehmer person_id="p-4" stiel_id="SS-6">
+            <teilnehmer_Vn>Manfred</teilnehmer_Vn>
+            <teilnehmer_Nn>Meier</teilnehmer_Nn>
+        </teilnehmer>
+        
+        <teilnehmer person_id="p-5" stiel_id="SS-6">
+            <teilnehmer_Vn>Markus</teilnehmer_Vn>
+            <teilnehmer_Nn>Lanz</teilnehmer_Nn>
+        </teilnehmer>
+        
+        <teilnehmer person_id="p-6" stiel_id="SS-6">
+            <teilnehmer_Vn>Ferdinad</teilnehmer_Vn>
+            <teilnehmer_Nn>Feiler</teilnehmer_Nn>
+        </teilnehmer>
+		
+		 <teilnehmer person_id="p-7" stiel_id="SS-3">
+            <teilnehmer_Vn>Markus</teilnehmer_Vn>
+            <teilnehmer_Nn>Lanz</teilnehmer_Nn>
+        </teilnehmer>
+        
+        <teilnehmer person_id="p-8" stiel_id="SS-5">
+            <teilnehmer_Vn>Antoine</teilnehmer_Vn>
+            <teilnehmer_Nn>Burtz</teilnehmer_Nn>
+        </teilnehmer>
+        
+        <teilnehmer person_id="p-9" stiel_id="SS-6">
+            <teilnehmer_Vn>Ernst</teilnehmer_Vn>
+            <teilnehmer_Nn>Riedler</teilnehmer_Nn>
+        </teilnehmer>
+        
+        <teilnehmer person_id="p-10" stiel_id="SS-3">
+            <teilnehmer_Vn>Percy</teilnehmer_Vn>
+            <teilnehmer_Nn>Mercy</teilnehmer_Nn>
+        </teilnehmer>
+        
+        <teilnehmer person_id="p-11" stiel_id="SS-2">
+            <teilnehmer_Vn>Lohan</teilnehmer_Vn>
+            <teilnehmer_Nn>Cohan</teilnehmer_Nn>
+        </teilnehmer>
+        
+        <teilnehmer person_id="p-12" stiel_id="SS-3">
+            <teilnehmer_Vn>Mike</teilnehmer_Vn>
+            <teilnehmer_Nn>Hunt</teilnehmer_Nn>
+        </teilnehmer>
+		
+		<teilnehmer person_id="p-13" stiel_id="SS-2">
+            <teilnehmer_Vn>Sigrid</teilnehmer_Vn>
+            <teilnehmer_Nn>Heilbert</teilnehmer_Nn>
+        </teilnehmer>
+        
+        <teilnehmer person_id="p-14" stiel_id="SS-6">
+            <teilnehmer_Vn>Adolf</teilnehmer_Vn>
+            <teilnehmer_Nn>Aua</teilnehmer_Nn>
+        </teilnehmer>
+        
+        <teilnehmer person_id="p-15" stiel_id="SS-5">
+            <teilnehmer_Vn>Pomas</teilnehmer_Vn>
+            <teilnehmer_Nn>Kruse</teilnehmer_Nn>
+        </teilnehmer>
+        
+        <teilnehmer person_id="p-16" stiel_id="SS-6">
+            <teilnehmer_Vn>Tamas</teilnehmer_Vn>
+            <teilnehmer_Nn>Engelbert</teilnehmer_Nn>
+        </teilnehmer>
+        
+        <teilnehmer person_id="p-17" stiel_id="SS-3">
+            <teilnehmer_Vn>Karin</teilnehmer_Vn>
+            <teilnehmer_Nn>Ritter</teilnehmer_Nn>
+        </teilnehmer>
+        
+        <teilnehmer person_id="p-18" stiel_id="SS-1">
+            <teilnehmer_Vn>Peter</teilnehmer_Vn>
+            <teilnehmer_Nn>Ludolf</teilnehmer_Nn>
+        </teilnehmer>
+		
+		<teilnehmer person_id="p-19" stiel_id="SS-2">
+            <teilnehmer_Vn>Petra</teilnehmer_Vn>
+            <teilnehmer_Nn>Sturzenegger</teilnehmer_Nn>
+        </teilnehmer>
+        
+        <teilnehmer person_id="p-20" stiel_id="SS-6">
+            <teilnehmer_Vn>Jan</teilnehmer_Vn>
+            <teilnehmer_Nn>Otze</teilnehmer_Nn>
+        </teilnehmer>
+        
+        <teilnehmer person_id="p-21" stiel_id="SS-6">
+            <teilnehmer_Vn>Mike</teilnehmer_Vn>
+            <teilnehmer_Nn>Litoris</teilnehmer_Nn>
+        </teilnehmer>
+        
+        <teilnehmer person_id="p-22" stiel_id="SS-6">
+            <teilnehmer_Vn>Maxi</teilnehmer_Vn>
+            <teilnehmer_Nn>Faxi</teilnehmer_Nn>
+        </teilnehmer>
+        
+        <teilnehmer person_id="p-23" stiel_id="SS-3">
+            <teilnehmer_Vn>Borat</teilnehmer_Vn>
+            <teilnehmer_Nn>Sagdiyev</teilnehmer_Nn>
+        </teilnehmer>
+        
+		     <teilnehmer person_id="p-24" stiel_id="SS-6">
+            <teilnehmer_Vn>Yohan</teilnehmer_Vn>
+            <teilnehmer_Nn>Olier</teilnehmer_Nn>
+        </teilnehmer>
+		
+    </turnier_teilnehmer>
+    
+    <pacours>
+        <parkur parkur_id="PI-1" parkur_name="Hunting">
+            <scheiben scheiben_id="X-1" />
+            <scheiben scheiben_id="X-2" />
+            <scheiben scheiben_id="X-3" />
+            <scheiben scheiben_id="X-4" />
+            <scheiben scheiben_id="X-5" />
+            <scheiben scheiben_id="X-6" />
+            <scheiben scheiben_id="X-7" />
+            <scheiben scheiben_id="X-8" />
+            <scheiben scheiben_id="X-9" />
+            <scheiben scheiben_id="X-10" />
+            <scheiben scheiben_id="X-11" />
+            <scheiben scheiben_id="X-12" />
+            <scheiben scheiben_id="X-13" />
+            <scheiben scheiben_id="X-14" />
+            <scheiben scheiben_id="X-15" />
+            <scheiben scheiben_id="X-16" />
+            <scheiben scheiben_id="X-17" />
+            <scheiben scheiben_id="X-18" />
+            <scheiben scheiben_id="X-19" />
+            <scheiben scheiben_id="X-20" />
+            <scheiben scheiben_id="X-21" />
+            <scheiben scheiben_id="X-22" />
+            <scheiben scheiben_id="X-23" />
+            <scheiben scheiben_id="X-24" />
+            <scheiben scheiben_id="X-25" />
+            <scheiben scheiben_id="X-26" />
+            <scheiben scheiben_id="X-27" />
+            <scheiben scheiben_id="X-28" />
+        </parkur>
+    </pacours>
+    
+    <turniere>
+        <turnier Name="XSLT World Championship" lfd_nummer="T-1" jahr="2020" land="Österreich">
+            <Runde parkur_id="PI-1" runden_id="Animal-1" date="20.12.2020">
+                <Gruppe gruppen_id="GI-1">
+                    <schütze person_id="p-1" rolle="Verantwortlicher" />
+                    <schütze person_id="p-2" rolle="Schreiber" />
+                    <schütze person_id="p-3" rolle="Schreiber" />
+                    <schütze person_id="p-4" />
+                    <schütze person_id="p-5" />
+                    <schütze person_id="p-6" />
+                </Gruppe>
+				
+				<Gruppe gruppen_id="GI-2">
+                    <schütze person_id="p-7" rolle="Verantwortlicher" />
+                    <schütze person_id="p-8" rolle="Schreiber" />
+                    <schütze person_id="p-9" rolle="Schreiber" />
+                    <schütze person_id="p-10" />
+                    <schütze person_id="p-11" />
+                    <schütze person_id="p-12" />
+                </Gruppe>
+				
+				<Gruppe gruppen_id="GI-3">
+                    <schütze person_id="p-13" rolle="Verantwortlicher" />
+                    <schütze person_id="p-14" rolle="Schreiber" />
+                    <schütze person_id="p-15" rolle="Schreiber" />
+                    <schütze person_id="p-16" />
+                    <schütze person_id="p-17" />
+                    <schütze person_id="p-18" />
+                </Gruppe>
+				
+					<Gruppe gruppen_id="GI-4">
+                    <schütze person_id="p-19" rolle="Verantwortlicher" />
+                    <schütze person_id="p-20" rolle="Schreiber" />
+                    <schütze person_id="p-21" rolle="Schreiber" />
+                    <schütze person_id="p-22" />
+                    <schütze person_id="p-23" />
+                    <schütze person_id="p-24" />
+                </Gruppe>
+				
+            </Runde>
+        </turnier>
+    </turniere>
+    
+    <nimmtteil>
+        <teilen lfd_nummer="T-1" person_id="p-1" />
+        <teilen lfd_nummer="T-1" person_id="p-2" />
+        <teilen lfd_nummer="T-1" person_id="p-3" />
+        <teilen lfd_nummer="T-1" person_id="p-4" />
+        <teilen lfd_nummer="T-1" person_id="p-5" />
+        <teilen lfd_nummer="T-1" person_id="p-6" />
+		<teilen lfd_nummer="T-1" person_id="p-7" />
+        <teilen lfd_nummer="T-1" person_id="p-8" />
+        <teilen lfd_nummer="T-1" person_id="p-9" />
+        <teilen lfd_nummer="T-1" person_id="p-10" />
+        <teilen lfd_nummer="T-1" person_id="p-11" />
+        <teilen lfd_nummer="T-1" person_id="p-12" />
+		<teilen lfd_nummer="T-1" person_id="p-13" />
+        <teilen lfd_nummer="T-1" person_id="p-14" />
+        <teilen lfd_nummer="T-1" person_id="p-15" />
+        <teilen lfd_nummer="T-1" person_id="p-16" />
+        <teilen lfd_nummer="T-1" person_id="p-17" />
+        <teilen lfd_nummer="T-1" person_id="p-18" />
+		<teilen lfd_nummer="T-1" person_id="p-19" />
+        <teilen lfd_nummer="T-1" person_id="p-20" />
+        <teilen lfd_nummer="T-1" person_id="p-21" />
+        <teilen lfd_nummer="T-1" person_id="p-22" />
+        <teilen lfd_nummer="T-1" person_id="p-23" />
+        <teilen lfd_nummer="T-1" person_id="p-24" />
+        
+    </nimmtteil>
+    
+    
+    <punktestände>
+        <turnier_punkte turnier_id="T-1">
+            <punktestand person_id="p-1">
+                <Runde_punkte runden_id="Animal-1">
+                    <scheiben_punkte scheiben_id="X-1">
+                        <schüsse>10</schüsse>
+                        <schüsse>10</schüsse>
+                        <schüsse>10</schüsse>
+                    </scheiben_punkte>
+					<scheiben_punkte scheiben_id="X-2">
+                        <schüsse>6</schüsse>
+                        <schüsse>9</schüsse>
+                        <schüsse>10</schüsse>
+                    </scheiben_punkte>
+					<scheiben_punkte scheiben_id="X-3">
+                        <schüsse>6,9</schüsse>
+                        <schüsse>4,2</schüsse>
+                        <schüsse>10</schüsse>
+                    </scheiben_punkte>
+                </Runde_punkte>
+            </punktestand>
+            <punktestand person_id="p-2">
+                <Runde_punkte runden_id="Animal-1">
+                    <scheiben_punkte scheiben_id="X-1">
+                        <schüsse>10</schüsse>
+                        <schüsse>10</schüsse>
+                        <schüsse>10</schüsse>
+                    </scheiben_punkte>
+						<scheiben_punkte scheiben_id="X-2">
+                        <schüsse>6</schüsse>
+                        <schüsse>9</schüsse>
+                        <schüsse>10</schüsse>
+                    </scheiben_punkte>
+					<scheiben_punkte scheiben_id="X-3">
+                        <schüsse>6,9</schüsse>
+                        <schüsse>4,2</schüsse>
+                        <schüsse>10</schüsse>
+                    </scheiben_punkte>
+                </Runde_punkte>
+            </punktestand>
+            <punktestand person_id="p-3">
+                <Runde_punkte runden_id="Animal-1">
+                    <scheiben_punkte scheiben_id="X-1">
+                        <schüsse>10</schüsse>
+                        <schüsse>10</schüsse>
+                        <schüsse>10</schüsse>
+                    </scheiben_punkte>
+						<scheiben_punkte scheiben_id="X-2">
+                        <schüsse>6</schüsse>
+                        <schüsse>9</schüsse>
+                        <schüsse>10</schüsse>
+                    </scheiben_punkte>
+					<scheiben_punkte scheiben_id="X-3">
+                        <schüsse>6,9</schüsse>
+                        <schüsse>4,2</schüsse>
+                        <schüsse>10</schüsse>
+                    </scheiben_punkte>
+                </Runde_punkte>
+            </punktestand>
+            
+        </turnier_punkte>
+    </punktestände>
+    
+    
+</bogenschiessen>
+
+
+

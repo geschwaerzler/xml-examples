@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE project-archer SYSTEM "project-archer.dtd">
+
+<project-archer>
+
+	<!-- Title Description -->
+	<description>Project Archer - Setup (Overview)</description>
+
+	<!-- Persons -->
+	<person id="person-1" fname="Regine" lname="Kadgien"/>
+	<person id="person-2" fname="Gerhard" lname="Schwärzler"/>
+	<person id="person-3" fname="Peter" lname="Reiter"/>
+	<person id="person-4" fname="Michael" middle_name="Adrian" lname="Rumpelnig"/>
+	<person id="person-5" fname="Zikrihan" lname="Sahin"/>
+	<person id="person-6" fname="Justin" middle_name="Jeremias" lname="Kirchmann"/>
+	<person id="person-7" fname="Karl" lname="Unterkofler"/>
+		
+	<round_type id="field"/>
+	<round_type id="hunter"/>
+	<round_type id="marked-animal"/>
+	
+	<target_size id="size-65"/>
+	<target_size id="size-50"/>
+	<target_size id="size-35"/>
+	<target_size id="size-20"/>
+	
+	<!-- Team -->
+	<team id="team-1" leader_id="person-1">
+		<team_member id="person-2"/>
+		<team_member id="person-3"/>
+		<team_member id="person-4"/>
+	</team>
+
+	<team id="team-2" leader_id="person-1">
+		<team_member id="person-5"/>
+		<team_member id="person-6"/>
+		<team_member id="person-7"/>
+	</team>
+	
+	<station id="station-1" position_ns="N 32.4711°" position_we="E 26.147°">
+		<responsible_for id="team-1"/>
+		<position_at id="target-1" round_type="field"/>
+		<position_at id="target-2" round_type="field"/> 
+		<position_at id="target-3" round_type="field"/> 
+		<position_at id="target-4" round_type="field"/>
+		<position_at id="target-5" round_type="field"/> 
+		<position_at id="target-6" round_type="field"/> 
+		<position_at id="target-7" round_type="field"/>
+		<position_at id="target-8" round_type="field"/> 
+	</station>
+
+	<station id="station-2" position_ns="N 33.01°" position_we="E 25.9°">
+		<responsible_for id="team-2"/>
+		<position_at id="target-9" round_type="field"/> 
+	</station>
+
+	<!-- Runde -->
+	<round id="round-1" day="25-12-2020">
+		<standard_unit id="field">
+			
+			<target_type id="size-65">
+				<target id="target-1">
+					<division division_name="adult" coloring="white">
+						<shooting_position id="shooting-position-1" distance="80" />
+						<shooting_position id="shooting-position-2" distance="70"/>
+						<shooting_position id="shooting-position-3" distance="60"/>
+						<shooting_position id="shooting-position-4" distance="50"/>
+					</division>
+					
+					<division division_name="junior" coloring="blue">
+						<shooting_position id="shooting-position-5" distance="50"/>
+					</division>
+					
+					<division division_name="cub" coloring="black">
+						<shooting_position id="shooting-position-6" distance="30"/>		
+						<shooting_position id="shooting-position-7" distance="25"/>
+						<shooting_position id="shooting-position-8" distance="20"/>
+						<shooting_position id="shooting-position-9" distance="15"/>
+					</division>
+				</target>
+				
+				<target id="target-2">
+					<division division_name="adult" coloring="white">
+						<shooting_position id="shooting-position-10" distance="65"/>
+					</division>
+				
+					<division division_name="junior" coloring="blue">
+						<shooting_position id="shooting-position-11" distance="50"/>
+					</division>
+				
+					<division division_name="cub" coloring="black">
+						<shooting_position id="shooting-position-12" distance="30"/>
+					</division>
+				</target>
+				
+				<target id="target-3">
+	                <division division_name="adult" coloring="white">
+	                    <shooting_position id="shooting-position-13" distance="60"/>
+	                </division>
+	                <division division_name="junior" coloring="blue">
+	                    <shooting_position id="shooting-position-14" distance="45"/>
+	                </division>
+	                <division division_name="cub" coloring="black">
+	                    <shooting_position id="shooting-position-15" distance="25"/>
+	                </division>
+           		</target>
+
+	            <target id="target-4">
+	                <division division_name="adult" coloring="white">
+	                    <shooting_position id="shooting-position-16" distance="45"/>
+	                    <shooting_position id="shooting-position-17" distance="40"/>
+	                    <shooting_position id="shooting-position-18" distance="35"/>
+	                    <shooting_position id="shooting-position-19" distance="30"/>
+	                </division>
+	                <division division_name="junior" coloring="blue">
+	                    <shooting_position id="shooting-position-20" distance="45"/>
+	                    <shooting_position id="shooting-position-21" distance="40"/>
+	                    <shooting_position id="shooting-position-22" distance="35"/>
+	                    <shooting_position id="shooting-position-23" distance="30"/>
+	                </division>
+	                <division division_name="cub" coloring="black">
+	                    <shooting_position id="shooting-position-24" distance="20"/>
+	                </division>
+	            </target>
+				
+			</target_type>
+		</standard_unit>
+		
+		<standard_unit id="field">
+			
+			<target_type id="size-65">
+				<target id="target-5">
+					<division division_name="adult" coloring="white">
+						<shooting_position id="shooting-position-25" distance="60"/>
+					</division>
+					<division division_name="junior" coloring="blue">
+						<shooting_position id="shooting-position-26" distance="45"/>
+					</division>
+					<division division_name="cub" coloring="black">
+						<shooting_position id="shooting-position-27" distance="25"/>
+					</division>
+				</target>
+				<target id="target-6">
+					<division division_name="adult" coloring="white">
+						<shooting_position id="shooting-position-28" distance="55"/>
+					</division>
+					<division division_name="junior" coloring="blue">
+						<shooting_position id="shooting-position-29" distance="40"/>
+					</division>
+					<division division_name="cub" coloring="black">
+						<shooting_position id="shooting-position-30" distance="20"/>
+					</division>
+				</target>
+			</target_type>
+			
+			<target_type id="size-50">
+				<target id="target-7">
+					<division division_name="adult" coloring="white">
+						<shooting_position id="shooting-position-31" distance="35"/>
+						<shooting_position id="shooting-position-32" distance="35"/>
+						<shooting_position id="shooting-position-33" distance="35"/>
+						<shooting_position id="shooting-position-34" distance="35"/>
+					</division>
+					<division division_name="junior" coloring="blue">
+						<shooting_position id="shooting-position-35" distance="35"/>
+					</division>
+					<division division_name="cub" coloring="black">
+						<shooting_position id="shooting-position-36" distance="20"/>
+					</division>
+				</target>
+			</target_type>
+			
+			<target_type id="size-20">
+				<target id="target-8">
+					<division division_name="adult" coloring="white">
+						<shooting_position id="shooting-position-37" distance="12"/>
+						<shooting_position id="shooting-position-38" distance="10"/>
+						<shooting_position id="shooting-position-39" distance="8"/>
+						<shooting_position id="shooting-position-40" distance="6"/>
+					</division>
+					<division division_name="junior" coloring="blue">
+						<shooting_position id="shooting-position-41" distance="12"/>
+						<shooting_position id="shooting-position-42" distance="10"/>
+						<shooting_position id="shooting-position-43" distance="8"/>
+						<shooting_position id="shooting-position-44" distance="6"/>
+					</division>
+					<division division_name="cub" coloring="black">
+						<shooting_position id="shooting-position-45" distance="6"/>
+					</division>
+				</target>
+			</target_type>
+			
+		</standard_unit>
+		
+	</round>
+
+    <round id="round-2" day="26-12-2020">
+        <standard_unit id="hunter">
+        
+        	<target_type id="size-65">
+	            <target id="target-9">
+	                <division division_name="adult" coloring="red">
+	                    <shooting_position id="shooting-position-46" distance="70"/>
+	                    <shooting_position id="shooting-position-47" distance="65"/>
+	                    <shooting_position id="shooting-position-48" distance="61"/>
+	                    <shooting_position id="shooting-position-49" distance="58"/>
+	                </division>
+	                <division division_name="junior" coloring="blue">
+	                    <shooting_position id="shooting-position-50" distance="50"/>
+	                </division>
+	                <division division_name="cub" coloring="black">
+	                    <shooting_position id="shooting-position-51" distance="30"/>
+	                </division>
+	            </target>
+            </target_type>
+            
+        </standard_unit>
+	</round>
+
+</project-archer>

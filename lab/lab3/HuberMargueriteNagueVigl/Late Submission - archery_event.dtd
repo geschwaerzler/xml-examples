@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT archery_event (tournament)>
+
+<!ELEMENT tournament (group+, division+)>
+<!ATTLIST tournament
+	tournament_name	CDATA #REQUIRED
+	year			CDATA #REQUIRED
+	place			CDATA #REQUIRED >
+
+<!ELEMENT group (target+)>
+<!ATTLIST group
+	group_id 		ID #REQUIRED
+	round_no		CDATA #REQUIRED >
+
+<!ELEMENT target (score+)>
+<!ATTLIST target
+	target_id		ID #REQUIRED
+	size			CDATA #REQUIRED >
+
+<!ELEMENT score EMPTY>
+<!ATTLIST score
+	shot_no   		CDATA #REQUIRED
+	target_score 	CDATA #REQUIRED
+	participant_id	IDREF #REQUIRED >
+
+<!ELEMENT division (class+)>
+<!ATTLIST division
+	division_name	CDATA #REQUIRED
+	age_from		CDATA #REQUIRED
+	age_to			CDATA #REQUIRED >
+	
+<!ELEMENT class (participant+)>
+<!ATTLIST class
+	gender			CDATA #REQUIRED >
+	
+<!ELEMENT participant EMPTY>
+<!ATTLIST participant
+	id				ID #REQUIRED
+	country			CDATA #REQUIRED
+	lname			CDATA #REQUIRED
+	fname			CDATA #REQUIRED >

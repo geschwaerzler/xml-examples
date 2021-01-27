@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT archery (description, ort*, 
+material*, lager*, parkour*, aufgabe*, rolle*, mitarbeiter* )>
+
+<!ELEMENT description (#PCDATA)>
+
+<!ELEMENT parkour (station*)>
+<!ATTLIST parkour 
+parkour_id ID #REQUIRED
+parkour_name CDATA #REQUIRED
+>
+
+<!ELEMENT station (benoetigt*)>
+<!ATTLIST station
+station_nr	ID	#REQUIRED
+ort_id IDREF #REQUIRED
+>
+
+<!ELEMENT benoetigt EMPTY>
+<!ATTLIST benoetigt
+material_id IDREF #REQUIRED
+>
+
+<!ELEMENT ort EMPTY>
+<!ATTLIST ort
+ort_id ID #REQUIRED
+ort_name CDATA #REQUIRED
+gps_daten CDATA #REQUIRED
+>
+
+<!ELEMENT lager (lagert*) >
+<!ATTLIST lager
+lager_id ID #REQUIRED
+lager_name CDATA #REQUIRED
+ort_id IDREF #REQUIRED
+>
+
+<!ELEMENT lagert EMPTY>
+<!ATTLIST lagert
+material_id IDREF #REQUIRED
+>
+
+<!ELEMENT aufgabe (an*, verwende*, termin?)>
+<!ATTLIST aufgabe
+aufgabe_id 	ID #REQUIRED
+aufgabe_bezeichnung CDATA #REQUIRED
+>
+
+<!ELEMENT an EMPTY>
+<!ATTLIST an
+ort_id IDREF #REQUIRED
+parkour_id IDREF #IMPLIED
+station_nr IDREF #IMPLIED
+lager_id IDREF #IMPLIED
+>
+
+<!ELEMENT verwende EMPTY>
+<!ATTLIST verwende
+material_id IDREF #REQUIRED
+>
+
+<!ELEMENT termin EMPTY>
+<!ATTLIST termin
+datum	CDATA #REQUIRED
+beginn_uhrzeit CDATA #REQUIRED
+ende_uhrzeit CDATA #REQUIRED
+>
+
+<!ELEMENT material EMPTY>
+<!ATTLIST material
+    material_id ID #REQUIRED
+    material_bezeichnung CDATA #REQUIRED
+    material_zustand CDATA #REQUIRED
+>
+
+<!ELEMENT bewerb EMPTY>
+<!ATTLIST bewerb
+    bewerb_id ID #REQUIRED
+    bewerb_name CDATA #REQUIRED
+>
+
+<!ELEMENT rolle EMPTY>
+<!ATTLIST rolle
+rolle_id	ID	#REQUIRED
+titel	CDATA #REQUIRED
+>
+
+<!ELEMENT mitarbeiter (hatRolle*, hatAufgabe*)>
+<!ATTLIST mitarbeiter 
+mitarbeiter_id ID #REQUIRED
+fname CDATA	#REQUIRED
+lname CDATA	#REQUIRED
+tel_nr CDATA #REQUIRED
+gehalt CDATA #REQUIRED
+>
+
+<!ELEMENT hatRolle EMPTY>
+<!ATTLIST hatRolle
+rolle_id IDREF #REQUIRED
+>
+
+<!ELEMENT hatAufgabe EMPTY>
+<!ATTLIST hatAufgabe
+aufgabe_id IDREF #REQUIRED
+>
+
+
+
