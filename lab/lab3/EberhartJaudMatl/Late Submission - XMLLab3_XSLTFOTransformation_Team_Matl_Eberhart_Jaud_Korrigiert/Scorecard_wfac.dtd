@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- an xml-file must contain at least one round, parcour and competitor, but can contain no group classifications -->
+<!ELEMENT wfac (round+, parcour+, competitor+, group*)>
+
+<!-- basic data of round type -->
+<!ELEMENT round EMPTY>
+<!ATTLIST round
+        round-name-short ID #REQUIRED
+        round-name-full CDATA #IMPLIED
+>
+
+<!-- basic data of parcour, contains one or more targets -->
+<!ELEMENT parcour (target+)>
+<!ATTLIST parcour
+        parcour-id ID #REQUIRED
+        round-name-short IDREF #REQUIRED
+        lon CDATA #IMPLIED
+        lat CDATA #IMPLIED
+>
+
+<!-- basic data of target -->
+<!ELEMENT target EMPTY>
+<!ATTLIST target
+        target-id ID #REQUIRED
+        lon CDATA #IMPLIED
+        lat CDATA #IMPLIED
+        size CDATA #REQUIRED
+>
+
+<!-- basic data of competitor -->
+<!ELEMENT competitor EMPTY>
+<!ATTLIST competitor
+        registration-id ID #REQUIRED
+        fname CDATA #REQUIRED
+        lname CDATA #REQUIRED
+        street CDATA #REQUIRED
+        house-number CDATA #REQUIRED
+        zip-code CDATA #REQUIRED
+        city CDATA #REQUIRED
+        country CDATA #REQUIRED
+        email CDATA #IMPLIED
+        nationality CDATA #REQUIRED
+        is-present (T | F) #REQUIRED
+>
+
+<!-- group classification, must contain one captain, one or more scorers (normally two) and zero or more players -->
+<!ELEMENT group (participant+)>
+<!ATTLIST group
+        group-id ID #REQUIRED
+        date CDATA #REQUIRED
+>
+
+<!ELEMENT participant (scorecard)>
+<!ATTLIST  participant
+        registration-id IDREF #REQUIRED
+        role CDATA #REQUIRED
+>
+
+<!-- references competitor who is captain of the group, each group member has one scorecard in this group -->
+<!ELEMENT is-captain (scorecard)>
+<!ATTLIST is-captain
+        registration-id IDREF #REQUIRED
+>
+
+<!-- references competitors who are scorer of the group, each group member has one scorecard in this group -->
+<!ELEMENT is-scorer (scorecard)>
+<!ATTLIST is-scorer
+        registration-id IDREF #REQUIRED
+>
+
+<!-- references competitor who is normal player of the group, each group member has one scorecard in this group -->
+<!ELEMENT is-player (scorecard)>
+<!ATTLIST is-player
+        registration-id IDREF #REQUIRED
+>
+
+<!-- a scorecard summarizes score-entries (arrows shot on a target)  -->
+<!ELEMENT scorecard (scorecard-entry*)>
+<!ATTLIST scorecard
+    scorecard-id ID #REQUIRED
+    round-name-short IDREF #REQUIRED
+>
+
+<!-- a scorecard-entry represents the score achieved by one arrow which was shot on a specific target -->
+<!ELEMENT scorecard-entry EMPTY>
+<!ATTLIST scorecard-entry
+    entry-number ID #REQUIRED
+    target-id IDREF #REQUIRED
+    score CDATA #REQUIRED
+>

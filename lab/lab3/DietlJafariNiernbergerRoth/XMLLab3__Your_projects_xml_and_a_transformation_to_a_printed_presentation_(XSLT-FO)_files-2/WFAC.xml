@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<wfac>
+
+	<!--  Day 1 -->
+
+	<group id="G-1">
+		<groupmember registration_id="C-1" role="owner"/>
+		<groupmember registration_id="C-2" role="scorrer"/>
+		<groupmember registration_id="C-3" role="scorrer"/>
+		<groupmember registration_id="C-4" role="member"/>
+	</group>
+
+	<group id="G-2">
+		<groupmember registration_id="C-5" role="owner"/>
+		<groupmember registration_id="C-6" role="scorrer"/>
+		<groupmember registration_id="C-7" role="scorrer"/>
+		<groupmember registration_id="C-8" role="member"/>
+	</group>
+
+	<!--  Competitor & Score -->
+
+	<competitor registration_id="C-1" fname="Hossein" lname="Jafari">
+		<scorecard scorecard_id="S-1">
+			<scorecard_entry entry_number="E-1" score="88" target-id="T-1"/>
+			<scorecard_entry entry_number="E-2" score="164" target-id="T-2"/>
+			<scorecard_entry entry_number="E-3" score="177" target-id="T-3"/>
+			<scorecard_entry entry_number="E-4" score="64" target-id="T-4"/>
+			<scorecard_entry entry_number="E-5" score="127" target-id="T-5"/>
+			<scorecard_entry entry_number="E-6" score="183" target-id="T-6"/>
+			<scorecard_entry entry_number="E-7" score="195" target-id="T-7"/>
+			<scorecard_entry entry_number="E-8" score="35" target-id="T-8"/>
+			<scorecard_entry entry_number="E-9" score="99" target-id="T-9"/>
+			<scorecard_entry entry_number="E-10" score="125" target-id="T-10"/>
+		</scorecard>
+	</competitor>
+
+	<competitor registration_id="C-2" fname="Dominik" lname="Roth">
+		<scorecard scorecard_id="S-2">
+			<scorecard_entry entry_number="E-11" score="20" target-id="T-1"/>
+			<scorecard_entry entry_number="E-12" score="84" target-id="T-2"/>
+			<scorecard_entry entry_number="E-13" score="184" target-id="T-3"/>
+			<scorecard_entry entry_number="E-14" score="80" target-id="T-4"/>
+			<scorecard_entry entry_number="E-15" score="180" target-id="T-5"/>
+			<scorecard_entry entry_number="E-16" score="188" target-id="T-6"/>
+			<scorecard_entry entry_number="E-17" score="157" target-id="T-7"/>
+			<scorecard_entry entry_number="E-18" score="178" target-id="T-8"/>
+			<scorecard_entry entry_number="E-19" score="97" target-id="T-9"/>
+			<scorecard_entry entry_number="E-20" score="170" target-id="T-10"/>
+		</scorecard>
+	</competitor>
+
+	<competitor registration_id="C-3" fname="Marc" lname="Niernberger">
+		<scorecard scorecard_id="S-3">
+			<scorecard_entry entry_number="E-21" score="161" target-id="T-1"/>
+			<scorecard_entry entry_number="E-22" score="109" target-id="T-2"/>
+			<scorecard_entry entry_number="E-23" score="96" target-id="T-3"/>
+			<scorecard_entry entry_number="E-24" score="69" target-id="T-4"/>
+			<scorecard_entry entry_number="E-25" score="178" target-id="T-5"/>
+			<scorecard_entry entry_number="E-26" score="85" target-id="T-6"/>
+			<scorecard_entry entry_number="E-27" score="42" target-id="T-7"/>
+			<scorecard_entry entry_number="E-28" score="29" target-id="T-8"/>
+			<scorecard_entry entry_number="E-29" score="76" target-id="T-9"/>
+			<scorecard_entry entry_number="E-30" score="50" target-id="T-10"/>
+		</scorecard>
+	</competitor>
+
+	<competitor registration_id="C-4" fname="Peter" lname="Reiter">
+		<scorecard scorecard_id="S-4">
+			<scorecard_entry entry_number="E-31" score="155" target-id="T-1"/>
+			<scorecard_entry entry_number="E-32" score="158" target-id="T-2"/>
+			<scorecard_entry entry_number="E-33" score="79" target-id="T-3"/>
+			<scorecard_entry entry_number="E-34" score="171" target-id="T-4"/>
+			<scorecard_entry entry_number="E-35" score="177" target-id="T-5"/>
+			<scorecard_entry entry_number="E-36" score="182" target-id="T-6"/>
+			<scorecard_entry entry_number="E-37" score="125" target-id="T-7"/>
+			<scorecard_entry entry_number="E-38" score="173" target-id="T-8"/>
+			<scorecard_entry entry_number="E-39" score="102" target-id="T-9"/>
+			<scorecard_entry entry_number="E-40" score="162" target-id="T-10"/>
+		</scorecard>
+	</competitor>
+
+	<competitor registration_id="C-5" fname="Lulu" lname="Hammelbach">
+		<scorecard scorecard_id="S-5">
+			<scorecard_entry entry_number="E-41" score="172" target-id="T-11"/>
+			<scorecard_entry entry_number="E-42" score="180" target-id="T-12"/>
+			<scorecard_entry entry_number="E-43" score="92" target-id="T-13"/>
+			<scorecard_entry entry_number="E-44" score="44" target-id="T-14"/>
+			<scorecard_entry entry_number="E-45" score="174" target-id="T-15"/>
+			<scorecard_entry entry_number="E-46" score="189" target-id="T-16"/>
+			<scorecard_entry entry_number="E-47" score="176" target-id="T-17"/>
+			<scorecard_entry entry_number="E-48" score="100" target-id="T-18"/>
+			<scorecard_entry entry_number="E-49" score="147" target-id="T-19"/>
+			<scorecard_entry entry_number="E-50" score="53" target-id="T-20"/>
+		</scorecard>
+	</competitor>
+
+	<competitor registration_id="C-6" fname="Franz" lname="Lautern">
+		<scorecard scorecard_id="S-6">
+			<scorecard_entry entry_number="E-51" score="16" target-id="T-11"/>
+			<scorecard_entry entry_number="E-52" score="190" target-id="T-12"/>
+			<scorecard_entry entry_number="E-53" score="107" target-id="T-13"/>
+			<scorecard_entry entry_number="E-54" score="19" target-id="T-14"/>
+			<scorecard_entry entry_number="E-55" score="131" target-id="T-15"/>
+			<scorecard_entry entry_number="E-56" score="125" target-id="T-16"/>
+			<scorecard_entry entry_number="E-57" score="16" target-id="T-17"/>
+			<scorecard_entry entry_number="E-58" score="27" target-id="T-18"/>
+			<scorecard_entry entry_number="E-59" score="109" target-id="T-19"/>
+			<scorecard_entry entry_number="E-60" score="134" target-id="T-20"/>
+		</scorecard>
+	</competitor>
+
+	<competitor registration_id="C-7" fname="Uli" lname="Groß">
+		<scorecard scorecard_id="S-7">
+			<scorecard_entry entry_number="E-61" score="200" target-id="T-11"/>
+			<scorecard_entry entry_number="E-62" score="78" target-id="T-12"/>
+			<scorecard_entry entry_number="E-63" score="47" target-id="T-13"/>
+			<scorecard_entry entry_number="E-64" score="165" target-id="T-14"/>
+			<scorecard_entry entry_number="E-65" score="148" target-id="T-15"/>
+			<scorecard_entry entry_number="E-66" score="143" target-id="T-16"/>
+			<scorecard_entry entry_number="E-67" score="174" target-id="T-17"/>
+			<scorecard_entry entry_number="E-68" score="44" target-id="T-18"/>
+			<scorecard_entry entry_number="E-69" score="48" target-id="T-19"/>
+			<scorecard_entry entry_number="E-70" score="116" target-id="T-20"/>
+		</scorecard>
+	</competitor>
+
+	<competitor registration_id="C-8" fname="Otto" lname="Schuster">
+		<scorecard scorecard_id="S-8">
+			<scorecard_entry entry_number="E-71" score="52" target-id="T-11"/>
+			<scorecard_entry entry_number="E-72" score="116" target-id="T-12"/>
+			<scorecard_entry entry_number="E-73" score="54" target-id="T-13"/>
+			<scorecard_entry entry_number="E-74" score="184" target-id="T-14"/>
+			<scorecard_entry entry_number="E-75" score="144" target-id="T-15"/>
+			<scorecard_entry entry_number="E-76" score="142" target-id="T-16"/>
+			<scorecard_entry entry_number="E-77" score="151" target-id="T-17"/>
+			<scorecard_entry entry_number="E-78" score="45" target-id="T-18"/>
+			<scorecard_entry entry_number="E-79" score="72" target-id="T-19"/>
+			<scorecard_entry entry_number="E-80" score="62" target-id="T-20"/>
+		</scorecard>
+	</competitor>
+
+
+	<!-- Round -->
+
+	<round id="R-1" datum="10.01.2021" style="hunter">
+		<parcour id="P-1">
+			<target id="T-1" size="70"/>
+			<target id="T-2" size="75"/>
+			<target id="T-3" size="70"/>
+			<target id="T-4" size="72"/>
+			<target id="T-5" size="46"/>
+			<target id="T-6" size="32"/>
+			<target id="T-7" size="86"/>
+			<target id="T-8" size="42"/>
+			<target id="T-9" size="69"/>
+			<target id="T-10" size="96"/>
+		</parcour>
+		<parcour id="P-2">
+			<target id="T-11" size="37"/>
+			<target id="T-12" size="92"/>
+			<target id="T-13" size="55"/>
+			<target id="T-14" size="100"/>
+			<target id="T-15" size="52"/>
+			<target id="T-16" size="42"/>
+			<target id="T-17" size="93"/>
+			<target id="T-18" size="54"/>
+			<target id="T-19" size="66"/>
+			<target id="T-20" size="49"/>
+		</parcour>
+	</round>
+</wfac>
