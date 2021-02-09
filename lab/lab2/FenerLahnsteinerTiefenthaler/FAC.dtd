@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT FAC (division+, group+, scorecard+, round, round, round)>
+
+<!ELEMENT division (competitor)*>
+<!ATTLIST division
+division_code ID #REQUIRED
+division_name CDATA #REQUIRED
+style_code CDATA #REQUIRED
+style_name CDATA #REQUIRED
+age_from CDATA #REQUIRED
+age_to CDATA #REQUIRED
+level CDATA #REQUIRED
+pro_or_amateur CDATA #REQUIRED
+>
+
+
+
+<!ELEMENT competitor EMPTY>
+<!ATTLIST competitor
+competitor_id ID #REQUIRED
+fname CDATA #REQUIRED
+lname CDATA #REQUIRED
+nationality CDATA #REQUIRED
+>
+
+
+
+<!ELEMENT group (shoots_at)+>
+<!ATTLIST group
+group_id ID #REQUIRED
+captain IDREF #REQUIRED
+scorer_1 IDREF #REQUIRED
+scorer_2 IDREF #REQUIRED
+shooter_1 IDREF #REQUIRED
+shooter_2 IDREF #REQUIRED
+shooter_3 IDREF #REQUIRED
+>
+
+
+
+<!ELEMENT shoots_at EMPTY>
+<!ATTLIST shoots_at
+target_number IDREF #REQUIRED
+round_name CDATA #REQUIRED
+>
+
+
+
+<!ELEMENT target EMPTY>
+<!ATTLIST target
+target_number ID #REQUIRED
+size_of_face CDATA #REQUIRED
+veterans_distance CDATA #REQUIRED
+adults_distance CDATA #REQUIRED
+youngadults_distance CDATA #REQUIRED
+junior_distance CDATA #REQUIRED
+cub_distance CDATA #REQUIRED
+>
+
+
+
+<!ELEMENT scorecard (score-group)+>
+<!ATTLIST scorecard
+scorecard_id ID #REQUIRED
+competitor_id IDREF #REQUIRED
+>
+
+<!ELEMENT score-group (score)+>
+<!ATTLIST score-group	round_id	IDREF	#REQUIRED
+>
+
+<!ELEMENT score EMPTY>
+<!ATTLIST score	target_number	IDREF	#REQUIRED
+				score			CDATA	#REQUIRED
+>
+
+<!ELEMENT round (target)+>
+<!ATTLIST round	round_id	ID						#REQUIRED
+				name 		(Animal|Hunter|Field)	#REQUIRED
+
+>
