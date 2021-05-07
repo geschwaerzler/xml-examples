@@ -17,7 +17,7 @@ published in: An Introduction to XML and Web Technologies, Addison-Wesley, Janua
   <!-- Beef Parmesan with Garlic Angel Hair Pasta -->
   <recipe nr-of-persons="2" author-id="ges">
     <title>Beef Parmesan with Garlic Angel Hair Pasta</title>
-    <image>http://images.media-allrecipes.com/userphotos/140x140/00/30/25/302555.jpg</image>
+    <image>http://wegottaeat.com/conedog726/recipes/107429/photo</image>
     
     <ingredient name="beef cube steak" amount="1.5" unit="pound"/>
     <ingredient name="onion, sliced into thin rings" amount="1"/>
@@ -241,7 +241,7 @@ published in: An Introduction to XML and Web Technologies, Addison-Wesley, Janua
   <!-- Cailles en Sarcophages -->
   <recipe>
     <title>Cailles en Sarcophages</title>
-    <image>http://m2.paperblog.com/i/97/975808/cailles-en-sarcophage-L-5qXOtT.jpeg</image>
+    <image>https://i.pinimg.com/originals/76/bd/00/76bd0007262f7936814a42bf91eda9d5.jpg</image>
     
     <ingredient name="pastry">
       <ingredient name="chilled unsalted butter" amount="15" unit="ounce"/>
