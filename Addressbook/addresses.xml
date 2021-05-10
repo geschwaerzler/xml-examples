@@ -17,8 +17,8 @@
 			<zip>6850</zip>
 			<city>Dornbirn</city>
 		</address>
-		<phone type="landline">05574 43792</phone>
-		<phone type="mobile">0676 500 00 00</phone>
+		<phone id ="a1" type="landline">05574 43792</phone>
+		<phone type="mobile" id ="a2">0676 500 00 00</phone>
 		<e-mail>gerhard@fachhochschule.at</e-mail>
 	</person>
 	

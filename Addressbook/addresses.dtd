@@ -15,6 +15,10 @@
 <!ELEMENT city (#PCDATA)>
 
 <!ELEMENT phone (#PCDATA)>
-<!ATTLIST phone type (landline | mobile) #REQUIRED>
+<!ATTLIST phone
+  type (landline | mobile) #REQUIRED
+  id CDATA #REQUIRED
+>
+
 
 <!ELEMENT e-mail (#PCDATA)>

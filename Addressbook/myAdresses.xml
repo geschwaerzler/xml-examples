@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<address-book>
+
+	<person>
+		<firstname>Gerhard</firstname>
+		<lastname>Schwärzler</lastname>
+		<address type="home">
+			<street>Rathausstraße 2</street>
+			<zip>6900</zip>
+			<city>Bregenz</city>
+		</address>
+		<address type="work">
+			<street>Hochschulstraße 1</street>
+			<zip>6850</zip>
+			<city>Dornbirn</city>
+		</address>
+	</person>
+	
+	<person lastname="Schwärzler" firstname="Paul">
+		<firstname>Paul</firstname>
+		<lastname>Schwärzler</lastname>
+		<address>
+			<street>Rathausstraße 2</street>
+			<zip>6900</zip>
+			<city>Bregenz</city>
+		</address>
+	</person>
+	
+	<company>
+		<name>nu Datenautomaten GmbH</name>
+		<address>
+			<street>Rathausstraße 2</street>
+			<zip>6900</zip>
+			<city>Bregenz</city>
+		</address>
+		<uid>ATU8778787</uid>		
+	</company>
+</address-book>
