@@ -1,92 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-This DTD defines a XML vocabulary, which persists data for the
-"car rental" example of this course. 
--->
-<!ELEMENT car-rental (stadt*, autokategorie*, auto*, kunde*)>
+<!ELEMENT car-rental (stadt+, autokategorie+, auto*, kunde*)>
 
-<!ELEMENT stadt (vermiet-station)*>
+<!ELEMENT stadt (vermiet-station*)>
 <!ATTLIST stadt
-	stadtcode 				ID #REQUIRED
-	name 					CDATA #REQUIRED
-	einwohner_anzahl 		CDATA #REQUIRED
+	stadtcode 	CDATA #REQUIRED
+	name		CDATA #REQUIRED
+	einwohner_anzahl	CDATA #REQUIRED
 >
+
+<!ELEMENT autokategorie EMPTY>
+<!ELEMENT auto EMPTY>
+<!ELEMENT kunde EMPTY>
 
 <!ELEMENT vermiet-station EMPTY>
-<!--
-Since XML doesn't support composite keys, we introduce a
-simple, surrogate primary key "id".
-The attributes geoeffnet_von and geoeffnet_bis are missing in the
-relational model and are introduced to demonstrate time-literals. 
--->
 <!ATTLIST vermiet-station
-	id 						ID #REQUIRED
-	stations_name 			CDATA #REQUIRED
-	adresse					CDATA #REQUIRED
-	mitarbeiter_anzahl		CDATA #REQUIRED
-	geoeffnet_von			CDATA #IMPLIED
-	geoeffnet_bis			CDATA #IMPLIED
+	id					ID		#REQUIRED
+	stations_name		CDATA	#REQUIRED
+	adresse				CDATA	#REQUIRED
+	mitarbeiter_anzahl	CDATA	#REQUIRED
+	geoeffnet_von		CDATA	#IMPLIED
+	geoeffnet_bis		CDATA	#IMPLIED
 >
 
-<!ELEMENT autokategorie (autotyp)*>
-<!ATTLIST autokategorie
-	kategorie_bezeichnung 	ID #REQUIRED
-	grundtarif 				CDATA #REQUIRED
-	km_preis 				CDATA #REQUIRED
->
-
-<!ELEMENT autotyp (extraausstattung)*>
-<!--
-We don't want to limit typ_bezeichnung to XML-names,
-therefore we introduce a simple, surrogate id.
--->
-<!ATTLIST autotyp
-	id						ID #REQUIRED
-	typ_bezeichnung			CDATA #REQUIRED
-	benzinverbrauch			CDATA #REQUIRED
->
-
-<!ELEMENT extraausstattung EMPTY>
-<!ATTLIST extraausstattung
-	id						ID #REQUIRED
-	extras_bezeichnung		CDATA #REQUIRED
-	aufpreis					CDATA #REQUIRED
->
-
-<!ELEMENT auto (verfuegt_ueber)*>
+<!ELEMENT auto EMPTY>
 <!ATTLIST auto
-	kennzeichen				ID #REQUIRED
-	autotyp-id				IDREF #REQUIRED
-	vermiet-station-id		IDREF #REQUIRED
-	km_stand					CDATA #REQUIRED
-	farbe					CDATA #REQUIRED
-	image					CDATA #IMPLIED
->
-
-<!ELEMENT verfuegt_ueber EMPTY>
-<!ATTLIST verfuegt_ueber
-	extraausstattung-id		IDREF #REQUIRED
->
-
-<!ELEMENT kunde (reservierung)*>
-<!ATTLIST kunde
-	fuehrerschein_nummer 	ID #REQUIRED
-	kunde_name 				CDATA #REQUIRED
-	anschrift 				CDATA #REQUIRED
->
-
-<!ELEMENT reservierung (mietvertrag?)>
-<!ATTLIST reservierung
-	vermiet-station-id 		IDREF #REQUIRED
-    reservierungs_nr  		CDATA #REQUIRED
-    anfangsdatum				CDATA #REQUIRED
-    enddatum					CDATA #REQUIRED
-    kategorie_bezeichnung	IDREF #REQUIRED
->
-
-<!ELEMENT mietvertrag EMPTY>
-<!ATTLIST mietvertrag
-	kennzeichen				IDREF #REQUIRED
-	km_stand_uebergabe		CDATA #REQUIRED
-	km_stand_rueckgabe		CDATA #IMPLIED
+	kennzeichen			ID		#REQUIRED
+	km_stand			CDATA	#REQUIRED
+	vermiet-station-id	IDREF	#REQUIRED
 >

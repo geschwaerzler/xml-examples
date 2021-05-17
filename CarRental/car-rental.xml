@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<car-rental>
+
+	<stadt stadtcode="B__" name="Bregenz" einwohner_anzahl="30000">
+		<vermietstation stations_name="Leutbühel" adresse="Leutbühel 1" mitarbeiter_anzahl="1"/>
+		<vermietstation stations_name="Vorkloster" adresse="Achstraße 1" mitarbeiter_anzahl="2"/>
+	</stadt>
+	
+	<stadt stadtcode="DO_" name="Dornbirn" einwohner_anzahl="45000" />
+	<stadt stadtcode="FK_" name="Feldkirch" einwohner_anzahl="29000" />
+	
+
+</car-rental>
