@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tournament SYSTEM "tournaments.dtd">
+
+<tournament name="FH Archery Open 2021">
+
+	<group nr="1">
+		<athlete id="a-1" firstname="Gerhard" lastname="Schwärzler" club="AC Bregenz"/>
+		<athlete id="a-2" firstname="Paul" lastname="Schwärzler" club="AC Bregenz"/>
+		
+		<round nr="1" date="2021-06-21">
+			<scores athlete-id="a-1">
+				<target-score target-nr="1">
+					<score arraow-nr="1" score="10"/>
+					<score arraow-nr="2" score="9"/>
+					<score arraow-nr="3" score="0"/>
+					<score arraow-nr="4" score="12"/>
+				</target-score>
+				<target-score target-nr="2">
+					<score arraow-nr="1" score="10"/>
+					<score arraow-nr="2" score="9"/>
+					<score arraow-nr="3" score="0"/>
+					<score arraow-nr="4" score="12"/>
+				</target-score>
+			</scores>
+			
+		</round>
+
+		<round nr="1" date="2021-06-22">
+		</round>
+
+	</group>
+	
+	<group nr="2">
+	</group>
+
+</tournament>

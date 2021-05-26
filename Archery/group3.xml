@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tournament SYSTEM "group3.dtd" >
+<tournament name="FH Vorarlberg Archery Open 2021">
+
+	<group nr="1">
+		<athlete id="a1" firstanem="Gerhard" lastname="Schwärzler"/>
+		<athlete id="a2" firstanem="Paul" lastname="Schwärzler"/>
+		
+		<round nr="1" date="2020-06-21">
+			<athlete-scoring athlete-id="a1">
+				<target nr="A">
+					<score arrow="1" points="10"/>
+					<score arrow="2" points="12"/>
+				</target>
+				<target nr="B">
+					<score arrow="1" points="10"/>
+					<score arrow="2" points="2"/>
+					<score arrow="3" points="12"/>
+				</target>
+			</athlete-scoring>
+		</round>
+	</group>
+
+	<group nr="2">
+		<athlete firstanem="Gerhard" lastname="Müller"/>
+		<athlete firstanem="Paul" lastname="Müller"/>
+	</group>
+
+</tournament>

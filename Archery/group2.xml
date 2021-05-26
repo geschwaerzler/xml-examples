@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tournament SYSTEM "group2.dtd">
+
+<tournament name="FH Dornbirn Archery Open 2021">
+
+	<group nr="1">
+		<athlete id="a-1" firstname="Gerhard" lastname="Schwärzler" club="AC Bregenz"/>
+		<athlete id="a-2" firstname="Paul" lastname="Schwärzler" club="AC Bregenz"/>
+		
+		<round nr="1" date="2021-06-19">
+			<score-card athlete-id="a-1">
+				<target nr="1">
+					<score arrow-nr="1" points="5"/>
+					<score arrow-nr="2" points="12"/>
+				</target>
+				<target nr="2">
+					<score arrow-nr="1" points="1"/>
+					<score arrow-nr="2" points="2"/>
+					<score arrow-nr="3" points="12"/>
+				</target>
+			</score-card>
+		</round>
+		<round nr="2" date="2021-06-20">
+			<score-card athlete-id="a-1">
+				<target nr="1">
+					<score arrow-nr="1" points="5"/>
+					<score arrow-nr="2" points="12"/>
+				</target>
+				<target nr="2">
+					<score arrow-nr="1" points="1"/>
+					<score arrow-nr="2" points="2"/>
+					<score arrow-nr="3" points="12"/>
+				</target>
+			</score-card>
+		</round>
+	</group>
+
+
+	<group nr="2">
+	
+	</group>
+
+</tournament>
