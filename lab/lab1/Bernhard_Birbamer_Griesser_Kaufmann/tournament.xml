@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tournament SYSTEM "tournament.dtd">
+
+<tournament name="FH Open 2021">
+
+	<division id="D1" category="1" minage="20" maxage="30"/>
+	<division id="D2" category="2" minage="20" maxage="30"/>
+
+	<participant regno="P1" fname="Lukas" lname="Kaufmann" age="25" dev-id="D1" age-class="AGE1">
+		<shooting-style bowtype="longbow"/>
+		<shooting-style bowtype="compound"/>
+		<gender gender="m"/>
+		
+		<match event-id="E-1">
+			<scoring>
+				<table target-id="T-1">
+					<arrow arrow-nr="1" points="7" />
+					<arrow arrow-nr="2" points="10" />
+					<arrow arrow-nr="3" points="4" />
+					<arrow arrow-nr="4" points="6" />
+					<arrow arrow-nr="5" points="9" />
+					<arrow arrow-nr="6" points="9" />
+				</table>
+				<table target-id="T-2">
+					<arrow arrow-nr="1" points="8" />
+					<arrow arrow-nr="2" points="9" />
+					<arrow arrow-nr="3" points="7" />
+					<arrow arrow-nr="4" points="6" />
+					<arrow arrow-nr="5" points="5" />
+					<arrow arrow-nr="6" points="10" />
+				</table>
+			</scoring>
+		</match>
+		
+		<match event-id="E-2">
+			<scoring>
+				<table target-id="T-1">
+					<arrow arrow-nr="1" points="7" />
+					<arrow arrow-nr="2" points="10" />
+					<arrow arrow-nr="3" points="4" />
+					<arrow arrow-nr="4" points="6" />
+					<arrow arrow-nr="5" points="9" />
+					<arrow arrow-nr="6" points="9" />
+				</table>
+				<table target-id="T-2">
+					<arrow arrow-nr="1" points="8" />
+					<arrow arrow-nr="2" points="9" />
+					<arrow arrow-nr="3" points="7" />
+					<arrow arrow-nr="4" points="6" />
+					<arrow arrow-nr="5" points="5" />
+					<arrow arrow-nr="6" points="10" />
+				</table>
+			</scoring>
+		</match>
+	</participant>
+	
+	<participant regno="P2" fname="Pierre" lname="Gröber" age="23" dev-id="D2" age-class="AGE1">
+		<shooting-style bowtype="recurve"/>
+		<gender gender="m"/>
+		
+		<match event-id="E-1">
+			<scoring>
+				<table target-id="T-1">
+					<arrow arrow-nr="1" points="7" />
+					<arrow arrow-nr="2" points="10" />
+					<arrow arrow-nr="3" points="4" />
+					<arrow arrow-nr="4" points="6" />
+					<arrow arrow-nr="5" points="9" />
+					<arrow arrow-nr="6" points="9" />
+				</table>
+				<table target-id="T-2">
+					<arrow arrow-nr="1" points="8" />
+					<arrow arrow-nr="2" points="9" />
+					<arrow arrow-nr="3" points="7" />
+					<arrow arrow-nr="4" points="6" />
+					<arrow arrow-nr="5" points="5" />
+					<arrow arrow-nr="6" points="10" />
+				</table>
+			</scoring>
+		</match>
+		
+		<match event-id="E-2">
+			<scoring>
+				<table target-id="T-1">
+					<arrow arrow-nr="1" points="7" />
+					<arrow arrow-nr="2" points="10" />
+					<arrow arrow-nr="3" points="4" />
+					<arrow arrow-nr="4" points="6" />
+					<arrow arrow-nr="5" points="9" />
+					<arrow arrow-nr="6" points="9" />
+				</table>
+				<table target-id="T-2">
+					<arrow arrow-nr="1" points="8" />
+					<arrow arrow-nr="2" points="9" />
+					<arrow arrow-nr="3" points="7" />
+					<arrow arrow-nr="4" points="6" />
+					<arrow arrow-nr="5" points="5" />
+					<arrow arrow-nr="6" points="10" />
+				</table>
+			</scoring>
+		</match>
+	</participant>
+	
+	<participant regno="P3" fname="Dario" lname="Birbamer" age="21" dev-id="D2" age-class="AGE1">
+		<shooting-style bowtype="recurve"/>
+		<gender gender="m"/>
+		
+		<match event-id="E-1">
+			<scoring>
+				<table target-id="T-1">
+					<arrow arrow-nr="1" points="7" />
+					<arrow arrow-nr="2" points="10" />
+					<arrow arrow-nr="3" points="4" />
+					<arrow arrow-nr="4" points="6" />
+					<arrow arrow-nr="5" points="9" />
+					<arrow arrow-nr="6" points="9" />
+				</table>
+				<table target-id="T-2">
+					<arrow arrow-nr="1" points="8" />
+					<arrow arrow-nr="2" points="9" />
+					<arrow arrow-nr="3" points="7" />
+					<arrow arrow-nr="4" points="6" />
+					<arrow arrow-nr="5" points="5" />
+					<arrow arrow-nr="6" points="10" />
+				</table>
+			</scoring>
+		</match>
+		
+		<match event-id="E-2">
+			<scoring>
+				<table target-id="T-1">
+					<arrow arrow-nr="1" points="7" />
+					<arrow arrow-nr="2" points="10" />
+					<arrow arrow-nr="3" points="4" />
+					<arrow arrow-nr="4" points="6" />
+					<arrow arrow-nr="5" points="9" />
+					<arrow arrow-nr="6" points="9" />
+				</table>
+				<table target-id="T-2">
+					<arrow arrow-nr="1" points="8" />
+					<arrow arrow-nr="2" points="9" />
+					<arrow arrow-nr="3" points="7" />
+					<arrow arrow-nr="4" points="6" />
+					<arrow arrow-nr="5" points="5" />
+					<arrow arrow-nr="6" points="10" />
+				</table>
+			</scoring>
+		</match>
+	</participant>
+	
+	<participant regno="P4" fname="Julian" lname="Grießer" age="21" dev-id="D1" age-class="AGE1">
+		<shooting-style bowtype="recurve"/>
+		<gender gender="m"/>
+		
+		<match event-id="E-1">
+			<scoring>
+				<table target-id="T-1">
+					<arrow arrow-nr="1" points="7" />
+					<arrow arrow-nr="2" points="10" />
+					<arrow arrow-nr="3" points="4" />
+					<arrow arrow-nr="4" points="6" />
+					<arrow arrow-nr="5" points="9" />
+					<arrow arrow-nr="6" points="9" />
+				</table>
+				<table target-id="T-2">
+					<arrow arrow-nr="1" points="8" />
+					<arrow arrow-nr="2" points="9" />
+					<arrow arrow-nr="3" points="7" />
+					<arrow arrow-nr="4" points="6" />
+					<arrow arrow-nr="5" points="5" />
+					<arrow arrow-nr="6" points="10" />
+				</table>
+			</scoring>
+		</match>
+		
+		<match event-id="E-2">
+			<scoring>
+				<table target-id="T-1">
+					<arrow arrow-nr="1" points="7" />
+					<arrow arrow-nr="2" points="10" />
+					<arrow arrow-nr="3" points="4" />
+					<arrow arrow-nr="4" points="6" />
+					<arrow arrow-nr="5" points="9" />
+					<arrow arrow-nr="6" points="9" />
+				</table>
+				<table target-id="T-2">
+					<arrow arrow-nr="1" points="8" />
+					<arrow arrow-nr="2" points="9" />
+					<arrow arrow-nr="3" points="7" />
+					<arrow arrow-nr="4" points="6" />
+					<arrow arrow-nr="5" points="5" />
+					<arrow arrow-nr="6" points="10" />
+				</table>
+			</scoring>
+		</match>
+	</participant>
+	
+	<participant regno="P5" fname="Adrian" lname="Bernhard" age="22" dev-id="D1" age-class="AGE1">
+		<shooting-style bowtype="recurve"/>
+		<gender gender="m"/>
+		
+		<match event-id="E-1">
+			<scoring>
+				<table target-id="T-1">
+					<arrow arrow-nr="1" points="7" />
+					<arrow arrow-nr="2" points="10" />
+					<arrow arrow-nr="3" points="4" />
+					<arrow arrow-nr="4" points="6" />
+					<arrow arrow-nr="5" points="9" />
+					<arrow arrow-nr="6" points="9" />
+				</table>
+				<table target-id="T-2">
+					<arrow arrow-nr="1" points="8" />
+					<arrow arrow-nr="2" points="9" />
+					<arrow arrow-nr="3" points="7" />
+					<arrow arrow-nr="4" points="6" />
+					<arrow arrow-nr="5" points="5" />
+					<arrow arrow-nr="6" points="10" />
+				</table>
+			</scoring>
+		</match>
+		
+		<match event-id="E-2">
+			<scoring>
+				<table target-id="T-1">
+					<arrow arrow-nr="1" points="7" />
+					<arrow arrow-nr="2" points="10" />
+					<arrow arrow-nr="3" points="4" />
+					<arrow arrow-nr="4" points="6" />
+					<arrow arrow-nr="5" points="9" />
+					<arrow arrow-nr="6" points="9" />
+				</table>
+				<table target-id="T-2">
+					<arrow arrow-nr="1" points="8" />
+					<arrow arrow-nr="2" points="9" />
+					<arrow arrow-nr="3" points="7" />
+					<arrow arrow-nr="4" points="6" />
+					<arrow arrow-nr="5" points="5" />
+					<arrow arrow-nr="6" points="10" />
+				</table>
+			</scoring>
+		</match>
+	</participant>
+	
+	<waitlist regno="W4" date="2020-12-12"/>
+	
+	<event id="E-1" date="2021-05-26" comment="">
+		<place place-id="PL1" address="Hard"/>
+	</event>
+
+	<event id="E-2" date="2021-05-27" comment="">
+		<place place-id="PL2" address="Dornbirn"/>
+	</event>
+
+	<target id="T-1"/>
+	<target id="T-2"/>
+
+	<age-class age-class-id="AGE1" minage="20" maxage="30"/>
+
+</tournament>

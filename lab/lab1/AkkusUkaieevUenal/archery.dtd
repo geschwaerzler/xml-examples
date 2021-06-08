@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT Aufbau (team+)>
+<!ATTLIST Aufbau bezeichnung CDATA #REQUIRED>
+
+<!ELEMENT team (Team-Member+, station)>
+<!ATTLIST team nr CDATA #REQUIRED>
+
+<!ELEMENT Team-Member (#PCDATA)>
+<!ATTLIST Team-Member id CDATA #REQUIRED>
+<!ATTLIST Team-Member firstname CDATA #REQUIRED>
+<!ATTLIST Team-Member lastname CDATA #REQUIRED>
+
+<!ELEMENT station (ziel+)>
+<!ATTLIST station nr CDATA #REQUIRED>
+<!ATTLIST station position CDATA #REQUIRED>
+
+<!ELEMENT ziel (zieltyp, schuss-pos)>
+<!ATTLIST ziel nr CDATA #REQUIRED>
+
+<!ELEMENT zieltyp (#PCDATA)>
+<!ATTLIST zieltyp größe CDATA #REQUIRED>
+
+<!ELEMENT schuss-pos (#PCDATA)>
+<!ATTLIST schuss-pos distanz (25 | 50 | 75 | 100) #REQUIRED>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT archery-tournament (division*,athlete*,rule*,tournament*)>
+
+<!ELEMENT division EMPTY>
+<!ATTLIST division
+	code			ID		#REQUIRED
+	shooting-style	CDATA	#REQUIRED
+	age-class		CDATA	#REQUIRED
+	gender			CDATA	#REQUIRED
+>
+
+<!ELEMENT athlete EMPTY>
+<!ATTLIST athlete
+	id				ID		#REQUIRED
+	firstname		CDATA	#REQUIRED
+	lastname		CDATA	#REQUIRED
+	adress			CDATA	#REQUIRED
+	email			CDATA	#REQUIRED
+>
+
+<!ELEMENT rule (#PCDATA)>
+<!ATTLIST rule
+	id		ID		#REQUIRED
+>
+
+<!ELEMENT tournament (application-approval?,application-approval?,event*)>
+<!ATTLIST tournament
+	name			CDATA	#REQUIRED
+	year			CDATA	#REQUIRED
+	location		CDATA	#IMPLIED
+>
+
+<!ELEMENT application-approval (application-payment?,application-payment?)>
+<!ATTLIST application-approval approved	(0|1) #REQUIRED>
+
+<!ELEMENT application-payment (application*)>
+<!ATTLIST application-payment payment-received	(0|1) #REQUIRED>
+
+<!ELEMENT application EMPTY>
+<!ATTLIST application
+	athlete-id			IDREF	#REQUIRED
+	division-code		IDREF	#REQUIRED
+	application-date	CDATA	#REQUIRED
+>
+
+<!ELEMENT event (participation*)>
+<!ATTLIST event
+	rule-id			IDREF	#IMPLIED
+	title			CDATA	#REQUIRED
+	time			CDATA	#IMPLIED
+	duration		CDATA	#IMPLIED
+	location		CDATA	#IMPLIED
+>
+
+<!ELEMENT participation (score*)>
+<!ATTLIST participation athlete-id IDREF #REQUIRED>
+
+<!ELEMENT score (arrow,arrow?,arrow?,arrow?)>
+
+<!ELEMENT arrow (#PCDATA)>

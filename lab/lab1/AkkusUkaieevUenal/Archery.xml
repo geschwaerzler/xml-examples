@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Aufbau SYSTEM "archery.dtd">
+
+<Aufbau bezeichnung="FH Dornbirn Archery Open 2021">
+	<team nr = "t-1">
+		<Team-Member id="m-1" firstname = "Abdul-Halim" lastname = "Ukaiev"/>
+		<Team-Member id="m-2" firstname = "Batuhan" lastname = "Akkus" />
+		<Team-Member id="m-3" firstname = "Said" lastname = "Ünal" />
+		
+		<station nr ="s-1" position="Nord">
+			<ziel nr = "z-1">
+				<zieltyp größe="Durchmesser 100cm"/>
+				<schuss-pos distanz = "25"/>
+			</ziel>
+			
+			<ziel nr = "z-2">
+				<zieltyp größe="Durchmesser 100cm"/>
+				<schuss-pos distanz = "50"/>
+			</ziel>
+			
+			<ziel nr = "z-3">
+				<zieltyp größe="Durchmesser 100cm"/>
+				<schuss-pos distanz = "75"/>
+			</ziel>
+			
+			<ziel nr = "z-4">
+				<zieltyp größe="Durchmesser 100cm"/>
+				<schuss-pos distanz = "100"/>
+			</ziel>	
+		</station>
+	</team>
+	
+	<team nr = "t-2">
+		<Team-Member id = "m-4" firstname = "Erwin" lastname = "Smith"/>
+		<Team-Member id = "m-5" firstname = "Eren" lastname = "Yaeger"/>
+		<Team-Member id = "m-6" firstname = "Levi" lastname = "Ackermann"/>
+		
+		<station nr = "s-2" position = "Ost">
+			<ziel nr = "z-5">
+				<zieltyp größe="Durchmesser 100cm"/>
+				<schuss-pos distanz = "25"/>
+			</ziel>
+			
+			<ziel nr = "z-6">
+				<zieltyp größe="Durchmesser 100cm"/>
+				<schuss-pos distanz = "50"/>
+			</ziel>
+			
+			<ziel nr = "z-7">
+				<zieltyp größe="Durchmesser 100cm"/>
+				<schuss-pos distanz = "75"/>
+			</ziel>
+			
+			<ziel nr = "z-8">
+				<zieltyp größe="Durchmesser 100cm"/>
+				<schuss-pos distanz = "100"/>
+			</ziel>	
+			
+		</station>
+	</team>
+	
+	<team nr = "t-3">
+		<Team-Member id="m-7" firstname = "Walter" lastname = "White"/>
+		<Team-Member id="m-8" firstname = "Jessy" lastname = "Pinkman" />
+		<Team-Member id="m-9" firstname = "Hank" lastname = "Schrader" />
+		
+		<station nr ="s-3" position="Süd">
+			<ziel nr = "z-9">
+				<zieltyp größe="Durchmesser 100cm"/>
+				<schuss-pos distanz = "25"/>
+			</ziel>
+			
+			<ziel nr = "z-10">
+				<zieltyp größe="Durchmesser 100cm"/>
+				<schuss-pos distanz = "50"/>
+			</ziel>
+			
+			<ziel nr = "z-11">
+				<zieltyp größe="Durchmesser 100cm"/>
+				<schuss-pos distanz = "75"/>
+			</ziel>
+			
+			<ziel nr = "z-12">
+				<zieltyp größe="Durchmesser 100cm"/>
+				<schuss-pos distanz = "100"/>
+			</ziel>	
+		</station>
+	</team>
+	
+	<team nr = "t-4">
+		<Team-Member id="m-10" firstname = "Jon" lastname = "Snow"/>
+		<Team-Member id="m-11" firstname = "Khal" lastname = "Drogo" />
+		<Team-Member id="m-12" firstname = "Tyrion" lastname = "Lannister" />
+		
+		<station nr ="s-4" position="West">
+			<ziel nr = "z-10">
+				<zieltyp größe="Durchmesser 100cm"/>
+				<schuss-pos distanz = "25"/>
+			</ziel>
+			
+			<ziel nr = "z-11">
+				<zieltyp größe="Durchmesser 100cm"/>
+				<schuss-pos distanz = "50"/>
+			</ziel>
+			
+			<ziel nr = "z-12">
+				<zieltyp größe="Durchmesser 100cm"/>
+				<schuss-pos distanz = "75"/>
+			</ziel>
+			
+			<ziel nr = "z-13">
+				<zieltyp größe="Durchmesser 100cm"/>
+				<schuss-pos distanz = "100"/>
+			</ziel>	
+		</station>
+	</team>
+	
+		<team nr = "t-5">
+		<Team-Member id="m-13" firstname = "Zorro" lastname = "Roronoa"/>
+		<Team-Member id="m-14" firstname = "Rayleigh" lastname = "Silvers" />
+		<Team-Member id="m-15" firstname = "Ben" lastname = "Beckman" />
+		
+		<station nr ="s-5" position="Nord-Ost">
+			<ziel nr = "z-14">
+				<zieltyp größe="Durchmesser 100cm"/>
+				<schuss-pos distanz = "25"/>
+			</ziel>
+			
+			<ziel nr = "z-15">
+				<zieltyp größe="Durchmesser 100cm"/>
+				<schuss-pos distanz = "50"/>
+			</ziel>
+			
+			<ziel nr = "z-16">
+				<zieltyp größe="Durchmesser 100cm"/>
+				<schuss-pos distanz = "75"/>
+			</ziel>
+			
+			<ziel nr = "z-17">
+				<zieltyp größe="Durchmesser 100cm"/>
+				<schuss-pos distanz = "100"/>
+			</ziel>	
+		</station>
+	</team>
+	
+</Aufbau>

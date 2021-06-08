@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT tournament (team*)>
+<!ATTLIST tournament 
+	name			CDATA	#REQUIRED
+	location		CDATA	#REQUIRED
+	start-date		CDATA	#REQUIRED
+	end-date		CDATA	#REQUIRED>
+
+<!ELEMENT team (competitor*)>
+<!ATTLIST team
+	id				ID		#REQUIRED
+	nationality		CDATA	#REQUIRED
+	group-size		CDATA	#REQUIRED>
+
+<!ELEMENT competitor (scores*)>
+<!ATTLIST competitor
+	id				ID		#REQUIRED
+	firstname		CDATA	#REQUIRED
+	lastname		CDATA	#REQUIRED
+	year-of-birth	CDATA	#REQUIRED
+	gender			CDATA	#REQUIRED>
+
+<!ELEMENT scores (target-score*)>
+
+<!ELEMENT target-score (score*)>
+<!ATTLIST target-score
+	target-nr		CDATA	#REQUIRED>
+
+<!ELEMENT score EMPTY>
+<!ATTLIST score
+	arrow-nr		CDATA	#REQUIRED
+	score			CDATA	#REQUIRED>
+	

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tournament SYSTEM "tournaments.dtd">
+
+<tournament name="FH Archery Open 2021" location="Dornbirn" start-date="2021-07-01" end-date="2021-07-10">
+	<team id="t-1" nationality="Austria" group-size="3">
+		<competitor id="t-1_c-1" firstname="Matthias" lastname="Meier" year-of-birth="1997" gender="m">
+			<scores>
+				<target-score target-nr="1">
+					<score arrow-nr="1" score="10"/>
+					<score arrow-nr="2" score="9"/>
+					<score arrow-nr="3" score="0"/>
+					<score arrow-nr="4" score="12"/>
+				</target-score>
+				<target-score target-nr="2">
+					<score arrow-nr="1" score="10"/>
+					<score arrow-nr="2" score="9"/>
+					<score arrow-nr="3" score="0"/>
+					<score arrow-nr="4" score="12"/>
+				</target-score>
+				<target-score target-nr="3">
+					<score arrow-nr="1" score="10"/>
+					<score arrow-nr="2" score="9"/>
+					<score arrow-nr="3" score="0"/>
+					<score arrow-nr="4" score="12"/>
+				</target-score>
+				<target-score target-nr="4">
+					<score arrow-nr="1" score="10"/>
+					<score arrow-nr="2" score="9"/>
+					<score arrow-nr="3" score="0"/>
+					<score arrow-nr="4" score="12"/>
+				</target-score>
+			</scores>
+		</competitor>
+		<competitor id="t-1_c-2" firstname="Stefan" lastname="Mayer" year-of-birth="2000" gender="m">
+			<scores>
+				<target-score target-nr="1">
+					<score arrow-nr="1" score="8"/>
+					<score arrow-nr="2" score="7"/>
+					<score arrow-nr="3" score="5"/>
+					<score arrow-nr="4" score="11"/>
+				</target-score>
+				<target-score target-nr="2">
+					<score arrow-nr="1" score="8"/>
+					<score arrow-nr="2" score="7"/>
+					<score arrow-nr="3" score="5"/>
+					<score arrow-nr="4" score="11"/>
+				</target-score>
+				<target-score target-nr="3">
+					<score arrow-nr="1" score="8"/>
+					<score arrow-nr="2" score="7"/>
+					<score arrow-nr="3" score="5"/>
+					<score arrow-nr="4" score="11"/>
+				</target-score>
+				<target-score target-nr="4">
+					<score arrow-nr="1" score="8"/>
+					<score arrow-nr="2" score="7"/>
+					<score arrow-nr="3" score="5"/>
+					<score arrow-nr="4" score="11"/>
+				</target-score>
+			</scores>
+		</competitor>
+		<competitor id="t-1_c-3" firstname="Alex" lastname="Gort" year-of-birth="2001" gender="m">
+			<scores>
+				<target-score target-nr="1">
+					<score arrow-nr="1" score="12"/>
+					<score arrow-nr="2" score="12"/>
+					<score arrow-nr="3" score="12"/>
+					<score arrow-nr="4" score="12"/>
+				</target-score>
+				<target-score target-nr="2">
+					<score arrow-nr="1" score="2"/>
+					<score arrow-nr="2" score="2"/>
+					<score arrow-nr="3" score="1"/>
+					<score arrow-nr="4" score="0"/>
+				</target-score>
+				<target-score target-nr="3">
+					<score arrow-nr="1" score="5"/>
+					<score arrow-nr="2" score="5"/>
+					<score arrow-nr="3" score="5"/>
+					<score arrow-nr="4" score="5"/>
+				</target-score>
+				<target-score target-nr="4">
+					<score arrow-nr="1" score="10"/>
+					<score arrow-nr="2" score="10"/>
+					<score arrow-nr="3" score="10"/>
+					<score arrow-nr="4" score="10"/>
+				</target-score>
+			</scores>
+		</competitor>
+	</team>
+
+	<team id="t-2" nationality="Germany" group-size="2">
+		<competitor id="t-2_c-1" firstname="Hans" lastname="Müller" year-of-birth="1960" gender="m">
+			<scores>
+				<target-score target-nr="1">
+					<score arrow-nr="1" score="6"/>
+					<score arrow-nr="2" score="7"/>
+					<score arrow-nr="3" score="4"/>
+					<score arrow-nr="4" score="5"/>
+				</target-score>
+				<target-score target-nr="2">
+					<score arrow-nr="1" score="3"/>
+					<score arrow-nr="2" score="8"/>
+					<score arrow-nr="3" score="7"/>
+					<score arrow-nr="4" score="10"/>
+				</target-score>
+				<target-score target-nr="3">
+					<score arrow-nr="1" score="2"/>
+					<score arrow-nr="2" score="5"/>
+					<score arrow-nr="3" score="9"/>
+					<score arrow-nr="4" score="9"/>
+				</target-score>
+				<target-score target-nr="4">
+					<score arrow-nr="1" score="0"/>
+					<score arrow-nr="2" score="7"/>
+					<score arrow-nr="3" score="6"/>
+					<score arrow-nr="4" score="7"/>
+				</target-score>
+			</scores>
+		</competitor>
+		<competitor id="t-2_c-2" firstname="Barbara" lastname="Becker" year-of-birth="1965" gender="w">
+			<scores>
+				<target-score target-nr="1">
+					<score arrow-nr="1" score="2"/>
+					<score arrow-nr="2" score="3"/>
+					<score arrow-nr="3" score="2"/>
+					<score arrow-nr="4" score="1"/>
+				</target-score>
+				<target-score target-nr="2">
+					<score arrow-nr="1" score="5"/>
+					<score arrow-nr="2" score="5"/>
+					<score arrow-nr="3" score="4"/>
+					<score arrow-nr="4" score="6"/>
+				</target-score>
+				<target-score target-nr="3">
+					<score arrow-nr="1" score="7"/>
+					<score arrow-nr="2" score="7"/>
+					<score arrow-nr="3" score="8"/>
+					<score arrow-nr="4" score="9"/>
+				</target-score>
+				<target-score target-nr="4">
+					<score arrow-nr="1" score="10"/>
+					<score arrow-nr="2" score="9"/>
+					<score arrow-nr="3" score="10"/>
+					<score arrow-nr="4" score="8"/>
+				</target-score>
+			</scores>
+		</competitor>
+	</team>
+</tournament>

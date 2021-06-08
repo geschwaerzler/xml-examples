@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!ELEMENT tournament (person*, classifications?, station*, tournamentday*)>
+<!ATTLIST tournament
+        title CDATA #REQUIRED
+        begin_date CDATA #REQUIRED
+        end_date CDATA #REQUIRED>
+<!--Person-->
+<!ELEMENT person (firstname, lastname, birthdate, country, short_country)>
+<!ATTLIST person
+        personID ID #REQUIRED
+        gender (m|f) #REQUIRED
+        field_marshall (true|false) #REQUIRED
+        classification (
+        SFBB-R|
+        SFBB-C|
+        SFFS-R|
+        SFFS-C|
+        SFFU|
+        SFBH-R|
+        SFBH-C|
+        SFBL|
+        SFBU|
+        SFTR|
+        SFLB|
+        SFHB|
+        SMBB-R|
+        SMBB-C|
+        SMFS-R|
+        SMFS-C|
+        SMFU|
+        SMBH-R|
+        SMBH-C|
+        SMBL|
+        SMBU|
+        SMTR|
+        SMLB|
+        SMHB|
+        VFBB-R|
+        VFBB-C|
+        VFFS-R|
+        VFFS-C|
+        VFFU|
+        VFBH-R|
+        VFBH-C|
+        VFBL|
+        VFBU|
+        VFTR|
+        VFLB|
+        VFHB|
+        VMBB-R|
+        VMBB-C|
+        VMFS-R|
+        VMFS-C|
+        VMFU|
+        VMBH-R|
+        VMBH-C|
+        VMBL|
+        VMBU|
+        VMTR|
+        VMLB|
+        VMHB|
+        AFBB-R|
+        AFBB-C|
+        AFFS-R|
+        AFFS-C|
+        AFFU|
+        AFBH-R|
+        AFBH-C|
+        AFBL|
+        AFBU|
+        AFTR|
+        AFLB|
+        AFHB|
+        AVBB-R|
+        AMBB-C|
+        AMFS-R|
+        AMFS-C|
+        AMFU|
+        AMBH-R|
+        AMBH-C|
+        AMBL|
+        AMBU|
+        AMTR|
+        AMLB|
+        AMHB|
+        YAFBB-R|
+        YAFBB-C|
+        YAFFS-R|
+        YAFFS-C|
+        YAFFU|
+        YAFBH-R|
+        YAFBH-C|
+        YAFBL|
+        YAFBU|
+        YAFTR|
+        YAFLB|
+        YAFHB|
+        YAVBB-R|
+        YAMBB-C|
+        YAMFS-R|
+        YAMFS-C|
+        YAMFU|
+        YAMBH-R|
+        YAMBH-C|
+        YAMBL|
+        YAMBU|
+        YAMTR|
+        YAMLB|
+        YAMHB|
+        JFBB-R|
+        JFBB-C|
+        JFFS-R|
+        JFFS-C|
+        JFFU|
+        JFBH-R|
+        JFBH-C|
+        JFBL|
+        JFBU|
+        JFTR|
+        JFLB|
+        JFHB|
+        JVBB-R|
+        JMBB-C|
+        JMFS-R|
+        JMFS-C|
+        JMFU|
+        JMBH-R|
+        JMBH-C|
+        JMBL|
+        JMBU|
+        JMTR|
+        JMLB|
+        JMHB|
+        CFBB-R|
+        CFBB-C|
+        CFFS-R|
+        CFFS-C|
+        CFFU|
+        CFBH-R|
+        CFBH-C|
+        CFBL|
+        CFBU|
+        CFTR|
+        CFLB|
+        CFHB|
+        CVBB-R|
+        CMBB-C|
+        CMFS-R|
+        CMFS-C|
+        CMFU|
+        CMBH-R|
+        CMBH-C|
+        CMBL|
+        CMBU|
+        CMTR|
+        CMLB|
+        CMHB|
+        IS-ONLY-MARSHALL
+        ) #REQUIRED>
+<!ELEMENT birthdate (#PCDATA)>
+<!ELEMENT firstname (#PCDATA)>
+<!ELEMENT lastname (#PCDATA)>
+<!ELEMENT country (#PCDATA)>
+<!ELEMENT short_country (#PCDATA)>
+<!--Classification Explenatory-->
+<!ELEMENT classifications (genders, divisions, shootingstyles)>
+<!ELEMENT genders (gender*)>
+<!ELEMENT gender (#PCDATA)>
+<!ATTLIST gender
+        id CDATA #REQUIRED
+        name CDATA #REQUIRED>
+<!ELEMENT divisions (division*)>
+<!ELEMENT division (#PCDATA)>
+<!ATTLIST division
+        id CDATA #REQUIRED
+        name CDATA #REQUIRED
+        requirement CDATA #REQUIRED>
+<!ELEMENT shootingstyles (shootingstyle*)>
+<!ELEMENT shootingstyle (rule*)>
+<!ATTLIST shootingstyle
+        id CDATA #REQUIRED
+        name CDATA #REQUIRED>
+<!ELEMENT rule (description?)>
+<!ATTLIST rule
+        num CDATA #REQUIRED>
+<!ELEMENT description (#PCDATA) >
+
+<!ELEMENT station (position, max-score)>
+<!ATTLIST station
+    id ID #REQUIRED
+    range-marshall-id IDREF #REQUIRED>
+<!ELEMENT position (#PCDATA)>
+<!ELEMENT max-score (#PCDATA)>
+<!ELEMENT tournamentday (shot*)>
+<!ATTLIST tournamentday
+    number CDATA #REQUIRED
+    date CDATA #REQUIRED>
+<!ELEMENT shot (distance, score)>
+<!ATTLIST shot
+    shooter-id IDREF #REQUIRED
+    try (1|2|3) #REQUIRED
+    station-id IDREF #REQUIRED>
+<!ELEMENT distance (#PCDATA)>
+<!ELEMENT score (#PCDATA)>

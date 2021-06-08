@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!ELEMENT tournament (person*, group*, range*)>
+<!ATTLIST tournament name	ID	#REQUIRED>
+
+<!ELEMENT range (startLocation)>
+<!ATTLIST range id 	ID		#REQUIRED
+				name CDATA 	#REQUIRED>
+				
+<!ELEMENT startLocation (#PCDATA)>
+
+<!ELEMENT person EMPTY>
+<!ATTLIST person	id				ID 		#REQUIRED
+					firstname		CDATA	#REQUIRED
+					lastname		CDATA	#REQUIRED
+					age				CDATA	#IMPLIED
+					gender			CDATA	#IMPLIED
+					shooting-style	CDATA	#REQUIRED
+					role			CDATA	#IMPLIED
+					club			CDATA	#IMPLIED>
+
+<!ELEMENT group (athlete*, round*)>
+<!ATTLIST group 	nr	ID	#REQUIRED>
+
+
+<!ELEMENT athlete EMPTY>
+<!ATTLIST athlete	person-id	IDREF 	#REQUIRED
+					role		CDATA	#IMPLIED>
+
+					
+<!ELEMENT score-card (target*)>
+<!ATTLIST score-card	athlete-id	IDREF #REQUIRED>
+
+<!ELEMENT target (score*)>
+<!ATTLIST target	id			CDATA #REQUIRED
+					distance	CDATA #REQUIRED>
+
+<!ELEMENT score EMPTY>
+<!ATTLIST score		arrow-nr	CDATA	#REQUIRED
+					points		(0|3|4|5)	#REQUIRED>
+					
+<!ELEMENT round (score-card*)>
+<!ATTLIST round		nr		ID		#REQUIRED
+					date	CDATA	#IMPLIED
+					type	(field|hunter|animal)	#REQUIRED
+					range-id IDREF	#REQUIRED>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT organizer (tournament*)>
+<!ATTLIST organizer
+    abbreviation CDATA #REQUIRED
+    firstname CDATA #REQUIRED
+    lastname CDATA #REQUIRED>
+
+<!ELEMENT tournament (group+)>
+<!ATTLIST tournament
+    name CDATA #REQUIRED>
+
+<!ELEMENT group (participant+)>
+<!ATTLIST group
+    nr CDATA #REQUIRED
+    name CDATA #REQUIRED
+    style CDATA #REQUIRED>
+
+<!ELEMENT participant (score*, country, gender, division, age_class, shooting_style)>
+<!ATTLIST participant
+    id CDATA #REQUIRED
+    firstname CDATA #REQUIRED
+    lastname CDATA #REQUIRED
+    age CDATA #REQUIRED>
+
+
+<!ELEMENT score (round+)>
+<!ATTLIST score
+    score_id CDATA #REQUIRED
+    date CDATA #REQUIRED
+    total_score CDATA #REQUIRED>
+
+<!ELEMENT round (#PCDATA)>
+<!ATTLIST round
+    nr CDATA #REQUIRED
+    round_score CDATA #REQUIRED>
+
+<!ELEMENT country (#PCDATA)>
+<!ATTLIST country
+    name CDATA #REQUIRED>
+
+<!ELEMENT gender (#PCDATA)>
+<!ATTLIST gender
+    gender CDATA #REQUIRED>
+
+<!ELEMENT division (#PCDATA)>
+<!ATTLIST division
+    div_name CDATA #REQUIRED>
+    
+<!ELEMENT age_class (#PCDATA)>
+<!ATTLIST age_class
+    age_group CDATA #REQUIRED>
+
+<!ELEMENT shooting_style (#PCDATA)>
+<!ATTLIST shooting_style
+    bow_type CDATA #REQUIRED>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT overview (competitor*, tournament*)>
+<!ELEMENT competitor EMPTY>
+<!ELEMENT tournament (competition_day*)>
+<!ELEMENT competition_day (round*)>
+<!ELEMENT round (target*)>
+<!ELEMENT target (score*)>
+<!ELEMENT score (attempt*)>
+<!ELEMENT attempt EMPTY>
+
+<!ATTLIST competitor id                  ID      #REQUIRED
+                     first_name          CDATA   #REQUIRED
+                     last_name           CDATA   #REQUIRED
+                     date_of_birth       CDATA   #REQUIRED
+                     bow_class           (Compound|Longbow|Recurve_Bow)   #REQUIRED>
+                     
+<!ATTLIST tournament id                  ID      #REQUIRED
+                     register_end_date   CDATA   #REQUIRED
+                     event_start_date    CDATA   #REQUIRED
+                     event_end_date      CDATA   #REQUIRED>
+                     
+<!ATTLIST round 	 id					 ID 	 #REQUIRED>
+
+<!ATTLIST competition_day id			 ID 	 #REQUIRED
+						  date_time      CDATA   #REQUIRED> 
+						  
+<!ATTLIST target 	 id 				 ID		 #REQUIRED
+                     target_size		 CDATA   #REQUIRED
+                     range				 CDATA   #REQUIRED
+                     ground_markers      CDATA   #REQUIRED>
+                     
+<!ATTLIST score      competitor-id       CDATA   #REQUIRED>
+
+<!ATTLIST attempt    points              CDATA   #REQUIRED>
+                     
+                     

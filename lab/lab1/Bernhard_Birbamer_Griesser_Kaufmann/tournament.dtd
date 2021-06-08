@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT tournament (division|participant|waitlist|event|target|age-class)*>
+<!ATTLIST tournament
+        name            CDATA #REQUIRED
+>
+
+<!ELEMENT division (#PCDATA)>
+<!ATTLIST division
+        category        CDATA #REQUIRED
+        id              ID #REQUIRED
+        maxage          CDATA #REQUIRED
+        minage          CDATA #REQUIRED
+>
+
+<!ELEMENT participant (shooting-style|gender|match)*>
+<!ATTLIST participant
+        age             CDATA #REQUIRED
+        dev-id          IDREF #REQUIRED
+        fname           CDATA #REQUIRED
+        lname           CDATA #REQUIRED
+        regno           ID #REQUIRED
+        age-class       IDREF #REQUIRED
+>
+
+<!ELEMENT shooting-style (#PCDATA)>
+<!ATTLIST shooting-style
+        bowtype         CDATA #REQUIRED
+>
+
+<!ELEMENT gender (#PCDATA)>
+<!ATTLIST gender
+        gender          ( m | f ) #REQUIRED
+>
+
+<!ELEMENT match (scoring)*>
+<!ATTLIST match
+        event-id        IDREF #REQUIRED
+>
+
+<!ELEMENT scoring (table)*>
+
+<!ELEMENT table (arrow)*>
+<!ATTLIST table
+        target-id       IDREF #REQUIRED
+>
+
+<!ELEMENT arrow (#PCDATA)>
+<!ATTLIST arrow
+        arrow-nr        CDATA #REQUIRED
+        points          CDATA #REQUIRED
+>
+
+<!ELEMENT waitlist (#PCDATA)>
+<!ATTLIST waitlist
+        regno           ID #REQUIRED
+        date            CDATA #REQUIRED
+>
+
+<!ELEMENT event (place)*>
+<!ATTLIST event
+        comment         CDATA #REQUIRED
+        date            CDATA #REQUIRED
+        id              ID #REQUIRED
+>
+
+<!ELEMENT place (#PCDATA)>
+<!ATTLIST place
+        address         CDATA #REQUIRED
+        place-id        ID #REQUIRED
+>
+
+<!ELEMENT target (#PCDATA)>
+<!ATTLIST target
+        id              ID #REQUIRED
+>
+
+<!ELEMENT age-class  (#PCDATA)>
+<!ATTLIST age-class
+        age-class-id    ID #REQUIRED
+        maxage          CDATA #REQUIRED
+        minage          CDATA #REQUIRED
+>

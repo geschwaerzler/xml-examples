@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT archery-contest (participant*,schedule*,scorecard*,target*,course*,location*,category*)>
+
+<!ELEMENT participant (first_name,last_name,age,country,gender)>
+<!ATTLIST participant 
+    id ID #REQUIRED>
+
+<!ELEMENT schedule (date,start_time,participates*)>
+<!ATTLIST schedule
+    course-id         IDREF #IMPLIED>
+    
+<!ELEMENT participates EMPTY>
+<!ATTLIST participates
+    participant-id IDREF #REQUIRED>
+
+<!ELEMENT scorecard (value, year)>
+<!ATTLIST scorecard
+    participant-id     IDREF #REQUIRED
+    course-id         IDREF #REQUIRED>
+
+<!ELEMENT target (target_number)>
+<!ATTLIST target
+    course-id IDREF #REQUIRED>
+
+<!ELEMENT course (target_count,name,takes_place_at*,is_in_category*)> 
+<!ATTLIST course 
+    id ID #REQUIRED>
+
+<!ELEMENT location (type,address,name)>
+<!ATTLIST location
+    id             ID      #REQUIRED
+    course-id     IDREF #REQUIRED>
+    
+<!ELEMENT takes_place_at EMPTY>
+<!ATTLIST takes_place_at
+    location-id IDREF #REQUIRED>
+
+<!ELEMENT category (name,description,style)>
+<!ATTLIST category
+    id ID #REQUIRED>
+
+<!ELEMENT is_in_category EMPTY>
+<!ATTLIST is_in_category
+    category-id IDREF #REQUIRED>
+
+<!ELEMENT first_name (#PCDATA)>
+
+<!ELEMENT age (#PCDATA)>
+
+<!ELEMENT gender (#PCDATA)>
+
+<!ELEMENT date (day+, month+, year+)>
+
+<!ELEMENT day (#PCDATA)>
+
+<!ELEMENT month (#PCDATA)>
+
+<!ELEMENT year (#PCDATA)>
+
+<!ELEMENT start_time (#PCDATA)>
+
+<!ELEMENT value (#PCDATA)>
+
+<!ELEMENT target_number (#PCDATA)>
+
+<!ELEMENT target_count (#PCDATA)>
+
+<!ELEMENT name (#PCDATA)>
+
+<!ELEMENT type (#PCDATA)>
+
+<!ELEMENT address (street, zip, city, country)>
+
+<!ELEMENT description (#PCDATA)>
+
+<!ELEMENT style (#PCDATA)>
+
+<!ELEMENT street (#PCDATA)>
+
+<!ELEMENT zip (#PCDATA)>
+
+<!ELEMENT city (#PCDATA)>
+
+<!ELEMENT last_name (#PCDATA)>
+
+<!ELEMENT country (#PCDATA)>

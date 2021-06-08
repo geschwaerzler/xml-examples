@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT tournament (division*, age-class*, shooting-style*, round*, country*, registration*, group*, match*)>
+<!ATTLIST tournament
+	tournament-id 		ID 		#REQUIRED
+	name 				CDATA 	#REQUIRED>
+
+<!ELEMENT division EMPTY>
+<!ATTLIST division 
+	division-id 		ID 		#REQUIRED
+	division-name 		CDATA 	#REQUIRED>
+
+<!ELEMENT age-class EMPTY>
+<!ATTLIST age-class
+	class-id 			ID		#REQUIRED
+	class-name			CDATA	#REQUIRED>
+
+<!ELEMENT shooting-style EMPTY>
+<!ATTLIST shooting-style
+	style-id 			ID		#REQUIRED
+	style-name			CDATA	#REQUIRED>
+
+<!ELEMENT round EMPTY>
+<!ATTLIST round
+	round-id			ID		#REQUIRED
+	round-name 			CDATA	#REQUIRED
+	round-date			CDATA	#REQUIRED>
+
+<!ELEMENT country EMPTY>
+<!ATTLIST country
+	country-id			ID		#REQUIRED
+	country-name 		CDATA	#REQUIRED>
+
+<!ELEMENT registration EMPTY>
+<!ATTLIST registration
+	registration-no 	ID		#REQUIRED
+	division-id			IDREF	#REQUIRED
+	class-id			IDREF	#REQUIRED
+	style-id			IDREF	#REQUIRED>
+
+<!ELEMENT competitor (#PCDATA)>
+<!ATTLIST competitor
+	competitor-id		ID		#REQUIRED
+	age					CDATA	#REQUIRED
+	gender				CDATA	#REQUIRED
+	total_points		CDATA	#REQUIRED
+	registration-no		IDREF	#REQUIRED
+	country-id			IDREF	#REQUIRED>
+
+<!ELEMENT group (competitor*)>
+<!ATTLIST group
+	group-id		ID		#REQUIRED
+	group-name		CDATA	#REQUIRED
+	group-size		CDATA	#REQUIRED>
+
+<!ELEMENT score EMPTY>
+<!ATTLIST score
+	arrow			CDATA	#REQUIRED
+	points			CDATA	#REQUIRED>
+
+<!ELEMENT target (score*)>
+<!ATTLIST target
+	nr				CDATA	#REQUIRED>
+
+<!ELEMENT archer-score (target*)>
+<!ATTLIST archer-score
+	competitor-id	IDREF	#REQUIRED>
+
+<!ELEMENT match (archer-score*)>
+<!ATTLIST match 
+	match-id		ID		#REQUIRED
+	start-time		CDATA	#REQUIRED
+	end-time		CDATA	#REQUIRED
+	round-id		CDATA	#REQUIRED>

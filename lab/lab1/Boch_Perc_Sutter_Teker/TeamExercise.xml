@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE overview SYSTEM "TeamExercise.dtd">
+
+<overview>
+	<competitor id="competitor-1" first_name="Christoph" last_name="Perc" date_of_birth="10.11.1999" bow_class="Compound" />
+	<competitor id="competitor-2" first_name="Lukas" last_name="Boch" date_of_birth="14.10.1998" bow_class="Compound" />
+	<competitor id="competitor-3" first_name="Noah" last_name="Sutter" date_of_birth="06.10.1998" bow_class="Compound" />
+	<competitor id="competitor-4" first_name="Barbaros" last_name="Teker" date_of_birth="20.12.1995" bow_class="Compound" />
+	
+	<tournament id="tournament-1" register_end_date="28.05.2021" event_start_date="08.06.2021" event_end_date="14.06.2021">
+		<competition_day id="competition-1" date_time="08.06.2021">
+			<round id="round-1">
+				<target id="target-1" target_size="Wildschwein" range="50m" ground_markers="2">
+					<score competitor-id="competitor-1">
+						<attempt points="50" />
+						<attempt points="80" />
+					</score>
+					<score competitor-id="competitor-2">
+						<attempt points="55" />
+						<attempt points="79" />
+					</score>
+					<score competitor-id="competitor-3">
+						<attempt points="45" />
+						<attempt points="76" />
+					</score>
+					<score competitor-id="competitor-4">
+						<attempt points="68" />
+						<attempt points="34" />
+					</score>
+				</target>
+				<target id="target-2" target_size="Hase" range="100m" ground_markers="4">
+					<score competitor-id="competitor-1">
+						<attempt points="51" />
+						<attempt points="86" />
+					</score>
+					<score competitor-id="competitor-2">
+						<attempt points="56" />
+						<attempt points="89" />
+					</score>
+					<score competitor-id="competitor-3">
+						<attempt points="59" />
+						<attempt points="85" />
+					</score>
+					<score competitor-id="competitor-4">
+						<attempt points="54" />
+						<attempt points="45" />
+					</score>
+				</target>
+			</round>
+			<round id="round-2">
+				<target id="target-3" target_size="Wildschwein" range="50m" ground_markers="2">
+					<score competitor-id="competitor-1">
+						<attempt points="20" />
+						<attempt points="77" />
+					</score>
+					<score competitor-id="competitor-2">
+						<attempt points="80" />
+						<attempt points="90" />
+					</score>
+					<score competitor-id="competitor-3">
+						<attempt points="43" />
+						<attempt points="67" />
+					</score>
+					<score competitor-id="competitor-4">
+						<attempt points="85" />
+						<attempt points="92" />
+					</score>
+				</target>
+				<target id="target-4" target_size="Hase" range="100m" ground_markers="4">
+					<score competitor-id="competitor-1">
+						<attempt points="54" />
+						<attempt points="87" />
+					</score>
+					<score competitor-id="competitor-2">
+						<attempt points="85" />
+						<attempt points="100" />
+					</score>
+					<score competitor-id="competitor-3">
+						<attempt points="73" />
+						<attempt points="83" />
+					</score>
+					<score competitor-id="competitor-4">
+						<attempt points="65" />
+						<attempt points="88" />
+					</score>
+					
+				</target>
+				<target id="bonus-target-1" target_size="Hase" range="200m" ground_markers="4">
+					<score competitor-id="competitor-1">
+						<attempt points="78" />
+						<attempt points="91" />
+					</score>
+					<score competitor-id="competitor-2">
+						<attempt points="31" />
+						<attempt points="100" />
+					</score>
+					<score competitor-id="competitor-3">
+						<attempt points="46" />
+						<attempt points="97" />
+					</score>
+					<score competitor-id="competitor-4">
+						<attempt points="98" />
+						<attempt points="57" />
+					</score>
+				</target>
+			</round>
+		</competition_day>
+
+		<competition_day id="competition-2" date_time="14.06.2021">		
+			<round id="round-3">
+				<target id="target-5" target_size="Wildschwein" range="75m" ground_markers="3">
+					<score competitor-id="competitor-1">
+						<attempt points="47" />
+						<attempt points="89" />
+					</score>
+					<score competitor-id="competitor-2">
+						<attempt points="89" />
+						<attempt points="100" />
+					</score>
+					<score competitor-id="competitor-3">
+						<attempt points="85" />
+						<attempt points="86" />
+					</score>
+					<score competitor-id="competitor-4">
+						<attempt points="40" />
+						<attempt points="75" />
+					</score>
+				</target>
+				<target id="target-6" target_size="Apfel" range="25m" ground_markers="1">
+					<score competitor-id="competitor-1">
+						<attempt points="12" />
+						<attempt points="65" />
+					</score>
+					<score competitor-id="competitor-2">
+						<attempt points="23" />
+						<attempt points="45" />
+					</score>
+					<score competitor-id="competitor-3">
+						<attempt points="73" />
+						<attempt points="83" />
+					</score>
+					<score competitor-id="competitor-4">
+						<attempt points="25" />
+						<attempt points="94" />
+					</score>
+				</target>	
+			</round>
+		</competition_day>
+
+
+
+	</tournament>
+	
+	<tournament id="tournament-2" register_end_date="28.05.2022" event_start_date="08.06.2022" event_end_date="14.06.2022">
+		<competition_day id="competition-3" date_time="08.06.2022">
+			<round id="round-4">
+				<target id="target-7" target_size="Wildschwein" range="50m" ground_markers="2">
+					<score competitor-id="competitor-1">
+						<attempt points="50" />
+						<attempt points="80" />
+					</score>
+					<score competitor-id="competitor-2">
+						<attempt points="55" />
+						<attempt points="79" />
+					</score>
+					<score competitor-id="competitor-3">
+						<attempt points="45" />
+						<attempt points="76" />
+					</score>
+					<score competitor-id="competitor-4">
+						<attempt points="68" />
+						<attempt points="34" />
+					</score>
+				</target>
+				<target id="target-8" target_size="Hase" range="100m" ground_markers="4">
+					<score competitor-id="competitor-1">
+						<attempt points="51" />
+						<attempt points="86" />
+					</score>
+					<score competitor-id="competitor-2">
+						<attempt points="56" />
+						<attempt points="89" />
+					</score>
+					<score competitor-id="competitor-3">
+						<attempt points="59" />
+						<attempt points="85" />
+					</score>
+					<score competitor-id="competitor-4">
+						<attempt points="54" />
+						<attempt points="45" />
+					</score>
+				</target>
+			</round>
+			<round id="round-5">
+				<target id="target-9" target_size="Wildschwein" range="50m" ground_markers="2">
+					<score competitor-id="competitor-1">
+						<attempt points="20" />
+						<attempt points="77" />
+					</score>
+					<score competitor-id="competitor-2">
+						<attempt points="80" />
+						<attempt points="90" />
+					</score>
+					<score competitor-id="competitor-3">
+						<attempt points="43" />
+						<attempt points="67" />
+					</score>
+					<score competitor-id="competitor-4">
+						<attempt points="85" />
+						<attempt points="92" />
+					</score>
+				</target>
+				<target id="target-10" target_size="Hase" range="100m" ground_markers="4">
+					<score competitor-id="competitor-1">
+						<attempt points="54" />
+						<attempt points="87" />
+					</score>
+					<score competitor-id="competitor-2">
+						<attempt points="85" />
+						<attempt points="100" />
+					</score>
+					<score competitor-id="competitor-3">
+						<attempt points="73" />
+						<attempt points="83" />
+					</score>
+					<score competitor-id="competitor-4">
+						<attempt points="65" />
+						<attempt points="88" />
+					</score>
+				</target>
+				<target id="bonus-target-2" target_size="Hase" range="200m" ground_markers="4">
+					<score competitor-id="competitor-1">
+						<attempt points="98" />
+						<attempt points="92" />
+					</score>
+					<score competitor-id="competitor-2">
+						<attempt points="87" />
+						<attempt points="89" />
+					</score>
+					<score competitor-id="competitor-3">
+						<attempt points="58" />
+						<attempt points="97" />
+					</score>
+					<score competitor-id="competitor-4">
+						<attempt points="100" />
+						<attempt points="89" />
+					</score>
+				</target>
+			</round>
+		</competition_day>
+
+		<competition_day id="competition-4" date_time="14.06.2022">		
+			<round id="round-6">
+				<target id="target-11" target_size="Wildschwein" range="75m" ground_markers="3">
+					<score competitor-id="competitor-1">
+						<attempt points="100" />
+						<attempt points="89" />
+					</score>
+					<score competitor-id="competitor-2">
+						<attempt points="47" />
+						<attempt points="75" />
+					</score>
+					<score competitor-id="competitor-3">
+						<attempt points="12" />
+						<attempt points="88" />
+					</score>
+					<score competitor-id="competitor-4">
+						<attempt points="98" />
+						<attempt points="12" />
+					</score>
+				</target>
+				<target id="target-12" target_size="Apfel" range="25m" ground_markers="1">
+					<score competitor-id="competitor-1">
+						<attempt points="78" />
+						<attempt points="65" />
+					</score>
+					<score competitor-id="competitor-2">
+						<attempt points="74" />
+						<attempt points="86" />
+					</score>
+					<score competitor-id="competitor-3">
+						<attempt points="54" />
+						<attempt points="3" />
+					</score>
+					<score competitor-id="competitor-4">
+						<attempt points="85" />
+						<attempt points="78" />
+					</score>
+				</target>	
+			</round>
+		</competition_day>
+
+	</tournament>
+</overview>

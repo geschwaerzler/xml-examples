@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE archery-contest SYSTEM "archery.dtd">
+<archery-contest>
+
+	<participant id="par021">
+        <first_name>Stefan</first_name>
+        <last_name>Sommer</last_name>
+        <age>28</age>
+        <country>AUT</country>
+        <gender>M</gender>
+    </participant>
+
+	<participant id="par666">
+        <first_name>Marco</first_name>
+        <last_name>Preacher</last_name>
+        <age>24</age>
+        <country>AUT</country>
+        <gender>M</gender>
+    </participant>
+
+	<participant id="par008">
+        <first_name>Michelle</first_name>
+        <last_name>Durr</last_name>
+        <age>42</age>
+        <country>GER</country>
+        <gender>F</gender>
+    </participant>
+    
+    <participant id="par009">
+        <first_name>Thorten</first_name>
+        <last_name>Blau</last_name>
+        <age>26</age>
+        <country>AUT</country>
+        <gender>M</gender>
+    </participant>
+    
+
+    <participant id="par018">
+        <first_name>Dave</first_name>
+        <last_name>Schöch</last_name>
+        <age>27</age>
+        <country>AUT</country>
+        <gender>M</gender>
+    </participant>
+    
+    <participant id="par019">
+        <first_name>Mark</first_name>
+        <last_name>Felder</last_name>
+        <age>37</age>
+        <country>AUT</country>
+        <gender>M</gender>
+    </participant>
+    
+    <schedule course-id="cou008">
+        <date>
+            <day>23</day>
+            <month>5</month>
+            <year>2019</year>
+        </date>
+        <start_time>08:00</start_time>
+        <participates participant-id="par008"/>
+        <participates participant-id="par009"/>
+    </schedule>
+    
+    <schedule course-id="cou666">
+        <date>
+            <day>23</day>
+            <month>11</month>
+            <year>2025</year>
+        </date>
+        <start_time>09:00:00</start_time>
+        <participates participant-id="par666"/>
+    </schedule>
+    
+    <schedule course-id="cou021">
+        <date>
+            <day>12</day>
+            <month>July</month>
+            <year>2021</year>
+        </date>
+        <start_time>11:00</start_time>
+        <participates participant-id="cou021"/>
+    </schedule>
+    
+    <schedule course-id="cou018">
+        <date>
+            <day>12</day>
+            <month>07</month>
+            <year>2021</year>
+        </date>
+        <start_time>12:00</start_time>
+        <participates participant-id="par018"/>
+        <participates participant-id="par019"/>
+    </schedule>
+    
+    <scorecard participant-id="par018" course-id="cou018">
+        <value>21</value>
+        <year>2021</year>
+    
+    </scorecard>
+    <scorecard participant-id="par021" course-id="cou021">
+        <value>30</value>
+        <year>2021</year>
+    </scorecard>
+    
+    <scorecard participant-id="par019" course-id="cou018">
+        <value>18</value>
+        <year>2021</year>
+    </scorecard>
+    
+    <scorecard course-id="cou666" participant-id="par666">
+        <value>666</value>
+        <year>2024</year>
+    </scorecard>
+    
+    <scorecard course-id="cou008" participant-id="par008">
+        <value>184</value>
+        <year>2019</year>
+    </scorecard>
+    <scorecard course-id="cou008" participant-id="par009">
+        <value>241</value>
+        <year>2019</year>
+    </scorecard>
+    
+    <target course-id="cou666">
+        <target_number>01</target_number>
+    </target>
+    <target course-id="cou666">
+        <target_number>02</target_number>
+    </target>
+    <target course-id="cou666">
+        <target_number>03</target_number>
+    </target>
+    <target course-id="cou666">
+        <target_number>04</target_number>
+    </target>
+    <target course-id="cou666">
+        <target_number>05</target_number>
+    </target>
+     <target course-id="cou666">
+        <target_number>06</target_number>
+    </target>
+    
+    <target course-id="cou021">
+        <target_number>01</target_number>
+    </target>
+    <target course-id="cou021">
+        <target_number>02</target_number>
+    </target>
+    <target course-id="cou021">
+        <target_number>03</target_number>
+    </target>
+    
+     <target course-id="cou008">
+        <target_number>01</target_number>   
+    </target>
+    <target course-id="cou008">
+        <target_number>02</target_number>   
+    </target>
+    <target course-id="cou008">
+        <target_number>03</target_number>   
+    </target>
+    
+    <target course-id="cou018">
+        <target_number>01</target_number>
+        
+    </target>
+    <target course-id="cou018">
+        <target_number>02</target_number>
+        
+    </target>
+    <target course-id="cou018">
+        <target_number>03</target_number>
+        
+    </target>
+    <target course-id="cou018">
+        <target_number>04</target_number>
+        
+    </target>
+    <target course-id="cou018">
+        <target_number>05</target_number>
+        
+    </target>
+    
+    <course id="cou018">
+    
+        <target_count>5</target_count>
+        <name>Wald</name>
+        <takes_place_at location-id="loc018" />
+        <is_in_category category-id="cat018"/>
+    </course>
+    
+    <course id="cou666">
+        <target_count>10</target_count>
+        <name>Steep mountains</name>
+        <takes_place_at location-id="loc666" />
+        <is_in_category category-id="cat018"/>
+    </course>
+    
+    <course id="cou021">
+
+        <target_count>4</target_count>
+        <name>Field Course</name>
+        <takes_place_at location-id="loc021" />
+        <is_in_category category-id="cat021"/>
+    </course>
+    
+    <course id="cou008">
+        <target_count>10</target_count>
+        <name>Waldweg Tiere</name>
+        <takes_place_at location-id="loc008" />
+        <is_in_category category-id="cat021"/>
+    </course>
+    
+    <location id="loc018" course-id="cou018">
+        <type>Wald</type>
+            <address>
+		    	<street>Bartholomaeberg 1</street>
+		    	<zip>6781</zip>
+		    	<city>Bartholomaeberg</city>
+		    	<country>AUT</country>
+   		 </address>
+        <name>Bartholomaeberger Wald</name>
+    </location>
+    
+    <location id="loc021" course-id="cat021">
+        <type>Field</type>
+        <address>
+            <street>Waldstraße 12</street>
+            <zip>6800</zip>
+            <city>Feldkirch</city>
+            <country>Austria</country>
+        </address>
+        <name>Wildes Feld</name>
+    </location>
+    
+     <location id="loc008" course-id="cou008">
+        <type>Wald</type>
+        <address>
+        	<street>Älpele 76</street>
+        	<zip>6840</zip>
+        	<city>Götzis</city>
+        	<country>Österreich</country>
+        </address>
+        <name>Älpele Hof</name>
+    </location>
+    
+    <location id="loc666" course-id="cou666">
+        <type>mountainous</type>
+        <address>
+            <street>Oberradin 60</street>
+            <zip>6751 Braz</zip>
+            <city>Radin</city>
+            <country>Austria</country>
+        </address>
+        <name>Mountain joy</name>
+    </location>
+
+    
+   <category id="cat021">
+        <name>LB</name>
+        <description>Der Bogen ist lang</description>
+        <style>Longbow</style>
+    </category>
+    
+    <category id="cat018">
+        <name>REC</name>
+        <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</description>
+        <style>Recurve</style>
+    </category>
+    
+    
+</archery-contest>
