@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
 	<!-- Root Template
 		Produces the html skeleton, applies/calls additional tempplates and produces the index.
@@ -105,7 +105,7 @@
 				<xsl:when test="./*"> <!-- the test './*' is true, if the current node '.' has child elements. -->
 					<!-- generate a html header tag h4 or h5 or ... -->
 					<xsl:element name="h{$header-level}">
-						<xsl:attribute name="id" select="generate-id()"/>
+						<xsl:attribute name="id"><xsl:value-of select="generate-id()"/></xsl:attribute>
 						<xsl:value-of select="@name"/>
 					</xsl:element>
 					<!-- recursive call to produce the list of ingrediens of this ingredient -->
