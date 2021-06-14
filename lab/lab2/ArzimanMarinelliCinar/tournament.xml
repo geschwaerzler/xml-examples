@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tournament2html.xsl"?>
+<!DOCTYPE organizer SYSTEM "tournament.dtd">
+
+<organizer abbreviation="ACI" firstname="Ali" lastname="Cinar">
+	<tournament name="WFAC 2020" description="World Outdoor Flint Archery Mail Match">
+		<tdate date="01.06.2021" day="1-st">
+			<group nr="1" name="Group 1" style="unlimited-styles">
+				<title>Group 1</title>
+				<participant id="p-1" firstname="Max" lastname="Mustermann" age="56">
+					<score score_id="0001" total_score="90">
+						<round nr="1" round_score="20" />
+						<round nr="2" round_score="25" />
+						<round nr="3" round_score="15" />
+						<round nr="4" round_score="20" />
+						<round nr="5" round_score="20" />
+					</score>
+					<country name="Germany" />
+					<gender gender="M"></gender>
+					<division div_name="VMFU"></division>
+					<age_class age_group="Veteran"></age_class>
+					<shooting_style bow_type="Freestyle Unlimited"></shooting_style>
+				</participant>
+
+				<participant id="p-2" firstname="Thomas" lastname="Müller" age="28">
+					<score score_id="0002" total_score="100">
+						<round nr="1" round_score="20" />
+						<round nr="2" round_score="15" />
+						<round nr="3" round_score="25" />
+						<round nr="4" round_score="22" />
+						<round nr="5" round_score="18" />
+					</score>
+					<country name="Luxemburg" />
+					<gender gender="M"></gender>
+					<division div_name="AMBU"></division>
+					<age_class age_group="Adult"></age_class>
+					<shooting_style bow_type="Bowhunter Unlimited"></shooting_style>
+				</participant>
+
+				<participant id="p-3" firstname="Lukas" lastname="Maier" age="20">
+					<score score_id="0003" total_score="80">
+						<round nr="1" round_score="16" />
+						<round nr="2" round_score="14" />
+						<round nr="3" round_score="18" />
+						<round nr="4" round_score="20" />
+						<round nr="5" round_score="12" />
+					</score>
+					<country name="Austria" />
+					<gender gender="M"></gender>
+					<division div_name="YAMBU"></division>
+					<age_class age_group="Young-Adult"></age_class>
+					<shooting_style bow_type="Bowhunter Unlimited"></shooting_style>
+				</participant>
+			</group>
+
+			<group nr="2" name="Group 2" style="limited-styles">
+				<title>Group 2</title>
+				<participant id="p-4" firstname="Erika" lastname="Mustermann" age="56">
+					<score score_id="0004" total_score="94">
+						<round nr="1" round_score="24" />
+						<round nr="2" round_score="25" />
+						<round nr="3" round_score="15" />
+						<round nr="4" round_score="18" />
+						<round nr="5" round_score="22" />
+					</score>
+					<country name="Germany" />
+					<gender gender="F"></gender>
+					<division div_name="VFBL"></division>
+					<age_class age_group="Veteran"></age_class>
+					<shooting_style bow_type="Bowhunter Limited"></shooting_style>
+				</participant>
+
+				<participant id="p-5" firstname="Sabine" lastname="Miller" age="28">
+					<score score_id="0005" total_score="100">
+						<round nr="1" round_score="20" />
+						<round nr="2" round_score="15" />
+						<round nr="3" round_score="25" />
+						<round nr="4" round_score="22" />
+						<round nr="5" round_score="18" />
+					</score>
+					<country name="Australia" />
+					<gender gender="F"></gender>
+					<division div_name="AFBL"></division>
+					<age_class age_group="Adult"></age_class>
+					<shooting_style bow_type="Bowhunter Limited"></shooting_style>
+				</participant>
+
+				<participant id="p-6" firstname="Lisa" lastname="Kurz" age="20">
+					<score score_id="0006" total_score="85">
+						<round nr="1" round_score="16" />
+						<round nr="2" round_score="19" />
+						<round nr="3" round_score="18" />
+						<round nr="4" round_score="20" />
+						<round nr="5" round_score="12" />
+					</score>
+					<country name="Poland" />
+					<gender gender="F"></gender>
+					<division div_name="YAFBL"></division>
+					<age_class age_group="Young-Adult"></age_class>
+					<shooting_style bow_type="Bowhunter Limited"></shooting_style>
+				</participant>
+			</group>
+		</tdate>
+
+		<tdate date="02.06.2021" day="2nd">
+			<group nr="3" name="Group 3" style="non-sight-styles">
+				<title>Group 3</title>
+				<participant id="p-7" firstname="Marco" lastname="Alcantara" age="27">
+					<score score_id="0007" total_score="88">
+						<round nr="1" round_score="25" />
+						<round nr="2" round_score="18" />
+						<round nr="3" round_score="16" />
+						<round nr="4" round_score="17" />
+						<round nr="5" round_score="22" />
+					</score>
+					<country name="Spain" />
+					<gender gender="M"></gender>
+					<division div_name="AMBB-R"></division>
+					<age_class age_group="Adult"></age_class>
+					<shooting_style bow_type="Barebow-Recurve"></shooting_style>
+				</participant>
+
+				<participant id="p-8" firstname="Recep" lastname="Yilmaz" age="56">
+					<score score_id="0008" total_score="95">
+						<round nr="1" round_score="18" />
+						<round nr="2" round_score="12" />
+						<round nr="3" round_score="25" />
+						<round nr="4" round_score="22" />
+						<round nr="5" round_score="18" />
+					</score>
+					<country name="Turkey" />
+					<gender gender="M"></gender>
+					<division div_name="VMBB-C"></division>
+					<age_class age_group="Veteran"></age_class>
+					<shooting_style bow_type="Barebow-Compound"></shooting_style>
+				</participant>
+
+				<participant id="p-9" firstname="Josef" lastname="Slitka" age="20">
+					<score score_id="0009" total_score="91">
+						<round nr="1" round_score="18" />
+						<round nr="2" round_score="19" />
+						<round nr="3" round_score="16" />
+						<round nr="4" round_score="25" />
+						<round nr="5" round_score="12" />
+					</score>
+					<country name="Hungary" />
+					<gender gender="M"></gender>
+					<division div_name="YAMBB-R"></division>
+					<age_class age_group="Young-Adult"></age_class>
+					<shooting_style bow_type="Bowhunter-Recurve"></shooting_style>
+				</participant>
+			</group>
+
+			<group nr="4" name="Group 4" style="traditional-styles">
+				<title>Group 4</title>
+				<participant id="p-10" firstname="Franz" lastname="Beckenbauer" age="27">
+					<score score_id="0010" total_score="88">
+						<round nr="1" round_score="22" />
+						<round nr="2" round_score="21" />
+						<round nr="3" round_score="15" />
+						<round nr="4" round_score="18" />
+						<round nr="5" round_score="22" />
+					</score>
+					<country name="England" />
+					<gender gender="M"></gender>
+					<division div_name="AMLB"></division>
+					<age_class age_group="Adult"></age_class>
+					<shooting_style bow_type="Longbow"></shooting_style>
+				</participant>
+
+				<participant id="p-11" firstname="Hans" lastname="Fischer" age="56">
+					<score score_id="0011" total_score="95">
+						<round nr="1" round_score="18" />
+						<round nr="2" round_score="12" />
+						<round nr="3" round_score="25" />
+						<round nr="4" round_score="22" />
+						<round nr="5" round_score="18" />
+					</score>
+					<country name="Germany" />
+					<gender gender="M"></gender>
+					<division div_name="VMHB"></division>
+					<age_class age_group="Veteran"></age_class>
+					<shooting_style bow_type="Historical Bow"></shooting_style>
+				</participant>
+
+				<participant id="p-12" firstname="Bernd" lastname="Hammer" age="20">
+					<score score_id="0012" total_score="91">
+						<round nr="1" round_score="18" />
+						<round nr="2" round_score="19" />
+						<round nr="3" round_score="20" />
+						<round nr="4" round_score="21" />
+						<round nr="5" round_score="12" />
+					</score>
+					<country name="Netherlands" />
+					<gender gender="M"></gender>
+					<division div_name="YAMHB"></division>
+					<age_class age_group="Young-Adult"></age_class>
+					<shooting_style bow_type="Historical Bow"></shooting_style>
+				</participant>
+			</group>
+		</tdate>
+	</tournament>
+</organizer>

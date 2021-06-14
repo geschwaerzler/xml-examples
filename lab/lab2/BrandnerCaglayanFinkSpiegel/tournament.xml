@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tournament SYSTEM "tournament.dtd">
+
+<tournament tournament-id="t1" name="World Field Archery Championship 2021">
+	<division division-id="d1" division-name="YAMLB"/>
+	<division division-id="d2" division-name="YAMFU"/>
+	
+	<age-class class-id="c1" class-name="Adult"/>
+	<age-class class-id="c2" class-name="Junior"/>
+	
+	<shooting-style style-id="s1" style-name="Barebow Recurve"/>
+	<shooting-style style-id="s2" style-name="Freestyle Unlimited"/>
+	
+	<round round-id="r1" round-name="Group Phase" round-date="2021-04-01"/>
+	<round round-id="r2" round-name="Quarterfinal" round-date="2021-04-03"/>
+	<round round-id="r3" round-name="Semifinal" round-date="2021-04-05"/>
+	<round round-id="r4" round-name="Final" round-date="2021-04-07"/>
+	
+	<country country-id="country-1" country-name="Austria"/>
+	<country country-id="country-2" country-name="Australia"/>
+	<country country-id="country-3" country-name="Germany"/>
+	<country country-id="country-4" country-name="Turkey"/>
+	<country country-id="country-5" country-name="USA"/>
+	<country country-id="country-6" country-name="Southafrica"/>
+	<country country-id="country-7" country-name="Russia"/>
+	<country country-id="country-8" country-name="Brazilia"/>
+	
+	<registration registration-no="reg-1" division-id="d1" class-id="c2" style-id="s2"/>
+	<registration registration-no="reg-2" division-id="d2" class-id="c2" style-id="s2"/>
+	<registration registration-no="reg-3" division-id="d1" class-id="c1" style-id="s1"/>
+	<registration registration-no="reg-4" division-id="d2" class-id="c1" style-id="s1"/>
+	<registration registration-no="reg-5" division-id="d1" class-id="c2" style-id="s2"/>
+	<registration registration-no="reg-6" division-id="d2" class-id="c2" style-id="s2"/>
+	<registration registration-no="reg-7" division-id="d1" class-id="c1" style-id="s1"/>
+	<registration registration-no="reg-8" division-id="d2" class-id="c1" style-id="s1"/>
+	
+	<group group-id="g1" group-name="Group 1" group-size="4">
+		<competitor competitor-id="comp-1" age="22" gender="M" total_points="10" registration-no="reg-1" country-id="country-1">
+			Michael Spiegel
+		</competitor>
+		<competitor competitor-id="comp-2" age="22" gender="M" total_points="15" registration-no="reg-2" country-id="country-2">
+			Tristan Fink
+		</competitor>
+		<competitor competitor-id="comp-5" age="24" gender="M" total_points="10" registration-no="reg-5" country-id="country-5">
+			John Doe
+		</competitor>
+		<competitor competitor-id="comp-6" age="21" gender="M" total_points="15" registration-no="reg-6" country-id="country-8">
+			Neymar da Silva Santos 
+		</competitor>
+	</group>
+	
+	<group group-id="g2" group-name="Group 2" group-size="4">
+		<competitor competitor-id="comp-3" age="29" gender="M" total_points="12" registration-no="reg-3" country-id="country-4">
+			Umut Caglayan
+		</competitor>
+		<competitor competitor-id="comp-4" age="30" gender="M" total_points="8" registration-no="reg-4" country-id="country-3">
+			Jan Brandner
+		</competitor>
+		<competitor competitor-id="comp-7" age="32" gender="M" total_points="12" registration-no="reg-7" country-id="country-6">
+			Elon Musk
+		</competitor>
+		<competitor competitor-id="comp-8" age="27" gender="M" total_points="8" registration-no="reg-8" country-id="country-7">
+			Vladimir Putin
+		</competitor>
+	</group>
+	
+	<match match-id="m1" start-time="14:00" end-time="15:00" round-id="r1">
+		<archer-score competitor-id="comp-1">
+			<target nr="1" >
+				<score arrow="1" points="5"/>
+				<score arrow="2" points="10"/>
+				<score arrow="3" points="2"/>
+				<score arrow="4" points="2"/>
+			</target>
+			<target nr="2" >
+				<score arrow="1" points="2"/>
+				<score arrow="2" points="3"/>
+				<score arrow="3" points="4"/>
+				<score arrow="4" points="4"/>
+			</target>
+			<target nr="3" >
+				<score arrow="1" points="2"/>
+				<score arrow="2" points="3"/>
+				<score arrow="3" points="4"/>
+				<score arrow="4" points="4"/>
+			</target>
+			<target nr="4" >
+				<score arrow="1" points="2"/>
+				<score arrow="2" points="3"/>
+				<score arrow="3" points="4"/>
+				<score arrow="4" points="4"/>
+			</target>
+		</archer-score>
+	
+		<archer-score competitor-id="comp-2">
+			<target nr="1" >
+				<score arrow="1" points="10"/>
+				<score arrow="2" points="8"/>
+				<score arrow="3" points="3"/>
+				<score arrow="4" points="3"/>
+			</target>
+			<target nr="2" >
+				<score arrow="1" points="1"/>
+				<score arrow="2" points="10"/>
+				<score arrow="3" points="10"/>
+				<score arrow="4" points="3"/>
+			</target>
+			<target nr="3" >
+				<score arrow="1" points="10"/>
+				<score arrow="2" points="8"/>
+				<score arrow="3" points="3"/>
+				<score arrow="4" points="3"/>
+			</target>
+			<target nr="4" >
+				<score arrow="1" points="1"/>
+				<score arrow="2" points="10"/>
+				<score arrow="3" points="10"/>
+				<score arrow="4" points="3"/>
+			</target>
+		</archer-score>
+		
+		<archer-score competitor-id="comp-5">
+			<target nr="1" >
+				<score arrow="1" points="5"/>
+				<score arrow="2" points="10"/>
+				<score arrow="3" points="2"/>
+				<score arrow="4" points="2"/>
+			</target>
+			<target nr="2" >
+				<score arrow="1" points="2"/>
+				<score arrow="2" points="3"/>
+				<score arrow="3" points="4"/>
+				<score arrow="4" points="4"/>
+			</target>
+			<target nr="3" >
+				<score arrow="1" points="2"/>
+				<score arrow="2" points="3"/>
+				<score arrow="3" points="4"/>
+				<score arrow="4" points="4"/>
+			</target>
+			<target nr="4" >
+				<score arrow="1" points="2"/>
+				<score arrow="2" points="3"/>
+				<score arrow="3" points="4"/>
+				<score arrow="4" points="4"/>
+			</target>
+		</archer-score>
+	
+		<archer-score competitor-id="comp-6">
+			<target nr="1" >
+				<score arrow="1" points="10"/>
+				<score arrow="2" points="8"/>
+				<score arrow="3" points="3"/>
+				<score arrow="4" points="3"/>
+			</target>
+			<target nr="2" >
+				<score arrow="1" points="1"/>
+				<score arrow="2" points="10"/>
+				<score arrow="3" points="10"/>
+				<score arrow="4" points="3"/>
+			</target>
+			<target nr="3" >
+				<score arrow="1" points="10"/>
+				<score arrow="2" points="8"/>
+				<score arrow="3" points="3"/>
+				<score arrow="4" points="3"/>
+			</target>
+			<target nr="4" >
+				<score arrow="1" points="1"/>
+				<score arrow="2" points="10"/>
+				<score arrow="3" points="10"/>
+				<score arrow="4" points="3"/>
+			</target>
+		</archer-score>
+	</match>
+	
+	<match match-id="m2" start-time="17:00" end-time="18:00" round-id="r1">
+		<archer-score competitor-id="comp-3">
+			<target nr="1" >
+				<score arrow="1" points="2"/>
+				<score arrow="2" points="3"/>
+				<score arrow="3" points="4"/>
+				<score arrow="4" points="4"/>
+			</target>
+			<target nr="2" >
+				<score arrow="1" points="5"/>
+				<score arrow="2" points="10"/>
+				<score arrow="3" points="2"/>
+				<score arrow="4" points="2"/>
+			</target>
+			<target nr="3" >
+				<score arrow="1" points="2"/>
+				<score arrow="2" points="3"/>
+				<score arrow="3" points="4"/>
+				<score arrow="4" points="4"/>
+			</target>
+			<target nr="4" >
+				<score arrow="1" points="5"/>
+				<score arrow="2" points="10"/>
+				<score arrow="3" points="2"/>
+				<score arrow="4" points="2"/>
+			</target>
+		</archer-score>
+		
+		<archer-score competitor-id="comp-4">
+			<target nr="1" >
+				<score arrow="1" points="1"/>
+				<score arrow="2" points="8"/>
+				<score arrow="3" points="10"/>
+				<score arrow="4" points="10"/>
+			</target>
+			<target nr="2" >
+				<score arrow="1" points="1"/>
+				<score arrow="2" points="10"/>
+				<score arrow="3" points="10"/>
+				<score arrow="4" points="10"/>
+			</target>
+			<target nr="3" >
+				<score arrow="1" points="1"/>
+				<score arrow="2" points="8"/>
+				<score arrow="3" points="10"/>
+				<score arrow="4" points="10"/>
+			</target>
+			<target nr="4" >
+				<score arrow="1" points="1"/>
+				<score arrow="2" points="10"/>
+				<score arrow="3" points="10"/>
+				<score arrow="4" points="10"/>
+			</target>
+		</archer-score>
+		
+		<archer-score competitor-id="comp-7">
+			<target nr="1" >
+				<score arrow="1" points="2"/>
+				<score arrow="2" points="3"/>
+				<score arrow="3" points="4"/>
+				<score arrow="4" points="4"/>
+			</target>
+			<target nr="2" >
+				<score arrow="1" points="5"/>
+				<score arrow="2" points="10"/>
+				<score arrow="3" points="2"/>
+				<score arrow="4" points="2"/>
+			</target>
+			<target nr="3" >
+				<score arrow="1" points="2"/>
+				<score arrow="2" points="3"/>
+				<score arrow="3" points="4"/>
+				<score arrow="4" points="4"/>
+			</target>
+			<target nr="4" >
+				<score arrow="1" points="5"/>
+				<score arrow="2" points="10"/>
+				<score arrow="3" points="2"/>
+				<score arrow="4" points="2"/>
+			</target>
+		</archer-score>
+		
+		<archer-score competitor-id="comp-8">
+			<target nr="1" >
+				<score arrow="1" points="1"/>
+				<score arrow="2" points="8"/>
+				<score arrow="3" points="10"/>
+				<score arrow="4" points="10"/>
+			</target>
+			<target nr="2" >
+				<score arrow="1" points="1"/>
+				<score arrow="2" points="10"/>
+				<score arrow="3" points="10"/>
+				<score arrow="4" points="10"/>
+			</target>
+			<target nr="3" >
+				<score arrow="1" points="1"/>
+				<score arrow="2" points="8"/>
+				<score arrow="3" points="10"/>
+				<score arrow="4" points="10"/>
+			</target>
+			<target nr="4" >
+				<score arrow="1" points="1"/>
+				<score arrow="2" points="10"/>
+				<score arrow="3" points="10"/>
+				<score arrow="4" points="10"/>
+			</target>
+		</archer-score>
+	</match>
+</tournament>

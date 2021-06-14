@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT Championships (Tournament+)>
+<!ELEMENT Tournament (Venue)>
+<!ATTLIST Tournament
+	id ID #REQUIRED
+	year CDATA #REQUIRED
+>
+<!ELEMENT Venue (Match*)>
+<!ATTLIST Venue
+	description CDATA #REQUIRED
+>
+
+<!ELEMENT Match (Person*)>
+<!ATTLIST Match
+	m_id ID #REQUIRED
+	description CDATA #REQUIRED
+>
+
+<!ELEMENT Person (email? , fon? , Score)>
+<!ATTLIST Person
+	p_id ID #REQUIRED
+	name CDATA #REQUIRED
+>
+
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT fon (#PCDATA)>
+
+<!ELEMENT Score (Points*)>
+<!ATTLIST Score
+	score_total CDATA #REQUIRED
+>
+
+<!ELEMENT Points (#PCDATA)>
+<!ATTLIST Points
+	target CDATA #REQUIRED
+	arrow CDATA #REQUIRED
+	points_arrow CDATA #REQUIRED
+>
