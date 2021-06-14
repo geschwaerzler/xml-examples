@@ -1,30 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project>
+<project version="20.1">
     <meta>
         <filters directoryPatterns="" filePatterns="\QrecipesO2project.xpr\E" positiveFilePatterns="" showHiddenFiles="false"/>
         <options>
-            <serialized xml:space="preserve">
+            <serialized version="20.1" xml:space="preserve">
                 <serializableOrderedMap>
                     <entry>
                         <String>scenario.associations</String>
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>recipes2www.xsl</String>
+                                    <String>recipes.fo</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>recipes2www</String>
+                                        <String>recipes2pdf</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
                                     <list>
                                         <String>XSL</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
                                     </list>
                                 </field>
                             </scenarioAssociation>
@@ -42,9 +37,19 @@
                                         <String>XSL</String>
                                     </list>
                                 </field>
-                                <field name="scenarioStorageLocations">
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>recipes2www.xsl</String>
+                                </field>
+                                <field name="scenarioIds">
                                     <list>
-                                        <Byte>2</Byte>
+                                        <String>recipes2www</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
                                     </list>
                                 </field>
                             </scenarioAssociation>
@@ -95,6 +100,9 @@
                                 </field>
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
+                                </field>
+                                <field name="outputFile">
+                                    <File>${pd}/recipes.pdf</File>
                                 </field>
                                 <field name="outputResource">
                                     <String>${pd}/recipes.pdf</String>
@@ -178,6 +186,9 @@
                                 </field>
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
+                                </field>
+                                <field name="outputFile">
+                                    <null/>
                                 </field>
                                 <field name="outputResource">
                                     <String>${pd}/lecture4.html</String>
