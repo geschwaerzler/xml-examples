@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE archery-tournament SYSTEM "archery-tournament.dtd">
+
+<archery-tournament>
+	<!-- divisions -->
+	<division code="VMBH-R" shooting-style="Bowhunter Recurve" age-class="Veteran" gender="M"/>
+	<division code="AMBH-R" shooting-style="Bowhunter Recurve" age-class="Adult" gender="M"/>
+	<division code="AMHB" shooting-style="Historical bow" age-class="Adult" gender="M"/>
+	<division code="AMTR" shooting-style="Traditional Recurve" age-class="Adult" gender="M"/>
+	<division code="VFFU" shooting-style="Freestyle Unlimited" age-class="Veteran" gender="F"/>
+
+	<!-- athletes -->
+	<athlete id="athlete-1" firstname="Juergen" lastname="Matschl" adress="Marktplatz 96, 8454 Remschnigg (AT)" email="juergen.matschl@example.com"/>
+	<athlete id="athlete-2" firstname="Jere" lastname="Nyström" adress="Graben 63, 3232 Oberschildbach (AT)" email="jn@example.com"/>
+	<athlete id="athlete-3" firstname="Frank" lastname="Coltan-Wagner" adress="Amsinckstrasse 99, 09638 Lichtenberg (DE)" email="fcw@example.com"/>
+	<athlete id="athlete-4" firstname="Anne" lastname="Smith" adress="Neubertbogen 112, 4938 Rohrbachgraben (CH)" email="as@example.com"/>
+	<athlete id="athlete-5" firstname="Franz" lastname="Anwander" adress="Pohlstrasse 88, 37534 Gittelde (DE)" email="fa@example.com"/>
+	<athlete id="athlete-6" firstname="Frank" lastname="Möller" adress="Karl-Liebknecht-Strasse 12, 27324 Hämelhausen (DE)" email="fm@example.com"/>
+	<athlete id="athlete-7" firstname="Milan" lastname="Hladil" adress="Ke hřišti 482, 281 01 Velim (CZE)" email="mh@example.com"/>
+	<athlete id="athlete-8" firstname="James" lastname="Moloney" adress="Cootehall Boyle, Boyle (IRL)" email="jm@example.com"/>
+	<athlete id="athlete-9" firstname="Kobus" lastname="Barnard" adress="1547 Daffodil Dr, 5087 Mount Frere (ZAF)" email="kb@example.com"/>
+	<athlete id="athlete-10" firstname="Elizabtete Anna" lastname="Vaicuka" adress="Dammes, дом 40, Рига (LVA)" email="ev@example.com"/>
+	<athlete id="athlete-11" firstname="Robert" lastname="Hall" adress="Sky Bus. Centre, 57 Clontarf Rd (IRL)" email="rh@example.com"/>
+
+	<!-- rules -->
+	<rule id="rule-1">Geltendes Reglement zur Veranstaltung ist der Einladung zum Turnier zu entnehmen: https://www.oebsv.com/media/Oebsv_TournamentInvitations/1694-ca393e31-8d3d-4ddf-aca2-215cd7973b44/default/557213e7/1621319290/BCUW%20Einladung%20zum%20Vienna%20Open%20und%20Wiener%20Landesmeisterschaft%20Outdoor%202021</rule>
+	<rule id="rule-2">Es gilt das aktuelle WA Reglement und die derzeit geltende WKO. Es wird darauf aufmerksam gemacht, dass Dopingkontrollen von der NADA bei WA registrierten Turnieren durchgeführt werden können (Gästeliste ausgenommen). Bitte lesen Sie die Informationen auf der ÖBSV Startwebseite oder auf der www.nada.at. Die Verantwortung für das Thema "Doping" liegt ausschließlich bei den SchützInnen selbst. Sämtliche Folgekosten eines positiven Testergebnisses hat der Schütze/die Schützin zu tragen</rule>
+
+	<tournament name="Vienna Open und Wiener Landesmeisterschaft Outdoor 2021" year="2021" location="Zwicklgasse 17, 1110 Wien (AT)">
+		<!-- tournament applications -->
+		<application-approval approved="1">
+			<application-payment payment-received="1">
+				<application athlete-id="athlete-1" division-code="VMBH-R" application-date="2021-01-21 17:31:44"/>
+				<application athlete-id="athlete-2" division-code="VMBH-R" application-date="2020-11-03 07:31:24"/>
+				<application athlete-id="athlete-3" division-code="AMBH-R" application-date="2021-02-02 10:57:23"/>
+			</application-payment>
+		</application-approval>
+
+		<!-- tournament events -->
+		<event title="Startnummernausgabe und Gerätekontrolle" time="2021-05-19 08:00:00" duration="30" location="Turnierplatz">
+			<participation athlete-id="athlete-1"/>
+			<participation athlete-id="athlete-2"/>
+			<participation athlete-id="athlete-3"/>
+		</event>
+		<event rule-id="rule-1" title="1. Wertungsdurchgang" time="2021-05-19 09:15:00" duration="90" location="Turnierplatz">
+			<participation athlete-id="athlete-1">
+				<score>
+					<arrow>5</arrow>
+					<arrow>9</arrow>
+					<arrow>1</arrow>
+					<arrow>6</arrow>			
+				</score>
+				<score>
+					<arrow>7</arrow>
+					<arrow>9</arrow>
+					<arrow>4</arrow>
+					<arrow>3</arrow>			
+				</score>
+				<score>
+					<arrow>4</arrow>
+					<arrow>2</arrow>
+					<arrow>6</arrow>
+					<arrow>0</arrow>			
+				</score>
+			</participation>
+			<participation athlete-id="athlete-2">
+				<score>
+					<arrow>9</arrow>
+					<arrow>7</arrow>
+					<arrow>3</arrow>
+					<arrow>7</arrow>			
+				</score>
+				<score>
+					<arrow>8</arrow>
+					<arrow>7</arrow>
+					<arrow>2</arrow>
+					<arrow>3</arrow>			
+				</score>
+				<score>
+					<arrow>4</arrow>
+					<arrow>6</arrow>
+					<arrow>3</arrow>
+					<arrow>0</arrow>			
+				</score>
+			</participation>
+			<participation athlete-id="athlete-3">
+				<score>
+					<arrow>6</arrow>
+					<arrow>5</arrow>
+					<arrow>7</arrow>
+					<arrow>2</arrow>			
+				</score>
+				<score>
+					<arrow>7</arrow>
+					<arrow>2</arrow>
+					<arrow>5</arrow>
+					<arrow>5</arrow>			
+				</score>
+				<score>
+					<arrow>4</arrow>
+					<arrow>6</arrow>
+					<arrow>9</arrow>
+					<arrow>0</arrow>			
+				</score>
+			</participation>
+		</event>
+		<event rule-id="rule-1" title="2. Wertungsdurchgang" time="2021-05-19 11:00:00" duration="90" location="Turnierplatz">
+			<participation athlete-id="athlete-1">
+				<score>
+					<arrow>7</arrow>
+					<arrow>4</arrow>
+					<arrow>6</arrow>
+					<arrow>1</arrow>			
+				</score>
+				<score>
+					<arrow>2</arrow>
+					<arrow>1</arrow>
+					<arrow>6</arrow>
+					<arrow>5</arrow>			
+				</score>
+				<score>
+					<arrow>6</arrow>
+					<arrow>4</arrow>
+					<arrow>1</arrow>
+					<arrow>7</arrow>			
+				</score>
+			</participation>
+			<participation athlete-id="athlete-2">
+				<score>
+					<arrow>0</arrow>
+					<arrow>7</arrow>
+					<arrow>5</arrow>
+					<arrow>5</arrow>			
+				</score>
+				<score>
+					<arrow>7</arrow>
+					<arrow>6</arrow>
+					<arrow>2</arrow>
+					<arrow>4</arrow>			
+				</score>
+				<score>
+					<arrow>4</arrow>
+					<arrow>5</arrow>
+					<arrow>6</arrow>
+					<arrow>3</arrow>			
+				</score>
+			</participation>
+			<participation athlete-id="athlete-3">
+				<score>
+					<arrow>6</arrow>
+					<arrow>4</arrow>
+					<arrow>9</arrow>
+					<arrow>1</arrow>			
+				</score>
+				<score>
+					<arrow>7</arrow>
+					<arrow>6</arrow>
+					<arrow>3</arrow>
+					<arrow>5</arrow>			
+				</score>
+				<score>
+					<arrow>5</arrow>
+					<arrow>3</arrow>
+					<arrow>1</arrow>
+					<arrow>5</arrow>			
+				</score>
+			</participation>
+		</event>
+		<event title="Finalschießen" time="2021-05-19 13:15:00" location="Turnierplatz">
+			<participation athlete-id="athlete-1">
+				<score>
+					<arrow>3</arrow>
+					<arrow>7</arrow>
+					<arrow>1</arrow>
+					<arrow>0</arrow>			
+				</score>
+				<score>
+					<arrow>4</arrow>
+					<arrow>2</arrow>
+					<arrow>6</arrow>
+					<arrow>7</arrow>			
+				</score>
+				<score>
+					<arrow>8</arrow>
+					<arrow>4</arrow>
+					<arrow>6</arrow>
+					<arrow>4</arrow>			
+				</score>
+			</participation>
+			<participation athlete-id="athlete-2">
+				<score>
+					<arrow>3</arrow>
+					<arrow>6</arrow>
+					<arrow>1</arrow>
+					<arrow>2</arrow>			
+				</score>
+				<score>
+					<arrow>7</arrow>
+					<arrow>9</arrow>
+					<arrow>1</arrow>
+					<arrow>3</arrow>			
+				</score>
+				<score>
+					<arrow>9</arrow>
+					<arrow>6</arrow>
+					<arrow>9</arrow>
+					<arrow>4</arrow>			
+				</score>
+			</participation>
+			<participation athlete-id="athlete-3">
+				<score>
+					<arrow>6</arrow>
+					<arrow>3</arrow>
+					<arrow>7</arrow>
+					<arrow>1</arrow>			
+				</score>
+				<score>
+					<arrow>6</arrow>
+					<arrow>9</arrow>
+					<arrow>7</arrow>
+					<arrow>8</arrow>			
+				</score>
+				<score>
+					<arrow>2</arrow>
+					<arrow>7</arrow>
+					<arrow>5</arrow>
+					<arrow>3</arrow>			
+				</score>
+			</participation>
+		</event>
+		<event title="Siegerehrungen" location="Turnierplatz">
+			<participation athlete-id="athlete-2"/>
+			<participation athlete-id="athlete-3"/>
+		</event>
+	</tournament>
+
+	<tournament name="43. Internationales Goldpfeilturnier" year="2021" location="Sandgrubenweg 21, 8055 Seiersberg (AT)">
+		<!-- tournament applications -->
+		<application-approval approved="1">
+			<application-payment payment-received="1">
+				<application athlete-id="athlete-1" division-code="VMBH-R" application-date="2021-03-30 14:31:44"/>
+				<application athlete-id="athlete-4" division-code="AMTR" application-date="2021-03-29 17:30:47"/>
+			</application-payment>
+			<application-payment payment-received="0">
+				<application athlete-id="athlete-5" division-code="AMHB" application-date="2021-03-04 11:51:27"/>
+			</application-payment>
+		</application-approval>
+		<application-approval approved="0">
+			<application-payment payment-received="1">
+				<application athlete-id="athlete-6" division-code="AMHB" application-date="2021-03-21 14:34:20"/>
+			</application-payment>
+		</application-approval>
+
+		<!-- tournament events -->
+		<event title="Training und Gerätekontrolle" time="2021-09-05 08:00:00" duration="15" location="Turnierplatz">
+			<participation athlete-id="athlete-1"/>
+			<participation athlete-id="athlete-4"/>
+		</event>
+		<event rule-id="rule-2" title="1-2. Runde" time="2021-09-05 09:00:00" duration="180" location="Turnierplatz">
+			<participation athlete-id="athlete-1">
+				<score>
+					<arrow>7</arrow>
+					<arrow>4</arrow>
+					<arrow>6</arrow>
+					<arrow>1</arrow>			
+				</score>
+				<score>
+					<arrow>2</arrow>
+					<arrow>1</arrow>
+					<arrow>6</arrow>
+					<arrow>5</arrow>			
+				</score>
+				<score>
+					<arrow>6</arrow>
+					<arrow>4</arrow>
+					<arrow>1</arrow>
+					<arrow>7</arrow>			
+				</score>
+			</participation>
+			<participation athlete-id="athlete-4">
+				<score>
+					<arrow>0</arrow>
+					<arrow>7</arrow>
+					<arrow>5</arrow>
+					<arrow>5</arrow>			
+				</score>
+				<score>
+					<arrow>7</arrow>
+					<arrow>6</arrow>
+					<arrow>2</arrow>
+					<arrow>4</arrow>			
+				</score>
+				<score>
+					<arrow>4</arrow>
+					<arrow>5</arrow>
+					<arrow>6</arrow>
+					<arrow>3</arrow>			
+				</score>
+			</participation>
+		</event>
+		<event rule-id="rule-2" title="3-4. Runde" time="2021-09-05 12:45:00" duration="225" location="Turnierplatz">
+			<participation athlete-id="athlete-1">
+				<score>
+					<arrow>3</arrow>
+					<arrow>7</arrow>
+					<arrow>1</arrow>
+					<arrow>0</arrow>			
+				</score>
+				<score>
+					<arrow>4</arrow>
+					<arrow>2</arrow>
+					<arrow>6</arrow>
+					<arrow>7</arrow>			
+				</score>
+				<score>
+					<arrow>8</arrow>
+					<arrow>4</arrow>
+					<arrow>6</arrow>
+					<arrow>4</arrow>			
+				</score>
+			</participation>
+			<participation athlete-id="athlete-4">
+				<score>
+					<arrow>3</arrow>
+					<arrow>6</arrow>
+					<arrow>1</arrow>
+					<arrow>2</arrow>			
+				</score>
+				<score>
+					<arrow>7</arrow>
+					<arrow>9</arrow>
+					<arrow>1</arrow>
+					<arrow>3</arrow>			
+				</score>
+				<score>
+					<arrow>9</arrow>
+					<arrow>6</arrow>
+					<arrow>9</arrow>
+					<arrow>4</arrow>			
+				</score>
+			</participation>
+		</event>
+		<event title="Siegerehrung" time="2021-09-05 16:30:00" duration="30" location="Turnierplatz">
+			
+		</event>
+	</tournament>
+
+</archery-tournament>
