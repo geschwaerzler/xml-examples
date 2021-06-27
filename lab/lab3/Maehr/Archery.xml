@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone = "no"?>
+<!DOCTYPE Championships SYSTEM "Archery.dtd">
+
+<Championships>
+	<Tournament id = "A1" year = "2020">
+		<Venue description = "Ort1"> 
+			<Match m_id = "A1_01" description = "2020_Match1">
+				<Person p_id = "Pl-2020_0001" name = "Willard Thief">
+					<email>willard.thief@service.org</email>
+					<fon>0660 5850485</fon>
+					<Score score_total = "28">
+						<Points target = "1" arrow = "1" points_arrow = "10"/>
+						<Points target = "1" arrow = "2" points_arrow = "8"/>
+						<Points target = "1" arrow = "3" points_arrow = "10"/>
+					</Score>
+				</Person>
+				<Person p_id = "Pl-2020_0002" name = "Sarah Collins">
+					<email>sarah.collins@service.org</email>
+					<fon>0660 1234567</fon>
+					<Score score_total = "33">
+						<Points target = "1" arrow = "1" points_arrow = "12"/>
+						<Points target = "1" arrow = "2" points_arrow = "9"/>
+						<Points target = "1" arrow = "3" points_arrow = "12"/>
+					</Score>
+				</Person>
+			</Match>
+			<Match m_id = "A1_02" description = "2020_Match2">
+				<Person p_id = "Pl-2020_0003" name= "Max Mustermann">
+					<email>max.mustermann@email.de</email>
+					<Score score_total = "36">
+						<Points target = "1" arrow = "1" points_arrow = "12"/>
+						<Points target = "1" arrow = "2" points_arrow = "12"/>
+						<Points target = "1" arrow = "3" points_arrow = "12"/>
+					</Score>
+				</Person>
+				<Person p_id = "Pl-2020_0004" name = "Gut Goodman">
+					<fon>0660 58303038</fon>
+					<Score score_total = "33">
+						<Points target = "1" arrow = "1" points_arrow = "6"/>
+						<Points target = "1" arrow = "2" points_arrow = "12"/>
+						<Points target = "1" arrow = "3" points_arrow = "9"/>
+					</Score>
+				</Person>
+			</Match>
+		</Venue>
+	</Tournament>
+	
+	<Tournament id = "A2" year = "2021">
+		<Venue description = "Ort2">
+			<Match m_id = "A2_01" description = "2021_Match1">
+				<Person p_id = "Pl-2021_0001" name = "Maria Musterfrau">
+					<email>maria.musterfrau@email.de</email>
+					<Score score_total = "28">
+						<Points target = "1" arrow = "1" points_arrow = "10"/>
+						<Points target = "1" arrow = "2" points_arrow = "8"/>
+						<Points target = "1" arrow = "3" points_arrow = "10"/>
+					</Score>
+				</Person>
+				<Person p_id = "Pl-2021_0002" name = "Felix Baum">
+					<fon>0660 84930855</fon>
+					<Score score_total = "33">
+						<Points target = "1" arrow = "1" points_arrow = "12"/>
+						<Points target = "1" arrow = "2" points_arrow = "9"/>
+						<Points target = "1" arrow = "3" points_arrow = "12"/>
+					</Score>
+				</Person>
+			</Match>
+			<Match m_id = "A2_02" description = "2021_Match2">
+				<Person p_id = "Pl-2021_0003" name = "Diana Crown">
+					<email>diana.crown@royal.net</email>
+					<fon>0660 98765321</fon>
+					<Score score_total = "36">
+						<Points target = "1" arrow = "1" points_arrow = "12"/>
+						<Points target = "1" arrow = "2" points_arrow = "12"/>
+						<Points target = "1" arrow = "3" points_arrow = "12"/>
+					</Score>
+				</Person>
+				<Person p_id = "Pl-2021_0004" name = "New Goodman">
+					<email>new.goodman@service.com</email>
+					<fon>0660 58303038</fon>
+					<Score score_total = "33">
+						<Points target = "1" arrow = "1" points_arrow = "6"/>
+						<Points target = "1" arrow = "2" points_arrow = "12"/>
+						<Points target = "1" arrow = "3" points_arrow = "9"/>
+					</Score>
+				</Person>
+			</Match>
+		</Venue>
+	</Tournament>
+</Championships>

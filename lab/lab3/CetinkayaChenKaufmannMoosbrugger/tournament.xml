@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tournament SYSTEM "tournament.dtd">
+<tournament name="World Field Archery Tournament 2021" beginn-date="2021-06-19">
+	
+	<person id="a-2" firstname="Johannes" age="30" gender="m" lastname="Moosbrugger" shooting-style="AMBB-R" club="AC Lingenau"/>
+	<person id="a-4" firstname="Yiwei" age="30" gender="m" lastname="Chen" shooting-style="AMBB-R" club="AC Bregenz"/>
+	<person id="a-3" firstname="Yusuf" age="30" gender="m" lastname="Cetinkaya" shooting-style="AMBB-R" club="AC Bregenz"/>
+	<person id="a-1" firstname="Lukas" age="21" gender="m" lastname="Kaufmann" shooting-style="AMBB-R" club="AC Hard"/>
+	
+	<person id="a-5" firstname="Gudrun" lastname="Hagermeister" age="55" gender="w" shooting-style="VFFU" club="AC Mellau"/>
+	<person id="a-6" firstname="Hildegard" lastname="Marinelli" age="47" gender="w" shooting-style="VFFU" club="AC Mellau"/>
+	<person id="a-7" firstname="Siglinde" lastname="Metzler" age="45" gender="w" shooting-style="VFFU" club="AC Hörbranz"/>
+	<person id="a-8" firstname="Mariane" lastname="Willi" age="48" gender="w" shooting-style="VFFU" club="AC Dallas"/>
+	
+	<person id="a-9" firstname="Mehmmet" age="68" gender="m" lastname="Moosbrugger" shooting-style="VMBB-R" club="AC Dornbirn"/>
+	<person id="a-10" firstname="Jonas" age="72" gender="m" lastname="Bereuter" shooting-style="VMBB-R" club="AC Bregenz"/>
+	<person id="a-11" firstname="Herbert" age="70" gender="m" lastname="Steurer" shooting-style="VMBB-R" club="AC Feldkirch"/>
+	<person id="a-12" firstname="Fritz" age="71" gender="m" lastname="Kaufmann" shooting-style="VMBB-R" club="AC Bludenz"/>
+	
+	<person club="AC Dornbirn" shooting-style="VMBB-R" lastname="Can" gender="m" age="51" firstname="Achmet" id="a-13"/>
+	<person club="AC Bregenz" shooting-style="VMBB-R" lastname="Betreuer" gender="m" age="55" firstname="Mohammed" id="a-14"/>
+	<person club="AC Feldkirch" shooting-style="VMBB-R" lastname="Steurer" gender="m" age="50" firstname="Ali" id="a-15"/>
+	<person club="AC Bludenz" shooting-style="VMBB-R" lastname="Kaufmann" gender="m" age="53" firstname="Hamid" id="a-16"/>
+	
+	<person id="a-17" firstname="Kate" lastname="McKinnon" gender="w" age="29" shooting-style="AMBB-R"/>
+	<person id="a-18" firstname="Margarethe" lastname="Valentiny" gender="w" age="25" shooting-style="AMBB-R"/>
+	<person id="a-19" firstname="Trude" lastname="Dudemeister" gender="w" age="23" shooting-style="AMBB-R"/>
+	<person id="a-20" firstname="Hilde" lastname="Soundso" gender="w" age="23" shooting-style="AMBB-R"/>
+	<person id="a-21" firstname="Lena" lastname="Kopf" gender="w" age="23" shooting-style="AMBB-R"/>
+	<person id="a-22" firstname="Summer" lastname="Bee" gender="w" age="23" shooting-style="AMBB-R"/>
+	<person id="a-23" firstname="Beth" lastname="Müller" gender="w" age="23" shooting-style="AMBB-R"/>
+	<person id="a-24" firstname="Vanessa" lastname="House" gender="w" age="23" shooting-style="AMBB-R"/>
+	
+	<group nr="g-1"> 
+		
+		<athlete person-id="a-2" role="score-keeper"/>
+		<athlete person-id="a-3" role="score-keeper"/>
+		<athlete person-id="a-1" role="target-captain"/>
+		<athlete person-id="a-4"/>
+		<round nr="g-1ro-1" date="2021-06-19" type="field" range-id="ra-1">
+			<score-card athlete-id="a-1">
+				<target id="t-1" distance="65">
+					<score arrow-nr="1" points="0"/>
+					<score arrow-nr="2" points="5"/>
+					<score arrow-nr="3" points="3"/>
+					<score arrow-nr="4" points="5"/>
+				</target>
+				<target id="t-2" distance="60">
+					<score arrow-nr="1" points="0"/>
+					<score arrow-nr="2" points="0"/>
+					<score arrow-nr="3" points="4"/>
+					<score arrow-nr="4" points="0"/>
+				</target>
+				<target id="t-3" distance="55">
+					<score arrow-nr="1" points="3"/>
+					<score arrow-nr="2" points="5"/>
+					<score arrow-nr="3" points="3"/>
+					<score arrow-nr="4" points="5"/>
+				</target>
+				<target id="t-4" distance="40">
+					<score arrow-nr="1" points="0"/>
+					<score arrow-nr="2" points="5"/>
+					<score arrow-nr="3" points="0"/>
+					<score arrow-nr="4" points="0"/>
+				</target>
+				
+			</score-card>
+			<score-card athlete-id="a-2">
+				<target id="t-1" distance="65">
+					<score arrow-nr="1" points="0"/>
+					<score arrow-nr="2" points="5"/>
+					<score arrow-nr="3" points="5"/>
+					<score arrow-nr="4" points="0"/>
+				</target>
+				<target id="t-2" distance="60">
+					<score arrow-nr="1" points="3"/>
+					<score arrow-nr="2" points="5"/>
+					<score arrow-nr="3" points="4"/>
+					<score arrow-nr="4" points="0"/>
+				</target>
+				<target id="t-3" distance="55">
+					<score arrow-nr="1" points="4"/>
+					<score arrow-nr="2" points="5"/>
+					<score arrow-nr="3" points="5"/>
+					<score arrow-nr="4" points="3"/>
+				</target>
+				<target id="t-4" distance="40">
+					<score arrow-nr="1" points="3"/>
+					<score arrow-nr="2" points="3"/>
+					<score arrow-nr="3" points="3"/>
+					<score arrow-nr="4" points="4"/>
+				</target>
+			</score-card>
+			<score-card athlete-id="a-4">
+				<target id="t-1" distance="65">
+					<score arrow-nr="1" points="0"/>
+					<score arrow-nr="2" points="5"/>
+					<score arrow-nr="3" points="4"/>
+					<score arrow-nr="4" points="4"/>
+				</target>
+				<target id="t-2" distance="60">
+					<score arrow-nr="1" points="3"/>
+					<score arrow-nr="2" points="4"/>
+					<score arrow-nr="3" points="5"/>
+					<score arrow-nr="4" points="0"/>
+				</target>
+				<target id="t-3" distance="55">
+					<score arrow-nr="1" points="5"/>
+					<score arrow-nr="2" points="5"/>
+					<score arrow-nr="3" points="3"/>
+					<score arrow-nr="4" points="3"/>
+				</target>
+				<target id="t-4" distance="40">
+					<score arrow-nr="1" points="0"/>
+					<score arrow-nr="2" points="3"/>
+					<score arrow-nr="3" points="3"/>
+					<score arrow-nr="4" points="4"/>
+				</target>
+				
+			</score-card>
+			<score-card athlete-id="a-3">
+				<target id="t-1" distance="65">
+					<score arrow-nr="1" points="3"/>
+					<score arrow-nr="2" points="0"/>
+					<score arrow-nr="3" points="5"/>
+					<score arrow-nr="4" points="3"/>
+				</target>
+				<target id="t-2" distance="60">
+					<score arrow-nr="1" points="4"/>
+					<score arrow-nr="2" points="5"/>
+					<score arrow-nr="3" points="3"/>
+					<score arrow-nr="4" points="4"/>
+				</target>
+				<target id="t-3" distance="55">
+					<score arrow-nr="1" points="0"/>
+					<score arrow-nr="2" points="5"/>
+					<score arrow-nr="3" points="3"/>
+					<score arrow-nr="4" points="0"/>
+				</target>
+				<target id="t-4" distance="40">
+					<score arrow-nr="1" points="5"/>
+					<score arrow-nr="2" points="4"/>
+					<score arrow-nr="3" points="4"/>
+					<score arrow-nr="4" points="5"/>
+				</target>
+				
+
+			</score-card>
+		</round>
+	</group>
+		
+	<group nr="g-2">
+		<athlete person-id="a-5" role="target-captain"/>
+		<athlete person-id="a-6" role="score-keeper"/>
+		<athlete person-id="a-7" role="score-keeper"/>
+		<athlete person-id="a-8"/>
+		
+		<round nr="g-2ro-2" date="2021-06-20" type="hunter" range-id="ra-2">
+			<score-card athlete-id="a-5">
+				<target id="t-1" distance="59">
+					<score arrow-nr="1" points="0"/>
+					<score arrow-nr="2" points="4"/>
+					<score arrow-nr="3" points="4"/>
+					<score arrow-nr="4" points="5"/>
+				</target>
+				<target id="t-2" distance="53">
+					<score arrow-nr="1" points="5"/>
+					<score arrow-nr="2" points="5"/>
+					<score arrow-nr="3" points="5"/>
+					<score arrow-nr="4" points="5"/>
+				</target>
+				<target id="t-3" distance="48">
+					<score arrow-nr="1" points="0"/>
+					<score arrow-nr="2" points="0"/>
+					<score arrow-nr="3" points="0"/>
+					<score arrow-nr="4" points="4"/>
+				</target>
+				<target id="t-4" distance="48">
+					<score arrow-nr="1" points="3"/>
+					<score arrow-nr="2" points="4"/>
+					<score arrow-nr="3" points="4"/>
+					<score arrow-nr="4" points="4"/>
+				</target>
+
+			</score-card>
+			<score-card athlete-id="a-6">
+				<target id="t-1" distance="59">
+					<score arrow-nr="1" points="5"/>
+					<score arrow-nr="2" points="5"/>
+					<score arrow-nr="3" points="5"/>
+					<score arrow-nr="4" points="4"/>
+				</target>
+				<target id="t-2" distance="53">
+					<score arrow-nr="1" points="4"/>
+					<score arrow-nr="2" points="0"/>
+					<score arrow-nr="3" points="0"/>
+					<score arrow-nr="4" points="4"/>
+				</target>
+				<target id="t-3" distance="48">
+					<score arrow-nr="1" points="3"/>
+					<score arrow-nr="2" points="4"/>
+					<score arrow-nr="3" points="5"/>
+					<score arrow-nr="4" points="5"/>
+				</target>
+				<target id="t-4" distance="48">
+					<score arrow-nr="1" points="5"/>
+					<score arrow-nr="2" points="0"/>
+					<score arrow-nr="3" points="3"/>
+					<score arrow-nr="4" points="3"/>
+				</target>
+
+			</score-card>
+			<score-card athlete-id="a-7">
+				<target id="t-1" distance="59">
+					<score arrow-nr="1" points="4"/>
+					<score arrow-nr="2" points="0"/>
+					<score arrow-nr="3" points="4"/>
+					<score arrow-nr="4" points="3"/>
+				</target>
+				<target id="t-2" distance="53">
+					<score arrow-nr="1" points="4"/>
+					<score arrow-nr="2" points="3"/>
+					<score arrow-nr="3" points="4"/>
+					<score arrow-nr="4" points="3"/>
+				</target>
+				<target id="t-3" distance="48">
+					<score arrow-nr="1" points="3"/>
+					<score arrow-nr="2" points="5"/>
+					<score arrow-nr="3" points="5"/>
+					<score arrow-nr="4" points="0"/>
+				</target>
+				<target id="t-4" distance="48">
+					<score arrow-nr="1" points="0"/>
+					<score arrow-nr="2" points="5"/>
+					<score arrow-nr="3" points="0"/>
+					<score arrow-nr="4" points="5"/>
+				</target>
+
+			</score-card>
+			<score-card athlete-id="a-8">
+				<target id="t-1" distance="59">
+					<score arrow-nr="1" points="4"/>
+					<score arrow-nr="2" points="5"/>
+					<score arrow-nr="3" points="3"/>
+					<score arrow-nr="4" points="0"/>
+				</target>
+				<target id="t-2" distance="53">
+					<score arrow-nr="1" points="3"/>
+					<score arrow-nr="2" points="3"/>
+					<score arrow-nr="3" points="0"/>
+					<score arrow-nr="4" points="5"/>
+				</target>
+				<target id="t-3" distance="48">
+					<score arrow-nr="1" points="0"/>
+					<score arrow-nr="2" points="4"/>
+					<score arrow-nr="3" points="3"/>
+					<score arrow-nr="4" points="0"/>
+				</target>
+				<target id="t-4" distance="48">
+					<score arrow-nr="1" points="5"/>
+					<score arrow-nr="2" points="3"/>
+					<score arrow-nr="3" points="4"/>
+					<score arrow-nr="4" points="0"/>
+				</target>
+
+			</score-card>
+		</round>
+	</group>
+	
+	<group nr="g-3"> 
+		<athlete person-id="a-9"/>
+		<athlete person-id="a-10" role="score-keeper"/>
+		<athlete person-id="a-11" role="score-keeper"/>
+		<athlete person-id="a-12" role="target-captain"/>
+		
+		<round nr="g-3ro-1" date="2021-06-19" type="field" range-id="ra-1">
+
+			<score-card athlete-id="a-9">
+				<target id="t-1" distance="65">
+					<score arrow-nr="1" points="0"/>
+					<score arrow-nr="2" points="0"/>
+					<score arrow-nr="3" points="0"/>
+					<score arrow-nr="4" points="3"/>
+				</target>
+				<target id="t-2" distance="60">
+					<score arrow-nr="1" points="0"/>
+					<score arrow-nr="2" points="3"/>
+					<score arrow-nr="3" points="5"/>
+					<score arrow-nr="4" points="5"/>
+				</target>
+				<target id="t-3" distance="55">
+					<score arrow-nr="1" points="5"/>
+					<score arrow-nr="2" points="5"/>
+					<score arrow-nr="3" points="5"/>
+					<score arrow-nr="4" points="4"/>
+				</target>
+				<target id="t-4" distance="40">
+					<score arrow-nr="1" points="5"/>
+					<score arrow-nr="2" points="5"/>
+					<score arrow-nr="3" points="0"/>
+					<score arrow-nr="4" points="3"/>
+				</target>
+	
+			</score-card>
+			<score-card athlete-id="a-10">
+				<target id="t-1" distance="65">
+					<score arrow-nr="1" points="5"/>
+					<score arrow-nr="2" points="5"/>
+					<score arrow-nr="3" points="4"/>
+					<score arrow-nr="4" points="4"/>
+				</target>
+				<target id="t-2" distance="60">
+					<score arrow-nr="1" points="4"/>
+					<score arrow-nr="2" points="5"/>
+					<score arrow-nr="3" points="5"/>
+					<score arrow-nr="4" points="5"/>
+				</target>
+				<target id="t-3" distance="55">
+					<score arrow-nr="1" points="4"/>
+					<score arrow-nr="2" points="5"/>
+					<score arrow-nr="3" points="5"/>
+					<score arrow-nr="4" points="4"/>
+				</target>
+				<target id="t-4" distance="40">
+					<score arrow-nr="1" points="5"/>
+					<score arrow-nr="2" points="0"/>
+					<score arrow-nr="3" points="4"/>
+					<score arrow-nr="4" points="4"/>
+				</target>
+			</score-card>
+			
+			<score-card athlete-id="a-11">
+				<target id="t-1" distance="65">
+					<score arrow-nr="1" points="5"/>
+					<score arrow-nr="2" points="3"/>
+					<score arrow-nr="3" points="5"/>
+					<score arrow-nr="4" points="5"/>
+				</target>
+				<target id="t-2" distance="60">
+					<score arrow-nr="1" points="4"/>
+					<score arrow-nr="2" points="0"/>
+					<score arrow-nr="3" points="4"/>
+					<score arrow-nr="4" points="4"/>
+				</target>
+				<target id="t-3" distance="55">
+					<score arrow-nr="1" points="4"/>
+					<score arrow-nr="2" points="0"/>
+					<score arrow-nr="3" points="4"/>
+					<score arrow-nr="4" points="4"/>
+				</target>
+				<target id="t-4" distance="40">
+					<score arrow-nr="1" points="3"/>
+					<score arrow-nr="2" points="0"/>
+					<score arrow-nr="3" points="5"/>
+					<score arrow-nr="4" points="0"/>
+				</target>
+	
+			</score-card>
+			
+			
+			
+			<score-card athlete-id="a-12">
+				<target id="t-1" distance="65">
+					<score arrow-nr="1" points="0"/>
+					<score arrow-nr="2" points="4"/>
+					<score arrow-nr="3" points="4"/>
+					<score arrow-nr="4" points="0"/>
+				</target>
+				<target id="t-2" distance="60">
+					<score arrow-nr="1" points="5"/>
+					<score arrow-nr="2" points="0"/>
+					<score arrow-nr="3" points="0"/>
+					<score arrow-nr="4" points="5"/>
+				</target>
+				<target id="t-3" distance="55">
+					<score arrow-nr="1" points="4"/>
+					<score arrow-nr="2" points="5"/>
+					<score arrow-nr="3" points="0"/>
+					<score arrow-nr="4" points="3"/>
+				</target>
+				<target id="t-4" distance="40">
+					<score arrow-nr="1" points="5"/>
+					<score arrow-nr="2" points="5"/>
+					<score arrow-nr="3" points="0"/>
+					<score arrow-nr="4" points="5"/>
+				</target>
+
+			</score-card>
+			
+		</round>
+	</group>
+	
+	<group nr="g-4">
+		<athlete person-id="a-17" role="target-captain"/>
+		<athlete person-id="a-18" role="score-keeper"/>
+		<athlete person-id="a-19" role="score-keeper"/>
+		<athlete person-id="a-20"/>
+		
+		<round nr="g-4ro-2" date="2021-06-20" type="hunter" range-id="ra-2">
+			
+			<score-card athlete-id="a-17">
+				<target id="t-1" distance="65">
+					<score arrow-nr="1" points="5"/>
+					<score arrow-nr="2" points="0"/>
+					<score arrow-nr="3" points="3"/>
+					<score arrow-nr="4" points="4"/>
+				</target>
+				<target id="t-2" distance="60">
+					<score arrow-nr="1" points="3"/>
+					<score arrow-nr="2" points="5"/>
+					<score arrow-nr="3" points="4"/>
+					<score arrow-nr="4" points="3"/>
+				</target>
+				<target id="t-3" distance="55">
+					<score arrow-nr="1" points="4"/>
+					<score arrow-nr="2" points="3"/>
+					<score arrow-nr="3" points="4"/>
+					<score arrow-nr="4" points="4"/>
+				</target>
+				<target id="t-4" distance="40">
+					<score arrow-nr="1" points="5"/>
+					<score arrow-nr="2" points="3"/>
+					<score arrow-nr="3" points="5"/>
+					<score arrow-nr="4" points="0"/>
+				</target>
+			</score-card>
+			
+			<score-card athlete-id="a-18">
+				<target id="t-1" distance="65">
+					<score arrow-nr="1" points="4"/>
+					<score arrow-nr="2" points="0"/>
+					<score arrow-nr="3" points="4"/>
+					<score arrow-nr="4" points="5"/>
+				</target>
+				<target id="t-2" distance="60">
+					<score arrow-nr="1" points="5"/>
+					<score arrow-nr="2" points="0"/>
+					<score arrow-nr="3" points="3"/>
+					<score arrow-nr="4" points="0"/>
+				</target>
+				<target id="t-3" distance="55">
+					<score arrow-nr="1" points="4"/>
+					<score arrow-nr="2" points="5"/>
+					<score arrow-nr="3" points="0"/>
+					<score arrow-nr="4" points="0"/>
+				</target>
+				<target id="t-4" distance="40">
+					<score arrow-nr="1" points="0"/>
+					<score arrow-nr="2" points="3"/>
+					<score arrow-nr="3" points="4"/>
+					<score arrow-nr="4" points="4"/>
+				</target>
+
+			</score-card>			
+			
+			
+			
+			<score-card athlete-id="a-19">
+				<target id="t-1" distance="65">
+					<score arrow-nr="1" points="4"/>
+					<score arrow-nr="2" points="0"/>
+					<score arrow-nr="3" points="0"/>
+					<score arrow-nr="4" points="3"/>
+				</target>
+				<target id="t-2" distance="60">
+					<score arrow-nr="1" points="5"/>
+					<score arrow-nr="2" points="5"/>
+					<score arrow-nr="3" points="3"/>
+					<score arrow-nr="4" points="3"/>
+				</target>
+				<target id="t-3" distance="55">
+					<score arrow-nr="1" points="3"/>
+					<score arrow-nr="2" points="0"/>
+					<score arrow-nr="3" points="4"/>
+					<score arrow-nr="4" points="4"/>
+				</target>
+				<target id="t-4" distance="40">
+					<score arrow-nr="1" points="5"/>
+					<score arrow-nr="2" points="4"/>
+					<score arrow-nr="3" points="5"/>
+					<score arrow-nr="4" points="5"/>
+				</target>
+
+			</score-card>			
+			
+			
+			<score-card athlete-id="a-20">
+				<target id="t-1" distance="65">
+					<score arrow-nr="1" points="5"/>
+					<score arrow-nr="2" points="4"/>
+					<score arrow-nr="3" points="0"/>
+					<score arrow-nr="4" points="5"/>
+				</target>
+				<target id="t-2" distance="60">
+					<score arrow-nr="1" points="3"/>
+					<score arrow-nr="2" points="3"/>
+					<score arrow-nr="3" points="5"/>
+					<score arrow-nr="4" points="4"/>
+				</target>
+				<target id="t-3" distance="55">
+					<score arrow-nr="1" points="5"/>
+					<score arrow-nr="2" points="5"/>
+					<score arrow-nr="3" points="4"/>
+					<score arrow-nr="4" points="4"/>
+				</target>
+				<target id="t-4" distance="40">
+					<score arrow-nr="1" points="5"/>
+					<score arrow-nr="2" points="0"/>
+					<score arrow-nr="3" points="4"/>
+					<score arrow-nr="4" points="4"/>
+				</target>
+
+			</score-card>
+		</round>
+	</group>	
+	
+	<group nr="g-5">
+
+		<athlete person-id="a-21"/>
+		
+		<athlete role="score-keeper" person-id="a-22"/>
+		
+		<athlete role="score-keeper" person-id="a-23"/>
+		
+		<athlete role="target-captain" person-id="a-24"/>
+	
+		<round nr="g-5ro-1" range-id="ra-1" type="field" date="2021-06-21">
+	
+			<score-card athlete-id="a-21">
+				<target id="t-1" distance="65">
+					<score arrow-nr="1" points="4"/>
+					<score arrow-nr="2" points="5"/>
+					<score arrow-nr="3" points="5"/>
+					<score arrow-nr="4" points="0"/>
+				</target>
+				<target id="t-2" distance="60">
+					<score arrow-nr="1" points="4"/>
+					<score arrow-nr="2" points="0"/>
+					<score arrow-nr="3" points="5"/>
+					<score arrow-nr="4" points="4"/>
+				</target>
+				<target id="t-3" distance="55">
+					<score arrow-nr="1" points="4"/>
+					<score arrow-nr="2" points="0"/>
+					<score arrow-nr="3" points="3"/>
+					<score arrow-nr="4" points="3"/>
+				</target>
+				<target id="t-4" distance="40">
+					<score arrow-nr="1" points="5"/>
+					<score arrow-nr="2" points="0"/>
+					<score arrow-nr="3" points="5"/>
+					<score arrow-nr="4" points="0"/>
+				</target>
+			</score-card>
+	
+			<score-card athlete-id="a-22">
+				<target id="t-1" distance="65">
+					<score arrow-nr="1" points="4"/>
+					<score arrow-nr="2" points="3"/>
+					<score arrow-nr="3" points="4"/>
+					<score arrow-nr="4" points="5"/>
+				</target>
+				<target id="t-2" distance="60">
+					<score arrow-nr="1" points="4"/>
+					<score arrow-nr="2" points="5"/>
+					<score arrow-nr="3" points="4"/>
+					<score arrow-nr="4" points="4"/>
+				</target>
+				<target id="t-3" distance="55">
+					<score arrow-nr="1" points="3"/>
+					<score arrow-nr="2" points="4"/>
+					<score arrow-nr="3" points="0"/>
+					<score arrow-nr="4" points="5"/>
+				</target>
+				<target id="t-4" distance="40">
+					<score arrow-nr="1" points="5"/>
+					<score arrow-nr="2" points="3"/>
+					<score arrow-nr="3" points="0"/>
+					<score arrow-nr="4" points="4"/>
+				</target>
+			</score-card>
+	
+			<score-card athlete-id="a-23">
+				<target id="t-1" distance="65">
+					<score arrow-nr="1" points="3"/>
+					<score arrow-nr="2" points="5"/>
+					<score arrow-nr="3" points="4"/>
+					<score arrow-nr="4" points="5"/>
+				</target>
+				<target id="t-2" distance="60">
+					<score arrow-nr="1" points="0"/>
+					<score arrow-nr="2" points="4"/>
+					<score arrow-nr="3" points="3"/>
+					<score arrow-nr="4" points="5"/>
+				</target>
+				<target id="t-3" distance="55">
+					<score arrow-nr="1" points="5"/>
+					<score arrow-nr="2" points="0"/>
+					<score arrow-nr="3" points="4"/>
+					<score arrow-nr="4" points="4"/>
+				</target>
+				<target id="t-4" distance="40">
+					<score arrow-nr="1" points="4"/>
+					<score arrow-nr="2" points="5"/>
+					<score arrow-nr="3" points="5"/>
+					<score arrow-nr="4" points="5"/>
+				</target>
+			</score-card>
+	
+	
+			<score-card athlete-id="a-24">
+				<target id="t-1" distance="65">
+					<score arrow-nr="1" points="0"/>
+					<score arrow-nr="2" points="5"/>
+					<score arrow-nr="3" points="0"/>
+					<score arrow-nr="4" points="4"/>
+				</target>
+				<target id="t-2" distance="60">
+					<score arrow-nr="1" points="0"/>
+					<score arrow-nr="2" points="0"/>
+					<score arrow-nr="3" points="5"/>
+					<score arrow-nr="4" points="5"/>
+				</target>
+				<target id="t-3" distance="55">
+					<score arrow-nr="1" points="4"/>
+					<score arrow-nr="2" points="0"/>
+					<score arrow-nr="3" points="3"/>
+					<score arrow-nr="4" points="0"/>
+				</target>
+				<target id="t-4" distance="40">
+					<score arrow-nr="1" points="4"/>
+					<score arrow-nr="2" points="0"/>
+					<score arrow-nr="3" points="5"/>
+					<score arrow-nr="4" points="0"/>
+				</target>
+			</score-card>
+		</round>	
+	</group>
+		
+	<group nr="g-6">
+	
+	<athlete role="target-captain" person-id="a-16"/>
+	
+	<athlete role="score-keeper" person-id="a-14"/>
+	
+	<athlete role="score-keeper" person-id="a-15"/>
+	
+	<athlete person-id="a-13"/>
+	
+	
+	<round nr="g-6ro-2" range-id="ra-2" type="hunter" date="2021-06-22">
+	
+	
+	<score-card athlete-id="a-13">
+				<target id="t-1" distance="65">
+					<score arrow-nr="1" points="3"/>
+					<score arrow-nr="2" points="0"/>
+					<score arrow-nr="3" points="5"/>
+					<score arrow-nr="4" points="0"/>
+				</target>
+				<target id="t-2" distance="60">
+					<score arrow-nr="1" points="4"/>
+					<score arrow-nr="2" points="3"/>
+					<score arrow-nr="3" points="4"/>
+					<score arrow-nr="4" points="4"/>
+				</target>
+				<target id="t-3" distance="55">
+					<score arrow-nr="1" points="3"/>
+					<score arrow-nr="2" points="0"/>
+					<score arrow-nr="3" points="3"/>
+					<score arrow-nr="4" points="0"/>
+				</target>
+				<target id="t-4" distance="40">
+					<score arrow-nr="1" points="3"/>
+					<score arrow-nr="2" points="5"/>
+					<score arrow-nr="3" points="4"/>
+					<score arrow-nr="4" points="0"/>
+				</target>
+
+	</score-card>
+	
+	
+	<score-card athlete-id="a-14">
+				<target id="t-1" distance="59">
+					<score arrow-nr="1" points="3"/>
+					<score arrow-nr="2" points="4"/>
+					<score arrow-nr="3" points="3"/>
+					<score arrow-nr="4" points="0"/>
+				</target>
+				<target id="t-2" distance="53">
+					<score arrow-nr="1" points="0"/>
+					<score arrow-nr="2" points="0"/>
+					<score arrow-nr="3" points="4"/>
+					<score arrow-nr="4" points="0"/>
+				</target>
+				<target id="t-3" distance="48">
+					<score arrow-nr="1" points="0"/>
+					<score arrow-nr="2" points="4"/>
+					<score arrow-nr="3" points="4"/>
+					<score arrow-nr="4" points="3"/>
+				</target>
+				<target id="t-4" distance="48">
+					<score arrow-nr="1" points="5"/>
+					<score arrow-nr="2" points="0"/>
+					<score arrow-nr="3" points="5"/>
+					<score arrow-nr="4" points="0"/>
+				</target>
+
+	</score-card>
+	
+	
+	<score-card athlete-id="a-15">
+				<target id="t-1" distance="59">
+					<score arrow-nr="1" points="5"/>
+					<score arrow-nr="2" points="4"/>
+					<score arrow-nr="3" points="0"/>
+					<score arrow-nr="4" points="3"/>
+				</target>
+				<target id="t-2" distance="53">
+					<score arrow-nr="1" points="5"/>
+					<score arrow-nr="2" points="5"/>
+					<score arrow-nr="3" points="3"/>
+					<score arrow-nr="4" points="4"/>
+				</target>
+				<target id="t-3" distance="48">
+					<score arrow-nr="1" points="0"/>
+					<score arrow-nr="2" points="0"/>
+					<score arrow-nr="3" points="3"/>
+					<score arrow-nr="4" points="4"/>
+				</target>
+				<target id="t-4" distance="48">
+					<score arrow-nr="1" points="0"/>
+					<score arrow-nr="2" points="4"/>
+					<score arrow-nr="3" points="3"/>
+					<score arrow-nr="4" points="5"/>
+				</target>
+
+	</score-card>
+	
+	
+	<score-card athlete-id="a-16">
+	
+				<target id="t-1" distance="59">
+					<score arrow-nr="1" points="5"/>
+					<score arrow-nr="2" points="4"/>
+					<score arrow-nr="3" points="4"/>
+					<score arrow-nr="4" points="5"/>
+				</target>
+				<target id="t-2" distance="53">
+					<score arrow-nr="1" points="5"/>
+					<score arrow-nr="2" points="4"/>
+					<score arrow-nr="3" points="4"/>
+					<score arrow-nr="4" points="0"/>
+				</target>
+				<target id="t-3" distance="48">
+					<score arrow-nr="1" points="4"/>
+					<score arrow-nr="2" points="4"/>
+					<score arrow-nr="3" points="5"/>
+					<score arrow-nr="4" points="0"/>
+				</target>
+				<target id="t-4" distance="48">
+					<score arrow-nr="1" points="4"/>
+					<score arrow-nr="2" points="3"/>
+					<score arrow-nr="3" points="0"/>
+					<score arrow-nr="4" points="5"/>
+				</target>
+
+	
+	</score-card>
+	
+	</round>
+
+</group>
+	
+	<range id="ra-1" name="forrestRange1">
+		<startLocation>
+			Begin auf Platz hinter Hotel.
+		</startLocation>
+	</range>
+	<range id="ra-2" name="hillRange1">
+		<startLocation>
+			Begin hinter der Pizzeria.
+		</startLocation>
+	</range>
+	<range id="ra-3" name="riverRange">
+		<startLocation>
+			Begin neben Anmeldungszelt.
+		</startLocation>
+	</range>
+	<range id="ra-4" name="forrestRange2">
+		<startLocation>
+			Begin neben der Brücke bei der Einfahrt.
+		</startLocation>
+	</range>
+	
+	
+</tournament>

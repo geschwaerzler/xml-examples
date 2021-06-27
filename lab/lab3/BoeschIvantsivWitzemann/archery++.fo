@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format"><fo:layout-master-set><fo:simple-page-master master-name="tournament" page-height="297.0mm" page-width="209.9mm" margin-bottom="8mm" margin-left="25mm" margin-right="10mm" margin-top="10mm"><fo:region-body/></fo:simple-page-master></fo:layout-master-set><fo:page-sequence master-reference="tournament"><fo:flow flow-name="xsl-region-body"><fo:block>
+                        Overview
+                    </fo:block><fo:list-block><fo:list-item><fo:list-item-label><fo:block/></fo:list-item-label><fo:list-item-body><fo:block><fo:basic-link internal-destination="BB-R">Barebow - Recurve</fo:basic-link></fo:block></fo:list-item-body></fo:list-item><fo:list-item><fo:list-item-label><fo:block/></fo:list-item-label><fo:list-item-body><fo:block><fo:basic-link internal-destination="BB-C">Barebow - Compound</fo:basic-link></fo:block></fo:list-item-body></fo:list-item><fo:list-item><fo:list-item-label><fo:block/></fo:list-item-label><fo:list-item-body><fo:block><fo:basic-link internal-destination="FS-R">Freestyle Limited - Recurve</fo:basic-link></fo:block></fo:list-item-body></fo:list-item><fo:list-item><fo:list-item-label><fo:block/></fo:list-item-label><fo:list-item-body><fo:block><fo:basic-link internal-destination="FS-C">Freestyle Limited - Compound</fo:basic-link></fo:block></fo:list-item-body></fo:list-item><fo:list-item><fo:list-item-label><fo:block/></fo:list-item-label><fo:list-item-body><fo:block><fo:basic-link internal-destination="FU">Freestyle Unlimited</fo:basic-link></fo:block></fo:list-item-body></fo:list-item><fo:list-item><fo:list-item-label><fo:block/></fo:list-item-label><fo:list-item-body><fo:block><fo:basic-link internal-destination="BH-C">Bowhunter - Recourve</fo:basic-link></fo:block></fo:list-item-body></fo:list-item><fo:list-item><fo:list-item-label><fo:block/></fo:list-item-label><fo:list-item-body><fo:block><fo:basic-link internal-destination="BH-R">Bowhunter - Compound</fo:basic-link></fo:block></fo:list-item-body></fo:list-item><fo:list-item><fo:list-item-label><fo:block/></fo:list-item-label><fo:list-item-body><fo:block><fo:basic-link internal-destination="BL">Bowhunter Limited</fo:basic-link></fo:block></fo:list-item-body></fo:list-item><fo:list-item><fo:list-item-label><fo:block/></fo:list-item-label><fo:list-item-body><fo:block><fo:basic-link internal-destination="BU">Bowhunter Unlimited</fo:basic-link></fo:block></fo:list-item-body></fo:list-item><fo:list-item><fo:list-item-label><fo:block/></fo:list-item-label><fo:list-item-body><fo:block><fo:basic-link internal-destination="TR">Traditional Recurve Bow</fo:basic-link></fo:block></fo:list-item-body></fo:list-item><fo:list-item><fo:list-item-label><fo:block/></fo:list-item-label><fo:list-item-body><fo:block><fo:basic-link internal-destination="LB">Longbow</fo:basic-link></fo:block></fo:list-item-body></fo:list-item><fo:list-item><fo:list-item-label><fo:block/></fo:list-item-label><fo:list-item-body><fo:block><fo:basic-link internal-destination="HB">Historical Bow</fo:basic-link></fo:block></fo:list-item-body></fo:list-item></fo:list-block></fo:flow></fo:page-sequence><fo:page-sequence master-reference="tournament"><fo:flow flow-name="xsl-region-body"><fo:block id="BB-R">Barebow - Recurve</fo:block><fo:block>
+                        Rules:
+                    </fo:block><fo:list-block><fo:list-item><fo:list-item-label><fo:block/></fo:list-item-label><fo:list-item-body><fo:block>
+                        Bow, arrows, strings and accessories shall be free from sights, marks, blemishes or laminations markings which could be used for aiming.\n
+                    If such blemishes or markings are present on the window of the bow riser, the full length of the back of the window shall be covered with tape.
+                    </fo:block></fo:list-item-body></fo:list-item><fo:list-item><fo:list-item-label><fo:block/></fo:list-item-label><fo:list-item-body><fo:block>
+                        Written notes carried on the archer’s person are permitted.
+                    </fo:block></fo:list-item-body></fo:list-item><fo:list-item><fo:list-item-label><fo:block/></fo:list-item-label><fo:list-item-body><fo:block>
+                        An adjustable arrow rest may be used to control the space between the arrow and the
+                        face of the bow window. The arrow rest shall not extend above the arrow shaft. Exec Note: parts of the arrow rest that are considered necessary for the proper functioning of such arrow rest may extend above the arrow, especially in the event of very thin arrows; e.g. Stick-on plate, pressure button, spacer, etc.
+                    </fo:block></fo:list-item-body></fo:list-item><fo:list-item><fo:list-item-label><fo:block/></fo:list-item-label><fo:list-item-body><fo:block>
+                        The use of stabilisers is permitted.
+                    </fo:block></fo:list-item-body></fo:list-item><fo:list-item><fo:list-item-label><fo:block/></fo:list-item-label><fo:list-item-body><fo:block>
+                        Draw stops incorporated in the cams of a compound bow are permitted.
+                    </fo:block></fo:list-item-body></fo:list-item><fo:list-item><fo:list-item-label><fo:block/></fo:list-item-label><fo:list-item-body><fo:block>
+                        One permanent nocking point only is permitted which may be marked by one or two
+                        nock locators. The distance between two nock locators shall not exceed the distance
+                        required to prevent the pinching of the arrow. Exec Note: about 12.5
+                    </fo:block></fo:list-item-body></fo:list-item><fo:list-item><fo:list-item-label><fo:block/></fo:list-item-label><fo:list-item-body><fo:block>
+                        No mechanical device will be permitted other than one non-adjustable draw check
+                        and/or level mounted on the bow, neither of which may extend above the arrow.
+                    </fo:block></fo:list-item-body></fo:list-item><fo:list-item><fo:list-item-label><fo:block/></fo:list-item-label><fo:list-item-body><fo:block>
+                        All arrows used shall be identical in length, weight, diameter, fletching and nocks,
+                        without regard to colour, with allowance for wear and tear.
+                    </fo:block></fo:list-item-body></fo:list-item><fo:list-item><fo:list-item-label><fo:block/></fo:list-item-label><fo:list-item-body><fo:block>
+                    One or two string stoppers may be used provided they lie outside the line of vision
+                    and cannot be used for aiming.
+                    </fo:block></fo:list-item-body></fo:list-item><fo:list-item><fo:list-item-label><fo:block/></fo:list-item-label><fo:list-item-body><fo:block>
+                        The use of a “D” loop for fingers is not permitted. (IFAA Exec ruling)
+                    </fo:block></fo:list-item-body></fo:list-item></fo:list-block><fo:block font-weight="500" space-after="12pt">
+                    Attendees
+                </fo:block><fo:block>There are no attendees for shooting style Barebow - Recurve</fo:block></fo:flow></fo:page-sequence><fo:page-sequence master-reference="tournament"><fo:flow flow-name="xsl-region-body"><fo:block id="BB-C">Barebow - Compound</fo:block><fo:block>
+                        Rules:
+                    </fo:block><fo:list-block><fo:list-item><fo:list-item-label><fo:block/></fo:list-item-label><fo:list-item-body><fo:block>
+                        Bow, arrows, strings and accessories shall be free from sights, marks, blemishes or laminations markings which could be used for aiming.\n
+                        If such blemishes or markings are present on the window of the bow riser, the full length of the back of the window shall be covered with tape.
+                    </fo:block></fo:list-item-body></fo:list-item><fo:list-item><fo:list-item-label><fo:block/></fo:list-item-label><fo:list-item-body><fo:block>
+                        Written notes carried on the archer’s person are permitted.
+                    </fo:block></fo:list-item-body></fo:list-item><fo:list-item><fo:list-item-label><fo:block/></fo:list-item-label><fo:list-item-body><fo:block>
+                        An adjustable arrow rest may be used to control the space between the arrow and the
+                        face of the bow window. The arrow rest shall not extend above the arrow shaft. Exec Note: parts of the arrow rest that are considered necessary for the proper functioning of such arrow rest may extend above the arrow, especially in the event of very thin arrows; e.g. Stick-on plate, pressure button, spacer, etc.
+                    </fo:block></fo:list-item-body></fo:list-item><fo:list-item><fo:list-item-label><fo:block/></fo:list-item-label><fo:list-item-body><fo:block>
+                        The use of stabilisers is permitted.
+                    </fo:block></fo:list-item-body></fo:list-item><fo:list-item><fo:list-item-label><fo:block/></fo:list-item-label><fo:list-item-body><fo:block>
+                        Draw stops incorporated in the cams of a compound bow are permitted.
+                    </fo:block></fo:list-item-body></fo:list-item><fo:list-item><fo:list-item-label><fo:block/></fo:list-item-label><fo:list-item-body><fo:block>
+                        One permanent nocking point only is permitted which may be marked by one or two
+                        nock locators. The distance between two nock locators shall not exceed the distance
+                        required to prevent the pinching of the arrow. Exec Note: about 12.5
+                    </fo:block></fo:list-item-body></fo:list-item><fo:list-item><fo:list-item-label><fo:block/></fo:list-item-label><fo:list-item-body><fo:block>
+                        No mechanical device will be permitted other than one non-adjustable draw check
+                        and/or level mounted on the bow, neither of which may extend above the arrow.
+                    </fo:block></fo:list-item-body></fo:list-item><fo:list-item><fo:list-item-label><fo:block/></fo:list-item-label><fo:list-item-body><fo:block>
+                        All arrows used shall be identical in length, weight, diameter, fletching and nocks,
+                        without regard to colour, with allowance for wear and tear.
+                    </fo:block></fo:list-item-body></fo:list-item><fo:list-item><fo:list-item-label><fo:block/></fo:list-item-label><fo:list-item-body><fo:block>
+                        One or two string stoppers may be used provided they lie outside the line of vision
+                        and cannot be used for aiming.
+                    </fo:block></fo:list-item-body></fo:list-item><fo:list-item><fo:list-item-label><fo:block/></fo:list-item-label><fo:list-item-body><fo:block>
+                        The use of a “D” loop for fingers is not permitted. (IFAA Exec ruling)
+                    </fo:block></fo:list-item-body></fo:list-item></fo:list-block><fo:block font-weight="500" space-after="12pt">
+                    Attendees
+                </fo:block><fo:list-block><fo:list-item><fo:list-item-label><fo:block/></fo:list-item-label><fo:list-item-body><fo:block>Biro Dorottya</fo:block></fo:list-item-body></fo:list-item><fo:list-item><fo:list-item-label><fo:block/></fo:list-item-label><fo:list-item-body><fo:block>Mengis Hermann</fo:block></fo:list-item-body></fo:list-item></fo:list-block></fo:flow></fo:page-sequence><fo:page-sequence master-reference="tournament"><fo:flow flow-name="xsl-region-body"><fo:block id="FS-R">Freestyle Limited - Recurve</fo:block><fo:block>
+                        Rules:
+                    </fo:block><fo:list-block><fo:list-item><fo:list-item-label><fo:block/></fo:list-item-label><fo:list-item-body><fo:block>
+                        Same rules apply as for Freestyle Unlimited except that the release aids are not
+                    permitted.
+                    </fo:block></fo:list-item-body></fo:list-item><fo:list-item><fo:list-item-label><fo:block/></fo:list-item-label><fo:list-item-body><fo:block>
+                        The use of a “D” loop for fingers is not permitted. (IFAA Exec ruling)
+                    </fo:block></fo:list-item-body></fo:list-item></fo:list-block><fo:block font-weight="500" space-after="12pt">
+                    Attendees
+                </fo:block><fo:list-block><fo:list-item><fo:list-item-label><fo:block/></fo:list-item-label><fo:list-item-body><fo:block>Gutwinzky Selina</fo:block></fo:list-item-body></fo:list-item><fo:list-item><fo:list-item-label><fo:block/></fo:list-item-label><fo:list-item-body><fo:block>May Lucia</fo:block></fo:list-item-body></fo:list-item></fo:list-block></fo:flow></fo:page-sequence><fo:page-sequence master-reference="tournament"><fo:flow flow-name="xsl-region-body"><fo:block id="FS-C">Freestyle Limited - Compound</fo:block><fo:block>
+                        Rules:
+                    </fo:block><fo:list-block><fo:list-item><fo:list-item-label><fo:block/></fo:list-item-label><fo:list-item-body><fo:block>
+                        Same rules apply as for Freestyle Unlimited except that the release aids are not
+                        permitted.
+                    </fo:block></fo:list-item-body></fo:list-item><fo:list-item><fo:list-item-label><fo:block/></fo:list-item-label><fo:list-item-body><fo:block>
+                        The use of a “D” loop for fingers is not permitted. (IFAA Exec ruling)
+                    </fo:block></fo:list-item-body></fo:list-item></fo:list-block><fo:block font-weight="500" space-after="12pt">
+                    Attendees
+                </fo:block><fo:block>There are no attendees for shooting style Freestyle Limited - Compound</fo:block></fo:flow></fo:page-sequence><fo:page-sequence master-reference="tournament"><fo:flow flow-name="xsl-region-body"><fo:block id="FU">Freestyle Unlimited</fo:block><fo:block>
+                        Rules:
+                    </fo:block><fo:list-block><fo:list-item><fo:list-item-label><fo:block/></fo:list-item-label><fo:list-item-body><fo:block>
+                        Any type of bow, sight and release aid recognised by the IFAA World Council is permitted.
+                    </fo:block></fo:list-item-body></fo:list-item><fo:list-item><fo:list-item-label><fo:block/></fo:list-item-label><fo:list-item-body><fo:block>
+                        The use of laser sights and any form of self-adjustable sight is not permitted. (WCM2018 ruling)
+                    </fo:block></fo:list-item-body></fo:list-item></fo:list-block><fo:block font-weight="500" space-after="12pt">
+                    Attendees
+                </fo:block><fo:list-block><fo:list-item><fo:list-item-label><fo:block/></fo:list-item-label><fo:list-item-body><fo:block>Illimayer Sonja</fo:block></fo:list-item-body></fo:list-item><fo:list-item><fo:list-item-label><fo:block/></fo:list-item-label><fo:list-item-body><fo:block>Jensson Sven</fo:block></fo:list-item-body></fo:list-item></fo:list-block></fo:flow></fo:page-sequence><fo:page-sequence master-reference="tournament"><fo:flow flow-name="xsl-region-body"><fo:block id="BH-C">Bowhunter - Recourve</fo:block><fo:block font-weight="500" space-after="12pt">
+                    Attendees
+                </fo:block><fo:list-block><fo:list-item><fo:list-item-label><fo:block/></fo:list-item-label><fo:list-item-body><fo:block>Begood Johnny</fo:block></fo:list-item-body></fo:list-item><fo:list-item><fo:list-item-label><fo:block/></fo:list-item-label><fo:list-item-body><fo:block>Hahn Jan</fo:block></fo:list-item-body></fo:list-item><fo:list-item><fo:list-item-label><fo:block/></fo:list-item-label><fo:list-item-body><fo:block>Watson Angelika</fo:block></fo:list-item-body></fo:list-item><fo:list-item><fo:list-item-label><fo:block/></fo:list-item-label><fo:list-item-body><fo:block>Yi Shen Lee</fo:block></fo:list-item-body></fo:list-item></fo:list-block></fo:flow></fo:page-sequence><fo:page-sequence master-reference="tournament"><fo:flow flow-name="xsl-region-body"><fo:block id="BH-R">Bowhunter - Compound</fo:block><fo:block font-weight="500" space-after="12pt">
+                    Attendees
+                </fo:block><fo:list-block><fo:list-item><fo:list-item-label><fo:block/></fo:list-item-label><fo:list-item-body><fo:block>Gomez Selina</fo:block></fo:list-item-body></fo:list-item><fo:list-item><fo:list-item-label><fo:block/></fo:list-item-label><fo:list-item-body><fo:block>Vanilly Milly</fo:block></fo:list-item-body></fo:list-item></fo:list-block></fo:flow></fo:page-sequence><fo:page-sequence master-reference="tournament"><fo:flow flow-name="xsl-region-body"><fo:block id="BL">Bowhunter Limited</fo:block><fo:block font-weight="500" space-after="12pt">
+                    Attendees
+                </fo:block><fo:list-block><fo:list-item><fo:list-item-label><fo:block/></fo:list-item-label><fo:list-item-body><fo:block>Alge Wieland</fo:block></fo:list-item-body></fo:list-item><fo:list-item><fo:list-item-label><fo:block/></fo:list-item-label><fo:list-item-body><fo:block>Crue Helena</fo:block></fo:list-item-body></fo:list-item><fo:list-item><fo:list-item-label><fo:block/></fo:list-item-label><fo:list-item-body><fo:block>Gruber Gebhard</fo:block></fo:list-item-body></fo:list-item><fo:list-item><fo:list-item-label><fo:block/></fo:list-item-label><fo:list-item-body><fo:block>Natter Joshua</fo:block></fo:list-item-body></fo:list-item></fo:list-block></fo:flow></fo:page-sequence><fo:page-sequence master-reference="tournament"><fo:flow flow-name="xsl-region-body"><fo:block id="BU">Bowhunter Unlimited</fo:block><fo:block font-weight="500" space-after="12pt">
+                    Attendees
+                </fo:block><fo:list-block><fo:list-item><fo:list-item-label><fo:block/></fo:list-item-label><fo:list-item-body><fo:block>Bushido Kenji</fo:block></fo:list-item-body></fo:list-item><fo:list-item><fo:list-item-label><fo:block/></fo:list-item-label><fo:list-item-body><fo:block>Kors Michael</fo:block></fo:list-item-body></fo:list-item></fo:list-block></fo:flow></fo:page-sequence><fo:page-sequence master-reference="tournament"><fo:flow flow-name="xsl-region-body"><fo:block id="TR">Traditional Recurve Bow</fo:block><fo:block font-weight="500" space-after="12pt">
+                    Attendees
+                </fo:block><fo:list-block><fo:list-item><fo:list-item-label><fo:block/></fo:list-item-label><fo:list-item-body><fo:block>Columbus Christoph</fo:block></fo:list-item-body></fo:list-item><fo:list-item><fo:list-item-label><fo:block/></fo:list-item-label><fo:list-item-body><fo:block>Czerniaky Olga</fo:block></fo:list-item-body></fo:list-item><fo:list-item><fo:list-item-label><fo:block/></fo:list-item-label><fo:list-item-body><fo:block>Ivantsiv Viktoriya</fo:block></fo:list-item-body></fo:list-item><fo:list-item><fo:list-item-label><fo:block/></fo:list-item-label><fo:list-item-body><fo:block>Luther Martin</fo:block></fo:list-item-body></fo:list-item></fo:list-block></fo:flow></fo:page-sequence><fo:page-sequence master-reference="tournament"><fo:flow flow-name="xsl-region-body"><fo:block id="LB">Longbow</fo:block><fo:block font-weight="500" space-after="12pt">
+                    Attendees
+                </fo:block><fo:list-block><fo:list-item><fo:list-item-label><fo:block/></fo:list-item-label><fo:list-item-body><fo:block>Schapochka Maya</fo:block></fo:list-item-body></fo:list-item><fo:list-item><fo:list-item-label><fo:block/></fo:list-item-label><fo:list-item-body><fo:block>Somali Ayaan</fo:block></fo:list-item-body></fo:list-item><fo:list-item><fo:list-item-label><fo:block/></fo:list-item-label><fo:list-item-body><fo:block>Walser Erik</fo:block></fo:list-item-body></fo:list-item></fo:list-block></fo:flow></fo:page-sequence><fo:page-sequence master-reference="tournament"><fo:flow flow-name="xsl-region-body"><fo:block id="HB">Historical Bow</fo:block><fo:block font-weight="500" space-after="12pt">
+                    Attendees
+                </fo:block><fo:list-block><fo:list-item><fo:list-item-label><fo:block/></fo:list-item-label><fo:list-item-body><fo:block>Guliani Alfredo</fo:block></fo:list-item-body></fo:list-item><fo:list-item><fo:list-item-label><fo:block/></fo:list-item-label><fo:list-item-body><fo:block>Ruandez Emilia</fo:block></fo:list-item-body></fo:list-item></fo:list-block></fo:flow></fo:page-sequence></fo:root>
