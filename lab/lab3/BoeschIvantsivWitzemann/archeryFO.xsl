@@ -15,22 +15,24 @@
                     margin-left="25mm" 
                     margin-right="10mm" 
                     margin-top="10mm">
-                    <fo:region-body/>
+                    <fo:region-body margin-bottom="28mm" margin-left="0mm" margin-right="44mm" margin-top="20mm"/>
+                    <fo:region-before extent="24pt" region-name="tournament-header"/>
+                    <fo:region-after extent="24pt" region-name="tournament-footer"/>
                 </fo:simple-page-master>
             </fo:layout-master-set>
             
             <fo:page-sequence master-reference="tournament">
                 <fo:flow flow-name="xsl-region-body">
-                    <fo:block>
+                    <fo:block font-size="14pt" font-weight="800"  space-after="12pt">
                         Overview
                     </fo:block>
                     <fo:list-block>
                         <xsl:for-each select="classifications/shootingstyles/shootingstyle">
                             <fo:list-item>
                                 <fo:list-item-label>
-                                    <fo:block/>
+                                    <fo:block><xsl:value-of select="position()"/>.</fo:block>
                                 </fo:list-item-label>
-                                <fo:list-item-body>
+                                <fo:list-item-body start-indent="8mm">
                                     <fo:block>
                                         <fo:basic-link internal-destination="{@id}">
                                             <xsl:value-of select="@name"/>  
@@ -52,6 +54,16 @@
     
     <xsl:template match="shootingstyle">
         <fo:page-sequence master-reference="tournament">
+            <fo:static-content flow-name="tournament-header">
+                <fo:block font-size="10pt" text-align="center">
+                    JAVICH Archery Tournament
+                </fo:block>
+            </fo:static-content>
+            <fo:static-content flow-name="tournament-footer">
+                <fo:block font-size="10pt" text-align="center">
+                    Page <fo:page-number/>
+                </fo:block>
+            </fo:static-content>
             <fo:flow flow-name="xsl-region-body">
                 <fo:block id="{@id}" font-size="14pt" font-weight="800"  space-after="12pt">
                     <xsl:value-of select="@name"/>
@@ -105,9 +117,7 @@
                 </xsl:choose>
             </fo:flow>
         </fo:page-sequence>
-    </xsl:template>
-    
-    
+    </xsl:template>    
 </xsl:stylesheet>
 
 
