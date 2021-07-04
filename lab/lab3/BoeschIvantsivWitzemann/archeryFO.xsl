@@ -33,10 +33,12 @@
                                     <fo:block><xsl:value-of select="position()"/>.</fo:block>
                                 </fo:list-item-label>
                                 <fo:list-item-body start-indent="8mm">
-                                    <fo:block>
+                                    <fo:block text-align-last="justify"> 
                                         <fo:basic-link internal-destination="{@id}">
                                             <xsl:value-of select="@name"/>  
                                         </fo:basic-link>
+                                        <fo:leader leader-pattern="dots"/>
+                                        <fo:page-number-citation ref-id="{generate-id()}"/>
                                     </fo:block>
                                 </fo:list-item-body>
                             </fo:list-item>
@@ -60,12 +62,12 @@
                 </fo:block>
             </fo:static-content>
             <fo:static-content flow-name="tournament-footer">
-                <fo:block font-size="10pt" text-align="center">
+                <fo:block font-size="10pt" text-align="center" id="{generate-id()}">
                     Page <fo:page-number/>
                 </fo:block>
             </fo:static-content>
             <fo:flow flow-name="xsl-region-body">
-                <fo:block id="{@id}" font-size="14pt" font-weight="800"  space-after="12pt">
+                <fo:block font-size="14pt" font-weight="800"  space-after="12pt" id="{@id}">
                     <xsl:value-of select="@name"/>
                 </fo:block>
                 
