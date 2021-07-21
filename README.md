@@ -13,4 +13,4 @@ In order to download this project, or better "git clone" this project, I recomme
   * Select menu "File" > "Import…"
   * in the dialog open folder "General" select "Existing Projects into Workspace" and click button "Next >"
   * use the option "Select root directory"
-  * chose the directory "xml-examples", that has been created by the _git clone_ above and click button "Finish"
+  * chose the directory "xml-examples", that has been created by the _git clone_ above and click button "Finish".
