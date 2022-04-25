@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<myaddresses>
+	<person>
+		<title>Dr.</title>
+		<firstname>Gerhard</firstname>
+		<lastname>Schwärzler</lastname>
+		<address type="office">
+			<street>Rathausstraße 2</street>
+			<zip>6900</zip>
+			<city>Bregenz</city>
+		</address>
+		<address type="lecturer">
+			<street>Achstraße 1</street>
+			<zip>6850</zip>
+			<city>Dornbirn</city>
+		</address>
+	</person>
+</myaddresses>
