@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT myaddresses (person | company)*>
+<!ELEMENT person (title, firstname, lastname, phone-number*, address+)>
+<!ELEMENT company (name, address+)>
+
+<!ELEMENT address (street, zip, city)>
+<!ATTLIST address type CDATA #REQUIRED>
+
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT firstname (#PCDATA)>
+<!ELEMENT lastname (#PCDATA)>
+
+<!ELEMENT phone-number (#PCDATA)>
+<!ATTLIST phone-number type (work | mobile) #REQUIRED>
+
+
+<!ELEMENT street (#PCDATA)>
+<!ELEMENT zip (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
