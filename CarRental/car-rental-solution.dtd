@@ -60,6 +60,7 @@ therefore we introduce a simple, surrogate id.
 	vermiet-station-id		IDREF #REQUIRED
 	km_stand					CDATA #REQUIRED
 	farbe					CDATA #REQUIRED
+	image					CDATA #IMPLIED
 >
 
 <!ELEMENT verfuegt_ueber EMPTY>
