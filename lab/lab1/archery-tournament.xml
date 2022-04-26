@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bow-tournament SYSTEM "archery-tournament.dtd">
+<archery-tournament>
+	<division id="D1">Recurve Division</division>
+	<division id="D2">Compound Division</division>
+	<division id="D3">Barebow Division</division>
+	
+	<discipline id="F1">Outdoor Archery</discipline>
+	<discipline id="F2">Field Archery</discipline>
+	<discipline id="F3">Run Archery</discipline>
+	
+	<athlete id="a1">
+		<lastname>Schwärzler</lastname>
+		
+	</athlete>
+	
+	<athlete id="a2">
+		<lastname>Schwärzler</lastname>
+		
+	</athlete>
+
+
+	<group name="Gruppe Recurve Outdoor" division-id="D1" discipline-id="F1">
+		<member athlete-id="a1"/>
+		<member athlete-id="a2"/>
+	</group>
+	
+	<group name="Gruppe Running Recurve" division-id="D1" discipline-id="F3">
+		<member athlete-id="a2"/>
+		<member athlete-id="a3"/>
+	</group>
+	
+</archery-tournament>
