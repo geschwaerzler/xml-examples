@@ -24,8 +24,7 @@
 		<lastname>Amann</lastname>
 	</athlete>
 	<athlete id="a2">
-		<lastname>Benetel</lastname>
-		
+		<lastname>Bentele</lastname>
 	</athlete>
 	
 	<group name="Conventional Outddor" discipline-id="D1" division-id="d2">
