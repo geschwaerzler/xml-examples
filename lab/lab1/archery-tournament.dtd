@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!ELEMENT archery-tournament (division*, discipline*, athlete*, group*)>
+<!ELEMENT archery-tournament (discipline*, division*, athlete*, group*)>
+<!ATTLIST archery-tournament name CDATA #REQUIRED>
+
+<!ELEMENT discipline (#PCDATA)>
+<!ATTLIST discipline id ID #REQUIRED>
 
 <!ELEMENT division (#PCDATA)>
 <!ATTLIST division id ID #REQUIRED>
 
-<!ELEMENT discipline EMPTY>
-<!ELEMENT athlete EMPTY>
-<!ELEMENT lastname EMPTY>
+<!ELEMENT athlete (lastname)>
+<!ATTLIST athlete id ID #REQUIRED>
+
+<!ELEMENT lastname (#PCDATA)>
 
 <!ELEMENT group (member*)>
 <!ATTLIST group
 	name CDATA #REQUIRED
-	division-id IDREF #REQUIRED
 	discipline-id IDREF #REQUIRED
+	division-id IDREF #REQUIRED
 >
 
 <!ELEMENT member EMPTY>

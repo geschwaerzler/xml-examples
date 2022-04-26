@@ -1,33 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE bow-tournament SYSTEM "archery-tournament.dtd">
-<archery-tournament>
-	<division id="D1">Recurve Division</division>
-	<division id="D2">Compound Division</division>
-	<division id="D3">Barebow Division</division>
-	
-	<discipline id="F1">Outdoor Archery</discipline>
-	<discipline id="F2">Field Archery</discipline>
-	<discipline id="F3">Run Archery</discipline>
+<!DOCTYPE archery-tournament SYSTEM "archery-tournament.dtd">
+<archery-tournament name="Vorarlberger Archery Landesmeisterschaft 2022">
+
+	<discipline id="D1">Outdoor Archery</discipline>
+	<discipline id="D2">Indoor Archery</discipline>
+	<discipline id="D3">Field Archery</discipline>
+	<discipline id="D4">Para-Archery</discipline>
+	<discipline id="D5">Run Archery</discipline>
+
+	<!-- this is a comment! -->
+	<division id="d1">Target Recurve Bow <!-- another comment --></division>
+	<division id="d2">Conventional Flight Bow</division>
+	<division id="d3">American Longbow</division>
+	<division id="d4">English Longbow</division>
+	<division id="d5">Compound Flight Bow</division>
+	<division id="d6">Foot Bow</division>
+
+	<athlete id="a0">
+		<lastname>Schwärzler</lastname>
+	</athlete>
 	
 	<athlete id="a1">
-		<lastname>Schwärzler</lastname>
+		<lastname>Amann</lastname>
+	</athlete>
+	<athlete id="a2">
+		<lastname>Benetel</lastname>
 		
 	</athlete>
 	
-	<athlete id="a2">
-		<lastname>Schwärzler</lastname>
-		
-	</athlete>
-
-
-	<group name="Gruppe Recurve Outdoor" division-id="D1" discipline-id="F1">
+	<group name="Conventional Outddor" discipline-id="D1" division-id="d2">
+		<member athlete-id="a1"/>
+		<member athlete-id="a0"/>
+	</group>
+	
+	<group name="American Ouutdoor" discipline-id="D1" division-id="d3">
 		<member athlete-id="a1"/>
 		<member athlete-id="a2"/>
 	</group>
-	
-	<group name="Gruppe Running Recurve" division-id="D1" discipline-id="F3">
-		<member athlete-id="a2"/>
-		<member athlete-id="a3"/>
-	</group>
-	
+
 </archery-tournament>
