@@ -43,26 +43,8 @@
 	
 	<!-- Bregenz/Leutbühel -->
 	<auto kennzeichen="B-911S" km_stand="215766" farbe="weiß"
-		autotyp-id="autotyp-1" vermiet-station-id="vermiet-station-1"
-		image="http://i.auto-bild.de/ir_img/1/0/3/3/0/1/6/Porsche-911-SC-Targa-729x486-ed1a98fc979575a9.jpg">
+		autotyp-id="autotyp-1" vermiet-station-id="vermiet-station-1">
 		<verfuegt_ueber extraausstattung-id="extraausstattung-1"/>
-	</auto>
-	<auto kennzeichen="B-911G" km_stand="12500" farbe="grün"
-		autotyp-id="autotyp-1" vermiet-station-id="vermiet-station-1"
-		image="http://www.elferhelfer.de/Galerie/1972gal/WW/ww72-voli.jpg">
-		<verfuegt_ueber extraausstattung-id="extraausstattung-1"/>
-		<verfuegt_ueber extraausstattung-id="extraausstattung-2"/>
-	</auto>
-	<auto kennzeichen="B-911Y" km_stand="20500" farbe="gelb"
-		autotyp-id="autotyp-1" vermiet-station-id="vermiet-station-1"
-		image="https://i.pinimg.com/originals/20/8c/a0/208ca04adc98844de8a5d149eb6b9c41.jpg">
-		<verfuegt_ueber extraausstattung-id="extraausstattung-2"/>
-	</auto>
-	<auto kennzeichen="B-308GTS" km_stand="45000" farbe="rot"
-		autotyp-id="autotyp-4" vermiet-station-id="vermiet-station-1"
-		image="http://www.rentaclassiccar.com/wp-content/uploads/2014/08/ferrari-1-copie.jpg">
-		<verfuegt_ueber extraausstattung-id="extraausstattung-6"/>
-		<verfuegt_ueber extraausstattung-id="extraausstattung-7"/>
 	</auto>
 	
 	<!-- For the purpose of demonstrating datetime literals,
