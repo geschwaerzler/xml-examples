@@ -30,7 +30,7 @@
 		<hr/>
 		
 		<h2 id="{generate-id()}"><xsl:value-of select="title"/></h2>
-		<img src="{image}"/>
+		<img src="{image}" height = "320"/>
 		
 		<h3>Ingredients</h3>
 		
