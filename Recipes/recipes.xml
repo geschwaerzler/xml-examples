@@ -131,7 +131,7 @@ published in: An Introduction to XML and Web Technologies, Addison-Wesley, Janua
   
   
   <!-- Linguine Pescadoro -->
-  <recipe>
+  <recipe author-id="reb">
     <title>Linguine Pescadoro</title>
     <image>https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_73,ar_16:9,w_768/v1/img/recipes/40/09/picCVk2SB.jpg</image>
     
@@ -239,7 +239,7 @@ published in: An Introduction to XML and Web Technologies, Addison-Wesley, Janua
   
   
   <!-- Cailles en Sarcophages -->
-  <recipe>
+  <recipe author-id="reb">
     <title>Cailles en Sarcophages</title>
     <image>https://i.pinimg.com/originals/76/bd/00/76bd0007262f7936814a42bf91eda9d5.jpg</image>
     
