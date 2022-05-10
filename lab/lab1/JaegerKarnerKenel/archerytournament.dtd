@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT archery-tournament (discipline*, division*, athlete*, group*, tournament*, parkour*, target*, scorecard*)>
+<!ATTLIST archery-tournament name CDATA #REQUIRED>
+
+<!ELEMENT discipline (#PCDATA)>
+<!ATTLIST discipline 
+	id ID #REQUIRED>
+
+<!ELEMENT division (#PCDATA)>
+<!ATTLIST division
+	id ID #REQUIRED>
+	
+<!ELEMENT athlete (lastname)>
+<!ATTLIST athlete
+	id ID #REQUIRED>
+	
+<!ELEMENT lastname (#PCDATA)>
+
+<!ELEMENT group (member*)>
+<!ATTLIST group
+	name CDATA #REQUIRED
+	discipline-id IDREF #REQUIRED
+	division-id IDREF #REQUIRED
+>
+	
+<!ELEMENT member (#PCDATA)>
+<!ATTLIST member
+	athlete-id IDREF #REQUIRED>
+	
+<!ELEMENT tournament (parkour*)>
+<!ATTLIST tournament
+	name CDATA #REQUIRED
+	id ID #REQUIRED>
+	
+<!ELEMENT parkour (target*)>
+<!ATTLIST parkour
+	name CDATA #REQUIRED
+	id ID #REQUIRED>
+	
+<!ELEMENT target (#PCDATA)>
+<!ATTLIST target
+	id ID #REQUIRED>
+	
+<!ELEMENT scorecard (target*)>
+<!ATTLIST scorecard
+	athlete-id IDREF #REQUIRED
+	parkour-id IDREF #REQUIRED>
+	

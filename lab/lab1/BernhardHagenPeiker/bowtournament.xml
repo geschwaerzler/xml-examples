@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bow-tournament SYSTEM "bowtournament.dtd">
+
+<bow-tournament>
+	
+	<division id = "div1">Recurve Division</division>
+	<division id = "div2">Compound Division</division>
+	<division id = "div3">Barebow Division</division>
+	
+	<discipline id = "dis1">Outdoor Archery</discipline>
+	<discipline id = "dis2">Field Archery</discipline>
+	<discipline id = "dis3">Run Archery</discipline>
+	
+	<parcour id = "par1" name = "Forest parcour">
+		<target id = "t1">First forest target</target>
+		<target id = "t2">Second forest target</target>
+		<target id = "t3">Third forest target</target>
+	</parcour>
+	
+	<parcour id = "par2" name = "Lake parcour">
+		<target id = "t4">First lake target</target>
+		<target id = "t5">Second lake target</target>
+		<target id = "t6">Third lake target</target>
+	</parcour>
+	
+	<player id = "p1">
+		<firstname>Jonny</firstname>
+		<lastname>Bravo</lastname>
+	</player>
+	
+	<player id = "p2">
+		<firstname>Max</firstname>
+		<lastname>Imilian</lastname>
+	</player>
+	
+	<player id = "p3">
+		<firstname>Lisa</firstname>
+		<lastname>Lercher</lastname>
+	</player>
+	
+	<player id = "p4">
+		<firstname>Stefanie</firstname>
+		<lastname>Bowhunter</lastname>
+	</player>
+	
+	<player id = "p5">
+		<firstname>Peter</firstname>
+		<lastname>Pan</lastname>
+	</player>
+	
+	<group name = "Group Recurved Outdoor" division-id = "div1" discipline-id = "dis1" parcour-id = "par1">
+		<member player-id = "p1">
+			<scorecard>
+				<score target-id = "t1">
+					<arrow arrow-no = "1">8</arrow>
+					<arrow arrow-no = "2">7</arrow>
+					<arrow arrow-no = "3">7</arrow>
+					<arrow arrow-no = "4">8</arrow>	
+				</score>
+				<score target-id = "t2">
+					<arrow arrow-no = "1">6</arrow>
+					<arrow arrow-no = "2">9</arrow>
+					<arrow arrow-no = "3">8</arrow>
+					<arrow arrow-no = "4">7</arrow>	
+				</score>
+				<score target-id = "t3">
+					<arrow arrow-no = "1">7</arrow>
+					<arrow arrow-no = "2">6</arrow>
+					<arrow arrow-no = "3">7</arrow>
+					<arrow arrow-no = "4">8</arrow>	
+				</score>
+			</scorecard>
+		</member>
+		<member player-id = "p2">
+			<scorecard>
+				<score target-id = "t1">
+					<arrow arrow-no = "1">8</arrow>
+					<arrow arrow-no = "2">8</arrow>
+					<arrow arrow-no = "3">7</arrow>
+					<arrow arrow-no = "4">8</arrow>	
+				</score>
+				<score target-id = "t2">
+					<arrow arrow-no = "1">8</arrow>
+					<arrow arrow-no = "2">7</arrow>
+					<arrow arrow-no = "3">9</arrow>
+					<arrow arrow-no = "4">8</arrow>	
+				</score>
+				<score target-id = "t3">
+					<arrow arrow-no = "1">8</arrow>
+					<arrow arrow-no = "2">10</arrow>
+					<arrow arrow-no = "3">7</arrow>
+					<arrow arrow-no = "4">8</arrow>	
+				</score>
+			</scorecard>
+		</member>
+		<member player-id = "p4">
+			<scorecard>
+				<score target-id = "t1">
+					<arrow arrow-no = "1">8</arrow>
+					<arrow arrow-no = "2">10</arrow>
+					<arrow arrow-no = "3">7</arrow>
+					<arrow arrow-no = "4">7</arrow>	
+				</score>
+				<score target-id = "t2">
+					<arrow arrow-no = "1">6</arrow>
+					<arrow arrow-no = "2">9</arrow>
+					<arrow arrow-no = "3">8</arrow>
+					<arrow arrow-no = "4">8</arrow>	
+				</score>
+				<score target-id = "t3">
+					<arrow arrow-no = "1">7</arrow>
+					<arrow arrow-no = "2">8</arrow>
+					<arrow arrow-no = "3">7</arrow>
+					<arrow arrow-no = "4">8</arrow>	
+				</score>
+			</scorecard>
+		</member>
+	</group>
+	
+	<group name = "Group Compound Running" division-id = "div2" discipline-id = "dis3" parcour-id = "par2">
+		<member player-id = "p2">
+			<scorecard>
+				<score target-id = "t1">
+					<arrow arrow-no = "1">8</arrow>
+					<arrow arrow-no = "2">10</arrow>
+					<arrow arrow-no = "3">8</arrow>
+					<arrow arrow-no = "4">9</arrow>	
+				</score>
+				<score target-id = "t2">
+					<arrow arrow-no = "1">9</arrow>
+					<arrow arrow-no = "2">9</arrow>
+					<arrow arrow-no = "3">8</arrow>
+					<arrow arrow-no = "4">9</arrow>	
+				</score>
+				<score target-id = "t3">
+					<arrow arrow-no = "1">10</arrow>
+					<arrow arrow-no = "2">9</arrow>
+					<arrow arrow-no = "3">7</arrow>
+					<arrow arrow-no = "4">9</arrow>	
+				</score>
+			</scorecard>
+		</member>
+		<member player-id = "p3">
+			<scorecard>
+				<score target-id = "t1">
+					<arrow arrow-no = "1">9</arrow>
+					<arrow arrow-no = "2">10</arrow>
+					<arrow arrow-no = "3">10</arrow>
+					<arrow arrow-no = "4">9</arrow>	
+				</score>
+				<score target-id = "t2">
+					<arrow arrow-no = "1">10</arrow>
+					<arrow arrow-no = "2">10</arrow>
+					<arrow arrow-no = "3">8</arrow>
+					<arrow arrow-no = "4">9</arrow>	
+				</score>
+				<score target-id = "t3">
+					<arrow arrow-no = "1">9</arrow>
+					<arrow arrow-no = "2">9</arrow>
+					<arrow arrow-no = "3">10</arrow>
+					<arrow arrow-no = "4">9</arrow>	
+				</score>
+			</scorecard>
+		</member>
+		<member player-id = "p4">
+			<scorecard>
+				<score target-id = "t1">
+					<arrow arrow-no = "1">8</arrow>
+					<arrow arrow-no = "2">10</arrow>
+					<arrow arrow-no = "3">9</arrow>
+					<arrow arrow-no = "4">9</arrow>	
+				</score>
+				<score target-id = "t2">
+					<arrow arrow-no = "1">8</arrow>
+					<arrow arrow-no = "2">9</arrow>
+					<arrow arrow-no = "3">8</arrow>
+					<arrow arrow-no = "4">10</arrow>	
+				</score>
+				<score target-id = "t3">
+					<arrow arrow-no = "1">10</arrow>
+					<arrow arrow-no = "2">8</arrow>
+					<arrow arrow-no = "3">9</arrow>
+					<arrow arrow-no = "4">9</arrow>
+				</score>
+			</scorecard>
+		</member>
+		<member player-id = "p5">
+			<scorecard>
+				<score target-id = "t1">
+					<arrow arrow-no = "1">10</arrow>
+					<arrow arrow-no = "2">10</arrow>
+					<arrow arrow-no = "3">10</arrow>
+					<arrow arrow-no = "4">9</arrow>	
+				</score>
+				<score target-id = "t2">
+					<arrow arrow-no = "1">9</arrow>
+					<arrow arrow-no = "2">9</arrow>
+					<arrow arrow-no = "3">10</arrow>
+					<arrow arrow-no = "4">10</arrow>	
+				</score>
+				<score target-id = "t3">
+					<arrow arrow-no = "1">10</arrow>
+					<arrow arrow-no = "2">10</arrow>
+					<arrow arrow-no = "3">8</arrow>
+					<arrow arrow-no = "4">9</arrow>	
+				</score>
+			</scorecard>
+		</member>	
+	</group>
+	
+</bow-tournament>

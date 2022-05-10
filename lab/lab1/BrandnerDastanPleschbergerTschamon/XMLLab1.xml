@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE archery_tournament SYSTEM "XMLLab1.dtd">
+
+<archery_tournament id="T1" name="WFAC2022">
+	<description>World Field Archery Championship 2022</description>
+	
+	<discipline id="ID1">Outdoor Archery</discipline>
+	<discipline id="ID2">Indoor Archery</discipline>
+	<discipline id="ID3">Field Archery</discipline>
+	<discipline id="ID4">Para-Archery</discipline>
+	<discipline id="ID5">Run Archery</discipline>
+	
+	<division id="d1">Target Recurve Bow</division>
+	<division id="d2">Convetional Flight Bow</division>
+	<division id="d3">American Longbow</division>
+	<division id="d4">English Longbow</division>
+	<division id="d5">Compound Flight Bow</division>
+	<division id="d6">Foot Bow</division>
+
+	<employee id="EMP1">
+		<lastname>Mueller</lastname>
+		<firstname>Hans</firstname>
+	</employee>
+
+	<employee id="EMP2">
+		<lastname>Mueller</lastname>
+		<firstname>Birgit</firstname>
+	</employee>
+
+	<employee id="EMP3">
+		<lastname>Edith</lastname>
+		<firstname>Brugger</firstname>
+	</employee>
+
+	<employee id="EMP4">
+		<lastname>Erna</lastname>
+		<firstname>Peter</firstname>
+	</employee>
+
+	<area_of_responsibility id="Ar1" employee1-id="EMP1">
+		<description>Zieldistanz, Anzahl der Ziele, Geländebeschreibung</description>
+	</area_of_responsibility>
+
+	<area_of_responsibility id="Ar2" employee1-id="EMP2" employee2-id="EMP3">
+		<description>Zieldistanz, Anzahl der Ziele, Geländebeschreibung</description>
+	</area_of_responsibility>
+
+	<area_of_responsibility id="Ar3" employee1-id="EMP4">
+		<description>Zieldistanz, Anzahl der Ziele, Geländebeschreibung</description>
+	</area_of_responsibility>
+
+	<registration id="Reg1">
+		<participant id="P1">
+			<age>20</age>
+			<lastname>Peter</lastname>
+			<firstname>Hans</firstname>
+			<street_name>Buchenweg</street_name>
+			<house_nr>25</house_nr>
+			<postal_code>6900</postal_code>
+			<state>Austria</state>
+			</participant>
+	</registration>
+
+	<registration id="Reg2">
+		<participant id="P2">
+			<age>21</age>
+			<lastname>Grüninger</lastname>
+			<firstname>Paul</firstname>
+			<street_name>Marktstraße</street_name>
+			<house_nr>21</house_nr>
+			<postal_code>6900</postal_code>
+			<state>Germany</state>
+			</participant>
+	</registration>
+
+	<registration id="Reg3">
+		<participant id="P3">
+			<age>22</age>
+			<lastname>Kogler</lastname>
+			<firstname>Harald</firstname>
+			<street_name>stegstraße</street_name>
+			<house_nr>37</house_nr>
+			<postal_code>6845</postal_code>
+			<state>USA</state>
+		</participant>
+	</registration>
+
+	<registration id="Reg4">
+		<participant id="P4">
+			<age>20</age>
+			<lastname>Reiter</lastname>
+			<firstname>Peter</firstname>
+			<street_name>Umweg</street_name>
+			<house_nr>12</house_nr>
+			<postal_code>6835</postal_code>
+			<state>Australia</state>
+		</participant>
+	</registration>
+
+	<registration id="Reg5">
+		<participant id="P5">
+			<age>36</age>
+			<lastname>Heinz</lastname>
+			<firstname>Karl</firstname>
+			<street_name>Rütte</street_name>
+			<house_nr>40</house_nr>
+			<postal_code>6850</postal_code>
+			<state>Austria</state>
+		</participant>
+	</registration>
+
+	<registration id="Reg6">
+		<participant id="P6">
+			<age>45</age>
+			<lastname>Josef</lastname>
+			<firstname>Franz</firstname>
+			<street_name>Buchenweg</street_name>
+			<house_nr>25</house_nr>
+			<postal_code>6969</postal_code>
+			<state>Italy</state>
+		</participant>
+	</registration>
+	
+	<group id="G1">
+		<subgroup sub-id="sub1">
+			<member participant-id="P1"/>
+			<member participant-id="P2"/>
+			<member participant-id="P3"/>
+		</subgroup>
+		<subgroup sub-id="sub2">
+			<member participant-id="P4"/>
+			<member participant-id="P5"/>
+			<member participant-id="P6"/>
+		</subgroup>
+	</group>
+	
+	<match match-id ="m1">
+		<target target-id="t1_m1">
+			<score participant-id = "P1">50</score>
+			<score participant-id = "P2">0</score>
+			<score participant-id = "P3">20</score>
+			<score participant-id = "P4">10</score>
+			<score participant-id = "P5">20</score>
+			<score participant-id = "P6">20</score>
+		</target>
+		<target target-id="t2_m1">
+			<score participant-id = "P1">100</score>
+			<score participant-id = "P2">80</score>
+			<score participant-id = "P3">30</score>
+			<score participant-id = "P4">20</score>
+			<score participant-id = "P5">100</score>
+			<score participant-id = "P6">20</score>
+		</target>
+		<target target-id="t3_m1">
+			<score participant-id = "P1">100</score>
+			<score participant-id = "P2">80</score>
+			<score participant-id = "P3">70</score>
+			<score participant-id = "P4">70</score>
+			<score participant-id = "P5">50</score>
+			<score participant-id = "P6">20</score>
+		</target>
+		<target target-id="t4_m1">
+			<score participant-id = "P1">0</score>
+			<score participant-id = "P2">70</score>
+			<score participant-id = "P3">80</score>
+			<score participant-id = "P4">90</score>
+			<score participant-id = "P5">30</score>
+			<score participant-id = "P6">50</score>
+		</target>
+	</match>
+
+	<match match-id ="m2">
+		<target target-id="t1_m2">
+			<score participant-id = "P1">50</score>
+			<score participant-id = "P2">60</score>
+			<score participant-id = "P3">60</score>
+			<score participant-id = "P4">70</score>
+			<score participant-id = "P5">70</score>
+			<score participant-id = "P6">100</score>
+		</target>
+		<target target-id="t2_m2">
+			<score participant-id = "P1">40</score>
+			<score participant-id = "P2">40</score>
+			<score participant-id = "P3">40</score>
+			<score participant-id = "P4">50</score>
+			<score participant-id = "P5">40</score>
+			<score participant-id = "P6">60</score>
+		</target>
+		<target target-id="t3_m2">
+			<score participant-id = "P1">60</score>
+			<score participant-id = "P2">60</score>
+			<score participant-id = "P3">10</score>
+			<score participant-id = "P4">20</score>
+			<score participant-id = "P5">20</score>
+			<score participant-id = "P6">20</score>
+		</target>
+		<target target-id="t4_m2">
+			<score participant-id = "P1">40</score>
+			<score participant-id = "P2">40</score>
+			<score participant-id = "P3">50</score>
+			<score participant-id = "P4">60</score>
+			<score participant-id = "P5">60</score>
+			<score participant-id = "P6">40</score>
+		</target>
+	</match>
+
+	<match match-id ="m3">
+		<target target-id="t1_m3">
+			<score participant-id = "P1">100</score>
+			<score participant-id = "P2">100</score>
+			<score participant-id = "P3">100</score>
+			<score participant-id = "P4">100</score>
+			<score participant-id = "P5">70</score>
+			<score participant-id = "P6">100</score>
+		</target>
+		<target target-id="t2_m3">
+			<score participant-id = "P1">50</score>
+			<score participant-id = "P2">50</score>
+			<score participant-id = "P3">20</score>
+			<score participant-id = "P4">30</score>
+			<score participant-id = "P5">10</score>
+			<score participant-id = "P6">0</score>
+		</target>
+		<target target-id="t3_m3">
+			<score participant-id = "P1">0</score>
+			<score participant-id = "P2">80</score>
+			<score participant-id = "P3">40</score>
+			<score participant-id = "P4">60</score>
+			<score participant-id = "P5">40</score>
+			<score participant-id = "P6">90</score>
+		</target>
+		<target target-id="t4_m3">
+			<score participant-id = "P1">90</score>
+			<score participant-id = "P2">30</score>
+			<score participant-id = "P3">50</score>
+			<score participant-id = "P4">20</score>
+			<score participant-id = "P5">50</score>
+			<score participant-id = "P6">100</score>
+		</target>
+	</match>
+</archery_tournament>

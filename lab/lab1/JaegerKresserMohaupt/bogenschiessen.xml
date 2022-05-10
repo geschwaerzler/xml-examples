@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8" standalone = "no"?>
+<!DOCTYPE Bogenturnier [
+
+<!ELEMENT Bogenturnier (Schuetzenprofil|Gruppen+|Bogenklasse+|Parkour+|Division+)*>
+<!ELEMENT Schuetzenprofil (Schuetze)+>
+
+<!ELEMENT Schuetze (schuetze_id|Schuetze_Vorname|Schuetze_Nachname|Schuetze_Alter|Nationalitaet|Klasse|Gruppe) >
+<!ATTLIST Schuetze schuetze_id  ID #REQUIRED>
+<!ELEMENT Schuetze_Vorname  (#PCDATA) >
+<!ELEMENT Schuetze_Nachname (#PCDATA) >
+<!ELEMENT Schuetze_Alter (#PCDATA) >
+<!ELEMENT Nationalitaet (#PCDATA) >
+<!ATTLIST Schuetze Klasse CDATA >
+<!ATTLIST Schuetze Gruppe CDATA >
+
+<!ELEMENT Klasse (bogenklasse_id, division_id) >
+<!ATTLIST Klasse bogenklasse_id CDATA #REQUIRED >
+<!ATTLIST Klasse Skill CDATA #REQUIRED >
+
+<!ELEMENT Skill (division_id)>
+<!ATTLIST Skill division_id CDATA #REQUIRED >
+
+<!ELEMENT Bogenklasse (bogenklasse_id) >
+<!ATTLIST Bogenklasse bogenklasse_id CDATA #REQUIRED >
+
+<!ELEMENT Gruppe (Bogenklasse, Skill, Punktezahl) >
+<!ATTLIST Gruppe Bogenklasse CDATA #REQUIRED >
+<!ATTLIST Gruppe Skill CDATA #REQUIRED >
+<!ATTLIST Gruppe Punktezahl CDATA #REQUIRED >
+
+<!ELEMENT Punktezahl (target_id)>
+
+<!ELEMENT Parkour (Target) >
+<!ATTLIST Gruppe target_id CDATA #REQUIRED >
+
+<!ELEMENT Division (division_id) >
+<!ATTLIST Division division_id CDATA #REQUIRED >
+
+]>
+
+<Bogenturnier>
+    <Schuetzenprofil>
+        <Schuetze schuetze_id="S1"> 
+            <Schuetze_Vorname>Olaf</Schuetze_Vorname>
+            <Schuetze_Nachname>Scholz</Schuetze_Nachname>
+            <Schuetze_Alter>57</Schuetze_Alter>
+            <Nationalitaet>Germany</Nationalitaet>
+            <Klasse bogenklasse_id="B2">
+                <Skill division_id="D1"/>
+            </Klasse>
+            <Klasse bogenklasse_id="B4">
+                <Skill division_id="D2"/>
+            </Klasse>
+            <Gruppe gruppen_id="G1">
+                <Punktezahl target_id="T1">8</Punktezahl>
+                <Punktezahl target_id="T2">8</Punktezahl>
+                <Punktezahl target_id="T3">7</Punktezahl>
+                <Punktezahl target_id="T4">9</Punktezahl>
+                <Punktezahl target_id="T5">7</Punktezahl>
+                <Punktezahl target_id="T6">7</Punktezahl>
+                <Punktezahl target_id="T7">10</Punktezahl>
+                <Punktezahl target_id="T8">7</Punktezahl>
+                <Punktezahl target_id="T9">8</Punktezahl>
+                <Punktezahl target_id="T10">8</Punktezahl>
+            </Gruppe>
+        </Schuetze> 
+        <Schuetze schuetze_id="S2"> 
+            <Schuetze_Vorname>Christian</Schuetze_Vorname>
+            <Schuetze_Nachname>Lindner</Schuetze_Nachname>
+            <Schuetze_Alter>43</Schuetze_Alter>
+            <Nationalitaet>Germany</Nationalitaet>
+            <Klasse> <bogenklasse_id="B2">
+                     <division_id="D1"/>
+            </Klasse>
+            <Klasse> <bogenklasse_id="B4">
+                <Skill division_id="D2"/>
+            </Klasse>
+            <Gruppe gruppen_id="G1">
+                <Punktezahl target_id="T1">5</Punktezahl>
+                <Punktezahl target_id="T2">4</Punktezahl>
+                <Punktezahl target_id="T3">3</Punktezahl>
+                <Punktezahl target_id="T4">2</Punktezahl>
+                <Punktezahl target_id="T5">1</Punktezahl>
+                <Punktezahl target_id="T6">5</Punktezahl>
+                <Punktezahl target_id="T7">10</Punktezahl>
+                <Punktezahl target_id="T8">6</Punktezahl>
+                <Punktezahl target_id="T9">4</Punktezahl>
+                <Punktezahl target_id="T10">2</Punktezahl>
+            </Gruppe>
+        </Schuetze> 
+        <Schuetze schuetze_id="S3"> 
+            <Schuetze_Vorname>Herbert</Schuetze_Vorname>
+            <Schuetze_Nachname>Mueller</Schuetze_Nachname>
+            <Schuetze_Alter>26</Schuetze_Alter>
+            <Nationalitaet>Austria</Nationalitaet>
+            <Klasse> <bogenklasse_id="B1">
+                <Skill division_id="D1"/>
+            </Klasse>
+            <Klasse bogenklasse_id="B4">
+                <Skill division_id="D2"/>
+            </Klasse>
+            <Gruppe gruppen_id="G2">
+                <Punktezahl target_id="T1">5</Punktezahl>
+                <Punktezahl target_id="T2">2</Punktezahl>
+                <Punktezahl target_id="T3">6</Punktezahl>
+                <Punktezahl target_id="T4">4</Punktezahl>
+                <Punktezahl target_id="T5">7</Punktezahl>
+                <Punktezahl target_id="T6">7</Punktezahl>
+                <Punktezahl target_id="T7">6</Punktezahl>
+                <Punktezahl target_id="T8">7</Punktezahl>
+                <Punktezahl target_id="T9">1</Punktezahl>
+                <Punktezahl target_id="T10">8</Punktezahl>
+            </Gruppe>
+        </Schuetze>
+        <Schuetze schuetze_id="S4"> 
+            <Schuetze_Vorname>Ivan</Schuetze_Vorname>
+            <Schuetze_Nachname>Ivanovic</Schuetze_Nachname>
+            <Schuetze_Alter>28</Schuetze_Alter>
+            <Nationalitaet>Russische Foerderation</Nationalitaet>
+            <Klasse bogenklasse_id="B1">
+                <Skill division_id="D1"/>
+            </Klasse>
+            <Klasse bogenklasse_id="B4">
+                <Skill division_id="D2"/>
+            </Klasse>
+            <Gruppe gruppen_id="G2">
+                <Punktezahl target_id="T1">10</Punktezahl>
+                <Punktezahl target_id="T2">9</Punktezahl>
+                <Punktezahl target_id="T3">9</Punktezahl>
+                <Punktezahl target_id="T4">10</Punktezahl>
+                <Punktezahl target_id="T5">8</Punktezahl>
+                <Punktezahl target_id="T6">0</Punktezahl>
+                <Punktezahl target_id="T7">0</Punktezahl>
+                <Punktezahl target_id="T8">0</Punktezahl>
+                <Punktezahl target_id="T9">0</Punktezahl>
+                <Punktezahl target_id="T10">0</Punktezahl>
+            </Gruppe>
+        </Schuetze> 
+        <Schuetze schuetze_id="S5"> 
+            <Schuetze_Vorname>John</Schuetze_Vorname>
+            <Schuetze_Nachname>Smith</Schuetze_Nachname>
+            <Schuetze_Alter>65</Schuetze_Alter>
+            <Nationalitaet>Great Britain</Nationalitaet>
+            <Klasse bogenklasse_id="B2">
+                <Skill division_id="D2"/>
+            </Klasse>
+            <Klasse bogenklasse_id="B3">
+                <Skill division_id="D2"/>
+            </Klasse>
+            <Gruppe gruppen_id="G3">
+                <Punktezahl target_id="T1">8</Punktezahl>
+                <Punktezahl target_id="T2">0</Punktezahl>
+                <Punktezahl target_id="T3">6</Punktezahl>
+                <Punktezahl target_id="T4">4</Punktezahl>
+                <Punktezahl target_id="T5">9</Punktezahl>
+                <Punktezahl target_id="T6">7</Punktezahl>
+                <Punktezahl target_id="T7">6</Punktezahl>
+                <Punktezahl target_id="T8">5</Punktezahl>
+                <Punktezahl target_id="T9">1</Punktezahl>
+                <Punktezahl target_id="T10">8</Punktezahl>
+            </Gruppe>
+        </Schuetze> 
+        <Schuetze schuetze_id="S6"> 
+            <Schuetze_Vorname>Juan</Schuetze_Vorname>
+            <Schuetze_Nachname>Fernandez</Schuetze_Nachname>
+            <Schuetze_Alter>45</Schuetze_Alter>
+            <Nationalitaet>Brazil</Nationalitaet>
+            <Klasse bogenklasse_id="B2">
+                <Skill division_id="D2"/>
+            </Klasse>
+            <Klasse bogenklasse_id="B3">
+                <Skill division_id="D2"/>
+            </Klasse>
+            <Gruppe gruppen_id="G3">
+                <Punktezahl target_id="T1">5</Punktezahl>
+                <Punktezahl target_id="T2">5</Punktezahl>
+                <Punktezahl target_id="T3">5</Punktezahl>
+                <Punktezahl target_id="T4">6</Punktezahl>
+                <Punktezahl target_id="T5">7</Punktezahl>
+                <Punktezahl target_id="T6">5</Punktezahl>
+                <Punktezahl target_id="T7">6</Punktezahl>
+                <Punktezahl target_id="T8">5</Punktezahl>
+                <Punktezahl target_id="T9">7</Punktezahl>
+                <Punktezahl target_id="T10">6</Punktezahl>
+            </Gruppe>
+        </Schuetze> 
+    </Schuetzenprofil>
+    <Gruppen> 
+        <Gruppe1 gruppen_id="G1">Gruppe A
+            <Gruppenklasse bogenklasse_id="B4"/>
+                <Gruppenskill division_id="D2"/>
+            <Gruppenklasse bogenklasse_id="B2"/>
+                <Gruppenskill division_id="D1"/>
+        </Gruppe1>
+        <Gruppe2 gruppen_id="G2">Gruppe B
+            <Gruppenklasse bogenklasse_id="B1"/>
+                <Gruppenskill division_id="D1"/>
+            <Gruppenklasse bogenklasse_id="B4"/>
+                <Gruppenskill division_id="D2"/>
+        </Gruppe2>
+        <Gruppe3 gruppen_id="G3">Gruppe C
+            <Gruppenklasse bogenklasse_id="B2"/>
+                <Gruppenskill division_id="D2"/>
+            <Gruppenklasse bogenklasse_id="B3"/>
+                <Gruppenskill division_id="D2"/>
+        </Gruppe3>
+    </Gruppen>
+    <Bogenklasse bogenklasse_id="B1">Recurve Bow</Bogenklasse>
+    <Bogenklasse bogenklasse_id="B2">Compound Bow</Bogenklasse>
+    <Bogenklasse bogenklasse_id="B3">Jagdbogen</Bogenklasse>
+    <Bogenklasse bogenklasse_id="B4">Primitivbogen</Bogenklasse>
+    <Parkour> 
+        <Target id="T1"> Wildsau 50m</Target>
+        <Target id="T2"> Rehbock 75m</Target>
+        <Target id="T3"> Murmeltier 100m</Target>
+        <Target id="T4"> Feldhase 125m</Target>
+        <Target id="T5"> Auerhahn 200m</Target>
+        <Target id="T6"> Hirsch 170m</Target>
+        <Target id="T7"> Steinbock 100m</Target>
+        <Target id="T8"> Zielscheibe 50m</Target>
+        <Target id="T9"> Zielscheibe 75m</Target>
+        <Target id="T10"> Zielscheibe 100m</Target>
+    </Parkour>
+    <Division division_id="D1">Amateur</Division>
+    <Division division_id="D2">Professionell</Division>
+</Bogenturnier>

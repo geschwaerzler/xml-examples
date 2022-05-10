@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE archery-tournament SYSTEM "archerytournament.dtd">
+<archery-tournament name="Voralberger Archery Landesmeisterschaft 2022">
+
+	<discipline id="D1">Outdoor Archery</discipline>
+	<discipline id="D2">Indoor Archery</discipline>
+	<discipline id="D3">Field Archery</discipline>
+	<discipline id="D4">Para Archery</discipline>
+	<discipline id="D5">Field Archery</discipline>
+	
+	<!-- this is a comment -->
+	
+	<division id="d1">Target Recurve Bow</division>
+	<division id="d2">Conventional Flight Bow</division>
+	<division id="d3">American Longbow</division>
+	<division id="d4">English Longbow</division>
+	<division id="d5">Compound Flight Bow</division>
+	<division id="d6">Foot Bow</division>
+	
+	<athlete id ="a0">
+		<lastname>Schwärzler</lastname>
+	</athlete>
+	
+	<athlete id ="a1">
+		<lastname>Amann</lastname>
+	</athlete>
+	
+	<athlete id ="a2">
+		<lastname>Benetel</lastname>
+	</athlete>
+	
+	<group name="Conventional Outdoor" discipline-id = "D1" division-id="d2">
+		<member athlete-id="a1"/>
+		<member athlete-id="a0"/>
+	</group>
+	
+	<group name="Conventional Outdoor" discipline-id = "D1" division-id="d3">
+		<member athlete-id="a1"/>
+		<member athlete-id="a2"/>
+	</group>
+	
+	<tournament name = "Austria Archery tournament" id ="T1" > 
+	
+		<parkour name = "Test1" id = "p1">
+			<target id= "t1"/>
+			<target id= "t2"/>
+			<target id= "t3"/>
+			<target id= "t4"/>
+			<target id= "t5"/>
+		</parkour>
+		
+		<parkour name = "Test2" id = "p2">
+			<target id= "t6"/>
+			<target id= "t7"/>
+			<target id= "t8"/>
+			<target id= "t9"/>
+			<target id= "t10"/>
+		</parkour>
+		
+		<parkour name = "Test3" id = "p3">
+			<target id= "t11"/>
+			<target id= "t12"/>
+			<target id= "t13"/>
+			<target id= "t14"/>
+			<target id= "t15"/>
+		</parkour>
+		
+	</tournament>
+
+	<scorecard athlete-id = "a0" parkour-id = "p1">
+		<target id = "s1"/>
+		<target id = "s2"/>
+		<target id = "s3"/>
+		<target id = "s4"/>
+		<target id = "s5"/>
+	</scorecard>
+
+	<scorecard athlete-id = "a1" parkour-id = "p1">
+		<target id = "S1"/>
+		<target id = "S2"/>
+		<target id = "S3"/>
+		<target id = "S4"/>
+		<target id = "S5"/>
+	</scorecard>
+
+	<scorecard athlete-id = "a2" parkour-id = "p1">
+		<target id = "sp1"/>
+		<target id = "sp2"/>
+		<target id = "sp3"/>
+		<target id = "sp4"/>
+		<target id = "sp5"/>
+	</scorecard>
+	
+	<scorecard athlete-id = "a0" parkour-id = "p2">
+		<target id = "s6"/>
+		<target id = "s7"/>
+		<target id = "s8"/>
+		<target id = "s9"/>
+		<target id = "s10"/>
+	</scorecard>
+
+	<scorecard athlete-id = "a1" parkour-id = "p2">
+		<target id = "S6"/>
+		<target id = "S7"/>
+		<target id = "S8"/>
+		<target id = "S9"/>
+		<target id = "S10"/>
+	</scorecard>
+
+	<scorecard athlete-id = "a2" parkour-id = "p2">
+		<target id = "sp6"/>
+		<target id = "sp7"/>
+		<target id = "sp8"/>
+		<target id = "sp9"/>
+		<target id = "sp10"/>
+	</scorecard>
+	
+	<scorecard athlete-id = "a0" parkour-id = "p3">
+		<target id = "s11"/>
+		<target id = "s12"/>
+		<target id = "s13"/>
+		<target id = "s14"/>
+		<target id = "s15"/>
+	</scorecard>
+
+	<scorecard athlete-id = "a1" parkour-id = "p3">
+		<target id = "S11"/>
+		<target id = "S12"/>
+		<target id = "S13"/>
+		<target id = "S14"/>
+		<target id = "S15"/>
+	</scorecard>
+
+	<scorecard athlete-id = "a2" parkour-id = "p3">
+		<target id = "sp11"/>
+		<target id = "sp12"/>
+		<target id = "sp13"/>
+		<target id = "sp14"/>
+		<target id = "sp15"/>
+	</scorecard>
+	
+	</archery-tournament>

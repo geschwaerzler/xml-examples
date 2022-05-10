@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT turnier (division*, bogenklasse*, schuetze*, gruppe*, target*)>
+
+<!ELEMENT division (#PCDATA)>
+<!ATTLIST division id ID #REQUIRED>
+
+
+<!ELEMENT bogenklasse (#PCDATA)>
+<!ATTLIST bogenklasse id ID #REQUIRED>
+
+<!ELEMENT schuetze (firstname, lastname, birthday, status*, klasse*)>
+<!ATTLIST schuetze id ID #REQUIRED>
+
+<!ELEMENT firstname (#PCDATA)>
+<!ELEMENT lastname (#PCDATA)>
+<!ELEMENT birthday (#PCDATA)>
+
+
+<!ELEMENT klasse EMPTY>
+<!ATTLIST klasse klassen-id IDREF #REQUIRED>
+
+<!ELEMENT status EMPTY>
+<!ATTLIST status division-id IDREF #REQUIRED>
+
+<!ELEMENT gruppe (mitglied*)>
+<!ATTLIST gruppe id ID #REQUIRED klassen-id IDREF #REQUIRED>
+
+<!ELEMENT target (#PCDATA)>
+<!ATTLIST target id ID #REQUIRED>
+
+<!ELEMENT mitglied (scoreboard)>
+<!ATTLIST mitglied schuetze-id IDREF #REQUIRED>
+
+<!ELEMENT scoreboard (ziele*)>
+
+<!ELEMENT ziele (punkte*)>
+<!ATTLIST ziele target-id IDREF #REQUIRED>
+
+<!ELEMENT punkte (#PCDATA)>

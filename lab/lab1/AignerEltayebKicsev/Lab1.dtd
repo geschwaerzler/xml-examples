@@ -1,0 +1,39 @@
+<!ELEMENT tournament (division* , discipline* , group*)>
+<!ATTLIST tournament name CDATA #REQUIRED>
+
+<!ELEMENT firstname (#PCDATA)>
+<!ELEMENT lastname (#PCDATA)>
+<!ELEMENT arrow1-score (#PCDATA)>
+<!ELEMENT arrow2-score (#PCDATA)>
+<!ELEMENT arrow3-score (#PCDATA)>
+<!ELEMENT arrow4-score (#PCDATA)>
+
+<!ELEMENT target-scores (arrow1-score+, arrow2-score+, arrow3-score+, arrow4-score+)>
+<!ATTLIST target-scores target (a1|2|3|4|5) #REQUIRED>
+
+<!ELEMENT scores (target-scores+)>
+<!ATTLIST scores archer-id IDREF #REQUIRED>
+
+<!ELEMENT day (scores+)>
+<!ATTLIST day 
+	nr CDATA #REQUIRED
+	date CDATA #REQUIRED
+>
+
+<!ELEMENT archer (#PCDATA)>
+<!ATTLIST archer id ID #REQUIRED>
+
+
+<!ELEMENT division (#PCDATA)>
+<!ATTLIST division id ID #REQUIRED>
+
+<!ELEMENT discipline (#PCDATA)>
+<!ATTLIST discipline id ID #REQUIRED>
+
+
+<!ELEMENT group (archer*, day*)>
+<!ATTLIST group
+    name CDATA #REQUIRED
+    division-id IDREF #REQUIRED
+    discipline-id IDREF #REQUIRED
+>

@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE archery-tournament SYSTEM "archery-tournament.dtd">
+<archery-tournament name="Vorarlberger Archery Landesmeisterschaft 2022">
+	<description>Vorarlberger Archery Landesmeisterschaft 2022</description>
+
+	<discipline id="D1">Outdoor Archery</discipline>
+	<discipline id="D2">Indoor Archery</discipline>
+	<discipline id="D3">Field Archery</discipline>
+	<discipline id="D4">Para-Archery</discipline>
+	<discipline id="D5">Run Archery</discipline>
+	
+	<!-- KOMMENTAR -->
+	<division id="d1">Target Recurve Division</division>
+	<division id="d2">Conventional Flight Bow Division</division>
+	<division id="d3">American Longbow</division>
+	<division id="d4">English Longbow</division>
+	<division id="d5">Compound Flight Bow</division>
+	<division id="d6">Foot Bow</division>
+	
+	<!-- 
+	<shooting-style>Barebow - Recurve and Compound</shooting-style>
+	<shooting-style>Freestyle Unlimited</shooting-style>
+	<shooting-style>Freestyle Limited - Recurve and Compound</shooting-style>
+	<shooting-style>Bowhunter - Recurve and Compound</shooting-style>
+	<shooting-style>Bowhunter Unlimited</shooting-style>
+	<shooting-style></shooting-style>
+	 -->
+	 
+	<athlete id="A0">
+		<lastname>Messner</lastname>
+		<firstname>Moritz</firstname>
+		<nationality>GBR</nationality>
+	</athlete>
+	<athlete id="A1">
+		<lastname>Salzgeber</lastname>
+		<firstname>Jan</firstname>
+		<nationality>AUT</nationality>
+	</athlete>
+	<athlete id="A2">
+		<lastname>Siess</lastname>
+		<firstname>Noah</firstname>
+		<nationality>GER</nationality>
+	</athlete>
+	<athlete id="A3">
+		<lastname>Jaeger</lastname>
+		<firstname>Samuel</firstname>
+		<nationality>AUT</nationality>
+	</athlete>
+	<athlete id="A4">
+		<lastname>Karner</lastname>
+		<firstname>Thomas</firstname>
+		<nationality>SUI</nationality>
+	</athlete>
+	<athlete id="A5">
+		<lastname>Frick</lastname>
+		<firstname>Deniz</firstname>
+		<nationality>CHN</nationality>
+	</athlete>
+	<athlete id="A6">
+		<lastname>Auer</lastname>
+		<firstname>Wolfgang</firstname>
+		<nationality>CZH</nationality>
+	</athlete>
+	<athlete id="A7">
+		<lastname>Stadelmann</lastname>
+		<firstname>Mathias</firstname>
+		<nationality>TWN</nationality>
+	</athlete>
+	<athlete id="A8">
+		<lastname>Hartmann</lastname>
+		<firstname>Nina</firstname>
+		<nationality>COD</nationality>
+	</athlete>
+	<athlete id="A9">
+		<lastname>Silbereisen</lastname>
+		<firstname>Florian</firstname>
+		<nationality>POL</nationality>
+	</athlete>
+	<athlete id="A10">
+		<lastname>Nukem</lastname>
+		<firstname>Duke</firstname>
+		<nationality>USA</nationality>
+	</athlete>
+	<athlete id="A11">
+		<lastname>Schwarzenegger</lastname>
+		<firstname>Arnold</firstname>
+		<nationality>AUT</nationality>
+	</athlete>
+
+	<group name="Conventional Outdoor" discipline-id="D1" division-id="d2">
+		<member athlete-id="A0"/>		
+		<member athlete-id="A1"/>
+		<member athlete-id="A5"/>
+		<member athlete-id="A7"/>
+		<member athlete-id="A11"/>
+	</group>
+	<group name="American Outdoor" discipline-id="D1" division-id="d3">
+		<member athlete-id="A2"/>		
+		<member athlete-id="A3"/>
+		<member athlete-id="A4"/>
+		<member athlete-id="A6"/>
+		<member athlete-id="A8"/>
+	</group>
+	<group name="Target Recurve Outdoor" discipline-id="D1" division-id="d3">
+		<member athlete-id="A9"/>
+		<member athlete-id="A10"/>
+		<member athlete-id="A5"/>
+		<member athlete-id="A7"/>
+	</group>
+	<group name="American Outdoor" discipline-id="D1" division-id="d3">
+		<member athlete-id="A0"/>		
+		<member athlete-id="A1"/>
+		<member athlete-id="A6"/>
+		<member athlete-id="A8"/>
+		<member athlete-id="A11"/>
+		<member athlete-id="A10"/>
+	</group>
+
+	<scorecard athlete-id="A0">
+		<target name="t0">
+			<score>10</score>
+		</target>
+		<target name="t1">
+			<score>7</score>
+			<score>10</score>
+		</target>
+		<target name="t2">
+			<score>9</score>
+			<score>9</score>
+			<score>6</score>
+		</target>
+	</scorecard>
+
+	<scorecard athlete-id="A1">
+		<target name="t0">
+			<score>4</score>
+			<score>10</score>
+		</target>
+		<target name="t1">
+			<score>7</score>
+			<score>10</score>
+		</target>
+		<target name="t2">
+			<score>9</score>
+			<score>9</score>
+			<score>6</score>
+		</target>
+	</scorecard>
+
+	<scorecard athlete-id="A2">
+		<target name="t0">
+			<score>8</score>
+			<score>7</score>
+			<score>8</score>
+		</target>
+		<target name="t1">
+			<score>6</score>
+			<score>9</score>
+			<score>8</score>
+		</target>
+		<target name="t2">
+			<score>4</score>
+			<score>7</score>
+			<score>6</score>
+		</target>
+	</scorecard>
+
+	<scorecard athlete-id="A3">
+		<target name="t0">
+			<score>7</score>
+			<score>8</score>
+			<score>9</score>
+		</target>
+		<target name="t1">
+			<score>7</score>
+			<score>10</score>
+		</target>
+		<target name="t2">
+			<score>8</score>
+			<score>7</score>
+			<score>10</score>
+		</target>
+	</scorecard>
+
+	<scorecard athlete-id="A4">
+		<target name="t0">
+			<score>10</score>
+		</target>
+		<target name="t1">
+			<score>9</score>
+			<score>10</score>
+		</target>
+		<target name="t2">
+			<score>9</score>
+			<score>9</score>
+			<score>10</score>
+		</target>
+	</scorecard>
+
+	<scorecard athlete-id="A5">
+		<target name="t0">
+			<score>7</score>
+			<score>5</score>
+			<score>7</score>
+		</target>
+		<target name="t1">
+			<score>6</score>
+			<score>9</score>
+			<score>9</score>
+		</target>
+		<target name="t2">
+			<score>6</score>
+			<score>7</score>
+			<score>6</score>
+		</target>
+	</scorecard>
+
+	<scorecard athlete-id="A6">
+		<target name="t0">
+			<score>8</score>
+			<score>7</score>
+			<score>6</score>
+		</target>
+		<target name="t1">
+			<score>1</score>
+			<score>10</score>
+		</target>
+		<target name="t2">
+			<score>6</score>
+			<score>4</score>
+			<score>10</score>
+		</target>
+	</scorecard>
+
+	<scorecard athlete-id="A7">
+		<target name="t0">
+			<score>9</score>
+			<score>8</score>
+			<score>8</score>
+		</target>
+		<target name="t1">
+			<score>5</score>
+			<score>9</score>
+			<score>7</score>
+		</target>
+		<target name="t2">
+			<score>9</score>
+			<score>5</score>
+			<score>8</score>
+		</target>
+	</scorecard>
+
+	<scorecard athlete-id="A8">
+		<target name="t0">
+			<score>9</score>
+			<score>10</score>
+		</target>
+		<target name="t1">
+			<score>8</score>
+			<score>10</score>
+		</target>
+		<target name="t2">
+			<score>9</score>
+			<score>9</score>
+			<score>10</score>
+		</target>
+	</scorecard>
+
+	<scorecard athlete-id="A9">
+		<target name="t0">
+			<score>5</score>
+			<score>8</score>
+			<score>8</score>
+		</target>
+		<target name="t1">
+			<score>8</score>
+			<score>8</score>
+			<score>9</score>
+		</target>
+		<target name="t2">
+			<score>9</score>
+			<score>9</score>
+			<score>10</score>
+		</target>
+	</scorecard>
+
+	<scorecard athlete-id="A10">
+		<target name="t0">
+			<score>9</score>
+			<score>7</score>
+			<score>8</score>
+		</target>
+		<target name="t1">
+			<score>9</score>
+			<score>10</score>
+		</target>
+		<target name="t2">
+			<score>6</score>
+			<score>9</score>
+			<score>6</score>
+		</target>
+	</scorecard>
+
+	<scorecard athlete-id="A11">
+		<target name="t0">
+			<score>1</score>
+			<score>1</score>
+			<score>10</score>
+		</target>
+		<target name="t1">
+			<score>1</score>
+			<score>1</score>
+			<score>10</score>
+		</target>
+		<target name="t2">
+			<score>1</score>
+			<score>1</score>
+			<score>10</score>
+		</target>
+	</scorecard>
+	
+</archery-tournament>

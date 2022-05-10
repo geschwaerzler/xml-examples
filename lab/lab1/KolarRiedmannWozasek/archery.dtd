@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT tournament (parcour*, archer*, group*, scoreboard*)>
+
+<!ELEMENT parcour (target*)>
+<!ATTLIST parcour 
+	id ID #REQUIRED
+	title CDATA #REQUIRED>
+	
+<!ELEMENT target EMPTY>
+<!ATTLIST target
+	id CDATA #REQUIRED
+	distance CDATA #REQUIRED
+	size CDATA #REQUIRED>
+	
+<!ELEMENT distance (#PCDATA)>
+<!ELEMENT size (#PCDATA)>
+<!ELEMENT archer (fname, lname, nationality, birthdate, archer_profile*)>
+<!ATTLIST archer id ID #REQUIRED>
+
+<!ELEMENT fname (#PCDATA)>
+<!ELEMENT lname (#PCDATA)>
+<!ELEMENT nationality (#PCDATA)>
+<!ELEMENT birthdate (#PCDATA)>
+
+<!ELEMENT archer_profile (class, division)>
+<!ELEMENT class (#PCDATA)>
+<!ELEMENT division (#PCDATA)>
+<!ELEMENT group (member*)>
+<!ATTLIST group
+	id ID #REQUIRED
+	class (Barebow | Freestyle | Bowhunter | Longbow | HistoricalBow | TraditionalRecurveBow) #REQUIRED
+	division (Amateur | Senior | Veteran | Adult | YoungAdult | Junior | Cub) #REQUIRED>
+
+<!ELEMENT member EMPTY>
+<!ATTLIST member archerid IDREF #REQUIRED>
+
+<!ELEMENT scoreboard (shooting-target*)>
+<!ATTLIST scoreboard 
+	groupid IDREF #REQUIRED
+	parcourid IDREF #REQUIRED>
+
+<!ELEMENT shooting-target (score*)>
+<!ATTLIST shooting-target targetid CDATA #REQUIRED>
+
+<!ELEMENT score (shot*)>
+<!ATTLIST score 
+	archerid IDREF #REQUIRED>
+	
+<!ELEMENT shot EMPTY>
+<!ATTLIST shot
+	id CDATA #REQUIRED
+	points CDATA #REQUIRED>
+
+
+
+
+
+
+
+
+ 

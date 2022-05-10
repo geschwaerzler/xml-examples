@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT archery-tournament (discipline*, division*, athlete*, group*, tournament*, parcour*, field*, size_of_face*, classes)>
+<!ATTLIST archery-tournament name CDATA #REQUIRED>
+
+<!ELEMENT discipline (#PCDATA)>
+<!ATTLIST discipline id ID #REQUIRED>
+
+
+<!ELEMENT division (#PCDATA)>
+<!ATTLIST division
+		id ID #REQUIRED>
+
+<!ELEMENT athlete (firstname, lastname, scorecard*)>
+<!ATTLIST athlete
+		id ID #REQUIRED>
+
+<!ELEMENT firstname (#PCDATA)>
+<!ELEMENT lastname (#PCDATA)>
+
+<!ELEMENT group (member*)>
+<!ATTLIST group 
+	name CDATA #REQUIRED
+	discipline-id IDREF #REQUIRED
+	division-id IDREF #REQUIRED>
+	
+	
+<!ELEMENT member (#PCDATA)>
+<!ATTLIST member
+		athlete-id IDREF #REQUIRED>
+
+
+<!ELEMENT tournament (#PCDATA)>
+<!ATTLIST tournament
+		name CDATA #REQUIRED
+		id ID #REQUIRED>
+
+<!ELEMENT parcour (#PCDATA)>
+<!ATTLIST parcour
+		name CDATA #REQUIRED
+		tournament-id IDREF #REQUIRED>
+
+<!ELEMENT field (target*)>
+<!ATTLIST field
+		name CDATA #REQUIRED
+		id ID #REQUIRED
+		parcour-id IDREF #REQUIRED>
+		
+<!ELEMENT target (#PCDATA)>
+<!ATTLIST target
+		name CDATA #REQUIRED
+		id ID #REQUIRED>
+		
+<!ELEMENT scorecard (style, round, score_per_arrow, running_score, target_score, total_score)>
+<!ATTLIST scorecard
+		name CDATA #REQUIRED
+		tournament-id IDREF #REQUIRED>
+		
+<!ELEMENT style (#PCDATA)>
+<!ATTLIST style
+		division-id IDREF #REQUIRED>
+		
+<!ELEMENT round (#PCDATA)>
+<!ATTLIST round
+		discipline-id IDREF #REQUIRED>
+		
+<!ELEMENT score_per_arrow (#PCDATA)>
+<!ATTLIST score_per_arrow
+		field-id IDREF #REQUIRED>
+		
+<!ELEMENT running_score (#PCDATA)>
+		
+<!ELEMENT target_score (#PCDATA)>
+<!ATTLIST target_score
+		id ID #REQUIRED>
+		
+<!ELEMENT total_score (#PCDATA)>
+<!ATTLIST total_score
+		id ID #REQUIRED>
+		
+<!ELEMENT size_of_face (#PCDATA)>
+<!ATTLIST size_of_face
+		name CDATA #REQUIRED
+		id ID #REQUIRED>
+		
+<!ELEMENT classes (senior, veterans, adults, young_adults, junior, cubs)>
+
+<!ELEMENT senior (distance_position*)>
+<!ATTLIST senior
+		id ID #REQUIRED>
+		
+<!ELEMENT veterans (distance_position*)>
+<!ATTLIST veterans
+		id ID #REQUIRED>
+		
+<!ELEMENT adults (distance_position*)>
+<!ATTLIST adults
+		id ID #REQUIRED>
+		
+<!ELEMENT young_adults (distance_position*)>
+<!ATTLIST young_adults
+		id ID #REQUIRED>
+		
+<!ELEMENT junior (distance_position*)>
+<!ATTLIST junior
+		id ID #REQUIRED>
+		
+<!ELEMENT cubs (distance_position*)>
+<!ATTLIST cubs
+		id ID #REQUIRED>
+		
+		
+<!ELEMENT distance_position (#PCDATA)>
+<!ATTLIST distance_position
+		name CDATA #REQUIRED
+		id ID #REQUIRED
+		size_of_face-id IDREF #REQUIRED>
+		

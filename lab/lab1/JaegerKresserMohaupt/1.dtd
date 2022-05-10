@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT Bogenturnier (Schuetzenprofil|Gruppen|Bogenklasse|Parkour|Division)*>
+<!ELEMENT Schuetzenprofil (Schuetze)>
+<!ELEMENT Schuetze (schuetze_id, Schuetze_Vorname, Schuetze_Nachname, Schuetze_Alter, Nationalitaet, Klasse, Gruppe)>
+<!ATTLIST Schuetze schuetze_id  ID #REQUIRED>
+<!ATTLIST Schuetze Schuetze_Vorname CDATA >
+<!ATTLIST Schuetze Schuetze_Nachname CDATA >
+<!ATTLIST Schuetze Schuetze_Alter CDATA >
+<!ATTLIST Schuetze Nationalitaet CDATA >
+
+<!ELEMENT Klasse (Bogenklasse, Skill) >
+<!ATTLIST Klasse bogenklasse_id ID #REQUIRED >
+<!ATTLIST Klasse Skill (division_id) CDATA >
+
+<!ELEMENT Gruppe (Bogenklasse, Skill, Punktezahl) >
+<!ATTLIST Gruppe Punktezahl (target_id) IDREF >
+<!ATTLIST Gruppe target_id ID #REQUIRED >
+
+<!ELEMENT Parkour (Target) >
+<!ATTLIST Gruppe target_id ID #REQUIRED >
+
+<!ELEMENT Division (division_id) >
+<!ATTLIST Division division_id ID #REQUIRED >

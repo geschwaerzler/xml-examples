@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT collection (collection_name, competition*)>
+	<!ELEMENT collection_name (#PCDATA)>
+
+<!ELEMENT competition (competition_name | 
+				   competition_date |
+				   competition_country | 
+				   competition_city |
+				   user |
+				   user_role |
+				   division |
+				   shooting_style |
+				   athlete_registration |
+				   excecutive_group |
+				   course |
+				   article |
+				   penalty)*>
+
+<!ATTLIST competition competition_id ID #REQUIRED>
+<!ELEMENT competition_name (#PCDATA)>
+<!ELEMENT competition_date (#PCDATA)>
+<!ELEMENT competition_country (#PCDATA)>
+<!ELEMENT competition_city (#PCDATA)>
+
+
+<!ELEMENT user (user_role_ref, firstname, lastname, birthday, email, username, password)>
+	<!ATTLIST user user_id ID #REQUIRED>
+	<!ELEMENT user_role_ref EMPTY>
+		<!ATTLIST user_role_ref user_role_id IDREF #REQUIRED>
+	<!ELEMENT firstname (#PCDATA)>
+	<!ELEMENT lastname (#PCDATA)>
+	<!ELEMENT birthday (#PCDATA)>
+	<!ELEMENT email (#PCDATA)>
+	<!ELEMENT username (#PCDATA)>
+	<!ELEMENT password (#PCDATA)>
+
+
+<!ELEMENT user_role (user_role_name, is_IFAA_official)>
+	<!ATTLIST user_role user_role_id ID #REQUIRED>
+	<!ELEMENT user_role_name (#PCDATA)>
+	<!ELEMENT is_IFAA_official (#PCDATA)>
+
+
+<!ELEMENT division (division_name)>
+	<!ATTLIST division division_id ID #REQUIRED>
+	<!ELEMENT division_name (#PCDATA)>
+
+
+<!ELEMENT shooting_style (shooting_style_name)>
+	<!ATTLIST shooting_style shooting_style_id ID #REQUIRED>
+	<!ELEMENT shooting_style_name (#PCDATA)>
+
+
+<!ELEMENT athlete_registration (user_ref, division_ref, shooting_style_ref*)>
+	<!ATTLIST athlete_registration athlete_registration_id ID #REQUIRED>
+	<!ELEMENT user_ref EMPTY>
+		<!ATTLIST user_ref user_id IDREF #REQUIRED>
+	<!ELEMENT division_ref EMPTY>
+		<!ATTLIST division_ref division_id IDREF #REQUIRED>
+	<!ELEMENT shooting_style_ref EMPTY>
+		<!ATTLIST shooting_style_ref shooting_style_id IDREF #REQUIRED>
+
+
+<!ELEMENT excecutive_group (user_ref*, date)>
+	<!ATTLIST excecutive_group excecutive_group_id ID #REQUIRED>
+	<!ELEMENT date (#PCDATA)>
+
+
+<!ELEMENT course (course_name, shooting_style_ref, division_ref)>
+	<!ATTLIST course course_id ID #REQUIRED>
+	<!ELEMENT course_name (#PCDATA)>
+
+
+<!ELEMENT article (article_title, article_description, article_body, datetime)>
+	<!ATTLIST article article_id ID #REQUIRED>
+	<!ELEMENT article_title (#PCDATA)>
+	<!ELEMENT article_description (#PCDATA)>
+	<!ELEMENT article_body (#PCDATA)>
+	<!ELEMENT datetime (#PCDATA)>
+	
+
+<!ELEMENT penalty (penalty_reason, user_ref, date)>
+	<!ATTLIST penalty penalty_id ID #REQUIRED>
+	<!ELEMENT penalty_reason (#PCDATA)>

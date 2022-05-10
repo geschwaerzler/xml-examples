@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT bow-tournament (division+, discipline+, parcour+, player+, group*)>
+
+<!ELEMENT division (#PCDATA)>
+<!ATTLIST division id ID #REQUIRED>
+
+<!ELEMENT discipline (#PCDATA)>
+<!ATTLIST discipline id ID #REQUIRED>
+
+<!ELEMENT player (firstname, lastname)>
+<!ATTLIST player id ID #REQUIRED>
+
+<!ELEMENT firstname (#PCDATA)>
+<!ELEMENT lastname (#PCDATA)>
+<!ELEMENT player-id (#PCDATA)>
+
+<!ELEMENT group (member*)>
+<!ATTLIST group
+	name CDATA #REQUIRED
+	division-id IDREF #REQUIRED
+	discipline-id IDREF #REQUIRED
+	parcour-id IDREF #REQUIRED
+>
+
+<!ELEMENT member (scorecard+)>
+<!ATTLIST member player-id IDREF #REQUIRED>
+
+<!ELEMENT scorecard (score*)>
+
+<!ELEMENT score (arrow+)>
+<!ATTLIST score target-id IDREF #REQUIRED>
+
+<!ELEMENT arrow (#PCDATA)>
+<!ATTLIST arrow arrow-no CDATA #REQUIRED>
+
+<!ELEMENT parcour (target+)>
+<!ATTLIST parcour
+	id ID #REQUIRED
+	name CDATA #REQUIRED
+>
+
+<!ELEMENT target (#PCDATA)>
+<!ATTLIST target id ID #REQUIRED>

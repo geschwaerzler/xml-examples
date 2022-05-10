@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT archery_tournament (discipline*, division*, class*, athlete*, group*, target*, score*)>
+<!ATTLIST archery_tournament name CDATA #REQUIRED>
+
+<!ELEMENT discipline (#PCDATA)>
+<!ATTLIST discipline id ID #REQUIRED>
+
+<!ELEMENT division (#PCDATA)>
+<!ATTLIST division id ID #REQUIRED>
+
+<!ELEMENT class (#PCDATA)>
+<!ATTLIST class	id ID #REQUIRED>
+
+<!ELEMENT athlete (firstname, lastname, birthday, address, gender)>
+<!ELEMENT firstname (#PCDATA)>
+<!ELEMENT lastname (#PCDATA)>
+<!ELEMENT birthday (#PCDATA)>
+<!ELEMENT address (street, streetnr, zip, city)>
+<!ELEMENT street (#PCDATA)>
+<!ELEMENT streetnr (#PCDATA)>
+<!ELEMENT zip (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT gender (#PCDATA)>
+<!ATTLIST athlete id ID #REQUIRED>
+
+<!ELEMENT group (member*)>
+<!ATTLIST group 
+	name ID #REQUIRED
+	discipline-id IDREF #REQUIRED
+	division-id IDREF #REQUIRED
+	class-id IDREF #REQUIRED
+>
+
+<!ELEMENT member EMPTY>
+<!ATTLIST member athlete-id IDREF #REQUIRED>
+
+<!ELEMENT target (type, distance)>
+<!ELEMENT type (#PCDATA)>
+<!ELEMENT distance (#PCDATA)>
+<!ATTLIST target 
+	id ID #REQUIRED
+	division-id IDREF #REQUIRED
+>
+
+<!ELEMENT score (first, second, third)>
+<!ELEMENT first (#PCDATA)>
+<!ELEMENT second (#PCDATA)>
+<!ELEMENT third (#PCDATA)>
+<!ATTLIST score
+	athlete-id IDREF #REQUIRED
+	group-name IDREF #REQUIRED
+	target-id IDREF #REQUIRED
+>

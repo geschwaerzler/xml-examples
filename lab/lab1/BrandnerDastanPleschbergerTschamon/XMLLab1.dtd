@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT archery_tournament (description, discipline*, division*, employee*, area_of_responsibility*, registration*, group*, match*)>
+<!ATTLIST archery_tournament
+	id ID #REQUIRED
+	name CDATA #REQUIRED>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT discipline (#PCDATA)>
+<!ATTLIST discipline
+	id ID #REQUIRED> 
+<!ELEMENT division (#PCDATA)>
+<!ATTLIST division
+	id ID #REQUIRED>
+<!ELEMENT employee (lastname, firstname)>
+<!ATTLIST employee
+	id ID #REQUIRED>
+<!ELEMENT lastname (#PCDATA)>
+<!ELEMENT firstname (#PCDATA)>
+<!ELEMENT area_of_responsibility (description*)>
+<!ATTLIST area_of_responsibility
+	id ID #REQUIRED
+	employee1-id IDREF #REQUIRED
+	employee2-id IDREF #IMPLIED>
+<!ELEMENT registration (participant)>
+<!ATTLIST registration
+	id ID #REQUIRED>
+<!ELEMENT participant (age, lastname, firstname, street_name, house_nr, postal_code, state)>
+<!ATTLIST participant
+	id ID #REQUIRED>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT street_name (#PCDATA)>
+<!ELEMENT house_nr (#PCDATA)>
+<!ELEMENT postal_code (#PCDATA)>
+<!ELEMENT state (#PCDATA)>
+
+<!ELEMENT group (subgroup*)>
+<!ATTLIST group
+	id ID #REQUIRED>
+	
+<!ELEMENT subgroup (member*)>
+<!ATTLIST subgroup
+	sub-id ID #REQUIRED>
+	
+<!ELEMENT member (#PCDATA)>
+<!ATTLIST member
+	participant-id IDREF #REQUIRED>
+	
+<!ELEMENT match (target*)>
+<!ATTLIST match
+	match-id ID #REQUIRED>
+
+<!ELEMENT target (score*)>
+<!ATTLIST target
+	target-id ID #REQUIRED>
+
+<!ELEMENT score (#PCDATA)>
+<!ATTLIST score
+	participant-id IDREF #REQUIRED>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT tournament (description, discipline*, division*, athlete*, group*)>
+
+
+<!ELEMENT description (#PCDATA)>
+
+<!ELEMENT discipline (#PCDATA)>
+<!ATTLIST discipline id ID 			#REQUIRED>
+
+<!ELEMENT division (#PCDATA)>
+<!ATTLIST division id ID #REQUIRED >
+
+<!ELEMENT group (athlete*, round*)>
+<!ATTLIST group
+			name 			CDATA   #REQUIRED>
+			
+<!ELEMENT athlete EMPTY>
+<!ATTLIST athlete
+			id			ID	    #REQUIRED
+			firstname	CDATA 	#REQUIRED
+			lastname	CDATA	#REQUIRED
+			country		CDATA 	#IMPLIED
+		>
+		
+<!ELEMENT round (score-card*)>
+<!ATTLIST round
+			nr			CDATA   #REQUIRED
+			date		CDATA 	#REQUIRED
+		>
+		
+<!ELEMENT score-card (target*)>
+<!ATTLIST score-card
+			athlete-id	IDREF   #REQUIRED
+		>
+		
+<!ELEMENT target (score*)>
+<!ATTLIST target
+			nr			CDATA   #REQUIRED
+		>
+		
+<!ELEMENT score EMPTY>
+<!ATTLIST score
+			arrow-nr	CDATA   #REQUIRED
+			points		CDATA	#REQUIRED
+		>

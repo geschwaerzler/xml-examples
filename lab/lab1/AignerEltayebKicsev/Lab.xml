@@ -1,0 +1,313 @@
+<!DOCTYPE tournament SYSTEM "Lab1.dtd">
+
+<tournament name = "Archery 2020">
+	<division id = "D3">Beginner</division>
+	<division id = "D2">Amateur</division>
+	<division id = "D1">Professional</division>
+
+	<discipline id = "F1">Outdoor</discipline>)
+	<discipline id = "F2">Indoor</discipline>
+	<discipline id = "F3">Run Archery</discipline>
+	
+	<group name = "Group 1" division-id = "D2" discipline-id = "F1">
+		<archer id = "a1">
+			<firstname>Gusti</firstname> 
+			<lastname>Gerhalter</lastname>
+		</archer>
+		<archer id = "a2">
+			<firstname>Adam</firstname>
+			<lastname>Amann</lastname>
+		</archer>
+		<archer id = "a3">
+			<firstname>Elisabeth</firstname>
+			<lastname>Emmerich</lastname>
+		</archer>
+		<archer id = "a4">
+			<firstname>Daniel</firstname>
+			<lastname>Doppelmayr</lastname>
+		</archer>
+		
+		<day nr = "1">
+			<scores archer-id = "a1">
+				<target-scores target = "1">
+					<arrow1-score>5</arrow1-score>
+              		<arrow2-score>6</arrow2-score>
+              		<arrow3-score>2</arrow3-score>
+              		<arrow4-score>3</arrow4-score>
+              	</target-scores> 
+              	<target-scores target = "2">
+              		<arrow1-score>4</arrow1-score>
+              		<arrow2-score>6</arrow2-score>
+              		<arrow3-score>1</arrow3-score>
+              		<arrow4-score>3</arrow4-score>
+              	</target-scores>
+              	<target-scores target = "3">
+					<arrow1-score>8</arrow1-score>
+              		<arrow2-score>6</arrow2-score>
+              		<arrow3-score>2</arrow3-score>
+              		<arrow4-score>9</arrow4-score>
+              	</target-scores> 
+              	<target-scores target = "4">
+              		<arrow1-score>1</arrow1-score>
+              		<arrow2-score>6</arrow2-score>
+              		<arrow3-score>9</arrow3-score>
+              		<arrow4-score>3</arrow4-score>
+              	</target-scores>
+              	<target-scores target = "5">
+              		<arrow1-score>5</arrow1-score>
+              		<arrow2-score>9</arrow2-score>
+              		<arrow3-score>2</arrow3-score>
+              		<arrow4-score>7</arrow4-score>
+              	</target-scores>   
+			</scores>
+			<scores archer-id = "a2">
+				<target-scores target = "1">
+					<arrow1-score>5</arrow1-score>
+              		<arrow2-score>9</arrow2-score>
+              		<arrow3-score>2</arrow3-score>
+              		<arrow4-score>3</arrow4-score>
+              	</target-scores> 
+              	<target-scores target = "2">
+              		<arrow1-score>3</arrow1-score>
+              		<arrow2-score>6</arrow2-score>
+              		<arrow3-score>9</arrow3-score>
+              		<arrow4-score>3</arrow4-score>
+              	</target-scores>
+              	<target-scores target = "3">
+					<arrow1 point="7"/>
+              		<arrow2 point="6"/>
+              		<arrow3 point="5"/>
+              		<arrow4 point="2"/>
+              	</target-scores> 
+              	<target-scores target = "4">
+              		<arrow1-score>1</arrow1-score>
+              		<arrow2-score>6</arrow2-score>
+              		<arrow3-score>9</arrow3-score>
+              		<arrow4-score>3</arrow4-score>
+              	</target-scores>
+              	<target-scores target = "5">
+              		<arrow1-score>5</arrow1-score>
+              		<arrow2-score>7</arrow2-score>
+              		<arrow3-score>2</arrow3-score>
+              		<arrow4-score>4</arrow4-score>
+              	</target-scores>   
+			</scores>
+			<scores archer-id = "a3">
+				<target-scores target = "1">
+					<arrow1-score>5</arrow1-score>
+              		<arrow2-score>6</arrow2-score>
+              		<arrow3-score>9</arrow3-score>
+              		<arrow4-score>3</arrow4-score>
+              	</target-scores> 
+              	<target-scores target = "2">
+              		<arrow1-score>3</arrow1-score>
+              		<arrow2-score>6</arrow2-score>
+              		<arrow3-score>7</arrow3-score>
+              		<arrow4-score>3</arrow4-score>
+              	</target-scores>
+              	<target-scores target = "3">
+					<arrow1-score>5</arrow1-score>
+              		<arrow2-score>8</arrow2-score>
+              		<arrow3-score>2</arrow3-score>
+              		<arrow4-score>1</arrow4-score>
+              	</target-scores> 
+              	<target-scores target = "4">
+              		<arrow1-score>5</arrow1-score>
+              		<arrow2-score>6</arrow2-score>
+              		<arrow3-score>9</arrow3-score>
+              		<arrow4-score>3</arrow4-score>
+              	</target-scores>
+              	<target-scores target = "5">
+              		<arrow1-score>5</arrow1-score>
+              		<arrow2-score>6</arrow2-score>
+              		<arrow3-score>4</arrow3-score>
+              		<arrow4-score>9</arrow4-score>
+              	</target-scores>   
+			</scores>
+			<scores archer-id = "a4">
+				<target-scores target = "1">
+					<arrow1-score>5</arrow1-score>
+              		<arrow2-score>8</arrow2-score>
+              		<arrow3-score>9</arrow3-score>
+              		<arrow4-score>3</arrow4-score>
+              	</target-scores> 
+              	<target-scores target = "2">
+              		<arrow1-score>5</arrow1-score>
+              		<arrow2-score>6</arrow2-score>
+              		<arrow3-score>7</arrow3-score>
+              		<arrow4-score>9</arrow4-score>
+              	</target-scores>
+              	<target-scores target = "3">
+					<arrow1-score>5</arrow1-score>
+              		<arrow2-score>8</arrow2-score>
+              		<arrow3-score>2</arrow3-score>
+              		<arrow4-score>9</arrow4-score>
+              	</target-scores> 
+              	<target-scores target = "4">
+              		<arrow1-score>5</arrow1-score>
+              		<arrow2-score>4</arrow2-score>
+              		<arrow3-score>9</arrow3-score>
+              		<arrow4-score>3</arrow4-score>
+              	</target-scores>
+              	<target-scores target = "5">
+              		<arrow1-score>3</arrow1-score>
+              		<arrow2-score>6</arrow2-score>
+              		<arrow3-score>8</arrow3-score>
+              		<arrow4-score>3</arrow4-score>
+              	</target-scores>   
+			</scores>
+		</day>
+	</group>
+		
+		
+	
+	<group name = "Group 2" division-id = "D3" discipline-id = "F1">
+		<archer id = "a5">
+			<firstname>Berta</firstname>
+			<lastname>Berstsch</lastname>
+		</archer>
+		<archer id = "a6">
+			<firstname>Frida</firstname>
+			<lastname>Fröhlich</lastname>
+		</archer>
+		<archer id = "a7">
+			<firstname>Hermine</firstname>
+			<lastname>Hubert</lastname>
+		</archer>
+		<archer id = "a8">
+			<firstname>Christof</firstname>
+			<lastname>Coen</lastname>
+		</archer>
+		<day nr = "1" date = "03.05.2020">
+			<scores archer-id = "a5">
+				<target-scores target = "1">
+					<arrow1-score>2</arrow1-score>
+              		<arrow2-score>4</arrow2-score>
+              		<arrow3-score>2</arrow3-score>
+              		<arrow4-score>8</arrow4-score>>
+              	</target-scores> 
+              	<target-scores target = "2">
+              		<arrow1-score>1</arrow1-score>
+              		<arrow2-score>1</arrow2-score>
+              		<arrow3-score>4</arrow3-score>
+              		<arrow4-score>5</arrow4-score>
+              	</target-scores>
+              	<target-scores target = "3">
+					<arrow1-score>7</arrow1-score>
+              		<arrow2-score>3</arrow2-score>
+              		<arrow3-score>6</arrow3-score>
+              		<arrow4-score>3</arrow4-score>
+              	</target-scores> 
+              	<target-scores target = "4">
+              		<arrow1-score>4</arrow1-score>
+              		<arrow2-score>6</arrow2-score>
+              		<arrow3-score>3</arrow3-score>
+              		<arrow4-score>5</arrow4-score>
+              	</target-scores>
+              	<target-scores target = "5">
+              		<arrow1-score>5</arrow1-score>
+              		<arrow2-score>5</arrow2-score>
+              		<arrow3-score>3</arrow3-score>
+              		<arrow4-score>1</arrow4-score>
+              	</target-scores>   
+			</scores>
+			<scores archer-id = "a6">
+				<target-scores target = "1">
+					<arrow1-score>4</arrow1-score>
+              		<arrow2-score>4</arrow2-score>
+              		<arrow3-score>5</arrow3-score>
+              		<arrow4-score>3</arrow4-score>
+              	</target-scores> 
+              	<target-scores target = "2">
+              		<arrow1-score>5</arrow1-score>
+              		<arrow2-score>3</arrow2-score>
+              		<arrow3-score>5</arrow3-score>
+              		<arrow4-score>5</arrow4-score>
+              	</target-scores>
+              	<target-scores target = "3">
+					<arrow1-score>2</arrow1-score>
+              		<arrow2-score>1</arrow2-score>
+              		<arrow3-score>1</arrow3-score>
+              		<arrow4-score>5</arrow4-score>
+              	</target-scores> 
+              	<target-scores target = "4">
+              		<arrow1-score>4</arrow1-score>
+              		<arrow2-score>6</arrow2-score>
+              		<arrow3-score>3</arrow3-score>
+              		<arrow4-score>2</arrow4-score>
+              	</target-scores>
+              	<target-scores target = "5">
+              		<arrow1-score>5</arrow1-score>
+              		<arrow2-score>1</arrow2-score>
+              		<arrow3-score>1</arrow3-score>
+              		<arrow4-score>3</arrow4-score>
+              	</target-scores>   
+			</scores>
+			<scores archer-id = "a7">
+				<target-scores target = "1">
+					<arrow1-score>5</arrow1-score>
+              		<arrow2-score>3</arrow2-score>
+              		<arrow3-score>6</arrow3-score>
+              		<arrow4-score>5</arrow4-score>>
+              	</target-scores> 
+              	<target-scores target = "2">
+              		<arrow1-score>1</arrow1-score>
+              		<arrow2-score>1</arrow2-score>
+              		<arrow3-score>4</arrow3-score>
+              		<arrow4-score>1</arrow4-score>
+              	</target-scores>
+              	<target-scores target = "3">
+					<arrow1-score>3</arrow1-score>
+              		<arrow2-score>5</arrow2-score>
+              		<arrow3-score>3</arrow3-score>
+              		<arrow4-score>2</arrow4-score>
+              	</target-scores> 
+              	<target-scores target = "4">
+              		<arrow1-score>5</arrow1-score>
+              		<arrow2-score>5</arrow2-score>
+              		<arrow3-score>5</arrow3-score>
+              		<arrow4-score>6</arrow4-score>
+              	</target-scores>
+              	<target-scores target = "5">
+              		<arrow1-score>4</arrow1-score>
+              		<arrow2-score>3</arrow2-score>
+              		<arrow3-score>3</arrow3-score>
+              		<arrow4-score>3</arrow4-score>
+              	</target-scores>   
+			</scores>
+			<scores archer-id = "a8">
+				<target-scores target = "1">
+					<arrow1-score>2</arrow1-score>
+              		<arrow2-score>1</arrow2-score>
+              		<arrow3-score>1</arrow3-score>
+              		<arrow4-score>5</arrow4-score>
+              	</target-scores> 
+              	<target-scores target = "2">
+              		<arrow1-score>4</arrow1-score>
+              		<arrow2-score>3</arrow2-score>
+              		<arrow3-score>3</arrow3-score>
+              		<arrow4-score>2</arrow4-score>
+              	</target-scores>
+              	<target-scores target = "3">
+					<arrow1-score>1</arrow1-score>
+              		<arrow2-score>2</arrow2-score>
+              		<arrow3-score>1</arrow3-score>
+              		<arrow4-score>3</arrow4-score>
+              	</target-scores> 
+              	<target-scores target = "4">
+              		<arrow1-score>4</arrow1-score>
+              		<arrow2-score>2</arrow2-score>
+              		<arrow3-score>2</arrow3-score>
+              		<arrow4-score>1</arrow4-score>
+              	<target-scores target = "5">
+              		<arrow1-score>5</arrow1-score>
+              		<arrow2-score>5</arrow2-score>
+              		<arrow3-score>5</arrow3-score>
+              		<arrow4-score>3</arrow4-score>
+              	</target-scores>   
+			</scores>
+		</day>
+		
+	</group>
+
+</tournament>
