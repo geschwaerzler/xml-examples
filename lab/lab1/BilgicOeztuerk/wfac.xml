@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE tournament SYSTEM "wfac.dtd">
+<!DOCTYPE tournament SYSTEM "wfacProjekt.dtd">
 
-<tournament>
-
-	<description>WFAC 2022</description>
+<tournament name ="World Outdoor Flint Archery Mail Match 2022">
 
 	<discipline id="D1">Outdoor Archery</discipline>
 	<discipline id="D2">Indoor Archery</discipline>
@@ -15,26 +13,29 @@
 	<division id="d2">Conventional Flight Bow</division>
 	<division id="d3">American Longbow</division>
 	<division id="d4">English Longbow</division>
-	<division id="d1">Compound Flight Bow</division>
-	<division id="d1">Foot Bow</division>
+	<division id="d5">Compound Flight Bow</division>
+	<division id="d6">Foot Bow</division>
 	
 	
 	<group name="Conventional Outdoor" discipline-id="D1" division-id="d2">
 
 		<athlete id="a1" firstname="Gusti" lastname="Gerhalter"
 			country="Deutschland" />
+			
 		<athlete id="a2" firstname="Adam" lastname="Amman"
 			country="England" />
+			
 		<athlete id="a3" firstname="Elisabeth" lastname="Emmerich"
 			country="Finnland" />
+			
 		<athlete id="a4" firstname="Daniel" lastname="Doppelmayr"
-			country="Oesterreich" />
+			country="Oesterreich"></athlete>
 
 		<round nr="1" date="2022-12-19">
 			<score-card athlete-id="a1">
 				<target nr="1">
-					<score arrow-nr="2"points="4" />
-					<score arrow-nr="3"points="9" />
+					<score arrow-nr="2" points="4" />
+					<score arrow-nr="3" points="9" />
 				</target>
 
 				<target nr="2">
@@ -532,11 +533,11 @@
 
 
 		<athlete id="a5" firstname="Berta" lastname="Betsch"
-			country="Deutschland"
-		<athlete id="a6" firstname="Frida" lastname="Fr�hlich"
-			country="Schweden"
+			country="Deutschland"/>
+		<athlete id="a6" firstname="Frida" lastname="Fröhlich"
+			country="Schweden"/>
 		<athlete id="a7" firstname="Hermine" lastname="Huber"
-			country="Norwegen"
+			country="Norwegen"/>
 		<athlete id="a8" firstname="Christof" lastname="Coen"
 			country="USA" />
 

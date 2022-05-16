@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!ELEMENT bow-tournament (division, discipline, archer, target, group)>
+<!ELEMENT bow-tournament (division*, discipline*, archer*, target*, group*)>
 
 <!ELEMENT division (#PCDATA)>
 <!ATTLIST division id ID #REQUIRED>
@@ -16,17 +16,17 @@
 <!ELEMENT lastname (#PCDATA)>
 <!ELEMENT birthday (#PCDATA)>
 
-<!ELEMENT group (member)>
+<!ELEMENT group (member*)>
 <!ATTLIST group
     name CDATA #REQUIRED
     division-id IDREF #REQUIRED
     discipline-id IDREF #REQUIRED
 >
 
-<!ELEMENT member (score)>
+<!ELEMENT member (score*)>
 <!ATTLIST member archer-id IDREF #REQUIRED>
 
-<!ELEMENT score (arrow)>
+<!ELEMENT score (arrow*)>
 <!ATTLIST score target-id IDREF #REQUIRED>
 
 <!ELEMENT arrow EMPTY>
