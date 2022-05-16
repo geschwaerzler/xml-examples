@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE archery-tournament SYSTEM  "archery-tournament.dtd">
+<archery-tournament name="Voralberger Archery Landesmeisterschaften 2022">
+
+
+	<discipline id="D1"> Outdoor Archery </discipline>
+	<discipline id="D2"> Indoor Archery </discipline>
+	<discipline id="D3"> Field Archery </discipline>
+	<discipline id="D4"> Para Archery </discipline>
+	<discipline id="D5"> Run Archery </discipline>
+	
+	<!-- this is a comment! -->
+	<division id="d1"> Target Recurve Bow <!-- another comment --> </division>
+	<division id="d2"> Conventional Flight Bow </division>
+	<division id="d3"> American Longbow </division>
+	<division id="d4"> English Longbow </division>
+	<division id="d5"> Compound Flight Bow </division>
+	<division id="d6"> Foot Bow </division>
+	
+	<athlete id="a0">
+	
+		<firstname> Julius</firstname>
+		<lastname> Klein </lastname>
+		<scorecard name="Card1" tournament-id="t1">
+			<age class-id="senior"/>
+			<style division-id="d2"/>
+			<round discipline-id="D3"/>
+			<running_score>248</running_score>	
+			<total_score name="500">
+				<target_score score="25" target-id="T1">
+					<score_per_arrow name="arrow1">x</score_per_arrow>
+					<score_per_arrow name="arrow2">8</score_per_arrow>
+					<score_per_arrow name="arrow3">10</score_per_arrow>
+				</target_score>
+				<target_score score="25" target-id="T2">
+					<score_per_arrow name="arrow1">9</score_per_arrow>
+					<score_per_arrow name="arrow2">7</score_per_arrow>
+					<score_per_arrow name="arrow3">9</score_per_arrow>
+					
+				</target_score>
+				<target_score score="29" target-id="T3">
+					<score_per_arrow name="arrow1">9</score_per_arrow>
+					<score_per_arrow name="arrow2">10</score_per_arrow>
+					<score_per_arrow name="arrow3">10</score_per_arrow>
+				</target_score>
+			</total_score>
+		</scorecard>
+	
+	</athlete>
+	
+	<athlete id="a1">
+	
+		<firstname> Lukas</firstname>
+		<lastname> Amann </lastname>
+		<scorecard name="Card2" tournament-id="t1">
+			<age class-id="senior"/>
+			<style division-id="d2"/>
+			<round discipline-id="D3"/>
+			<running_score>250</running_score>
+			<total_score name="500">
+				<target_score score="25" target-id="T1">
+					<score_per_arrow name="arrow1">1</score_per_arrow>
+					<score_per_arrow name="arrow2">1</score_per_arrow>
+					<score_per_arrow name="arrow3">2</score_per_arrow>
+				</target_score>
+				<target_score score="25" target-id="T2">
+					<score_per_arrow name="arrow1">2</score_per_arrow>
+					<score_per_arrow name="arrow2">2</score_per_arrow>
+					<score_per_arrow name="arrow3">3</score_per_arrow>
+					
+				</target_score>
+				<target_score score="29" target-id="T3">
+					<score_per_arrow name="arrow1">3</score_per_arrow>
+					<score_per_arrow name="arrow2">0</score_per_arrow>
+					<score_per_arrow name="arrow3">4</score_per_arrow>
+				</target_score>
+			</total_score>
+		</scorecard>
+	
+	</athlete>
+	
+	<athlete id="a2">
+	
+		<firstname> Klaus</firstname>
+		<lastname> Bentel </lastname>	
+		<scorecard name="Card3" tournament-id="t1">
+			<age class-id="young_adult"/>
+			<style division-id="d2"/>
+			<round discipline-id="D3"/>
+			<running_score>251</running_score>
+			<total_score name="500">
+				<target_score score="25" target-id="T1">
+					<score_per_arrow name="arrow1">5</score_per_arrow>
+					<score_per_arrow name="arrow2">5</score_per_arrow>
+					<score_per_arrow name="arrow3">6</score_per_arrow>
+				</target_score>
+				<target_score score="25" target-id="T2">
+					<score_per_arrow name="arrow1">4</score_per_arrow>
+					<score_per_arrow name="arrow2">5</score_per_arrow>
+					<score_per_arrow name="arrow3">6</score_per_arrow>
+					
+				</target_score>
+				<target_score score="29" target-id="T3">
+					<score_per_arrow name="arrow1">5</score_per_arrow>
+					<score_per_arrow name="arrow2">4</score_per_arrow>
+					<score_per_arrow name="arrow3">6</score_per_arrow>
+				</target_score>
+			</total_score>
+		</scorecard>
+	
+	</athlete>
+	
+	<athlete id="a3">
+	
+		<firstname> Romane</firstname>
+		<lastname> Klein </lastname>
+		<scorecard name="Card1" tournament-id="t1">
+			<age class-id="cub"/>
+			<style division-id="d2"/>
+			<round discipline-id="D3"/>
+			<running_score>249</running_score>
+			<total_score name="500">
+				<target_score score="25" target-id="T1">
+					<score_per_arrow name="arrow1">8</score_per_arrow>
+					<score_per_arrow name="arrow2">8</score_per_arrow>
+					<score_per_arrow name="arrow3">8</score_per_arrow>
+				</target_score>
+				<target_score score="25" target-id="T2">
+					<score_per_arrow name="arrow1">9</score_per_arrow>
+					<score_per_arrow name="arrow2">6</score_per_arrow>
+					<score_per_arrow name="arrow3">6</score_per_arrow>
+					
+				</target_score>
+				<target_score score="29" target-id="T3">
+					<score_per_arrow name="arrow1">3</score_per_arrow>
+					<score_per_arrow name="arrow2">8</score_per_arrow>
+					<score_per_arrow name="arrow3">7</score_per_arrow>
+				</target_score>
+			</total_score>
+		</scorecard>
+	
+	</athlete>
+	
+	<athlete id="a4">
+	
+		<firstname> Hanna </firstname>
+		<lastname> Gross </lastname>
+		<scorecard name="Card1" tournament-id="t1">
+		<age class-id="veteran"/>
+			<style division-id="d2"/>
+			<round discipline-id="D3"/>
+			<running_score>240</running_score>
+			<total_score name="500">
+				<target_score score="25" target-id="T1">
+					<score_per_arrow name="arrow1">9</score_per_arrow>
+					<score_per_arrow name="arrow2">8</score_per_arrow>
+					<score_per_arrow name="arrow3">10</score_per_arrow>
+				</target_score>
+				<target_score score="25" target-id="T2">
+					<score_per_arrow name="arrow1">9</score_per_arrow>
+					<score_per_arrow name="arrow2">7</score_per_arrow>
+					<score_per_arrow name="arrow3">9</score_per_arrow>
+					
+				</target_score>
+				<target_score score="29" target-id="T3">
+					<score_per_arrow name="arrow1">9</score_per_arrow>
+					<score_per_arrow name="arrow2">10</score_per_arrow>
+					<score_per_arrow name="arrow3">10</score_per_arrow>
+				</target_score>
+			</total_score>
+		</scorecard>
+		
+		<scorecard name="Card1" tournament-id="t1">
+			<age class-id="veteran"/>
+			<style division-id="d2"/>
+			<round discipline-id="D3"/>
+			<running_score>200</running_score>
+			<total_score name="500">
+				<target_score score="25" target-id="T1">
+					<score_per_arrow name="arrow1">9</score_per_arrow>
+					<score_per_arrow name="arrow2">8</score_per_arrow>
+					<score_per_arrow name="arrow3">10</score_per_arrow>
+				</target_score>
+				<target_score score="25" target-id="T2">
+					<score_per_arrow name="arrow1">9</score_per_arrow>
+					<score_per_arrow name="arrow2">7</score_per_arrow>
+					<score_per_arrow name="arrow3">9</score_per_arrow>
+					
+				</target_score>
+				<target_score score="29" target-id="T3">
+					<score_per_arrow name="arrow1">9</score_per_arrow>
+					<score_per_arrow name="arrow2">10</score_per_arrow>
+					<score_per_arrow name="arrow3">10</score_per_arrow>
+				</target_score>
+			</total_score>
+		</scorecard>
+	
+	</athlete>
+	
+	<athlete id="a5">
+	
+		<firstname> Jan</firstname>
+		<lastname> Keiner </lastname>
+		<scorecard name="Card1" tournament-id="t1">
+			<age class-id="adult"/>
+			<style division-id="d2"/>
+			<round discipline-id="D3"/>
+			<running_score>250</running_score>
+			<total_score name="500">
+				<target_score score="25" target-id="T1">
+					<score_per_arrow name="arrow1">9</score_per_arrow>
+					<score_per_arrow name="arrow2">8</score_per_arrow>
+					<score_per_arrow name="arrow3">10</score_per_arrow>
+				</target_score>
+				<target_score score="25" target-id="T2">
+					<score_per_arrow name="arrow1">9</score_per_arrow>
+					<score_per_arrow name="arrow2">7</score_per_arrow>
+					<score_per_arrow name="arrow3">9</score_per_arrow>
+					
+				</target_score>
+				<target_score score="29" target-id="T3">
+					<score_per_arrow name="arrow1">9</score_per_arrow>
+					<score_per_arrow name="arrow2">10</score_per_arrow>
+					<score_per_arrow name="arrow3">10</score_per_arrow>
+				</target_score>
+			</total_score>
+		</scorecard>
+		
+		<scorecard name="Card1" tournament-id="t1">
+			<age class-id="adult"/>
+			<style division-id="d2"/>
+			<round discipline-id="D3"/>
+			<running_score>200</running_score>
+			<total_score name="500">
+				<target_score score="25" target-id="T1">
+					<score_per_arrow name="arrow1">9</score_per_arrow>
+					<score_per_arrow name="arrow2">8</score_per_arrow>
+					<score_per_arrow name="arrow3">10</score_per_arrow>
+				</target_score>
+				<target_score score="25" target-id="T2">
+					<score_per_arrow name="arrow1">9</score_per_arrow>
+					<score_per_arrow name="arrow2">7</score_per_arrow>
+					<score_per_arrow name="arrow3">9</score_per_arrow>
+					
+				</target_score>
+				<target_score score="29" target-id="T3">
+					<score_per_arrow name="arrow1">9</score_per_arrow>
+					<score_per_arrow name="arrow2">10</score_per_arrow>
+					<score_per_arrow name="arrow3">10</score_per_arrow>
+				</target_score>
+			</total_score>
+		</scorecard>
+	
+	</athlete>
+	
+	<athlete id="a6">
+	
+		<firstname> Vinzent </firstname>
+		<lastname> Lucifer </lastname>
+		<scorecard name="Card1" tournament-id="t1">
+			<age class-id="junior"/>
+			<style division-id="d2"/>
+			<round discipline-id="D3"/>
+			<running_score>200</running_score>
+			<total_score name="500">
+				<target_score score="25" target-id="T1">
+					<score_per_arrow name="arrow1">9</score_per_arrow>
+					<score_per_arrow name="arrow2">8</score_per_arrow>
+					<score_per_arrow name="arrow3">10</score_per_arrow>
+				</target_score>
+				<target_score score="25" target-id="T2">
+					<score_per_arrow name="arrow1">9</score_per_arrow>
+					<score_per_arrow name="arrow2">7</score_per_arrow>
+					<score_per_arrow name="arrow3">9</score_per_arrow>
+					
+				</target_score>
+				<target_score score="29" target-id="T3">
+					<score_per_arrow name="arrow1">9</score_per_arrow>
+					<score_per_arrow name="arrow2">10</score_per_arrow>
+					<score_per_arrow name="arrow3">10</score_per_arrow>
+				</target_score>
+			</total_score>
+		</scorecard>
+		
+		<scorecard name="Card1" tournament-id="t1">
+			<age class-id="junior"/>
+			<style division-id="d2"/>
+			<round discipline-id="D3"/>
+			<running_score>200</running_score>
+			<total_score name="500">
+				<target_score score="25" target-id="T1">
+					<score_per_arrow name="arrow1">9</score_per_arrow>
+					<score_per_arrow name="arrow2">8</score_per_arrow>
+					<score_per_arrow name="arrow3">10</score_per_arrow>
+				</target_score>
+				<target_score score="25" target-id="T2">
+					<score_per_arrow name="arrow1">9</score_per_arrow>
+					<score_per_arrow name="arrow2">7</score_per_arrow>
+					<score_per_arrow name="arrow3">9</score_per_arrow>
+					
+				</target_score>
+				<target_score score="29" target-id="T3">
+					<score_per_arrow name="arrow1">9</score_per_arrow>
+					<score_per_arrow name="arrow2">10</score_per_arrow>
+					<score_per_arrow name="arrow3">10</score_per_arrow>
+				</target_score>
+			</total_score>
+		</scorecard>
+	
+	</athlete>
+	
+	<group name="Group 1" discipline-id="D1" division-id="d2">
+	
+		<member athlete-id="a1"/>
+		<member athlete-id="a0"/>
+		<member athlete-id="a4"/>
+		
+	</group>
+	
+	<group name="Group 2" discipline-id="D1" division-id="d3">
+	
+		<member athlete-id="a1"/>
+		<member athlete-id="a2"/>
+		<member athlete-id="a6"/>
+	
+	</group>
+	
+	<group name="Group 3" discipline-id="D3" division-id="d5">
+	
+		<member athlete-id="a3"/>
+		<member athlete-id="a5"/>
+		<member athlete-id="a4"/>
+	
+	</group>
+	
+	<group name="Group 4" discipline-id="D5" division-id="d6">
+	
+		<member athlete-id="a3"/>
+		<member athlete-id="a5"/>
+		<member athlete-id="a6"/>
+	
+	</group>
+	
+	<tournament name="World Championships" id="t1">
+		<parcour name="Violett" id="p1">
+			<field name="Day1" id="f1">
+				<target name="target1" id="T1"/>  
+				<target name="target2" id="T2"/>
+				<target name="target3" id="T3"/> 
+				<target name="target4" id="T4"/> 
+				<target name="target5" id="T5"/> 
+				<target name="target6" id="T6"/> 
+				<target name="target7" id="T7"/> 
+				<target name="target8" id="T8"/> 
+				<target name="target9" id="T9"/> 
+				<target name="target10" id="T10"/> 
+				<target name="target11" id="T11"/> 
+				<target name="target12" id="T12"/> 
+				<target name="target13" id="T13"/> 
+				<target name="target14" id="T14"/>
+				<target name="target15" id="T15"/>
+				<target name="target16" id="T16"/>
+				<target name="target17" id="T17"/>
+				<target name="target18" id="T18"/>
+				<target name="target19" id="T19"/>
+				<target name="target20" id="T20"/>
+				<target name="target21" id="T21"/>
+				<target name="target22" id="T22"/>
+				<target name="target23" id="T23"/>
+				<target name="target24" id="T24"/>
+				<target name="target25" id="T25"/>
+				<target name="target26" id="T26"/>
+				<target name="target27" id="T27"/>
+				<target name="target28" id="T28"/>
+				
+			</field>
+		</parcour>
+	</tournament> 
+	
+	
+	
+	<tournament name="Olympic Archery Tournament" id="t2">
+		<parcour name="Orange" id="p2">
+			<field name="Day1" id="f2">  
+				<target name="target1" id="oat1"/>  
+				<target name="target2" id="oat2"/>
+				<target name="target3" id="oat3"/> 
+				<target name="target4" id="oat4"/> 
+				<target name="target5" id="oat5"/> 
+				<target name="target6" id="oat6"/> 
+				<target name="target7" id="oat7"/> 
+				<target name="target8" id="oat8"/> 
+				<target name="target9" id="oat9"/> 
+				<target name="target10" id="oat10"/> 
+				<target name="target11" id="oat11"/> 
+				<target name="target12" id="oat12"/> 
+				<target name="target13" id="oat13"/> 
+				<target name="target14" id="oat14"/>
+				<target name="target15" id="oat15"/>
+				<target name="target16" id="oat16"/>
+				<target name="target17" id="oat17"/>
+				<target name="target18" id="oat18"/>
+				<target name="target19" id="oat19"/>
+				<target name="target20" id="oat20"/>
+				<target name="target21" id="oat21"/>
+				<target name="target22" id="oat22"/>
+				<target name="target23" id="oat23"/>
+				<target name="target24" id="oat24"/>
+				<target name="target25" id="oat25"/>
+				<target name="target26" id="oat26"/>
+				<target name="target27" id="oat27"/>
+				<target name="target28" id="oat28"/>
+				
+			</field>
+	
+		</parcour>
+	</tournament>  
+	<tournament name="Paralympic Archery Tournament" id="t3">
+		<parcour name="Violett" id="p3">
+			<field name="Day1" id="f3">  
+				<target name="target1" id="pat1"/>  
+				<target name="target2" id="pat2"/>
+				<target name="target3" id="pat3"/> 
+				<target name="target4" id="pat4"/> 
+				<target name="target5" id="pat5"/> 
+				<target name="target6" id="pat6"/> 
+				<target name="target7" id="pat7"/> 
+				<target name="target8" id="pat8"/> 
+				<target name="target9" id="pat9"/> 
+				<target name="target10" id="pat10"/> 
+				<target name="target11" id="pat11"/> 
+				<target name="target12" id="pat12"/> 
+				<target name="target13" id="pat13"/> 
+				<target name="target14" id="pat14"/>
+				<target name="target15" id="pat15"/>
+				<target name="target16" id="pat16"/>
+				<target name="target17" id="pat17"/>
+				<target name="target18" id="pat18"/>
+				<target name="target19" id="pat19"/>
+				<target name="target20" id="pat20"/>
+				<target name="target21" id="pat21"/>
+				<target name="target22" id="pat22"/>
+				<target name="target23" id="pat23"/>
+				<target name="target24" id="pat24"/>
+				<target name="target25" id="pat25"/>
+				<target name="target26" id="pat26"/>
+				<target name="target27" id="pat27"/>
+				<target name="target28" id="pat28"/>
+				
+			</field>
+		</parcour>
+	</tournament>
+	<tournament name="World Ranking" id="t4">
+		<parcour name="Violett" id="p4">
+			<field name="Day1" id="f4">
+				<target name="target1" id="wr1"/>  
+				<target name="target2" id="wr2"/>
+				<target name="target3" id="wr3"/> 
+				<target name="target4" id="wr4"/> 
+				<target name="target5" id="wr5"/> 
+				<target name="target6" id="wr6"/> 
+				<target name="target7" id="wr7"/> 
+				<target name="target8" id="wr8"/> 
+				<target name="target9" id="wr9"/> 
+				<target name="target10" id="wr10"/> 
+				<target name="target11" id="wr11"/> 
+				<target name="target12" id="wr12"/> 
+				<target name="target13" id="wr13"/> 
+				<target name="target14" id="wr14"/>
+				<target name="target15" id="wr15"/>
+				<target name="target16" id="wr16"/>
+				<target name="target17" id="wr17"/>
+				<target name="target18" id="wr18"/>
+				<target name="target19" id="wr19"/>
+				<target name="target20" id="wr20"/>
+				<target name="target21" id="wr21"/>
+				<target name="target22" id="wr22"/>
+				<target name="target23" id="wr23"/>
+				<target name="target24" id="wr24"/>
+				<target name="target25" id="wr25"/>
+				<target name="target26" id="wr26"/>
+				<target name="target27" id="wr27"/>
+				<target name="target28" id="wr28"/>
+				
+			</field>
+		</parcour>
+	</tournament>
+	<tournament name=" Olympic and Paralympic qualification" id="t5">
+		<parcour name="Violett" id="p5">
+			<field name="Day1" id="f5">
+				<target name="target1" id="opq1"/>  
+				<target name="target2" id="opq2"/>
+				<target name="target3" id="opq3"/> 
+				<target name="target4" id="opq4"/> 
+				<target name="target5" id="opq5"/> 
+				<target name="target6" id="opq6"/> 
+				<target name="target7" id="opq7"/> 
+				<target name="target8" id="opq8"/> 
+				<target name="target9" id="opq9"/> 
+				<target name="target10" id="opq10"/> 
+				<target name="target11" id="opq11"/> 
+				<target name="target12" id="opq12"/> 
+				<target name="target13" id="opq13"/> 
+				<target name="target14" id="opq14"/>
+				<target name="target15" id="opq15"/>
+				<target name="target16" id="opq16"/>
+				<target name="target17" id="opq17"/>
+				<target name="target18" id="opq18"/>
+				<target name="target19" id="opq19"/>
+				<target name="target20" id="opq20"/>
+				<target name="target21" id="opq21"/>
+				<target name="target22" id="opq22"/>
+				<target name="target23" id="opq23"/>
+				<target name="target24" id="opq24"/>
+				<target name="target25" id="opq25"/>
+				<target name="target26" id="opq26"/>
+				<target name="target27" id="opq27"/>
+				<target name="target28" id="opq28"/>
+			</field>
+		</parcour>
+	</tournament>
+	
+	<size_of_face name="65cm" id="dis1"/>
+	<size_of_face name="50cm" id="dis2"/>
+	<size_of_face name="35cm" id="dis3"/>	
+	
+	<class id="senior">
+			
+			<distance_position name="59.45m" id="dipos10" size_of_face-id="dis1"/>
+			<distance_position name="54.85m" id="dipos11" size_of_face-id="dis1"/>
+			<distance_position name="50.30m" id="dipos12" size_of_face-id="dis1"/>
+			<distance_position name="45.70m" id="dipos13" size_of_face-id="dis2"/>
+			<distance_position name="41.15m" id="dipos14" size_of_face-id="dis2"/> 
+			<distance_position name="36.60m" id="dipos15" size_of_face-id="dis2"/> 
+			<distance_position name="32.00m" id="dipos16" size_of_face-id="dis2"/>
+			<distance_position name="27.45m" id="dipos17" size_of_face-id="dis3"/>
+			<distance_position name="22.85m" id="dipos18" size_of_face-id="dis3"/>
+			<distance_position name="18.30m" id="dipos19" size_of_face-id="dis3"/>
+
+	</class>
+	
+	<class id="veteran">
+		
+			<distance_position name="59.45m" id="dipos20" size_of_face-id="dis1"/>
+			<distance_position name="54.85m" id="dipos21" size_of_face-id="dis1"/>
+			<distance_position name="50.30m" id="dipos22" size_of_face-id="dis1"/>
+			<distance_position name="45.70m" id="dipos23" size_of_face-id="dis2"/>
+			<distance_position name="41.15m" id="dipos24" size_of_face-id="dis2"/> 
+			<distance_position name="36.60m" id="dipos25" size_of_face-id="dis2"/> 
+			<distance_position name="32.00m" id="dipos26" size_of_face-id="dis2"/>
+			<distance_position name="27.45m" id="dipos27" size_of_face-id="dis3"/>
+			<distance_position name="22.85m" id="dipos28" size_of_face-id="dis3"/>
+			<distance_position name="18.30m" id="dipos29" size_of_face-id="dis3"/>
+			
+	</class>
+			
+	<class id="adult">
+		
+			<distance_position name="59.45m" id="dipos30" size_of_face-id="dis1"/>
+			<distance_position name="54.85m" id="dipos31" size_of_face-id="dis1"/>
+			<distance_position name="50.30m" id="dipos32" size_of_face-id="dis1"/>
+			<distance_position name="45.70m" id="dipos33" size_of_face-id="dis2"/>
+			<distance_position name="41.15m" id="dipos34" size_of_face-id="dis2"/> 
+			<distance_position name="36.60m" id="dipos35" size_of_face-id="dis2"/> 
+			<distance_position name="32.00m" id="dipos36" size_of_face-id="dis2"/>
+			<distance_position name="27.45m" id="dipos37" size_of_face-id="dis3"/>
+			<distance_position name="22.85m" id="dipos38" size_of_face-id="dis3"/>
+			<distance_position name="18.30m" id="dipos39" size_of_face-id="dis3"/>
+			
+	</class>
+	<class id="young_adult">
+		
+			<distance_position name="59.45m" id="dipos40" size_of_face-id="dis1"/>
+			<distance_position name="54.85m" id="dipos41" size_of_face-id="dis1"/>
+			<distance_position name="50.30m" id="dipos42" size_of_face-id="dis1"/>
+			<distance_position name="45.70m" id="dipos43" size_of_face-id="dis2"/>
+			<distance_position name="41.15m" id="dipos44" size_of_face-id="dis2"/> 
+			<distance_position name="36.60m" id="dipos45" size_of_face-id="dis2"/> 
+			<distance_position name="32.00m" id="dipos46" size_of_face-id="dis2"/>
+			<distance_position name="27.45m" id="dipos47" size_of_face-id="dis3"/>
+			<distance_position name="22.85m" id="dipos48" size_of_face-id="dis3"/>
+			<distance_position name="18.30m" id="dipos49" size_of_face-id="dis3"/>
+		
+	</class>
+		
+	<class id="junior">
+		
+			<distance_position name="45.70m" id="dipos50" size_of_face-id="dis1"/> 
+			<distance_position name="41.15m" id="dipo51" size_of_face-id="dis1"/> 
+			<distance_position name="36.60m" id="dipos52" size_of_face-id="dis1"/>
+			<distance_position name="45.70m" id="dipos53" size_of_face-id="dis2"/> 
+			<distance_position name="41.15m" id="dipos54" size_of_face-id="dis2"/> 
+			<distance_position name="36.60m" id="dipos55" size_of_face-id="dis2"/> 
+			<distance_position name="32.00m" id="dipos56" size_of_face-id="dis2"/>
+			<distance_position name="27.45m" id="dipos57" size_of_face-id="dis3"/>
+			<distance_position name="22.85m" id="dipos58" size_of_face-id="dis3"/>
+			<distance_position name="18.30m" id="dipos59" size_of_face-id="dis3"/>
+		
+	</class>
+		
+	<class id="cub">
+		
+			<distance_position name="22.86m" id="dipos60" size_of_face-id="dis1"/> 
+			<distance_position name="18.30m" id="dipos61" size_of_face-id="dis1"/> 
+			<distance_position name="18.30m" id="dipos62" size_of_face-id="dis1"/> 
+			<distance_position name="18.30m" id="dipos63" size_of_face-id="dis2"/> 
+			<distance_position name="18.30m" id="dipos64" size_of_face-id="dis2"/> 
+			<distance_position name="13.70m" id="dipos65" size_of_face-id="dis2"/> 
+			<distance_position name="13.70m" id="dipos66" size_of_face-id="dis2"/> 
+			<distance_position name="9.15m" id="dipos67" size_of_face-id="dis3"/>
+			<distance_position name="9.15m" id="dipos68" size_of_face-id="dis3"/> 
+			<distance_position name="9.15m" id="dipos69" size_of_face-id="dis3"/> 
+			
+			
+	</class>
+	
+</archery-tournament>

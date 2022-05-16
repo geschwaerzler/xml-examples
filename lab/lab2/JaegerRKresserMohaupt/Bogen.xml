@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Bogen.xsl"?>
+<Bogenturnier>
+	<Schuetzenprofil>
+		<Schuetze> 
+			<schuetze_id>S1</schuetze_id>
+			<Schuetze_Vorname>Olaf</Schuetze_Vorname>
+			<Schuetze_Nachname>Scholz</Schuetze_Nachname>
+			<Schuetze_Alter>63</Schuetze_Alter>
+			<Nationalitaet>German</Nationalitaet>
+			<Klasse bogenklasse_id="B2">
+				<Skill division_id="D1"/>
+			</Klasse>
+			<Klasse bogenklasse_id="B4">
+				<Skill division_id="D2"/>
+			</Klasse>
+			<Gruppe id="g1"/>
+			<Gesamtpunkte> 360 </Gesamtpunkte>
+		</Schuetze> 
+	</Schuetzenprofil>
+
+	<Gruppen>
+		<Gruppe1 gruppen_id="G1">Gruppe A
+			<Gruppenklasse bogenklasse_id="B4"/>
+				<Gruppenskill division_id="D2"/>
+			<Gruppenklasse bogenklasse_id="B2"/>
+				<Gruppenskill division_id="D1"/>
+		</Gruppe1>
+		<Gruppe2 gruppen_id="G2">Gruppe B</Gruppe2>
+		<Gruppe3 gruppen_id="G3">Gruppe C</Gruppe3>
+	</Gruppen>
+	
+	<Bogenklasse bogenklasse_id="B1">Recurve Bow</Bogenklasse>
+	<Bogenklasse bogenklasse_id="B2">Compound Bow</Bogenklasse>
+	<Bogenklasse bogenklasse_id="B3">Jagdbogen</Bogenklasse>
+	<Bogenklasse bogenklasse_id="B4">Primitivbogen</Bogenklasse>
+
+	<ParkourOS> 
+		<target>
+			<target_id>T1</target_id>
+			<target_name>Wildsau 50m</target_name>
+			<punkte> 6 </punkte>
+		</target>
+		<target>
+			<target_id>T2</target_id>
+			<target_name>Hamster 10m</target_name>
+			<punkte> 6 </punkte>
+		</target>
+		
+	</ParkourOS>
+
+	<ParkourCL> 
+		<target>
+			<target_id>T1</target_id>
+			<target_name>Wildsau 50m</target_name>
+			<punkte> 6 </punkte>
+		</target>
+		<target>
+			<target_id>T2</target_id>
+			<target_name>Hamster 10m</target_name>
+			<punkte> 6 </punkte>
+		</target>
+		
+	</ParkourCL>
+
+	<Division division_id="D1">Amateur</Division>	
+	<Division division_id="D2">Professionell</Division>
+	
+	
+	
+</Bogenturnier>	

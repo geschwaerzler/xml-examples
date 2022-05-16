@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE turnier SYSTEM "bogenturnier.dtd"> 
+
+<turnier>
+
+	<headline> World Outdoor Flint Archery Mail March </headline>
+	<division id = "D0"> Anfänger </division>
+	<division id = "D1"> Amateur </division>
+	<division id = "D2"> Profi </division> 
+	
+	<bogenklasse id = "B1"> Langbogen </bogenklasse>
+	<bogenklasse id = "B2"> Sportbogen </bogenklasse>
+	<bogenklasse id = "B3"> Holzbogen </bogenklasse>
+	
+	<schuetze id = "S2334">
+        <firstname>Fabian</firstname>
+        <lastname>Müller</lastname>
+        <birthday>21.03.2000</birthday>
+        <status division-id = "D1" />
+        <status division-id = "D2" />
+        <klasse klassen-id = "B2" />
+	</schuetze>
+	<schuetze id = "S3455">
+        <firstname>Dwayne</firstname>
+        <lastname>Johnson</lastname>
+        <birthday>06.07.1987</birthday>
+        <status division-id = "D2" />
+        <klasse klassen-id = "B1" />
+        <klasse klassen-id = "B2" />
+        <klasse klassen-id = "B3" />
+	</schuetze>
+	<schuetze id = "S8867">
+        <firstname>Peter</firstname>
+        <lastname>Brunner</lastname>
+        <birthday>31.01.1989</birthday>
+        <status division-id = "D1" />
+        <status division-id = "D2" />
+        <klasse klassen-id = "B2" />
+        <klasse klassen-id = "B3" />
+	</schuetze>
+	<schuetze id = "S3324">
+        <firstname>Sebastian</firstname>
+        <lastname>Kurt</lastname>
+        <birthday>12.03.1997</birthday>
+        <status division-id = "D1" />
+        <status division-id = "D2" />
+        <klasse klassen-id = "B1" />
+        <klasse klassen-id = "B2" />
+	</schuetze>
+	<schuetze id = "S9776">
+        <firstname>Karl</firstname>
+        <lastname>Lauterer</lastname>
+        <birthday>22.08.1978</birthday>
+        <status division-id = "D1" />
+        <status division-id = "D2" />
+        <klasse klassen-id = "B3" />
+	</schuetze>
+	<schuetze id = "S9777">
+        <firstname>Simon</firstname>
+        <lastname>Schneider</lastname>
+        <birthday>02.02.2000</birthday>
+        <status division-id = "D1" />
+        <status division-id = "D2" />
+        <klasse klassen-id = "B3" />
+	</schuetze>
+	<schuetze id = "S9778">
+        <firstname>Janik</firstname>
+        <lastname>Blum</lastname>
+        <birthday>12.09.1999</birthday>
+        <status division-id = "D1" />
+        <status division-id = "D2" />
+        <klasse klassen-id = "B2" />
+	</schuetze>
+	<schuetze id = "S7768">
+        <firstname>Luca</firstname>
+        <lastname>Helbok</lastname>
+        <birthday>12.10.1989</birthday>
+        <status division-id = "D1" />
+        <status division-id = "D2" />
+        <klasse klassen-id = "B2" />
+	</schuetze>
+	
+	<gruppe id = "G01" klassen-id = "B1">
+	
+		<mitglied schuetze-id = "S2334">
+			<scoreboard> 
+				<ziele target-id = "T1">
+					<punkte> 32 </punkte>
+					<punkte> 43 </punkte>
+					<punkte> 23 </punkte>
+				</ziele>
+				<ziele target-id = "T3">
+					<punkte> 21 </punkte>
+					<punkte> 73 </punkte>
+					<punkte> 56 </punkte>
+				</ziele>
+			</scoreboard>
+		 </mitglied>	
+		
+		<mitglied schuetze-id = "S7768">
+			<scoreboard> 
+				<ziele target-id = "T2">
+					<punkte> 32 </punkte>
+					<punkte> 43 </punkte>
+					<punkte> 65 </punkte>
+				</ziele>
+				<ziele target-id = "T1">
+					<punkte> 33 </punkte>
+					<punkte> 21 </punkte>
+					<punkte> 22 </punkte>
+				</ziele>
+			</scoreboard>
+		 </mitglied>	
+			
+		<mitglied schuetze-id = "S3455"> 
+			<scoreboard>
+				<ziele target-id = "T1">
+					<punkte> 22 </punkte>
+					<punkte> 83 </punkte>
+					<punkte> 76 </punkte>
+				</ziele>
+				<ziele target-id = "T3">
+					<punkte> 22 </punkte>
+					<punkte> 23 </punkte>
+					<punkte> 21 </punkte>
+				</ziele>
+			</scoreboard>
+		</mitglied>	
+			
+		<mitglied schuetze-id = "S8867">	
+			<scoreboard>
+			<ziele target-id = "T3">
+					<punkte> 22 </punkte>
+					<punkte> 13 </punkte>
+					<punkte> 23 </punkte>
+				</ziele>
+				<ziele target-id = "T2">
+					<punkte> 22 </punkte>
+					<punkte> 33 </punkte>
+					<punkte> 36 </punkte>
+				</ziele>
+			</scoreboard>
+		 </mitglied>	
+		 
+		 
+	</gruppe>
+		<gruppe id = "G02" klassen-id = "B2">
+	
+	
+		<mitglied schuetze-id = "S3324">
+			<scoreboard> 
+				<ziele target-id = "T1">
+					<punkte> 32 </punkte>
+					<punkte> 23 </punkte>
+					<punkte> 21 </punkte>
+				</ziele>
+				<ziele target-id = "T3">
+					<punkte> 32 </punkte>
+					<punkte> 53 </punkte>
+					<punkte> 6 </punkte>
+				</ziele>
+			</scoreboard>
+		 </mitglied>	
+			
+			
+		<mitglied schuetze-id = "S9776"> 
+			<scoreboard>
+				<ziele target-id = "T2">
+					<punkte> 22 </punkte>
+					<punkte> 43 </punkte>
+					<punkte> 46 </punkte>
+				</ziele>
+				<ziele target-id = "T1">
+					<punkte> 28 </punkte>
+					<punkte> 34 </punkte>
+					<punkte> 21 </punkte>
+				</ziele>
+			</scoreboard>
+		</mitglied>	
+			
+		<mitglied schuetze-id = "S9777">	
+			<scoreboard>
+				<ziele target-id = "T2">
+					<punkte>12</punkte>
+					<punkte>11</punkte>
+					<punkte>21</punkte>
+				</ziele>
+				<ziele target-id = "T1">
+					<punkte> 32 </punkte>
+					<punkte> 23 </punkte>
+					<punkte> 56 </punkte>
+				</ziele>
+			</scoreboard>
+		 </mitglied>	
+		 
+		 <mitglied schuetze-id = "S9778">
+			<scoreboard> 
+				<ziele target-id = "T3">
+					<punkte> 32 </punkte>
+					<punkte> 43 </punkte>
+					<punkte> 23 </punkte>
+				</ziele>
+				<ziele target-id = "T1">
+					<punkte> 22 </punkte>
+					<punkte> 42 </punkte>
+					<punkte> 12 </punkte>
+				</ziele>
+			</scoreboard>
+		 </mitglied>	
+		 		 
+	</gruppe>
+	
+	<target id = "T1"> Zielscheibe </target>
+	<target id = "T2"> Tier </target>
+	<target id = "T3"> Puppe </target>
+	
+	
+</turnier>

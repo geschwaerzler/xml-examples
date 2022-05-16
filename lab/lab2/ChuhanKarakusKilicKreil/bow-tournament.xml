@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="archery.xsl"?>
+
+<!DOCTYPE bow-tournament SYSTEM "archery-tournament.dtd">
+
+<bow-tournament>
+	<division id="D1">Recurve Division</division>
+	<division id="D2">Compound Division</division>
+	<division id="D3">Barebow Division</division>
+	<division id="D4">Fingers Division</division>
+	
+	<discipline id="B1">Outdoor Archery</discipline>
+	<discipline id="B2">Field Archery</discipline>
+	<discipline id="B3">Run Archery</discipline>
+	<discipline id="B4">Bowhunter Fingers</discipline>
+	
+	<archer id="a1" gender="male">
+		<firstname>Dennis</firstname>
+		<lastname>Kreil</lastname>
+		<birthday>2000-10-29</birthday>
+	</archer>
+	
+	<archer id="a2" gender="male">
+		<firstname>Furkan</firstname>
+		<lastname>Kilic</lastname>
+		<birthday>2003-03-11</birthday>
+	</archer>
+	
+	<archer id="a3" gender="male">
+		<firstname>Mikail</firstname>
+		<lastname>Karakus</lastname>
+		<birthday>2000-08-15</birthday>
+	</archer>
+	
+	<archer id="a4" gender="female">
+		<firstname>Nina</firstname>
+		<lastname>Hartmann</lastname>
+		<birthday>2001-06-13</birthday>
+	</archer>
+	
+	<archer id="a5" gender="female">
+		<firstname>Haris</firstname>
+		<lastname>Chuhan</lastname>
+		<birthday>1999-06-28</birthday>
+	</archer>
+	
+	<archer id="a6" gender="female">
+		<firstname>Stefan</firstname>
+		<lastname>Raab</lastname>
+		<birthday>2001-06-13</birthday>
+	</archer>
+	
+	<archer id="a7" gender="female">
+		<firstname>Sebastian</firstname>
+		<lastname>Fischer</lastname>
+		<birthday>1999-04-12</birthday>
+	</archer>
+	
+	<archer id="a8" gender="male">
+		<firstname>Zlatan</firstname>
+		<lastname>Ibrahimovic</lastname>
+		<birthday>1984-04-23</birthday>
+	</archer>
+	
+	<archer id="a9" gender="male">
+		<firstname>Antony</firstname>
+		<lastname>Matheus dos Santos</lastname>
+		<birthday>2000-02-24</birthday>
+	</archer>
+	
+	<archer id="a10" gender="male">
+		<firstname>Sebastian</firstname>
+		<lastname>Haller</lastname>
+		<birthday>1994-06-22</birthday>
+	</archer>
+	
+	<archer id="a11" gender="male">
+		<firstname>Karim</firstname>
+		<lastname>Benzema</lastname>
+		<birthday>1987-12-19</birthday>
+	</archer>
+	
+	<archer id="a12" gender="male">
+		<firstname>Vinicius</firstname>
+		<lastname>Junior</lastname>
+		<birthday>2000-07-12</birthday>
+	</archer>
+	
+	<archer id="a13" gender="male">
+		<firstname>Kylian</firstname>
+		<lastname>Mbappe</lastname>
+		<birthday>1998-12-20</birthday>
+	</archer>
+	
+	<archer id="a14" gender="male">
+		<firstname>Erling</firstname>
+		<lastname>Haaland</lastname>
+		<birthday>2000-07-21</birthday>
+	</archer>
+	
+	<archer id="a15" gender="male">
+		<firstname>Marco</firstname>
+		<lastname>Reus</lastname>
+		<birthday>1989-05-31</birthday>
+	</archer>
+	
+	<archer id="a16" gender="male">
+		<firstname>Miura</firstname>
+		<lastname>Kazuyoshi</lastname>
+		<birthday>1967-02-26</birthday>
+	</archer>
+	
+	<target id="t1" name="50m"/>
+	<target id="t2" name="100m"/>
+	<target id="t3" name="125m"/>
+	
+	<point pID="p1" pname="Points 1st Try"/>
+	<point pID="p2" pname="Points 2nd Try"/>
+	<point pID="p3" pname="Points 3rd Try"/>
+	
+	<group name="Gruppe Recurve Outdoor" division-id="D1" discipline-id="B1">
+		<member archer-id="a1"> 
+			<score target-id="t1">
+				<arrow pID="p1" points="100"/>
+				<arrow pID="p2" points="150"/>
+				<arrow pID="p3" points="0"/>			
+			</score>
+			<score target-id="t2">
+				<arrow pID="p1" points="170"/>
+				<arrow pID="p2" points="180"/>
+				<arrow pID="p3" points="200"/>			
+			</score>
+			<score target-id="t3">
+				<arrow pID="p1" points="250"/>
+				<arrow pID="p2" points="180"/>
+				<arrow pID="p3" points="200"/>			
+			</score>
+		</member>
+		<member archer-id="a2">
+			<score target-id="t1">
+				<arrow pID="p1" points="220"/>
+				<arrow pID="p2" points="150"/>
+				<arrow pID="p3" points="280"/>			
+			</score>
+			<score target-id="t2">
+				<arrow pID="p1" points="80"/>
+				<arrow pID="p2" points="100"/>
+				<arrow pID="p3" points="0"/>			
+			</score>
+			<score target-id="t3">
+				<arrow pID="p1" points="130"/>
+				<arrow pID="p2" points="30"/>
+				<arrow pID="p3" points="250"/>			
+			</score>
+		</member>
+		<member archer-id="a3">
+			<score target-id="t1">
+				<arrow pID="p1" points="210"/>
+				<arrow pID="p2" points="130"/>
+				<arrow pID="p3" points="180"/>			
+			</score>
+			<score target-id="t2">
+				<arrow pID="p1" points="200"/>
+				<arrow pID="p2" points="220"/>
+				<arrow pID="p3" points="250"/>			
+			</score>
+			<score target-id="t3">
+				<arrow pID="p1" points="280"/>
+				<arrow pID="p2" points="100"/>
+				<arrow pID="p3" points="200"/>			
+			</score>
+		</member>	
+		
+				<member archer-id="a4">
+			<score target-id="t1">
+				<arrow pID="p1" points="100"/>
+				<arrow pID="p2" points="100"/>
+				<arrow pID="p3" points="0"/>			
+			</score>
+			<score target-id="t2">
+				<arrow pID="p1" points="200"/>
+				<arrow pID="p2" points="180"/>
+				<arrow pID="p3" points="200"/>			
+			</score>
+			<score target-id="t3">
+				<arrow pID="p1" points="250"/>
+				<arrow pID="p2" points="300"/>
+				<arrow pID="p3" points="200"/>			
+			</score>
+		</member>	
+	</group>
+	
+	<group name="Gruppe Barebow Division" division-id="D2" discipline-id="B2">
+		
+		<member archer-id="a5">
+			<score target-id="t1">
+				<arrow pID="p1" points="100"/>
+				<arrow pID="p2" points="150"/>
+				<arrow pID="p3" points="0"/>			
+			</score>
+			<score target-id="t2">
+				<arrow pID="p1" points="170"/>
+				<arrow pID="p2" points="180"/>
+				<arrow pID="p3" points="200"/>			
+			</score>
+			<score target-id="t3">
+				<arrow pID="p1" points="250"/>
+				<arrow pID="p2" points="180"/>
+				<arrow pID="p3" points="200"/>			
+			</score>
+		</member>
+		
+		<member archer-id="a6">
+			<score target-id="t1">
+				<arrow pID="p1" points="100"/>
+				<arrow pID="p2" points="150"/>
+				<arrow pID="p3" points="0"/>			
+			</score>
+			<score target-id="t2">
+				<arrow pID="p1" points="170"/>
+				<arrow pID="p2" points="180"/>
+				<arrow pID="p3" points="200"/>			
+			</score>
+			<score target-id="t3">
+				<arrow pID="p1" points="250"/>
+				<arrow pID="p2" points="180"/>
+				<arrow pID="p3" points="200"/>			
+			</score>
+		</member>
+
+		<member archer-id="a7">
+			<score target-id="t1">
+				<arrow pID="p1" points="100"/>
+				<arrow pID="p2" points="150"/>
+				<arrow pID="p3" points="0"/>			
+			</score>
+			<score target-id="t2">
+				<arrow pID="p1" points="170"/>
+				<arrow pID="p2" points="180"/>
+				<arrow pID="p3" points="200"/>			
+			</score>
+			<score target-id="t3">
+				<arrow pID="p1" points="250"/>
+				<arrow pID="p2" points="180"/>
+				<arrow pID="p3" points="200"/>			
+			</score>
+		</member>
+		
+				<member archer-id="a8">
+			<score target-id="t1">
+				<arrow pID="p1" points="0"/>
+				<arrow pID="p2" points="250"/>
+				<arrow pID="p3" points="50"/>			
+			</score>
+			<score target-id="t2">
+				<arrow pID="p1" points="0"/>
+				<arrow pID="p2" points="30"/>
+				<arrow pID="p3" points="300"/>			
+			</score>
+			<score target-id="t3">
+				<arrow pID="p1" points="0"/>
+				<arrow pID="p2" points="0"/>
+				<arrow pID="p3" points="200"/>			
+			</score>
+		</member>		
+	</group>
+	
+	<group name="Gruppe Barebow Division" division-id="D3" discipline-id="B3">
+		<member archer-id="a9">
+			<score target-id="t1">
+				<arrow pID="p1" points="100"/>
+				<arrow pID="p2" points="130"/>
+				<arrow pID="p3" points="0"/>			
+			</score>
+			<score target-id="t2">
+				<arrow pID="p1" points="170"/>
+				<arrow pID="p2" points="180"/>
+				<arrow pID="p3" points="200"/>			
+			</score>
+			<score target-id="t3">
+				<arrow pID="p1" points="250"/>
+				<arrow pID="p2" points="180"/>
+				<arrow pID="p3" points="200"/>			
+			</score>
+		</member>
+		
+		<member archer-id="a10">
+			<score target-id="t1">
+				<arrow pID="p1" points="100"/>
+				<arrow pID="p2" points="150"/>
+				<arrow pID="p3" points="0"/>			
+			</score>
+			<score target-id="t2">
+				<arrow pID="p1" points="170"/>
+				<arrow pID="p2" points="180"/>
+				<arrow pID="p3" points="200"/>			
+			</score>
+			<score target-id="t3">
+				<arrow pID="p1" points="250"/>
+				<arrow pID="p2" points="180"/>
+				<arrow pID="p3" points="200"/>			
+			</score>
+		</member>
+		
+		<member archer-id="a11">
+			<score target-id="t1">
+				<arrow pID="p1" points="0"/>
+				<arrow pID="p2" points="0"/>
+				<arrow pID="p3" points="0"/>			
+			</score>
+			<score target-id="t2">
+				<arrow pID="p1" points="50"/>
+				<arrow pID="p2" points="25"/>
+				<arrow pID="p3" points="0"/>			
+			</score>
+			<score target-id="t3">
+				<arrow pID="p1" points="100"/>
+				<arrow pID="p2" points="50"/>
+				<arrow pID="p3" points="0"/>			
+			</score>
+		</member>
+		<member archer-id="a12">
+			<score target-id="t1">
+				<arrow pID="p1" points="100"/>
+				<arrow pID="p2" points="250"/>
+				<arrow pID="p3" points="300"/>			
+			</score>
+			<score target-id="t2">
+				<arrow pID="p1" points="150"/>
+				<arrow pID="p2" points="200"/>
+				<arrow pID="p3" points="200"/>			
+			</score>
+			<score target-id="t3">
+				<arrow pID="p1" points="250"/>
+				<arrow pID="p2" points="180"/>
+				<arrow pID="p3" points="200"/>			
+			</score>
+		</member>
+		
+		</group>
+		<group name="Gruppe Bowhunter Fingers Division" division-id="D4" discipline-id="B4">
+		
+		<member archer-id="a13">
+			<score target-id="t1">
+				<arrow pID="p1" points="200"/>
+				<arrow pID="p2" points="250"/>
+				<arrow pID="p3" points="250"/>			
+			</score>
+			<score target-id="t2">
+				<arrow pID="p1" points="300"/>
+				<arrow pID="p2" points="300"/>
+				<arrow pID="p3" points="300"/>			
+			</score>
+			<score target-id="t3">
+				<arrow pID="p1" points="250"/>
+				<arrow pID="p2" points="300"/>
+				<arrow pID="p3" points="200"/>			
+			</score>
+		</member>	
+		
+		<member archer-id="a14">
+			<score target-id="t1">
+				<arrow pID="p1" points="65"/>
+				<arrow pID="p2" points="250"/>
+				<arrow pID="p3" points="0"/>			
+			</score>
+			<score target-id="t2">
+				<arrow pID="p1" points="80"/>
+				<arrow pID="p2" points="250"/>
+				<arrow pID="p3" points="50"/>			
+			</score>
+			<score target-id="t3">
+				<arrow pID="p1" points="250"/>
+				<arrow pID="p2" points="300"/>
+				<arrow pID="p3" points="0"/>			
+			</score>
+		</member>	
+		
+		<member archer-id="a15">
+			<score target-id="t1">
+				<arrow pID="p1" points="45"/>
+				<arrow pID="p2" points="55"/>
+				<arrow pID="p3" points="65"/>			
+			</score>
+			<score target-id="t2">
+				<arrow pID="p1" points="80"/>
+				<arrow pID="p2" points="100"/>
+				<arrow pID="p3" points="150"/>			
+			</score>
+			<score target-id="t3">
+				<arrow pID="p1" points="250"/>
+				<arrow pID="p2" points="0"/>
+				<arrow pID="p3" points="150"/>			
+			</score>
+		</member>
+			<member archer-id="a16">
+			<score target-id="t1">
+				<arrow pID="p1" points="100"/>
+				<arrow pID="p2" points="150"/>
+				<arrow pID="p3" points="0"/>			
+			</score>
+			<score target-id="t2">
+				<arrow pID="p1" points="170"/>
+				<arrow pID="p2" points="180"/>
+				<arrow pID="p3" points="200"/>			
+			</score>
+			<score target-id="t3">
+				<arrow pID="p1" points="250"/>
+				<arrow pID="p2" points="180"/>
+				<arrow pID="p3" points="200"/>			
+			</score>
+		</member>
+	</group>
+		
+</bow-tournament>
