@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!ELEMENT bow-tournament (division*, discipline*, archer*, target*, group*, point*)>
+<!ELEMENT bow-tournament (division*, discipline*, archer*, target*, point*, group*)>
 
 <!ELEMENT division (#PCDATA)>
 <!ATTLIST division id ID #REQUIRED>
@@ -20,6 +20,7 @@
     name CDATA #REQUIRED
     division-id IDREF #REQUIRED
     discipline-id IDREF #REQUIRED
+    tag CDATA #REQUIRED
 >
 
 <!ELEMENT member (score*)>

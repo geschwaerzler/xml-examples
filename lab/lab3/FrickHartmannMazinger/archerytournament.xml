@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="archeryTransformation.xsl"?>
+<!--<!DOCTYPE archery_tournament SYSTEM "archery-tournament.dtd">-->
+<archery_tournament name="Vorarlberger Archery Landesmeisterschaft 2022">
+	<discipline id="D1">Outdoor Archery</discipline>
+	<discipline id="D2">Indoor Archery</discipline>
+	<discipline id="D3">Field Archery</discipline>
+	<discipline id="D4">Para-Archery</discipline>
+	<discipline id="D5">Run Archery</discipline>
+	
+	<division id="d1">Target Recurve Bow</division>
+	<division id="d2">Conventional Flight Bow</division>
+	<division id="d3">American Longbow</division>
+	<division id="d4">English Longbow</division>
+	<division id="d5">Compound Flight Bow</division>
+	<division id="d6">Foot Bow</division>
+	
+	<class id='U18W'>Under 18 Women</class>
+    <class id='U18M'>Under 18 Men</class>
+    <class id='U21W'>Under 21 Women</class>
+    <class id='U21M'>Under 21 Men</class>
+    <class id='W'>Women</class>
+    <class id='M'>Men</class>
+    <class id='O50W'>50+ Women</class>
+    <class id='O50M'>50+ Men</class>
+
+	<athlete id="a1">
+		<firstname>Ida</firstname>
+		<lastname>Mazinger</lastname>
+		<birthday>1997-06-23</birthday>
+		<address>
+			<street>Ahornstraße</street>
+			<streetnr>1</streetnr>
+			<zip>6800</zip>
+			<city>Feldkirch</city>
+		</address>
+		<gender>female</gender>
+	</athlete>
+	
+	<athlete id="a2">
+		<firstname>Nina</firstname>
+		<lastname>Hartmann</lastname>
+		<birthday>2007-06-13</birthday>
+		<address>
+			<street>Birkengasse</street>
+			<streetnr>3</streetnr>
+			<zip>6800</zip>
+			<city>Feldkirch</city>
+		</address>
+		<gender>female</gender>
+	</athlete>
+	
+	<athlete id="a3">
+		<firstname>Deniz</firstname>
+		<lastname>Frick</lastname>
+		<birthday>1962-10-04</birthday>
+		<address>
+			<street>Akazienallee</street>
+			<streetnr>7</streetnr>
+			<zip>6800</zip>
+			<city>Feldkirch</city>
+		</address>
+		<gender>male</gender>
+	</athlete>
+
+	<group name="ConventionalOutdoor" discipline-id="D1" division-id="d2" class-id="U18W">
+		<member athlete-id="a2"/>
+		<member athlete-id="a1"/>
+	</group>
+
+	<group name="AmericanOutdoor" discipline-id="D1" division-id="d3" class-id="O50M">
+		<member athlete-id="a3"/>
+		<member athlete-id="a2"/>
+	</group>
+
+	<group name="AmericanIndoor" discipline-id="D2" division-id="d3" class-id="W">
+		<member athlete-id="a1"/>
+		<member athlete-id="a3"/>
+	</group>
+
+	<target id="t1" division-id="d2">
+		<type>Bulls-Eye Target</type>
+		<distance>70</distance>
+	</target>
+	
+	<target id="t2" division-id="d2">
+		<type>3D Animal Target</type>
+		<distance>40</distance>
+	</target>
+	
+	<target id="t3" division-id="d3">
+		<type>Bulls-Eye Target</type>
+		<distance>65</distance>
+	</target>
+	
+	<target id="t4" division-id="d3">
+		<type>3D Animal Target</type>
+		<distance>50</distance>
+	</target>
+	
+	<target id="t5" division-id="d3">
+		<type>3D Animal Target</type>
+		<distance>85</distance>
+	</target>
+	
+	<score athlete-id="a1" group-name="AmericanIndoor" target-id="t3">
+		<first>95</first>
+		<second>20</second>
+		<third>0</third>
+	</score>
+	
+	<score athlete-id="a1" group-name="AmericanIndoor" target-id="t4">
+		<first>35</first>
+		<second>50</second>
+		<third>75</third>
+	</score>
+	
+	<score athlete-id="a1" group-name="AmericanIndoor" target-id="t5">
+		<first>0</first>
+		<second>100</second>
+		<third>0</third>
+	</score>
+	
+	<score athlete-id="a3" group-name="AmericanIndoor" target-id="t3">
+		<first>20</first>
+		<second>60</second>
+		<third>100</third>
+	</score>
+	
+	<score athlete-id="a3" group-name="AmericanIndoor" target-id="t4">
+		<first>75</first>
+		<second>50</second>
+		<third>75</third>
+	</score>
+	
+	<score athlete-id="a3" group-name="AmericanIndoor" target-id="t5">
+		<first>80</first>
+		<second>90</second>
+		<third>10</third>
+	</score>
+	
+	<score athlete-id="a2" group-name="ConventionalOutdoor" target-id="t1">
+		<first>55</first>
+		<second>85</second>
+		<third>15</third>
+	</score>
+	
+	<score athlete-id="a2" group-name="ConventionalOutdoor" target-id="t2">
+		<first>60</first>
+		<second>75</second>
+		<third>100</third>
+	</score>
+	
+	<score athlete-id="a1" group-name="ConventionalOutdoor" target-id="t1">
+		<first>15</first>
+		<second>25</second>
+		<third>35</third>
+	</score>
+	
+	<score athlete-id="a1" group-name="ConventionalOutdoor" target-id="t2">
+		<first>65</first>
+		<second>100</second>
+		<third>0</third>
+	</score>
+	
+	<score athlete-id="a3" group-name="AmericanOutdoor" target-id="t3">
+		<first>95</first>
+		<second>100</second>
+		<third>10</third>
+	</score>
+
+	<score athlete-id="a3" group-name="AmericanOutdoor" target-id="t4">
+		<first>30</first>
+		<second>75</second>
+		<third>80</third>
+	</score>
+	
+	<score athlete-id="a3" group-name="AmericanOutdoor" target-id="t5">
+		<first>60</first>
+		<second>0</second>
+		<third>100</third>
+	</score>
+	
+	<score athlete-id="a2" group-name="AmericanOutdoor" target-id="t3">
+		<first>60</first>
+		<second>30</second>
+		<third>45</third>
+	</score>
+
+	<score athlete-id="a2" group-name="AmericanOutdoor" target-id="t4">
+		<first>100</first>
+		<second>100</second>
+		<third>85</third>
+	</score>
+	
+	<score athlete-id="a2" group-name="AmericanOutdoor" target-id="t5">
+		<first>45</first>
+		<second>65</second>
+		<third>0</third>
+	</score>
+	
+</archery_tournament>

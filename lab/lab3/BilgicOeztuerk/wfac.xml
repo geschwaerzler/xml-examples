@@ -1,0 +1,1047 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tournament SYSTEM "wfacProjekt.dtd">
+
+<tournament name ="World Outdoor Flint Archery Mail Match 2022">
+
+	<discipline id="D1">Outdoor Archery</discipline>
+	<discipline id="D2">Indoor Archery</discipline>
+	<discipline id="D3">Field Archery</discipline>
+	<discipline id="D4">Para-Archery</discipline>
+	<discipline id="D5">Run Archery</discipline>
+	
+	<division id="d1">Target Recurve Bow</division>
+	<division id="d2">Conventional Flight Bow</division>
+	<division id="d3">American Longbow</division>
+	<division id="d4">English Longbow</division>
+	<division id="d5">Compound Flight Bow</division>
+	<division id="d6">Foot Bow</division>
+	
+	
+	<group nr="1" name="Conventional Outdoor" discipline-id="D1" division-id="d2">
+
+		<athlete id="a1" firstname="Gusti" lastname="Gerhalter"
+			country="Deutschland" />
+			
+		<athlete id="a2" firstname="Adam" lastname="Amman"
+			country="England" />
+			
+		<athlete id="a3" firstname="Elisabeth" lastname="Emmerich"
+			country="Finnland" />
+			
+		<athlete id="a4" firstname="Daniel" lastname="Doppelmayr"
+			country="Oesterreich"></athlete>
+
+		<round nr="1" date="2022-12-19">
+			<score-card athlete-id="a1">
+				<target nr="1">
+					<score arrow-nr="1" points="5" />
+					<score arrow-nr="2" points="8" />
+				</target>
+
+				<target nr="2">
+					<score arrow-nr="1" points="2" />
+					<score arrow-nr="2" points="4" />
+					<score arrow-nr="3" points="10"/>
+				</target>
+
+				<target nr="3">
+					<score arrow-nr="1" points="9" />
+					<score arrow-nr="2" points="0" />
+					<score arrow-nr="3" points="9" />
+				</target>
+
+				<target nr="4">
+					<score arrow-nr="1" points="0" />
+					<score arrow-nr="2" points="2" />
+					<score arrow-nr="3" points="5" />
+				</target>
+			</score-card>
+
+			<score-card athlete-id="a2">
+				<target nr="1">
+					<score arrow-nr="1" points="10" />
+					<score arrow-nr="2" points="11" />
+				</target>
+
+				<target nr="2">
+					<score arrow-nr="1" points="11" />
+					<score arrow-nr="2" points="10" />
+				</target>
+
+				<target nr="3">
+					<score arrow-nr="1" points="7" />
+					<score arrow-nr="2" points="0" />
+					<score arrow-nr="3" points="10" />
+				</target>
+
+				<target nr="4">
+					<score arrow-nr="1" points="1" />
+					<score arrow-nr="2" points="7" />
+					<score arrow-nr="3" points="12" />
+				</target>
+			</score-card>
+
+			<score-card athlete-id="a3">
+				<target nr="1">
+					<score arrow-nr="1" points="6" />
+					<score arrow-nr="2" points="1" />
+					<score arrow-nr="3" points="11" />
+				</target>
+
+				<target nr="2">
+					<score arrow-nr="1" points="0" />
+					<score arrow-nr="2" points="10" />
+				</target>
+
+				<target nr="3">
+					<score arrow-nr="1" points="3" />
+					<score arrow-nr="2" points="4" />
+					<score arrow-nr="3" points="8" />
+				</target>
+
+				<target nr="4">
+					<score arrow-nr="1" points="9" />
+					<score arrow-nr="2" points="12" />
+				</target>
+			</score-card>
+
+			<score-card athlete-id="a4">
+				<target nr="1">
+					<score arrow-nr="1" points="3" />
+					<score arrow-nr="2" points="0" />
+					<score arrow-nr="3" points="5" />
+				</target>
+
+				<target nr="2">
+					<score arrow-nr="1" points="12" />
+				</target>
+
+				<target nr="3">
+					<score arrow-nr="1" points="3" />
+					<score arrow-nr="2" points="6" />
+					<score arrow-nr="3" points="12" />
+				</target>
+
+				<target nr="4">
+					<score arrow-nr="1" points="12" />
+				</target>
+			</score-card>
+		</round>
+		
+		<round nr="2" date="2022-12-20">
+			<score-card athlete-id="a1">
+				<target nr="1">
+					<score arrow-nr="1" points="3" />
+					<score arrow-nr="2" points="8" />
+					<score arrow-nr="3" points="11" />
+				</target>
+
+				<target nr="2">
+					<score arrow-nr="1" points="10" />
+					<score arrow-nr="2" points="12" />
+				</target>
+
+				<target nr="3">
+					<score arrow-nr="1" points="7" />
+					<score arrow-nr="2" points="0" />
+					<score arrow-nr="3" points="8" />
+				</target>
+
+				<target nr="4">
+					<score arrow-nr="1" points="9" />
+					<score arrow-nr="2" points="12" />
+				</target>
+			</score-card>
+
+			<score-card athlete-id="a2">
+				<target nr="1">
+					<score arrow-nr="1" points="12" />
+				</target>
+
+				<target nr="2">
+					<score arrow-nr="1" points="1" />
+					<score arrow-nr="2" points="5" />
+					<score arrow-nr="2" points="12" />
+				</target>
+
+				<target nr="3">
+					<score arrow-nr="1" points="9" />
+					<score arrow-nr="2" points="0" />
+					<score arrow-nr="3" points="12" />
+				</target>
+
+				<target nr="4">
+					<score arrow-nr="1" points="0" />
+					<score arrow-nr="2" points="8" />
+					<score arrow-nr="3" points="11" />
+				</target>
+			</score-card>
+
+			<score-card athlete-id="a3">
+				<target nr="1">
+					<score arrow-nr="1" points="5" />
+					<score arrow-nr="2" points="1" />
+					<score arrow-nr="3" points="12" />
+				</target>
+
+				<target nr="2">
+					<score arrow-nr="1" points="0" />
+					<score arrow-nr="2" points="12" />
+				</target>
+
+				<target nr="3">
+					<score arrow-nr="1" points="3" />
+					<score arrow-nr="2" points="2" />
+					<score arrow-nr="3" points="7" />
+				</target>
+
+				<target nr="4">
+					<score arrow-nr="1" points="10" />
+					<score arrow-nr="2" points="12" />
+				</target>
+			</score-card>
+
+			<score-card athlete-id="a4">
+				<target nr="1">
+					<score arrow-nr="1" points="1" />
+					<score arrow-nr="2" points="0" />
+					<score arrow-nr="3" points="1" />
+				</target>
+
+				<target nr="2">
+					<score arrow-nr="1" points="12" />
+				</target>
+
+				<target nr="3">
+					<score arrow-nr="1" points="3" />
+					<score arrow-nr="2" points="6" />
+					<score arrow-nr="3" points="12" />
+				</target>
+
+				<target nr="4">
+					<score arrow-nr="1" points="12" />
+				</target>
+			</score-card>
+		</round>
+
+		<round nr="3" date="2022-12-21">
+			<score-card athlete-id="a1">
+				<target nr="1">
+					<score arrow-nr="1" points="5" />
+					<score arrow-nr="2" points="6" />
+					<score arrow-nr="3" points="8" />
+				</target>
+
+				<target nr="2">
+					<score arrow-nr="1" points="6" />
+					<score arrow-nr="2" points="11" />
+					<score arrow-nr="3" points="12" />
+				</target>
+
+				<target nr="3">
+					<score arrow-nr="1" points="1" />
+					<score arrow-nr="2" points="6" />
+					<score arrow-nr="3" points="10" />
+				</target>
+
+				<target nr="4">
+					<score arrow-nr="1" points="12" />
+				</target>
+			</score-card>
+
+			<score-card athlete-id="a2">
+				<target nr="1">
+					<score arrow-nr="1" points="1" />
+					<score arrow-nr="2" points="9" />
+					<score arrow-nr="3" points="12" />
+				</target>
+
+				<target nr="2">
+					<score arrow-nr="1" points="6" />
+					<score arrow-nr="2" points="8" />
+					<score arrow-nr="3" points="9" />
+				</target>
+
+				<target nr="3">
+					<score arrow-nr="1" points="6" />
+					<score arrow-nr="2" points="12" />
+				</target>
+
+				<target nr="4">
+					<score arrow-nr="1" points="1" />
+					<score arrow-nr="2" points="8" />
+					<score arrow-nr="3" points="12" />
+				</target>
+			</score-card>
+
+			<score-card athlete-id="a3">
+				<target nr="1">
+					<score arrow-nr="1" points="10" />
+					<score arrow-nr="2" points="12" />
+				</target>
+
+				<target nr="2">
+					<score arrow-nr="1" points="6" />
+					<score arrow-nr="2" points="8" />
+					<score arrow-nr="3" points="12" />
+				</target>
+
+				<target nr="3">
+					<score arrow-nr="1" points="3" />
+					<score arrow-nr="2" points="6" />
+					<score arrow-nr="3" points="12" />
+				</target>
+
+				<target nr="4">
+					<score arrow-nr="1" points="1" />
+					<score arrow-nr="2" points="12" />
+				</target>
+			</score-card>
+
+			<score-card athlete-id="a4">
+				<target nr="1">
+					<score arrow-nr="1" points="5" />
+					<score arrow-nr="2" points="10" />
+					<score arrow-nr="3" points="12" />
+				</target>
+
+				<target nr="2">
+					<score arrow-nr="1" points="8" />
+					<score arrow-nr="2" points="9" />
+					<score arrow-nr="3" points="12" />
+				</target>
+
+				<target nr="3">
+					<score arrow-nr="1" points="1" />
+					<score arrow-nr="2" points="1" />
+					<score arrow-nr="3" points="12" />
+				</target>
+
+				<target nr="4">
+					<score arrow-nr="1" points="1" />
+					<score arrow-nr="2" points="4" />
+					<score arrow-nr="3" points="5" />
+				</target>
+			</score-card>
+		</round>
+
+		<round nr="4" date="2022-12-22">
+			<score-card athlete-id="a1">
+				<target nr="1">
+					<score arrow-nr="1" points="5" />
+					<score arrow-nr="2" points="6" />
+					<score arrow-nr="3" points="12" />
+				</target>
+
+				<target nr="2">
+					<score arrow-nr="1" points="6" />
+					<score arrow-nr="2" points="11" />
+					<score arrow-nr="3" points="8" />
+				</target>
+
+				<target nr="3">
+					<score arrow-nr="1" points="1" />
+					<score arrow-nr="2" points="6" />
+					<score arrow-nr="3" points="10" />
+				</target>
+
+				<target nr="4">
+					<score arrow-nr="1" points="12" />
+				</target>
+			</score-card>
+
+			<score-card athlete-id="a2">
+				<target nr="1">
+					<score arrow-nr="1" points="1" />
+					<score arrow-nr="2" points="9" />
+					<score arrow-nr="3" points="11" />
+				</target>
+
+				<target nr="2">
+					<score arrow-nr="1" points="6" />
+					<score arrow-nr="2" points="8" />
+					<score arrow-nr="3" points="11" />
+				</target>
+
+				<target nr="3">
+					<score arrow-nr="1" points="6" />
+					<score arrow-nr="2" points="12" />
+				</target>
+
+				<target nr="4">
+					<score arrow-nr="1" points="1" />
+					<score arrow-nr="2" points="8" />
+					<score arrow-nr="3" points="8" />
+				</target>
+			</score-card>
+
+			<score-card athlete-id="a3">
+				<target nr="1">
+					<score arrow-nr="1" points="10" />
+					<score arrow-nr="2" points="12" />
+				</target>
+
+				<target nr="2">
+					<score arrow-nr="1" points="6" />
+					<score arrow-nr="2" points="8" />
+					<score arrow-nr="3" points="8" />
+				</target>
+
+				<target nr="3">
+					<score arrow-nr="1" points="3" />
+					<score arrow-nr="2" points="6" />
+					<score arrow-nr="3" points="10" />
+				</target>
+
+				<target nr="4">
+					<score arrow-nr="1" points="1" />
+					<score arrow-nr="2" points="12" />
+				</target>
+			</score-card>
+
+			<score-card athlete-id="a4">
+				<target nr="1">
+					<score arrow-nr="1" points="5" />
+					<score arrow-nr="2" points="10" />
+					<score arrow-nr="3" points="10" />
+				</target>
+
+				<target nr="2">
+					<score arrow-nr="1" points="8" />
+					<score arrow-nr="2" points="9" />
+					<score arrow-nr="3" points="12" />
+				</target>
+
+				<target nr="3">
+					<score arrow-nr="1" points="1" />
+					<score arrow-nr="2" points="1" />
+					<score arrow-nr="3" points="12" />
+				</target>
+
+				<target nr="4">
+					<score arrow-nr="1" points="1" />
+					<score arrow-nr="2" points="4" />
+					<score arrow-nr="3" points="8" />
+				</target>
+			</score-card>
+		</round>
+
+		<round nr="5" date="2022-12-23">
+			<score-card athlete-id="a1">
+					<target nr="1">
+					<score arrow-nr="1" points="5" />
+					<score arrow-nr="2" points="6" />
+					<score arrow-nr="3" points="8" />
+				</target>
+
+				<target nr="2">
+					<score arrow-nr="1" points="6" />
+					<score arrow-nr="2" points="11" />
+					<score arrow-nr="3" points="12" />
+				</target>
+
+				<target nr="3">
+					<score arrow-nr="1" points="1" />
+					<score arrow-nr="2" points="9" />
+					<score arrow-nr="3" points="12" />
+				</target>
+
+				<target nr="4">
+					<score arrow-nr="1" points="12" />
+				</target>
+			</score-card>
+
+			<score-card athlete-id="a2">
+				<target nr="1">
+					<score arrow-nr="1" points="1" />
+					<score arrow-nr="2" points="9" />
+					<score arrow-nr="3" points="12" />
+				</target>
+
+				<target nr="2">
+					<score arrow-nr="1" points="6" />
+					<score arrow-nr="2" points="8" />
+					<score arrow-nr="3" points="9" />
+				</target>
+
+				<target nr="3">
+					<score arrow-nr="1" points="6" />
+					<score arrow-nr="2" points="12" />
+				</target>
+
+				<target nr="4">
+					<score arrow-nr="1" points="1" />
+					<score arrow-nr="2" points="5" />
+					<score arrow-nr="3" points="5" />
+				</target>
+			</score-card>
+
+			<score-card athlete-id="a3">
+				<target nr="1">
+					<score arrow-nr="1" points="10" />
+					<score arrow-nr="2" points="12" />
+				</target>
+
+				<target nr="2">
+					<score arrow-nr="1" points="6" />
+					<score arrow-nr="2" points="8" />
+					<score arrow-nr="3" points="12" />
+				</target>
+
+				<target nr="3">
+					<score arrow-nr="1" points="3" />
+					<score arrow-nr="2" points="6" />
+					<score arrow-nr="3" points="12" />
+				</target>
+
+				<target nr="4">
+					<score arrow-nr="1" points="1" />
+					<score arrow-nr="2" points="12" />
+				</target>
+			</score-card>
+
+			<score-card athlete-id="a4">
+				<target nr="1">
+					<score arrow-nr="1" points="5" />
+					<score arrow-nr="2" points="10" />
+					<score arrow-nr="3" points="11" />
+				</target>
+
+				<target nr="2">
+					<score arrow-nr="1" points="8" />
+					<score arrow-nr="2" points="9" />
+					<score arrow-nr="3" points="12" />
+				</target>
+
+				<target nr="3">
+					<score arrow-nr="1" points="1" />
+					<score arrow-nr="2" points="1" />
+					<score arrow-nr="3" points="12" />
+				</target>
+
+				<target nr="4">
+					<score arrow-nr="1" points="1" />
+					<score arrow-nr="2" points="4" />
+					<score arrow-nr="3" points="9" />
+				</target>
+			</score-card>
+		</round>
+
+	</group>
+
+	<group nr="2" name="American Outdoor" discipline-id="D1" division-id="d3">
+
+
+		<athlete id="a5" firstname="Berta" lastname="Betsch"
+			country="Deutschland"/>
+		<athlete id="a6" firstname="Frida" lastname="Fröhlich"
+			country="Schweden"/>
+		<athlete id="a7" firstname="Hermine" lastname="Huber"
+			country="Norwegen"/>
+		<athlete id="a8" firstname="Christof" lastname="Coen"
+			country="USA" />
+
+		<round nr="1" date="2022-12-19">
+			<score-card athlete-id="a5">
+				<target nr="1">
+					<score arrow-nr="1" points="3" />
+					<score arrow-nr="2" points="8" />
+					<score arrow-nr="3" points="11" />
+				</target>
+
+				<target nr="2">
+					<score arrow-nr="1" points="10" />
+					<score arrow-nr="2" points="12" />
+					<score arrow-nr="2" points="12" />
+				</target>
+
+				<target nr="3">
+					<score arrow-nr="1" points="7" />
+					<score arrow-nr="2" points="0" />
+					<score arrow-nr="3" points="8" />
+				</target>
+
+				<target nr="4">
+					<score arrow-nr="1" points="9" />
+					<score arrow-nr="2" points="12" />
+				</target>
+			</score-card>
+
+			<score-card athlete-id="a6">
+				<target nr="1">
+					<score arrow-nr="1" points="12" />
+				</target>
+
+				<target nr="2">
+					<score arrow-nr="1" points="1" />
+					<score arrow-nr="2" points="5" />
+					<score arrow-nr="2" points="12" />
+				</target>
+
+				<target nr="3">
+					<score arrow-nr="1" points="9" />
+					<score arrow-nr="2" points="0" />
+					<score arrow-nr="3" points="12" />
+				</target>
+
+				<target nr="4">
+					<score arrow-nr="1" points="0" />
+					<score arrow-nr="2" points="8" />
+					<score arrow-nr="3" points="11" />
+				</target>
+			</score-card>
+
+			<score-card athlete-id="a7">
+				<target nr="1">
+					<score arrow-nr="1" points="5" />
+					<score arrow-nr="2" points="1" />
+					<score arrow-nr="3" points="12" />
+				</target>
+
+				<target nr="2">
+					<score arrow-nr="1" points="0" />
+					<score arrow-nr="2" points="12" />
+				</target>
+
+				<target nr="3">
+					<score arrow-nr="1" points="3" />
+					<score arrow-nr="2" points="2" />
+					<score arrow-nr="3" points="7" />
+				</target>
+
+				<target nr="4">
+					<score arrow-nr="1" points="10" />
+					<score arrow-nr="2" points="12" />
+				</target>
+			</score-card>
+
+			<score-card athlete-id="a8">
+				<target nr="1">
+					<score arrow-nr="1" points="1" />
+					<score arrow-nr="2" points="0" />
+					<score arrow-nr="3" points="1" />
+				</target>
+
+				<target nr="2">
+					<score arrow-nr="1" points="12" />
+				</target>
+
+				<target nr="3">
+					<score arrow-nr="1" points="3" />
+					<score arrow-nr="2" points="6" />
+					<score arrow-nr="3" points="12" />
+				</target>
+
+				<target nr="4">
+					<score arrow-nr="1" points="12" />
+				</target>
+			</score-card>
+		</round>
+
+		<round nr="2" date="2022-12-20">
+			<score-card athlete-id="a5">
+				<target nr="1">
+					<score arrow-nr="1" points="5" />
+					<score arrow-nr="2" points="12" />
+				</target>
+
+				<target nr="2">
+					<score arrow-nr="1" points="1" />
+					<score arrow-nr="2" points="2" />
+					<score arrow-nr="3" points="12" />
+				</target>
+
+				<target nr="3">
+					<score arrow-nr="1" points="9" />
+					<score arrow-nr="2" points="0" />
+					<score arrow-nr="3" points="10" />
+				</target>
+
+				<target nr="4">
+					<score arrow-nr="1" points="0" />
+					<score arrow-nr="2" points="2" />
+					<score arrow-nr="3" points="11" />
+				</target>
+			</score-card>
+
+			<score-card athlete-id="a6">
+				<target nr="1">
+					<score arrow-nr="1" points="10" />
+					<score arrow-nr="2" points="12" />
+				</target>
+
+				<target nr="2">
+					<score arrow-nr="1" points="11" />
+					<score arrow-nr="2" points="12" />
+				</target>
+
+				<target nr="3">
+					<score arrow-nr="1" points="9" />
+					<score arrow-nr="2" points="1" />
+					<score arrow-nr="3" points="12" />
+				</target>
+
+				<target nr="4">
+					<score arrow-nr="1" points="0" />
+					<score arrow-nr="2" points="8" />
+					<score arrow-nr="3" points="9" />
+				</target>
+			</score-card>
+
+			<score-card athlete-id="a7">
+				<target nr="1">
+					<score arrow-nr="1" points="5" />
+					<score arrow-nr="2" points="1" />
+					<score arrow-nr="3" points="6" />
+				</target>
+
+				<target nr="2">
+					<score arrow-nr="1" points="0" />
+					<score arrow-nr="2" points="12" />
+				</target>
+
+				<target nr="3">
+					<score arrow-nr="1" points="3" />
+					<score arrow-nr="2" points="2" />
+					<score arrow-nr="3" points="12" />
+				</target>
+
+				<target nr="4">
+					<score arrow-nr="1" points="10" />
+					<score arrow-nr="2" points="12" />
+				</target>
+			</score-card>
+
+			<score-card athlete-id="a8">
+				<target nr="1">
+					<score arrow-nr="1" points="1" />
+					<score arrow-nr="2" points="0" />
+					<score arrow-nr="3" points="7" />
+				</target>
+
+				<target nr="2">
+					<score arrow-nr="1" points="12" />
+				</target>
+
+				<target nr="3">
+					<score arrow-nr="1" points="3" />
+					<score arrow-nr="2" points="6" />
+					<score arrow-nr="3" points="12" />
+				</target>
+
+				<target nr="4">
+					<score arrow-nr="1" points="12" />
+				</target>
+			</score-card>
+		</round>
+
+
+		<round nr="3" date="2022-12-21">
+			<score-card athlete-id="a5">
+				<target nr="1">
+					<score arrow-nr="1" points="5" />
+					<score arrow-nr="2" points="6" />
+					<score arrow-nr="3" points="11" />
+				</target>
+
+				<target nr="2">
+					<score arrow-nr="1" points="6" />
+					<score arrow-nr="2" points="11" />
+					<score arrow-nr="3" points="12" />
+				</target>
+
+				<target nr="3">
+					<score arrow-nr="1" points="1" />
+					<score arrow-nr="2" points="6" />
+					<score arrow-nr="3" points="7" />
+				</target>
+
+				<target nr="4">
+					<score arrow-nr="1" points="12" />
+				</target>
+			</score-card>
+
+			<score-card athlete-id="a6">
+				<target nr="1">
+					<score arrow-nr="1" points="1" />
+					<score arrow-nr="2" points="9" />
+					<score arrow-nr="3" points="10" />
+				</target>
+
+				<target nr="2">
+					<score arrow-nr="1" points="6" />
+					<score arrow-nr="2" points="8" />
+					<score arrow-nr="3" points="12" />
+				</target>
+
+				<target nr="3">
+					<score arrow-nr="1" points="6" />
+					<score arrow-nr="2" points="12" />
+				</target>
+
+				<target nr="4">
+					<score arrow-nr="1" points="1" />
+					<score arrow-nr="2" points="8" />
+					<score arrow-nr="3" points="9" />
+				</target>
+			</score-card>
+
+			<score-card athlete-id="a7">
+				<target nr="1">
+					<score arrow-nr="1" points="10" />
+					<score arrow-nr="2" points="12" />
+				</target>
+
+				<target nr="2">
+					<score arrow-nr="1" points="6" />
+					<score arrow-nr="2" points="8" />
+					<score arrow-nr="3" points="9" />
+				</target>
+
+				<target nr="3">
+					<score arrow-nr="1" points="3" />
+					<score arrow-nr="2" points="6" />
+					<score arrow-nr="3" points="12" />
+				</target>
+
+				<target nr="4">
+					<score arrow-nr="1" points="1" />
+					<score arrow-nr="2" points="12" />
+				</target>
+			</score-card>
+
+			<score-card athlete-id="a8">
+				<target nr="1">
+					<score arrow-nr="1" points="5" />
+					<score arrow-nr="2" points="7" />
+					<score arrow-nr="3" points="8" />
+				</target>
+
+				<target nr="2">
+					<score arrow-nr="1" points="8" />
+					<score arrow-nr="2" points="9" />
+					<score arrow-nr="3" points="12" />
+				</target>
+
+				<target nr="3">
+					<score arrow-nr="1" points="1" />
+					<score arrow-nr="2" points="1" />
+					<score arrow-nr="3" points="12" />
+				</target>
+
+				<target nr="4">
+					<score arrow-nr="1" points="1" />
+					<score arrow-nr="2" points="4" />
+					<score arrow-nr="3" points="5" />
+				</target>
+			</score-card>
+		</round>
+
+		<round nr="4" date="2022-12-22">
+			<score-card athlete-id="a5">
+				<target nr="1">
+					<score arrow-nr="1" points="5" />
+					<score arrow-nr="2" points="6" />
+					<score arrow-nr="3" points="10" />
+				</target>
+
+				<target nr="2">
+					<score arrow-nr="1" points="6" />
+					<score arrow-nr="2" points="11" />
+					<score arrow-nr="3" points="12" />
+				</target>
+
+				<target nr="3">
+					<score arrow-nr="1" points="1" />
+					<score arrow-nr="2" points="6" />
+					<score arrow-nr="3" points="6" />
+				</target>
+
+				<target nr="4">
+					<score arrow-nr="1" points="12" />
+				</target>
+			</score-card>
+
+			<score-card athlete-id="a6">
+				<target nr="1">
+					<score arrow-nr="1" points="1" />
+					<score arrow-nr="2" points="9" />
+					<score arrow-nr="3" points="9" />
+				</target>
+
+				<target nr="2">
+					<score arrow-nr="1" points="6" />
+					<score arrow-nr="2" points="8" />
+					<score arrow-nr="3" points="9" />
+				</target>
+
+				<target nr="3">
+					<score arrow-nr="1" points="6" />
+					<score arrow-nr="2" points="12" />
+				</target>
+
+				<target nr="4">
+					<score arrow-nr="1" points="1" />
+					<score arrow-nr="2" points="8" />
+					<score arrow-nr="3" points="12" />
+				</target>
+			</score-card>
+
+			<score-card athlete-id="a7">
+				<target nr="1">
+					<score arrow-nr="1" points="10" />
+					<score arrow-nr="2" points="12" />
+				</target>
+
+				<target nr="2">
+					<score arrow-nr="1" points="6" />
+					<score arrow-nr="2" points="8" />
+					<score arrow-nr="3" points="10" />
+				</target>
+
+				<target nr="3">
+					<score arrow-nr="1" points="3" />
+					<score arrow-nr="2" points="6" />
+					<score arrow-nr="3" points="11" />
+				</target>
+
+				<target nr="4">
+					<score arrow-nr="1" points="1" />
+					<score arrow-nr="2" points="12" />
+				</target>
+			</score-card>
+
+			<score-card athlete-id="a8">
+				<target nr="1">
+					<score arrow-nr="1" points="5" />
+					<score arrow-nr="2" points="10" />
+					<score arrow-nr="3" points="12" />
+				</target>
+
+				<target nr="2">
+					<score arrow-nr="1" points="8" />
+					<score arrow-nr="2" points="9" />
+					<score arrow-nr="3" points="10" />
+				</target>
+
+				<target nr="3">
+					<score arrow-nr="1" points="1" />
+					<score arrow-nr="2" points="1" />
+					<score arrow-nr="3" points="12" />
+				</target>
+
+				<target nr="4">
+					<score arrow-nr="1" points="1" />
+					<score arrow-nr="2" points="4" />
+					<score arrow-nr="3" points="4" />
+				</target>
+			</score-card>
+		</round>
+
+		<round nr="5" date="2022-12-23">
+
+			<score-card athlete-id="a5">
+				<target nr="1">
+					<score arrow-nr="1" points="5" />
+					<score arrow-nr="2" points="6" />
+					<score arrow-nr="3" points="6" />
+				</target>
+
+				<target nr="2">
+					<score arrow-nr="1" points="6" />
+					<score arrow-nr="2" points="11" />
+					<score arrow-nr="3" points="12" />
+				</target>
+
+				<target nr="3">
+					<score arrow-nr="1" points="1" />
+					<score arrow-nr="2" points="6" />
+					<score arrow-nr="3" points="11" />
+				</target>
+
+				<target nr="4">
+					<score arrow-nr="1" points="5" />
+					<score arrow-nr="2" points="6" />
+					<score arrow-nr="3" points="12" />
+				</target>
+			</score-card>
+
+			<score-card athlete-id="a6">
+				<target nr="1">
+					<score arrow-nr="1" points="1" />
+					<score arrow-nr="2" points="9" />
+					<score arrow-nr="3" points="11" />
+				</target>
+
+				<target nr="2">
+					<score arrow-nr="1" points="6" />
+					<score arrow-nr="2" points="8" />
+					<score arrow-nr="3" points="10" />
+				</target>
+
+				<target nr="3">
+					<score arrow-nr="1" points="6" />
+					<score arrow-nr="2" points="12" />
+				</target>
+
+				<target nr="4">
+					<score arrow-nr="1" points="1" />
+					<score arrow-nr="2" points="8" />
+					<score arrow-nr="3" points="12" />
+				</target>
+			</score-card>
+
+			<score-card athlete-id="a7">
+				<target nr="1">
+					<score arrow-nr="1" points="10" />
+					<score arrow-nr="2" points="12" />
+				</target>
+
+				<target nr="2">
+					<score arrow-nr="1" points="6" />
+					<score arrow-nr="2" points="8" />
+					<score arrow-nr="3" points="12" />
+				</target>
+
+				<target nr="3">
+					<score arrow-nr="1" points="3" />
+					<score arrow-nr="2" points="6" />
+					<score arrow-nr="3" points="11" />
+				</target>
+
+				<target nr="4">
+					<score arrow-nr="1" points="1" />
+					<score arrow-nr="2" points="6" />
+					<score arrow-nr="3" points="12" />
+				</target>
+			</score-card>
+
+			<score-card athlete-id="a8">
+				<target nr="1">
+					<score arrow-nr="1" points="5" />
+					<score arrow-nr="2" points="10" />
+					<score arrow-nr="3" points="12" />
+				</target>
+
+				<target nr="2">
+					<score arrow-nr="1" points="8" />
+					<score arrow-nr="2" points="9" />
+					<score arrow-nr="3" points="11" />
+				</target>
+
+				<target nr="3">
+					<score arrow-nr="1" points="1" />
+					<score arrow-nr="2" points="9" />
+				</target>
+
+				<target nr="4">
+					<score arrow-nr="1" points="1" />
+					<score arrow-nr="2" points="4" />
+					<score arrow-nr="3" points="11" />
+				</target>
+			</score-card>
+		</round>
+
+	</group>
+
+</tournament>

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?><fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format"><fo:layout-master-set><fo:simple-page-master master-name="turnier-page" page-height="297.0mm" page-width="209.9mm" margin-bottom="8mm" margin-left="25mm" margin-right="10mm" margin-top="10mm"><fo:region-body margin-bottom="28mm" margin-left="0mm" margin-right="44mm" margin-top="20mm"/><fo:region-before extent="24pt" region-name="turnier-header"/><fo:region-after extent="24pt" region-name="turnier-footer"/></fo:simple-page-master></fo:layout-master-set><fo:page-sequence master-reference="turnier-page"><fo:flow flow-name="xsl-region-body" font-family="sans-serif" font-size="28pt"><fo:block margin-top="40mm"> World Outdoor Flint Archery Mail March </fo:block></fo:flow></fo:page-sequence><fo:page-sequence master-reference="turnier-page"><fo:static-content flow-name="turnier-header"><fo:block font-size="7pt" text-align-last="justify"> World Outdoor Flint Archery Mail March <fo:leader/>Overview</fo:block></fo:static-content><fo:flow flow-name="xsl-region-body" font-family="Times" font-size="9pt"><fo:block font-weight="bold" margin-top="40mm">Overview</fo:block><fo:list-block space-before="24pt"><fo:list-item><fo:list-item-label><fo:block>1.</fo:block></fo:list-item-label><fo:list-item-body start-indent="4mm"><fo:block text-align-last="justify">Gruppe 1<fo:leader leader-pattern="dots"/><fo:page-number-citation ref-id="d0e174"/></fo:block></fo:list-item-body></fo:list-item><fo:list-item><fo:list-item-label><fo:block>2.</fo:block></fo:list-item-label><fo:list-item-body start-indent="4mm"><fo:block text-align-last="justify">Gruppe 2<fo:leader leader-pattern="dots"/><fo:page-number-citation ref-id="d0e300"/></fo:block></fo:list-item-body></fo:list-item></fo:list-block></fo:flow></fo:page-sequence>
+        <fo:page-sequence master-reference="turnier-page">
+            <fo:static-content flow-name="turnier-header"><fo:block font-size="7pt" text-align-last="justify"> World Outdoor Flint Archery Mail March <fo:leader/>Gruppe 1</fo:block></fo:static-content>
+        
+            <fo:static-content flow-name="turnier-footer">
+                <fo:block font-size="7pt" text-align="end">
+                
+                    page <fo:page-number/>
+                </fo:block>
+            </fo:static-content>
+        
+            <fo:flow flow-name="xsl-region-body" font-family="Times" font-size="9pt">
+                
+                
+                <fo:block font-size="14pt" font-weight="bold" id="d0e174">
+                    Gruppe 1
+                </fo:block>
+                                
+                
+                <fo:block font-size="10pt" font-weight="bold" space-before="12pt">
+                    Schützen
+                </fo:block>
+                
+                    
+            <fo:block start-indent="0mm">    
+                
+                
+                
+                
+                
+            </fo:block>
+            
+        
+                
+                    
+            <fo:block start-indent="0mm">    
+                
+                
+                
+                
+                
+            </fo:block>
+            
+        
+                
+                    
+            <fo:block start-indent="0mm">    
+                
+                
+                
+                
+                
+            </fo:block>
+            
+        
+                
+                    
+            <fo:block start-indent="0mm">    
+                
+                
+                
+                
+                
+            </fo:block>
+            
+        
+                
+            </fo:flow>
+        </fo:page-sequence>    
+    
+        <fo:page-sequence master-reference="turnier-page">
+            <fo:static-content flow-name="turnier-header"><fo:block font-size="7pt" text-align-last="justify"> World Outdoor Flint Archery Mail March <fo:leader/>Gruppe 2</fo:block></fo:static-content>
+        
+            <fo:static-content flow-name="turnier-footer">
+                <fo:block font-size="7pt" text-align="end">
+                
+                    page <fo:page-number/>
+                </fo:block>
+            </fo:static-content>
+        
+            <fo:flow flow-name="xsl-region-body" font-family="Times" font-size="9pt">
+                
+                
+                <fo:block font-size="14pt" font-weight="bold" id="d0e300">
+                    Gruppe 2
+                </fo:block>
+                                
+                
+                <fo:block font-size="10pt" font-weight="bold" space-before="12pt">
+                    Schützen
+                </fo:block>
+                
+                    
+            <fo:block start-indent="0mm">    
+                
+                
+                
+                
+                
+            </fo:block>
+            
+        
+                
+                    
+            <fo:block start-indent="0mm">    
+                
+                
+                
+                
+                
+            </fo:block>
+            
+        
+                
+                    
+            <fo:block start-indent="0mm">    
+                
+                
+                
+                
+                
+            </fo:block>
+            
+        
+                
+                    
+            <fo:block start-indent="0mm">    
+                
+                
+                
+                
+                
+            </fo:block>
+            
+        
+                
+            </fo:flow>
+        </fo:page-sequence>    
+    <fo:page-sequence master-reference="turnier-page"><fo:static-content flow-name="turnier-header"><fo:block font-size="7pt" text-align-last="justify"> World Outdoor Flint Archery Mail March <fo:leader/>Scoreboard</fo:block></fo:static-content><fo:flow flow-name="xsl-region-body" font-family="Times" font-size="9pt"><fo:block font-weight="bold" margin-top="40mm">Scoreboard</fo:block><fo:list-block space-before="24pt">
+					 32 
+					 43 
+					 23 
+				
+					 21 
+					 73 
+					 56 
+				
+					 32 
+					 43 
+					 65 
+				
+					 33 
+					 21 
+					 22 
+				
+					 22 
+					 83 
+					 76 
+				
+					 22 
+					 23 
+					 21 
+				
+					 22 
+					 13 
+					 23 
+				
+					 22 
+					 33 
+					 36 
+				
+					 32 
+					 23 
+					 21 
+				
+					 32 
+					 53 
+					 6 
+				
+					 22 
+					 43 
+					 46 
+				
+					 28 
+					 34 
+					 21 
+				
+					12
+					11
+					21
+				
+					 32 
+					 23 
+					 56 
+				
+					 32 
+					 43 
+					 23 
+				
+					 22 
+					 42 
+					 12 
+				</fo:list-block></fo:flow></fo:page-sequence></fo:root>

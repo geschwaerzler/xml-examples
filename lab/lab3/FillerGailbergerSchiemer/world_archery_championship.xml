@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE collection SYSTEM "collection.dtd" >
+<collection>
+	<collection_name>World Archery Championship</collection_name>
+	<competition competition_id="c1">
+		<competition_name>WAC 2022</competition_name>
+		<competition_date>04.05.2022</competition_date>
+		<competition_country>Austria</competition_country>
+		<competition_city>Dornbirn</competition_city>
+		
+		<user user_id="u1">
+			<user_role_ref user_role_id="ur1"/>
+			<firstname>Florian</firstname>
+			<lastname>Schiemer</lastname>
+			<birthday>12.09.2002</birthday>
+			<email>florian.schiemer@students.fhv.at</email>
+			<username>flo003</username>
+			<password>54sag4a6e4b456sa4</password>
+		</user>
+		<user user_id="u2">
+			<user_role_ref user_role_id="ur2"/>
+			<firstname>Paul</firstname>
+			<lastname>Hammerer</lastname>
+			<birthday>07.06.2001</birthday>
+			<email>paul.hamerer@gmail.com</email>
+			<username>paul</username>
+			<password>yxbqewrydsbq</password>
+		</user>
+		<user user_id="u3">
+			<user_role_ref user_role_id="ur3"/>
+			<firstname>Simon</firstname>
+			<lastname>Bischof</lastname>
+			<birthday>01.12.1997</birthday>
+			<email>simon.bischof@hotmail.com</email>
+			<username>simon43</username>
+			<password>qtikajhdsboiüqewh</password>
+		</user>
+		
+		<user_role user_role_id="ur1">
+			<user_role_name>Athlete</user_role_name>
+			<is_IFAA_official>false</is_IFAA_official>
+		</user_role>
+		<user_role user_role_id="ur2">
+			<user_role_name>Fan</user_role_name>
+			<is_IFAA_official>false</is_IFAA_official>
+		</user_role>
+		<user_role user_role_id="ur3">
+			<user_role_name>Referee</user_role_name>
+			<is_IFAA_official>true</is_IFAA_official>
+		</user_role>
+		
+		<division division_id="d1">
+			<division_name>Adult</division_name>
+		</division>
+		
+		<shooting_style shooting_style_id="ss1">
+			<shooting_style_name>Compound</shooting_style_name>
+		</shooting_style>
+	
+		<athlete_registration athlete_registration_id="ar1">
+			<user_ref user_id="u1"/>
+			<division_ref division_id="d1"/>
+			<shooting_style_ref shooting_style_id="ss1"/>
+		</athlete_registration>
+		<athlete_registration athlete_registration_id="ar2">
+			<user_ref user_id="u2"/>
+			<division_ref division_id="d1"/>
+			<shooting_style_ref shooting_style_id="ss1"/>
+		</athlete_registration>
+		<athlete_registration athlete_registration_id="ar3">
+			<user_ref user_id="u3"/>
+			<division_ref division_id="d1"/>
+			<shooting_style_ref shooting_style_id="ss1"/>
+		</athlete_registration>
+		
+		<excecutive_group excecutive_group_id="eg1">
+			<user_ref user_id="u1"/>
+			<user_ref user_id="u3"/>
+			<date>03.05.2022</date>
+		</excecutive_group>
+		<excecutive_group excecutive_group_id="eg2">
+			<user_ref user_id="u1"/>
+			<user_ref user_id="u2"/>
+			<date>04.05.2022</date>
+		</excecutive_group>
+		
+		<course course_id="co1">
+			<course_name>big_field</course_name>
+			<shooting_style_ref shooting_style_id="ss1"/>
+			<division_ref division_id="d1"/>
+		</course>
+		<course course_id="co2">
+			<course_name>championship_field</course_name>
+			<shooting_style_ref shooting_style_id="ss1"/>
+			<division_ref division_id="d1"/>
+		</course>
+		
+		<article article_id="a1">
+			<article_title>Resume of the Competition 2022</article_title>
+			<article_description>asdf</article_description>
+			<article_body>kjbknhe k hsashb  qakwhyks i aks pjhsak  ykbhoiqhew b akj bh. </article_body>
+			<datetime>03.05.2022 11:00</datetime>
+		</article>
+		<article article_id="a3">
+			<article_title>Lorem Ipsum is simply dummy text</article_title>
+			<article_description>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</article_description>
+			<article_body>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </article_body>
+			<datetime>08.05.2022 20:20</datetime>
+		</article>
+		
+		<penalty penalty_id="p1">
+			<penalty_reason>entry fee not paid</penalty_reason>
+			<user_ref user_id="u1"/>
+			<date>04.05.2022</date>
+		</penalty>
+	
+	</competition>
+	
+	<competition competition_id="c2">
+		<competition_name>WAC 2023</competition_name>
+		<competition_date>11.07.2023</competition_date>
+		<competition_country>Austria</competition_country>
+		<competition_city>Graz</competition_city>
+		
+		<user user_id="u5">
+			<user_role_ref user_role_id="ur1"/>
+			<firstname>Martin</firstname>
+			<lastname>Fuchs</lastname>
+			<birthday>25.12.2000</birthday>
+			<email>martin.fuchs@gmail.at</email>
+			<username>martin3</username>
+			<password>asdghj30asdhgkjl</password>
+		</user>
+		
+		<division division_id="d2">
+			<division_name>Adult</division_name>
+		</division>
+		
+		<shooting_style shooting_style_id="ss2">
+			<shooting_style_name>Compound</shooting_style_name>
+		</shooting_style>
+	
+		<athlete_registration athlete_registration_id="ar4">
+			<user_ref user_id="u5"/>
+			<division_ref division_id="d2"/>
+			<shooting_style_ref shooting_style_id="ss2"/>
+		</athlete_registration>
+		
+		<excecutive_group excecutive_group_id="eg3">
+			<user_ref user_id="u2"/>
+			<date>12.07.2022</date>
+		</excecutive_group>
+		
+		<course course_id="co3">
+			<course_name>little_fence</course_name>
+			<shooting_style_ref shooting_style_id="ss2"/>
+			<division_ref division_id="d2"/>
+		</course>
+		
+		<article article_id="a2">
+			<article_title>Resume of the Competition 2023</article_title>
+			<article_description>asdf</article_description>
+			<article_body>kjbknhe k hsashb  qakwhyks i aks pjhsak  ykbhoiqhew b akj bh. </article_body>
+			<datetime>03.05.2022 11:00</datetime>
+		</article>
+		
+		<penalty penalty_id="p2">
+			<penalty_reason>entry fee not paid</penalty_reason>
+			<user_ref user_id="u3"/>
+			<date>23.05.2022</date>
+		</penalty>
+		<penalty penalty_id="p3">
+			<penalty_reason>entry fee not paid</penalty_reason>
+			<user_ref user_id="u5"/>
+			<date>23.05.2022</date>
+		</penalty>
+	
+	</competition>
+</collection>

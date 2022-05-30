@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tournament SYSTEM "archery.dtd">
+<tournament>
+	<parcour id="p01" title="Green Hills">
+        <target id="t001" distance="30" size="35"/>
+        <target id="t002" distance="40" size="45"/>
+        <target id="t003" distance="50" size="55"/>
+        <target id="t004" distance="60" size="65"/>
+        <target id="t005" distance="35" size="40"/>
+    </parcour>
+    
+	<parcour id="p02" title="Star Light">
+		<target id="t001" distance="40" size="40"/>
+		<target id="t002" distance="55" size="60"/>
+		<target id="t003" distance="50" size="55"/>
+		<target id="t004" distance="45" size="65"/>
+		<target id="t005" distance="35" size="40"/>
+	</parcour>
+	
+	<parcour id="p03" title="Highrise">
+		<target id="t001" distance="30" size="35"/>
+		<target id="t002" distance="50" size="55"/>
+		<target id="t003" distance="35" size="40"/>
+		<target id="t004" distance="55" size="60"/>
+	</parcour>
+	
+	<archer id="a1">
+		<fname>Alexander</fname>
+		<lname>Kolar</lname>
+		<nationality>Austria</nationality>
+		<birthdate>24.03.2002</birthdate>
+		<archer_profile>
+			<class>Barebow</class>
+			<division>Amateur</division>
+		</archer_profile>
+		<archer_profile>
+			<class>Freestyle</class>
+			<division>Veteran</division>
+		</archer_profile>
+	</archer>
+	
+	<archer id="a2">
+		<fname>Johannes</fname>
+		<lname>Riedmann</lname>
+		<nationality>Austria</nationality>
+		<birthdate>26.10.2000</birthdate>
+		<archer_profile>
+			<class>Barebow</class>
+			<division>Amateur</division>
+		</archer_profile>
+		<archer_profile>
+			<class>Historical Bow</class>
+			<division>Veteran</division>
+		</archer_profile>
+	</archer>
+	
+	<archer id="a3">
+		<fname>Alyssa</fname>
+		<lname>Wozasek</lname>
+		<nationality>Austria</nationality>
+		<birthdate>12.08.2001</birthdate>
+		<archer_profile>
+			<class>Barebow</class>
+			<division>Amateur</division>
+		</archer_profile>
+		<archer_profile>
+			<class>Longbow</class>
+			<division>Veteran</division>
+		</archer_profile>
+	</archer>
+	
+	
+	<archer id="a4">
+		<fname>Bruno</fname>
+		<lname>Mohaupt</lname>
+		<nationality>Germany</nationality>
+		<birthdate>22.06.2002</birthdate>
+		<archer_profile>
+			<class>Longbow</class>
+			<division>Veteran</division>
+		</archer_profile>
+		<archer_profile>
+			<class>Historical Bow</class>
+			<division>Veteran</division>
+		</archer_profile>
+	</archer>
+	
+	<archer id="a5">
+		<fname>Tobias</fname>
+		<lname>Loacker</lname>
+		<nationality>Austria</nationality>
+		<birthdate>05.08.2001</birthdate>
+		<archer_profile>
+			<class>Freestyle</class>
+			<division>Veteran</division>
+		</archer_profile>
+		<archer_profile>
+			<class>Historical Bow</class>
+			<division>Veteran</division>
+		</archer_profile>
+	</archer>
+	
+	<archer id="a6">
+		<fname>Ilayda</fname>
+		<lname>Koçak</lname>
+		<nationality>Turkey</nationality>
+		<birthdate>02.01.2001</birthdate>
+		<archer_profile>
+			<class>Freestyle</class>
+			<division>Veteran</division>
+		</archer_profile>
+		<archer_profile>
+			<class>Longbow</class>
+			<division>Veteran</division>
+		</archer_profile>
+	</archer>
+	
+	
+	
+	<group id="A" class="Barebow" division="Amateur">
+		<member archerid="a1"/>
+		<member archerid="a2"/>
+		<member archerid="a3"/>			
+	</group>
+	
+	<group id="B" class="Longbow" division="Veteran">
+		<member archerid="a3"/>
+		<member archerid="a4"/>
+		<member archerid="a6"/>			
+	</group>
+	
+	<group id="C" class="Freestyle" division="Veteran">
+		<member archerid="a1"/>
+		<member archerid="a5"/>
+		<member archerid="a6"/>			
+	</group>
+	
+	
+	<scoreboard groupid="A" parcourid="p01">
+		<shooting-target targetid="t001">
+			<score archerid="a1">
+				<shot id="s1" points="10"/>
+				<shot id="s2" points="2"/>
+				<shot id="s3" points="7"/>
+			</score>
+
+			<score archerid="a2">
+				<shot id="s1" points="0"/>
+				<shot id="s2" points="2"/>
+				<shot id="s3" points="4"/>
+			</score>
+			<score archerid="a3">
+				<shot id="s1" points="9"/>
+				<shot id="s2" points="10"/>
+				<shot id="s3" points="8"/>
+			</score>
+		</shooting-target>
+		
+		<shooting-target targetid="t002">
+			<score archerid="a1">
+				<shot id="s1" points="5"/>
+				<shot id="s2" points="8"/>
+				<shot id="s3" points="6"/>
+			</score>
+			<score archerid="a2">
+				<shot id="s1" points="1"/>
+				<shot id="s2" points="8"/>
+				<shot id="s3" points="3"/>
+			</score>
+			<score archerid="a3">
+				<shot id="s1" points="8"/>
+				<shot id="s2" points="9"/>
+				<shot id="s3" points="7"/>
+			</score>
+		</shooting-target>
+		
+		<shooting-target targetid="t003">
+			<score archerid="a1">
+				<shot id="s1" points="9"/>
+				<shot id="s2" points="10"/>
+				<shot id="s3" points="4"/>
+			</score>
+			<score archerid="a2">
+				<shot id="s1" points="0"/>
+				<shot id="s2" points="2"/>
+				<shot id="s3" points="4"/>
+			</score>
+			<score archerid="a3">
+				<shot id="s1" points="9"/>
+				<shot id="s2" points="10"/>
+				<shot id="s3" points="8"/>
+			</score>
+		</shooting-target>
+		
+		<shooting-target targetid="t004">
+			<score archerid="a1">
+				<shot id="s1" points="3"/>
+				<shot id="s2" points="7"/>
+				<shot id="s3" points="10"/>
+			</score>
+			<score archerid="a2">
+				<shot id="s1" points="6"/>
+				<shot id="s2" points="1"/>
+				<shot id="s3" points="0"/>
+			</score>
+			<score archerid="a3">
+				<shot id="s1" points="4"/>
+				<shot id="s2" points="10"/>
+				<shot id="s3" points="7"/>
+			</score>
+		</shooting-target>
+		
+		<shooting-target targetid="t005">
+			<score archerid="a1">
+				<shot id="s1" points="4"/>
+				<shot id="s2" points="7"/>
+				<shot id="s3" points="0"/>
+			</score>
+			<score archerid="a2">
+				<shot id="s1" points="5"/>
+				<shot id="s2" points="10"/>
+				<shot id="s3" points="8"/>
+			</score>
+			<score archerid="a3">
+				<shot id="s1" points="10"/>
+				<shot id="s2" points="10"/>
+				<shot id="s3" points="8"/>
+			</score>
+		</shooting-target>
+	</scoreboard>
+	
+	<scoreboard groupid="B" parcourid="p02">
+		<shooting-target targetid="t001">
+			<score archerid="a3">
+				<shot id="s1" points="4"/>
+				<shot id="s2" points="6"/>
+				<shot id="s3" points="8"/>
+			</score>
+
+			<score archerid="a4">
+				<shot id="s1" points="2"/>
+				<shot id="s2" points="9"/>
+				<shot id="s3" points="10"/>
+			</score>
+			<score archerid="a6">
+				<shot id="s1" points="1"/>
+				<shot id="s2" points="6"/>
+				<shot id="s3" points="4"/>
+			</score>
+		</shooting-target>
+		
+		<shooting-target targetid="t002">
+			<score archerid="a3">
+				<shot id="s1" points="7"/>
+				<shot id="s2" points="6"/>
+				<shot id="s3" points="1"/>
+			</score>
+			<score archerid="a4">
+				<shot id="s1" points="1"/>
+				<shot id="s2" points="0"/>
+				<shot id="s3" points="2"/>
+			</score>
+			<score archerid="a6">
+				<shot id="s1" points="4"/>
+				<shot id="s2" points="8"/>
+				<shot id="s3" points="9"/>
+			</score>
+		</shooting-target>
+		
+		<shooting-target targetid="t003">
+			<score archerid="a3">
+				<shot id="s1" points="4"/>
+				<shot id="s2" points="6"/>
+				<shot id="s3" points="3"/>
+			</score>
+			<score archerid="a4">
+				<shot id="s1" points="6"/>
+				<shot id="s2" points="9"/>
+				<shot id="s3" points="1"/>
+			</score>
+			<score archerid="a6">
+				<shot id="s1" points="9"/>
+				<shot id="s2" points="10"/>
+				<shot id="s3" points="1"/>
+			</score>
+		</shooting-target>
+		
+		<shooting-target targetid="t004">
+			<score archerid="a3">
+				<shot id="s1" points="3"/>
+				<shot id="s2" points="3"/>
+				<shot id="s3" points="3"/>
+			</score>
+			<score archerid="a4">
+				<shot id="s1" points="1"/>
+				<shot id="s2" points="1"/>
+				<shot id="s3" points="0"/>
+			</score>
+			<score archerid="a6">
+				<shot id="s1" points="3"/>
+				<shot id="s2" points="1"/>
+				<shot id="s3" points="2"/>
+			</score>
+		</shooting-target>
+		
+		<shooting-target targetid="t005">
+			<score archerid="a3">
+				<shot id="s1" points="9"/>
+				<shot id="s2" points="8"/>
+				<shot id="s3" points="10"/>
+			</score>
+			<score archerid="a4">
+				<shot id="s1" points="7"/>
+				<shot id="s2" points="10"/>
+				<shot id="s3" points="5"/>
+			</score>
+			<score archerid="a6">
+				<shot id="s1" points="10"/>
+				<shot id="s2" points="10"/>
+				<shot id="s3" points="10"/>
+			</score>
+		</shooting-target>
+	</scoreboard>
+</tournament>
+	

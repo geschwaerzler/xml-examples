@@ -118,7 +118,7 @@
 	<point pID="p2" pname="Points 2nd Try"/>
 	<point pID="p3" pname="Points 3rd Try"/>
 	
-	<group name="Gruppe Recurve Outdoor" division-id="D1" discipline-id="B1">
+	<group name="Gruppe 1: Recurve Outdoor" division-id="D1" discipline-id="B1" tag="15.05.2022">
 		<member archer-id="a1"> 
 			<score target-id="t1">
 				<arrow pID="p1" points="100"/>
@@ -190,7 +190,7 @@
 		</member>	
 	</group>
 	
-	<group name="Gruppe Barebow Division" division-id="D2" discipline-id="B2">
+	<group name="Gruppe 2: Barebow Division" division-id="D2" discipline-id="B2" tag="15.05.2022">
 		
 		<member archer-id="a5">
 			<score target-id="t1">
@@ -265,7 +265,7 @@
 		</member>		
 	</group>
 	
-	<group name="Gruppe Barebow Division" division-id="D3" discipline-id="B3">
+	<group name="Gruppe 3: Barebow Division" division-id="D3" discipline-id="B3" tag="16.05.2022">
 		<member archer-id="a9">
 			<score target-id="t1">
 				<arrow pID="p1" points="100"/>
@@ -338,7 +338,7 @@
 		</member>
 		
 		</group>
-		<group name="Gruppe Bowhunter Fingers Division" division-id="D4" discipline-id="B4">
+		<group name="Gruppe 4: Bowhunter Fingers Division" division-id="D4" discipline-id="B4" tag="16.05.2022">
 		
 		<member archer-id="a13">
 			<score target-id="t1">
