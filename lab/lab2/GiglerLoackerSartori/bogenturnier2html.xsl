@@ -17,45 +17,23 @@
 		<ol>
 			<xsl:for-each select="gruppe">
 				<li>
-				
-<!-- Verlinkung läuft bei uns hier nur korrekt, wenn wir die hmtl datei nachbearbeiten und den anchor bei gruppe 2 setzen-->
-<!-- Wir wussten nicht wie man für jedes angeführte Element einen eindeutigen anchor setzt ohne die Gruppen einzeln auzuzählen-->
-<!-- Aber die Links funktionieren -->
-
-					<a href="#gruppe1"><xsl:value-of select="@id"/> </a>
+					<a href="#{@id}"><xsl:value-of select="@id"/> </a>
 					<xsl:value-of select="id(@klassen-id)"/>
 				</li>
 			</xsl:for-each>
 		</ol>
-		
-		<xsl:variable name="test"></xsl:variable>
-		
-		
-		
-		
 		<xsl:apply-templates select="gruppe"/>
-		
-		
-		<h2>Scoreboard </h2>
-		
-		<ol>
-		
-		
-		</ol>
-		
-		<xsl:apply-templates select="scoreboard"/>
+		<xsl:apply-templates select="//gruppe/mitglied"/>
 	</body>
 	</html>
 	
 	</xsl:template>
 	
 	<xsl:template match="gruppe"> 
-		<h2>
-			<a name="gruppe1"><xsl:value-of select="@id"/> </a>
+		<h2 id="{@id}">
+			<xsl:value-of select="@id"/>
 			<xsl:value-of select="id(@klassen-id)"/>
-			
 		</h2>
-		
 		<h3> Mitglieder </h3>
 		<ol>
 			<xsl:for-each select="mitglied">
@@ -67,33 +45,56 @@
 				</li>
 			</xsl:for-each>
 		</ol>
+		<br/>
+		<br/>
+		
 	</xsl:template>
 	
-	<xsl:template match="scoreboard"> 	
-	
-		<h3> Scoreboard	</h3>
-		
-		<ol>
-		<xsl:for-each select="mitglied">
-		<xsl:variable name="Schütze" select="id(@schuetze-id)"></xsl:variable>
-		<li xml:space="preserve">
-		
+	<xsl:template match="//gruppe/mitglied"> 
+	<xsl:variable name="Schütze" select="id(@schuetze-id)"/>	
+		<h2 xml:space="preserve"> Scorecard 
 			<xsl:value-of select="$Schütze/firstname"/>
-			<xsl:value-of select="$Schütze/lastname"/>
+			 <xsl:value-of select="$Schütze/lastname"/> 
+		</h2>
+		<table style="border: 1px solid black;">
+			<tr>
+				<td style="font-weight:600; min-width:100px">Target</td>
+				<td style="font-weight:600; min-width:100px">Shot 1</td>
+				<td style="font-weight:600; min-width:100px">Shot 2</td>
+				<td style="font-weight:600; min-width:100px">Shot 3</td>
+				<td style="font-weight:600; min-width:100px">Gesamt</td>
+			</tr>
+				<xsl:for-each select="scoreboard/ziele">
+				<tr>
+					<td>
+						<xsl:variable name="zielid" select="@target-id"></xsl:variable>
+						<xsl:value-of select="//target[@id = $zielid]/text()"/>
+					</td>
+					<td>
+						<xsl:value-of select="punkte[position()=1]/text()"/>
+					</td>
+					<td>
+						<xsl:value-of select="punkte[position()=2]/text()"/>
+					</td>
+					<td>
+						<xsl:value-of select="punkte[position()=3]/text()"/>
+					</td>
+					<td>
+						<xsl:value-of select="sum(punkte/text())"/>
+					</td>
+				</tr>
+				</xsl:for-each>
+			<tr>
+				<td></td><td></td><td></td><td></td>
+				<td><xsl:value-of select="sum(scoreboard/ziele/punkte/text())"/></td>
+			</tr>	
+				
+				
+			<tr>
 			
-		
-		
-		</li>
-		
-		
-		</xsl:for-each>
-
-		</ol>
-		
-	
+			</tr>
+		</table>
 	
 	</xsl:template>
-	
-	
 	
 </xsl:stylesheet>

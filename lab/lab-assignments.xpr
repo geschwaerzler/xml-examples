@@ -10,6 +10,26 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
+                                    <String>lab2/JaegerSKarnerKenel/archerytournament.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>Tournament</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
                                     <String>lab2/JaegerSKresserMohaupt/archerytournament.xml</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -76,10 +96,10 @@
                                     <String></String>
                                 </field>
                                 <field name="inputXSLURL">
-                                    <String>${pdu}/lab2/AignerEltayebKircev/Tournamentwww.xsl</String>
+                                    <String>${pdu}/lab2/GiglerLoackerSartori/bogenturnier2html.xsl</String>
                                 </field>
                                 <field name="inputXMLURL">
-                                    <String>${pdu}/lab2/JaegerSKresserMohaupt/archerytournament.xml</String>
+                                    <String>${pdu}/lab2/GiglerLoackerSartori/bogenturnier.xml</String>
                                 </field>
                                 <field name="defaultScenario">
                                     <Boolean>false</Boolean>
@@ -97,7 +117,7 @@
                                     <Boolean>false</Boolean>
                                 </field>
                                 <field name="outputResource">
-                                    <String>${pd}/lab2/JaegerSKresserMohaupt/Untitled.hmtl</String>
+                                    <String>${pd}/lab2/GiglerLoackerSartori/Untitled.html</String>
                                 </field>
                                 <field name="openOtherLocationInBrowser">
                                     <Boolean>false</Boolean>
