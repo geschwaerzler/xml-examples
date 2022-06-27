@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE archerytournament SYSTEM "archerytournament_final.dtd">
+
+
+
+<archerytournament name="Vorarlberger Archery Landesmeisterschaft 2022">
+	
+	<discipline id="D1">Outdoor Archery</discipline>
+	<discipline id="D2">Indoor Archery</discipline>
+	<discipline id="D3">Field Archery</discipline>
+	<discipline id="D4">Para Archery</discipline>
+	<discipline id="D5">Field Archery</discipline>
+	
+	<division id="d1">Target Recurve Bow</division>
+	<division id="d2">Conventional Flight Bow</division>
+	<division id="d3">American Longbow</division>
+	<division id="d4">English Longbow</division>
+	<division id="d5">Compound Flight Bow</division>
+	<division id="d6">Foot Bow</division>
+	
+	<athlete id ="a0">
+		<firstname>Gerhard</firstname>
+		<lastname>Schwaerzler</lastname>
+		
+		<scorecard parkour-id = "p1">
+			<score shot="1" target-id = "t1">5</score>
+			<score shot="2" target-id = "t1">7</score>
+			<score shot="3" target-id = "t1">9</score>
+			<score shot="1" target-id = "t2">1</score>
+			<score shot="2" target-id = "t2">2</score>
+			<score shot="3" target-id = "t2">7</score>
+			<score shot="1" target-id = "t3">3</score>
+			<score shot="2" target-id = "t3">8</score>
+			<score shot="3" target-id = "t3">2</score>
+		</scorecard>
+		
+		<scorecard parkour-id = "p2">
+			<score shot="1" target-id = "t4"/>
+			<score shot="2" target-id = "t4"/>
+			<score shot="3" target-id = "t4"/>
+			<score shot="1" target-id = "t5"/>
+			<score shot="2" target-id = "t5"/>
+			<score shot="3" target-id = "t5"/>
+			<score shot="1" target-id = "t6"/>
+			<score shot="2" target-id = "t6"/>
+			<score shot="3" target-id = "t6"/>
+		</scorecard>
+		
+		<scorecard parkour-id = "p3">
+			<score shot="1" target-id = "t7"/>
+			<score shot="2" target-id = "t7"/>
+			<score shot="3" target-id = "t7"/>
+			<score shot="1" target-id = "t8"/>
+			<score shot="2" target-id = "t8"/>
+			<score shot="3" target-id = "t8"/>
+			<score shot="1" target-id = "t9"/>
+			<score shot="2" target-id = "t9"/>
+			<score shot="3" target-id = "t9"/>
+		</scorecard>
+	</athlete>
+	
+	<athlete id ="a1">
+		<firstname>Samual</firstname>
+		<lastname>Amann</lastname>
+		
+		<scorecard parkour-id = "p1">
+			<score shot="1" target-id = "t1"/>
+			<score shot="2" target-id = "t1"/>
+			<score shot="3" target-id = "t1"/>
+			<score shot="1" target-id = "t2"/>
+			<score shot="2" target-id = "t2"/>
+			<score shot="3" target-id = "t2"/>
+			<score shot="1" target-id = "t3"/>
+			<score shot="2" target-id = "t3"/>
+			<score shot="3" target-id = "t3"/>
+		</scorecard>
+		
+		<scorecard parkour-id = "p2">
+			<score shot="1" target-id = "t4"/>
+			<score shot="2" target-id = "t4"/>
+			<score shot="3" target-id = "t4"/>
+			<score shot="1" target-id = "t5"/>
+			<score shot="2" target-id = "t5"/>
+			<score shot="3" target-id = "t5"/>
+			<score shot="1" target-id = "t6"/>
+			<score shot="2" target-id = "t6"/>
+			<score shot="3" target-id = "t6"/>
+		</scorecard>
+		
+		<scorecard parkour-id = "p3">
+			<score shot="1" target-id = "t7"/>
+			<score shot="2" target-id = "t7"/>
+			<score shot="3" target-id = "t7"/>
+			<score shot="1" target-id = "t8"/>
+			<score shot="2" target-id = "t8"/>
+			<score shot="3" target-id = "t8"/>
+			<score shot="1" target-id = "t9"/>
+			<score shot="2" target-id = "t9"/>
+			<score shot="3" target-id = "t9"/>
+		</scorecard>
+	</athlete>
+	
+	<athlete id ="a2">
+		<firstname>Thomes</firstname>
+		<lastname>Benetel</lastname>
+		
+		<scorecard parkour-id = "p1">
+			<score shot="1" target-id = "t1"/>
+			<score shot="2" target-id = "t1"/>
+			<score shot="3" target-id = "t1"/>
+			<score shot="1" target-id = "t2"/>
+			<score shot="2" target-id = "t2"/>
+			<score shot="3" target-id = "t2"/>
+			<score shot="1" target-id = "t3"/>
+			<score shot="2" target-id = "t3"/>
+			<score shot="3" target-id = "t3"/>
+		</scorecard>
+		
+		<scorecard parkour-id = "p2">
+			<score shot="1" target-id = "t4"/>
+			<score shot="2" target-id = "t4"/>
+			<score shot="3" target-id = "t4"/>
+			<score shot="1" target-id = "t5"/>
+			<score shot="2" target-id = "t5"/>
+			<score shot="3" target-id = "t5"/>
+			<score shot="1" target-id = "t6"/>
+			<score shot="2" target-id = "t6"/>
+			<score shot="3" target-id = "t6"/>
+		</scorecard>
+		
+		<scorecard parkour-id = "p3">
+			<score shot="1" target-id = "t7"/>
+			<score shot="2" target-id = "t7"/>
+			<score shot="3" target-id = "t7"/>
+			<score shot="1" target-id = "t8"/>
+			<score shot="2" target-id = "t8"/>
+			<score shot="3" target-id = "t8"/>
+			<score shot="1" target-id = "t9"/>
+			<score shot="2" target-id = "t9"/>
+			<score shot="3" target-id = "t9"/>
+		</scorecard>
+	</athlete>
+	
+	<athlete id ="a3">
+		<firstname>Kristoff</firstname>
+		<lastname>Kaerner</lastname>
+		
+		<scorecard parkour-id = "p1">
+			<score shot="1" target-id = "t1"/>
+			<score shot="2" target-id = "t1"/>
+			<score shot="3" target-id = "t1"/>
+			<score shot="1" target-id = "t2"/>
+			<score shot="2" target-id = "t2"/>
+			<score shot="3" target-id = "t2"/>
+			<score shot="1" target-id = "t3"/>
+			<score shot="2" target-id = "t3"/>
+			<score shot="3" target-id = "t3"/>
+		</scorecard>
+		
+		<scorecard parkour-id = "p2">
+			<score shot="1" target-id = "t4"/>
+			<score shot="2" target-id = "t4"/>
+			<score shot="3" target-id = "t4"/>
+			<score shot="1" target-id = "t5"/>
+			<score shot="2" target-id = "t5"/>
+			<score shot="3" target-id = "t5"/>
+			<score shot="1" target-id = "t6"/>
+			<score shot="2" target-id = "t6"/>
+			<score shot="3" target-id = "t6"/>
+		</scorecard>
+		
+		<scorecard parkour-id = "p3">
+			<score shot="1" target-id = "t7"/>
+			<score shot="2" target-id = "t7"/>
+			<score shot="3" target-id = "t7"/>
+			<score shot="1" target-id = "t8"/>
+			<score shot="2" target-id = "t8"/>
+			<score shot="3" target-id = "t8"/>
+			<score shot="1" target-id = "t9"/>
+			<score shot="2" target-id = "t9"/>
+			<score shot="3" target-id = "t9"/>
+		</scorecard>
+	</athlete>
+	
+	<group name="Conventional Outdoor" discipline-id = "D1" division-id="d2">
+		<member athlete-id="a0"/>
+		<member athlete-id="a1"/>
+	</group>
+	
+	<group name="Compound Para Archery" discipline-id = "D1" division-id="d3">
+		<member athlete-id="a2"/>
+		<member athlete-id="a3"/>
+	</group>
+	
+	<parkour name="10m" id="p1">
+		<target id="t1"/>
+		<target id="t2"/>
+		<target id="t3"/>
+	</parkour>
+	
+	<parkour name="20m" id="p2">
+		<target id= "t4"/>
+		<target id= "t5"/>
+		<target id= "t6"/>
+	</parkour>
+	
+	<parkour name="25m" id="p3">
+		<target id= "t7"/>
+		<target id= "t8"/>
+		<target id= "t9"/>
+	</parkour>
+	
+</archerytournament>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT Bogenturnier (Schuetzenprofil,Gruppen+,Bogenklasse+,Parkour+,Division+)>
+
+<!ELEMENT Schuetzenprofil (Schuetze*)>
+
+<!ELEMENT Schuetze (Schuetze_Vorname,Schuetze_Nachname,Schuetze_Alter,Nationalitaet,Klasse+,Gruppe+)>
+<!ATTLIST Schuetze
+		schuetze_id 	ID 	#REQUIRED
+>
+
+<!ELEMENT Schuetze_Vorname (#PCDATA)>
+<!ELEMENT Schuetze_Nachname (#PCDATA)>
+<!ELEMENT Schuetze_Alter (#PCDATA)>
+<!ELEMENT Nationalitaet (#PCDATA)>
+
+
+<!ELEMENT Klasse (Skill)>
+<!ATTLIST Klasse
+		bogenklasse_id	(B1|B2|B3|B4)	#REQUIRED
+>
+
+
+<!ELEMENT Skill EMPTY>
+<!ATTLIST Skill
+		division_id		(D1|D2)		#REQUIRED
+>
+
+
+<!ELEMENT Gruppe (Punktezahl*)>
+<!ATTLIST Gruppe 
+		gruppen_id	(G1|G2|G3)	#REQUIRED
+>
+
+
+<!ELEMENT Punktezahl (#PCDATA)>
+<!ATTLIST Punktezahl
+		target_id	CDATA	#REQUIRED
+>
+
+
+<!ELEMENT Gruppen (Gruppe1,Gruppe2,Gruppe3)>
+
+<!ELEMENT Gruppe1 (#PCDATA|Gruppenklasse|Gruppenskill)*>
+<!ATTLIST Gruppe1
+		gruppen_id	(G1|G2|G3) #REQUIRED
+>
+
+
+<!ELEMENT Gruppe2 (#PCDATA|Gruppenklasse|Gruppenskill)*>
+<!ATTLIST Gruppe2
+		gruppen_id	(G1|G2|G3) #REQUIRED
+>
+
+
+<!ELEMENT Gruppe3 (#PCDATA|Gruppenklasse|Gruppenskill)*>
+<!ATTLIST Gruppe3
+		gruppen_id	(G1|G2|G3) #REQUIRED
+>
+
+
+<!ELEMENT Gruppenklasse EMPTY>
+<!ATTLIST Gruppenklasse
+		bogenklasse_id	(B1|B2|B3|B4) #REQUIRED
+>
+
+
+<!ELEMENT Gruppenskill EMPTY>
+<!ATTLIST Gruppenskill
+		division_id	(D1|D2) #REQUIRED
+>
+
+
+<!ELEMENT Bogenklasse (#PCDATA)>
+<!ATTLIST Bogenklasse
+		bogenklasse_id	(B1|B2|B3|B4) #REQUIRED
+>
+
+<!ELEMENT Parkour (Target+)>
+
+
+<!ELEMENT Target (#PCDATA)>
+<!ATTLIST Target
+		id		CDATA 	#REQUIRED
+>
+
+
+<!ELEMENT Division (#PCDATA)>
+<!ATTLIST Division
+		division_id		(D1|D2) 	#REQUIRED
+>
+
+
+
+
+
+
+

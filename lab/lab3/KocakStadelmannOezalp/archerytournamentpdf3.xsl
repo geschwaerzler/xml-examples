@@ -2,6 +2,7 @@
 <xsl:stylesheet version="1.0"
 	xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 	xmlns:fo="http://www.w3.org/1999/XSL/Format">
+	
 	<xsl:template match="/archery-tournament">
 		<!-- TODO: Auto-generated template -->
 
@@ -28,7 +29,7 @@
 			</fo:layout-master-set>
 
 			<fo:page-sequence master-reference="archery-page">
-
+	
 				<fo:flow flow-name="xsl-region-body"
 					font-family="sans-serif" font-size="28pt">
 					<fo:block margin-top="40mm">
@@ -56,7 +57,12 @@
 					
 				</fo:flow>
 			</fo:page-sequence>
-			
+		
+			<fo:page-sequence master-reference="archery-page">
+				<fo:flow flow-name="xsl-region-body" font-family="Times" font-size="9pt">
+					<xsl:apply-templates select="group" mode="details"/>
+				</fo:flow>
+			</fo:page-sequence>
 			<xsl:apply-templates select="athlete"/>
 			<xsl:apply-templates select="member"/>	
 
@@ -81,6 +87,32 @@
 		</fo:list-item>
 		
 	</xsl:template>
+	
+	
+	<xsl:template match="group" mode="details">
+				<fo:block>
+					<xsl:value-of select="@name"/>, <xsl:value-of select="id(@division-id)/text()"/>
+				</fo:block>
+				
+				<fo:list-block id="{generate-id()}">
+					<xsl:for-each select="member">
+						<fo:list-item>
+							<fo:list-item-label>
+								<fo:block> <xsl:value-of select="position()" />. </fo:block>
+							</fo:list-item-label>
+							<fo:list-item-body start-indent="4mm">
+								<fo:block text-align-last="justify">
+						
+									<xsl:value-of select="id(@athlete-id)/firstname/text()"/>
+								</fo:block>
+							</fo:list-item-body>
+						</fo:list-item>
+					</xsl:for-each>
+				</fo:list-block>
+			
+		
+	</xsl:template>
+	
 	
 	<xsl:template match="member">
 		<fo:page-sequence master-reference="archery-page">
