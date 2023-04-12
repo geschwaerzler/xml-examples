@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addresses>
+	<title>DI Dr.</title>
+	<firstname>Gerhard</firstname>
+	<lastname>Schwärzler</lastname>
+	<address type="home">
+		<street>Rathausstraße 2</street>
+		<zip>6900</zip><city>Bregenz</city>
+	</address>
+	<address type="work">
+		<street>Hochschulstraße 1</street>
+		<zip>6850</zip><city>Dornbirn</city>
+	</address>
+	<e-mail>gerhard.schwaerzler@nu-gmbh.com</e-mail>
+	<phone>05574 5334444</phone>
+</addresses>
