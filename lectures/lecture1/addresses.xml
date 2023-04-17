@@ -1,16 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addresses>
-	<title>DI Dr.</title>
-	<firstname>Gerhard</firstname>
-	<lastname>Schwärzler</lastname>
-	<address type="home">
-		<street>Rathausstraße 2</street>
-		<zip>6900</zip><city>Bregenz</city>
-	</address>
-	<address type="work">
-		<street>Hochschulstraße 1</street>
-		<zip>6850</zip><city>Dornbirn</city>
-	</address>
-	<e-mail>gerhard.schwaerzler@nu-gmbh.com</e-mail>
-	<phone>05574 5334444</phone>
+	<person>
+		<title>DI Dr.</title>
+		<firstname>Gerhard</firstname>
+		<lastname>Schwärzler</lastname>
+		<address type="home">
+			<street>Rathausstraße 2</street>
+			<zip>6900</zip><city>Bregenz</city>
+		</address>
+		<address type="work">
+			<street>Hochschulstraße 1</street>
+			<zip>6850</zip><city>Dornbirn</city>
+		</address>
+		<e-mail>gerhard.schwaerzler@nu-gmbh.com</e-mail>
+		<phone type="landline">05574 5334444</phone>
+		<phone type="mobile">0664 123456677</phone>
+	</person>
+ 	<person> 
+ 		<title>DI Dr.</title> 
+ 		<firstname>Regine</firstname> 
+ 		<lastname>Kadgien</lastname> 
+ 		<address type="work"> 
+ 			<street>Hochschulstraße 1</street> 
+ 			<zip>6850</zip><city>Dornbirn</city> 
+ 		</address> 
+ 		<e-mail>regine.kadgien@fhv.at</e-mail> 
+ 		<phone type="landline">05572 792 0</phone> 
+ 	</person> 
+	<company>
+		<name>nu GmbH</name>
+		<address>
+			<street>Rathausstraße 2</street>
+			<zip>6900</zip><city>Bregenz</city>
+		</address>
+		<phone type="landline">05574 53344-0</phone>
+	</company>
 </addresses>
