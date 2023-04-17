@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT car-rental ANY>
+
+<!ELEMENT stadt (vermiet-station*)>
+<!ATTLIST stadt
+	stadtcode			ID #REQUIRED
+	name				CDATA #REQUIRED
+	einwohner_anzahl	CDATA #REQUIRED
+>
+
+<!--  -->
+<!ELEMENT vermiet-station EMPTY>
+<!ATTLIST vermiet-station
+	id					ID #REQUIRED
+	stations_name		CDATA #REQUIRED
+	adresse				CDATA #REQUIRED
+	mitarbeiter_anzahl	CDATA #REQUIRED
+	geoeffnet_von		CDATA #IMPLIED
+	geoeffnet_bis		CDATA #IMPLIED
+>
+
+<!ELEMENT autokategorie (autotyp+)>
+<!ATTLIST autokategorie
+	kategorie_bezeichnung 	CDATA #REQUIRED
+	grundtarif				CDATA #REQUIRED
+	km_preis				CDATA #REQUIRED
+>
+
+<!ELEMENT autotyp (extraausstattung*)>
+<!ATTLIST autotyp
+	id				ID #REQUIRED
+	typ_bezeichnung	CDATA #REQUIRED
+	benzinverbrauch	CDATA #REQUIRED
+>
+
+<!ELEMENT extraausstattung EMPTY>
+<!ATTLIST extraausstattung
+	id					ID #REQUIRED
+	extras_bezeichnung	CDATA #REQUIRED
+	aufpreis			CDATA #REQUIRED
+>
+
+<!ELEMENT auto (verfuegt_ueber*)>
+<!ATTLIST auto
+	autotyp-id			ID #REQUIRED
+	farbe				CDATA #REQUIRED
+	kennzeichen			CDATA #REQUIRED
+	km_stand			CDATA #REQUIRED
+	vermiet-station-id	IDREF #REQUIRED
+>
+
+<!ELEMENT kunde (reservierung*)>
+<!ELEMENT verfuegt_ueber EMPTY>
+<!ELEMENT reservierung (mietvertrag?)>
+<!ELEMENT mietvertrag EMPTY>

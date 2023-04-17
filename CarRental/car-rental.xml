@@ -1,18 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE car-rental SYSTEM "car-rental-solution.dtd">
+<!DOCTYPE car-rental SYSTEM "car-rental.dtd">
 <car-rental>
 	<stadt stadtcode="B__" name="Bregenz" einwohner_anzahl="30000">
 		<vermiet-station id="vermiet-station-1" stations_name="Leutbühel" adresse="Leutbühel 1" mitarbeiter_anzahl="2"/>
 		<vermiet-station
 			id="vermiet-station-2"
 			stations_name="Vorkloster"
-			adresse="Rheinstraße 41"
+			adresse="Rheinstarße 41"
 			mitarbeiter_anzahl="1"
 			geoeffnet_von="08:00:00"
 			geoeffnet_bis="19:00:00"/>
 	</stadt>
 
-	<stadt stadtcode="DO_" name="Dornbirn" einwohner_anzahl="45000"/>
+	<stadt stadtcode="DO_" name="Dornbirn" einwohner_anzahl="45000">
+		<vermiet-station
+			mitarbeiter_anzahl="1"
+			adresse="Bahnhofplatz"
+			stations_name="Dornbirn Bhf"
+			id="vermiet-station-3"/>
+		<vermiet-station
+			mitarbeiter_anzahl="2"
+			adresse="Hochschulstraße 1"
+			stations_name="FH Vorarlberg"
+			id="vermiet-station-4"/>
+	</stadt>
+	
 	<stadt stadtcode="HOH" name="Hohenems" einwohner_anzahl="15000"/>
 	<stadt stadtcode="FK_" name="Feldkirch" einwohner_anzahl="34000"/>
 	<stadt stadtcode="BZ_" name="Bludenz" einwohner_anzahl="14000"/>
@@ -46,6 +58,53 @@
 		autotyp-id="autotyp-1" vermiet-station-id="vermiet-station-1">
 		<verfuegt_ueber extraausstattung-id="extraausstattung-1"/>
 	</auto>
+	<auto kennzeichen="B-911G" km_stand="12500" farbe="grün"
+		autotyp-id="autotyp-1" vermiet-station-id="vermiet-station-1">
+		<verfuegt_ueber extraausstattung-id="extraausstattung-1"/>
+		<verfuegt_ueber extraausstattung-id="extraausstattung-2"/>
+	</auto>
+	<auto kennzeichen="B-911Y" km_stand="20500" farbe="gelb"
+		autotyp-id="autotyp-1" vermiet-station-id="vermiet-station-1">
+		<verfuegt_ueber extraausstattung-id="extraausstattung-2"/>
+	</auto>
+	<auto kennzeichen="B-308GTS" km_stand="45000" farbe="rot"
+		autotyp-id="autotyp-4" vermiet-station-id="vermiet-station-1">
+		<verfuegt_ueber extraausstattung-id="extraausstattung-6"/>
+		<verfuegt_ueber extraausstattung-id="extraausstattung-7"/>
+	</auto>
+	
+	<!-- Dornbirn/FH -->
+	<auto
+		autotyp-id="autotyp-5"
+		farbe="weiß"
+		kennzeichen="DO-I3W"
+		km_stand="120"
+		vermiet-station-id="vermiet-station-4">
+		<verfuegt_ueber extraausstattung-id="extraausstattung-9"/>
+	</auto>
+	<auto
+		autotyp-id="autotyp-5"
+		farbe="rot"
+		kennzeichen="DO-I3R"
+		km_stand="250"
+		vermiet-station-id="vermiet-station-4">
+		<verfuegt_ueber extraausstattung-id="extraausstattung-8"/>
+	</auto>
+	<auto
+		autotyp-id="autotyp-6"
+		farbe="weiß"
+		kennzeichen="DO-ZOE1"
+		km_stand="1200"
+		vermiet-station-id="vermiet-station-4"
+	/>
+	<auto
+		autotyp-id="autotyp-6"
+		farbe="rot"
+		kennzeichen="DO-ZOE2"
+		km_stand="2400"
+		vermiet-station-id="vermiet-station-4"
+	/>
+
 	
 	<!-- For the purpose of demonstrating datetime literals,
 	     anfangsdatum is set to a datetime value. -->
@@ -57,10 +116,10 @@
 			vermiet-station-id="vermiet-station-2"
 			reservierungs_nr="B.253.265"
 			anfangsdatum="2017-12-24T12:00:00"
-			enddatum="2017-12-31"
+			enddatum="2017-31-12"
 			kategorie_bezeichnung="Classic">
 			<mietvertrag kennzeichen="B-911S" km_stand_uebergabe="213012" km_stand_rueckgabe="215766"/>
 		</reservierung>
 	</kunde>
-
+	
 </car-rental>
