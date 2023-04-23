@@ -21,7 +21,7 @@
 
 <!ELEMENT autokategorie (autotyp+)>
 <!ATTLIST autokategorie
-	kategorie_bezeichnung 	CDATA #REQUIRED
+	kategorie_bezeichnung 	ID #REQUIRED
 	grundtarif				CDATA #REQUIRED
 	km_preis				CDATA #REQUIRED
 >
@@ -42,14 +42,34 @@
 
 <!ELEMENT auto (verfuegt_ueber*)>
 <!ATTLIST auto
-	autotyp-id			ID #REQUIRED
+	autotyp-id			IDREF #REQUIRED
 	farbe				CDATA #REQUIRED
-	kennzeichen			CDATA #REQUIRED
+	kennzeichen			ID #REQUIRED
 	km_stand			CDATA #REQUIRED
 	vermiet-station-id	IDREF #REQUIRED
 >
 
-<!ELEMENT kunde (reservierung*)>
 <!ELEMENT verfuegt_ueber EMPTY>
+<!ATTLIST verfuegt_ueber extraausstattung-id IDREF #REQUIRED>
+
+<!ELEMENT kunde (reservierung*)>
+<!ATTLIST kunde
+	fuehrerschein_nummer	CDATA #REQUIRED
+	kunde_name				CDATA #REQUIRED
+	anschrift				CDATA #REQUIRED
+>
 <!ELEMENT reservierung (mietvertrag?)>
+<!ATTLIST reservierung
+	vermiet-station-id 		IDREF #REQUIRED
+    reservierungs_nr  		CDATA #REQUIRED
+    anfangsdatum				CDATA #REQUIRED
+    enddatum					CDATA #REQUIRED
+    kategorie_bezeichnung	IDREF #REQUIRED
+>
+
 <!ELEMENT mietvertrag EMPTY>
+<!ATTLIST mietvertrag
+	kennzeichen				IDREF #REQUIRED
+	km_stand_uebergabe		CDATA #REQUIRED
+	km_stand_rueckgabe		CDATA #IMPLIED
+>
