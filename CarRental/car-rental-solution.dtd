@@ -50,7 +50,7 @@ therefore we introduce a simple, surrogate id.
 <!ATTLIST extraausstattung
 	id						ID #REQUIRED
 	extras_bezeichnung		CDATA #REQUIRED
-	aufpreis					CDATA #REQUIRED
+	aufpreis				CDATA #REQUIRED
 >
 
 <!ELEMENT auto (verfuegt_ueber)*>
