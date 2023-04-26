@@ -1,0 +1,46 @@
+1) Write an XPath expression, that returns all ingredients which are used in exactly one cup.
+//ingredient[@unit='cup' and @amount='1']
+
+2) Answer the following question using an XPath expression:
+Which units are used for butter ?
+/collection//ingredient[contains(@name, 'butter')]/@unit
+
+3) Write an XPath expression, that returns those ingredients,
+which have to be prepared by themselves.
+//ingredient/ingredient/..
+//ingredient[preparation]
+
+4) Explain the result of the following XPath expression:
+//ingredient/ingredient/ingredient/ancestor::recipe[.//nutrition/@calories > 5000]/title
+
+5) Write an XPath expression, that returns all recipes
+which contain onions.
+//ingredient[contains(@name, 'onion')]/ancestor::recipe
+/collection/recipe[.//ingredient[contains(@name, 'onion')]]
+
+6) Write an XPath expression,
+that returns the number of eggs for each recipe,
+which uses milk and eggs.
+//recipe[]//sum(ingredient[contains(@name, 'egg')]/@amount)
+
+7) Write an XPath expression,
+that returns all recipes with more than 5 preparation steps.
+//preparation[count(step) > 5]/..
+//recipe[count(preparation/step) > 5]
+
+8) Write an XPath expression,
+that returns the last preparation step of each recipe.
+//recipe/preparation/step[position() = last()]
+
+9) Write an XPath expression,
+that returns the sum of eggs that are used all
+over the collection of recipes.
+sum(//ingredient[contains(@name, 'egg')]/@amount)
+
+
+
+
+
+
+
+
