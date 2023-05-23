@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE collection SYSTEM "app.dtd">
+
+<collection>
+
+	<Kunde>
+		<Person id= "PERS-1">
+			<name>
+				<vorname>Hussein</vorname>
+				<nachname>Üzüm</nachname> 				
+			</name>
+			<adresse>	
+				<stadt>Feldkirch</stadt>
+				<strasse>Weidgasse</strasse>
+				<hausnummer>10</hausnummer>
+			</adresse>
+			<email>uzi@hotmail.com</email>
+			<tel type="home"></tel>
+			<tel type="mobil">+43664111111</tel>
+			<tel type="arbeit"></tel>
+			<treuepunkte>10</treuepunkte>
+			<bestellung datum="26.04.2023" uhrzeit="12:00">
+				<position artikel="HAUPT_204" menge ="2" einzelpreis="9.90"></position>
+				<position artikel="EXT_006" menge ="1" einzelpreis="1.50"></position>
+				<position menge="1" einzelpreis="2.50" artikel="NOALK_17"></position>
+			</bestellung>
+			<bestellung datum="28.04.2023" uhrzeit="18:00">
+				<position menge="2" einzelpreis="6.00" artikel="VOR_203"></position>
+				<position menge="2" einzelpreis="16.50" artikel="HAUPT_402"></position>
+				<position menge="1" einzelpreis="5.60" artikel="NACH_101"></position>
+				<position menge="1" einzelpreis="32.00" artikel="ALK_33"></position>
+			</bestellung>
+			<bestellung datum="01.05.2023" uhrzeit="12:00">
+				<position menge="1" einzelpreis="10.50" artikel="HAUPT_205"></position>
+				<position menge="1" einzelpreis="2.50" artikel="NOALK_23"></position>
+			
+			</bestellung>
+		</Person>
+		<Person id="PERS-2">
+			<name>
+				<vorname>Thomas</vorname>
+				<nachname>Fässler</nachname> 			
+			</name>
+			<adresse>	
+				<stadt>Feldkirch</stadt>
+				<strasse>Weidgasse</strasse>
+				<hausnummer>10</hausnummer>
+			</adresse>
+			<email>fassbinder@hotmail.com</email>
+			<tel type="home"></tel>
+			<tel type="mobil">+436641153341</tel>
+			<tel type="arbeit"></tel>
+			<treuepunkte>4</treuepunkte>
+			<bestellung datum="01.04.2023" uhrzeit="11:45">
+				<position menge="2" einzelpreis="6.50" artikel="VOR_101"></position>
+				<position menge="1" einzelpreis="4.10" artikel="ALK_31"></position>
+				<position menge="1" einzelpreis="2.50" artikel="NOALK_23"></position>
+				<position menge="2" einzelpreis="18" artikel="HAUPT_301"></position>
+			</bestellung>
+			
+			<bestellung datum="05.04.2023" uhrzeit="10:15">
+				<position menge="2" einzelpreis="6.50" artikel="VOR_102"></position>
+				<position menge="6" einzelpreis="5" artikel="ALK_16"></position>
+				<position menge="3" einzelpreis="3.70" artikel="EXT_008"></position>
+			</bestellung>
+		</Person>
+		<Person id="PERS-3">
+		<name>
+			<vorname>Werner</vorname>
+			<nachname>Beinhardt</nachname>
+		</name>
+		<adresse>
+			<stadt>Röns</stadt>
+			<strasse>Buchsweg</strasse>
+			<hausnummer>24</hausnummer>
+		</adresse>
+		<email>werner.beinhardt@gmail.com</email>
+		<tel type="home"></tel>
+		<tel type="mobil">+43654321987</tel>
+		<tel type="arbeit"></tel>
+		<treuepunkte>9</treuepunkte>
+				<bestellung datum="28.04.2023" uhrzeit="12:00">
+				<position menge="1" einzelpreis="18.00" artikel="HAUPT_301"></position>
+			</bestellung>
+		</Person>
+	</Kunde>
+	
+	
+	
+	
+	<Speisekarte>
+	<!-- Vorspeisen -->
+	<!-- Salate -->
+		<Speise type="Vorspeise" 
+			name="Gemischter Salat" 
+			id="VOR_101"	
+			preis="6.50">
+	<!-- Dressing !?!? -->
+			<Zutat> Kopfsalat </Zutat>
+			<Zutat> Eisbergsalat </Zutat>
+			<Zutat> Paprika </Zutat>
+			<Zutat> Gurke </Zutat>
+			<Zutat>	Karotte </Zutat>
+			<Zutat>	Tomate </Zutat>
+		</Speise>
+		
+		<Speise type="Vorspeise" 
+			name="Grüner Salat" 
+			id="VOR_102"	 
+			preis="6.50">
+	<!-- Dressing !?!? -->
+			<Zutat> Kopfsalat </Zutat>
+			<Zutat>	Eisbergsalat </Zutat>
+		</Speise>
+		
+		
+	<!-- Suppen -->	
+		<Speise type="Vorspeise" 
+			name="Kürbissuppe" 
+			id="VOR_201"
+			preis="4.50">
+			<Zutat> Kürbissuppe </Zutat>
+			<Zutat>	Sonnenblumenkerne </Zutat>
+		</Speise>
+		<Speise type="Vorspeise" 
+			name="Lerberspätzlesuppe" 
+			id="VOR_202"
+			preis="6.00">
+			<Zutat> Rindssuppe </Zutat>
+			<Zutat>	Leberspätzle </Zutat>
+			
+		</Speise>
+		<Speise type="Vorspeise" 
+			name="Flädilesuppe" 
+			id="VOR_203"
+			preis="6.00">
+			<Zutat> Rindssuppe </Zutat>
+			<Zutat>	Kräterflädile </Zutat>
+		</Speise>
+		
+	<!-- Hauptspeisen -->
+	<!-- Nudelgerichte -->	
+		<Speise type="Hauptspeise"
+			name="Spaghetti Bolognese"
+			id="HAUPT_101"
+			preis="14.00">
+			<Zutat> Spaghetti </Zutat>
+			<Zutat>	Tomatensauce </Zutat>
+			<Zutat>	Rindlfleisch </Zutat>
+			<Zutat>	Kresse </Zutat>
+		</Speise>
+	
+	<!-- Pizzen -->	
+		<Speise type="Hauptspeise"
+			name="Pizza Salami"
+			id="HAUPT_201"
+			preis="8.20">
+			<Zutat> Tomatensauce </Zutat>
+			<Zutat>	Salami </Zutat>
+			<Zutat>	Mozarella </Zutat>
+			<Zutat>	Oregano </Zutat>
+		</Speise>
+		
+		<Speise type="Hauptspeise"
+			name="Pizza Funghi"
+			id="HAUPT_202"
+			preis="8.20">
+			<Zutat> Tomatensauce </Zutat>
+			<Zutat>	Pilz </Zutat>
+			<Zutat>	Mozarella </Zutat>
+			<Zutat>	Oregano </Zutat>
+		</Speise>
+		
+		<Speise type="Hauptspeise"
+			name="Pizza Margherita"
+			id="HAUPT_203"
+			preis="7.40">
+			<Zutat> Tomatensauce </Zutat>
+			<Zutat>	Mozarella </Zutat>
+			<Zutat>	Oregano </Zutat>
+		</Speise>
+		
+		<Speise type="Hauptspeise"
+			name="Pizza Napoli"
+			id="HAUPT_204"
+			preis="10.50">
+			<Zutat> Tomatensauce </Zutat>
+			<Zutat>	Mozarella </Zutat>
+			<Zutat>	Sardellen </Zutat>
+			<Zutat>	Oliven </Zutat>
+			<Zutat>	Oregano </Zutat>
+		</Speise>
+		
+		<Speise type="Hauptspeise"
+			name="Pizza Tonno"
+			id="HAUPT_205"
+			preis="10.50">
+			<Zutat> Tomatensauce </Zutat>
+			<Zutat>	Tunfisch </Zutat>
+			<Zutat>	Zwiebel </Zutat>
+			<Zutat>	Oliven </Zutat>
+			<Zutat>	Oregano </Zutat>
+		</Speise>
+	<!-- Burger -->	
+		<Speise type="Hauptspeise"
+			name="Spezialburger"
+			id="HAUPT_301"
+			preis="18.00">
+			<Zutat>	Brot </Zutat>
+			<Zutat>	Pattie </Zutat>
+			<Zutat>	Raclettekäse </Zutat>
+			<Zutat>	Spiegelei </Zutat>
+			<Zutat>	Bacon </Zutat>
+			<Zutat>	Pfeffer </Zutat>
+		</Speise>
+		
+	<!-- Klassiker -->	
+		<Speise type="Hauptspeise"
+			name="Schnitzel mit Pommes"
+			id="HAUPT_401"
+			preis="16.50">
+			<Zutat>	Wiener Schnitzel vom Schwein </Zutat>
+			<Zutat>	Pommes Frites </Zutat>
+			<Zutat>	Petersilie </Zutat>
+			<Zutat>	Preiselbeeren </Zutat>
+		</Speise>
+		
+		<Speise type="Hauptspeise"
+			name="Kässpätzle"
+			id="HAUPT_402"
+			preis="16.50">
+			<Zutat>	Spätzle </Zutat>
+			<Zutat>	Käse </Zutat>
+			<Zutat>	Röstzwiebeln </Zutat>
+		</Speise>
+			
+	<!-- Nachspeisen -->	
+	<!-- Eis -->
+		<Speise type="Nachspeise"
+			name="Gemischtes Eis"
+			id="NACH_101"
+			preis="5.60">
+			<Zutat> Vanilleeis </Zutat>
+			<Zutat>	Schokoladeneis </Zutat>
+			<Zutat>	Erdbeereis </Zutat>
+		</Speise>
+		
+		
+	<!-- Getränke Alkoholfrei -->
+		<Getränk type="Alkoholfrei"
+			name="Cola"
+			id="NOALK_11"
+			behältnis="Dose 0.25"
+			preis="2.50">
+		</Getränk>
+		<Getränk type="Alkoholfrei"
+			name="Cola"
+			id="NOALK_12"
+			behältnis="Glasflasche 0.33"
+			preis="3.50">
+		</Getränk>
+		<Getränk type="Alkoholfrei"
+			name="Cola"
+			id="NOALK_13"
+			behältnis="Glas 0.5"
+			preis="4.30">
+		</Getränk>
+		
+		
+		<Getränk type="Alkoholfrei"
+			name="Fanta"
+			id="NOALK_14"
+			behältnis="Dose 0.25"
+			preis="2.50">
+		</Getränk>
+		<Getränk type="Alkoholfrei"
+			name="Fanta"
+			id="NOALK_15"
+			behältnis="Glasflasche 0.33"
+			preis="3.50">
+		</Getränk>
+		<Getränk type="Alkoholfrei"
+			name="Fanta"
+			id="NOALK_16"
+			behältnis="Glas 0.5"
+			preis="4.30">
+		</Getränk>
+		
+		
+		<Getränk type="Alkoholfrei"
+			name="Sprite"
+			id="NOALK_17"
+			behältnis="Dose 0.25"
+			preis="2.50">
+		</Getränk>
+		<Getränk type="Alkoholfrei"
+			name="Sprite"
+			id="NOALK_18"
+			behältnis="Glasflasche 0.33"
+			preis="3.50">
+		</Getränk>
+		<Getränk type="Alkoholfrei"
+			name="Sprite"
+			id="NOALK_19"
+			behältnis="Glas 0.5"
+			preis="4.30">
+		</Getränk>
+		
+		
+		<Getränk type="Alkoholfrei"
+			name="Eistee Zitrone"
+			id="NOALK_20"
+			behältnis="Dose 0.25"
+			preis="2.50">
+		</Getränk>
+		<Getränk type="Alkoholfrei"
+			name="Eistee Zitrone"
+			id="NOALK_21"
+			behältnis="Glasflasche 0.33"
+			preis="3.50">
+		</Getränk>
+		<Getränk type="Alkoholfrei"
+			name="Eistee Zitrone"
+			id="NOALK_22"
+			behältnis="Glas 0.5"
+			preis="4.30">
+		</Getränk>
+		
+		<Getränk type="Alkoholfrei"
+			name="Eistee Pfirsich"
+			id="NOALK_23"
+			behältnis="Dose 0.25"
+			preis="2.50">
+		</Getränk>
+		<Getränk type="Alkoholfrei"
+			name="Eistee Pfirsich"
+			id="NOALK_24"
+			behältnis="Glasflasche 0.33"
+			preis="3.50">
+		</Getränk>
+		<Getränk type="Alkoholfrei"
+			name="Eistee Pfirsich"
+			id="NOALK_25"
+			behältnis="Glas 0.5"
+			preis="4.30">
+		</Getränk>
+		
+		
+	<!-- Getränke Alkoholisch -->
+	<!-- Bier -->
+		<Getränk type="Alkoholisch"
+			name="Bier Fohrenburger"
+			id="ALK_11"
+			behältnis="Glas 0.33"
+			preis="3.90">
+		</Getränk>
+		<Getränk type="Alkoholisch"
+			name="Bier Fohrenburger"
+			id="ALK_12"
+			behältnis="Glas 0.5"
+			preis="5.00">
+		</Getränk>
+		
+		<Getränk type="Alkoholisch"
+			name="Bier Mohren"
+			id="ALK_13"
+			behältnis="Glas 0.33"
+			preis="3.90">
+		</Getränk>
+		<Getränk type="Alkoholisch"
+			name="Bier Mohren"
+			id="ALK_14"
+			behältnis="Glas 0.5"
+			preis="5.00">
+		</Getränk>
+		
+		<Getränk type="Alkoholisch"
+			name="Bier Fratanzer s'Klenne"
+			id="ALK_15"
+			behältnis="Flasche 0.33"
+			preis="3.90">
+		</Getränk>
+		<Getränk type="Alkoholisch"
+			name="Bier Frastanzer"
+			id="ALK_16"
+			behältnis="Glas 0.5"
+			preis="5.00">
+		</Getränk>
+	<!-- Weißwein -->	
+		<Getränk type="Alkoholisch"
+			name="Wein Weiß"
+			id="ALK_21"
+			behältnis="Glas 0.125"
+			preis="4.10">
+		</Getränk>
+		<Getränk type="Alkoholisch"
+			name="Wein Weiß"
+			id="ALK_22"
+			behältnis="Glas 0.25"
+			preis="8.20">
+		</Getränk>
+		<Getränk type="Alkoholisch"
+			name="Wein Weiß"
+			id="ALK_23"
+			behältnis="Flasche 0.75"
+			preis="32.00">
+		</Getränk>
+		
+	<!-- Rotwein -->	
+		<Getränk type="Alkoholisch"
+			name="Wein Rot"
+			id="ALK_31"
+			behältnis="Glas 0.125"
+			preis="4.10">
+		</Getränk>
+		<Getränk type="Alkoholisch"
+			name="Wein Rot"
+			id="ALK_32"
+			behältnis="Glas 0.25"
+			preis="8.20">
+		</Getränk>
+		<Getränk type="Alkoholisch"
+			name="Wein Rot"
+			id="ALK_33"
+			behältnis="Flasche 0.75"
+			preis="32.00">
+		</Getränk>
+		<!-- Extras -->
+<Extra 
+		preis="0.90"
+		id="EXT_001"
+		name ="Französisches Dressing">
+		
+	</Extra>
+	<Extra 
+		preis="0.90"
+		id="EXT_002"
+		name="Italienisches Dressing">
+		
+	</Extra>
+	<Extra 
+		preis="1.00"
+		id="EXT_003"
+		name="Extra Ananas">
+		
+	</Extra>
+	<Extra 
+		preis="1.00"
+		id="EXT_004"
+		name="Extra Salami">
+		
+	</Extra>
+	<Extra 
+		preis="1.00"
+		id="EXT_005"
+		name="Extra Schinken">
+		
+	</Extra>
+	<Extra 
+		preis="1.50"
+		id="EXT_006"
+		name="Extra Käse">
+		
+	</Extra>
+	<Extra 
+		preis="1.30"
+		id="EXT_007"
+		name="Extra Champignons">
+		
+	</Extra>
+	<Extra 
+		preis="3.70"
+		id="EXT_008"
+		name="Extra Pommes">
+		
+	</Extra>
+	<Extra 
+		preis="1.00"
+		id="EXT_009"
+		name="Extra Parmesan">
+		
+	</Extra>
+	<Extra 
+		preis="0.30"
+		id="EXT_010"
+		name="Ketchup">
+		
+	</Extra>
+	<Extra 
+		preis="0.30"
+		id="EXT_011"
+		name="Mayonaise">
+		
+	</Extra>
+	<Extra 
+		preis="0.30"
+		id="EXT_012"
+		name="Senf">
+		
+	</Extra>
+</Speisekarte>
+	
+</collection>

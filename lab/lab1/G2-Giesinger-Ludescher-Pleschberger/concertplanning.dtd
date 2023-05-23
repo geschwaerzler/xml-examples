@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!ELEMENT concert-planning (ticket*, customer*, eventorganizer*, salesrepresentative*, webshop*, artist*, venue*, artist*, concert*)>
+
+<!-- type = Single Concert, daypass, festival ticket,... -->
+<!ELEMENT ticket EMPTY>
+<!ATTLIST ticket
+type 				(single | daypass | festival | seasonal) "single"
+price 				CDATA #REQUIRED
+ticket_id 			ID #REQUIRED>
+
+
+<!ELEMENT webshop (ticket_ref*)>
+<!ATTLIST webshop
+url 				ID #REQUIRED>
+
+<!ELEMENT salesrepresentative (ticket_ref*)>
+<!ATTLIST salesrepresentative
+name 				CDATA #REQUIRED
+email 				CDATA #REQUIRED
+phone 				CDATA #REQUIRED
+employee_id 		ID #REQUIRED>
+
+<!ELEMENT customer (ticket_ref*)>
+<!ATTLIST customer
+name 				CDATA #REQUIRED
+email 				CDATA #REQUIRED
+phone 				CDATA #REQUIRED
+customer_id 		ID #REQUIRED>
+
+<!ELEMENT eventorganizer (concert_ref*)>
+<!ATTLIST eventorganizer
+name 				CDATA #REQUIRED
+email 				CDATA #REQUIRED
+phone 				CDATA #REQUIRED
+employee_id 		ID #REQUIRED>
+
+<!ELEMENT artist (concert_ref*)>
+<!ATTLIST artist
+name 				CDATA #REQUIRED
+genre 				CDATA #REQUIRED
+description 		CDATA #IMPLIED
+image 				CDATA #IMPLIED
+artist_id 			ID #REQUIRED>
+
+<!ELEMENT venue (concert_ref*)>
+<!ATTLIST venue
+name 				CDATA #REQUIRED
+address 			CDATA #REQUIRED
+capacity 			CDATA #REQUIRED
+description 		CDATA #IMPLIED
+image 				CDATA #IMPLIED
+venue_id 			ID #REQUIRED>
+
+
+<!ELEMENT concert (ticket_ref*)>
+<!ATTLIST concert
+title 				CDATA #REQUIRED
+date 				CDATA #REQUIRED
+time 				CDATA #REQUIRED
+duration 			CDATA #REQUIRED
+description 		CDATA #IMPLIED
+image 				CDATA #IMPLIED
+concert_id 			ID #REQUIRED>
+
+<!ELEMENT concert_ref EMPTY>
+<!ATTLIST concert_ref
+concert_id 			IDREF #REQUIRED>
+
+<!ELEMENT ticket_ref EMPTY>
+<!ATTLIST ticket_ref
+ticket_id 			IDREF #REQUIRED
+concert_id 			IDREF #REQUIRED>

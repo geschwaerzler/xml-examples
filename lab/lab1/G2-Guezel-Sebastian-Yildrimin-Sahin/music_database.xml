@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE music_database SYSTEM "music_database.dtd">
+<music_database>
+
+	<!--Only Musician-->
+	<person id="person-1" first_name="Justin" last_name="Bieber" artist_name="JB" birthday="01.04.1994">
+		<musician id="musician-1" follower="75500000" band="HATE ME"></musician>
+		<songwriter id="songwriter-10"></songwriter>
+	</person>
+	
+	<person id="person-2" first_name="Ariane" last_name="Grande" birthday="26.06.2000">
+		<musician id="musician-2" follower="889002000"></musician>
+	</person>
+	
+	<person id="person-3" first_name="Justin" last_name="Timberlake" artist_name="JT" birthday="31.01.1980">
+		<musician id="musician-3" follower="45000000"></musician>
+	</person>
+	
+	<person id="person-4" first_name="Miley" last_name="Cyrus" artist_name="Hannah Montana" birthday="23.11.1992">
+		<musician id="musician-4" follower="1500000" company="Abzocke"></musician>
+	</person>
+	
+	<person id="person-14" first_name="Nicki" last_name="Minaj" birthday="08.12.1982">
+		<musician id="musician-8" follower="50000000"></musician>
+	</person>
+	
+	
+	<!--Musician and Songwriter-->
+	<person id="person-5" first_name="John" last_name="Lennon" artist_name="null" birthday="09.10.1940" dateOfDeath="08.12.1980">
+		<musician id="musician-5" follower="2230000" band="The Beatles" company="null"></musician>
+		<songwriter id="songwriter-5" company="Abzocke"></songwriter>
+	</person> 
+	
+	<person id="person-6" first_name="Paul" last_name="McCartney" artist_name="null" birthday="18.06.1942">
+		<musician id="musician-6" follower="15000000" band="The Beatles" company="null"></musician>
+		<songwriter id="songwriter-6"></songwriter>
+	</person>
+	
+	<person id="person-7" first_name="Selena" last_name="Gomez" artist_name="null" birthday="22.07.1992">
+			<musician id="musician-7" follower="200000000" band="null" company="null"></musician>
+			<songwriter id="songwriter-7"></songwriter>
+	</person>
+	
+	<person id="person-18" first_name="Charlton" last_name="Howard" artist_name="the Kid LAROI" birthday="17.08.2003">
+		<musician id="musician-9" follower="34000000"></musician>
+		<songwriter id="songwriter-17"></songwriter>
+	</person>
+	
+	<person id="person-19" first_name="Isabelle" last_name="Geffroy" artist_name="Zaz" birthday="01.05.1980">
+		<musician id="musician-10" follower="2600000"></musician>
+		<songwriter id="songwriter-18"></songwriter>
+	</person>
+	
+	
+	<!--Music Listeners-->
+	<person id="person-8" first_name="Efza" last_name="Yildirim" artist_name="" birthday="08.03.2002" dateOfDeath="null" listensto="song-1"></person>
+	<person id="person-9" first_name="Melih" last_name="Sahin" artist_name="" birthday="08.12.2001" dateOfDeath="null" listensto="song-5"></person>
+	<person id="person-10" first_name="John" last_name="Wick" artist_name="" birthday="18.03.1970" dateOfDeath="19.03.2023"></person>
+	
+	<!--Only Songwriter-->
+	<person id="person-11" first_name="Benny" last_name="Blanco" artist_name="null" birthday="08.03.1988" dateOfDeath="null">
+		<songwriter id="songwriter-11" company="Interscope Records"></songwriter>
+	</person>
+	
+	<person id="person-12" first_name="Rami" last_name="Yacoub" artist_name="null" birthday="17.01.1975" dateOfDeath="null">
+		<songwriter id="songwriter-12" company="null"></songwriter>
+	</person>
+	
+	<person id="person-13" first_name="Michael" last_name="Masser" artist_name="null" birthday="24.03.1941" dateOfDeath="null">
+		<songwriter id="songwriter-13" company="Arista-Records"></songwriter>	
+	</person>
+	
+	<person id="person-15" first_name="Max" last_name="Martin" birthday="26.02.1971">
+		<songwriter id="songwriter-14"></songwriter>
+	</person>
+	
+	<person id="person-16" first_name="Timothy" last_name="Mosley" artist_name="Timbaland" birthday="10.03.1972">
+		<songwriter id="songwriter-15"></songwriter>
+	</person>
+	
+	<person id="person-17" first_name="Ryan" last_name="Tedder" birthday="26.06.1979">
+		<songwriter id="songwriter-16"></songwriter>
+	</person>
+
+
+	<genre id="genre-1" name="pop">
+		<has song_id="song-1"></has>
+		<has song_id="song-2"></has>
+		<has song_id="song-3"></has>
+		<has song_id="song-6"></has>
+		<has song_id="song-20"></has>
+		<has song_id="song-21"></has>
+		<has song_id="song-22"></has>
+		<has song_id="song-24"></has>
+		<has song_id="song-26"></has>
+	</genre>
+	<genre id="genre-2" name="rock">
+		<has song_id="song-4"></has>
+		<has song_id="song-17"></has>
+		<has song_id="song-18"></has>
+		<has song_id="song-19"></has>
+		<has song_id="song-20"></has>
+		<has song_id="song-22"></has>
+		<has song_id="song-23"></has>
+		<has song_id="song-24"></has>
+		<has song_id="song-25"></has>
+	</genre>
+	<genre id="genre-3" name="alternative">
+		<has song_id="song-8"></has>
+		<has song_id="song-9"></has>
+		<has song_id="song-10"></has>
+		<has song_id="song-11"></has>
+		<has song_id="song-12"></has>
+		<has song_id="song-13"></has>
+		<has song_id="song-14"></has>
+		<has song_id="song-15"></has>
+		<has song_id="song-29"></has>
+		<has song_id="song-30"></has>
+	</genre>
+	<genre id="genre-4" name="afrobeats">
+		<has song_id="song-5"></has>
+	</genre>
+	<genre id="genre-5" name="ballade">
+		<has song_id="song-16"></has>
+	</genre>
+	<genre id="genre-6" name="funk">
+		<has song_id="song-23"></has>
+	</genre>
+	<genre id="genre-7" name="jazz">
+		<has song_id="song-27"></has>
+		<has song_id="song-28"></has>
+		<has song_id="song-29"></has>
+		<has song_id="song-30"></has>
+		<has song_id="song-31"></has>
+		<has song_id="song-32"></has>
+		<has song_id="song-33"></has>
+		<has song_id="song-34"></has>
+		<has song_id="song-35"></has>
+		<has song_id="song-36"></has>
+		<has song_id="song-37"></has>
+		<has song_id="song-38"></has>
+	</genre>
+	
+	<!--Songs-->
+	<song id="song-1" title="STAY" release_date="2021" duration="157">
+		<sings_song person_id="person-1"></sings_song>
+		<writes_song person_id="person-1"></writes_song>
+	</song>
+	
+	<song id="song-2" title="Side to Side" release_date="2016" duration="237">
+		<sings_song person_id="person-2"></sings_song>
+		<sings_song person_id="person-14"></sings_song>
+		<writes_song person_id="person-15"></writes_song>
+	</song>
+	
+	<song id="song-3" title="Cry me a river" release_date="1998" duration="290">
+		<sings_song person_id="person-3"></sings_song>
+		<writes_song person_id="person-16"></writes_song>
+	</song>
+	
+	<song id="song-4" title="Angles Like You" release_date="2020" duration="245">
+		<sings_song person_id="person-4"></sings_song>
+		<writes_song person_id="person-17"></writes_song>
+	</song>
+	
+	<song id="song-5" title="Calm Down" release_date="2022" duration="239">
+		<sings_song person_id="person-7"></sings_song>
+		<writes_song person_id="person-7"></writes_song>
+	</song>
+	
+	<song id="song-6" title="Let It Be" release_date="1970" duration="239">
+		<sings_song person_id="person-5"></sings_song>
+		<sings_song person_id="person-6"></sings_song>
+		<writes_song person_id="person-6"></writes_song>
+		<writes_song person_id="person-13"></writes_song>
+	</song>
+	
+	<song id="song-7" title="OVER YOU" release_date="2021" duration="150">
+		<sings_song person_id="person-18"></sings_song>
+		<writes_song person_id="person-18"></writes_song>
+	</song>
+	
+	<song id="song-8" title="NOT SOBER" release_date="2021" duration="216">
+		<sings_song person_id="person-18"></sings_song>
+		<writes_song person_id="person-18"></writes_song>
+	</song>
+	
+	<song id="song-9" title="SAME ENERGY" release_date="2021" duration="93">
+		<sings_song person_id="person-18"></sings_song>
+		<writes_song person_id="person-18"></writes_song>
+	</song>
+	
+	<song id="song-10" title="DON'T LEAVE ME" release_date="2021" duration="167">
+		<sings_song person_id="person-18"></sings_song>
+		<writes_song person_id="person-18"></writes_song>
+	</song>
+	
+	<song id="song-11" title="BAD NEWS" release_date="2021" duration="131">
+		<sings_song person_id="person-18"></sings_song>
+		<writes_song person_id="person-18"></writes_song>
+	</song>
+	
+	<song id="song-12" title="STILL CHOSE YOU" release_date="2021" duration="171">
+		<sings_song person_id="person-18"></sings_song>
+		<writes_song person_id="person-18"></writes_song>
+	</song>
+	
+	<song id="song-13" title="I DON'T KNOW" release_date="2021" duration="134">
+		<sings_song person_id="person-18"></sings_song>
+		<writes_song person_id="person-18"></writes_song>
+	</song>
+	
+	<song id="song-14" title="ABOUT YOU" release_date="2021" duration="128">
+		<sings_song person_id="person-18"></sings_song>
+		<writes_song person_id="person-18"></writes_song>
+	</song>
+	
+	<song id="song-15" title="LONELY AND F*CKED UP" release_date="2021" duration="162">
+		<sings_song person_id="person-18"></sings_song>
+		<writes_song person_id="person-18"></writes_song>
+	</song>
+	
+	<song id="song-16" title="Imagine" release_date="1971" duration="187">
+		<sings_song person_id="person-5"></sings_song>
+		<writes_song person_id="person-5"></writes_song>
+	</song>
+	
+	<song id="song-17" title="Crippled Inside" release_date="1971" duration="232">
+		<sings_song person_id="person-5"></sings_song>
+		<writes_song person_id="person-5"></writes_song>
+	</song>
+	
+	<song id="song-18" title="Jealous Guy" release_date="1971" duration="257">
+		<sings_song person_id="person-5"></sings_song>
+		<writes_song person_id="person-5"></writes_song>
+	</song>
+	
+	<song id="song-19" title="It's so hard" release_date="1971" duration="149">
+		<sings_song person_id="person-5"></sings_song>
+		<writes_song person_id="person-5"></writes_song>
+	</song>
+	
+	<song id="song-20" title="I Don't Wanna Be A Soldier Mama" release_date="1971" duration="368">
+		<sings_song person_id="person-5"></sings_song>
+		<writes_song person_id="person-5"></writes_song>
+	</song>
+	
+	<song id="song-21" title="Gimme Some Truth" release_date="1971" duration="197">
+		<sings_song person_id="person-5"></sings_song>
+		<writes_song person_id="person-5"></writes_song>
+	</song>
+	
+	<song id="song-22" title="Oh My Love" release_date="1971" duration="168">
+		<sings_song person_id="person-5"></sings_song>
+		<writes_song person_id="person-5"></writes_song>
+	</song>
+	
+	<song id="song-23" title="How Do You Sleep?" release_date="1971" duration="339">
+		<sings_song person_id="person-5"></sings_song>
+		<writes_song person_id="person-5"></writes_song>
+	</song>
+	
+	<song id="song-24" title="How?" release_date="1971" duration="226">
+		<sings_song person_id="person-5"></sings_song>
+		<writes_song person_id="person-5"></writes_song>
+	</song>
+	
+	<song id="song-25" title="Oh Yoko!" release_date="1971" duration="260">
+		<sings_song person_id="person-5"></sings_song>
+		<writes_song person_id="person-5"></writes_song>
+	</song>
+	
+	<song id="song-26" title="Les jours heureux" release_date="2021" duration="246">
+		<sings_song person_id="person-19"></sings_song>
+		<writes_song person_id="person-19"></writes_song>
+	</song>
+	
+	<song id="song-27" title="Imagine" release_date="2021" duration="171">
+		<sings_song person_id="person-19"></sings_song>
+		<writes_song person_id="person-19"></writes_song>
+	</song>
+	
+	<song id="song-28" title="De couleurs vives" release_date="2021" duration="208">
+		<sings_song person_id="person-19"></sings_song>
+		<writes_song person_id="person-19"></writes_song>
+	</song>
+	
+	<song id="song-29" title="Ce que tu es dans ma vie" release_date="2021" duration="184">
+		<sings_song person_id="person-19"></sings_song>
+		<writes_song person_id="person-19"></writes_song>
+	</song>
+	
+	<song id="song-30" title="Tout là-haut" release_date="2021" duration="293">
+		<sings_song person_id="person-19"></sings_song>
+		<writes_song person_id="person-19"></writes_song>
+	</song>
+	
+	<song id="song-31" title="Il faut qu'on se donne" release_date="2021" duration="154">
+		<sings_song person_id="person-19"></sings_song>
+		<writes_song person_id="person-19"></writes_song>
+	</song>
+	
+	<song id="song-32" title="Exister" release_date="2021" duration="222">
+		<sings_song person_id="person-19"></sings_song>
+		<writes_song person_id="person-19"></writes_song>
+	</song>
+	
+	<song id="song-33" title="À perte de rue" release_date="2021" duration="201">
+		<sings_song person_id="person-19"></sings_song>
+		<writes_song person_id="person-19"></writes_song>
+	</song>
+	
+	<song id="song-34" title="Comme tu voudras" release_date="2021" duration="271">
+		<sings_song person_id="person-19"></sings_song>
+		<writes_song person_id="person-19"></writes_song>
+	</song>
+	
+	<song id="song-35" title="Avex son frère" release_date="2021" duration="191">
+		<sings_song person_id="person-19"></sings_song>
+		<writes_song person_id="person-19"></writes_song>
+	</song>
+	
+	<song id="song-36" title="Le jardin des larmes" release_date="2021" duration="241">
+		<sings_song person_id="person-19"></sings_song>
+		<writes_song person_id="person-19"></writes_song>
+	</song>
+	
+	<song id="song-37" title="Le chant des grives" release_date="2021" duration="303">
+		<sings_song person_id="person-19"></sings_song>
+		<writes_song person_id="person-19"></writes_song>
+	</song>
+
+	<song id="song-38" title="Et le reste" release_date="2021" duration="184">
+		<sings_song person_id="person-19"></sings_song>
+		<writes_song person_id="person-19"></writes_song>
+	</song>
+	
+	<!--Songs-->
+	<album album_id="album-1" album_name="F*ck Love 3: Over You" release_date="23.07.2021" musician_id="person-9" >
+		<contains song_id="song-1"></contains>
+		<contains song_id="song-7"></contains>
+		<contains song_id="song-8"></contains>
+		<contains song_id="song-9"></contains>
+		<contains song_id="song-10"></contains>
+		<contains song_id="song-11"></contains>
+		<contains song_id="song-12"></contains>
+		<contains song_id="song-13"></contains>
+		<contains song_id="song-14"></contains>
+		<contains song_id="song-15"></contains>
+	</album>
+	
+	<album album_id="album-2" album_name="Imagine" release_date="1971" musician_id="person-5" >
+		<contains song_id="song-16"></contains>
+		<contains song_id="song-17"></contains>
+		<contains song_id="song-18"></contains>
+		<contains song_id="song-19"></contains>
+		<contains song_id="song-20"></contains>
+		<contains song_id="song-21"></contains>
+		<contains song_id="song-22"></contains>
+		<contains song_id="song-23"></contains>
+		<contains song_id="song-24"></contains>
+		<contains song_id="song-25"></contains>
+	</album>
+	
+	<album album_id="album-3" album_name="Isa" release_date="" musician_id="person-10" >
+		<contains song_id="song-26"></contains>
+		<contains song_id="song-27"></contains>
+		<contains song_id="song-28"></contains>
+		<contains song_id="song-29"></contains>
+		<contains song_id="song-30"></contains>
+		<contains song_id="song-31"></contains>
+		<contains song_id="song-32"></contains>
+		<contains song_id="song-33"></contains>
+		<contains song_id="song-34"></contains>
+		<contains song_id="song-35"></contains>
+		<contains song_id="song-36"></contains>
+		<contains song_id="song-37"></contains>
+		<contains song_id="song-38"></contains>
+	</album>
+	
+</music_database>

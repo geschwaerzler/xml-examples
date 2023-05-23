@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT media-library ANY>
+
+
+<!ELEMENT language EMPTY>
+<!ATTLIST language
+	code		ID #REQUIRED
+	language	CDATA #REQUIRED
+>
+
+<!ELEMENT person (customer, author?, address*)>
+<!ATTLIST person
+	personal-number		ID #REQUIRED
+	firstname 			CDATA #REQUIRED
+	surname				CDATA #REQUIRED
+	birthdate			CDATA #REQUIRED
+	e-mail				CDATA #REQUIRED
+	phone-number		CDATA #REQUIRED
+>
+
+<!ELEMENT customer EMPTY>
+<!ATTLIST customer
+	iban				CDATA #IMPLIED>
+	
+<!ELEMENT author EMPTY>
+
+<!ELEMENT address EMPTY>
+<!ATTLIST address
+	house_number		CDATA #IMPLIED
+	street				CDATA #IMPLIED
+	city				CDATA #IMPLIED
+	zip					CDATA #IMPLIED
+>
+
+<!ELEMENT media (book | movie)>
+<!ATTLIST media
+	id					ID #REQUIRED
+	title				CDATA #REQUIRED
+	media-language		IDREF #REQUIRED
+	release-date		CDATA #IMPLIED
+	price				CDATA #REQUIRED
+	note				CDATA #IMPLIED
+	sequel				IDREF #IMPLIED
+	prequel				IDREF #IMPLIED
+>
+
+<!ELEMENT movie EMPTY>
+<!ATTLIST movie
+	isan				ID #REQUIRED
+	length				CDATA #REQUIRED
+	producer			CDATA #REQUIRED
+	director			CDATA #REQUIRED
+>
+
+<!ELEMENT book EMPTY>
+<!ATTLIST book
+	isbn				ID #REQUIRED
+	author-personal-number	IDREF #REQUIRED
+	pages				CDATA #REQUIRED
+	version				CDATA #REQUIRED
+>
+
+<!ELEMENT rating EMPTY>
+<!ATTLIST rating
+	media-id			IDREF #REQUIRED
+	person-personal-number	CDATA #REQUIRED
+	title				CDATA #REQUIRED
+	description			CDATA #IMPLIED
+	score				CDATA #REQUIRED
+	date				CDATA #REQUIRED
+>
+
+<!ELEMENT media-list (media-list-item*)>
+<!ATTLIST media-list
+	name				CDATA #REQUIRED
+	person-personal-number IDREF #REQUIRED
+>
+
+<!ELEMENT media-list-item EMPTY>
+<!ATTLIST media-list-item
+	media-id			IDREF #REQUIRED
+>
+				

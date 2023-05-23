@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE eventFinder SYSTEM "eventApp.dtd">
+<eventFinder>
+    <eventPlanner accountID = "eventPlanner1" accountFName = "Max" accountLName = "Mustermann">
+        <telephonenumber name="PhoneNrNr1" number="911122100" />
+        <telephonenumber name="Private" number="91112212340" />
+        <email name="EmailNrNr1" email="max.maxi.maximilian@ausmilan.it" />
+        <email name="EmailNrNr2" email="max.maxi.maximilian2@ausmilan.it" />
+        <bankaccount number="5555 5555 8789" cv="427" />
+        <event name= "Birthday Party" eventID="id96" maxPersons = "69" establishmentID = "establishment3" locationID="location1" date="2023-05-05">
+            hahaha, this is a party. Bring your own food and snacks because we provide drinks and music.
+        </event>
+        <event name="Donald Trump Rally" eventID="id69" maxPersons="96" establishmentID="establishment3" locationID="location1" date="2025-02-02">
+            Make America bad again.
+        </event>
+        <event name= "Mosh Pit" eventID="id36" maxPersons = "169" establishmentID = "establishment4" locationID="location2" date="2023-08-05">
+           Head banging is a must.
+        </event>
+        <event name= "Christians cooking show" eventID="id4242564" maxPersons = "15" establishmentID = "establishment3" locationID="location1" date="2023-12-05">
+            He might not burn down the entire place again. 
+        </event>
+        <event name= "Bird Watching" eventID="id32" maxPersons = "43" establishmentID = "establishment3" locationID="location1" date="2023-05-13">
+           I think the plan is to watch birds. 
+        </event>
+        <event name= "How to make blue cheese" eventID="id287" maxPersons = "12" establishmentID = "establishment3" locationID="location1" date="2023-07-24">
+            Do not forget the smurfs. 
+        </event>
+        <event name= "Gardening club" eventID="id923" maxPersons = "45" establishmentID = "establishment4" locationID="location3" date="2023-09-05">
+            We will observe how cucumbers and other veggies grow. 
+        </event>
+    </eventPlanner>
+    <eventPlanner accountID = "eventPlanner2" accountFName = "Maxi" accountLName = "Musteri">
+        <telephonenumber name="PhoneNrNr2" number="9111221011" />
+        <email name="EmailNrNr4" email="maxi.musteri@ausmilan.it" />
+        <bankaccount number="5555 5555 8234" cv="727" />
+        <bankaccount number="5555 5213 8234" cv="217" />
+        <event name= "Furry Convention" eventID="id66" maxPersons = "69" establishmentID = "establishment3" locationID="location1" date="2023-05-06">
+           Do not touch the fluffy carpet.
+        </event>
+    </eventPlanner>
+    
+
+    <establishment accountID="establishment3" taxID="5876" companyName="Hungry Badger">
+        <address country = "USA" city = "NewYork" street = "mainstreet"  number = "1" />
+        <location ID = "location1">
+            <address country = "US of A hahaha" city = "NewYork" street = "FifthAvenue"  number = "1" />
+        </location>
+        <bankaccount number="5555 5555 6699" cv="696" />
+        <telephonenumber name="PhoneNr1" number="010080123456" />
+        <email name="EmailNrrrrrr1" email="hungry.hungry.badger@hungry.com" />
+    </establishment>
+    <establishment accountID="establishment4" taxID="5888" companyName="Mad Marder">
+        <address country = "Great Britain" city = "Manchester" street = "mainstreet"  number = "9" />
+        <location ID="location2">
+            <address country = "Great Britain" city = "Manchester" street = "mainstreet"  number = "9" />
+        </location>
+        <location ID="location3">
+        	<address country = "Great Britain" city = "Liverpool" street = "Blackpoolstreet"  number = "55" />
+        </location>
+        <bankaccount number="5555 5555 8899" cv="787" />
+        <bankaccount number="5555 5555 8894" cv="781" />
+        <bankaccount number="5555 5555 8893" cv="782" />
+        <bankaccount number="5555 5555 8891" cv="783" />
+		<bankaccount number="5555 5555 8897" cv="784" />
+		<bankaccount number="5555 5555 8890" cv="785" />
+        <telephonenumber name="Phone" number="025080123456" />
+        <telephonenumber name="fax" number="02508013234" />
+        <email name="ShopEmail" email="very.mad.marder@marder.at" />
+    </establishment>
+
+<!-- User /  Visitor of event -->
+    <plebeian accountID="plebian5" accountFName="Fluffy" accountLName="Fletcher" gender="complicated">
+        <telephonenumber name="PhoneNr1ForAPhone" number="010080123456" />
+        <email name="EmailNr1" email="fluffy.fletcher@hogwarts.gb" />
+         <email name="EmailNr2" email="fluffy.fletcher@slitherin.gb" />
+        <bankaccount number="5555 5555 6699" cv="696" />
+        <ticket id="444" eventID="id96" />
+    </plebeian>
+
+	<plebeian accountID="plebian6" accountFName="Christanovic" accountLName="Cook" gender="female">
+        <telephonenumber name="Mynumner" number="01008014895" />
+        <telephonenumber name="MyKitchen" number="0100456789" />
+        <email name="PrivateEmail" email="chrislovestocook@gmail.com" />
+        <bankaccount number="5555 5555 6699" cv="696" />
+        <ticket id="445" eventID="id36" />
+        <ticket id="446" eventID="id4242564" />
+        <ticket id="428" eventID="id69" />
+    </plebeian>
+    
+    <plebeian accountID="plebian7" accountFName="Markovic" accountLName="Fulton" gender="identifies as cat">
+        <telephonenumber name="Catambulance" number="01008078945" />
+        <telephonenumber name="CatMobile" number="01008071235" />
+        <email name="VetEmail" email="cat.attack@gmail.com" />
+        <bankaccount number="5555 3235 6699" cv="123" />
+        <ticket id="428" eventID="id69" />
+    </plebeian>
+    
+    <plebeian accountID="plebian8" accountFName="Walter" accountLName="Waltraut" gender="male">
+        <telephonenumber name="ForstPhone" number="014578123456" />
+        <telephonenumber name="waldPhone" number="01457813223" />
+        <email name="ForstEmail" email="ichwohneimwald@wal.de" />
+        <bankaccount number="5555 5555 8524" cv="689" />
+        <bankaccount number="5585 5555 8524" cv="699" />
+        <ticket id="448" eventID="id287" />
+        <ticket id="428" eventID="id69" />
+        <ticket id="4324" eventID="id923" />
+    </plebeian>
+</eventFinder>

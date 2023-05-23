@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT store ANY>
+<!ATTLIST store
+		store_name			CDATA		#REQUIRED
+		address				CDATA		#REQUIRED
+		number_employees	CDATA		#IMPLIED
+		open_from			CDATA		#REQUIRED
+		open_until			CDATA 		#REQUIRED
+>
+
+<!ELEMENT artist EMPTY>
+<!ATTLIST artist
+		artist_id			ID			#REQUIRED
+		artist_name			CDATA		#REQUIRED
+>
+
+<!ELEMENT product (song)+>
+<!ATTLIST product
+		image				CDATA							#IMPLIED
+		artist_id 			IDREF							#REQUIRED
+		title 				CDATA							#IMPLIED
+		media				(CD | LP | Single | Other)		#IMPLIED
+		genre				CDATA							#IMPLIED
+		label 				CDATA							#IMPLIED
+		length 				CDATA							#IMPLIED
+		number_of_cds		CDATA							#IMPLIED
+		release_date 		CDATA							#IMPLIED
+		purchasing_price 	CDATA							#REQUIRED
+		retail_price 		CDATA							#REQUIRED
+		condition			(new | used)					#REQUIRED
+		stock_level 		CDATA							#REQUIRED
+>
+
+<!ELEMENT song (featured_artist)*>
+<!ATTLIST song
+		artist_id			IDREF				#REQUIRED
+		name				CDATA				#IMPLIED
+		length				CDATA				#IMPLIED
+		lp_side				(A | B | C | D)		#IMPLIED
+		cd_number			CDATA				#IMPLIED
+>
+
+<!ELEMENT featured_artist (artist)*>
+<!ATTLIST featured_artist
+		artist_id			IDREF		#REQUIRED
+>

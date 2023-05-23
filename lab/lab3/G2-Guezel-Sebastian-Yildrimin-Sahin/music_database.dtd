@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT music_database (person+, genre+, song+, album+)>
+
+<!ELEMENT person (musician?,songwriter?)>
+<!ATTLIST person
+	id			ID		#REQUIRED
+	first_name 	CDATA	#REQUIRED
+	last_name	CDATA	#REQUIRED
+	artist_name CDATA	#IMPLIED
+	birthday	CDATA	#REQUIRED
+	dateOfDeath CDATA	#IMPLIED
+	listensto	IDREF	#IMPLIED
+>
+
+<!ELEMENT musician EMPTY>
+<!ATTLIST musician
+	id			ID		#REQUIRED
+	follower	CDATA 	#REQUIRED
+	band 		CDATA	#IMPLIED
+	company		CDATA	#IMPLIED
+>
+
+<!ELEMENT songwriter EMPTY>
+<!ATTLIST songwriter
+	id		ID		#REQUIRED
+	company CDATA	#IMPLIED
+>
+
+<!ELEMENT genre (has+)>
+<!ATTLIST genre
+	id		ID		#REQUIRED
+	name	CDATA 	#REQUIRED
+>
+
+<!ELEMENT has EMPTY>
+<!ATTLIST has
+	song_id IDREF	#REQUIRED
+>
+
+<!ELEMENT song (sings_song*,writes_song+)>
+<!ATTLIST song
+	id				ID		#REQUIRED
+	title			CDATA	#REQUIRED
+	release_date	CDATA	#REQUIRED
+	duration		CDATA	#REQUIRED	
+>
+
+<!ELEMENT sings_song EMPTY>
+<!ATTLIST sings_song
+	person_id	IDREF	#REQUIRED
+>
+
+<!ELEMENT writes_song EMPTY>
+<!ATTLIST writes_song
+	person_id	IDREF	#REQUIRED
+>
+
+<!ELEMENT album	(contains+)>
+<!ATTLIST album
+	album_id		ID		#REQUIRED
+	album_name		CDATA	#REQUIRED
+	release_date	CDATA	#REQUIRED
+	musician_id		IDREF	#REQUIRED
+>
+
+<!ELEMENT contains EMPTY>
+<!ATTLIST contains
+	song_id IDREF	#REQUIRED
+>

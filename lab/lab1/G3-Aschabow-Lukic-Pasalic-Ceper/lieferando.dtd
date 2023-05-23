@@ -1,0 +1,32 @@
+<!ELEMENT Lieferservice (kategorie*, speisegattung+, getränkegattung+, Restaurant*)>
+<!ELEMENT kategorie EMPTY>
+<!ATTLIST kategorie
+    id              			ID   #REQUIRED
+    kategorie_bezeichnung 		CDATA   #REQUIRED>
+<!ELEMENT speisegattung EMPTY>
+<!ATTLIST speisegattung
+    id              			ID   #REQUIRED
+    speisegattung_bezeichnung 	CDATA   #REQUIRED>
+<!ELEMENT getränkegattung EMPTY>
+<!ATTLIST getränkegattung
+    id              			CDATA   #REQUIRED
+    getränke_bezeichnung 		CDATA   #REQUIRED>
+<!ELEMENT Restaurant (geschaeft, Speise*, Getränk*)>
+<!ELEMENT geschaeft EMPTY>
+<!ATTLIST geschaeft
+    name            			CDATA   #REQUIRED
+    adresse         			CDATA   #REQUIRED
+    geoeffnet_von   			CDATA   #REQUIRED
+    geoeffnet_bis   			CDATA   #REQUIRED>
+<!ELEMENT Speise EMPTY>
+<!ATTLIST Speise
+    bezeichnung     			CDATA   #REQUIRED
+    preis           			CDATA   #REQUIRED
+    kategorie-id    			IDREF   #REQUIRED
+    speisegattung-id 			IDREF   #REQUIRED>
+<!ELEMENT Getränk EMPTY>
+<!ATTLIST Getränk
+    bezeichnung     			CDATA   #REQUIRED
+    preis           			CDATA   #REQUIRED
+    kategorie-id    			CDATA   #REQUIRED
+    getränkegattung-id 			CDATA 	#REQUIRED>

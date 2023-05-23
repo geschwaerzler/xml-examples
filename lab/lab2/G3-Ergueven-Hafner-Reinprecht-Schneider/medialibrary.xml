@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE media-library SYSTEM "media-library.dtd">
+<media-library>
+	<language code="en-us" language="english"/>
+	<language code="en-uk" language="english"/>
+	<language code="de-de" language="german"/>
+	
+	<!-- Persons -->
+	<!-- Customers -->
+	<person personal-number="p-1" firstname="Peter" surname="Schneider" birthdate="2001-11-12" e-mail="peter.schneider@students.fhv.at" phone-number="+43 677 64681465">
+    	<customer iban="AT51 8944 2387 8217 0482"/>
+    	<address house_number="381" street="Downtown" city="New York" zip="6870"/>
+	</person>
+	<person personal-number="p-2" firstname="Michael" surname="Reinprecht" birthdate="2002-06-06" e-mail="michael.reinprecht@students.fhv.at" phone-number="+43 664 123656">
+		<customer iban="AT51 8944 2387 8217 0423"/>
+		<address house_number="12" street="Uptown" city="New York" zip="6870"/>
+	</person>
+	<person personal-number="p-3" firstname="Johann" surname="Schwarz" birthdate="2002-02-03" e-mail="johann.schwarz@students.fhv.at" phone-number="+43 664 1243456">
+		<customer iban="AT51 8944 2387 8217 0423"/>
+		<address house_number="120" street="Apple Street" city="New York" zip="6870"/>
+	</person>
+	<person personal-number="p-4" firstname="Willi" surname="Schwärzler" birthdate="1978-03-06" e-mail="willi.schwärzler@students.fhv.at" phone-number="+43 664 128456">
+		<customer iban="AT51 8944 2387 8217 0423"/>
+		<address house_number="13" street="Bakers Street" city="New York" zip="6870"/>
+	</person>
+	<person personal-number="p-5" firstname="Laura" surname="Volmer" birthdate="1960-06-01" e-mail="laura.volmer@students.fhv.at" phone-number="+43 664 123956">
+		<customer iban="AT51 8944 2387 8217 0423"/>
+		<address house_number="10" street="Hungry Street" city="New York" zip="6870"/>
+	</person>
+	<!-- Authors -->
+	<person personal-number="p-10" firstname="Thomas" surname="Walder" birthdate="1999-13-06" e-mail="thomas.waldner@gmail.com" phone-number="+43 666 100456">
+		<customer/>
+		<author/>
+		<address house_number="10" street="Main Street" city="Manhattan" zip="6880"/>
+	</person>
+	<person personal-number="p-11" firstname="Derek" surname="Landy" birthdate="1980-13-01" e-mail="derek.landy@gmail.com" phone-number="+43 666 12556">
+		<customer/>
+		<author/>
+		<address house_number="110" street="Company Street" city="Dublin" zip="6380"/>
+	</person>
+	<person personal-number="p-12" firstname="Joanne Kathleen" surname="Rolling" birthdate="1989-13-03" e-mail="jaonne.rolling@gmail.com" phone-number="+43 666 1163456">
+		<customer/>
+		<author/>
+		<address house_number="30" street="Tower Street" city="London" zip="5880"/>
+	</person>
+	<person personal-number="p-13" firstname="Dan" surname="Brown" birthdate="1993-11-06" e-mail="dan.brown@gmail.com" phone-number="+43 666 243456">
+		<customer/>
+		<author/>
+		<address house_number="3" street="Broad Street" city="New York" zip="6870"/>
+	</person>
+	
+	<!-- Medias -->
+	<media id="m-1" title="Winter is coming" media-language="en-us" release-date="2016-03-13" price="30.36" note="">
+    	<book isbn="book_5432934" author-personal-number="p-12" pages="" version="1.00"/>
+	</media>
+	<media id="m-2" title="UML Distilled" media-language="en-us" release-date="2003-09-15" price="34.42" note="">
+	    <book isbn="book_24842822" author-personal-number="p-13" pages="" version="1.00"/>
+	</media>
+	<media id="m-3" title="Fluch der Karibik" media-language="en-us" release-date="2003-09-04" price="12.95" note="" sequel="m-4">
+	    <movie isan="movie_28338282" length="" producer="Jerry Bruckheimer" director="Gore Verbinski"/>
+	</media>
+	<media id="m-4" title="Fluch der Karibik 2" media-language="en-us" release-date="2006-07-27" price="12.95" note="" prequel="m-3">
+	    <movie isan="movie_2343222" length="" producer="Jerry Bruckheimer" director="Gore Verbinski"/>
+	</media>
+	<media id="m-5" title="Top Gun: Maverick" media-language="en-us" release-date="2022-05-26" price="13.55" note="">
+	    <movie isan="movie_2483822"  length="" producer="Jerry Bruckheimer" director="Joseph Kosinski"/>
+	</media>
+	<media id="m-6" title="Jeve Jobs the Biography" media-language="en-us" release-date="2000-01-01" price="20.00">
+		<book isbn="book-123" author-personal-number="p-10" pages="345" version="1.00"/>
+	</media>
+		<media id="m-7" title="Iluminati" media-language="en-us" release-date="2000-13-12" price="20.00" note="Bad condition." sequel="m-8">
+		<book isbn="book-1234" author-personal-number="p-13" pages="332" version="1.00"/>
+	</media>
+		<media id="m-8" title="Iluminati 2" media-language="en-us" release-date="2000-02-02" price="18.00" prequel="m-7">
+		<book isbn="book-12345" author-personal-number="p-13" pages="221" version="1.00"/>
+	</media>
+	<media id="m-9" title="Die Bestimmung" media-language="en-us" release-date="1999-01-10" price="21.00">
+		<book isbn="book-123456" author-personal-number="p-11" pages="405" version="1.00"/>
+	</media>
+	<media id="m-10" title="Skullduggery Pleasent" media-language="en-us" release-date="1880-01-02" price="30.00">
+		<movie isan="movie-123456" length="120" producer="Steven Spielberg" director="Steven Spielberg"/>
+	</media>
+	<media id="m-11"  title="Nineteen Eighty Four" media-language="en-us" release-date="1949-06-20" price="20.00" note="A book by George Orwell">
+		<book isbn="book_23412" author-personal-number="p-12" pages="200" version="1.0"/>
+	</media>
+	<media id="m-12"  title="Die Verwandlung" media-language="en-us" release-date="2000-07-20" price="25.00" note="A book by Franz Kafka">
+		<book isbn="book_32345" author-personal-number="p-13" pages="120" version="1.0"/>
+	</media>
+	<media id="m-13"  title="Kung Fu Panda 2" media-language="en-us" release-date="2013-06-20" price="10.00" note="A movie by Micheal Bay">
+		<movie isan="movie_23444"  length="2h" producer="John Lennon" director="Joseph Joestar"/>
+	</media>
+	<media id="m-14"  title="Super Mario" media-language="en-us" release-date="2023-04-20" price="20.00" note="A movie by Joesph Malphite" sequel="m-15">
+		<movie isan="movie_33004"  length="1.30h" producer="Jospeh Malphite" director="Jeff Bezos"/>
+	</media>
+	<media id="m-15"  title="Super Mario 2" media-language="en-us" release-date="2023-04-10" price="20.00" note="A book by Jeff Bezos" prequel="m-14">
+		<movie isan="movie_33024" length="1.30h" producer="Jospeh Malphite" director="Jeff Bezos"/>
+	</media>
+
+	<!-- Ratings -->
+	<rating media-id="m-6" person-personal-number="p-2" title="Great book" description="I like it but ..." score="4" date="2023-03-12"/>
+	<rating media-id="m-1"  person-personal-number="p-1" title="Not bad"  score="4" date="22-01-2022"/>
+	<rating media-id="m-1"  person-personal-number="p-1" title="bad"  score="1" date="22-01-2022"/>
+	<rating media-id="m-2"  person-personal-number="p-2" title="Bad"  score="4" date="22-01-2022"/>
+	<rating media-id="m-2"  person-personal-number="p-2" title="Could be better"  score="3" date="22-01-2022"/>
+	<rating media-id="m-3"  person-personal-number="p-3" title="Complicated"  score="4" date="22-01-2022"/>
+	<rating media-id="m-3"  person-personal-number="p-3" title="Hm"  score="3" date="22-01-2022"/>
+	<rating media-id="m-4"  person-personal-number="p-4" title="very good" description="Didn't quite enjoy..." score="2" date="22-01-2022"/>
+	<rating media-id="m-5"  person-personal-number="p-4" title="very good" description="Beautilful ..." score="2" date="22-01-2022"/>
+	<rating media-id="m-5"  person-personal-number="p-1" title="very good" description="I really ..." score="3" date="22-01-2022"/>
+	<rating media-id="m-6"  person-personal-number="p-1" title="very good"  score="3" date="22-01-2022"/>
+	<rating media-id="m-6"  person-personal-number="p-2" title="very good" description="I especially ..." score="1" date="22-01-2022"/>
+	<rating media-id="m-7"  person-personal-number="p-2" title="horrible"  score="1" date="22-01-2022"/>
+	<rating media-id="m-7"  person-personal-number="p-3" title="not bad" description="Some parts were ..." score="4" date="22-01-2022"/>
+	<rating media-id="m-8"  person-personal-number="p-3" title="ok"  score="3" date="22-01-2022"/>
+	<rating media-id="m-8"  person-personal-number="p-4" title="yes ok" description="It was fine but ..." score="3" date="22-01-2022"/>
+	<rating media-id="m-9"  person-personal-number="p-4" title="acceptable"  score="2" date="22-01-2022"/>
+	<rating media-id="m-9"  person-personal-number="p-1" title="no not for me" description="I really didn't ..." score="1" date="22-01-2022"/>
+	<rating media-id="m-10"  person-personal-number="p-1" title="alright" description="Something that ..." score="5" date="22-01-2022"/>
+	<rating media-id="m-10"  person-personal-number="p-2" title="good" description="One part that ..." score="4" date="22-01-2022"/>
+	<rating media-id="m-11"  person-personal-number="p-2" title="ew" description="It was disgusting ..." score="1" date="22-01-2022"/>
+	
+	<!-- Media Lists -->
+	<media-list name="favorites" person-personal-number="p-1">
+		<media-list-item media-id="m-1"/>
+		<media-list-item media-id="m-2"/>
+		<media-list-item media-id="m-3"/>
+		<media-list-item media-id="m-6"/>
+		<media-list-item media-id="m-7"/>
+		<media-list-item media-id="m-13"/>
+		<media-list-item media-id="m-14"/>
+		<media-list-item media-id="m-15"/>
+	</media-list>
+	<media-list name="read" person-personal-number="p-1">
+		<media-list-item media-id="m-1"/>
+		<media-list-item media-id="m-2"/>
+		<media-list-item media-id="m-3"/>
+		<media-list-item media-id="m-13"/>
+		<media-list-item media-id="m-14"/>
+		<media-list-item media-id="m-15"/>
+	</media-list>
+	<media-list name="favorites" person-personal-number="p-2">
+		<media-list-item media-id="m-1"/>
+		<media-list-item media-id="m-3"/>
+		<media-list-item media-id="m-4"/>
+		<media-list-item media-id="m-6"/>
+		<media-list-item media-id="m-7"/>
+		<media-list-item media-id="m-8"/>
+		<media-list-item media-id="m-9"/>
+	</media-list>
+	<media-list name="favorite-fantasy" person-personal-number="p-2">
+		<media-list-item media-id="m-10"/>
+	</media-list>
+	<media-list name="favorite-thriller" person-personal-number="p-2">
+			<media-list-item media-id="m-7"/>
+			<media-list-item media-id="m-8"/>
+	</media-list>
+	<media-list name="favorites" person-personal-number="p-3">
+		<media-list-item media-id="m-2"/>
+		<media-list-item media-id="m-3"/>
+		<media-list-item media-id="m-4"/>
+		<media-list-item media-id="m-7"/>
+		<media-list-item media-id="m-11"/>
+		<media-list-item media-id="m-12"/>
+		<media-list-item media-id="m-15"/>
+	</media-list>
+	<media-list name="my-thrillers" person-personal-number="p-3">
+		<media-list-item media-id="m-8"/>
+		<media-list-item media-id="m-7"/>
+	</media-list>
+	<media-list name="favorites" person-personal-number="p-4">
+		<media-list-item media-id="m-1"/>
+		<media-list-item media-id="m-2"/>
+		<media-list-item media-id="m-3"/>
+		<media-list-item media-id="m-6"/>
+		<media-list-item media-id="m-7"/>
+		<media-list-item media-id="m-13"/>
+		<media-list-item media-id="m-14"/>
+		<media-list-item media-id="m-15"/>
+	</media-list>
+		<media-list name="read" person-personal-number="p-5">
+		<media-list-item media-id="m-3"/>
+		<media-list-item media-id="m-5"/>
+		<media-list-item media-id="m-6"/>
+		<media-list-item media-id="m-12"/>
+		<media-list-item media-id="m-13"/>
+		<media-list-item media-id="m-14"/>
+	</media-list>
+	<media-list name="active-read" person-personal-number="p-5">
+		<media-list-item media-id="m-1"/>
+		<media-list-item media-id="m-2"/>
+	</media-list>
+</media-library>

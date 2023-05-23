@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE store SYSTEM "store.dtd">
+
+<store 
+	store_name= 'Music Store'
+	address="Hochschulstraße 1, 6850 Dornbirn"
+	number_employees="2"
+	open_from="09:00:00"
+	open_until="17:00:00">
+	
+	<artist 
+		artist_id = 'A01358961'
+		artist_name = 'Bruce Springsteen'/>
+			
+	<artist 
+		artist_id = 'A96478234'
+		artist_name = 'Kraftklub'/>
+	
+	<artist 
+		artist_id = 'A05763205'
+		artist_name = 'Tokio Hotel'/>
+		
+	<artist 
+		artist_id = 'A65894382'
+		artist_name = 'Blond'/>
+		
+	<artist 
+		artist_id = 'A78546309'
+		artist_name = 'Mia Morgan'/>
+		
+	<artist 
+		artist_id = 'A01324989'
+		artist_name = 'Lynyrd Skynyrd'/>
+		
+	<artist
+		artist_id = 'A01274129'
+		artist_name = 'Depeche Mode'/>
+		
+	<artist
+		artist_id = 'A03258334'
+		artist_name = 'Phil Legg'/>
+		
+	<artist 
+		artist_id = 'A56386724'
+		artist_name = 'Adrian Sherwood'/>
+		
+	<artist 
+		artist_id = 'A05732835'
+		artist_name = 'David Harrow'/>
+		
+	<artist 
+		artist_id = 'A01533335'
+		artist_name = 'Gareth Jones'/>
+		
+	<artist 
+		artist_id = 'A84676769'
+		artist_name = 'Holger Hiller'/>
+		
+	<artist 
+		artist_id = 'A23592406'
+		artist_name = 'Mimi Izumi Kobayashi'/>
+		
+	<artist 
+		artist_id = 'A11121948'
+		artist_name = 'Tim Simenon'/>
+		
+	<artist 
+		artist_id = 'A56537777'
+		artist_name = 'Bruce Smith'/>
+		
+	<artist 
+		artist_id = 'A13591833'
+		artist_name = 'Sean Oliver'/>
+		
+	<artist 
+		artist_id = 'A13953806'
+		artist_name = 'Jon Marsh'/>
+		
+	<artist 
+		artist_id = 'A43858888'
+		artist_name = 'Dr. Alex Paterson'/>
+		
+	<artist 
+		artist_id = 'A85432025'
+		artist_name = 'Thrash'/>
+	
+	<artist 
+		artist_id = 'A83928523'
+		artist_name = 'Good Charlotte'/>
+	
+	<product
+		image = "https://m.media-amazon.com/images/I/81W0XTIqmjL._SL1500_.jpg"
+		artist_id = 'A01358961'
+		title = "Lucky Town"
+		media = 'LP'
+		genre = 'Rock'
+		label = 'Columbia Records'
+		length = '39:33'
+		release_date = '31.03.1992'
+		purchasing_price = '6,50'
+		retail_price = '9,99'
+		condition = 'new'
+		stock_level = '5'>
+		
+		<song
+			artist_id = 'A01358961'
+			name = 'Better Days'
+			
+			length = '4:08'
+			lp_side = 'A'/>
+		
+		<song
+			artist_id = 'A01358961'
+			name = 'Lucky Town'
+			length = '3:27'
+			lp_side = 'A'/>
+			
+		<song
+			artist_id = 'A01358961'
+			name = 'Local Hero'
+			length = '4:04'
+			lp_side = 'A'/>
+			
+		<song
+			artist_id = 'A01358961'
+			name = 'If I Should Fall Behind'
+			length = '2:57'
+			lp_side = 'A'/>
+			
+		<song
+			artist_id = 'A01358961'
+			name = 'Leap of Faith'
+			length = '3:27'
+			lp_side = 'A'/>
+			
+		<song
+			artist_id = 'A01358961'
+			name = 'The Big Muddy'
+			length = '4:05'
+			lp_side = 'B'/>
+			
+		<song
+			artist_id = 'A01358961'
+			name = 'Living Proof'
+			length = '4:49'
+			lp_side = 'B'/>
+		
+		<song
+			artist_id = 'A01358961'
+			name = 'Book of Dreams'
+			length = '4:24'
+			lp_side = 'B'/>
+			
+		<song
+			artist_id = 'A01358961'
+			name = 'Souls of the Departed'
+			length = '4:17'
+			lp_side = 'B'/>
+			
+		<song
+			artist_id = 'A01358961'
+			name = 'My Beautiful Reward'
+			length = '3:55'
+			lp_side = 'B'/>
+	</product>
+		
+	<product
+		image = "https://www.emp.at/dw/image/v2/BBQV_PRD/on/demandware.static/-/Sites-master-emp/default/dw259be162/images/5/4/3/3/543318a.jpg?sfrm=png"
+		artist_id = 'A96478234'
+		title = "Kargo"
+		media = 'CD'
+		genre = 'Indie-Rock, Punk-Rock, Rap-Rock'
+		label = 'Vertigo Records (UMG)'
+		length = '36:11'
+		release_date = '22.09.2022'
+		purchasing_price = '8,32'
+		retail_price = '10,99'
+		condition = 'new'
+		stock_level = '8'>
+		
+		<song
+			artist_id = 'A96478234'
+			name = 'Teil dieser Band'
+			length = '3:36'/>
+		
+		<song
+			artist_id = 'A96478234'
+			name = 'Ein Song reicht'
+			length = '3:24'/>
+			
+		<song
+			artist_id = 'A96478234'
+			name = 'Wittenberg ist nicht Paris'
+			length = '3:11'/>
+			
+		<song
+			artist_id = 'A96478234'
+			name = "Fahr mit mir (4×4)"
+			length = '4:06'>
+						
+			<featured_artist 
+				artist_id = 'A05763205'>
+			</featured_artist>
+		</song>
+		
+		<song
+			artist_id = 'A96478234'
+			name = "Blaues Licht"
+			length = '2:59'/>
+			
+		<song
+			artist_id = 'A96478234'
+			name = "Kein Gott, kein Staat, nur Du"
+			length = '3:05'>
+			
+			<featured_artist 
+				artist_id = 'A78546309'>
+			</featured_artist>
+		</song>
+		
+		<song
+			artist_id = 'A96478234'
+			name = "Angst"
+			length = '3:13'/>
+			
+			
+		<song
+			artist_id = 'A96478234'
+			name = "Vierter September"
+			length = '3:11'/>
+			
+		<song
+			artist_id = 'A96478234'
+			name = "So schön"
+			length = '3:09'>
+			
+			<featured_artist 
+				artist_id = 'A65894382'>
+			</featured_artist>
+		</song>
+		
+		<song
+			artist_id = 'A96478234'
+			name = "Der Zeit bist du egal"
+			length = '3:20'/>
+			
+		<song
+			artist_id = 'A96478234'
+			name = "In meinem Kopf"
+			length = '2:58'/>
+	</product>
+	
+	<product
+		image = "https://m.media-amazon.com/images/I/61YoLh5PLKL._UXNaN_FMjpg_QL85_.jpg"
+		artist_id = 'A01324989'
+		title = "Pronounced 'Leh-'Nérd 'Skin-'Nérd (Expanded Edition)"
+		media = 'CD'
+		genre = 'Hard Rock'
+		label = '2001 Geffen Records'
+		length = '1:16:00'
+		release_date = '01.01.1973'
+		purchasing_price = '5,40'
+		retail_price = '11,99'
+		condition = 'used'
+		stock_level = '2'>
+		
+		<song
+			artist_id = 'A01324989'
+			name = "I Ain't The One"
+			length = '3:53'/>
+		
+		<song
+			artist_id = 'A01324989'
+			name = "Tuesday's Gone"
+			length = '7:32'/>
+			
+		<song
+			artist_id = 'A01324989'
+			name = 'Gimme Three Steps'
+			length = '4:30'/>
+			
+		<song
+			artist_id = 'A01324989'
+			name = 'Simple Man'
+			length = '5:57'/>
+			
+		<song
+			artist_id = 'A01324989'
+			name = "Things Goin' On"
+			length = '4:59'/>
+			
+		<song
+			artist_id = 'A01324989'
+			name = 'Mississippi Kid'
+			length = '3:56'/>
+			
+		<song
+			artist_id = 'A01324989'
+			name = 'Poison Whiskey'
+			length = '3:13'/>
+		
+		<song
+			artist_id = 'A01324989'
+			name = 'Free Bird'
+			length = '9:18'/>
+			
+		<song
+			artist_id = 'A01324989'
+			name = 'Mr. Banker - Demo Version'
+			length = '5:22'/>
+			
+		<song
+			artist_id = 'A01324989'
+			name = "Down South Jukin' - Demo Version"
+			length = '2:57'/>
+			
+		<song
+			artist_id = 'A01324989'
+			name = "Tuesday's Gone - Demo Version"
+			length = '7:55'/>
+			
+		<song
+			artist_id = 'A01324989'
+			name = "Gimme Three Steps - Demo Version"
+			length = '5:19'/>
+	</product>
+	
+	<product
+		image = "https://www.depechemode.de/wp-content/uploads/2021/03/depeche-mode-violator-box-set-800x800.jpg"
+		artist_id = 'A01274129'
+		title = "Violator | The 12'' Singles"
+		media = 'Single'
+		genre = 'Synthpop'
+		label = 'Venusnote Ltd.'
+		length = '2:59:00'
+		release_date = '01.04.2022'
+		purchasing_price = '24,50'
+		retail_price = '34,99'
+		condition = 'new'
+		stock_level = '13'>
+		
+		<song
+			artist_id = 'A01274129'
+			name = 'Personal Jesus - Holier Than Thou Approach'
+			length = '5:49'/>
+		
+		<song
+			artist_id = 'A01274129'
+			name = 'Dangerous - Sensual Mix'
+			length = '5:25'/>
+			
+		<song
+			artist_id = 'A01274129'
+			name = 'Personal Jesus - Acoustic'
+			length = '3:26'/>
+			
+		<song
+			artist_id = 'A01274129'
+			name = 'Personal Jesus - Pump Mix'
+			length = '7:48'/>
+			
+		<song
+			artist_id = 'A01274129'
+			name = 'Personal Jesus - Telephone Stomp Mix'
+			length = '5:34'/>
+			
+		<song
+			artist_id = 'A01274129'
+			name = 'Dangerous - Hazchemix'
+			length = '5:38'/>
+			
+		<song
+			artist_id = 'A01274129'
+			name = 'Enjoy The Silence'
+			length = '4:17'/>
+			
+		<song
+			artist_id = 'A01274129'
+			name = 'Enjoy The Silence - Hands and Feet Mix'
+			length = '6:48'/>
+			
+		<song
+			artist_id = 'A01274129'
+			name = 'Enjoy The Silence - Ecstatic Dub'
+			length = '5:49'/>
+			
+		<song
+			artist_id = 'A01274129'
+			name = 'Sibeling'
+			length = '3:18'/>
+			
+		<song
+			artist_id = 'A01274129'
+			name = 'Enjoy The Silence - Bass Line'
+			length = '7:41'/>
+			
+		<song
+			artist_id = 'A01274129'
+			name = 'Enjoy The Silence - Harmonium'
+			length = '2:41'/>
+			
+		<song
+			artist_id = 'A01274129'
+			name = 'Enjoy The Silence - Ricki Tik Tik Mix'
+			length = '5:33'>
+			
+				<featured_artist 
+					artist_id = 'A03258334'>
+				</featured_artist>
+		</song>
+			
+		<song
+			artist_id = 'A01274129'
+			name = 'Memphisto'
+			length = '4:09'/>
+			
+		<song
+			artist_id = 'A01274129'
+			name = 'Enjoy The Silence - The Quad: Final Mix'
+			length = '15:36'>
+			
+				<featured_artist 
+					artist_id = 'A56386724'>
+				</featured_artist>
+
+				<featured_artist 
+					artist_id = 'A05732835'>
+				</featured_artist>
+				
+				<featured_artist 
+					artist_id = 'A01533335'>
+				</featured_artist>
+				
+				<featured_artist 
+					artist_id = 'A84676769'>
+				</featured_artist>
+				
+				<featured_artist 
+					artist_id = 'A23592406'>
+				</featured_artist>
+				
+				<featured_artist 
+					artist_id = 'A11121948'>
+				</featured_artist>
+		</song>	
+			
+		<song
+			artist_id = 'A01274129'
+			name = 'Policy of Truth - Beat Box'
+			length = '6:32'/>
+			
+		<song
+			artist_id = 'A01274129'
+			name = 'Policy of Truth - Capitol Mix'
+			length = '8:03'/>
+			
+		<song
+			artist_id = 'A01274129'
+			name = 'Kaleid - When Worlds Mix'
+			length = '5:25'/>
+			
+		<song
+			artist_id = 'A01274129'
+			name = 'Policy of Truth - Trancentral Mix'
+			length = '5:56'/>
+			
+		<song
+			artist_id = 'A01274129'
+			name = 'Kaleid - Remix'
+			length = '4:09'>
+				
+				<featured_artist 
+					artist_id = 'A56537777'>
+				</featured_artist>
+			
+				<featured_artist 
+					artist_id = 'A13591833'>
+				</featured_artist>
+		</song>
+		
+		<song
+			artist_id = 'A01274129'
+			name = "Policy of Truth - Pavlov's Dub"
+			length = '6:03'/>
+			
+		<song
+			artist_id = 'A01274129'
+			name = 'World In My Eyes - Oil Tank Mix'
+			length = '7:31'/>
+			
+		<song
+			artist_id = 'A01274129'
+			name = 'Happiest Girl - Kiss-A-Mix'
+			length = '6:16'/>
+			
+		<song
+			artist_id = 'A01274129'
+			name = 'Sea of Sin - Sensoria'
+			length = '6:06'/>
+			
+		<song
+			artist_id = 'A01274129'
+			name = 'World In My Eyes - Dub In My Eyes'
+			length = '6:57'/>
+			
+		<song
+			artist_id = 'A01274129'
+			name = 'World In My Eyes - Mode to Joy'
+			length = '6:34'>
+			
+				<featured_artist 
+					artist_id = 'A13953806'>
+				</featured_artist>
+		</song>
+		
+		<song
+			artist_id = 'A01274129'
+			name = 'Happiest Girl - The Pulsating Orbital Mix'
+			length = '6:27'>
+			
+				<featured_artist 
+					artist_id = 'A43858888'>
+				</featured_artist>
+				
+				<featured_artist 
+					artist_id = 'A85432025'>
+				</featured_artist>
+		</song>	
+		
+		<song
+			artist_id = 'A01274129'
+			name = 'World In My Eyes - Mayhem Mode'
+			length = '4:58'>
+			
+				<featured_artist 
+					artist_id = 'A13953806'>
+				</featured_artist>
+		</song>	
+
+		<song
+			artist_id = 'A01274129'
+			name = 'Happiest Girl - The Pulsating Orbital Vocal Mix'
+			length = '8:01'>
+			
+				<featured_artist 
+					artist_id = 'A43858888'>
+				</featured_artist>
+				
+				<featured_artist 
+					artist_id = 'A85432025'>
+				</featured_artist>
+		</song>	
+
+	</product>
+	
+	<product
+		image = "https://upload.wikimedia.org/wikipedia/en/8/82/The_Young_and_the_Hopeless.jpg"
+		artist_id = 'A83928523'
+		title = "The Young and the Hopeless"
+		media = 'CD'
+		genre = 'Alternative'
+		label = 'Epic Records (Sony Music)'
+		length = '45:52'
+		release_date = '01.10.2002'
+		purchasing_price = '5,50'
+		retail_price = '8,99'
+		condition = 'used'
+		stock_level = '2'>
+		
+		<song
+			artist_id = 'A83928523'
+			name = 'A New Beginning'
+			length = '1:49'/>
+		
+		<song
+			artist_id = 'A83928523'
+			name = 'The Anthem'
+			length = '2:55'/>
+			
+		<song
+			artist_id = 'A83928523'
+			name = 'Lifestyles of the Rich + Famous'
+			length = '3:10'/>
+			
+		<song
+			artist_id = 'A83928523'
+			name = 'Wondering'
+			length = '3:31'/>
+			
+		<song
+			artist_id = 'A83928523'
+			name = 'The Story of My Old Man'
+			length = '2:42'/>
+			
+		<song
+			artist_id = 'A83928523'
+			name = 'Girls + Boys'
+			length = '3:01'/>
+			
+		<song
+			artist_id = 'A83928523'
+			name = 'My Bloody Valentine'
+			length = '3:54'/>
+		
+		<song
+			artist_id = 'A83928523'
+			name = 'Hold On'
+			length = '4:06'/>
+			
+		<song
+			artist_id = 'A83928523'
+			name = 'Riot Girl'
+			length = '2:17'/>
+			
+		<song
+			artist_id = 'A83928523'
+			name = 'Say Anything'
+			length = '4:21'/>
+			
+		<song
+			artist_id = 'A83928523'
+			name = 'The Day That I Die'
+			length = '2:58'/>
+			
+		<song
+			artist_id = 'A83928523'
+			name = 'The Young + the Hopeless'
+			length = '3:32'/>
+			
+		<song
+			artist_id = 'A83928523'
+			name = 'Emotionless'
+			length = '4:02'/>
+			
+		<song
+			artist_id = 'A83928523'
+			name = "Movin' On"
+			length = '3:26'/>
+	</product>
+	
+	
+</store>

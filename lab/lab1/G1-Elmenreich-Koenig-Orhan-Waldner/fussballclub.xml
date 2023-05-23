@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE club SYSTEM "fussballclub.dtd">
+
+<club>
+
+	<member memberid="x8767" firstname="Werner" lastname="Schedler" birthdate="01.01.2000">
+		<address city="Bregenz" street="Rain" housenumber="543" floor="1"/>
+		<contact phonenumber="06641325464" email="werner.schedler@gmail.com"/>
+		<membershipfee billnumber="9876"/>
+	</member>
+	
+	<member memberid="x4567" firstname="Lukas" lastname="Mega" birthdate="01.01.2000">
+		<address city="Bregenz" street="Rain" housenumber="543" floor="1"/>
+		<contact phonenumber="06641325464" email="lukas.mega@gmail.com"/>
+		<membershipfee billnumber="9812"/>
+	</member>	
+
+	<member memberid="x1234" firstname="Werner" lastname="Schüssel" birthdate="01.01.2000">
+		<address city="Bregenz" street="Rain" housenumber="876" floor="1"/>
+		<contact phonenumber="06641325464" email="werner.schuessel@gmail.com"/>
+		<membershipfee billnumber="x8765"/>
+	</member>	
+	
+	<member memberid="x9676" firstname="Thomas" lastname="Schedler" birthdate="01.01.2000">
+		<address city="Bregenz" street="Rain" housenumber="543" floor="1"/>
+		<contact phonenumber="06641325464" email="thomas.schedler@gmail.com"/>
+		<membershipfee billnumber="9812"/>
+	</member>	
+	
+	<member memberid="x9999" firstname="Werner" lastname="Dünser" birthdate="01.01.1994">
+		<address city="Bregenz" street="Rain" housenumber="543" floor="1"/>
+		<contact phonenumber="06641325464" email="werner.schedler@gmail.com"/>
+		<membershipfee billnumber="8643"/>
+	</member>	
+	
+	<member memberid="x4312" firstname="Florian" lastname="Birne" birthdate="01.01.2000">
+		<address city="Bregenz" street="Rain" housenumber="543" floor="1"/>
+		<contact phonenumber="06641325464" email="florian.birne@gmail.com"/>
+		<membershipfee billnumber="6745"/>
+	</member>	
+	
+	<member memberid="x8269" firstname="Ferdinand" lastname="Schedler" birthdate="01.01.2000">
+		<address city="Bregenz" street="Rain" housenumber="543" floor="1"/>
+		<contact phonenumber="06641325464" email="ferdinand.schedler@gmail.com"/>
+		<membershipfee billnumber="9876"/>
+	</member>
+	
+	<member memberid="x5609" firstname="Bernd" lastname="Mustermann" birthdate="01.01.2000">
+		<address city="Bregenz" street="Rain" housenumber="543" floor="1"/>
+		<contact phonenumber="06641325464" email="bernd.mustermann@gmail.com"/>
+		<membershipfee billnumber="8765"/>
+	</member>
+	
+	<member memberid="x7700" firstname="Gustav" lastname="Wüstner" birthdate="01.01.2000">
+		<address city="Bregenz" street="Rain" housenumber="543" floor="1"/>
+		<contact phonenumber="06641325464" email="werner.schedler@gmail.com"/>
+		<membershipfee billnumber="4000"/>
+	</member>	
+	
+	<member memberid="x1119" firstname="Jens" lastname="Schedler" birthdate="01.01.2000">
+		<address city="Bregenz" street="Rain" housenumber="543" floor="1"/>
+		<contact phonenumber="06641325464" email="jens.schedler@gmail.com"/>
+		<membershipfee billnumber="9911"/>
+	</member>
+			
+	<team>
+		<player status="aktiv" salary="10000" position="aussenverteidiger">
+			<member memberid="x7698" firstname="Hans" lastname="Solomon" birthdate="01.01.2000">
+				<address city="Egg" street="Rain" housenumber="543" floor="1"/>
+				<contact phonenumber="06641325464" email="Hans.solomon@gmail.com"/>
+			</member>
+			<supervisor memberid="x1234"/>
+			<statistic goal="3" yellowcard="1" redcard="0" foul="2" duelstrength="81" distancepermatch="10034"/>
+		</player>
+		
+		<player status="aktiv" salary="12400" position="aussenverteidiger">
+			<member memberid="x1111" firstname="Elias" lastname="König" birthdate="01.01.1999">
+				<address city="Höchst" street="Rain" housenumber="9" floor="NULL"/>
+				<contact phonenumber="06641325464" email="elias.koenig@gmail.com"/>
+			</member>
+			<supervisor memberid="x4567"/>
+			<statistic goal="3" yellowcard="1" redcard="0" foul="2" duelstrength="81" distancepermatch="10034"/>
+		</player>
+		
+		<player status="aktiv" salary="20090" position="Stürmer">
+			<member memberid="x5673" firstname="Markus" lastname="Elmenreich" birthdate="01.01.1977">
+				<address city="AU" street="Rain" housenumber="522" floor="3"/>
+				<contact phonenumber="06641325464" email="markus.elmenreich@gmail.com"/>
+			</member>
+			<supervisor memberid="x5609"/>
+			<statistic goal="999" yellowcard="1" redcard="0" foul="2" duelstrength="99" distancepermatch="99999"/>
+		</player>
+		
+		<player status="aktiv" salary="20090" position="Stürmer">
+			<member memberid="x5675" firstname="Peter" lastname="Hanswurst" birthdate="01.01.1977">
+				<address city="AU" street="Bold" housenumber="999" floor="3"/>
+				<contact phonenumber="06641325464" email="peter.hanswurst@gmail.com"/>
+			</member>
+			<supervisor memberid="x9004"/>
+			<statistic goal="0" yellowcard="1" redcard="0" foul="2" duelstrength="79" distancepermatch="9876"/>
+		</player>
+		
+		<player status="aktiv" salary="20090" position="Stürmer">
+			<member memberid="x5676" firstname="Thomas" lastname="Gottschalk" birthdate="01.01.1977">
+				<address city="Mallorca" street="Rain" housenumber="785" floor="3"/>
+				<contact phonenumber="06641325464" email="thomas.gottschalk@gmail.com"/>
+			</member>
+			<supervisor memberid="x9004"/>
+			<statistic goal="999" yellowcard="1" redcard="0" foul="2" duelstrength="68" distancepermatch="9867"/>
+		</player>	
+		
+		<player status="aktiv" salary="20090" position="Stürmer">
+			<member memberid="x8777" firstname="Peter" lastname="Maffai" birthdate="01.01.1977">
+				<address city="München" street="Tear" housenumber="596" floor="3"/>
+				<contact phonenumber="06641325464" email="peter.maffai@gmail.com"/>
+			</member>
+			<supervisor memberid="x9123"/>
+			<statistic goal="9" yellowcard="1" redcard="0" foul="2" duelstrength="99" distancepermatch="1234"/>
+		</player>	
+		
+		<player status="aktiv" salary="36578" position="Stürmer">
+			<member memberid="x9879" firstname="Gustav" lastname="Gans" birthdate="01.01.1977">
+				<address city="Dornbirn" street="Rain" housenumber="758" floor="3"/>
+				<contact phonenumber="06641325464" email="markus.elmenreich@gmail.com"/>
+			</member>
+			<supervisor memberid="x8890"/>
+			<statistic goal="999" yellowcard="1" redcard="0" foul="2" duelstrength="99" distancepermatch="99999"/>
+		</player>
+		
+		<player status="aktiv" salary="36578" position="Stürmer">
+			<member memberid="x9001" firstname="Gustav" lastname="Müller" birthdate="01.01.1977">
+				<address city="Dornbirn" street="Rain" housenumber="758" floor="3"/>
+				<contact phonenumber="06641325464" email="gustav.müller@gmail.com"/>
+			</member>
+			<supervisor memberid="x9123"/>
+			<statistic goal="999" yellowcard="1" redcard="0" foul="2" duelstrength="99" distancepermatch="99999"/>
+		</player>		
+		
+		<player status="aktiv" salary="36578" position="Stürmer">
+			<member memberid="x1115" firstname="Gustav" lastname="Elmenreich" birthdate="01.01.1977">
+				<address city="Dornbirn" street="Rain" housenumber="758" floor="3"/>
+				<contact phonenumber="06641325464" email="gustav.elmenreich@gmail.com"/>
+			</member>
+			<supervisor memberid="x9004"/>
+			<statistic goal="999" yellowcard="1" redcard="0" foul="2" duelstrength="99" distancepermatch="99999"/>
+		</player>
+		
+		<player status="aktiv" salary="36578" position="Stürmer">
+			<member memberid="x9002" firstname="Harald" lastname="Elmenreich" birthdate="01.01.1977">
+				<address city="Dornbirn" street="Rain" housenumber="758" floor="3"/>
+				<contact phonenumber="06641325464" email="harald.elmenreich@gmail.com"/>
+			</member>
+			<supervisor memberid="x7779"/>
+			<statistic goal="999" yellowcard="1" redcard="0" foul="2" duelstrength="99" distancepermatch="99999"/>
+		</player>						
+									
+										
+		
+		<manager salary="3500">
+			<member memberid="x9003" firstname="Obiwan" lastname="Kenoby" birthdate="02.05.1993">
+				<address city="Egg" street="Rain" housenumber="543" floor="1"/>
+				<contact phonenumber="06641325464" email="obiwan.kenoby@gmail.com"/>
+			</member>
+		</manager>
+		
+		<trainer salary="3500">
+			<member memberid="x9123" firstname="Peter" lastname="Solo" birthdate="09.10.2001">
+				<address city="Egg" street="Rain" housenumber="543" floor="1"/>
+				<contact phonenumber="06641325464" email="peter.solo@gmail.com"/>
+			</member>
+		</trainer>
+		
+		<supervisor salary="4000">
+			<member memberid="x9004" firstname="Hans" lastname="Salomon" birthdate="16.11.2002">
+				<address city="Egg" street="Rain" housenumber="543" floor="1"/>
+				<contact phonenumber="06641325464" email="hans.solo@gmail.com"/>
+			</member>
+		</supervisor>
+		
+		<supervisor salary="4000">
+			<member memberid="x7779" firstname="Fritz" lastname="Solo" birthdate="16.11.2002">
+				<address city="Egg" street="Rain" housenumber="543" floor="1"/>
+				<contact phonenumber="06641325464" email="fritz.solo@gmail.com"/>
+			</member>
+		</supervisor>
+		
+		<supervisor salary="4000">
+			<member memberid="x8890" firstname="Hans" lastname="Fertig" birthdate="16.11.2002">
+				<address city="Egg" street="Rain" housenumber="543" floor="1"/>
+				<contact phonenumber="06641325464" email="Hans.fertig@gmail.com"/>
+			</member>
+		</supervisor>
+	</team>
+	
+	<boardofdirectors boardid="x4563">
+		<member memberid="x8912" firstname="Hans" lastname="Solo" birthdate="08.01.2000">
+			<address city="Egg" street="Rain" housenumber="543" floor="1"/>
+			<contact phonenumber="06641325464" email="Hans.solo@gmail.com"/>
+		</member>
+		<member memberid="x3456" firstname="Hans" lastname="Solo" birthdate="08.01.2000">
+			<address city="Egg" street="Rain" housenumber="543" floor="1"/>
+			<contact phonenumber="06641325464" email="Hans.solo@gmail.com"/>
+		</member>
+		<member memberid="x7420" firstname="Hans" lastname="Wüstner" birthdate="08.01.2000">
+			<address city="Egg" street="Rain" housenumber="543" floor="1"/>
+			<contact phonenumber="06641325464" email="Hans.wuestner@gmail.com"/>
+		</member>		
+	</boardofdirectors>
+</club>

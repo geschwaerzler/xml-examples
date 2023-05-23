@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT lions (team*)>
+
+<!ATTLIST lions 
+			name CDATA #REQUIRED
+			description-association CDATA #REQUIRED
+>
+			
+<!ELEMENT team (player*, competitor*, match*, appointment-training*, appointment-match*)>
+
+<!ATTLIST team
+		id		ID	#REQUIRED
+		association	CDATA	#REQUIRED
+		gender	CDATA		#REQUIRED
+		type 	CDATA		#REQUIRED
+>
+
+<!ELEMENT player EMPTY>
+
+<!ATTLIST player 
+		id		ID 	#REQUIRED
+		firstname 	CDATA #REQUIRED
+		lastname	CDATA #REQUIRED
+		birthday 	CDATA  #IMPLIED
+		position	CDATA 	#REQUIRED
+		trikotnumber CDATA #IMPLIED
+>
+
+<!ELEMENT competitor EMPTY>
+<!ATTLIST competitor 
+		id		ID	#REQUIRED
+		association	CDATA	#REQUIRED
+		gender	CDATA		#REQUIRED
+		type 	CDATA		#REQUIRED
+>
+
+<!ELEMENT match (winner-team, loser-team)>
+<!ATTLIST match
+		date	CDATA	#REQUIRED
+		hall	CDATA	#REQUIRED
+		city	CDATA	#REQUIRED
+		guest	CDATA	#REQUIRED
+		homeward	CDATA	#REQUIRED
+>
+
+<!ELEMENT winner-team (scoreboard*)>
+<!ATTLIST winner-team
+		association		CDATA	#REQUIRED
+		gender			CDATA	#REQUIRED
+		type			CDATA	#REQUIRED
+>
+
+<!ELEMENT loser-team (scoreboard*)>
+<!ATTLIST loser-team
+		association		CDATA	#REQUIRED
+		gender			CDATA	#REQUIRED
+		type			CDATA	#REQUIRED
+>
+
+
+<!ELEMENT scoreboard (shooting-style*)>
+<!ATTLIST scoreboard
+		player-id		IDREF	#IMPLIED
+		competitor-id	IDREF	#IMPLIED
+>
+
+<!ELEMENT shooting-style EMPTY>
+<!ATTLIST shooting-style
+		description	CDATA	#REQUIRED
+		point		CDATA	#REQUIRED
+>
+
+<!ELEMENT appointment-training EMPTY>
+<!ATTLIST appointment-training
+		description		CDATA	#REQUIRED
+		day				CDATA	#REQUIRED
+		start-time		CDATA	#REQUIRED
+		end-time		CDATA	#REQUIRED
+		hall			CDATA	#REQUIRED
+>
+		
+<!ELEMENT appointment-match EMPTY>
+<!ATTLIST appointment-match
+		date		CDATA	#REQUIRED
+		time		CDATA	#REQUIRED
+		competitor	CDATA	#REQUIRED
+		hall		CDATA	#REQUIRED
+>
+
+		
+
+	

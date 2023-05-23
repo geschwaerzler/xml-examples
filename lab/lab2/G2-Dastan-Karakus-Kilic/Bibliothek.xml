@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibliothek>
+    <kunden>
+        <kunde id="1">
+            <name>Max Mustermann</name>
+            <adresse>Hauptstraße 1, 12345 Musterstadt</adresse>
+            <teln>+43 123 4567890</teln>
+            <email>max.mustermann@example.com</email>
+        </kunde>
+        <kunde id="2">
+            <name>Maria Musterfrau</name>
+            <adresse>Bahnhofstraße 2, 54321 Musterstadt</adresse>
+            <teln>+43 987 6543210</teln>
+            <email>maria.musterfrau@example.com</email>
+        </kunde>
+        <kunde id="3">
+            <name>Sophie Schmidt</name>
+            <adresse>Gartenstraße 12, 67890 Musterdorf</adresse>
+            <teln>+41 12 3456789</teln>
+            <email>sophie.schmidt@example.com</email>
+        </kunde>
+    </kunden>
+    <buecher>
+        <buch id="1">
+            <titel>Harry Potter and the Philosopher's Stone</titel>
+            <autor>J.K. Rowling</autor>
+            <publisher>Bloomsbury</publisher>
+            <erscheinungsdatum>26-06-1997</erscheinungsdatum>
+            <isbn>9780747532743</isbn>
+            <kategorie>Fantasy</kategorie>
+            <bewertung>4</bewertung>
+        </buch>
+        <buch id="2">
+            <titel>The Da Vinci Code</titel>
+            <autor>Dan Brown</autor>
+            <publisher>Doubleday</publisher>
+            <erscheinungsdatum>18-03-2003</erscheinungsdatum>
+            <isbn>9780385504201</isbn>
+            <kategorie>Thriller</kategorie>
+            <bewertung>3</bewertung>
+        </buch>
+        <buch id="3">
+            <titel>The Lord of the Rings</titel>
+            <autor>J.R.R. Tolkien</autor>
+            <publisher>Allen and Unwin</publisher>
+            <erscheinungsdatum>29-07-1954</erscheinungsdatum>
+            <isbn>9780261102385</isbn>
+            <kategorie>Fantasy</kategorie>
+            <bewertung>5</bewertung>
+        </buch>
+        <buch id="4">
+            <titel>To Kill a Mockingbird</titel>
+            <autor>Harper Lee</autor>
+            <publisher>J.B. Lippincott and Co.</publisher>
+            <erscheinungsdatum>11-07-1960</erscheinungsdatum>
+            <isbn>9780446310789</isbn>
+            <kategorie>Classic</kategorie>
+            <bewertung>4</bewertung>
+        </buch>
+    </buecher>
+    <zeitschriften>
+        <zeitschrift id="1">
+            <titel>National Geographic USA</titel>
+            <publisher>National Geographic Society</publisher>
+            <erscheinungsdatum>2023-01-03</erscheinungsdatum>
+            <kategorie>Wissenschaft</kategorie>
+            <bewertung>5</bewertung>
+        </zeitschrift>
+        <zeitschrift id="2">
+            <titel>Time 100</titel>
+            <publisher>Time Magazine</publisher>
+            <erscheinungsdatum>2023-04-25</erscheinungsdatum>
+            <kategorie>Politik</kategorie>
+            <bewertung>4</bewertung>
+        </zeitschrift>
+        <zeitschrift id="3">
+            <titel>The Economist</titel>
+            <publisher>The Economist Newspaper Limited</publisher>
+            <erscheinungsdatum>2023-05-13</erscheinungsdatum>
+            <kategorie>Wirtschaft</kategorie>
+            <bewertung>4</bewertung>
+        </zeitschrift>
+        <zeitschrift id="4">
+            <titel>Scientific American</titel>
+            <publisher>Springer Nature</publisher>
+            <erscheinungsdatum>2023-06-01</erscheinungsdatum>
+            <kategorie>Wissenschaft</kategorie>
+            <bewertung>5</bewertung>
+        </zeitschrift>
+    </zeitschriften>
+    <verfuegbarkeiten>
+        <verfuegbarkeit id="1">
+            <buch id="1"/>
+            <verfuegbar>5</verfuegbar>
+            <medium id="1"/>
+        </verfuegbarkeit>
+        <verfuegbarkeit id="2">
+            <buch id="2"/>
+            <verfuegbar>2</verfuegbar>
+            <medium id="2"/>
+        </verfuegbarkeit>
+        <verfuegbarkeit id="3">
+            <buch id="3"/>
+            <verfuegbar>2</verfuegbar>
+            <medium id="3"/>
+        </verfuegbarkeit>
+        <verfuegbarkeit id="4">
+            <buch id="4"/>
+            <verfuegbar>3</verfuegbar>
+            <medium id="4"/>
+        </verfuegbarkeit>
+        <verfuegbarkeit id="5">
+            <zeitschrift id="1"/>
+            <verfuegbar>3</verfuegbar>
+            <medium id="5"/>
+        </verfuegbarkeit>
+        <verfuegbarkeit id="6">
+            <zeitschrift id="2"/>
+            <verfuegbar>2</verfuegbar>
+            <medium id="6"/>
+        </verfuegbarkeit>
+        <verfuegbarkeit id="7">
+            <zeitschrift id="3"/>
+            <verfuegbar>6</verfuegbar>
+            <medium id="7"/>
+        </verfuegbarkeit>
+        <verfuegbarkeit id="8">
+            <zeitschrift id="4"/>
+            <verfuegbar>3</verfuegbar>
+            <medium id="8"/>
+        </verfuegbarkeit>
+    </verfuegbarkeiten>
+    <ausleihen>
+        <ausleihe id="1">
+            <datum>2023-04-26</datum>
+            <rueckgabedatum>2023-05-10</rueckgabedatum>
+            <kunde id="1"/>
+            <medium id="1"/>
+        </ausleihe>
+        <ausleihe id="2">
+            <datum>2023-04-25</datum>
+            <rueckgabedatum>2023-05-09</rueckgabedatum>
+            <kunde id="2"/>
+            <medium id="3"/>
+        </ausleihe>
+        <ausleihe id="3">
+            <datum>2023-04-27</datum>
+            <rueckgabedatum>2023-05-09</rueckgabedatum>
+            <kunde id="3"/>
+            <medium id="4"/>
+        </ausleihe>
+    </ausleihen>
+</bibliothek>
+ 

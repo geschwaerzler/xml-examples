@@ -1,0 +1,52 @@
+<!ELEMENT customers (customer+)>
+<!ELEMENT customer (name, contact-information, demographics, purchase-history)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT contact-information (email, phone)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+<!ELEMENT demographics (#PCDATA)>
+<!ELEMENT purchase-history (#PCDATA)>
+
+<!ELEMENT campaigns (campaign+)>
+<!ELEMENT campaign (name, goals, budget, target-audience, timeline)>
+<!ELEMENT goals (#PCDATA)>
+<!ELEMENT budget (#PCDATA)>
+<!ELEMENT target-audience (#PCDATA)>
+<!ELEMENT timeline (#PCDATA)>
+
+<!ELEMENT analytics (real-time-analytics, high-level-analytics)>
+<!ELEMENT real-time-analytics (engagement-rates, conversion-rates, ROI)>
+<!ELEMENT engagement-rates (#PCDATA)>
+<!ELEMENT conversion-rates (#PCDATA)>
+<!ELEMENT ROI (#PCDATA)>
+<!ELEMENT high-level-analytics (aggregated-data, strategic-decisions)>
+<!ELEMENT aggregated-data (#PCDATA)>
+<!ELEMENT strategic-decisions (#PCDATA)>
+
+<!ELEMENT support (personalized-support+)>
+<!ELEMENT personalized-support (customer-interactions, support-provided)>
+<!ELEMENT customer-interactions (#PCDATA)>
+<!ELEMENT support-provided (#PCDATA)>
+
+<!ELEMENT leads (sales-leads+)>
+<!ELEMENT sales-leads (potential-customers, interest-shown)>
+<!ELEMENT potential-customers (#PCDATA)>
+<!ELEMENT interest-shown (#PCDATA)>
+
+<!ELEMENT retention (customer-engagement, loyalty)>
+<!ELEMENT customer-engagement (open-rates, click-through-rates, engagement-metrics)>
+<!ELEMENT open-rates (#PCDATA)>
+<!ELEMENT click-through-rates (#PCDATA)>
+<!ELEMENT engagement-metrics (#PCDATA)>
+<!ELEMENT loyalty (#PCDATA)>
+
+<!ELEMENT projects (marketing-project+)>
+<!ELEMENT marketing-project (objectives, deliverables, timeline)>
+<!ELEMENT objectives (#PCDATA)>
+<!ELEMENT deliverables (#PCDATA)>
+<!-- ELEMENT timeline (#PCDATA) -->
+
+<!ELEMENT data-entry (input-process, data-accuracy, data-completeness)>
+<!ELEMENT input-process (#PCDATA)>
+<!ELEMENT data-accuracy (#PCDATA)>
+<!ELEMENT data-completeness (#PCDATA)>

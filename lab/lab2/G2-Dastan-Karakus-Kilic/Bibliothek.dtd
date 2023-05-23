@@ -1,0 +1,31 @@
+<!ELEMENT bibliothek (kunden, buecher, zeitschriften, verfuegbarkeiten, ausleihen)>
+<!ELEMENT kunden (kunde*)>
+<!ELEMENT kunde (name, adresse, teln, email)>
+<!ATTLIST kunde id CDATA #REQUIRED>
+<!ELEMENT buecher (buch*)>
+<!ELEMENT buch (titel, autor, publisher, erscheinungsdatum, isbn, kategorie, bewertung)>
+<!ATTLIST buch id CDATA #REQUIRED>
+<!ELEMENT zeitschriften (zeitschrift*)>
+<!ELEMENT zeitschrift (titel, publisher, erscheinungsdatum, kategorie, bewertung)>
+<!ATTLIST zeitschrift id CDATA #REQUIRED>
+<!ELEMENT verfuegbarkeiten (verfuegbarkeit*)>
+<!ELEMENT verfuegbarkeit (medium, zeitschrift?, buch?, verfuegbar)>
+<!ATTLIST verfuegbarkeit id CDATA #REQUIRED>
+<!ELEMENT ausleihen (ausleihe*)>
+<!ELEMENT ausleihe (datum, rueckgabedatum, kunde, medium)>
+<!ATTLIST ausleihe id CDATA #REQUIRED>
+<!ELEMENT datum (#PCDATA)>
+<!ELEMENT rueckgabedatum (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT adresse (#PCDATA)>
+<!ELEMENT teln (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT titel (#PCDATA)>
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT publisher (#PCDATA)>
+<!ELEMENT erscheinungsdatum (#PCDATA)>
+<!ELEMENT isbn (#PCDATA)>
+<!ELEMENT kategorie (#PCDATA)>
+<!ELEMENT bewertung (#PCDATA)>
+<!ATTLIST medium id CDATA #REQUIRED>
+<!ATTLIST verfuegbar verfuegbar CDATA #REQUIRED>

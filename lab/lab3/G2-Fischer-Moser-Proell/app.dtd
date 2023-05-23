@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT collection (description,Kunde*,Speisekarte)>
+<!ELEMENT description (#PCDATA)>
+
+<!ELEMENT Kunde (Person*)>
+<!ELEMENT Person (name, adresse, email, tel*, treuepunkte, bestellung*)>
+<!ATTLIST Person 
+	id 		ID	#REQUIRED
+	>
+<!ELEMENT name (vorname, nachname)>
+	<!ELEMENT vorname (#PCDATA)>
+	<!ELEMENT nachname (#PCDATA)>
+<!ELEMENT adresse (stadt,strasse,hausnummer)>
+	<!ELEMENT stadt 		(#PCDATA)>
+	<!ELEMENT strasse 		(#PCDATA)>
+	<!ELEMENT hausnummer	(#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT tel (#PCDATA)>
+<!ATTLIST tel
+	type	CDATA	#IMPLIED>
+<!ELEMENT treuepunkte (#PCDATA)>
+<!ELEMENT bestellung (position+)>
+<!ATTLIST bestellung
+	datum	CDATA	#REQUIRED
+	uhrzeit	CDATA	#REQUIRED>
+<!ELEMENT position (#PCDATA)>
+<!ATTLIST position
+	artikel		IDREF	#REQUIRED
+	menge		CDATA	#REQUIRED
+	einzelpreis	CDATA	#REQUIRED>
+<!ELEMENT Extra (#PCDATA)>
+<!ATTLIST Extra
+	preis		CDATA	#REQUIRED
+	id			ID		#REQUIRED
+	name		CDATA	#REQUIRED>
+	
+<!ELEMENT Speisekarte (Speise*, Getränk*,Extra*)>
+<!ELEMENT Speise (Zutat*)>
+<!ATTLIST Speise
+	id		ID		#REQUIRED
+	type	CDATA	#REQUIRED
+	name	CDATA	#REQUIRED
+	preis	CDATA	#REQUIRED
+	>
+<!ELEMENT Zutat (#PCDATA)>
+
+<!ELEMENT Getränk (#PCDATA)>
+<!ATTLIST Getränk
+	id			ID			#REQUIRED
+	name		CDATA		#REQUIRED
+	type		CDATA		#REQUIRED
+	preis		CDATA		#REQUIRED
+	behältnis	CDATA 		#REQUIRED
+	>

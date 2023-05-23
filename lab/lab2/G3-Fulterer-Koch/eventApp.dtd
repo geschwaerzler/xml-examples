@@ -1,0 +1,69 @@
+<!ELEMENT eventFinder (eventPlanner*, establishment*, plebeian*)>
+<!ELEMENT eventPlanner (telephonenumber+, email+, bankaccount+, event*)>
+<!ATTLIST eventPlanner 
+    accountID ID #REQUIRED 
+    accountFName CDATA #REQUIRED 
+    accountLName CDATA #REQUIRED
+>
+
+<!ELEMENT telephonenumber EMPTY>
+<!ATTLIST telephonenumber
+    name ID #REQUIRED
+    number CDATA #REQUIRED
+>
+
+<!ELEMENT email EMPTY>
+<!ATTLIST email
+    name ID #REQUIRED
+    email CDATA #REQUIRED
+>
+
+<!ELEMENT event (#PCDATA)>
+<!ATTLIST event
+    eventID ID #REQUIRED
+    name CDATA #REQUIRED
+    maxPersons CDATA #REQUIRED
+    establishmentID IDREF #REQUIRED
+    locationID IDREF #REQUIRED
+    date CDATA #REQUIRED
+>
+
+<!ELEMENT establishment (address, location+, bankaccount+, telephonenumber+, email+)>
+<!ATTLIST establishment
+    accountID ID #REQUIRED 
+    taxID CDATA #REQUIRED 
+    companyName CDATA #REQUIRED 
+>
+
+<!ELEMENT address EMPTY>
+<!ATTLIST address
+    country CDATA #REQUIRED
+    city CDATA #REQUIRED
+    street CDATA #REQUIRED
+    number CDATA #REQUIRED
+>
+
+<!ELEMENT location (address)>
+<!ATTLIST location
+	ID ID #REQUIRED
+>
+
+<!ELEMENT plebeian (telephonenumber+, email+, bankaccount+, ticket*)>
+<!ATTLIST plebeian
+    accountID ID #REQUIRED
+    accountFName CDATA #REQUIRED
+    accountLName CDATA #REQUIRED
+    gender CDATA #REQUIRED
+>
+
+<!ELEMENT bankaccount EMPTY>
+<!ATTLIST bankaccount 
+    number CDATA #REQUIRED
+    cv CDATA #REQUIRED
+>
+
+<!ELEMENT ticket EMPTY>
+<!ATTLIST ticket
+    id CDATA #REQUIRED
+    eventID IDREF #REQUIRED
+>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concert-planning SYSTEM "concertplanning.dtd">
+
+<concert-planning>
+
+	<ticket type = "single" price  = "50.0" ticket_id = "t-001"/>
+	<ticket type = "single" price  = "50.0" ticket_id = "t-002"/>
+	<ticket type = "single" price  = "50.0" ticket_id = "t-003"/>
+	<ticket type = "single" price  = "50.0" ticket_id = "t-004"/>
+	<ticket type = "single" price  = "50.0" ticket_id = "t-005"/>
+	<ticket type = "single" price  = "50.0" ticket_id = "t-006"/>
+	<ticket type = "single" price  = "50.0" ticket_id = "t-007"/>
+	<ticket type = "single" price  = "50.0" ticket_id = "t-008"/>
+	
+	<ticket type = "single" price  = "30.0" ticket_id = "t-009"/>
+	<ticket type = "single" price  = "30.0" ticket_id = "t-010"/>
+	<ticket type = "single" price  = "30.0" ticket_id = "t-011"/>
+	<ticket type = "single" price  = "30.0" ticket_id = "t-012"/>
+	<ticket type = "single" price  = "30.0" ticket_id = "t-013"/>
+	
+	<ticket type = "single" price  = "40.0" ticket_id = "t-014"/>
+	<ticket type = "single" price  = "40.0" ticket_id = "t-015"/>
+	<ticket type = "single" price  = "40.0" ticket_id = "t-016"/>
+	<ticket type = "single" price  = "40.0" ticket_id = "t-017"/>
+	<ticket type = "single" price  = "40.0" ticket_id = "t-018"/>
+	<ticket type = "single" price  = "40.0" ticket_id = "t-019"/>
+	<ticket type = "single" price  = "40.0" ticket_id = "t-020"/>
+
+
+	<customer name = "Lukas" email = "lukas@gmx.at" phone = "0664 5151651" customer_id = "c-001">
+		<ticket_ref ticket_id = "t-001" concert_id = "co-001"/>
+		<ticket_ref ticket_id = "t-009" concert_id = "co-002"/>
+		<ticket_ref ticket_id = "t-010" concert_id = "co-002"/>
+		<ticket_ref ticket_id = "t-014" concert_id = "co-003"/>
+	</customer>
+	
+	<customer name = "Claudia" email = "claudia@gmx.at" phone = "0664 2131654" customer_id = "c-002">
+		<ticket_ref ticket_id = "t-002" concert_id = "co-001"/>
+		<ticket_ref ticket_id = "t-003" concert_id = "co-001"/>
+		<ticket_ref ticket_id = "t-004" concert_id = "co-001"/>
+		<ticket_ref ticket_id = "t-015" concert_id = "co-003"/>
+		<ticket_ref ticket_id = "t-016" concert_id = "co-003"/>
+		<ticket_ref ticket_id = "t-017" concert_id = "co-003"/>
+	</customer>
+	
+	<customer name = "Barbara" email = "barbara@gmx.at" phone = "0650 541654" customer_id = "c-003">
+		<ticket_ref ticket_id = "t-005" concert_id = "co-001"/>
+		<ticket_ref ticket_id = "t-006" concert_id = "co-001"/>
+	</customer>
+	
+	<customer name = "Ernst" email = "ernst@gmx.at" phone = "0650 5151333" customer_id = "c-004">
+		<ticket_ref ticket_id = "t-018" concert_id = "co-003"/>
+		<ticket_ref ticket_id = "t-019" concert_id = "co-003"/>
+		<ticket_ref ticket_id = "t-020" concert_id = "co-003"/>
+	</customer>
+	
+	<customer name = "Siegfried" email = "siegfried@gmx.at" phone = "0664 3211178" customer_id = "c-005">
+		<ticket_ref ticket_id = "t-007" concert_id = "co-001"/>
+		<ticket_ref ticket_id = "t-008" concert_id = "co-001"/>
+		<ticket_ref ticket_id = "t-011" concert_id = "co-002"/>
+		<ticket_ref ticket_id = "t-012" concert_id = "co-002"/>
+		<ticket_ref ticket_id = "t-013" concert_id = "co-002"/>
+	</customer>
+	
+	<eventorganizer name = "Petra" email = "petra@concerts-for-you.com" phone = "0664 0213465-2" employee_id = "e-002">
+		<concert_ref concert_id = "c-001"/>
+	</eventorganizer>
+	
+	<eventorganizer name = "Christian" email = "chrisitan@concerts-for-you.com" phone = "0664 0213465-3" employee_id = "e-003">
+		<concert_ref concert_id = "c-002"/>
+		<concert_ref concert_id = "c-003"/>
+		
+	</eventorganizer>
+	
+	<salesrepresentative name = "Hans" email = "hans@concerts-for-you.com" phone = "0664 0213465-1" employee_id = "e-001">
+		<ticket_ref ticket_id = "t-001" concert_id = "co-001"/>
+		<ticket_ref ticket_id = "t-002" concert_id = "co-001"/>
+		<ticket_ref ticket_id = "t-003" concert_id = "co-001"/>
+		<ticket_ref ticket_id = "t-004" concert_id = "co-001"/>
+		<ticket_ref ticket_id = "t-005" concert_id = "co-001"/>
+		<ticket_ref ticket_id = "t-006" concert_id = "co-001"/>
+	</salesrepresentative>
+	
+	<webshop url = "www.concerts-for-you.com">
+		<ticket_ref ticket_id = "t-007" concert_id = "co-001"/>
+		<ticket_ref ticket_id = "t-008" concert_id = "co-001"/>
+		<ticket_ref ticket_id = "t-009" concert_id = "co-002"/>
+		<ticket_ref ticket_id = "t-010" concert_id = "co-002"/>
+		<ticket_ref ticket_id = "t-011" concert_id = "co-002"/>
+		<ticket_ref ticket_id = "t-012" concert_id = "co-002"/>
+		<ticket_ref ticket_id = "t-013" concert_id = "co-002"/>
+		<ticket_ref ticket_id = "t-014" concert_id = "co-003"/>
+		<ticket_ref ticket_id = "t-015" concert_id = "co-003"/>
+		<ticket_ref ticket_id = "t-016" concert_id = "co-003"/>
+		<ticket_ref ticket_id = "t-017" concert_id = "co-003"/>
+		<ticket_ref ticket_id = "t-018" concert_id = "co-003"/>
+		<ticket_ref ticket_id = "t-019" concert_id = "co-003"/>
+		<ticket_ref ticket_id = "t-020" concert_id = "co-003"/>
+	</webshop>
+	
+	<artist name = "Adam L" genre = "Pop, Pop-Rock" description = "American Singer and Songwriter" artist_id = "a-001">
+		<concert_ref  concert_id = "co-002"/>
+	</artist>
+	<artist name = "EAV" genre = "Austropop, Pop-Rock" description = "Der Name der österreichischen Band EAV bedeutet Erste allgemeine Verunsicherung und ..." artist_id = "a-002">
+		<concert_ref concert_id = "co-003"/>
+	</artist>
+	<artist name = "Herbert Grönemeyer" genre = "German Pop, Rock" description = "Deutscher Musiker, Musikproduzent, Sänger, Komponist, Texter und Schauspieler..." artist_id = "a-003">
+		<concert_ref concert_id = "co-001"/>
+	</artist> 
+	
+	<venue name = "Eventcenter Hohenems" address ="Markus-Sittiukus-Str. 12, 6845 Hohenems" capacity = "2500" venue_id = "v-001">
+		<concert_ref concert_id = "co-001"/>
+		<concert_ref concert_id = "co-003"/>
+	</venue>
+	
+	<venue name = "Conrad Sohm" address = "Boden 1, 6850 Hohenems" capacity = "500" venue_id = "v-002">
+		<concert_ref concert_id = "co-002"/>
+	</venue>
+	
+	<concert title = "Herbert Grönemeyer 2023" date = "20.05.2023" time = "20:00" duration = "2 Stunden" description = "Herbert Grönemeyer Tour 2023" concert_id = "co-001">
+		<ticket_ref ticket_id = "t-001" concert_id = "co-001"/>
+		<ticket_ref ticket_id = "t-002" concert_id = "co-001"/>
+		<ticket_ref ticket_id = "t-003" concert_id = "co-001"/>
+		<ticket_ref ticket_id = "t-004" concert_id = "co-001"/>
+		<ticket_ref ticket_id = "t-005" concert_id = "co-001"/>
+		<ticket_ref ticket_id = "t-006" concert_id = "co-001"/>
+		<ticket_ref ticket_id = "t-007" concert_id = "co-001"/>
+		<ticket_ref ticket_id = "t-008" concert_id = "co-001"/>
+	</concert>
+	
+	<concert title = "Adam L" date = "15.07.2023" time = "21:00" duration = "1.5 Stunden" description = "Adam L Album Release Concert 2023" concert_id = "co-002">
+		<ticket_ref ticket_id = "t-009" concert_id = "co-002"/>
+		<ticket_ref ticket_id = "t-010" concert_id = "co-002"/>
+		<ticket_ref ticket_id = "t-011" concert_id = "co-002"/>
+		<ticket_ref ticket_id = "t-012" concert_id = "co-002"/>
+		<ticket_ref ticket_id = "t-013" concert_id = "co-002"/>
+	</concert>
+	
+	<concert title = "EAV" date = "20.8.2023" time = "20:00" duration = "2.5 Stunden" description = "EAV Best Of Abschiedstour" concert_id = "co-003">
+		<ticket_ref ticket_id = "t-014" concert_id = "co-003"/>
+		<ticket_ref ticket_id = "t-015" concert_id = "co-003"/>
+		<ticket_ref ticket_id = "t-016" concert_id = "co-003"/>
+		<ticket_ref ticket_id = "t-017" concert_id = "co-003"/>
+		<ticket_ref ticket_id = "t-018" concert_id = "co-003"/>
+		<ticket_ref ticket_id = "t-019" concert_id = "co-003"/>
+		<ticket_ref ticket_id = "t-020" concert_id = "co-003"/>
+	</concert>
+
+</concert-planning>

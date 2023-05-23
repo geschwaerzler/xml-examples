@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT club (member*, team, boardofdirectors)>
+
+<!ELEMENT team (player+, manager, trainer+, supervisor+)>
+
+<!ELEMENT player (member, supervisor+, statistic)>
+<!ATTLIST player
+	status		CDATA #REQUIRED
+	salary		CDATA #REQUIRED
+	position	CDATA #REQUIRED>
+
+<!ELEMENT member (address+, contact+, membershipfee?)>
+<!ATTLIST member
+	memberid	ID #REQUIRED
+	firstname	CDATA #REQUIRED
+	lastname	CDATA #REQUIRED
+	birthdate	CDATA #REQUIRED>
+
+<!ELEMENT address EMPTY>
+<!ATTLIST address
+	city			CDATA #REQUIRED
+	street			CDATA #REQUIRED
+	housenumber	CDATA #REQUIRED
+	floor			CDATA #REQUIRED>
+	
+<!ELEMENT contact EMPTY>
+<!ATTLIST contact
+	phonenumber	CDATA #REQUIRED
+	email		CDATA #REQUIRED>
+	
+<!ELEMENT statistic EMPTY>
+<!ATTLIST statistic
+	goal				CDATA #REQUIRED
+	yellowcard			CDATA #REQUIRED
+	redcard				CDATA #REQUIRED
+	foul				CDATA #REQUIRED
+	duelstrength		CDATA #REQUIRED
+	distancepermatch	CDATA #REQUIRED>
+
+<!ELEMENT membershipfee EMPTY>
+<!ATTLIST membershipfee
+	billnumber	CDATA #REQUIRED>
+	
+<!ELEMENT supervisor (member?)>
+<!ATTLIST supervisor
+	memberid	IDREF #IMPLIED
+	salary		CDATA #IMPLIED>
+
+<!ELEMENT trainer (member)>
+<!ATTLIST trainer
+	salary		CDATA #REQUIRED>
+
+<!ELEMENT manager (member)>
+<!ATTLIST manager
+	salary		CDATA #REQUIRED>
+	
+<!ELEMENT boardofdirectors (member+)>
+<!ATTLIST boardofdirectors
+	boardid		ID #REQUIRED>
+
+
+
+

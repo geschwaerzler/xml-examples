@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE lions SYSTEM "lionsProject.dtd">
+
+<lions name = "Basketball Matches Lions 2023" description-association = 
+		"Die Geburtsstunde des Dornbirner Basketballs schlug im Jahre 1974. 
+		Als Geburtshelfer fungierte Prof. Jiri Dvoracek, der einige Schüler um 
+		sich sammelte und 1974/75 an der damals noch 'wilden' Meisterschaft 
+		in Vorarlberg teilnahm.
+		Ab diesem Zeitpunkt war die Mannschaft des BORG (damals noch Mupäd) 
+		Schoren ein fixer Bestandteil des Vorarlberger Basketballs. 
+		1981 konstituierte sich dann aus dem BORG Schoren der UBBC Dornbirn. 
+		Als Präsident der ersten Stunde zeichnet Dr. Fritz Deutscher.">
+
+	
+	<team id = "team1" association = "LIONS Dornbirn" gender = "male" type="U10">
+	
+		<player id = "M10-1" firstname = "Ahmet" lastname = "Öztürk" birthday = "2015-05-19" position = "PF" trikotnumber = "5"/>
+		<player id = "M10-2" firstname = "Bâki" lastname = "Kulaç" birthday = "2015-01-17" position = "C" trikotnumber = "11"/>
+		<player id = "M10-3" firstname = "Muammer" lastname = "Koçak" birthday = "2014-03-29" position = "PG" trikotnumber = "17"/>
+		<player id = "M10-4" firstname = "Mesut" lastname = "Bilgiç" birthday = "2014-01-16" position = "SG" trikotnumber = "22"/>
+		<player id = "M10-5" firstname = "Süleyman" lastname = "Çeper" birthday = "2014-05-10" position = "SF" trikotnumber = "8"/>
+		
+		<player id = "M10-6" firstname = "John" lastname = "Cena" birthday = "2015-10-05" position = "PF" trikotnumber = "5"/>
+		<player id = "M10-7" firstname = "Joshua" lastname = "King" birthday = "2015-01-11" position = "C" trikotnumber = "11"/>
+		<player id = "M10-8" firstname = "Lysander" lastname = "Gmeiner" birthday = "2014-08-09" position = "PG" trikotnumber = "17"/>
+		<player id = "M10-9" firstname = "Eugenios" lastname = "Sergienko" birthday = "2014-07-03" position = "SG" trikotnumber = "22"/>
+		<player id = "M10-10" firstname = "Jovan" lastname = "Trisic" birthday = "2014-02-25" position = "SF" trikotnumber = "8"/>
+		
+		<player id = "M10-11" firstname = "Abüzittin" lastname = "Yaralioglu" birthday = "2014-05-03" position = "SG" trikotnumber = "12"/>
+		<player id = "M10-12" firstname = "Yeto" lastname = "Damar" birthday = "2014-09-25" position = "SF" trikotnumber = "25"/>
+	   
+	    <competitor id = "comp1" association = "BCO Bludenz" gender = "male" type="U10"/>
+	    
+		<match date = "2023-07-05" hall = "Messehalle" city = "Dornbirn" guest = "BCO Bludenz" homeward = "LIONS Dornbirn" >
+		
+			<winner-team association = "LIONS Dornbirn" gender = "male" type = "U10">
+			
+			
+				<scoreboard player-id = "M10-4">
+					<shooting-style description = "vor der 3-Punkte Linie" point = "2P"/>
+				</scoreboard>
+				
+				<scoreboard player-id = "M10-6">
+					<shooting-style description = "hinter der 3-Punkte Linie" point = "3P"/>
+				</scoreboard>
+				
+			</winner-team>
+			
+			
+			<loser-team association = "BCO Bludenz" gender = "male" type = "U10">
+			
+				<scoreboard competitor-id = "comp1">
+					<shooting-style description = "Freiwurf" point = "1P"/>
+				</scoreboard>
+				
+			</loser-team>
+		</match>
+		
+		<appointment-training description = "Training" day = "Dienstag" start-time = "17:00" end-time = "19:00" hall = "Messehalle"/>
+		<appointment-training description = "Training" day = "Donnerstag" start-time = "18:00" end-time = "20:00" hall = "Messehalle"/>
+		
+		<appointment-match date = "2023-05-06" time = "15:00" competitor = "BCO Bludenz" hall = "Bludenzer Sporthalle"/>
+		<appointment-match date = "2023-05-13" time = "16:00" competitor = "Basketball Bregenz" hall = "Sporthalle Rieden"/>
+		
+		<appointment-match date = "2023-05-20" time = "12:00" competitor = "Bregenz Weidach" hall = "Messehalle"/>
+		<appointment-match date = "2023-05-27" time = "13:00" competitor = "Units Baskets Feldkirch" hall = "Messehalle"/>
+		
+		<appointment-match date = "2023-06-03" time = "13:00" competitor = "BCO Bludenz" hall = "Bludenzer Sporthalle"/>
+		<appointment-match date = "2023-06-10" time = "14:00" competitor = "Basketball Bregenz" hall = "Sporthalle Rieden"/>
+		
+		<appointment-match date = "2023-06-17" time = "10:00" competitor = "Bregenz Weidach" hall = "Messehalle"/>
+		<appointment-match date = "2023-06-24" time = "11:00" competitor = "Units Baskets Feldkirch" hall = "Messehalle"/>
+	
+		
+	</team> 
+
+	<team id = "team2" association = "LIONS Dornbirn" gender = "female" type="U18">
+	
+		<player id = "F18-1" firstname = "Elif" lastname = "Öztürk" birthday = "2005-06-04" position = "PF" trikotnumber = "5"/>
+		<player id = "F18-2" firstname = "Zeynep" lastname = "Kulaç" birthday = "2004-06-26" position = "C" trikotnumber = "11"/>
+		<player id = "F18-3" firstname = "Fadime" lastname = "Koçak" birthday = "2005-08-15" position = "PG" trikotnumber = "17"/>
+		<player id = "F18-4" firstname = "Lütfiye" lastname = "Bilgiç" birthday = "2005-05-01" position = "SG" trikotnumber = "22"/>
+		<player id = "F18-5" firstname = "Esin" lastname = "Çeper" birthday = "2004-01-10" position = "SF" trikotnumber = "8"/>
+		
+		<player id = "F18-6" firstname = "Kendall" lastname = "Cena" birthday = "2005-07-08" position = "PF" trikotnumber = "5"/>
+		<player id = "F18-7" firstname = "Marie" lastname = "Claire" birthday = "2004-01-17" position = "C" trikotnumber = "11"/>
+		<player id = "F18-8" firstname = "Ivana" lastname = "Dejanovic" birthday = "2004-03-09" position = "PG" trikotnumber = "17"/>
+		<player id = "F18-9" firstname = "Amalia" lastname = "Zaziki" birthday = "2004-02-03" position = "SG" trikotnumber = "22"/>
+		<player id = "F18-10" firstname = "Johanna" lastname = "Baklavaki" birthday = "2005-02-25" position = "SF" trikotnumber = "8"/>
+	    
+	    <player id = "F18-11" firstname = "Kezbo" lastname = "Korhan" birthday = "2004-02-03" position = "SG" trikotnumber = "12"/>
+		<player id = "F18-12" firstname = "Pelo" lastname = "Ciftci" birthday = "2005-02-25" position = "SF" trikotnumber = "21"/>
+		
+	    <competitor id = "comp2" association = "Units Baskets Feldkirch" gender = "female" type="U18"/>
+	    
+	    <match date = "2023-08-17" hall = "Reichenfeldhalle" city = "Feldkirch" guest = "LIONS Dornbirn" homeward = "Units Baskets Feldkirch">
+		
+			<winner-team association = "Units Baskets Feldkirch" gender = "female" type = "U18">
+			
+				<scoreboard competitor-id = "comp2">
+					<shooting-style description = "vor der 3-Punkte Linie" point = "2P"/>
+				</scoreboard>
+				
+			</winner-team>
+			
+			
+			<loser-team association = "LIONS Dornbirn" gender = "female" type = "U18">
+			
+				<scoreboard player-id = "F18-4">
+					<shooting-style description = "Freiwurf" point = "1P"/>
+				</scoreboard>
+				
+			</loser-team>
+			
+		</match>
+		
+		<appointment-training description = "Training" day = "Montag" start-time = "16:00" end-time = "18:00" hall = "Messehalle"/>
+		<appointment-training description = "Training" day = "Freitag" start-time = "18:00" end-time = "20:00" hall = "Messehalle"/>
+		
+		<appointment-match date = "2023-05-14" time = "11:00" competitor = "Basketball Bregenz" hall = "Sporthalle Rieden"/>
+		<appointment-match date = "2023-05-28" time = "18:00" competitor = "Units Baskets Feldkirch" hall = "Sporthalle Feldkirch"/>
+		
+		<appointment-match date = "2023-06-03" time = "14:00" competitor = "Basketball Bregenz" hall = "Sporthalle Rieden"/>
+		<appointment-match date = "2023-06-13" time = "16:00" competitor = "Units Baskets Feldkirch" hall = "Sporthalle Feldkirch"/>
+		
+		
+	</team>
+		
+	<team id = "team3" association = "LIONS Dornbirn" gender = "male" type="BL">
+	
+		<player id = "BL-1" firstname = "Süleyman" lastname = "Öztürk" birthday = "2005-06-04" position = "PF" trikotnumber = "5"/>
+		<player id = "BL-2" firstname = "Deniz" lastname = "Kulaç" birthday = "2004-06-26" position = "C" trikotnumber = "11"/>
+		<player id = "BL-3" firstname = "Fatih" lastname = "Koçak" birthday = "2005-08-15" position = "PG" trikotnumber = "17"/>
+		<player id = "BL-4" firstname = "Lucifer" lastname = "Bilgic" birthday = "2005-05-01" position = "SG" trikotnumber = "22"/>
+		<player id = "BL-5" firstname = "Noah" lastname = "Siess" birthday = "2004-01-10" position = "SF" trikotnumber = "8"/>
+		
+		<player id = "BL-6" firstname = "Moritz" lastname = "Messner" birthday = "2005-07-08" position = "PF" trikotnumber = "5"/>
+		<player id = "BL-7" firstname = "Patrick" lastname = "Star" birthday = "2004-01-17" position = "C" trikotnumber = "11"/>
+		<player id = "BL-8" firstname = "Hans" lastname = "Johann" birthday = "2004-03-09" position = "PG" trikotnumber = "17"/>
+		<player id = "BL-9" firstname = "Amadeus" lastname = "Haramovic" birthday = "2004-02-03" position = "SG" trikotnumber = "22"/>
+		<player id = "BL-10" firstname = "Johan" lastname = "Halalovic" birthday = "2005-02-25" position = "SF" trikotnumber = "8"/>
+		
+		<player id = "BL-11" firstname = "Fero" lastname = "Rocher" birthday = "2004-02-03" position = "SG" trikotnumber = "13"/>
+		<player id = "BL-12" firstname = "Giotto" lastname = "Esposito" birthday = "2005-02-25" position = "SF" trikotnumber = "7"/>
+	   
+	    <competitor id = "comp3" association = "Bregenz Basketball" gender = "male" type="BL"/>	
+	    
+	    <match date = "2023-09-02" hall = "Sporthalle Rieden" city = "Bregenz" guest = "LIONS Dornbirn" homeward = "Bregenz Basketball">
+		
+			<winner-team association = "LIONS Dornbirn" gender = "male" type = "BL">
+			
+				<scoreboard player-id = "BL-1">
+					<shooting-style description = "vor der 3-Punkte Linie" point = "2P"/>
+					
+				</scoreboard>
+				
+				<scoreboard player-id = "BL-3">
+					<shooting-style description = "Freiwurf" point = "1P"/>
+					
+				</scoreboard>
+				
+				<scoreboard player-id = "BL-5">
+					<shooting-style description = "Freiwurf" point = "1P"/>
+				</scoreboard>
+				
+			</winner-team>
+			
+			
+			<loser-team association = "Bregenz Basketball" gender = "male" type = "BL">
+				
+				<scoreboard competitor-id = "comp3">
+					<shooting-style description = "Freiwurf" point = "1P"/>
+				</scoreboard>
+				
+				<scoreboard competitor-id = "comp3">
+					<shooting-style description = "vor der 3-Punkte Linie" point = "2P"/>
+				</scoreboard>
+				
+			</loser-team>
+			
+		</match>
+		
+		<appointment-training description = "Training" day = "Montag" start-time = "18:00" end-time = "20:00" hall = "Messehalle"/>
+		<appointment-training description = "Training" day = "Mittwoch" start-time = "14:00" end-time = "16:00" hall = "Messehalle"/>
+		
+		<appointment-training description = "Training" day = "Donnerstag" start-time = "16:00" end-time = "18:00" hall = "Messehalle"/>
+		<appointment-training description = "Training" day = "Freitag" start-time = "19:00" end-time = "21:00" hall = "Messehalle"/>
+		<appointment-training description = "Training" day = "Sonntag" start-time = "12:00" end-time = "14:00" hall = "Messehalle"/>
+		
+		<appointment-match date = "2023-05-14" time = "13:00" competitor = "Units Baskets Feldkirch" hall = "Sporthalle Feldkirch"/>
+		<appointment-match date = "2023-05-28" time = "15:00" competitor = "BCO Bludenz" hall = "Messehalle"/>
+		
+		<appointment-match date = "2023-06-13" time = "17:00" competitor = "Units Baskets Feldkirch" hall = "Sporthalle Feldkirch"/>
+		<appointment-match date = "2023-06-23" time = "12:00" competitor = "BCO Bludenz" hall = "Messehalle"/>
+		
+	</team> 
+	
+</lions>
