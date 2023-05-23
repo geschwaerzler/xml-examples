@@ -56,11 +56,11 @@
 	<xsl:template match="recipe" mode="detail">
 		<h2 id="{generate-id()}"><xsl:value-of select="title" /></h2>
 		
-		<xsl:choose>
+		<!-- xsl:choose>
 			<xsl:when test=""></xsl:when>
 			<xsl:when test=""></xsl:when>
 			<xsl:otherwise></xsl:otherwise>
-		</xsl:choose>
+		</xsl:choose -->
 		
 		<xsl:if test="@author-id">
 			<h3>Author</h3>
