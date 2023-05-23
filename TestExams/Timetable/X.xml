@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE timetable SYSTEM "X1.dtd">
+<?xml-stylesheet type="text/xsl" href="X3.xsl"?>
+<timetable>
+
+  <airport id="zrh">
+    <name lang="de">Zürich Kloten</name>
+    <name lang="en">Zurich</name>
+    <name lang="fr">Zurich</name>
+  </airport>
+  <airport id="vie">
+    <name lang="de">Wien Schwechat</name>
+    <name lang="en">Vienna</name>
+    <name lang="fr">Vienne</name>
+  </airport>
+  <airport id="gva">
+    <name lang="de">Genf</name>
+    <name lang="en">Geneva</name>
+    <name lang="fr">Geneve</name>
+  </airport>
+  
+  <airline id="HG">FlyNiki</airline>
+  <airline id="OS">Austrian Airlines</airline>
+  <airline id="LH">Lufthansa</airline>
+  
+  <flight operator-id="HG" nr="8150">
+    <departure airport-id="vie">
+      <time zone="GMT" day="2007-01-30" time="06:00:00" />
+      <time zone="local" day="2007-01-30" time="07:00:00" />
+    </departure>
+    <arrival airport-id="zrh">
+      <time zone="GMT" day="2007-01-30" time="07:25:00"/>
+      <time zone="local" day="2007-01-30" time="08:25:00"/>
+    </arrival>
+  </flight>
+  <flight operator-id="OS" nr="581">
+    <departure airport-id="vie">
+      <time zone="GMT" day="2007-01-30" time="14:20:00"/>
+      <time zone="local" day="2007-01-30" time="15:20:00"/>
+    </departure>
+    <arrival airport-id="gva">
+      <time zone="GMT" day="2007-01-30" time="15:50:00"/>
+      <time zone="local" day="2007-01-30" time="16:50:00"/>
+    </arrival>
+  </flight>
+  <flight operator-id="OS" nr="568">
+    <departure airport-id="zrh">
+      <time zone="GMT" day="2007-01-30" time="05:55:00"/>
+      <time zone="local" day="2007-01-30" time="06:55:00"/>
+    </departure>
+    <arrival airport-id="vie">
+      <time zone="GMT" day="2007-01-30" time="07:25:00"/>
+      <time zone="local" day="2007-01-30" time="08:25:00"/>
+    </arrival>
+  </flight>
+</timetable>
