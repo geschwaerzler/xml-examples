@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Lieferservice SYSTEM "lieferando.dtd">
+<Lieferservice>
+<kategorie id="asiatisch" kategorie_bezeichnung="Asiatisch"/>
+<kategorie id="italienisch" kategorie_bezeichnung="Italienisch"/>
+<kategorie id="balkan" kategorie_bezeichnung="Balkan"/>
+<kategorie id="türkisch" kategorie_bezeichnung="Türkisch"/>
+
+<speisegattung id="vorspeise" speisegattung_bezeichnung="Vorspeise"/>
+<speisegattung id="hauptspeise" speisegattung_bezeichnung="Hauptspeise"/>
+<speisegattung id="dessert" speisegattung_bezeichnung="Dessert"/>
+<getränkegattung id="alk_getränke" getränke_bezeichnung="Alk_Getränke"/>
+<getränkegattung id="nichtalk_getränke" getränke_bezeichnung="NichtAlk_Getränke"/>
+<getränkegattung id="warme_getränke" getränke_bezeichnung="Warme_Getränke"/>
+
+<Restaurant>
+	<geschaeft
+		name = "Sakura"
+		adresse="Maurachgasse 20"
+		geoeffnet_von="11:30:00"
+		geoeffnet_bis="22:00:00"/>
+	
+	<!-- Vorspeisen -->
+	<Speise  bezeichnung="Salat" preis="1.90" kategorie-id="asiatisch" speisegattung-id="vorspeise"/>
+	<Speise  bezeichnung="Frühlingsrollen" preis="2.20" kategorie-id="asiatisch" speisegattung-id="vorspeise"/>
+	<Speise  bezeichnung="Yaki Gyoza" preis="4.20" kategorie-id="asiatisch" speisegattung-id="vorspeise"/>
+	<Speise  bezeichnung="Mozzarella Sticks" preis="6.00" kategorie-id="asiatisch" speisegattung-id="vorspeise"/>
+
+	<!-- Hauptspeisen -->
+	<Speise  bezeichnung="Sushi" preis="15.00" kategorie-id="asiatisch" speisegattung-id="hauptspeise"/>
+	<Speise  bezeichnung="Curry Huhn" preis="7.80" kategorie-id="asiatisch" speisegattung-id="hauptspeise"/>
+	<Speise  bezeichnung="Sushi-Bowl Mix" preis="14.90" kategorie-id="asiatisch" speisegattung-id="hauptspeise"/>
+	<Speise  bezeichnung="Thai Ramen Suppe (scharf)" preis="13.90" kategorie-id="asiatisch" speisegattung-id="hauptspeise"/>
+	
+	<!-- Desserts -->
+	<Speise  bezeichnung="Tiramisu" preis="5.40" kategorie-id="asiatisch" speisegattung-id="dessert"/>
+	<Speise  bezeichnung="Glückskekse" preis="1.00" kategorie-id="asiatisch" speisegattung-id="dessert"/>
+	<Speise  bezeichnung="Gebackene Bananen" preis="4.30" kategorie-id="asiatisch" speisegattung-id="dessert"/>
+	<Speise  bezeichnung="Kokospudding" preis="4.90" kategorie-id="asiatisch" speisegattung-id="dessert"/>
+
+	<!-- Getränke -->
+	<Getränk bezeichnung="Tsing Tao 0.33L" preis="3.50" kategorie-id="asiatisch" getränkegattung-id="alk_getränke"/>
+	<Getränk bezeichnung="Mineralwasser 0.5L" preis="2.00" kategorie-id="asiatisch" getränkegattung-id="nichtalk_getränke"/>
+	<Getränk bezeichnung="Kaffee" preis="2.50" kategorie-id="asiatisch" getränkegattung-id="warme_getränke"/>
+	<Getränk bezeichnung="Cola 0.5L" preis="4.20" kategorie-id="asiatisch" getränkegattung-id="nichtalk_getränke"/>
+
+</Restaurant>
+
+<Restaurant>
+	<geschaeft
+		name = "La Scarpetta"
+		adresse="Hintere Achmühlerstraße 1a"
+		geoeffnet_von="11:30:00"
+		geoeffnet_bis="22:30:00"/>
+	
+	<!-- Vorspeisen -->
+	<Speise  bezeichnung="Insalata Mista" preis="5.70" kategorie-id="italienisch" speisegattung-id="vorspeise"/>
+	<Speise  bezeichnung="Bruschetta" preis="6.90" kategorie-id="italienisch" speisegattung-id="vorspeise"/>
+	<Speise  bezeichnung="Minestrone-Gemüsesuppe" preis="5.90" kategorie-id="italienisch" speisegattung-id="vorspeise"/>
+	<Speise  bezeichnung="Parmaschinken mit Melone" preis="8.40" kategorie-id="italienisch" speisegattung-id="vorspeise"/>
+
+	<!-- Hauptspeisen -->
+	<Speise  bezeichnung="Pizza Margherita" preis="8.90" kategorie-id="italienisch" speisegattung-id="hauptspeise"/>
+	<Speise  bezeichnung="Pizza Salami" preis="10.20" kategorie-id="italienisch" speisegattung-id="hauptspeise"/>
+	<Speise  bezeichnung="Pizza Hawaii" preis="11.30" kategorie-id="italienisch" speisegattung-id="hauptspeise"/>
+	<Speise  bezeichnung="Penne al Arrabiata" preis="9.50" kategorie-id="italienisch" speisegattung-id="hauptspeise"/>
+	
+	<!-- Desserts -->
+	<Speise  bezeichnung="Crepes gefüllt" preis="7.40" kategorie-id="italienisch" speisegattung-id="dessert"/>
+	<Speise  bezeichnung="Panna Cotta" preis="6.20" kategorie-id="italienisch" speisegattung-id="dessert"/>
+	<Speise  bezeichnung="Spaghetti-Eis" preis="6.00" kategorie-id="italienisch" speisegattung-id="dessert"/>
+	<Speise  bezeichnung="Fruchtbecher" preis="7.00" kategorie-id="italienisch" speisegattung-id="dessert"/>
+
+	<!-- Getränke -->
+	<Getränk bezeichnung="Affogato" preis="4.20" kategorie-id="italienisch" getränkegattung-id="warme_getränke"/>
+	<Getränk bezeichnung="Cola 0.5L" preis="4.20" kategorie-id="italienisch" getränkegattung-id="nichtalk_getränke"/>
+	<Getränk bezeichnung="Kaffee" preis="3.50" kategorie-id="italienisch" getränkegattung-id="warme_getränke"/>
+	<Getränk bezeichnung="Mineralwasser" preis="3.00" kategorie-id="italienisch" getränkegattung-id="warme_getränke"/>
+</Restaurant>
+
+<Restaurant>
+	<geschaeft
+		name = "Ländle Kebap"
+		adresse="Marktstraße 1"
+		geoeffnet_von="10:00:00"
+		geoeffnet_bis="21:00:00"/>
+		
+	<!-- Vorspeisen -->
+	<Speise  bezeichnung="Yayla Suppe" preis="5.50" kategorie-id="italienisch" speisegattung-id="vorspeise"/>
+	<Speise  bezeichnung="Tarhana Suppe" preis="6.50" kategorie-id="italienisch" speisegattung-id="vorspeise"/>
+
+	<!-- Hauptspeisen -->
+	<Speise  bezeichnung="Döner" preis="4.50" kategorie-id="türkisch" speisegattung-id="hauptspeise"/>
+	<Speise  bezeichnung="Lahmacun mit Fleisch" preis="5.90" kategorie-id="türkisch" speisegattung-id="hauptspeise"/>
+	<Speise  bezeichnung="Dönerteller" preis="9.50" kategorie-id="türkisch" speisegattung-id="hauptspeise"/>
+	<Speise  bezeichnung="Adana Kebap" preis="7.80" kategorie-id="türkisch" speisegattung-id="hauptspeise"/>
+
+	<!-- Desserts -->
+	<Speise  bezeichnung="Künefe" preis="5.00" kategorie-id="türkisch" speisegattung-id="dessert"/>
+	<Speise  bezeichnung="Sütlac" preis="5.00" kategorie-id="türkisch" speisegattung-id="dessert"/>
+	<Speise  bezeichnung="Baklava" preis="5.00" kategorie-id="türkisch" speisegattung-id="dessert"/>
+	<Speise  bezeichnung="Trilece" preis="5.00" kategorie-id="türkisch" speisegattung-id="dessert"/>
+
+	<!-- Getränke -->
+	<Getränk bezeichnung="Türkischer Tee" preis="1.00" kategorie-id="türkisch" getränkegattung-id="warme_getränke"/>
+	<Getränk bezeichnung="Ayran" preis="1.50" kategorie-id="türkisch" getränkegattung-id="nichtalk_getränke"/>
+	<Getränk bezeichnung="Türkischer Kaffee" preis="2.20" kategorie-id="türkisch" getränkegattung-id="warme_getränke"/>
+	<Getränk bezeichnung="Cola 0.5L" preis="3.20" kategorie-id="türkisch" getränkegattung-id="nichtalk_getränke"/>	
+		
+</Restaurant>
+
+<Restaurant>
+	<geschaeft
+		name = "Extra Balkan Grill"
+		adresse="Bahnhofstraße 11"
+		geoeffnet_von="11:00:00"
+		geoeffnet_bis="22:30:00"/>
+		
+		<!-- Vorspeisen -->
+	<Speise  bezeichnung="Knoblauchbrot" preis="4.20" kategorie-id="balkan" speisegattung-id="vorspeise"/>
+	<Speise  bezeichnung="Bruschetta" preis="5.20" kategorie-id="balkan" speisegattung-id="vorspeise"/>
+	<Speise  bezeichnung="Hühnersuppe" preis="5.70" kategorie-id="balkan" speisegattung-id="vorspeise"/>
+	<Speise  bezeichnung="Knoblauch-Creme-Suppe" preis="5.70" kategorie-id="balkan" speisegattung-id="vorspeise"/>
+
+	<!-- Hauptspeisen -->
+	<Speise  bezeichnung="Classic Cevapcici in Brot" preis="9.50" kategorie-id="balkan" speisegattung-id="hauptspeise"/>
+	<Speise  bezeichnung="Pljeskavica mit Käse" preis="11.50" kategorie-id="balkan" speisegattung-id="hauptspeise"/>
+	<Speise  bezeichnung="Burek mit Kartoffeln" preis="4.50" kategorie-id="balkan" speisegattung-id="hauptspeise"/>
+	<Speise  bezeichnung="Balkan Teller" preis="16.90" kategorie-id="balkan" speisegattung-id="hauptspeise"/>
+
+	<!-- Desserts -->
+	<Speise  bezeichnung="Palacinke mit Nutella" preis="6.50" kategorie-id="balkan" speisegattung-id="dessert"/>
+	<Speise  bezeichnung="Baklava" preis="4.00" kategorie-id="balkan" speisegattung-id="dessert"/>
+	<Speise  bezeichnung="Bananasplit" preis="5.90" kategorie-id="balkan" speisegattung-id="dessert"/>
+	<Speise  bezeichnung="Trilece" preis="4.50" kategorie-id="balkan" speisegattung-id="dessert"/>
+
+	<!-- Getränke -->
+	<Getränk bezeichnung="Espresso" preis="3.00" kategorie-id="balkan" getränkegattung-id="warme_getränke"/>
+	<Getränk bezeichnung="Mangosaft 0.2L" preis="3.20" kategorie-id="balkan" getränkegattung-id="nichtalk_getränke"/>
+	<Getränk bezeichnung="Kaffee" preis="3.00" kategorie-id="balkan" getränkegattung-id="warme_getränke"/>
+	<Getränk bezeichnung="Cokta 0.5L" preis="3.70" kategorie-id="italienisch" getränkegattung-id="nichtalk_getränke"/>
+
+</Restaurant>
+
+<Restaurant>
+	<geschaeft
+		name = "La Grotta"
+		adresse="Bildgasse 18"
+		geoeffnet_von="11:00:00"
+		geoeffnet_bis="22:30:00"/>
+		
+<!-- Vorspeisen -->
+	<Speise  bezeichnung="Insalata Verde" preis="5.20" kategorie-id="italienisch" speisegattung-id="vorspeise"/>
+	<Speise  bezeichnung="Bruschetta" preis="6.90" kategorie-id="italienisch" speisegattung-id="vorspeise"/>
+	<Speise  bezeichnung="Crema di Pomodoro-Tomaten-Creme-Suppe" preis="5.50" kategorie-id="italienisch" speisegattung-id="vorspeise"/>
+	<Speise  bezeichnung="Parmaschinken mit Melone" preis="8.40" kategorie-id="italienisch" speisegattung-id="vorspeise"/>
+
+	<!-- Hauptspeisen -->
+	<Speise  bezeichnung="Pizza Margherita" preis="8.90" kategorie-id="italienisch" speisegattung-id="hauptspeise"/>
+	<Speise  bezeichnung="Pizza Salami" preis="10.20" kategorie-id="italienisch" speisegattung-id="hauptspeise"/>
+	<Speise  bezeichnung="Pizza Hawaii" preis="11.30" kategorie-id="italienisch" speisegattung-id="hauptspeise"/>
+	<Speise  bezeichnung="Gnochhi al Gorgonzola" preis="11.20" kategorie-id="italienisch" speisegattung-id="hauptspeise"/>
+	
+	<!-- Desserts -->
+	<Speise  bezeichnung="Crepes gefüllt" preis="7.40" kategorie-id="italienisch" speisegattung-id="dessert"/>
+	<Speise  bezeichnung="Panna Cotta" preis="6.20" kategorie-id="italienisch" speisegattung-id="dessert"/>
+	<Speise  bezeichnung="Spaghetti-Eis" preis="6.00" kategorie-id="italienisch" speisegattung-id="dessert"/>
+	<Speise  bezeichnung="Tiramisu" preis="6.70" kategorie-id="italienisch" speisegattung-id="dessert"/>
+
+	<!-- Getränke -->
+	<Getränk bezeichnung="Pfiff 0.33L" preis="3.00" kategorie-id="italienisch" getränkegattung-id="warme_getränke"/>
+	<Getränk bezeichnung="Cola Zero 0.5L" preis="4.20" kategorie-id="italienisch" getränkegattung-id="nichtalk_getränke"/>
+	<Getränk bezeichnung="Kaffee mit Milch" preis="4.00" kategorie-id="italienisch" getränkegattung-id="warme_getränke"/>
+	<Getränk bezeichnung="Mineralwasser" preis="3.00" kategorie-id="italienisch" getränkegattung-id="warme_getränke"/>
+	<Getränk bezeichnung="Eistee" preis="3.30" kategorie-id="italienisch" getränkegattung-id="warme_getränke"/>
+	
+</Restaurant>
+
+<Restaurant>
+	<geschaeft
+		name = "Steinbock Hohenems"
+		adresse="Radetzkystraße 142"
+		geoeffnet_von="10:00:00"
+		geoeffnet_bis="21:00:00"/>
+		
+	<!-- Vorspeisen -->
+	<Speise  bezeichnung="Suppe" preis="3.20" kategorie-id="türkisch" speisegattung-id="vorspeise"/>
+	<Speise  bezeichnung="Chicken Salat" preis="7.50" kategorie-id="türkisch" speisegattung-id="vorspeise"/>
+
+	<!-- Hauptspeisen -->
+	<Speise  bezeichnung="Hamburger" preis="8.00" kategorie-id="türkisch" speisegattung-id="hauptspeise"/>
+	<Speise  bezeichnung="Cheeseburger" preis="8.50" kategorie-id="türkisch" speisegattung-id="hauptspeise"/>
+	<Speise  bezeichnung="6845 Burger" preis="9.60" kategorie-id="türkisch" speisegattung-id="hauptspeise"/>
+	<Speise  bezeichnung="Onion Rings Burger" preis="10.00" kategorie-id="türkisch" speisegattung-id="hauptspeise"/>
+	<Speise  bezeichnung="Chilli Cheese Burger" preis="9.20" kategorie-id="türkisch" speisegattung-id="hauptspeise"/>
+
+	<!-- Desserts -->
+	<Speise  bezeichnung="Waffeln mit Nutella" preis="5.40" kategorie-id="italienisch" speisegattung-id="dessert"/>
+	<Speise  bezeichnung="Pancakes" preis="4.50" kategorie-id="italienisch" speisegattung-id="dessert"/>
+	
+	<!-- Getränke -->
+	<Getränk bezeichnung="Türkischer Tee" preis="1.00" kategorie-id="türkisch" getränkegattung-id="warme_getränke"/>
+	<Getränk bezeichnung="Ayran" preis="1.50" kategorie-id="türkisch" getränkegattung-id="nichtalk_getränke"/>
+	<Getränk bezeichnung="Türkischer Kaffee" preis="2.20" kategorie-id="türkisch" getränkegattung-id="warme_getränke"/>
+	<Getränk bezeichnung="Cola 0.5L" preis="3.20" kategorie-id="türkisch" getränkegattung-id="nichtalk_getränke"/>	
+
+</Restaurant>
+
+<Restaurant>
+	<geschaeft
+		name = "Manga"
+		adresse="Schulgasse 11"
+		geoeffnet_von="11:30:00"
+		geoeffnet_bis="22:00:00"/>
+	
+	<!-- Vorspeisen -->
+	<Speise  bezeichnung="Salat" preis="1.90" kategorie-id="asiatisch" speisegattung-id="vorspeise"/>
+	<Speise  bezeichnung="Frühlingsrollen" preis="2.20" kategorie-id="asiatisch" speisegattung-id="vorspeise"/>
+	<Speise  bezeichnung="Hühnerspieße" preis="5.00" kategorie-id="asiatisch" speisegattung-id="vorspeise"/>
+	<Speise  bezeichnung="Mozzarella Sticks" preis="6.00" kategorie-id="asiatisch" speisegattung-id="vorspeise"/>
+
+	<!-- Hauptspeisen -->
+	<Speise  bezeichnung="Sushi" preis="15.00" kategorie-id="asiatisch" speisegattung-id="hauptspeise"/>
+	<Speise  bezeichnung="Curry Huhn" preis="7.80" kategorie-id="asiatisch" speisegattung-id="hauptspeise"/>
+	<Speise  bezeichnung="Sushi-Bowl Mix" preis="14.90" kategorie-id="asiatisch" speisegattung-id="hauptspeise"/>
+	<Speise  bezeichnung="Pikante Suppe (scharf)" preis="13.90" kategorie-id="asiatisch" speisegattung-id="hauptspeise"/>
+	
+	<!-- Desserts -->
+	<Speise  bezeichnung="Tiramisu" preis="5.40" kategorie-id="asiatisch" speisegattung-id="dessert"/>
+	<Speise  bezeichnung="Glückskekse" preis="1.00" kategorie-id="asiatisch" speisegattung-id="dessert"/>
+	<Speise  bezeichnung="Gebackene Bananen" preis="4.30" kategorie-id="asiatisch" speisegattung-id="dessert"/>
+	<Speise  bezeichnung="Gebackene Ananas" preis="5.90" kategorie-id="asiatisch" speisegattung-id="dessert"/>
+
+	<!-- Getränke -->
+	<Getränk bezeichnung="Aloe Vera 0.5L" preis="4.50" kategorie-id="asiatisch" getränkegattung-id="alk_getränke"/>
+	<Getränk bezeichnung="Mineralwasser 0.5L" preis="2.00" kategorie-id="asiatisch" getränkegattung-id="nichtalk_getränke"/>
+	<Getränk bezeichnung="Kaffee" preis="2.50" kategorie-id="asiatisch" getränkegattung-id="warme_getränke"/>
+	<Getränk bezeichnung="Cola 0.5L" preis="4.20" kategorie-id="asiatisch" getränkegattung-id="nichtalk_getränke"/>
+
+</Restaurant>
+
+</Lieferservice>
