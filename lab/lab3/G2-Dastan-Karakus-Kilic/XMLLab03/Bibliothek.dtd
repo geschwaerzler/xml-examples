@@ -1,0 +1,37 @@
+<!ELEMENT bibliothek (kunden, buecher, zeitschriften, verfuegbarkeiten, ausleihen)>
+<!ELEMENT kunden (kunde*)>
+<!ELEMENT kunde (name, adresse, teln, email)>
+<!ATTLIST kunde id ID #REQUIRED>
+<!ELEMENT buecher (buch*)>
+<!ELEMENT buch (titel, autor, publisher, erscheinungsdatum, isbn, kategorie, bewertung)>
+<!ATTLIST buch id ID #REQUIRED>
+<!ELEMENT buchref EMPTY>
+<!ATTLIST buchref id IDREF #REQUIRED>
+<!ELEMENT zeitschriftref EMPTY>
+<!ATTLIST zeitschriftref id IDREF #REQUIRED>
+<!ELEMENT kunderef EMPTY>
+<!ATTLIST kunderef id IDREF #REQUIRED>
+<!ELEMENT zeitschriften (zeitschrift*)>
+<!ELEMENT zeitschrift (titel, publisher, erscheinungsdatum, kategorie, bewertung)>
+<!ATTLIST zeitschrift id ID #REQUIRED>
+<!ELEMENT verfuegbarkeiten (verfuegbarkeit*)>
+<!ELEMENT verfuegbarkeit (buchref?, zeitschriftref?, verfuegbar)>
+<!ATTLIST verfuegbarkeit id ID #REQUIRED>
+<!ELEMENT ausleihen (ausleihe*)>
+<!ELEMENT ausleihe (datum, rueckgabedatum, kunderef)>
+<!ATTLIST ausleihe id ID #REQUIRED>
+<!ELEMENT datum (#PCDATA)>
+<!ELEMENT rueckgabedatum (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT adresse (#PCDATA)>
+<!ELEMENT teln (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT titel (#PCDATA)>
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT publisher (#PCDATA)>
+<!ELEMENT erscheinungsdatum (#PCDATA)>
+<!ELEMENT isbn (#PCDATA)>
+<!ELEMENT kategorie (#PCDATA)>
+<!ELEMENT bewertung (#PCDATA)>
+<!ELEMENT verfuegbar (#PCDATA)>
+

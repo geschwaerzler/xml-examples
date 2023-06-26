@@ -55,7 +55,7 @@
                 <fo:block text-align-last="justify">
                     <xsl:value-of select="@name"/>
                     <fo:leader leader-pattern="dots"/>
-                    <fo:page-number-citation ref-id="{generate-id()}"/>
+                    <fo:page-number-citation ref-id="{generate-id(..)}"/>
                 </fo:block>
             </fo:list-item-body>
         </fo:list-item>
