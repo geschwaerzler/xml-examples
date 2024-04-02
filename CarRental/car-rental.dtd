@@ -50,7 +50,7 @@ therefore we introduce a simple, surrogate id.
 <!ATTLIST extraausstattung
 	id						ID #REQUIRED
 	extras_bezeichnung		CDATA #REQUIRED
-	aufpreis					CDATA #REQUIRED
+	aufpreis				CDATA #REQUIRED
 >
 
 <!ELEMENT auto (verfuegt_ueber)*>
@@ -58,34 +58,11 @@ therefore we introduce a simple, surrogate id.
 	kennzeichen				ID #REQUIRED
 	autotyp-id				IDREF #REQUIRED
 	vermiet-station-id		IDREF #REQUIRED
-	km_stand					CDATA #REQUIRED
+	km_stand				CDATA #REQUIRED
 	farbe					CDATA #REQUIRED
 >
 
 <!ELEMENT verfuegt_ueber EMPTY>
 <!ATTLIST verfuegt_ueber
 	extraausstattung-id		IDREF #REQUIRED
->
-
-<!ELEMENT kunde (reservierung)*>
-<!ATTLIST kunde
-	fuehrerschein_nummer 	ID #REQUIRED
-	kunde_name 				CDATA #REQUIRED
-	anschrift 				CDATA #REQUIRED
->
-
-<!ELEMENT reservierung (mietvertrag?)>
-<!ATTLIST reservierung
-	vermiet-station-id 		IDREF #REQUIRED
-    reservierungs_nr  		CDATA #REQUIRED
-    anfangsdatum				CDATA #REQUIRED
-    enddatum					CDATA #REQUIRED
-    kategorie_bezeichnung	IDREF #REQUIRED
->
-
-<!ELEMENT mietvertrag EMPTY>
-<!ATTLIST mietvertrag
-	kennzeichen				IDREF #REQUIRED
-	km_stand_uebergabe		CDATA #REQUIRED
-	km_stand_rueckgabe		CDATA #IMPLIED
 >
