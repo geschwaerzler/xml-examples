@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
+<!DOCTYPE addresses SYSTEM "addresses.dtd">
 <addresses>
 
 	<person id="person-1">
 		<firstname>Gerhard</firstname>
 		<lastname>Schwärzler</lastname>
-		<address tpye="work">
+		<address type="work">
 			<street>Rathausstraße 2</street>
 			<zip>6900</zip>
 			<city>Bregenz</city>
@@ -15,6 +15,34 @@
 			<zip>6850</zip>
 			<city>Dornbirn</city>
 		</address>
+		<phone type="work">+43 5574 53344</phone>
+		<phone type="mobile">+43 664 54321000</phone>
 	</person>
+
+	<person id="person-2">
+		<firstname>Regine</firstname>
+		<lastname>Kadgien</lastname>
+	</person>
+	
+	<company>
+		<company-name>nu GmbH</company-name>
+		<address>
+			<street>Rathausstraße 2</street>
+			<zip>6900</zip>
+			<city>Bregenz</city>
+		</address>
+		<employee person-id="person-1"/>
+	</company>
+	
+	<company>
+		<company-name>FH Vorarlberg</company-name>
+		<address>
+			<street>Achstraße 1</street>
+			<zip>6850</zip>
+			<city>Dornbirn</city>
+		</address>
+		<employee person-id="person-1"/>
+		<employee person-id="person-2"/>
+	</company>
 		
 </addresses>
