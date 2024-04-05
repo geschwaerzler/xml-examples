@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<addresses>
+
+	<person id="person-1">
+		<firstname>Gerhard</firstname>
+		<lastname>Schwärzler</lastname>
+		<address tpye="work">
+			<street>Rathausstraße 2</street>
+			<zip>6900</zip>
+			<city>Bregenz</city>
+		</address>
+		<address type="university">
+			<street>Achstraße 1</street>
+			<zip>6850</zip>
+			<city>Dornbirn</city>
+		</address>
+	</person>
+		
+</addresses>
