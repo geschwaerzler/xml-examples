@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE car-rental SYSTEM "car-rental.dtd">
+<!-- DOCTYPE car-rental SYSTEM "car-rental.dtd" -->
 <car-rental>
 	<stadt stadtcode="B__" name="Bregenz" einwohner_anzahl="30000">
 		<vermiet-station id="vermiet-station-1" stations_name="Leutbühel" adresse="Leutbühel 1" mitarbeiter_anzahl="2"/>
