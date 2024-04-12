@@ -3,6 +3,7 @@
 
 <!ELEMENT person (firstname, lastname, address*, phone*)>
 <!ATTLIST person id ID #REQUIRED>
+<!ATTLIST person title CDATA #IMPLIED>
 
 <!ELEMENT company (company-name, address*, employee*)>
 
