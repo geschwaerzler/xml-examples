@@ -50,7 +50,7 @@
 					<xsl:for-each select="//ingredient" xml:space="preserve">
 						<!-- sorting without the upper-case function would result in
 						all lower-case ingredients to be placed befor the upper-case one. -->
-						<xsl:sort select="upper-case(@name)"/>
+						<xsl:sort select="@name"/>
 						<tr>
 							<td>
 								<a href="#{generate-id()}"><xsl:value-of select="@name"/></a>
