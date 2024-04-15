@@ -8,7 +8,7 @@ published in: An Introduction to XML and Web Technologies, Addison-Wesley, Janua
 <collection>
 	
   <description>
-    Five Recipes for the Lecture.
+    Five Recipes for Lecture 3.
   </description>
   
   <author id="ges" title="Dr.">Gerhard Schwärzler</author>
@@ -17,7 +17,7 @@ published in: An Introduction to XML and Web Technologies, Addison-Wesley, Janua
   <!-- Beef Parmesan with Garlic Angel Hair Pasta -->
   <recipe nr-of-persons="2" author-id="ges">
     <title>Beef Parmesan with Garlic Angel Hair Pasta</title>
-    <image>http://wegottaeat.com/conedog726/recipes/107429/photo</image>
+    <image>https://www.allrecipes.com/thmb/z7EnIfvjnOaqKyd-_EnARqij5Z8=/750x0/filters:no_upscale():max_bytes(150000):strip_icc()/977673-ff496b0f4b334befa2b5834103e1a1f3.jpg</image>
     
     <ingredient name="beef cube steak" amount="1.5" unit="pound"/>
     <ingredient name="onion, sliced into thin rings" amount="1"/>
@@ -67,7 +67,7 @@ published in: An Introduction to XML and Web Technologies, Addison-Wesley, Janua
   <!-- Ricotta Pie -->
   <recipe nr-of-persons="3" author-id="reb">
     <title>Ricotta Pie</title>
-    <image>http://images.media-allrecipes.com/userphotos/250x250/00/79/90/799038.jpg</image>
+    <image>https://vintagekitchennotes.com/wp-content/uploads/2022/02/Amazing-Lemon-ricotta-pie-1.jpeg</image>
     
     <ingredient name="filling">
       <ingredient name="ricotta cheese" amount="3" unit="pound"/>

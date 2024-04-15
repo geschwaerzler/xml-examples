@@ -1,0 +1,14 @@
+
+
+ex 3
+//ingredient/preparation/..
+//ingredient[count(preparation) > 0]
+//ingredient[preparation]
+//preparation/ancestor::ingredient
+
+ex 7
+//recipe/preparation[count(step) > 5]/ancestor::recipe
+//recipe[count(preparation/step) > 5]
+
+ex 8
+//preparation/step[count(../step) = position()]
