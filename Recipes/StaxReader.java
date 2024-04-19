@@ -1,5 +1,3 @@
-package staxReader;
-
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
@@ -31,7 +29,7 @@ public class StaxReader {
 			
 			delimiter = "{\n";
 			readCollectionContent(r);
-			output.write("}\n");
+			output.write("\n}\n");
 			
 			output.close();
 			
@@ -76,10 +74,54 @@ public class StaxReader {
 		writeQuotedString(value.trim(), 0);
 	}
 
-	
+	//precondition: start element <collection> is present
 	static void readCollectionContent(XMLStreamReader r) throws Exception {
-		writeKeyValue("description", "TODO: here comes the description", 1);
+		r.nextTag();
+		
+		if (! r.getLocalName().equals("description")) {
+			throw new Exception("<description> expected.");
+		}
+		
+		writeKeyValue("description", r.getElementText(), 1);
+		delimiter = ",\n";
+		
+		r.nextTag();
+
+		if (! r.getLocalName().equals("author")) {
+			throw new Exception("at least one <author> expected.");
+		}
+
+		writeQuotedString("authors", 1);
+		delimiter = " : [";
+		do {
+			readAuthorContent(r);
+			delimiter = ",\n";
+			r.nextTag();
+		} while (r.getLocalName().equals("author"));
+		
+		output.write("]\n");
+		
 		moveToEndElem(r, "collection");
+	}
+	
+	//precondition: start of <author> is present
+	static void readAuthorContent(XMLStreamReader r) throws IOException, XMLStreamException {
+		if (delimiter != null && delimiter.length() > 0) {			
+			output.write(delimiter);
+			delimiter = null;
+		}
+		output.write("\n\t\t{\n");
+		
+		//attributes
+		for (int i = r.getAttributeCount()-1; i >= 0; i--) {
+			writeKeyValue(r.getAttributeLocalName(i), r.getAttributeValue(i), 3);
+			delimiter = ",\n";
+		}
+		
+		//element content
+		writeKeyValue("name", r.getElementText(), 3);
+		
+		output.write("\n\t\t}");
 	}
 		
 }
