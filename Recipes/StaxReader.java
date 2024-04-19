@@ -5,7 +5,6 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.Reader;
-import java.util.List;
 
 import javax.xml.stream.XMLInputFactory;
 import javax.xml.stream.XMLStreamException;
@@ -64,49 +63,6 @@ public class StaxReader {
 		r.nextTag();
 	}
 	
-	
-	static void readCollectionContent(XMLStreamReader r) throws Exception {
-		r.nextTag();
-		
-		if (! r.getLocalName().equals("description")) {
-			throw new Exception("<collection> elements must have a <description>.");
-		}
-		writeKeyValue("description", r.getElementText(), 1);
-		delimiter = ",\n";
-
-		r.nextTag();
-		writeQuotedString("author", 0);
-		delimiter = " : [";
-		while (r.getLocalName().equals("author")) {
-			writeQuotedString(r.getElementText(), 0);
-			delimiter = ",";
-			r.nextTag();
-		}
-		delimiter = "],\n";
-		
-		writeQuotedString("recipes", 1);
-		output.write(" : [\n");
-		while (r.getLocalName().equals("recipe")) {
-			readRecipeContent(r);
-		}
-		output.write("\t]\n");
-	}
-	
-	static void readRecipeContent(XMLStreamReader r) throws Exception {
-		delimiter = "\t{\n";
-
-		r.nextTag();
-		if (! r.getLocalName().equals("title")) {
-			throw new Exception("<recipe> elements must have a <title>.");
-		}
-		writeKeyValue("title", r.getElementText(), 2);
-		delimiter = "},\n";
-		
-		//skip the rest
-		moveToEndElem(r, "recipe");
-		output.write("\t},");
-	}
-	
 	static void writeQuotedString(String s, int indent) throws IOException {
 		if (delimiter != null && delimiter.length() > 0) {			
 			output.write(delimiter);
@@ -126,18 +82,10 @@ public class StaxReader {
 		writeQuotedString(value.trim(), 0);
 	}
 
-	static void writeKeyValue(String key, List<String> values, int indent) throws IOException {
-		writeQuotedString(key, indent);
-		output.write(" : [");
-
-		if (!values.isEmpty()) {
-			int i = 0;
-			writeQuotedString(values.get(i++), 0);
-			while (i < values.size()) {
-				output.write(',');
-				writeQuotedString(values.get(i++), 0);
-			}
-		}
-		output.write("[\n");
+	
+	static void readCollectionContent(XMLStreamReader r) throws Exception {
+		writeKeyValue("description", "TODO: here comes the description", 1);
+		moveToEndElem(r, "collection");
 	}
+		
 }
