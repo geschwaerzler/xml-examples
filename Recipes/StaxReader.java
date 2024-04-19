@@ -35,10 +35,6 @@ public class StaxReader {
 			
 			output.close();
 			
-		} catch (FileNotFoundException e) {
-			e.printStackTrace();
-		} catch (XMLStreamException e) {
-			e.printStackTrace();
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
 			e.printStackTrace();
@@ -59,8 +55,6 @@ public class StaxReader {
 			//skip for the next end element
 			while(r.next() != XMLStreamReader.END_ELEMENT) {}
 		} while (!r.getLocalName().equals(elemName));
-		//read next tag
-		r.nextTag();
 	}
 	
 	static void writeQuotedString(String s, int indent) throws IOException {
