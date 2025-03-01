@@ -7,25 +7,19 @@ This repo contains a project for the Eclipse IDE, hence, you will need a running
 In order to download this project, or better "git clone" this project, you can use Eclipse's built in git tools.
 
 ## Installation
-1. (Fork and) clone this repo
-  * **If you have a GitHub account**:
-    * In GitHub: fork this repo into your personal GitHub account.
-    * in Eclipse: open the Git perspective ...  
-    ![Tool: Open Perspective][open-perspectives]
-    ![Open the Git perspective][open-git-perspective]
-    * and clone the SS25 branch. Here is the clone tool:
-    ![Open the clone toole][open-clone]
-  * If you **don't have a GitHub** account:
-    * On your local machine: create a directory outside of your eclipse workspace.
-    * Change into that directory and clone the repo e.g. on a bash command line:  
-	`git clone https://github.com/geschwaerzler/xml-examples.git`
 
-1. Import the project into eclipse:
-  * Select menu "File" > "Import…"
-  * in the dialog open folder "General" select "Existing Projects into Workspace" and click button "Next >"
-  * use the option "Select root directory"
-  * chose the directory "xml-examples", that has been created by the  _git clone_  above and click button "Finish".
-
-[open-perspectives]: readme-img/perspectives-tool.png "The perspective tool"
-[open-git-perspective]: readme-img/perspective-selection.png
-[open-clone]: readme-img/git-clone-tool.png
+  1. In Eclipse: open the perspective browser ...
+  <img src="readme-img/perspectives-tool.png" alt="open new perspective with the tool in the upper right corner" width="295px"/>  
+  1. ... and select the Git perspective.
+  <img src="readme-img/perspective-selection.png" alt="select the Git perspective from the list" width="295px"/>  
+  1. Clone the SS25 branch by opening the clone tool in the view "Git Repositories" ...
+  <img src="readme-img/git-clone-tool.png" alt="In view 'Git Repositories' open the clone dialog with the depicted tool." width="544px"/>
+  1. ... and choosing GitHub and (Next >).
+  <img src="readme-img/clone-git-repo-1.png" alt="Step 1: Select Repository Source" width="487px"/>
+  1. Enter "geschwaerzler/" in the search field, push (Search), select the repo geschwaerzler/xml-examples and (Next >).
+  <img src="readme-img/clone-git-repo-2.png" alt="Step 2: Import Git Repository from GitHub" width="490px"/>
+  1. (Deselect All) branches and select "SS25" as inital branch and (Next >).
+  <img src="readme-img/clone-git-repo-3.png" alt="Step3: Branch Selection" width="587px"/>
+  1. Remember the directory location of the repo on your local disk and (Finish). The repo should not be located in your Eclipse workspace!
+  <img src="readme-img/clone-git-repo-4.png" alt="Step4: Local Destination" width="490px"/>
+  
