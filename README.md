@@ -11,10 +11,15 @@ In order to download this project, or better "git clone" this project, I recomme
    * **If you have a GitHub account**:
      * In GitHub: fork this repo into your personal GitHub account.
      * On your local machine: create a directory outside of your eclipse workspace.
-     * Change into that directory and clone your forked repo to your development machine: `git clone https://github.com/<your git account>/xml-examples.git`
+     * Change into that directory and clone your forked repo to your development machine:
+     
+     `git clone https://github.com/<your git account>/xml-examples.git`
+     
    * If you **don't have a GitHub** account:
      * On your local machine: create a directory outside of your eclipse workspace.
-     * Change into that directory and clone the repo e.g. on a bash command line: `git clone https://github.com/geschwaerzler/xml-examples.git`
+     * Change into that directory and clone the repo e.g. on a bash command line:
+     
+	`git clone https://github.com/geschwaerzler/xml-examples.git`
 
 1. Import the project into eclipse:
    * Select menu "File" > "Import…"
