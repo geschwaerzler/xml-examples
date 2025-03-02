@@ -1,5 +1,5 @@
 # xml-examples
-This repo extends the eclipse demo-project "XMLExamples" with some examples that I develop during the lecture and lab of my course "Datamanagement with XML" held at FH Vorarlberg. The eclipse project has been renamed to "xml-examples" for this purpose.
+This repository extends the eclipse demo-project "XMLExamples" with some examples that I develop during the lecture and lab of my course "Datamanagement with XML" held at FH Vorarlberg. The eclipse project has been renamed to "xml-examples" for this purpose.
 
 ## Requirements
 This repo contains a project for the Eclipse IDE, hence, you will need a running Eclipse installation. I strongly recommend a recent **Eclipse IDE for Enterprise Java and Web Developers**. For me, the easiest way to do that is by using the eclipse installer, which you can download here: [Eclipse Installer](https://www.eclipse.org/downloads/packages/installer).
