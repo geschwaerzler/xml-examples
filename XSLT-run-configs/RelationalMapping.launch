@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.eclipse.wst.xsl.launching.launchConfigurationType">
+    <booleanAttribute key="org.eclipse.debug.core.ATTR_FORCE_SYSTEM_CONSOLE_ENCODING" value="false"/>
+    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_CLASSPATH_ONLY_JAR" value="false"/>
     <stringAttribute key="org.eclipse.wst.xsl.jaxp.launching.ATTR_ATTRIBUTES" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#10;&lt;Attributes/&gt;&#10;"/>
     <stringAttribute key="org.eclipse.wst.xsl.jaxp.launching.ATTR_OUTPUT_PROPERTIES" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#10;&lt;Properties/&gt;&#10;"/>
     <booleanAttribute key="org.eclipse.wst.xsl.jaxp.launching.ATTR_USE_DEFAULT_PROCESSOR" value="true"/>

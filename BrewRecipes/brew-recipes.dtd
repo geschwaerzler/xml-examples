@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT brew-recipes (child) >
+<!ATTLIST brew-recipes attribute CDATA #REQUIRED>
+
+<!ELEMENT child (#PCDATA)>
