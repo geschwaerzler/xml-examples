@@ -19,6 +19,6 @@ In order to download this project, or better "git clone" this project, you can u
 1. Enter "geschwaerzler/" in the search field, push (Search), select the repo geschwaerzler/xml-examples and (Next >).  
    <img src="readme-img/clone-git-repo-2.png" alt="Step 2: Import Git Repository from GitHub" width="490px"/>
 1. (Deselect All) branches and select "SS25" as inital branch and (Next >).  
-   <img src="readme-img/clone-git-repo-3.png" alt="Step3: Branch Selection" width="587px"/>
+   <img src="readme-img/clone-git-repo-3.png" alt="Step3: Branch Selection" width="493px"/>
 1. Remember the directory location of the repo on your local disk and (Finish). The repo should not be located in your Eclipse workspace!  
-   <img src="readme-img/clone-git-repo-4.png" alt="Step4: Local Destination" width="490px"/>
+   <img src="readme-img/clone-git-repo-4.png" alt="Step4: Local Destination" width="491px"/>
