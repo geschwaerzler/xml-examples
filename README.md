@@ -22,3 +22,8 @@ In order to download this project, or better "git clone" this project, you can u
    <img src="readme-img/clone-git-repo-3.png" alt="Step3: Branch Selection" width="493px"/>
 1. Remember the directory location of the repo on your local disk and (Finish). The repo should not be located in your Eclipse workspace!  
    <img src="readme-img/clone-git-repo-4.png" alt="Step4: Local Destination" width="491px"/>
+1. Switch back to the Java EE perspective.  
+   <img src="readme-img/java-ee-perspective.png" alt="Perspective 'Java EE'" width="410px"/>
+1. Select Menu: File > Import and look for "Existing Maven Project"  
+   <img src="readme-img/select-import-existing-maven-project.png" alt="Select Existing Maven Project" width="490px"/>
+1. Navigate to the project directory and select that diractory.
