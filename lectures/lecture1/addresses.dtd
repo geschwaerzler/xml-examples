@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT address-book (person+)>
+
+<!ELEMENT address (street, zip, city, country)>
+<!ATTLIST address type (private | office | mobil) #REQUIRED>
+
+<!ELEMENT person (firstname, lastname, address+)>
+<!ATTLIST person id ID #REQUIRED>
+
+<!ELEMENT firstname (#PCDATA)>
+<!ELEMENT lastname (#PCDATA)>
+<!ELEMENT street (#PCDATA)>
+<!ELEMENT zip (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT country (#PCDATA)>

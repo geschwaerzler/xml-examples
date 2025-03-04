@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE address-book SYSTEM "addresses.dtd"> 
+<address-book>
+	<person id="p-1">
+		<firstname>Gerhard</firstname>
+		<lastname>Schwärzler</lastname>
+		<address type="private">
+			<street>Rathausstraße 2</street>
+			<zip>6900</zip>
+			<city>Bregenz</city>
+			<country>AUSTRIA</country>
+		</address>
+		<address type="office">
+			<street>Hochschulstraße 1</street>
+			<zip>6850</zip>
+			<city>Dornbirn</city>
+			<country>AUSTRIA</country>
+		</address>
+	</person>
+</address-book>
