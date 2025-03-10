@@ -51,7 +51,7 @@
 	
 	<!-- Bregenz/Leutbühel -->
 	<auto kennzeichen="B-911S" km_stand="215766" farbe="weiß"
-		autotyp-id="autotyp-1234" vermiet-station-id="vermiet-station-1">
+		autotyp-id="autotyp-1" vermiet-station-id="vermiet-station-1">
 		<verfuegt_ueber extraausstattung-id="extraausstattung-1"/>
 	</auto>
 
