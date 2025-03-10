@@ -11,6 +11,22 @@
 			<head>
 				<title><xsl:value-of select="description"/></title>
 				<style>
+					table {
+						border-collapse: collapse;
+						margin-bottom: 16px;
+					}
+					td, th {
+						border-bottom: 1px solid grey;
+						width: 8em;
+						text-align: center;
+					}
+					th {
+						font-wheight: normal;
+						font-size: 80%;
+					}
+					img {
+						width: 320px;
+					}
 				</style>
 			</head>
 			<body>
@@ -85,7 +101,7 @@
 	<xsl:template match="nutrition">
 		<table>
 			<thead>
-				<tr style="border: 1px">
+				<tr>
 					<th>calories</th>
 					<th>fat</th>
 					<th>carbohydrates</th>
@@ -93,7 +109,7 @@
 				</tr>
 			</thead>
 			<tbody>
-				<tr style="border: 1px">
+				<tr>
 					<td><xsl:value-of select="@calories"/></td>
 					<td><xsl:value-of select="@fat"/></td>
 					<td><xsl:value-of select="@carbohydrates"/></td>
