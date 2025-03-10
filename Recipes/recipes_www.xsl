@@ -10,6 +10,8 @@
 		<html>
 			<head>
 				<title><xsl:value-of select="description"/></title>
+				<style>
+				</style>
 			</head>
 			<body>
 				<h1><xsl:value-of select="description"/></h1>
@@ -18,11 +20,18 @@
 				
 				<ol>
 					<xsl:for-each select="recipe">
-						<li><xsl:value-of select="title"/></li>
+						<li><a href="#{generate-id()}"><xsl:value-of select="title"/></a></li>
 					</xsl:for-each>
 				</ol>
 				
 				<xsl:apply-templates select="recipe"/>
+				
+				<h2>Index of Ingredients</h2>
+				<ul>
+					<xsl:apply-templates select="//recipe/ingredient">
+						<xsl:sort select="@name"/>
+					</xsl:apply-templates>
+				</ul>
 				
 			</body>
 		</html>
@@ -32,7 +41,7 @@
 	<xsl:template match="recipe">
 		<hr/>
 		
-		<h2><xsl:value-of select="title"/></h2>
+		<h2 id="{generate-id()}"><xsl:value-of select="title"/></h2>
 		
 		<xsl:apply-templates select="nutrition"/>
 		
@@ -46,6 +55,22 @@
 		</xsl:if>
 		
 		<h3>Ingredients</h3>
+		<xsl:choose>
+			<xsl:when test="ingredient/ingredient">
+				<xsl:apply-templates select="ingredient"/>
+			</xsl:when>
+			<xsl:otherwise>
+				<ul>
+					<xsl:for-each select="ingredient">
+						<li xml:space="preserve">
+							<xsl:value-of select="@amount"/>
+							<xsl:value-of select="@unit"/>
+							<xsl:value-of select="@name"/>
+						</li>
+					</xsl:for-each>
+				</ul>
+			</xsl:otherwise>
+		</xsl:choose>
 		
 		<h3>Preparation</h3>
 		<ol>
@@ -77,6 +102,11 @@
 			</tbody>
 		</table>
 	
+	</xsl:template>
+	
+	
+	<xsl:template match="ingredient">
+		<li><xsl:value-of select="@name"/></li>
 	</xsl:template>
 	
 	
