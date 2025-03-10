@@ -2,4 +2,5 @@
 <!DOCTYPE brew-recipes SYSTEM "brew-recipes.dtd">
 <brew-recipes attribute="this is an example attribute">
 	<child>this is an example child element</child>
+	<child></child>
 </brew-recipes>

@@ -12,7 +12,15 @@
 			geoeffnet_bis="19:00:00"/>
 	</stadt>
 
-	<stadt stadtcode="DO_" name="Dornbirn" einwohner_anzahl="45000"/>
+	<stadt stadtcode="DO_" name="Dornbirn" einwohner_anzahl="45000">
+		<vermiet-station
+			id="v-6"
+			stations_name="FH"
+			adresse="Hochschulstraße 2"
+			mitarbeiter_anzahl="1"
+			geoeffnet_von="08:00:00"
+			geoeffnet_bis="19:00:00"/>		
+	</stadt>
 	<stadt stadtcode="HOH" name="Hohenems" einwohner_anzahl="15000"/>
 	<stadt stadtcode="FK_" name="Feldkirch" einwohner_anzahl="34000"/>
 	<stadt stadtcode="BZ_" name="Bludenz" einwohner_anzahl="14000"/>
@@ -43,10 +51,19 @@
 	
 	<!-- Bregenz/Leutbühel -->
 	<auto kennzeichen="B-911S" km_stand="215766" farbe="weiß"
-		autotyp-id="autotyp-1" vermiet-station-id="vermiet-station-1">
+		autotyp-id="autotyp-1234" vermiet-station-id="vermiet-station-1">
+		<verfuegt_ueber extraausstattung-id="extraausstattung-1"/>
+	</auto>
+
+	<!-- FH -->
+	<auto kennzeichen="DO-Strom24" km_stand="2500" farbe="weiß"
+		autotyp-id="autotyp-5" vermiet-station-id="v-6">
 		<verfuegt_ueber extraausstattung-id="extraausstattung-1"/>
 	</auto>
 	
+	
+	
+		
 	<!-- For the purpose of demonstrating datetime literals,
 	     anfangsdatum is set to a datetime value. -->
 	<kunde
