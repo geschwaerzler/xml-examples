@@ -1,3 +1,6 @@
 .metadata
 RemoteSystemsTempFiles/
 /target/
+/bin/
+.settings/
+.classpath
