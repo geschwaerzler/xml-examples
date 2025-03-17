@@ -59,6 +59,14 @@
 		
 		<h2 id="{generate-id()}"><xsl:value-of select="title"/></h2>
 		
+		<xsl:if test="@author-id">
+			<xsl:variable name="author" select="id(@author-id)"/>
+			<p xml:space="preserve">Author:
+				<xsl:value-of select="$author/@title"/>
+				<xsl:value-of select="$author/text()"/>
+			</p>
+		</xsl:if>
+		
 		<xsl:apply-templates select="nutrition"/>
 		
 		<img src="{image}"/>
