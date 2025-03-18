@@ -36,9 +36,28 @@
 				
 				<ol>
 					<xsl:for-each select="recipe">
-						<li><a href="#{generate-id()}"><xsl:value-of select="title"/></a></li>
+						<xsl:call-template name="recipe-li">
+							<xsl:with-param name="recipe" select="."/>
+						</xsl:call-template>
 					</xsl:for-each>
 				</ol>
+
+				<h2>Recipes by Author</h2>
+				
+				<xsl:for-each select="//author">
+					<h3><xsl:value-of select="concat(@title, ' ', text())"/></h3>
+					
+					<xsl:variable name="a-id" select="@id"/>
+					
+					<ul>
+						<xsl:for-each select="//recipe[@author-id = $a-id]">
+							<xsl:call-template name="recipe-li">
+								<xsl:with-param name="recipe" select="."/>
+							</xsl:call-template>
+						</xsl:for-each>
+					</ul>
+					
+				</xsl:for-each>
 				
 				<xsl:apply-templates select="recipe"/>
 				
@@ -131,6 +150,12 @@
 	
 	<xsl:template match="ingredient">
 		<li><xsl:value-of select="@name"/></li>
+	</xsl:template>
+	
+	<xsl:template name="recipe-li">
+		<xsl:param name="recipe"/>
+		
+		<li><a href="#{generate-id($recipe)}"><xsl:value-of select="$recipe/title"/></a></li>
 	</xsl:template>
 	
 	
