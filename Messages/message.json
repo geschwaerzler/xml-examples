@@ -1,0 +1,7 @@
+{
+  "text" : "How many ways is XML cool? Let me count the ways...",
+  "from" : "me@my-address.com",
+  "to" : "you@your-address.com",
+  "subject" : "XML is really cool!",
+  "ccAddresses" : [ "she@her-address.com", "he@his-address.com" ]
+}

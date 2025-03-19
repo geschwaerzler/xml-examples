@@ -1,4 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<message from="me@myAddress.com" to="you@yourAddress.com" subject="XML is really cool!">
+<message from="me@my-address.com" to="you@your-address.com" subject="XML is really cool!">
+  <cc>she@her-address.com</cc>
+  <cc>he@his-address.com</cc>
   <text>How many ways is XML cool? Let me count the ways...</text>
 </message>

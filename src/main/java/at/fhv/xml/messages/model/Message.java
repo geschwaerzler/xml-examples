@@ -1,15 +1,26 @@
 package at.fhv.xml.messages.model;
 
-import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty;
-import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlRootElement;
+import java.util.ArrayList;
+import java.util.List;
 
-@JacksonXmlRootElement(localName = "message")
+import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlElementWrapper;
+import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty;
+
 public class Message {
 
-	protected String from;
-	protected String to;
-	protected String subject;
-	protected String text;
+	@JacksonXmlProperty(isAttribute = true)
+	public String from;
+
+	@JacksonXmlProperty(isAttribute = true)
+	public String to;
+	
+	public String subject;
+	
+	@JacksonXmlElementWrapper(localName = "cc-adresses")
+	@JacksonXmlProperty(localName = "cc")
+	public List<String> ccAddresses;
+	
+	public String text;
 	
 	public Message(String from, String to, String subject, String text) {
 		super();
@@ -17,38 +28,7 @@ public class Message {
 		this.to = to;
 		this.subject = subject;
 		this.text = text;
-	}
-	
-	
-	@JacksonXmlProperty(isAttribute = true)	
-	public String getFrom() {
-		return from;
-	}
-	public void setFrom(String from) {
-		this.from = from;
-	}
-	
-	@JacksonXmlProperty(isAttribute = true)	
-	public String getTo() {
-		return to;
-	}
-	public void setTo(String to) {
-		this.to = to;
-	}
-	
-	@JacksonXmlProperty(isAttribute = true)	
-	public String getSubject() {
-		return subject;
-	}
-	public void setSubject(String subject) {
-		this.subject = subject;
-	}
-	
-	public String getText() {
-		return text;
-	}
-	public void setText(String text) {
-		this.text = text;
+		this.ccAddresses = new ArrayList<String>();
 	}
 	
 }

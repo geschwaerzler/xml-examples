@@ -65,11 +65,13 @@ public class MessageTool {
 	}
 	
 	private static Message getMessage() {
-		return new Message(
-				"me@myAddress.com",
-				"you@yourAddress.com",
+		Message message = new Message(
+				"me@my-address.com",
+				"you@your-address.com",
 				"XML is really cool!",
 				"How many ways is XML cool? Let me count the ways...");
-		
+		message.ccAddresses.add("she@her-address.com");
+		message.ccAddresses.add("he@his-address.com");
+		return message;
 	}
 }
