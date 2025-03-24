@@ -1,6 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!ELEMENT brew-recipes (child) >
-<!ATTLIST brew-recipes attribute CDATA #REQUIRED>
+<!ELEMENT brew-recipes (style+, recipe+) >
 
-<!ELEMENT child (#PCDATA)>
+<!ELEMENT recipe (reference+, ingredients, step+)>
+<!ATTLIST recipe
+    name        CDATA #REQUIRED
+    style-id    IDREF #REQUIRED
+>
+
+<!ELEMENT reference (#PCDATA) >
+<!ATTLIST reference type (www | img) #REQUIRED>
+
+<!ELEMENT hops (#PCDATA) >
+<!ATTLIST hops
+    amount                  CDATA #REQUIRED
+    unit                    (g | kg | lb) #REQUIRED
+    alpha                   CDATA #REQUIRED
+    minutes-before-boil-end CDATA #REQUIRED
+>
+
+<!ELEMENT yeast (#PCDATA) >
+<!ELEMENT step (#PCDATA) >
+
+<!ELEMENT style EMPTY>
+<!ATTLIST style
+    id      ID      #REQUIRED
+    name    CDATA   #REQUIRED
+    family  (ale | lager | hybrid)   #REQUIRED
+>
+
+<!ELEMENT ingredients (grain+, hops+, yeast)>
+
+<!ELEMENT grain EMPTY>
+<!ATTLIST grain
+    amount  CDATA   #REQUIRED
+    unit    (g | kg | lb) #REQUIRED
+    type    CDATA   #REQUIRED
+    color   CDATA   #IMPLIED
+>

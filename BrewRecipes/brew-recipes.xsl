@@ -7,8 +7,17 @@
 			<head>
 				<title>Some Recipes from "Brew Your Own" Magazine</title>
 			</head>
-			<body>
+			<body style = "width: 800px; font-size: 90%">
 				<h1>Some Recipes from "Brew Your Own" Magazine</h1>
+				
+				<h2>Table of Contents</h2>
+				<ol>
+					<xsl:for-each select="recipe">
+						<li><a href="#{generate-id()}"><xsl:value-of select="@name"/></a></li>
+					</xsl:for-each>
+				</ol>
+				
+				<hr/>
 				
 				<xsl:apply-templates select="recipe"/>
 				
@@ -35,7 +44,7 @@
 				<li>
 					<xsl:choose>
 						<xsl:when test="@color">
-							<xsl:value-of select="concat(@type, ' (', @color, ') (', @amount, ')')"/>
+							<xsl:value-of select="concat(@type, ' (', @color, ', ', @amount, ')')"/>
 						</xsl:when>
 						<xsl:otherwise>
 							<xsl:value-of select="concat(@type, ' (', @amount, ')')"/>							
@@ -55,10 +64,12 @@
 		
 		<h3>Steps</h3>
 		<p>
-			<xsl:for-each select="step">
+			<xsl:for-each select="step" xml:space="preserve">
 				<xsl:value-of select="."/>
 			</xsl:for-each>
 		</p>
+		
+		<hr/>
 		
 	</xsl:template>
 	
