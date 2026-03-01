@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE brew-recipes SYSTEM "brew-recipes.dtd">
-<brew-recipes attribute="this is an example attribute">
-	<child>this is an example child element</child>
-</brew-recipes>

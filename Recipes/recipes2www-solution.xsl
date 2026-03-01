@@ -2,14 +2,14 @@
 <xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
 	<!-- Root Template
-		Produces the html skeleton, applies/calls additional tempplates and produces the index.
+		Produces the HTML skeleton, applies/calls additional templates and produces the index.
 	-->
 	<xsl:template match="/">
 		<html>
 			<head>
 				<title><xsl:value-of select="collection/description"/></title>
 				
-				<!-- some minimal css styling -->
+				<!-- some minimal CSS styling -->
 				<style>
 					p.ingredient {
 						margin-top: 2px;
@@ -49,7 +49,7 @@
 					regardless of the nesting. -->
 					<xsl:for-each select="//ingredient" xml:space="preserve">
 						<!-- sorting without the upper-case function would result in
-						all lower-case ingredients to be placed befor the upper-case one. -->
+						all lower-case ingredients to be placed before the upper-case one. -->
 						<xsl:sort select="upper-case(@name)"/>
 						<tr>
 							<td>
@@ -96,10 +96,10 @@
 	
 	<!-- Produce a list of ingredients. -->
 	<xsl:template name="ingredient-list">
-        <xsl:param name="ingredients"/>  <!-- a list of ingredient elelemts -->
+        <xsl:param name="ingredients"/>  <!-- a list of ingredient elements -->
         <xsl:param name="header-level"/> <!-- header level to be used for recursive calls -->
 		
-		<xsl:for-each select="ingredient">
+		<xsl:for-each select="$ingredients">
 			
 			<xsl:choose>
 				<xsl:when test="./*"> <!-- the test './*' is true, if the current node '.' has child elements. -->
@@ -108,7 +108,7 @@
 						<xsl:attribute name="id" select="generate-id()"/>
 						<xsl:value-of select="@name"/>
 					</xsl:element>
-					<!-- recursive call to produce the list of ingrediens of this ingredient -->
+					<!-- recursive call to produce the list of ingredients of this ingredient -->
 					<xsl:call-template name="ingredient-list">
 						<xsl:with-param name="ingredients" select="ingredient"/>
 						<xsl:with-param name="header-level" select="$header-level+1"/>

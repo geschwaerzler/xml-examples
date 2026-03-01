@@ -2,10 +2,9 @@
 
 <!ELEMENT addresses (person*)>
 
-<!ELEMENT person (title?, ((firstname, lastname) | (lastname, firstname)), address+, phone*, e-mail)>
+<!ELEMENT person (title?, ((firstname, lastname) | (lastname, firstname)), address, phone?, e-mail)>
 
 <!ELEMENT address (street, zip, city)>
-<!ATTLIST address type (home | work) #REQUIRED>
 
 <!ELEMENT title (#PCDATA)>
 <!ELEMENT firstname (#PCDATA)>
@@ -15,6 +14,5 @@
 <!ELEMENT city (#PCDATA)>
 
 <!ELEMENT phone (#PCDATA)>
-<!ATTLIST phone type (landline | mobile) #REQUIRED>
 
 <!ELEMENT e-mail (#PCDATA)>

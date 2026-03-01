@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE brew-recipe SYSTEM "brew-recipe.dtd">
+<brew-recipe title="my awesome IPA">
+	<ingredients>
+		<grain>English 2-row pale ale malt</grain>
+		<hops>East Kent Goldings</hops>
+		<yeast>Wyeast 1084 (Irish Ale)</yeast>
+	</ingredients>
+</brew-recipe>

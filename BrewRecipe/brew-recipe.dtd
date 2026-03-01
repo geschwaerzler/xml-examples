@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT brew-recipe (ingredients) >
+<!ATTLIST brew-recipe title CDATA #REQUIRED>
+
+<!ELEMENT ingredients (grain, hops, yeast)>
+
+<!ELEMENT grain (#PCDATA)>
+<!ELEMENT hops (#PCDATA)>
+<!ELEMENT yeast (#PCDATA)>

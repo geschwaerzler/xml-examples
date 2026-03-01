@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT addresses (person | company)*>
+
+<!ELEMENT person (title?, ((firstname, lastname) | (lastname, firstname)), address+, phone*, e-mail)>
+
+<!ELEMENT company (name, address)>
+
+<!ELEMENT address (street, zip, city)>
+<!ATTLIST address type (home | work | headquarter) #REQUIRED>
+
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT firstname (#PCDATA)>
+<!ELEMENT lastname (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT street (#PCDATA)>
+<!ELEMENT zip (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
+
+<!ELEMENT phone (#PCDATA)>
+<!ATTLIST phone type (landline | mobile) #REQUIRED>
+
+<!ELEMENT e-mail (#PCDATA)>
