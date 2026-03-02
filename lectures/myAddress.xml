@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<address-book>
+    <company-list>
+        <company>
+            <name>nu GmbH</name>
+            <address type="headquarter">
+                <street>Rathausstraße</street>
+                <stret-nr>2</stret-nr>
+                <zip>6900</zip>
+                <city>Bregenz</city>
+            </address>
+        <company>
+            <name>nu GmbH</name>
+            <address type="headquarter">
+                <street>Rathausstraße</street>
+                <stret-nr>2</stret-nr>
+                <zip>6900</zip>
+                <city>Bregenz</city>
+            </address>
+            <phone>+43 5572 22345</phone>
+        </company>
+    </company-list>
+    <person-list>
+    <person>
+        <first-name>Gerhard</first-name>
+        <last-name>Schwärzler</last-name>
+        <address type="home">
+            <street>Rathausstraße</street>
+            <stret-nr>2</stret-nr>
+            <zip>6900</zip>
+            <city>Bregenz</city>
+        </address>
+        <address type="work">
+            <street>Achstraße</street>
+            <stret-nr>1</stret-nr>
+            <zip>6850</zip>
+            <city>Dornbirn</city>
+        </address>
+        <phone>+43 5574 53344</phone>
+        <e-mail type="work">gerhard.schwaerzler@nu-gmbh.com</e-mail>
+        <e-mail type="lecturer">gerhard.schwaerzler@fhv.at</e-mail>
+    </person>
+    <person>
+        <first-name>Barbara</first-name> <last-name>Schwärzler</last-name>
+        <street>Rathausstraße</street> <stret-nr>2</stret-nr>
+        <zip>6900</zip> <city>Bregenz</city>
+        <phone>+43 5574 53344</phone>
+        <e-mail type="work">gerhard.schwaerzler@nu-gmbh.com</e-mail>
+        <e-mail type="lecturer">gerhard.schwaerzler@fhv.at</e-mail>
+    </person>
+    </person-list>
+</address-book>
