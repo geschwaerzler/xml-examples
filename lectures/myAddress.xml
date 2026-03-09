@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE address-book SYSTEM "addresses.dtd">
 <address-book>
     <company-list>
         <company>
             <name>nu GmbH</name>
             <address type="headquarter">
                 <street>Rathausstraße</street>
-                <stret-nr>2</stret-nr>
+                <street-nr>2</street-nr>
                 <zip>6900</zip>
                 <city>Bregenz</city>
             </address>
+        </company>
         <company>
             <name>nu GmbH</name>
             <address type="headquarter">
                 <street>Rathausstraße</street>
-                <stret-nr>2</stret-nr>
+                <street-nr>2</street-nr>
                 <zip>6900</zip>
                 <city>Bregenz</city>
             </address>
@@ -26,13 +28,13 @@
         <last-name>Schwärzler</last-name>
         <address type="home">
             <street>Rathausstraße</street>
-            <stret-nr>2</stret-nr>
+            <street-nr>2</street-nr>
             <zip>6900</zip>
             <city>Bregenz</city>
         </address>
         <address type="work">
             <street>Achstraße</street>
-            <stret-nr>1</stret-nr>
+            <street-nr>1</street-nr>
             <zip>6850</zip>
             <city>Dornbirn</city>
         </address>
@@ -41,9 +43,12 @@
         <e-mail type="lecturer">gerhard.schwaerzler@fhv.at</e-mail>
     </person>
     <person>
-        <first-name>Barbara</first-name> <last-name>Schwärzler</last-name>
-        <street>Rathausstraße</street> <stret-nr>2</stret-nr>
-        <zip>6900</zip> <city>Bregenz</city>
+        <first-name>Barbara</first-name>
+        <last-name>Schwärzler</last-name>
+        <address type="home">
+            <street>Rathausstraße</street> <street-nr>2</street-nr>
+            <zip>6900</zip> <city>Bregenz</city>
+        </address>
         <phone>+43 5574 53344</phone>
         <e-mail type="work">gerhard.schwaerzler@nu-gmbh.com</e-mail>
         <e-mail type="lecturer">gerhard.schwaerzler@fhv.at</e-mail>
