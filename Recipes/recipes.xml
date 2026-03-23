@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="recipes2www.xsl"?>
 <!DOCTYPE collection SYSTEM "recipes.dtd">
 <!--
 This example XML document is based on work of Anders Møller and Michael I. Schwartzbach,
@@ -8,7 +7,7 @@ published in: An Introduction to XML and Web Technologies, Addison-Wesley, Janua
 <collection>
 	
   <description>
-    Five Recipes for the Lecture.
+    Five Recipes for the Lecture Datenmanagement SS 2026
   </description>
   
   <author id="ges" title="Dr.">Gerhard Schwärzler</author>
@@ -17,12 +16,12 @@ published in: An Introduction to XML and Web Technologies, Addison-Wesley, Janua
   <!-- Beef Parmesan with Garlic Angel Hair Pasta -->
   <recipe nr-of-persons="2" author-id="ges">
     <title>Beef Parmesan with Garlic Angel Hair Pasta</title>
-    <image>http://wegottaeat.com/conedog726/recipes/107429/photo</image>
+    <image>https://heatherlikesfood.com/wp-content/uploads/2014/09/Beef-Parmesan-with-Garlic-Parmesan-Pasta-heatherlikesfood.com-8.jpg</image>
     
     <ingredient name="beef cube steak" amount="1.5" unit="pound"/>
-    <ingredient name="onion, sliced into thin rings" amount="1"/>
+    <ingredient name="onion, sliced into thin rings" amount="1.0"/>
     <ingredient name="green bell pepper, sliced in rings" amount="1"/>
-    <ingredient name="Italian seasoned bread crumbs" amount="1" unit="cup"/>
+    <ingredient name="Italian seasoned bread crumbs" amount="1.0" unit="cup"/>
     <ingredient name="grated Parmesan cheese" amount="0.5" unit="cup"/>
     <ingredient name="olive oil" amount="2" unit="tablespoon"/>
     <ingredient name="spaghetti sauce" amount="1" unit="jar"/>
@@ -67,7 +66,7 @@ published in: An Introduction to XML and Web Technologies, Addison-Wesley, Janua
   <!-- Ricotta Pie -->
   <recipe nr-of-persons="3" author-id="reb">
     <title>Ricotta Pie</title>
-    <image>http://images.media-allrecipes.com/userphotos/250x250/00/79/90/799038.jpg</image>
+    <image>https://assets.tmecosys.com/image/upload/t_web_rdp_recipe_584x480/img/recipe/ras/Assets/C65FD2A4-12FE-41D9-BF39-503330DCE3A0/Derivates/84a8c2ab-b699-4115-a91d-f465618b272a.jpg</image>
     
     <ingredient name="filling">
       <ingredient name="ricotta cheese" amount="3" unit="pound"/>

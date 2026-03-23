@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE brew-recipes SYSTEM "file:brew-recipes-2.dtd">
+<brew-recipes>
+
+    <brew title="Altbier">
+        <properties>
+            <property type="volume" amount="19" unit="L"/>
+            <property type="volume" amount="5" unit="gallon"/>
+            <property type="original-gravity" amount="1.047"/>
+            <property type="final-gravity" amount="1.011"/>
+            <property type="international-bitterness-units" amount="30"/>
+            <property type="srm" amount="15"/>
+            <property type="abv" amount="4.7" unit="%"/>
+        </properties>
+
+        <description>
+            The grain bill of the classic copper-colored altbier — which is internationally also known as a German Brown Ale —
+            is almost Munich-like, but with a slightly less “caramelly” character than a Märzen, and less dark than a dunkel.
+            It differs from a Munich brew, however, in its much more pronounced hoppiness. This creates a wonderful blend of
+            malt-and-hop aromas in the finish, which is often described as bitter-sweet. The uniqueness of this beer —
+            an ale after all — comes from the clean fermentation of a relatively cold-tolerant, top-fermenting specialty yeast.
+        </description>
+
+        <ingredients>
+            <malt amount="2.5 kg">German Munich I malt</malt>
+            <malt amount="1.05 kg">continental Pilsner malt</malt>
+            <malt amount="900 g" color="17 °L">Weyermann Carared® malt</malt>
+            <malt amount="90 g" color="338 °L">Weyermann Carafa® Special I malt</malt>
+            <hops amount="53 g" alpha="4%" aau="7.6" before-end-of-boil="60 min.">Spalt</hops>
+            <hops amount="32 g" alpha="4%" aau="4.4" before-end-of-boil="10 min.">Spalt</hops>
+            <one-of>
+                <yeast>Wyeast 1007 (German Ale)</yeast>
+                <yeast>White Labs WLP036 (Düsseldorf Alt)</yeast>
+                <yeast>Safale K-97 yeast</yeast>
+            </one-of>
+            <addition amount="3⁄4 cup">corn sugar (if priming)</addition>
+        </ingredients>
+
+        <step-by-step>
+            <step>This is a multi-step mash. Crush grains and mash in at 122 °F (50 °C). Rest 15 min. Raise the
+                temperature
+                to 147 °F (64 °C) and rest 15 minutes. Raise the temperature to 162 °F (72 °C) and rest 15 minutes.
+                Raise the temperature for the mash-out to 171 °F (77 °C). Recirculate, then begin sparge.
+            </step>
+
+            <step>Boil for 75 minutes, adding hops as indicated. Turn off heat and whirlpool 15 minutes. Heat-exchange
+                to
+                the mid-range of the temperature tolerance of the selected yeast strain. This range is often between 54
+                °F and 68 °F (12 °C and 20 °C). Ferment for about 7 days. At a gravity of roughly 1.014 to 1.017, raise
+                the tank temperature for a 2-day diacetyl rest to approximately 66 °F (19 °C).
+            </step>
+
+            <step>For a secondary fermentation, lower the temperature again to the yeast’s mid-range. After 5 additional
+                days, purge the sedimented yeast and debris. Transfer the brew to a capped conditioning tank. Lager for
+                3 weeks at about 36 °F to 25 °F (2 °C to -4 °C). Adjust the carbonation to approximately 2.2 to 2.6
+                volumes of CO2. Package filtered or unfiltered.
+            </step>
+        </step-by-step>
+    </brew>
+</brew-recipes>

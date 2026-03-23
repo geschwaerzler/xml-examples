@@ -1,0 +1,8 @@
+{
+  "title" : "My Brew Recipe",
+  "ingredients" : {
+    "grain" : "English 2-row pale ale malt",
+    "hops" : "East Kent Goldings",
+    "yeast" : "Wyeast 1084 (Irish Ale)"
+  }
+}

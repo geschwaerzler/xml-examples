@@ -24,3 +24,21 @@
 <!-- Here comes your work.
   Please complete this DTD in order to validate the example XML file recipes.xml
 -->
+
+<!ATTLIST recipe author-id IDREF #IMPLIED>
+
+<!ELEMENT author (#PCDATA)>
+<!ATTLIST author id ID #REQUIRED>
+<!ATTLIST author title CDATA #REQUIRED>
+
+<!ELEMENT ingredient (EMPTY | (ingredient*, preparation?))>
+<!ATTLIST ingredient
+        name CDATA #REQUIRED
+        amount CDATA #IMPLIED
+        unit (pound | cup | tablespoon | ounce | jar | teaspoon |
+                can | ribs | package) #IMPLIED
+>
+
+<!ELEMENT preparation (step+)>
+
+<!ELEMENT step (#PCDATA)>

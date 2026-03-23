@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!ELEMENT brew-recipes (brew*)>
+
+<!ELEMENT brew (properties, description, ingredients, step-by-step)>
+<!ATTLIST brew title CDATA #REQUIRED>
+
+<!ELEMENT properties (property*)>
+<!ELEMENT property EMPTY>
+<!ATTLIST property type (volume|original-gravity|final-gravity|international-bitterness-units|srm|abv) #REQUIRED>
+<!ATTLIST property
+    amount CDATA #REQUIRED
+    unit CDATA #IMPLIED
+>
+
+<!ELEMENT description (#PCDATA)>
+
+<!ELEMENT ingredients (malt*, hops*, one-of, addition?)>
+
+<!ELEMENT malt (#PCDATA)>
+<!ATTLIST malt
+        amount CDATA #REQUIRED
+        color CDATA #IMPLIED
+>
+
+<!ELEMENT hops (#PCDATA)>
+<!ATTLIST hops
+        amount CDATA #REQUIRED
+        alpha CDATA #REQUIRED
+        aau CDATA #REQUIRED
+        before-end-of-boil CDATA #REQUIRED
+>
+
+<!ELEMENT one-of (yeast*)>
+<!ELEMENT yeast (#PCDATA)>
+
+<!ELEMENT addition (#PCDATA)>
+<!ATTLIST addition amount CDATA #REQUIRED>
+
+<!ELEMENT step-by-step (step*)>
+<!ELEMENT step (#PCDATA)>

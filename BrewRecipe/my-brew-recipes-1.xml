@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- DOCTYPE brew-recipes SYSTEM "file:brew-recipes.dtd" -->
+<brew-recipes>
+    <brew>
+        <title>Guinness Draught clone</title>
+
+        <quantities target-volume = "19 L" OG = "1.038" FG = "1.006" IBU = "45" SRM = "362" ABV = "4.2%"/>
+
+        <ingredients>
+            <malt amount = "2.3 kg">English 2-row pale ale malt</malt>
+            <malt amount = "1.1 kg">flaked barley</malt>
+            <malt amount = "0.45 kg" color="500 °L">roasted barley</malt>
+
+            <hops aau="12" weight="68 g" alpha="5%" time="60 min">East Kent Goldings hops</hops>
+            <yeast>Wyeast 1084 (Irish Ale)</yeast>
+            <addition>0.75 cups corn sugar (for priming)</addition>
+        </ingredients>
+
+        <step-by-step>
+            <step>Heat 2.66 gallons (10 L) of water to 161 °F (72 °C) and stir in crushed grains and flaked barley.</step>
+            <step>Mash at 150 °F (66 °C) for 60 minutes.</step>
+            <step>Stir boiling water into grain bed until temperature reaches
+                168 °F (76 °C) and rest for 5 minutes.
+            </step>
+            <step>Recirculate until wort is clear, then begin running wort off
+                to kettle.
+            </step>
+            <step>Sparge with 170 °F (77 °C) water.</step>
+            <step>Boil wort for 90 minutes, adding hops with 60 minutes
+                left in boil.
+            </step>
+            <step>Cool wort and transfer to fermenter.</step>
+            <step>Aerate wort and pitch yeast.</step> F
+            <step>erment at 72 °F (22 °C).</step>
+            <step>Rack to secondary when fermentation is complete.</step>
+            <step>Bottle a few days later, when beer falls clear.
+                If beer is kegged, consider pushing with a nitrogen blend (see the Jan-Feb 2005 issue for more
+                information on this).
+            </step>
+        </step-by-step>
+
+    </brew>
+
+</brew-recipes>
