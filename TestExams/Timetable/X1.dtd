@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT timetable (airport+,airline+,flight*)>
+
+<!ELEMENT airport (name+)>
+<!ATTLIST airport id ID #REQUIRED>
+
+<!ELEMENT airline (#PCDATA)>
+<!ATTLIST airline id ID #REQUIRED>
+
+<!ELEMENT name (#PCDATA)>
+<!ATTLIST name lang (de | en | fr) #IMPLIED>
+
+<!-- here comes your work -->

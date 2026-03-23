@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT brew-recipes (style+, recipe+) >
+
+<!ELEMENT recipe (reference, ingredients, step+)>
+<!ATTLIST recipe
+    name        CDATA #REQUIRED
+    style-id    IDREF #REQUIRED
+>
+
+<!ELEMENT reference (#PCDATA) >
+
+<!ELEMENT hops (#PCDATA) >
+<!ATTLIST hops
+    amount                  CDATA #REQUIRED
+    alpha                   CDATA #REQUIRED
+    minutes-before-boil-end CDATA #REQUIRED
+>
+
+<!ELEMENT yeast (#PCDATA) >
+<!ELEMENT step (#PCDATA) >
+
+<!-- Hier wird Ihr Lösungscode eingesetzt -->
+<!ELEMENT style EMPTY>
+<!ATTLIST style
+    id      ID      #REQUIRED
+    name    CDATA   #REQUIRED
+    family  (ale | lager | hybrid)   #REQUIRED
+>
+
+<!ELEMENT ingredients (grain+, hops+, yeast)>
+
+<!ELEMENT grain EMPTY>
+<!ATTLIST grain
+    amount  CDATA   #REQUIRED
+    type    CDATA   #REQUIRED
+    color   CDATA   #IMPLIED
+>
